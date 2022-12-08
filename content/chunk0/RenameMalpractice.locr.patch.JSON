@@ -1,0 +1,412 @@
+[
+    [
+        {
+            "Language": "xx"
+        },
+        {
+            "StringHash": 2177713864,
+            "String": "Title"
+        },
+        {
+            "StringHash": 2773714323,
+            "String": "Flavor"
+        },
+        {
+            "StringHash": 144854261,
+            "String": "Description"
+        },
+        {
+            "StringHash": 537295299,
+            "String": "Conclusion"
+        },
+        {
+            "StringHash": 4132034032,
+            "String": "Get the Pilot's disguise"
+        },
+        {
+            "StringHash": 3971887271,
+            "String": "Meet with the Chief Surgeon"
+        },
+        {
+            "StringHash": 1134871362,
+            "String": "Wait for the chief surgeon"
+        },
+        {
+            "StringHash": 3330785494,
+            "String": "Escort Chief Surgeon to the Stash"
+        },
+        {
+            "StringHash": 2612605575,
+            "String": "Become the chief surgeon"
+        }
+    ],
+    [
+        {
+            "Language": "en"
+        },
+        {
+            "StringHash": 2177713864,
+            "String": "Hokkaido Test"
+        },
+        {
+            "StringHash": 2773714323,
+            "String": "I managed to gather intel from the hospital's security system. The chief surgeon, Nicholas Laurent, seems to have frequent rendezvous with the helicopter pilot near the remote personnel exit. And rumor has it that the chief surgeon suffers from trembling hands."
+        },
+        {
+            "StringHash": 144854261,
+            "String": "47, I have intel about the pilot."
+        },
+        {
+            "StringHash": 537295299,
+            "String": "Well done, 47. This should provide you with the means to get close to Soders."
+        },
+        {
+            "StringHash": 4132034032,
+            "String": "Disguise yourself as the Pilot"
+        },
+        {
+            "StringHash": 3971887271,
+            "String": "Meet with the chief surgeon"
+        },
+        {
+            "StringHash": 1134871362,
+            "String": "Wait for the chief surgeon"
+        },
+        {
+            "StringHash": 3330785494,
+            "String": "Escort chief surgeon to the stash"
+        },
+        {
+            "StringHash": 2612605575,
+            "String": "Disguise yourself as the Chief Surgeon"
+        }
+    ],
+    [
+        {
+            "Language": "fr"
+        },
+        {
+            "StringHash": 2177713864,
+            "String": "Erreur médicale"
+        },
+        {
+            "StringHash": 2773714323,
+            "String": "J'ai récupéré des infos depuis le système de sécurité de l'hôpital. Le chirurgien en chef, Nicholas Laurent, rencontre régulièrement le pilote d'hélico près de la sortie de service. Et d'après la rumeur, le chirurgien en chef a un problème de tremblote."
+        },
+        {
+            "StringHash": 144854261,
+            "String": "47, j'ai des renseignements sur le pilote."
+        },
+        {
+            "StringHash": 537295299,
+            "String": "Bien joué, 47. Cela devrait vous permettre d'approcher Soders."
+        },
+        {
+            "StringHash": 4132034032,
+            "String": "Déguisez-vous en pilote"
+        },
+        {
+            "StringHash": 3971887271,
+            "String": "Retrouvez le chirurgien en chef"
+        },
+        {
+            "StringHash": 1134871362,
+            "String": "Attendez le chirurgien en chef"
+        },
+        {
+            "StringHash": 3330785494,
+            "String": "Escortez le chirurgien en chef jusqu'à la cachette"
+        },
+        {
+            "StringHash": 2612605575,
+            "String": "Déguisez-vous en chirurgien en chef"
+        }
+    ],
+    [
+        {
+            "Language": "it"
+        },
+        {
+            "StringHash": 2177713864,
+            "String": "Malasanità"
+        },
+        {
+            "StringHash": 2773714323,
+            "String": "Ho raccolto informazioni dal sistema di sicurezza della clinica. Il primario di chirurgia, Nicholas Laurent, è solito incontrarsi con il pilota dell'elicottero presso l'uscita del personale. E gira voce che il primario soffra di tremori alle mani."
+        },
+        {
+            "StringHash": 144854261,
+            "String": "47, ho informazioni sul pilota."
+        },
+        {
+            "StringHash": 537295299,
+            "String": "Molto bene, 47. Questo dovrebbe darti modo di avvicinarti a Soders."
+        },
+        {
+            "StringHash": 4132034032,
+            "String": "Travestiti da pilota"
+        },
+        {
+            "StringHash": 3971887271,
+            "String": "Incontra il primario di chirurgia"
+        },
+        {
+            "StringHash": 1134871362,
+            "String": "Aspetta il primario di chirurgia"
+        },
+        {
+            "StringHash": 3330785494,
+            "String": "Accompagna il primario alla scorta di pillole nascosta"
+        },
+        {
+            "StringHash": 2612605575,
+            "String": "Travestiti da primario di chirurgia"
+        }
+    ],
+    [
+        {
+            "Language": "de"
+        },
+        {
+            "StringHash": 2177713864,
+            "String": "Behandlungsfehler"
+        },
+        {
+            "StringHash": 2773714323,
+            "String": "Ich habe Informationen aus dem Sicherheitssystem des Krankenhauses beschafft. Der Chefchirurg Nicholas Laurent hat anscheinend häufige Treffen mit dem Helikopterpiloten in der Nähe des abgelegenen Personaleingangs. Und Gerüchte besagen, dass der Chefchirurg unter zitternden Händen leidet."
+        },
+        {
+            "StringHash": 144854261,
+            "String": "47, ich habe Informationen über den Piloten."
+        },
+        {
+            "StringHash": 537295299,
+            "String": "Gut gemacht, 47. Damit sollten Sie näher an Soders herankommen."
+        },
+        {
+            "StringHash": 4132034032,
+            "String": "Verkleiden Sie sich als Pilot"
+        },
+        {
+            "StringHash": 3971887271,
+            "String": "Treffen Sie den Chefchirurgen"
+        },
+        {
+            "StringHash": 1134871362,
+            "String": "Warten Sie auf den Chefchirurgen"
+        },
+        {
+            "StringHash": 3330785494,
+            "String": "Begleiten Sie den Chefchirurgen zum Lager"
+        },
+        {
+            "StringHash": 2612605575,
+            "String": "Verkleiden Sie sich als Chefchirurg"
+        }
+    ],
+    [
+        {
+            "Language": "es"
+        },
+        {
+            "StringHash": 2177713864,
+            "String": "Mala praxis"
+        },
+        {
+            "StringHash": 2773714323,
+            "String": "He conseguido información del sistema de seguridad del hospital. Parece ser que el cirujano jefe, Nicholas Laurent, suele encontrarse con el piloto del helicóptero cerca de la salida alejada de personal. Además, se rumorea que el cirujano jefe sufre temblores en las manos."
+        },
+        {
+            "StringHash": 144854261,
+            "String": "47, tengo información sobre el piloto."
+        },
+        {
+            "StringHash": 537295299,
+            "String": "Bien hecho, 47. Esto debería permitirte acercarte a Soders."
+        },
+        {
+            "StringHash": 4132034032,
+            "String": "Disfrázate como el piloto"
+        },
+        {
+            "StringHash": 3971887271,
+            "String": "Reúnete con el cirujano jefe"
+        },
+        {
+            "StringHash": 1134871362,
+            "String": "Espera al cirujano jefe"
+        },
+        {
+            "StringHash": 3330785494,
+            "String": "Acompaña al cirujano jefe hasta el alijo"
+        },
+        {
+            "StringHash": 2612605575,
+            "String": "Disfrázate como el cirujano jefe"
+        }
+    ],
+    [
+        {
+            "Language": "ru"
+        },
+        {
+            "StringHash": 2177713864,
+            "String": "Врачебная ошибка"
+        },
+        {
+            "StringHash": 2773714323,
+            "String": "Мне удалось извлечь кое-какие данные из системы безопасности клиники. Главный хирург, Николя Лоран, похоже, часто встречается с пилотом вертолета у выхода для удаленного персонала. А если верить слухам, у главного хирурга дрожат руки."
+        },
+        {
+            "StringHash": 144854261,
+            "String": "47-й, у меня есть сведения о пилоте."
+        },
+        {
+            "StringHash": 537295299,
+            "String": "Прекрасно, 47-й. Это поможет тебе подобраться к Содерсу."
+        },
+        {
+            "StringHash": 4132034032,
+            "String": "Замаскируйтесь под пилота"
+        },
+        {
+            "StringHash": 3971887271,
+            "String": "Встретьтесь с главным хирургом"
+        },
+        {
+            "StringHash": 1134871362,
+            "String": "Дождитесь главного хирурга"
+        },
+        {
+            "StringHash": 3330785494,
+            "String": "Сопроводите главного хирурга к тайнику"
+        },
+        {
+            "StringHash": 2612605575,
+            "String": "Замаскируйтесь под главного хирурга"
+        }
+    ],
+    [
+        {
+            "Language": "cn"
+        },
+        {
+            "StringHash": 2177713864,
+            "String": "玩忽职守"
+        },
+        {
+            "StringHash": 2773714323,
+            "String": "我成功从医院的保全系统中收集到了情报。主任外科医生尼古拉斯·劳伦似乎经常跟直升机飞行员在秘密的私人出口附近碰头。有谣言称主任外科医生有手抖的毛病。"
+        },
+        {
+            "StringHash": 144854261,
+            "String": "47，我有关于飞行员的情报。"
+        },
+        {
+            "StringHash": 537295299,
+            "String": "干得好，47。这应该能让你接近索德斯了。"
+        },
+        {
+            "StringHash": 4132034032,
+            "String": "将自己伪装成飞行员"
+        },
+        {
+            "StringHash": 3971887271,
+            "String": "与主任外科医生见面"
+        },
+        {
+            "StringHash": 1134871362,
+            "String": "等待主任外科医生"
+        },
+        {
+            "StringHash": 3330785494,
+            "String": "护送主任外科医生前往藏物点"
+        },
+        {
+            "StringHash": 2612605575,
+            "String": "将自己伪装成主任外科医生"
+        }
+    ],
+    [
+        {
+            "Language": "tc"
+        },
+        {
+            "StringHash": 2177713864,
+            "String": "怠忽職守"
+        },
+        {
+            "StringHash": 2773714323,
+            "String": "我成功從醫院的保全系統中收集到了情報。主任外科醫生尼古拉斯·勞倫似乎經常跟直升機飛行員在秘密的私人出口附近碰頭。有謠言稱主任外科醫生有手抖的毛病。"
+        },
+        {
+            "StringHash": 144854261,
+            "String": "47，我有關於飛行員的情報。"
+        },
+        {
+            "StringHash": 537295299,
+            "String": "幹得不錯，47。這應該能讓你接近索德斯了。"
+        },
+        {
+            "StringHash": 4132034032,
+            "String": "將自己偽裝成飛行員"
+        },
+        {
+            "StringHash": 3971887271,
+            "String": "與主任外科醫生見面"
+        },
+        {
+            "StringHash": 1134871362,
+            "String": "等待主任外科醫生"
+        },
+        {
+            "StringHash": 3330785494,
+            "String": "護送主任外科醫生前往藏物點"
+        },
+        {
+            "StringHash": 2612605575,
+            "String": "將自己偽裝成主任外科醫生"
+        }
+    ],
+    [
+        {
+            "Language": "jp"
+        },
+        {
+            "StringHash": 2177713864,
+            "String": "医療ミス"
+        },
+        {
+            "StringHash": 2773714323,
+            "String": "院内のセキュリティシステムから入手した情報によると、外科主任のニコラス・ローランは、ヘリパッドに出る通用口付近で、ヘリのパイロットと頻繁に密会しているようね。うわさによると、彼は手の震えにも苦しんでいるらしいわ。"
+        },
+        {
+            "StringHash": 144854261,
+            "String": "47、パイロットの情報があるわ。"
+        },
+        {
+            "StringHash": 537295299,
+            "String": "よくやったわ、47。これで、無防備なソーダースに、容易に近づくことができるわね。"
+        },
+        {
+            "StringHash": 4132034032,
+            "String": "パイロットに変装する"
+        },
+        {
+            "StringHash": 3971887271,
+            "String": "外科主任と落ち合う"
+        },
+        {
+            "StringHash": 1134871362,
+            "String": "外科主任を待つ"
+        },
+        {
+            "StringHash": 3330785494,
+            "String": "外科主任を隠し場所に案内する"
+        },
+        {
+            "StringHash": 2612605575,
+            "String": "外科主任に変装する"
+        }
+    ]
+]
