@@ -1,0 +1,23 @@
+{
+  "id": "DannyBierek.MissionPack",
+  "name": "Sons of Providence",
+  "description": "Tells a tale of two brothers, and their mission to take them all down.",
+  "blobsFolders": [
+    "blobs"
+  ],
+  "authors": [
+    "Danny Bierek"
+  ],
+  "frameworkVersion": "2.0.0",
+  "version": "1.0.0",
+  "contentFolders": [
+    "content"
+  ],
+  "localisation": {
+    "english": {
+      "UI_MENU_PAGE_HITS_ELEMENT_CATEGORY_MODDED": "Sons of Providence",
+      "UI_DBIEREK": "Danny Bierek",
+      "DESC_HOK_TEST": "I am Lucas Grey.\r\rMy target is Haru Takahashi.\r\rThe Nabazob Virus rages.\r\rI shall prepare.",
+    }
+  }
+}

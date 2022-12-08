@@ -1,0 +1,69 @@
+{
+  "STARTING_LOCATION_MUMBAI_ROOF": {
+    "Id": "STARTING_LOCATION_MUMBAI_ROOF",
+    "Guid": "0f71dff0-bcfd-4a65-9888-21f834141a8c",
+    "Type": "access",
+    "Subtype": "startinglocation",
+    "ImageId": null,
+    "RMTPrice": -1,
+    "GamePrice": -1,
+    "IsPurchasable": false,
+    "IsPublished": true,
+    "IsDroppable": false,
+    "Capabilities": [],
+    "Qualities": {},
+    "Properties": {
+      "Location": "LOCATION_PARENT_MUMBAI",
+      "RepositoryId": "37af536b-3f36-49ed-986a-9d55f4481ed4",
+      "UnlockOrder": 0,
+      "LoadoutSettings": {
+        "ConcealedWeaponSlotEnabled": true
+      },
+      "Equip": []
+    },
+    "Rarity": null
+  },
+  "STARTING_LOCATION_HOKKAIDO_FLU": {
+    "Properties": {
+      "Location": "LOCATION_PARENT_HOKKAIDO",
+      "RepositoryId": "faf13436-43ec-4d49-9d6f-decf29011642",
+      "BlacklistedByDefault": true,
+      "LoadoutSettings": {
+        "GearSlotsEnabledCount": 3,
+        "GearSlotsAllowContainers": true,
+        "ConcealedWeaponSlotEnabled": true
+      },
+      "Equip": []
+    }
+  },
+  "PACKAGE_STARTING_PACKAGE": {
+    "Properties": {
+      "Unlocks": [
+        "TOKEN_OUTFIT_LUCAS_GREY"
+      ]
+    }
+  },
+  "TOKEN_OUTFIT_LUCAS_GREY": {
+    "Id": "TOKEN_OUTFIT_LUCAS_GREY",
+    "Guid": "uiobaa8b-6153-4aaa-95ed-5a67d9473b47",
+    "Type": "disguise",
+    "Subtype": "disguise",
+    "ImageId": "",
+    "RMTPrice": 99,
+    "GamePrice": 99,
+    "IsPurchasable": false,
+    "IsPublished": true,
+    "Capabilities": [],
+    "Qualities": {},
+    "Properties": {
+      "Quality": 1,
+      "Rarity": "common",
+      "LoadoutSlot": "disguise",
+      "RepositoryId": "b40a74a0-91a2-490d-8806-3ccfc852c82b",
+      "OrderIndex": 640,
+      "AllowUpSync": true
+    },
+    "Rarity": "common",
+    "IsDroppable": false
+  }
+}

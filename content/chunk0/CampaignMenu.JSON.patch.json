@@ -1,0 +1,32 @@
+{
+  "file": "0093B70B9E704CE0",
+  "patch": [
+    {
+      "op": "add",
+      "path": "/4/Subgroups/-",
+      "value": {
+        "Name": "UI_MENU_PAGE_HITS_ELEMENT_CATEGORY_MODDED",
+        "Image": "",
+        "Type": "campaign",
+        "BackgroundImage": "images/ui/boot/bg_welcome.jpg",
+        "StoryData": [
+          {
+            "Type": "Mission",
+            "Id": "97c4148b-ecea-4735-87cd-563e9a4ad343",
+            "_comment": "Sgail Test"
+          },
+          {
+            "Type": "Mission",
+            "Id": "a2befcec-7799-4987-9215-6a152cb6a321",
+            "_comment": "Mumbai Test"
+          },
+          {
+            "Type": "Mission",
+            "Id": "a8036782-de0a-4353-b522-0ab7a384badf",
+            "_comment": "Hokkaido Test"
+          }
+        ]
+      }
+    }
+  ]
+}
