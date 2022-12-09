@@ -28,7 +28,7 @@
       "DESC_MUMBAI": "47 is taking out some of my best lieutenants. I need to retrieve the memory wiping antidote from Ether Headquarters in Johannesburg and convince him to remember.",
       "DESC_SGAIL": "47 has eliminated the Washington sisters and stashed the Kill Switch. I need to retrieve it and capture the Constant.",
       "DESC_BERLIN": "I need to capture the communications center for Madame Carlisle's estate house to help 47 eliminate Madame Carlisle and capture information about the Constant.",
-      "DESC_HOK_TEST": "I am Lucas Grey.\r\rMy target is Haru Takahashi.\r\rThe Nabazov Virus rages.\r\rI shall prepare. "
+      "DESC_HOK_TEST": "I am Lucas Grey.\r\rMy target is Haru Takahashi.\r\rThe Nabazov Virus rages.\r\rI shall prepare.  "
     }
   },
   "updateCheck": "https://github.com/dbierek/SonsOfProvidence/releases/latest/download/updates.json"
