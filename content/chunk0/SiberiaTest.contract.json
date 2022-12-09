@@ -1,0 +1,181 @@
+{
+  "Data": {
+    "EnableSaving": true,
+    "Objectives": [
+      {
+        "Id": "6726232b-1926-4ed2-8b92-0e2c4bcd7384",
+        "Category": "primary",
+        "ObjectiveType": "setpiece",
+        "DisplayAsKillObjective": true,
+        "ForceShowOnLoadingScreen": true,
+        "IsHidden": false,
+        "BriefingName": "$($repository 2e1a30c5-b1e0-4984-b3f4-67f01f9ebfef).Name",
+        "Image": "images/dbierek/siberia_target.jpg",
+        "HUDTemplate": {
+          "display": "Eliminate Nicholai Kamarov "
+        },
+        "BriefingText": "Eliminate the FSB Section Chief Nicholai Kamarov",
+        "Type": "statemachine",
+        "Definition": {
+          "Scope": "session",
+          "Context": {
+            "KilledActors": [],
+            "Targets": [
+              "743F058F-56A0-420F-8B5E-46DABABACA37"
+            ]
+          },
+          "States": {
+            "Start": {
+              "Kill": [
+                {
+                  "Condition": {
+                    "$eq": [
+                      "$Value.RepositoryId",
+                      "743F058F-56A0-420F-8B5E-46DABABACA37"
+                    ]
+                  },
+                  "Transition": "Success"
+                }
+              ]
+            }
+          }
+        }
+      }
+    ],
+    "GameDifficulties": [
+      {
+        "Difficulty": "easy",
+        "Bricks": []
+      },
+      {
+        "Difficulty": "normal",
+        "Bricks": []
+      },
+      {
+        "Difficulty": "hard",
+        "Bricks": []
+      }
+    ],
+    "Bricks": [
+      "assembly:/_pro/scenes/missions/caged/mission_falcon/mission_falcon.brick"
+    ],
+    "DevOnlyBricks": [
+      "assembly:/_pro/scenes/missions/caged/mission_falcon/dev_falcon.brick"
+    ],
+    "VR": [
+      {
+        "Quality": "base",
+        "Bricks": [
+          "assembly:/_pro/Scenes/Bricks/vr_setup.brick"
+        ]
+      },
+      {
+        "Quality": "better",
+        "Bricks": [
+          "assembly:/_pro/Scenes/Bricks/vr_setup.brick"
+        ]
+      }
+    ],
+    "GameChangers": [],
+    "MandatoryLoadout": [
+      {
+        "Id": "FIREARMS_HERO_PISTOL_TACTICAL_ICA_19",
+        "Properties": {
+          "LoadoutSlot": "concealedweapon",
+          "RepositoryId": "73875794-5a86-410e-84a4-1b5b2f7e5a54"
+        }
+      },
+      {
+        "Id": "Melee_FiberWire_Descriptor",
+        "Properties": {
+          "LoadoutSlot": "gear",
+          "RepositoryId": "1a11a060-358c-4054-98ec-d3491af1d7c6"
+        }
+      },
+      {
+        "Id": "Tool_Coin",
+        "Properties": {
+          "LoadoutSlot": "gear",
+          "RepositoryId": "dda002e9-02b1-4208-82a5-cf059f3c79cf"
+        }
+      },
+      {
+        "Id": "Tool_Coin",
+        "Properties": {
+          "LoadoutSlot": "gear",
+          "RepositoryId": "dda002e9-02b1-4208-82a5-cf059f3c79cf"
+        }
+      },
+      {
+        "Id": "Tool_Coin",
+        "Properties": {
+          "LoadoutSlot": "gear",
+          "RepositoryId": "dda002e9-02b1-4208-82a5-cf059f3c79cf"
+        }
+      },
+      {
+        "Id": "Tool_Coin",
+        "Properties": {
+          "LoadoutSlot": "gear",
+          "RepositoryId": "dda002e9-02b1-4208-82a5-cf059f3c79cf"
+        }
+      },
+      {
+        "Id": "Tool_Coin",
+        "Properties": {
+          "LoadoutSlot": "gear",
+          "RepositoryId": "dda002e9-02b1-4208-82a5-cf059f3c79cf"
+        }
+      }
+    ],
+    "GameChangerReferences": [],
+    "EngineModesBricks": [
+      {
+        "Mode": "singleplayer",
+        "Bricks": [
+          "assembly:/_pro/scenes/missions/caged/mission_falcon/singleplayer_falcon.brick"
+        ]
+      },
+      {
+        "Mode": "multiplayer",
+        "Bricks": [
+          "assembly:/_pro/scenes/missions/caged/mission_falcon/multiplayer_falcon.brick"
+        ]
+      }
+    ]
+  },
+  "Metadata": {
+    "Id": "25b20d86-bb5a-4ebd-b6bb-81ed2779c180",
+    "IsPublished": true,
+    "Title": "UI_CONTRACT_MONGOOSE_TITLE",
+    "Description": "UI_CONTRACT_MONGOOSE_DESC",
+    "CodeName_Hint": "Siberia Test Target",
+    "DebriefingVideo": "",
+    "ScenePath": "assembly:/_pro/scenes/missions/caged/mission_falcon/scene_falcon_sniper.entity",
+    "TileImage": [
+      {
+        "Mode": "singleplayer",
+        "Image": "images/dbierek/siberia.jpg"
+      },
+      {
+        "Mode": "multiplayer",
+        "Image": "images/dbierek/siberia.jpg"
+      }
+    ],
+    "Location": "LOCATION_CAGED_FALCON",
+    "LastUpdate": "2022-12-06T08:36:00.000Z",
+    "CreationTimestamp": "2022-12-06T08:36:00.000Z",
+    "CreatorUserId": "00000000-0000-0000-0000-000000000000",
+    "Type": "flashback",
+    "Subtype": "specialassignment",
+    "Release": "3.3.x",
+    "GameModes": null,
+    "EngineModes": null,
+    "OpportunitiesDisabled": true,
+    "IsVersus": false,
+    "Entitlements": [
+      "H2_LEGACY_EXPANSION"
+    ]
+  },
+  "UserData": {}
+}
