@@ -8,7 +8,7 @@ Based on Kevin Rudd's Custom Map Pack - https://www.nexusmods.com/hitman3/mods/3
 
 Thanks to everyone at the Glacier 2 Modding discord!
 
-Especially Kevin Rudd, Athony Fuller, Invalid, and Notex, Sieni, and Atampy26 for helping me along the way.
+Especially Kevin Rudd, Athony Fuller, Invalid, Notex, Sieni, Atampy26 and kercyx for helping me along the way.
 
 
 Mod description:
