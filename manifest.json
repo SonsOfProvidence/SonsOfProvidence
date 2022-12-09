@@ -17,7 +17,17 @@
     "english": {
       "UI_MENU_PAGE_HITS_ELEMENT_CATEGORY_MODDED": "Sons of Providence",
       "UI_DBIEREK": "Danny Bierek",
-      "DESC_HOK_TEST": "I am Lucas Grey.\r\rMy target is Haru Takahashi.\r\rThe Nabazob Virus rages.\r\rI shall prepare."
+      "DESC_DARTMOOR": "47 and I attacked the Institute for Human Betterment but were repelled. 47 is buying time for my escape.",
+      "DESC_ROMANIA": "I've learned that Eugene Cobb is a member of Providence. It's time to begin taking them all down, starting with Eugene Cobb, who holds one of two keys needed to open the Providence archive.",
+      "DESC_SIBERIA": "I'm convinced Viktor Novikov to give me the Secrets of the Global Elites document in exchange for eliminating the FSB Section Chief Nicholai Kamarov. I'm heading to Moscow to FSB headquarters now.",
+      "DESC_MARRAKESH": "I've tracked the Providence Herald for the Ether Biotech Corporation, Hajun, to the Ether parking garage in Johannesburg. Hajun holds the other key needed to open the Providence archive.",
+      "DESC_NEWYORK": "Heading to the Providence Archive at the Milton-Fitzpatrick bank in New York City with both Providence Archive keys, I plan to leave with all of Providence's secrets.",
+      "DESC_SAPIENZA": "After learning that Thomas Cross, CEO of Cross Holdings, is an operative of Providence, and tasking 47 to take out his son, Jordan, I'm travelling to New York City to capture Thomas Cross at his son's funeral.",
+      "DESC_COLORADO": "I am conferring with my militia lieutenants to ensure that our plans are going smoothly.",
+      "DESC_MUMBAI": "47 is taking out some of my best lieutenants. I need to retrieve the memory wiping antidote from Ether Headquarters in Johannesburg and convince him to remember.",
+      "DESC_SGAIL": "47 has eliminated the Washington sisters and stashed the Kill Switch. I need to retrieve it and capture the Constant.",
+      "DESC_BERLIN": "I need to capture the communications center for Madame Carlisle's estate house to help 47 eliminate Madame Carlisle and capture information about the Constant.",
+      "DESC_HOK_TEST": "I am Lucas Grey.\r\rMy target is Haru Takahashi.\r\rThe Nabazov Virus rages.\r\rI shall prepare."
     }
   }
 }

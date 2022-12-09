@@ -215,7 +215,7 @@
     "CreationTimestamp": "2017-03-27T11:49:25.5705635+02:00",
     "CreatorUserId": "00000000-0000-0000-0000-000000000000",
     "Title": "UI_CONTRACT_MAGPIE_TITLE",
-    "Description": "UI_CONTRACT_MAGPIE_DESC",
+    "Description": "DESC_SGAIL",
     "CodeName_Hint": "Magpie",
     "Location": "LOCATION_NORTHSEA",
     "ScenePath": "assembly:/_pro/scenes/missions/theark/scene_magpie.entity",
