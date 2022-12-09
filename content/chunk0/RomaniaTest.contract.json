@@ -72,7 +72,7 @@
   "Metadata": {
     "Id": "a8036782-de0a-4353-b522-0ab7a384badc",
     "IsPublished": true,
-    "Title": "UI_CONTRACT_MONGOOSE_TITLE",
+    "Title": "UI_ROMANIA_TITLE",
     "Description": "DESC_ROMANIA",
     "CodeName_Hint": "Mumbai Test Target",
     "ScenePath": "assembly:/_pro/scenes/missions/Mumbai/scene_mongoose.entity",

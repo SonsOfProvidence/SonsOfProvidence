@@ -72,7 +72,7 @@
   "Metadata": {
     "Id": "a2befcec-7799-4987-9215-6a152cb6a321",
     "IsPublished": true,
-    "Title": "UI_CONTRACT_MONGOOSE_TITLE",
+    "Title": "UI_MUMBAI_TITLE",
     "Description": "DESC_MUMBAI",
     "CodeName_Hint": "Mumbai Test Target",
     "ScenePath": "assembly:/_pro/scenes/missions/Mumbai/scene_mongoose.entity",
