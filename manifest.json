@@ -3,17 +3,18 @@
   "name": "Sons of Providence",
   "description": "This mod tells a tale of two brothers, and their mission to take them all down.",
   "blobsFolders": [
-    "blobs", "Mumbai Night/blobs"
+    "blobs",
+    "Mumbai Night/blobs"
   ],
   "authors": [
     "Danny Bierek"
   ],
   "frameworkVersion": "2.1.5",
-  "version": "0.6.0",
+  "version": "0.7.0",
   "contentFolders": [
-    "content", "Mumbai Night"
+    "content",
+    "Mumbai Night"
   ],
-
   "dependencies": [
     {
       "runtimeID": "00A01A2790FF4E7D",
