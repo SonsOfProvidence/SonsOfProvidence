@@ -3,25 +3,23 @@
     "EnableSaving": true,
     "Objectives": [
       {
-        "_comment": "----- Eliminate Arthur Edwards -----",
-        "Id": "63b987e4-18d7-4a09-8848-4fc4970fa733",
+        "Id": "6726232b-1926-4ed2-8b92-0e2c4bcd7384",
         "Category": "primary",
-        "Activation": {
-          "$eq": [
-            "$c458f79e-f308-49d9-8491-854e04aaeecb",
-            "Completed"
-          ]
-        },
-        "RepeatSuccess": 1,
-        "RepeatFailed": 1,
+        "ObjectiveType": "setpiece",
+        "DisplayAsKillObjective": true,
+        "ForceShowOnLoadingScreen": true,
+        "IsHidden": false,
+        "BriefingName": "$loc UI_ROMANIA_TARGET_BRIEFING",
+        "Image": "images/dbierek/romania_target.jpg",
         "HUDTemplate": {
-          "display": "$loc UI_CONTRACT_WOLVERINE_OBJ_EDWARDS"
+          "display": "Eliminate Eugene Cobb"
         },
-        "BriefingText": "$loc UI_CONTRACT_WOLVERINE_OBJ_EDWARDS",
+        "BriefingText": "Eliminate Eugene Cobb",
         "Type": "statemachine",
         "Definition": {
           "Scope": "session",
           "Context": {
+            "KilledActors": [],
             "Targets": [
               "17c40b70-506a-494e-89ef-31360cdead47"
             ]
@@ -31,21 +29,11 @@
               "Kill": [
                 {
                   "Condition": {
-                    "$inarray": {
-                      "in": "$.Targets",
-                      "?": {
-                        "$eq": [
-                          "$.#",
-                          "$Value.RepositoryId"
-                        ]
-                      }
-                    }
+                    "$eq": [
+                      "$Value.RepositoryId",
+                      "17c40b70-506a-494e-89ef-31360cdead47"
+                    ]
                   },
-                  "Transition": "Success"
-                }
-              ],
-              "CompleteObjective": [
-                {
                   "Transition": "Success"
                 }
               ]
@@ -67,6 +55,9 @@
         "Difficulty": "hard",
         "Bricks": []
       }
+    ],
+    "Entrances": [
+      "ee4b0060-b322-4bb0-99b5-942e8a20f278"
     ],
     "Bricks": [
       "assembly:/_pro/scenes/missions/trapped/mission_wolverine.brick"

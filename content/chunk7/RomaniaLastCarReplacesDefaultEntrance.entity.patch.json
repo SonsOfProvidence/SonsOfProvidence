@@ -1,0 +1,40 @@
+{
+  "tempHash": "00E01DF9C7926AB6",
+  "tbluHash": "002FDDA08897E498",
+  "patch": [
+    {
+      "op": "replace",
+      "path": "/entities/6f05e507a2089136/properties/m_sId/value",
+      "value": "ee4b0060-b322-4bb0-99b5-942e8a20f278"
+    },
+    {
+      "op": "replace",
+      "path": "/entities/6f05e507a2089136/properties/m_mTransform/value/position/x",
+      "value": 0.6
+    },
+    {
+      "op": "replace",
+      "path": "/entities/6f05e507a2089136/properties/m_mTransform/value/position/y",
+      "value": -430.0
+    },
+    {
+      "op": "replace",
+      "path": "/entities/6f05e507a2089136/properties/m_mTransform/value/position/z",
+      "value": 1.0
+    },
+    {
+      "op": "replace",
+      "path": "/entities/6d62ab6c9faa141/properties/m_sActorName/value",
+      "value": "Eugene Cobb"
+    },
+    {
+      "op": "remove",
+      "path": "/entities/50f823c2ad9296f0"
+    },
+    {
+      "op": "remove",
+      "path": "/entities/6f05e507a2089136/events/OnSpawn/Activate/0"
+    }
+  ],
+  "patchVersion": 5
+}
