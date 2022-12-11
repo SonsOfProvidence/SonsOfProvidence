@@ -9,7 +9,7 @@
         "DisplayAsKillObjective": true,
         "ForceShowOnLoadingScreen": true,
         "IsHidden": false,
-        "BriefingName": "$($repository 2e1a30c5-b1e0-4984-b3f4-67f01f9ebfef).Name",
+        "BriefingName": "$loc UI_MUMBAI_TARGET_BRIEFING",
         "Image": "images/dbierek/mumbai_test_target.jpg",
         "HUDTemplate": {
           "display": "Eliminate the Ether Scientist"
@@ -63,20 +63,17 @@
     "Entrances": [
       "37af536b-3f36-49ed-986a-9d55f4481ed4"
     ],
-    "Exits": [
-      "c09f21a8-6849-4b70-93fb-8de1bc7333d7"
-    ],
     "GameChangers": [],
     "GameChangerReferences": []
   },
   "Metadata": {
-    "Id": "1436cbe4-164b-450f-ad2c-77dec88f53de",
+    "Id": "a2befcec-7799-4987-9215-6a152cb6a321",
     "IsPublished": true,
-    "Title": "UI_MARRAKESH_TITLE",
-    "Description": "DESC_MARRAKESH",
+    "Title": "UI_MUMBAI_TITLE",
+    "Description": "DESC_MUMBAI",
     "CodeName_Hint": "Mumbai Test Target",
     "ScenePath": "assembly:/_pro/scenes/missions/Mumbai/scene_mongoose.entity",
-    "TileImage": "images/dbierek/marrakesh.jpg",
+    "TileImage": "images/dbierek/mumbai_test.jpg",
     "Location": "LOCATION_MUMBAI",
     "LastUpdate": "2022-12-06T08:36:00.000Z",
     "CreationTimestamp": "2022-12-06T08:36:00.000Z",
@@ -86,7 +83,7 @@
     "Release": "2.2.x",
     "RequiredUnlockable": "ACCESS_HIT_MONGOOSE",
     "Entitlements": [
-      "H1_LEGACY_STANDARD"
+      "H2_LEGACY_STANDARD"
     ]
   },
   "UserData": {}

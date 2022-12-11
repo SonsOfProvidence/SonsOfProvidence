@@ -1,0 +1,720 @@
+{
+	"tempHash": "00EA72F32567293C",
+	"tbluHash": "0046154E0E47EC55",
+	"rootEntity": "b445df8cb48806e4",
+	"entities": {
+		"275b0cb5a51be5b3": {
+			"parent": "b445df8cb48806e4",
+			"name": "light_flood_a",
+			"template": "[assembly:/_pro/environment/materials/props/lamps/light_wall_flood_a_white.mi].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/materials/props/lamps/light_wall_flood_a_white.mi].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -90
+						},
+						"position": {
+							"x": -0.0114120002835989,
+							"y": -0.011512000113725662,
+							"z": 0.052588000893592834
+						}
+					}
+				},
+				"ConstantVector1D_07_Value_op": {
+					"type": "IRenderMaterialEntity.EModifierOperation",
+					"value": "eReplace"
+				},
+				"ConstantVector1D_07_Value": {
+					"type": "float32",
+					"value": 50
+				},
+				"Active": {
+					"type": "bool",
+					"value": true
+				},
+				"ConstantColorRGB_01_Value_op": {
+					"type": "IRenderMaterialEntity.EModifierOperation",
+					"value": "eReplace"
+				}
+			},
+			"postInitProperties": {
+				"Clients": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["507c57a50437a0f3", "db81fae7150488f3"]
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "b445df8cb48806e4"
+				}
+			},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"82d36f95ba095f26": {
+			"parent": "b445df8cb48806e4",
+			"name": "FX_E_Shatter_Lightbulb",
+			"template": "[assembly:/_pro/effects/templates/shatter/fx_shatter_lightbulb.template?/fx_e_shatter_lightbulb.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/effects/templates/shatter/fx_shatter_lightbulb.template?/fx_e_shatter_lightbulb.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 29.999932962026193,
+							"z": 0
+						},
+						"position": {
+							"x": 0.08560899645090103,
+							"y": -9.999999747378752e-06,
+							"z": -0.18026599287986755
+						}
+					}
+				}
+			},
+			"postInitProperties": {
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "db81fae7150488f3"
+				}
+			},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"366e967c5ce3ad3": {
+			"parent": "b445df8cb48806e4",
+			"name": "ValueBool_Set_01",
+			"template": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_set.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_set.entitytemplate].pc_entityblueprint",
+			"properties": {},
+			"postInitProperties": {
+				"m_rValueEntity": {
+					"type": "SEntityTemplateReference",
+					"value": "2ac49baa65ea8bdb"
+				}
+			},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"db81fae7150488f3": {
+			"parent": "b445df8cb48806e4",
+			"name": "lamp_wall_modern_spot_italy_b_glass",
+			"template": "[assembly:/_pro/environment/geometry/props/lamps/lamp_wall_modern_spot_italy_b.wl2?/lamp_wall_modern_spot_italy_b_glass.linkedprim].pc_entitytype",
+			"blueprint": "[assembly:/templates/linkedtemplatedestruction.template?/destructionsystem01.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -90.00000000000001,
+							"y": 90,
+							"z": 0
+						},
+						"position": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						}
+					}
+				}
+			},
+			"postInitProperties": {
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "507c57a50437a0f3"
+				}
+			},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": [],
+			"events": [{
+				"onEvent": "OnInitialFracture",
+				"shouldTrigger": "Activate",
+				"onEntity": "82d36f95ba095f26"
+			}]
+		},
+		"fca674af903fb01d": {
+			"parent": "b445df8cb48806e4",
+			"name": "light_flood_a_01",
+			"template": "[assembly:/_pro/environment/materials/props/lamps/light_wall_flood_a_white.mi].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/materials/props/lamps/light_wall_flood_a_white.mi].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -90
+						},
+						"position": {
+							"x": -0.011412089690566063,
+							"y": -0.01151204016059637,
+							"z": 0.052588000893592834
+						}
+					}
+				},
+				"ConstantVector1D_07_Value_op": {
+					"type": "IRenderMaterialEntity.EModifierOperation",
+					"value": "eReplace"
+				},
+				"ConstantVector1D_07_Value": {
+					"type": "float32",
+					"value": 50
+				},
+				"Active": {
+					"type": "bool",
+					"value": true
+				},
+				"ConstantColorRGB_01_Value_op": {
+					"type": "IRenderMaterialEntity.EModifierOperation",
+					"value": "eReplace"
+				}
+			},
+			"postInitProperties": {
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "b445df8cb48806e4"
+				}
+			},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"de1e81f64c3db17": {
+			"parent": "b445df8cb48806e4",
+			"name": "Light_Spot_Master",
+			"template": "[modules:/zlightentity.class].pc_entitytype",
+			"blueprint": "[modules:/zlightentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 109.99980371034106,
+							"y": 0,
+							"z": -180
+						},
+						"position": {
+							"x": 0.009999999776482582,
+							"y": 0.06300000101327896,
+							"z": 0.03999999910593033
+						}
+					}
+				},
+				"m_eLightType": {
+					"type": "ILightEntity.ELightType",
+					"value": "LT_SQUARESPOT"
+				},
+				"m_bCastShadows": {
+					"type": "bool",
+					"value": true
+				},
+				"m_vFarAttenuation": {
+					"type": "SVector2",
+					"value": {
+						"x": 3.325611114501953,
+						"y": 12.788370132446289
+					}
+				},
+				"m_vNearAttenuation": {
+					"type": "SVector2",
+					"value": {
+						"x": 0.44630101323127747,
+						"y": 0.47605401277542114
+					}
+				},
+				"m_fDiffusePower": {
+					"type": "float32",
+					"value": 70
+				},
+				"m_diffuseColor": {
+					"type": "SColorRGB",
+					"value": "#fff1d4"
+				},
+				"m_bEnableLightFade": {
+					"type": "bool",
+					"value": false
+				},
+				"m_fAspectXByY": {
+					"type": "float32",
+					"value": 0.52999997138977051
+				},
+				"m_eRoomLightFlow": {
+					"type": "ILightEntity.ERoomLightFlow",
+					"value": "LOCAL"
+				},
+				"m_vAngularAttenuation": {
+					"type": "SVector2",
+					"value": {
+						"x": 0.6841890215873718,
+						"y": 0.785398006439209
+					}
+				},
+				"m_ProjectorMap": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/effects/textures/projections/fx_projection_2d_generic_lamps.texture?/diffuse_c.tex](ascolormap).pc_tex",
+						"flag": "5F"
+					}
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_STATIC"
+				},
+				"m_fShadowFadeDistance": {
+					"type": "float32",
+					"value": 25
+				},
+				"m_fLightFadeDistance": {
+					"type": "float32",
+					"value": 40
+				},
+				"m_bHighShadowPriority": {
+					"type": "bool",
+					"value": false
+				},
+				"m_bVisible": {
+					"type": "bool",
+					"value": true
+				}
+			},
+			"postInitProperties": {
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "507c57a50437a0f3"
+				}
+			},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"2ac49baa65ea8bdb": {
+			"parent": "b445df8cb48806e4",
+			"name": "ValueBool_EntityProperty_01",
+			"template": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_entityproperty.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_entityproperty.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_rEntity": {
+					"type": "SEntityTemplateReference",
+					"value": "de1e81f64c3db17"
+				},
+				"m_sPropertyName": {
+					"type": "ZString",
+					"value": "m_bHighShadowPriority"
+				}
+			},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"740cb91de71835b4": {
+			"parent": "b445df8cb48806e4",
+			"name": "Sound_Lamps02",
+			"template": "[assembly:/templates/sound/customsoundtemplates.template?/sound_lamps.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/templates/sound/customsoundtemplates.template?/sound_lamps.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": 9.999999974752427e-07,
+							"y": 0.25797298550605774,
+							"z": 0.2577250003814697
+						}
+					}
+				},
+				"SFX_Loop": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/sound/wwise/exportedwwisedata/events/props_events/lamps/light_flood_a_00/play_streetlight_hum_01.wwiseevent].pc_wwisebank",
+						"flag": "5F"
+					}
+				},
+				"LampFlicker_SFX_Event": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "007559DB719551D8",
+						"flag": "5F"
+					}
+				},
+				"LampOff_SFX_Event": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/sound/wwise/exportedwwisedata/events/props_events/lamps/light_flood_a_00/play_foley_bigspot_lights_off.wwiseevent].pc_wwisebank",
+						"flag": "5F"
+					}
+				},
+				"LampOn_SFX_Event": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/sound/wwise/exportedwwisedata/events/props_events/lamps/light_flood_a_00/play_foley_bigspot_lights_on.wwiseevent].pc_wwisebank",
+						"flag": "5F"
+					}
+				},
+				"ShotActivate": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "000174254CF9567F",
+						"flag": "5F"
+					}
+				},
+				"AudioVolume": {
+					"type": "float32",
+					"value": 0
+				},
+				"SoundEnabled": {
+					"type": "bool",
+					"value": true
+				}
+			},
+			"postInitProperties": {
+				"m_aValues": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [{
+						"ref": "630eb7cbb986d5e",
+						"externalScene": null,
+						"exposedEntity": "ValueBool_On_Result"
+					}]
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "b445df8cb48806e4"
+				}
+			},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"630eb7cbb986d5e": {
+			"parent": "b445df8cb48806e4",
+			"name": "FX_Logic_LampCore",
+			"template": "[assembly:/_pro/effects/templates/logic/fx_logic_lampcore.template?/fx_logic_lampcore.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/effects/templates/logic/fx_logic_lampcore.template?/fx_logic_lampcore.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"DiffuseColor": {
+					"type": "SColorRGB",
+					"value": "#fff1d4"
+				},
+				"DiffusePower": {
+					"type": "float32",
+					"value": 15
+				},
+				"TimeOfDayStart": {
+					"type": "float32",
+					"value": 18
+				},
+				"TimeOfDayEnd": {
+					"type": "float32",
+					"value": 7
+				},
+				"On": {
+					"type": "bool",
+					"value": true
+				},
+				"GlowPower": {
+					"type": "float32",
+					"value": 30
+				},
+				"IgnoreTimeOfDay": {
+					"type": "bool",
+					"value": false
+				},
+				"Flickering": {
+					"type": "bool",
+					"value": false
+				}
+			},
+			"postInitProperties": {
+				"LampGeometry": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["b445df8cb48806e4", "507c57a50437a0f3", "db81fae7150488f3"]
+				},
+				"m_aRenderables": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["de1e81f64c3db17", "db81fae7150488f3"]
+				},
+				"PowerCondition": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": []
+				}
+			},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": [],
+			"events": [{
+				"onEvent": "On",
+				"shouldTrigger": "SetVisible",
+				"onEntity": "de1e81f64c3db17"
+			}, {
+				"onEvent": "DiffuseColor",
+				"shouldTrigger": "DiffuseColor",
+				"onEntity": "de1e81f64c3db17"
+			}, {
+				"onEvent": "DiffusePower",
+				"shouldTrigger": "DiffusePower",
+				"onEntity": "de1e81f64c3db17"
+			}, {
+				"onEvent": "FlickerStart",
+				"shouldTrigger": "Play_Flicker_SFX",
+				"onEntity": "740cb91de71835b4"
+			}, {
+				"onEvent": "OnBroken",
+				"shouldTrigger": "OnShotActivator",
+				"onEntity": "740cb91de71835b4"
+			}, {
+				"onEvent": "GeomShadowToggle",
+				"shouldTrigger": "CastShadows",
+				"onEntity": "507c57a50437a0f3"
+			}, {
+				"onEvent": "GeomShadowToggle",
+				"shouldTrigger": "CastShadows",
+				"onEntity": "db81fae7150488f3"
+			}, {
+				"onEvent": "OnBroken",
+				"shouldTrigger": "BreakAll",
+				"onEntity": "db81fae7150488f3"
+			}, {
+				"onEvent": "On",
+				"shouldTrigger": "SetActive",
+				"onEntity": "275b0cb5a51be5b3"
+			}, {
+				"onEvent": "DiffuseColor",
+				"shouldTrigger": "ConstantColorRGB_01_Value",
+				"onEntity": "275b0cb5a51be5b3"
+			}, {
+				"onEvent": "GlowPower",
+				"shouldTrigger": "ConstantVector1D_07_Value",
+				"onEntity": "275b0cb5a51be5b3"
+			}],
+			"outputCopying": [{
+				"onEvent": "OnBroken",
+				"propagateEvent": "OnBroken",
+				"onEntity": "b445df8cb48806e4"
+			}]
+		},
+		"507c57a50437a0f3": {
+			"parent": "b445df8cb48806e4",
+			"name": "Lamp_Wall_Modern_Spot_Italy_B_Head",
+			"template": "[assembly:/_pro/environment/geometry/props/lamps/lamp_wall_modern_spot_italy_b.wl2?/lamp_wall_modern_spot_italy_b_head.prim].pc_entitytype",
+			"blueprint": "[assembly:/templates/geometrytemplaterigidbody.template?/geomentity01.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": 0,
+							"y": 0.03517499938607216,
+							"z": 0.23866699635982513
+						}
+					}
+				},
+				"m_bKinematic": {
+					"type": "bool",
+					"value": true
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_STATIC"
+				}
+			},
+			"postInitProperties": {
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "b445df8cb48806e4"
+				}
+			},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"b445df8cb48806e4": {
+			"parent": null,
+			"name": "Lamp_Wall_Modern_Spot_Italy_B",
+			"template": "[assembly:/_pro/environment/geometry/props/lamps/lamp_wall_modern_spot_italy_b.wl2?/lamp_wall_modern_spot_italy_b.prim].pc_entitytype",
+			"blueprint": "[assembly:/templates/geometrytemplatestaticcoll.template?/geomentity01.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 90,
+							"y": 0,
+							"z": 89.99994270422063
+						},
+						"position": {
+							"x": 0,
+							"y": 3.306988000869751,
+							"z": 3.313378095626831
+						}
+					}
+				},
+				"On": {
+					"type": "bool",
+					"value": true
+				},
+				"DiffusePower": {
+					"type": "float32",
+					"value": 15
+				},
+				"GlowPower": {
+					"type": "float32",
+					"value": 30
+				},
+				"IgnoreTimeOfDay": {
+					"type": "bool",
+					"value": false
+				},
+				"m_bLightCastShadows": {
+					"type": "bool",
+					"value": true
+				}
+			},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": [],
+			"propertyAliases": [{
+				"exposeProperty": "DiffuseColor",
+				"onEntity": "630eb7cbb986d5e",
+				"asProperty": "DiffuseColor"
+			}, {
+				"exposeProperty": "TimeOfDayStart",
+				"onEntity": "630eb7cbb986d5e",
+				"asProperty": "TimeOfDayStart"
+			}, {
+				"exposeProperty": "TimeOfDayEnd",
+				"onEntity": "630eb7cbb986d5e",
+				"asProperty": "TimeOfDayEnd"
+			}, {
+				"exposeProperty": "On",
+				"onEntity": "630eb7cbb986d5e",
+				"asProperty": "On"
+			}, {
+				"exposeProperty": "PowerCondition",
+				"onEntity": "630eb7cbb986d5e",
+				"asProperty": "PowerCondition"
+			}, {
+				"exposeProperty": "DiffusePower",
+				"onEntity": "630eb7cbb986d5e",
+				"asProperty": "DiffusePower"
+			}, {
+				"exposeProperty": "GlowPower",
+				"onEntity": "630eb7cbb986d5e",
+				"asProperty": "GlowPower"
+			}, {
+				"exposeProperty": "m_bCastShadows",
+				"onEntity": "de1e81f64c3db17",
+				"asProperty": "m_bLightCastShadows"
+			}, {
+				"exposeProperty": "m_fShadowFadeDistance",
+				"onEntity": "de1e81f64c3db17",
+				"asProperty": "m_fShadowFadeDistance"
+			}, {
+				"exposeProperty": "m_fLightFadeDistance",
+				"onEntity": "de1e81f64c3db17",
+				"asProperty": "m_fLightFadeDistance"
+			}, {
+				"exposeProperty": "m_vFarAttenuation",
+				"onEntity": "de1e81f64c3db17",
+				"asProperty": "m_vFarAttenuation"
+			}, {
+				"exposeProperty": "m_vAngularAttenuation",
+				"onEntity": "de1e81f64c3db17",
+				"asProperty": "m_vAngularAttenuation"
+			}, {
+				"exposeProperty": "m_mTransform",
+				"onEntity": "507c57a50437a0f3",
+				"asProperty": "m_mHeadTransform"
+			}, {
+				"exposeProperty": "m_eRoomLightFlow",
+				"onEntity": "de1e81f64c3db17",
+				"asProperty": "m_eRoomLightFlow"
+			}, {
+				"exposeProperty": "IgnoreTimeOfDay",
+				"onEntity": "630eb7cbb986d5e",
+				"asProperty": "IgnoreTimeOfDay"
+			}, {
+				"exposeProperty": "SFX_Loop",
+				"onEntity": "740cb91de71835b4",
+				"asProperty": "SFX_Loop"
+			}, {
+				"exposeProperty": "LampOn_SFX_Event",
+				"onEntity": "740cb91de71835b4",
+				"asProperty": "LampOn_SFX_Event"
+			}, {
+				"exposeProperty": "LampOff_SFX_Event",
+				"onEntity": "740cb91de71835b4",
+				"asProperty": "LampOff_SFX_Event"
+			}, {
+				"exposeProperty": "LampFlicker_SFX_Event",
+				"onEntity": "740cb91de71835b4",
+				"asProperty": "LampFlicker_SFX_Event"
+			}, {
+				"exposeProperty": "ShotActivate",
+				"onEntity": "740cb91de71835b4",
+				"asProperty": "ShotActivate"
+			}, {
+				"exposeProperty": "AudioVolume",
+				"onEntity": "740cb91de71835b4",
+				"asProperty": "AudioVolume"
+			}, {
+				"exposeProperty": "SoundEnabled",
+				"onEntity": "740cb91de71835b4",
+				"asProperty": "SoundEnabled"
+			}, {
+				"exposeProperty": "m_fAspectXByY",
+				"onEntity": "de1e81f64c3db17",
+				"asProperty": "m_fAspectXByY"
+			}, {
+				"exposeProperty": "Flickering",
+				"onEntity": "630eb7cbb986d5e",
+				"asProperty": "Flickering"
+			}, {
+				"exposeProperty": "m_bHighShadowPriority",
+				"onEntity": "de1e81f64c3db17",
+				"asProperty": "m_bHighShadowPriority"
+			}],
+			"entitySubsets": [
+				["AudioEmitters", {
+					"entities": ["740cb91de71835b4"]
+				}]
+			],
+			"inputCopying": [{
+				"whenTriggered": "On",
+				"alsoTrigger": "TurnOn",
+				"onEntity": "630eb7cbb986d5e"
+			}, {
+				"whenTriggered": "Off",
+				"alsoTrigger": "TurnOff",
+				"onEntity": "630eb7cbb986d5e"
+			}, {
+				"whenTriggered": "Break",
+				"alsoTrigger": "Break",
+				"onEntity": "630eb7cbb986d5e"
+			}, {
+				"whenTriggered": "HighShadowPriorityTrue",
+				"alsoTrigger": "SetTrue",
+				"onEntity": "366e967c5ce3ad3"
+			}, {
+				"whenTriggered": "HighShadowPriorityFalse",
+				"alsoTrigger": "SetFalse",
+				"onEntity": "366e967c5ce3ad3"
+			}]
+		}
+	},
+	"propertyOverrides": [],
+	"overrideDeletes": [],
+	"pinConnectionOverrides": [],
+	"pinConnectionOverrideDeletes": [],
+	"externalScenes": [],
+	"subType": 0,
+	"quickEntityVersion": 2.1
+}

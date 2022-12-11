@@ -1,0 +1,48 @@
+{
+  "Data": {
+    "EnableSaving": true,
+    "Objectives": [
+
+    ],
+    "GameDifficulties": [
+      {
+        "Difficulty": "easy",
+        "Bricks": []
+      },
+      {
+        "Difficulty": "normal",
+        "Bricks": []
+      },
+      {
+        "Difficulty": "hard",
+        "Bricks": []
+      }
+    ],
+    "Bricks": [
+    ],
+    "DevOnlyBricks": [],
+    "GameChangers": [],
+    "GameChangerReferences": []
+  },
+  "Metadata": {
+    "Id": "1436cbe4-164b-450f-ad2c-77dec88f53de",
+    "IsPublished": true,
+    "Title": "UI_MARRAKESH_TITLE",
+    "Description": "DESC_MARRAKESH",
+    "CodeName_Hint": "Marrakesh Test",
+    "ScenePath": "assembly:/_PRO/Scenes/Missions/Marrakesh/_Scene_Mission_Spider.entity",
+    "TileImage": "images/dbierek/marrakesh.jpg",
+    "Location": "LOCATION_MARRAKECH",
+    "LastUpdate": "2022-12-06T08:36:00.000Z",
+    "CreationTimestamp": "2022-12-06T08:36:00.000Z",
+    "CreatorUserId": "00000000-0000-0000-0000-000000000000",
+    "Type": "flashback",
+    "Subtype": "specialassignment",
+    "Release": "1.2.x",
+    "RequiredUnlockable": "ACCESS_HIT_SPIDER",
+    "Entitlements": [
+      "H1_LEGACY_STANDARD"
+    ]
+  },
+  "UserData": {}
+}

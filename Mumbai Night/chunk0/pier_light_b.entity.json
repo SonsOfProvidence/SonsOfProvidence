@@ -1,0 +1,329 @@
+{
+	"tempHash": "0026B173B9158A05",
+	"tbluHash": "00B2127A5DB7957E",
+	"rootEntity": "ce5eafbc5d9a7325",
+	"entities": {
+		"a19b4f9dcc9e356c": {
+			"parent": "ce5eafbc5d9a7325",
+			"name": "FX_Logic_LampCore",
+			"template": "[assembly:/_pro/effects/templates/logic/fx_logic_lampcore.template?/fx_logic_lampcore.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/effects/templates/logic/fx_logic_lampcore.template?/fx_logic_lampcore.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"DiffuseColor": {
+					"type": "SColorRGB",
+					"value": "#ffffff"
+				},
+				"On": {
+					"type": "bool",
+					"value": true
+				},
+				"DiffusePower": {
+					"type": "float32",
+					"value": 100
+				},
+				"GlowPower": {
+					"type": "float32",
+					"value": 200
+				}
+			},
+			"postInitProperties": {
+				"LampGeometry": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["ec817a937f878908"]
+				},
+				"m_aRenderables": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["d4668ff882d549d", "ec817a937f878908"]
+				}
+			},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": [],
+			"events": [{
+				"onEvent": "DiffuseColor",
+				"shouldTrigger": "DiffuseColor",
+				"onEntity": "d4668ff882d549d"
+			}, {
+				"onEvent": "DiffusePower",
+				"shouldTrigger": "DiffusePower",
+				"onEntity": "d4668ff882d549d"
+			}, {
+				"onEvent": "On",
+				"shouldTrigger": "SetVisible",
+				"onEntity": "d4668ff882d549d"
+			}, {
+				"onEvent": "GeomShadowToggle",
+				"shouldTrigger": "CastShadows",
+				"onEntity": "ec817a937f878908"
+			}, {
+				"onEvent": "DiffuseColor",
+				"shouldTrigger": "ConstantColorRGB_01_Value",
+				"onEntity": "61b4d80b4eb8f089"
+			}, {
+				"onEvent": "GlowPower",
+				"shouldTrigger": "ConstantVector1D_07_Value",
+				"onEntity": "61b4d80b4eb8f089"
+			}]
+		},
+		"ec817a937f878908": {
+			"parent": "ce5eafbc5d9a7325",
+			"name": "pier_light_a",
+			"template": "[assembly:/_pro/environment/geometry/props/lamps/pier_light_a.wl2?/pier_light_a.prim].pc_entitytype",
+			"blueprint": "[assembly:/templates/geometrytemplatestaticcoll.template?/geomentity01.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						}
+					}
+				}
+			},
+			"postInitProperties": {
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "ce5eafbc5d9a7325"
+				}
+			},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"61b4d80b4eb8f089": {
+			"parent": "ce5eafbc5d9a7325",
+			"name": "glowing_square_glossy_a",
+			"template": "[assembly:/_pro/environment/materials/props/lamps/glowing_square_glossy_a.mi].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/materials/props/lamps/glowing_square_glossy_a.mi].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						}
+					}
+				},
+				"Clients": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["ec817a937f878908"]
+				},
+				"ConstantVector1D_07_Value": {
+					"type": "float32",
+					"value": 200
+				},
+				"ConstantColorRGB_01_Value_op": {
+					"type": "IRenderMaterialEntity.EModifierOperation",
+					"value": "eReplace"
+				},
+				"ConstantVector1D_07_Value_op": {
+					"type": "IRenderMaterialEntity.EModifierOperation",
+					"value": "eReplace"
+				},
+				"ConstantColorRGB_01_Value": {
+					"type": "SColorRGB",
+					"value": "#fffbf2"
+				}
+			},
+			"postInitProperties": {
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "ce5eafbc5d9a7325"
+				}
+			},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"d4668ff882d549d": {
+			"parent": "ce5eafbc5d9a7325",
+			"name": "Light",
+			"template": "[modules:/zlightentity.class].pc_entitytype",
+			"blueprint": "[modules:/zlightentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 150.81686110376499,
+							"y": 0,
+							"z": -90
+						},
+						"position": {
+							"x": -0.00648199999704957,
+							"y": -0.037383001297712326,
+							"z": 0.04296499863266945
+						}
+					}
+				},
+				"m_vFarAttenuation": {
+					"type": "SVector2",
+					"value": {
+						"x": 0.6000000238418579,
+						"y": 4
+					}
+				},
+				"m_vAngularAttenuation": {
+					"type": "SVector2",
+					"value": {
+						"x": 0.10000000149011612,
+						"y": 0.4699999988079071
+					}
+				},
+				"m_fDiffusePower": {
+					"type": "float32",
+					"value": 25
+				},
+				"m_eLightType": {
+					"type": "ILightEntity.ELightType",
+					"value": "LT_SQUARESPOT"
+				},
+				"m_fAspectXByY": {
+					"type": "float32",
+					"value": 0.5
+				},
+				"m_bEnableLightFade": {
+					"type": "bool",
+					"value": true
+				},
+				"m_fWrappedDiffuse": {
+					"type": "float32",
+					"value": 0
+				},
+				"m_fLightFadeDistance": {
+					"type": "float32",
+					"value": 20
+				},
+				"m_fLightFadeLength": {
+					"type": "float32",
+					"value": 10
+				},
+				"m_bCastShadows": {
+					"type": "bool",
+					"value": true
+				},
+				"m_bUseDynamicShadowMap": {
+					"type": "bool",
+					"value": true
+				},
+				"m_fShadowFadeDistance": {
+					"type": "float32",
+					"value": 10
+				},
+				"m_fShadowFadeLength": {
+					"type": "float32",
+					"value": 5
+				}
+			},
+			"postInitProperties": {
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "ce5eafbc5d9a7325"
+				}
+			},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"ce5eafbc5d9a7325": {
+			"parent": null,
+			"name": "pier_light_b",
+			"template": "[modules:/zcompositeentity.class].pc_entitytype",
+			"blueprint": "[modules:/zcompositeentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 90
+						},
+						"position": {
+							"x": 2.6872880458831787,
+							"y": 2.8016250133514404,
+							"z": 0.6561800241470337
+						}
+					}
+				}
+			},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": [],
+			"propertyAliases": [{
+				"exposeProperty": "DiffuseColor",
+				"onEntity": "a19b4f9dcc9e356c",
+				"asProperty": "DiffuseColor"
+			}, {
+				"exposeProperty": "On",
+				"onEntity": "a19b4f9dcc9e356c",
+				"asProperty": "On"
+			}, {
+				"exposeProperty": "DiffusePower",
+				"onEntity": "a19b4f9dcc9e356c",
+				"asProperty": "DiffusePower"
+			}, {
+				"exposeProperty": "GlowPower",
+				"onEntity": "a19b4f9dcc9e356c",
+				"asProperty": "GlowPower"
+			}, {
+				"exposeProperty": "m_fWrappedDiffuse",
+				"onEntity": "d4668ff882d549d",
+				"asProperty": "m_fWrappedDiffuse"
+			}, {
+				"exposeProperty": "m_vFarAttenuation",
+				"onEntity": "d4668ff882d549d",
+				"asProperty": "m_vFarAttenuation"
+			}, {
+				"exposeProperty": "m_vAngularAttenuation",
+				"onEntity": "d4668ff882d549d",
+				"asProperty": "m_vAngularAttenuation"
+			}, {
+				"exposeProperty": "m_fAspectXByY",
+				"onEntity": "d4668ff882d549d",
+				"asProperty": "m_fAspectXByY"
+			}, {
+				"exposeProperty": "m_fLightFadeDistance",
+				"onEntity": "d4668ff882d549d",
+				"asProperty": "m_fLightFadeDistance"
+			}, {
+				"exposeProperty": "m_fLightFadeLength",
+				"onEntity": "d4668ff882d549d",
+				"asProperty": "m_fLightFadeLength"
+			}, {
+				"exposeProperty": "m_bCastShadows",
+				"onEntity": "d4668ff882d549d",
+				"asProperty": "m_bCastShadows"
+			}, {
+				"exposeProperty": "m_bUseDynamicShadowMap",
+				"onEntity": "d4668ff882d549d",
+				"asProperty": "m_bUseDynamicShadowMap"
+			}, {
+				"exposeProperty": "m_fShadowFadeDistance",
+				"onEntity": "d4668ff882d549d",
+				"asProperty": "m_fShadowFadeDistance"
+			}, {
+				"exposeProperty": "m_fShadowFadeLength",
+				"onEntity": "d4668ff882d549d",
+				"asProperty": "m_fShadowFadeLength"
+			}]
+		}
+	},
+	"propertyOverrides": [],
+	"overrideDeletes": [],
+	"pinConnectionOverrides": [],
+	"pinConnectionOverrideDeletes": [],
+	"externalScenes": [],
+	"subType": 0,
+	"quickEntityVersion": 2.1
+}

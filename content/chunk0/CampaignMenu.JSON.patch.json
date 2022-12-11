@@ -299,11 +299,6 @@
             ],
             "RequiredUnlockable": "ACCESS_HIT_FOX",
             "_comment": "Cutscene : Story Block 4"
-          },
-          {
-            "Type": "Mission",
-            "Id": "a8036782-de0a-4353-b522-0ab7a384badf",
-            "_comment": "Hokkaido Test"
           }
         ]
       }

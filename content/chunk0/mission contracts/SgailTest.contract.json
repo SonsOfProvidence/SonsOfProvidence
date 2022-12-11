@@ -7,6 +7,12 @@
         "Completed"
       ]
     },
+    "Entrances": [
+      "5e30a7b9-7e06-464e-b2eb-1aa23635f500"
+    ],
+    "Exits": [
+      "cb9da14b-e6ef-44f5-8983-57b1d3ab54fd"
+    ],
     "Objectives": [
       {
         "_comment": "----- [HIDDEN] Do not Eliminate The Constant -----",
@@ -58,7 +64,8 @@
             }
           }
         }
-      },{
+      },
+      {
         "_comment": "----- [OPTIONAL] Help Grey Kidnap The Constant -----",
         "Id": "9eb900f5-4d1e-4464-8ea9-1a9df6b869d0",
         "Category": "secondary",
@@ -216,7 +223,7 @@
     "CreatorUserId": "00000000-0000-0000-0000-000000000000",
     "Title": "UI_SGAIL_TITLE",
     "Description": "DESC_SGAIL",
-    "CodeName_Hint": "Magpie",
+    "CodeName_Hint": "Sgail Test",
     "Location": "LOCATION_NORTHSEA",
     "ScenePath": "assembly:/_pro/scenes/missions/theark/scene_magpie.entity",
     "Type": "flashback",

@@ -1,0 +1,31 @@
+{
+  "tempHash": "00D9B106D7ABFEFA",
+  "tbluHash": "00BC2760EC34A91F",
+  "patch": [
+    {
+      "op": "remove",
+      "path": "/entities/d6ad87af05222a0e"
+    },
+    {
+      "op": "remove",
+      "path": "/entities/a5e19d94b293a87b"
+    },
+    {
+      "op": "remove",
+      "path": "/entities/668db922e6dc762/properties/m_aActors/value/0"
+    },
+    {
+      "op": "remove",
+      "path": "/entities/4513fa52f2f2488a/properties/m_aActors/value/0"
+    },
+    {
+      "op": "remove",
+      "path": "/entities/83904268ba5954e8/properties/m_rActorProvider"
+    },
+    {
+      "op": "remove",
+      "path": "/entities/9d0efc6290400eb6/properties/m_rActorProvider"
+    }
+  ],
+  "patchVersion": 5
+}

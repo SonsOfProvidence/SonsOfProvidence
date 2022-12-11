@@ -23,6 +23,15 @@
     },
     "Rarity": null
   },
+  "STARTING_LOCATION_DARTMOOR_INSTITUTE": {
+    "Properties": {
+      "Location": "STARTING_LOCATION_DARTMOOR_INSTITUTE",
+      "RepositoryId": "3812ea57-e29c-42cb-b93a-ea2d3e6a6806",
+      "Equip": [],
+      "UnlockOrder": 0
+    },
+    "Rarity": null
+  },
   "STARTING_LOCATION_HOKKAIDO_FLU": {
     "Properties": {
       "Location": "LOCATION_PARENT_HOKKAIDO",

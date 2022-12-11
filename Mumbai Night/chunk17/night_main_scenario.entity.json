@@ -1,0 +1,5937 @@
+{
+	"tempHash": "000EDA83617783CF",
+	"tbluHash": "00E666719C0EBD29",
+	"rootEntity": "fffffffffffffffe",
+	"entities": {
+		"fffffffffffffffe": {
+			"parent": null,
+			"name": "Scene",
+			"template": "[modules:/zspatialentity.class].pc_entitytype",
+			"blueprint": "[modules:/zspatialentity.class].pc_entityblueprint",
+			"properties": {},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": [],
+			"entitySubsets": [
+				["Activatable_NormalGameplay, IEntity", {
+					"entities": []
+				}],
+				["AudioEmitters", {
+					"entities": []
+				}],
+				["AudioVolumetricGeom", {
+					"entities": []
+				}],
+				["Gates", {
+					"entities": []
+				}],
+				["Replicable", {
+					"entities": []
+				}],
+				["Rooms", {
+					"entities": []
+				}]
+			]
+		},
+		"e84b4b6d044db58a": {
+			"parent": {
+				"ref": "b61b3ab241b78445",
+				"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+			},
+			"name": "lamp_street_mumbai_a_01",
+			"template": "[assembly:/_pro/environment/templates/props/street_props/traffic_props_a.template?/lamp_street_rat.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/street_props/traffic_props_a.template?/lamp_street_rat.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -90
+						},
+						"position": {
+							"x": -8.939163208007812,
+							"y": -1.278525948524475,
+							"z": 0.2003290057182312
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "a7f988a1db3ba0ff",
+						"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+					}
+				}
+			},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"725fd2795024e556": {
+			"parent": {
+				"ref": "b61b3ab241b78445",
+				"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+			},
+			"name": "lamp_street_mumbai_a_03",
+			"template": "[assembly:/_pro/environment/templates/props/street_props/traffic_props_a.template?/lamp_street_rat.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/street_props/traffic_props_a.template?/lamp_street_rat.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -180
+						},
+						"position": {
+							"x": 0.6036700010299683,
+							"y": 3.770005941390991,
+							"z": 0.2003369927406311
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "a7f988a1db3ba0ff",
+						"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+					}
+				}
+			},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"6feb1103b3eae0c9": {
+			"parent": {
+				"ref": "b61b3ab241b78445",
+				"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+			},
+			"name": "lamp_street_mumbai_a_04",
+			"template": "[assembly:/_pro/environment/templates/props/street_props/traffic_props_a.template?/lamp_street_rat.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/street_props/traffic_props_a.template?/lamp_street_rat.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 89.99994270422063
+						},
+						"position": {
+							"x": 0.5351750254631042,
+							"y": -19.9404296875,
+							"z": 0.2003369927406311
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "a7f988a1db3ba0ff",
+						"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+					}
+				}
+			},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"ff074658ff15ff74": {
+			"parent": {
+				"ref": "b61b3ab241b78445",
+				"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+			},
+			"name": "lamp_street_mumbai_a_05",
+			"template": "[assembly:/_pro/environment/templates/props/street_props/traffic_props_a.template?/lamp_street_rat.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/street_props/traffic_props_a.template?/lamp_street_rat.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -90
+						},
+						"position": {
+							"x": -8.894023895263672,
+							"y": -25.915069580078125,
+							"z": 0.20033800601959229
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "a7f988a1db3ba0ff",
+						"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+					}
+				}
+			},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"26a3ea7a03099cd7": {
+			"parent": {
+				"ref": "b61b3ab241b78445",
+				"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+			},
+			"name": "lamp_street_mumbai_a_06",
+			"template": "[assembly:/_pro/environment/templates/props/street_props/traffic_props_a.template?/lamp_street_rat.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/street_props/traffic_props_a.template?/lamp_street_rat.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -90
+						},
+						"position": {
+							"x": 40.65216064453125,
+							"y": 25.806230545043945,
+							"z": 0.2156289964914322
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "a7f988a1db3ba0ff",
+						"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+					}
+				}
+			},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"f089bcb8febf461f": {
+			"parent": {
+				"ref": "b61b3ab241b78445",
+				"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+			},
+			"name": "lamp_street_mumbai_a_07",
+			"template": "[assembly:/_pro/environment/templates/props/street_props/traffic_props_a.template?/lamp_street_rat.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/street_props/traffic_props_a.template?/lamp_street_rat.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -180
+						},
+						"position": {
+							"x": 17.260169982910156,
+							"y": -42.73308181762695,
+							"z": 0.18480299413204193
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "a7f988a1db3ba0ff",
+						"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+					}
+				}
+			},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"fd7a0d5ee554ec83": {
+			"parent": {
+				"ref": "b61b3ab241b78445",
+				"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+			},
+			"name": "lamp_street_mumbai_a_08",
+			"template": "[assembly:/_pro/environment/templates/props/street_props/traffic_props_a.template?/lamp_street_rat.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/street_props/traffic_props_a.template?/lamp_street_rat.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -90
+						},
+						"position": {
+							"x": 40.62123107910156,
+							"y": 44.08842086791992,
+							"z": 0.2156289964914322
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "a7f988a1db3ba0ff",
+						"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+					}
+				}
+			},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"e3ed4602cdc8589f": {
+			"parent": {
+				"ref": "b61b3ab241b78445",
+				"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+			},
+			"name": "lamp_street_mumbai_a_09",
+			"template": "[assembly:/_pro/environment/templates/props/street_props/traffic_props_a.template?/lamp_street_rat.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/street_props/traffic_props_a.template?/lamp_street_rat.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -90
+						},
+						"position": {
+							"x": 40.621150970458984,
+							"y": 59.26443099975586,
+							"z": 0.2156289964914322
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "a7f988a1db3ba0ff",
+						"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+					}
+				}
+			},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"1b33a3d1d4e1638": {
+			"parent": {
+				"ref": "b61b3ab241b78445",
+				"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+			},
+			"name": "lamp_street_mumbai_a_10",
+			"template": "[assembly:/_pro/environment/templates/props/street_props/traffic_props_a.template?/lamp_street_rat.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/street_props/traffic_props_a.template?/lamp_street_rat.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -180
+						},
+						"position": {
+							"x": -9.981685638427734,
+							"y": -42.531219482421875,
+							"z": 0.20034100115299225
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "a7f988a1db3ba0ff",
+						"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+					}
+				}
+			},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"89eb2efa97704a2b": {
+			"parent": {
+				"ref": "b61b3ab241b78445",
+				"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+			},
+			"name": "lamp_street_mumbai_a_11",
+			"template": "[assembly:/_pro/environment/templates/props/street_props/traffic_props_a.template?/lamp_street_rat.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/street_props/traffic_props_a.template?/lamp_street_rat.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -180
+						},
+						"position": {
+							"x": -24.48271942138672,
+							"y": -42.446781158447266,
+							"z": 0.20034100115299225
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "a7f988a1db3ba0ff",
+						"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+					}
+				}
+			},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"5a734538f724b7bd": {
+			"parent": {
+				"ref": "b61b3ab241b78445",
+				"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+			},
+			"name": "lamp_street_mumbai_a_12",
+			"template": "[assembly:/_pro/environment/templates/props/street_props/traffic_props_a.template?/lamp_street_rat.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/street_props/traffic_props_a.template?/lamp_street_rat.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -180
+						},
+						"position": {
+							"x": 30.76580047607422,
+							"y": -42.545501708984375,
+							"z": 0.20034100115299225
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "a7f988a1db3ba0ff",
+						"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+					}
+				}
+			},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"c461f3014a5466c7": {
+			"parent": {
+				"ref": "1eb87e3186067fc6",
+				"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+			},
+			"name": "lamp_street_mumbai_a_22",
+			"template": "[assembly:/_pro/environment/templates/props/street_props/traffic_props_a.template?/lamp_street_rat.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/street_props/traffic_props_a.template?/lamp_street_rat.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 136.3000035247507
+						},
+						"position": {
+							"x": -74.19891357421875,
+							"y": 32.830509185791016,
+							"z": 0.20325429737567902
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "a242e5b637aee763",
+						"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+					}
+				}
+			},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"d460ffabb3712b93": {
+			"parent": {
+				"ref": "1eb87e3186067fc6",
+				"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+			},
+			"name": "lamp_street_mumbai_a_23",
+			"template": "[assembly:/_pro/environment/templates/props/street_props/traffic_props_a.template?/lamp_street_rat.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/street_props/traffic_props_a.template?/lamp_street_rat.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 136.30001126047551
+						},
+						"position": {
+							"x": -46.29180145263672,
+							"y": 59.51913070678711,
+							"z": 0.20325399935245514
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "a242e5b637aee763",
+						"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+					}
+				}
+			},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"a92ba045457e266d": {
+			"parent": {
+				"ref": "1eb87e3186067fc6",
+				"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+			},
+			"name": "lamp_street_mumbai_a_24",
+			"template": "[assembly:/_pro/environment/templates/props/street_props/traffic_props_a.template?/lamp_street_rat.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/street_props/traffic_props_a.template?/lamp_street_rat.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -45
+						},
+						"position": {
+							"x": -59.860801696777344,
+							"y": 57.747169494628906,
+							"z": 0.41713300347328186
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "a242e5b637aee763",
+						"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+					}
+				}
+			},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"2eb8e23810afad2b": {
+			"parent": {
+				"ref": "1eb87e3186067fc6",
+				"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+			},
+			"name": "lamp_street_mumbai_a_25",
+			"template": "[assembly:/_pro/environment/templates/props/street_props/traffic_props_a.template?/lamp_street_rat.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/street_props/traffic_props_a.template?/lamp_street_rat.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -45
+						},
+						"position": {
+							"x": -73.14053344726562,
+							"y": 44.994850158691406,
+							"z": 0.41713300347328186
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "a242e5b637aee763",
+						"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+					}
+				}
+			},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"63d3defd1a1c6072": {
+			"parent": {
+				"ref": "1eb87e3186067fc6",
+				"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+			},
+			"name": "lamp_street_mumbai_a_26",
+			"template": "[assembly:/_pro/environment/templates/props/street_props/traffic_props_a.template?/lamp_street_rat.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/street_props/traffic_props_a.template?/lamp_street_rat.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 136.30001126047551
+						},
+						"position": {
+							"x": -57.96316146850586,
+							"y": 48.36661148071289,
+							"z": 0.20325399935245514
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "a242e5b637aee763",
+						"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+					}
+				}
+			},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"8cc9551208512669": {
+			"parent": {
+				"ref": "33e243d004257b0",
+				"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+			},
+			"name": "lamp_street_mumbai_a",
+			"template": "[assembly:/_pro/environment/templates/props/street_props/traffic_props_a.template?/lamp_street_rat.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/street_props/traffic_props_a.template?/lamp_street_rat.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 39.99999389070413
+						},
+						"position": {
+							"x": -52.00141906738281,
+							"y": -18.058420181274414,
+							"z": -0.05695921182632446
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "54167d685890aa1e",
+						"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+					}
+				}
+			},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"1418ba2ed258908e": {
+			"parent": {
+				"ref": "33e243d004257b0",
+				"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+			},
+			"name": "lamp_street_mumbai_a_02",
+			"template": "[assembly:/_pro/environment/templates/props/street_props/traffic_props_a.template?/lamp_street_rat.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/street_props/traffic_props_a.template?/lamp_street_rat.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -139.99996761893553
+						},
+						"position": {
+							"x": -47.42348098754883,
+							"y": -34.408138275146484,
+							"z": -0.05695899948477745
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "54167d685890aa1e",
+						"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+					}
+				}
+			},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"f67730a66161f67b": {
+			"parent": {
+				"ref": "33e243d004257b0",
+				"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+			},
+			"name": "lamp_street_mumbai_a_03",
+			"template": "[assembly:/_pro/environment/templates/props/street_props/traffic_props_a.template?/lamp_street_rat.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/street_props/traffic_props_a.template?/lamp_street_rat.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 90
+						},
+						"position": {
+							"x": 1.5198750495910645,
+							"y": -28.439599990844727,
+							"z": 0.005549000110477209
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "54167d685890aa1e",
+						"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+					}
+				}
+			},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"179ca96e53ba445d": {
+			"parent": {
+				"ref": "33e243d004257b0",
+				"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+			},
+			"name": "lamp_street_mumbai_a_04",
+			"template": "[assembly:/_pro/environment/templates/props/street_props/traffic_props_a.template?/lamp_street_rat.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/street_props/traffic_props_a.template?/lamp_street_rat.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -165.0000015293082
+						},
+						"position": {
+							"x": -16.933870315551758,
+							"y": -39.76213073730469,
+							"z": 0.003323999932035804
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "54167d685890aa1e",
+						"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+					}
+				}
+			},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"3c2429487261e40c": {
+			"parent": {
+				"ref": "33e243d004257b0",
+				"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+			},
+			"name": "lamp_street_mumbai_a_05",
+			"template": "[assembly:/_pro/environment/templates/props/street_props/traffic_props_a.template?/lamp_street_rat.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/street_props/traffic_props_a.template?/lamp_street_rat.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": 12.129249572753906,
+							"y": -28.99980926513672,
+							"z": -0.03082899935543537
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "54167d685890aa1e",
+						"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+					}
+				}
+			},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"6c95a459c05eee00": {
+			"parent": {
+				"ref": "33e243d004257b0",
+				"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+			},
+			"name": "lamp_street_mumbai_a_06",
+			"template": "[assembly:/_pro/environment/templates/props/street_props/traffic_props_a.template?/lamp_street_rat.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/street_props/traffic_props_a.template?/lamp_street_rat.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": 22.327430725097656,
+							"y": -28.9990291595459,
+							"z": -0.03082899935543537
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "54167d685890aa1e",
+						"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+					}
+				}
+			},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"1aead8ede40973fd": {
+			"parent": {
+				"ref": "33e243d004257b0",
+				"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+			},
+			"name": "lamp_street_mumbai_a_07",
+			"template": "[assembly:/_pro/environment/templates/props/street_props/traffic_props_a.template?/lamp_street_rat.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/street_props/traffic_props_a.template?/lamp_street_rat.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -139.99996761893553
+						},
+						"position": {
+							"x": -30.74057960510254,
+							"y": -51.0859489440918,
+							"z": 0.14589600265026093
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "54167d685890aa1e",
+						"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+					}
+				}
+			},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"fc00aa853cf8a8f9": {
+			"parent": {
+				"ref": "33e243d004257b0",
+				"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+			},
+			"name": "lamp_street_mumbai_a_08",
+			"template": "[assembly:/_pro/environment/templates/props/street_props/traffic_props_a.template?/lamp_street_rat.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/street_props/traffic_props_a.template?/lamp_street_rat.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -45.99999834632059
+						},
+						"position": {
+							"x": -35.26335906982422,
+							"y": -17.51556968688965,
+							"z": 0.17022499442100525
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "54167d685890aa1e",
+						"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+					}
+				}
+			},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"dcfd22c6ff2f5cd2": {
+			"parent": {
+				"ref": "33e243d004257b0",
+				"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+			},
+			"name": "lamp_street_mumbai_a_09",
+			"template": "[assembly:/_pro/environment/templates/props/street_props/traffic_props_a.template?/lamp_street_rat.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/street_props/traffic_props_a.template?/lamp_street_rat.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -45.99994293996592
+						},
+						"position": {
+							"x": -17.834840774536133,
+							"y": 1.3091850280761719,
+							"z": 0.15541400015354156
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "54167d685890aa1e",
+						"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+					}
+				}
+			},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"27fa1e911001dbd3": {
+			"parent": {
+				"ref": "33e243d004257b0",
+				"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+			},
+			"name": "lamp_street_mumbai_a_10",
+			"template": "[assembly:/_pro/environment/templates/props/street_props/traffic_props_a.template?/lamp_street_rat.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/street_props/traffic_props_a.template?/lamp_street_rat.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 113.00006514419127
+						},
+						"position": {
+							"x": 1.235846996307373,
+							"y": 13.640689849853516,
+							"z": 0.003324999939650297
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "54167d685890aa1e",
+						"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+					}
+				}
+			},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"da4fac738ec7dae9": {
+			"parent": {
+				"ref": "33e243d004257b0",
+				"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+			},
+			"name": "lamp_street_mumbai_a_11",
+			"template": "[assembly:/_pro/environment/templates/props/street_props/traffic_props_a.template?/lamp_street_rat.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/street_props/traffic_props_a.template?/lamp_street_rat.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 93.09616726257487
+						},
+						"position": {
+							"x": -26.907499313354492,
+							"y": -40.93450927734375,
+							"z": 0.003323999932035804
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "54167d685890aa1e",
+						"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+					}
+				}
+			},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"839da44076728bb9": {
+			"parent": {
+				"ref": "33e243d004257b0",
+				"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+			},
+			"name": "lamp_street_mumbai_a_13",
+			"template": "[assembly:/_pro/environment/templates/props/street_props/traffic_props_a.template?/lamp_street_rat.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/street_props/traffic_props_a.template?/lamp_street_rat.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -46.99994401639795
+						},
+						"position": {
+							"x": 0.40257999300956726,
+							"y": 23.137399673461914,
+							"z": 0.18660500645637512
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "54167d685890aa1e",
+						"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+					}
+				}
+			},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"663babded97a29af": {
+			"parent": {
+				"ref": "33e243d004257b0",
+				"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+			},
+			"name": "lamp_street_mumbai_a_16",
+			"template": "[assembly:/_pro/environment/templates/props/street_props/traffic_props_a.template?/lamp_street_rat.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/street_props/traffic_props_a.template?/lamp_street_rat.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 150.0000669086785
+						},
+						"position": {
+							"x": 16.9683895111084,
+							"y": 31.550060272216797,
+							"z": 0.0073979999870061874
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "54167d685890aa1e",
+						"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+					}
+				}
+			},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"5942985a218ba788": {
+			"parent": {
+				"ref": "33e243d004257b0",
+				"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+			},
+			"name": "lamp_street_mumbai_a_17",
+			"template": "[assembly:/_pro/environment/templates/props/street_props/traffic_props_a.template?/lamp_street_rat.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/street_props/traffic_props_a.template?/lamp_street_rat.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": 17.952529907226562,
+							"y": 39.61368942260742,
+							"z": 0.17522099614143372
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "54167d685890aa1e",
+						"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+					}
+				}
+			},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"2a324cef2edfe8e7": {
+			"parent": {
+				"ref": "33e243d004257b0",
+				"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+			},
+			"name": "lamp_street_mumbai_a_18",
+			"template": "[assembly:/_pro/environment/templates/props/street_props/traffic_props_a.template?/lamp_street_rat.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/street_props/traffic_props_a.template?/lamp_street_rat.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -90
+						},
+						"position": {
+							"x": 7.707146167755127,
+							"y": 44.4710807800293,
+							"z": 0.18204599618911743
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "54167d685890aa1e",
+						"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+					}
+				}
+			},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"a21be0c382a9030f": {
+			"parent": {
+				"ref": "33e243d004257b0",
+				"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+			},
+			"name": "lamp_street_mumbai_a_19",
+			"template": "[assembly:/_pro/environment/templates/props/street_props/traffic_props_a.template?/lamp_street_rat.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/street_props/traffic_props_a.template?/lamp_street_rat.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -90
+						},
+						"position": {
+							"x": 7.498427867889404,
+							"y": 56.04431915283203,
+							"z": 0.18204599618911743
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "54167d685890aa1e",
+						"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+					}
+				}
+			},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"e6789771de00c912": {
+			"parent": {
+				"ref": "33e243d004257b0",
+				"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+			},
+			"name": "lamp_street_mumbai_a_20",
+			"template": "[assembly:/_pro/environment/templates/props/street_props/traffic_props_a.template?/lamp_street_rat.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/street_props/traffic_props_a.template?/lamp_street_rat.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -180
+						},
+						"position": {
+							"x": 4.6761932373046875,
+							"y": 62.2759895324707,
+							"z": 0.18204599618911743
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "54167d685890aa1e",
+						"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+					}
+				}
+			},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"4ebf6dc62b175ec2": {
+			"parent": {
+				"ref": "33e243d004257b0",
+				"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+			},
+			"name": "lamp_street_mumbai_a_21",
+			"template": "[assembly:/_pro/environment/templates/props/street_props/traffic_props_a.template?/lamp_street_rat.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/street_props/traffic_props_a.template?/lamp_street_rat.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": 15.415840148925781,
+							"y": 74.15357971191406,
+							"z": 0.17020900547504425
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "54167d685890aa1e",
+						"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+					}
+				}
+			},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"865f71cd2e0f5b24": {
+			"parent": {
+				"ref": "33e243d004257b0",
+				"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+			},
+			"name": "lamp_street_mumbai_b",
+			"template": "[assembly:/_pro/environment/templates/props/street_props/traffic_props_a.template?/lamp_street_rat.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/street_props/traffic_props_a.template?/lamp_street_rat.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -49.99988582690481
+						},
+						"position": {
+							"x": -22.619619369506836,
+							"y": -28.067909240722656,
+							"z": -0.07852800190448761
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "54167d685890aa1e",
+						"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+					}
+				}
+			},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"65b4ccd6ae4cda7b": {
+			"parent": {
+				"ref": "33e243d004257b0",
+				"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+			},
+			"name": "lamp_street_mumbai_b_01",
+			"template": "[assembly:/_pro/environment/templates/props/street_props/traffic_props_a.template?/lamp_street_rat.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/street_props/traffic_props_a.template?/lamp_street_rat.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -49.999924317274754
+						},
+						"position": {
+							"x": -8.911755561828613,
+							"y": -11.731539726257324,
+							"z": -0.07852829247713089
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "54167d685890aa1e",
+						"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+					}
+				}
+			},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"6bb96222902c3bdc": {
+			"parent": {
+				"ref": "33e243d004257b0",
+				"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+			},
+			"name": "lamp_street_mumbai_b",
+			"template": "[assembly:/_pro/environment/templates/props/street_props/traffic_props_a.template?/lamp_street_rat.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/street_props/traffic_props_a.template?/lamp_street_rat.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 130
+						},
+						"position": {
+							"x": -22.619619369506836,
+							"y": -28.067909240722656,
+							"z": -0.07852800190448761
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "54167d685890aa1e",
+						"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+					}
+				}
+			},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"995decbfffb1dae1": {
+			"parent": {
+				"ref": "33e243d004257b0",
+				"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+			},
+			"name": "lamp_street_mumbai_b_01",
+			"template": "[assembly:/_pro/environment/templates/props/street_props/traffic_props_a.template?/lamp_street_rat.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/street_props/traffic_props_a.template?/lamp_street_rat.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 130
+						},
+						"position": {
+							"x": -8.911755561828613,
+							"y": -11.731539726257324,
+							"z": -0.07852829247713089
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "54167d685890aa1e",
+						"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+					}
+				}
+			},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"a043a41834593a56": {
+			"parent": "fffffffffffffffe",
+			"name": "TimeOfDay",
+			"template": "[modules:/zentity.class].pc_entitytype",
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint",
+			"properties": {
+				"m_fTimeOfDay": {
+					"type": "float32",
+					"value": 22
+				}
+			},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"822c908f7ff01900": {
+			"parent": "a043a41834593a56",
+			"name": "Time of day",
+			"template": "[modules:/zentity.class].pc_entitytype",
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint",
+			"properties": {},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"8f0423e32fe6e7fc": {
+			"parent": "822c908f7ff01900",
+			"name": "Global_Master_Lights",
+			"template": "[modules:/zentity.class].pc_entitytype",
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint",
+			"properties": {},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"5deedae8bca534f3": {
+			"parent": "8f0423e32fe6e7fc",
+			"name": "Light_Slave_Sky",
+			"template": "[modules:/zlightentity.class].pc_entitytype",
+			"blueprint": "[modules:/zlightentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": -519.5087890625,
+							"y": -176.17140197753906,
+							"z": 22.220300674438477
+						}
+					}
+				},
+				"m_eLightType": {
+					"type": "ILightEntity.ELightType",
+					"value": "LT_ENVIRONMENT"
+				},
+				"m_bCastShadows": {
+					"type": "bool",
+					"value": false
+				},
+				"m_fDiffusePower": {
+					"type": "float32",
+					"value": 3
+				},
+				"m_diffuseColor": {
+					"type": "SColorRGB",
+					"value": "#c0daeb"
+				},
+				"m_bVisible": {
+					"type": "bool",
+					"value": true
+				}
+			},
+			"postInitProperties": {
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fffffffffffffffe"
+				}
+			},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"7c237deed5cdebf0": {
+			"parent": "822c908f7ff01900",
+			"name": "Postfilters",
+			"template": "[modules:/zentity.class].pc_entitytype",
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint",
+			"properties": {},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"7b53b07537f9e9d4": {
+			"parent": "7c237deed5cdebf0",
+			"name": "MiddleGrayCurve_Outside",
+			"template": "[modules:/zmiddlegraycurveentity.class].pc_entitytype",
+			"blueprint": "[modules:/zmiddlegraycurveentity.class].pc_entityblueprint",
+			"properties": {
+				"m_Remap": {
+					"type": "ZCurve",
+					"value": {
+						"data": [
+							[-6, 0.02542644366621971, 0, 0, 0, 0, 0.00635010888800025, 0.02542644366621971],
+							[-3.4249706268310547, 0.0317765511572361, 0, 0, 0, 0, 0.03636758774518967, 0.0317765511572361],
+							[-0.5432612299919128, 0.06814414262771606, 0, 0, 0, 0, 0.013796553947031498, 0.06814414262771606],
+							[-0.2957751750946045, 0.08194069564342499, 0, 0, 0, 0, 0.05986450985074043, 0.08194069564342499],
+							[-0.010386437177658081, 0.14180520176887512, 0, 0, 0, 0, 0.03984645754098892, 0.14180520176887512],
+							[0.21015605330467224, 0.18165165185928345, 0, 0, 0, 0, 0.017987553030252457, 0.18165165185928345],
+							[0.5025261640548706, 0.1996392160654068, 0, 0, 0, 0, 0, 0.1996392160654068]
+						]
+					}
+				}
+			},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"afeabf1aa8e75e2b": {
+			"parent": "7c237deed5cdebf0",
+			"name": "PostfilterParameters_1_Outside",
+			"template": "[modules:/zrenderpostfilterparametersentity.class].pc_entitytype",
+			"blueprint": "[modules:/zrenderpostfilterparametersentity.class].pc_entityblueprint",
+			"properties": {
+				"m_bColorCorrectionEnabled": {
+					"type": "bool",
+					"value": true
+				},
+				"m_bDistortionBarrelEnabled": {
+					"type": "bool",
+					"value": false
+				},
+				"m_bHDRLensFlareEnabled": {
+					"type": "bool",
+					"value": true
+				},
+				"m_fHDRBloomFalloff": {
+					"type": "float32",
+					"value": 1.5
+				},
+				"m_bNoiseEnabled": {
+					"type": "bool",
+					"value": false
+				},
+				"m_bHDRGlareEnabled": {
+					"type": "bool",
+					"value": true
+				},
+				"m_eHDRGlareType": {
+					"type": "ZRenderPostfilterParametersEntity.EHDRGlareType",
+					"value": "eFilterCrossScreenSpectral"
+				},
+				"m_bSSAOEnabled": {
+					"type": "bool",
+					"value": true
+				},
+				"m_bFogEnabled": {
+					"type": "bool",
+					"value": false
+				},
+				"m_fDistortionBarrelScale": {
+					"type": "float32",
+					"value": 0.20000000298023224
+				},
+				"m_bVignetteEnabled": {
+					"type": "bool",
+					"value": true
+				},
+				"m_bDepthOfFieldEnabled": {
+					"type": "bool",
+					"value": false
+				},
+				"m_fDepthOfFieldFocalDistance": {
+					"type": "float32",
+					"value": 10
+				},
+				"m_fLensBlur": {
+					"type": "float32",
+					"value": 0.30000001192092896
+				},
+				"m_bGaussianBlurEnabled": {
+					"type": "bool",
+					"value": false
+				},
+				"m_fGaussianBlurriness": {
+					"type": "float32",
+					"value": 1
+				},
+				"m_fSpatialBlurriness": {
+					"type": "float32",
+					"value": 1
+				},
+				"m_fDepthOfFieldFocusEnd": {
+					"type": "float32",
+					"value": 50
+				},
+				"m_fDepthOfFieldFocalFadeNear": {
+					"type": "float32",
+					"value": 0.5
+				},
+				"m_bRadialBlurEnabled": {
+					"type": "bool",
+					"value": false
+				},
+				"m_bSpatialBlurEnabled": {
+					"type": "bool",
+					"value": false
+				},
+				"m_fHDRBloomScale": {
+					"type": "float32",
+					"value": 0.64999997615814209
+				},
+				"m_fDepthOfFieldFocalFadeFar": {
+					"type": "float32",
+					"value": 25
+				},
+				"m_bDistortionWobbleEnabled": {
+					"type": "bool",
+					"value": false
+				},
+				"m_fDistortionWobbleScale": {
+					"type": "float32",
+					"value": 1
+				},
+				"m_vDistortionWobbleSpeed": {
+					"type": "SVector2",
+					"value": {
+						"x": 1,
+						"y": 1
+					}
+				},
+				"m_fNoiseIntensity": {
+					"type": "float32",
+					"value": 0.20000000298023224
+				},
+				"m_fNoiseScale": {
+					"type": "float32",
+					"value": 0.94999998807907104
+				},
+				"m_bFogGlobal": {
+					"type": "bool",
+					"value": false
+				},
+				"m_VignetteColor": {
+					"type": "SColorRGB",
+					"value": "#0d0d0d"
+				},
+				"m_fVignetteStrength": {
+					"type": "float32",
+					"value": 0.40000000596046448
+				},
+				"m_bDepthOfFieldUseNew": {
+					"type": "bool",
+					"value": true
+				},
+				"m_fDepthOfFieldAperture": {
+					"type": "float32",
+					"value": 3
+				},
+				"m_vDistortionBarrel": {
+					"type": "SVector2",
+					"value": {
+						"x": 0.2199999988079071,
+						"y": 0.05999999865889549
+					}
+				},
+				"m_bForegroundBlur": {
+					"type": "bool",
+					"value": false
+				},
+				"m_eBlurQuality": {
+					"type": "ZRenderPostfilterParametersEntity.EDOFBlurType",
+					"value": "eLowRezLensBlurSoft"
+				},
+				"m_fHDRLensFlareAttenuation": {
+					"type": "float32",
+					"value": 0.56999999284744263
+				},
+				"m_bFogUseQuarterRes": {
+					"type": "bool",
+					"value": false
+				},
+				"m_vFogNearDistances": {
+					"type": "SVector2",
+					"value": {
+						"x": 0,
+						"y": 0
+					}
+				},
+				"m_fFogTurbulenceOpacity": {
+					"type": "float32",
+					"value": 0.80000001192092896
+				},
+				"m_fRadialBlurStart": {
+					"type": "float32",
+					"value": 0
+				},
+				"m_fRadialBlurriness": {
+					"type": "float32",
+					"value": 1
+				},
+				"m_fRadialBlurFadeFactor": {
+					"type": "float32",
+					"value": 0.10999999940395355
+				},
+				"m_vVignetteGradientLightColor": {
+					"type": "SColorRGB",
+					"value": "#ffffff"
+				},
+				"m_fVignetteGradientLightSize": {
+					"type": "float32",
+					"value": 0.5
+				},
+				"m_fVignetteGradientLightStrength": {
+					"type": "float32",
+					"value": 0
+				},
+				"m_fDepthOfFieldBlurriness": {
+					"type": "float32",
+					"value": 1
+				},
+				"m_vFogTurbulenceVelocity": {
+					"type": "SVector3",
+					"value": {
+						"x": 0.30000001192092896,
+						"y": 0.5,
+						"z": 0.10000000149011612
+					}
+				},
+				"m_fHDRBrightPassMaxPercentage": {
+					"type": "float32",
+					"value": 10
+				},
+				"m_eHDRToneMapType": {
+					"type": "ZRenderPostfilterParametersEntity.EHDRToneMapType",
+					"value": "eFilmicRGB"
+				},
+				"m_fFogTurbulenceChaos": {
+					"type": "float32",
+					"value": 0.5
+				},
+				"m_bHDREnabled": {
+					"type": "bool",
+					"value": true
+				},
+				"m_fDepthOfFieldFocusStart": {
+					"type": "float32",
+					"value": 1
+				},
+				"m_fSSAOOcclusionRange": {
+					"type": "float32",
+					"value": 1
+				},
+				"m_HDRColorTint": {
+					"type": "SColorRGB",
+					"value": "#ffffff"
+				},
+				"m_fHDRWhitePoint": {
+					"type": "float32",
+					"value": 11
+				},
+				"m_fHDRBrightPassThreshold": {
+					"type": "float32",
+					"value": 0.5
+				},
+				"m_nParameterId": {
+					"type": "int32",
+					"value": 1
+				},
+				"m_vSSAOStrengthNearFar": {
+					"type": "SVector2",
+					"value": {
+						"x": 1.5,
+						"y": 15
+					}
+				},
+				"m_vSSAODistanceNearFar": {
+					"type": "SVector2",
+					"value": {
+						"x": 3,
+						"y": 15
+					}
+				},
+				"m_vSSAOScreenSpaceRadiusLimits": {
+					"type": "SVector2",
+					"value": {
+						"x": 46.86000061035156,
+						"y": 100
+					}
+				},
+				"m_vRadialBlurCenter": {
+					"type": "SVector2",
+					"value": {
+						"x": 0.5,
+						"y": 0.5
+					}
+				},
+				"m_vSpatialBlurCenter": {
+					"type": "SVector3",
+					"value": {
+						"x": 0,
+						"y": 0,
+						"z": 0
+					}
+				},
+				"m_fSpatialBlurStart": {
+					"type": "float32",
+					"value": 0
+				},
+				"m_fSpatialBlurFade": {
+					"type": "float32",
+					"value": 10
+				},
+				"BillboardTexture": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "00BD0885FB23C17A",
+						"flag": "5F"
+					}
+				},
+				"m_fLabsDofAnamorphic": {
+					"type": "float32",
+					"value": 0
+				},
+				"m_fLabsDofSwirl": {
+					"type": "float32",
+					"value": 0
+				},
+				"m_bDistortionBarrelUseRealTime": {
+					"type": "bool",
+					"value": false
+				},
+				"m_vDistortionWobbleWaveLength": {
+					"type": "SVector2",
+					"value": {
+						"x": 0.029999999329447746,
+						"y": 0.029999999329447746
+					}
+				},
+				"m_bDistortionWobbleUseRealTime": {
+					"type": "bool",
+					"value": false
+				},
+				"m_bDoubleVisionEnabled": {
+					"type": "bool",
+					"value": false
+				},
+				"m_fDoubleVisionStrength": {
+					"type": "float32",
+					"value": 0.10000000149011612
+				},
+				"m_fDoubleVisionSpeed": {
+					"type": "float32",
+					"value": 0.10000000149011612
+				},
+				"m_fDoubleVisionEyeSeparation": {
+					"type": "float32",
+					"value": 0
+				},
+				"m_fDoubleVisionSpeed1": {
+					"type": "float32",
+					"value": 147
+				},
+				"m_fDoubleVisionSpeed2": {
+					"type": "float32",
+					"value": 109
+				},
+				"m_fDoubleVisionScaleSpeed1": {
+					"type": "float32",
+					"value": 121
+				},
+				"m_fDoubleVisionScaleSpeed2": {
+					"type": "float32",
+					"value": 97
+				},
+				"m_fDoubleVisionMinScale": {
+					"type": "float32",
+					"value": 0.070000000298023224
+				},
+				"m_fDoubleVisionMaxScale": {
+					"type": "float32",
+					"value": 0.090000003576278687
+				},
+				"m_fDoubleVisionBlendSpeed": {
+					"type": "float32",
+					"value": 80
+				},
+				"m_fDoubleVisionBlendStrength": {
+					"type": "float32",
+					"value": 0.20000000298023224
+				},
+				"m_fDoubleVisionTrailStrength": {
+					"type": "float32",
+					"value": 0.05000000074505806
+				},
+				"m_vHDRAdaptationLuminanceMinMax": {
+					"type": "SVector2",
+					"value": {
+						"x": 0.30000001192092896,
+						"y": 3
+					}
+				},
+				"m_HDRLensFlareColorA": {
+					"type": "SColorRGB",
+					"value": "#000000"
+				},
+				"m_fHDRLensFlareThresholdA": {
+					"type": "float32",
+					"value": 0.4699999988079071
+				},
+				"m_HDRLensFlareColorB": {
+					"type": "SColorRGB",
+					"value": "#000000"
+				},
+				"m_fHDRLensFlareThresholdB": {
+					"type": "float32",
+					"value": 0.43000000715255737
+				},
+				"m_HDRLensFlareColorC": {
+					"type": "SColorRGB",
+					"value": "#451a47"
+				},
+				"m_fHDRLensFlareThresholdC": {
+					"type": "float32",
+					"value": 0.0099999997764825821
+				},
+				"m_HDRLensFlareColorD": {
+					"type": "SColorRGB",
+					"value": "#240d05"
+				},
+				"m_fHDRLensFlareThresholdD": {
+					"type": "float32",
+					"value": 0.20000000298023224
+				},
+				"m_fSSAOAngleOffset": {
+					"type": "float32",
+					"value": 0.30000001192092896
+				},
+				"m_fHDRExposureMeteringSize": {
+					"type": "float32",
+					"value": 0.30000001192092896
+				},
+				"m_fHDRStarScale": {
+					"type": "float32",
+					"value": 0.20000000298023224
+				},
+				"m_fVignetteMax": {
+					"type": "float32",
+					"value": 1.6000000238418579
+				}
+			},
+			"postInitProperties": {
+				"m_HDRAdaptionMiddleGrayCurveEntity": {
+					"type": "SEntityTemplateReference",
+					"value": "7b53b07537f9e9d4"
+				}
+			},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"6e899eb2896fe0d0": {
+			"parent": "822c908f7ff01900",
+			"name": "Light_CSM",
+			"template": "[modules:/zlightentity.class].pc_entitytype",
+			"blueprint": "[modules:/zlightentity.class].pc_entityblueprint",
+			"properties": {
+				"m_eLightType": {
+					"type": "ILightEntity.ELightType",
+					"value": "LT_DIRECTIONAL"
+				},
+				"m_vBoxSize": {
+					"type": "SVector3",
+					"value": {
+						"x": 184.822998046875,
+						"y": 270.92999267578125,
+						"z": 335.1239929199219
+					}
+				},
+				"m_bCastCSMShadows": {
+					"type": "bool",
+					"value": true
+				},
+				"m_fDiffusePower": {
+					"type": "float32",
+					"value": 3
+				},
+				"m_bVisible": {
+					"type": "bool",
+					"value": true
+				},
+				"m_bCastShadows": {
+					"type": "bool",
+					"value": true
+				},
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -10.105911877492163,
+							"y": 69.10185483317078,
+							"z": -59.15813817784164
+						},
+						"position": {
+							"x": 53.38496017456055,
+							"y": 111.18240356445313,
+							"z": 1.8689689636230469
+						}
+					}
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_STATIC_OUTSIDE_CLIENT"
+				},
+				"m_fShadowFadeDistance": {
+					"type": "float32",
+					"value": 10
+				},
+				"m_diffuseColor": {
+					"type": "SColorRGB",
+					"value": "#d6e2ff"
+				},
+				"m_fWrappedDiffuse": {
+					"type": "float32",
+					"value": 0
+				},
+				"m_fLightBleedingReduction": {
+					"type": "float32",
+					"value": 0.20000000298023224
+				},
+				"m_vCSMCascadeRadii": {
+					"type": "SVector3",
+					"value": {
+						"x": -1,
+						"y": -1,
+						"z": 7.5
+					}
+				},
+				"m_bUseDynamicShadowMap": {
+					"type": "bool",
+					"value": true
+				}
+			},
+			"postInitProperties": {
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fffffffffffffffe"
+				}
+			},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"a58173201af0a52f": {
+			"parent": "822c908f7ff01900",
+			"name": "fx_glow_starfield.1",
+			"template": "[assembly:/_pro/effects/geometry/glow/fx_glow_starfield.wl2?/fx_glow_starfield.prim].pc_entitytype",
+			"blueprint": "[assembly:/templates/geometrytemplatenocoll.template?/geomentity01.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": 32.35503005981445,
+							"y": -39.96133041381836,
+							"z": 256.106201171875
+						}
+					}
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_STATIC_OUTSIDE_CLIENT"
+				},
+				"m_bVisible": {
+					"type": "bool",
+					"value": false
+				},
+				"m_bCastShadows": {
+					"type": "bool",
+					"value": false
+				}
+			},
+			"postInitProperties": {
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fffffffffffffffe"
+				}
+			},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"6a4d6b0a5062024f": {
+			"parent": "a58173201af0a52f",
+			"name": "fx_glow_starfield",
+			"template": "[assembly:/_pro/effects/materials/glow/fx_glow_starfield.mi].pc_entitytype",
+			"blueprint": "[assembly:/_pro/effects/materials/glow/fx_glow_starfield.mi].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						}
+					}
+				},
+				"ConstantColorRGB_01_Value_op": {
+					"type": "IRenderMaterialEntity.EModifierOperation",
+					"value": "eReplace"
+				},
+				"ConstantColorRGB_01_Value": {
+					"type": "SColorRGB",
+					"value": "#787ed6"
+				},
+				"ConstantVector1D_01_Value": {
+					"type": "float32",
+					"value": 900
+				},
+				"ConstantVector1D_01_Value_op": {
+					"type": "IRenderMaterialEntity.EModifierOperation",
+					"value": "eReplace"
+				}
+			},
+			"postInitProperties": {
+				"Clients": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["a58173201af0a52f"]
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "a58173201af0a52f"
+				}
+			},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"7efcd0f5e9cbdb6a": {
+			"parent": "822c908f7ff01900",
+			"name": "Sky_Night_B_00",
+			"template": "00A01A2790FF4E7D",
+			"blueprint": "0099A3EBCAF12090",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 130.69411020129283
+						},
+						"position": {
+							"x": -60.65182113647461,
+							"y": 8.69940185546875,
+							"z": -42.55730056762695
+						}
+					}
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_STATIC_OUTSIDE_CLIENT"
+				},
+				"m_bVisible": {
+					"type": "bool",
+					"value": true
+				},
+				"ConstantVector1D_02_Value": {
+					"type": "float32",
+					"value": 0.89999997615814209
+				},
+				"ConstantVector1D_07_Value": {
+					"type": "float32",
+					"value": 2
+				}
+			},
+			"postInitProperties": {
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fffffffffffffffe"
+				}
+			},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"e8c25a1352843362": {
+			"parent": "822c908f7ff01900",
+			"name": "TimeOfDayConfig",
+			"template": "[modules:/ztimeofdayconfig.class].pc_entitytype",
+			"blueprint": "[modules:/ztimeofdayconfig.class].pc_entityblueprint",
+			"properties": {
+				"m_fTimeOfDay": {
+					"type": "float32",
+					"value": 22
+				}
+			},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"fac867d24093d38c": {
+			"parent": "822c908f7ff01900",
+			"name": "RenderAtmosphericScattering",
+			"template": "[modules:/zrenderatmosphericscatteringentity.class].pc_entitytype",
+			"blueprint": "[modules:/zrenderatmosphericscatteringentity.class].pc_entityblueprint",
+			"properties": {
+				"252335555": {
+					"type": "SColorRGB",
+					"value": "#575757"
+				},
+				"1067642691": {
+					"type": "bool",
+					"value": true
+				},
+				"1884680034": {
+					"type": "SColorRGB",
+					"value": "#000000"
+				},
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": 65.85529327392578,
+							"y": -67.98451232910156,
+							"z": 50.82094955444336
+						}
+					}
+				},
+				"m_fSunIntensityScale": {
+					"type": "float32",
+					"value": 500
+				},
+				"m_fSunRadiusScale": {
+					"type": "float32",
+					"value": 1
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fffffffffffffffe"
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_STATIC"
+				},
+				"m_bForceVisible": {
+					"type": "bool",
+					"value": false
+				},
+				"m_bVisible": {
+					"type": "bool",
+					"value": true
+				},
+				"m_bIsPrivate": {
+					"type": "bool",
+					"value": false
+				},
+				"m_bVisibleInBoxReflection": {
+					"type": "bool",
+					"value": true
+				},
+				"m_fWorldScale": {
+					"type": "float32",
+					"value": 1
+				},
+				"m_fInscatterIntensity": {
+					"type": "float32",
+					"value": 0.10000000149011612
+				},
+				"m_RayleighColor": {
+					"type": "SColorRGB",
+					"value": "#f2f7ff"
+				},
+				"m_fMieAnisotropy": {
+					"type": "float32",
+					"value": 0.47999998927116394
+				},
+				"m_fShadowedRange": {
+					"type": "float32",
+					"value": 100
+				},
+				"m_fHeightAboveSeaLevel": {
+					"type": "float32",
+					"value": 1
+				},
+				"m_fAmbientInscatterFraction": {
+					"type": "float32",
+					"value": 1
+				},
+				"m_fMieHeightScale": {
+					"type": "float32",
+					"value": 200
+				},
+				"m_fRayleighHeightScale": {
+					"type": "float32",
+					"value": 5000
+				},
+				"m_fMieDepthScale": {
+					"type": "float32",
+					"value": 1
+				},
+				"m_fWaterPlaneHeight": {
+					"type": "float32",
+					"value": 0
+				},
+				"m_fShadowedInscatterIntensity": {
+					"type": "float32",
+					"value": 100
+				},
+				"m_MieColor": {
+					"type": "SColorRGB",
+					"value": "#ffffff"
+				}
+			},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": [{
+				"propertyValue": {
+					"nPropertyID": "m_RayleighColor",
+					"value": {
+						"$type": "SColorRGB",
+						"$val": {
+							"r": 0.34117648005485535,
+							"g": 0.34117648005485535,
+							"b": 0.34117648005485535
+						}
+					}
+				},
+				"platform": "VR_PS4",
+				"postInit": false
+			}, {
+				"propertyValue": {
+					"nPropertyID": "m_MieColor",
+					"value": {
+						"$type": "SColorRGB",
+						"$val": {
+							"r": 0,
+							"g": 0,
+							"b": 0
+						}
+					}
+				},
+				"platform": "VR_PS4",
+				"postInit": false
+			}]
+		},
+		"abcdae9b2a96ec96": {
+			"parent": "fffffffffffffffe",
+			"name": "Ruddy Night Additions",
+			"template": "[modules:/zentity.class].pc_entitytype",
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint",
+			"properties": {},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": [],
+			"events": [],
+			"inputCopying": [],
+			"outputCopying": []
+		},
+		"abcd7dcf3f4ef33d": {
+			"parent": "abcdae9b2a96ec96",
+			"name": "pier_light_b_left(ref abcdaf01c0d2a872)",
+			"template": "0026B173B9158A05",
+			"blueprint": "00B2127A5DB7957E",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": -88,
+							"y": -54.7,
+							"z": 4.95
+						}
+					}
+				},
+				"On": {
+					"type": "bool",
+					"value": true
+				},
+				"DiffusePower": {
+					"type": "float32",
+					"value": 150
+				},
+				"GlowPower": {
+					"type": "float32",
+					"value": 800
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				},
+				"m_bCastShadows": {
+					"type": "bool",
+					"value": true
+				},
+				"m_fShadowFadeDistance": {
+					"type": "float32",
+					"value": 60
+				},
+				"m_fLightFadeDistance": {
+					"type": "float32",
+					"value": 60
+				},
+				"m_vFarAttenuation": {
+					"type": "SVector2",
+					"value": {
+						"x": 6.6000000238418579,
+						"y": 6.5
+					}
+				}
+			},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"abcd3ea13708fd6f": {
+			"parent": "abcdae9b2a96ec96",
+			"name": "pier_light_b_right",
+			"template": "0026B173B9158A05",
+			"blueprint": "00B2127A5DB7957E",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 180
+						},
+						"position": {
+							"x": -82.202,
+							"y": -54.8486,
+							"z": 4.95
+						}
+					}
+				},
+				"On": {
+					"type": "bool",
+					"value": true
+				},
+				"DiffusePower": {
+					"type": "float32",
+					"value": 150
+				},
+				"GlowPower": {
+					"type": "float32",
+					"value": 800
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				},
+				"m_bCastShadows": {
+					"type": "bool",
+					"value": true
+				},
+				"m_fShadowFadeDistance": {
+					"type": "float32",
+					"value": 60
+				},
+				"m_fLightFadeDistance": {
+					"type": "float32",
+					"value": 60
+				},
+				"m_vFarAttenuation": {
+					"type": "SVector2",
+					"value": {
+						"x": 6.6000000238418579,
+						"y": 6.5
+					}
+				}
+			},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"abcd1d8eb9b00578": {
+			"parent": "abcdae9b2a96ec96",
+			"name": "Light_Flood_A_00_Tower4",
+			"template": "[assembly:/_pro/environment/templates/props/lamps/lamps_outdoor_paris_a.template?/light_flood_a_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/lamps/lamps_outdoor_paris_a.template?/light_flood_a_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 40
+						},
+						"position": {
+							"x": -19.0793,
+							"y": 34.2207,
+							"z": 29.589
+						}
+					}
+				},
+				"On": {
+					"type": "bool",
+					"value": true
+				},
+				"GlowPower": {
+					"type": "float32",
+					"value": 1500
+				},
+				"DiffusePower": {
+					"type": "float32",
+					"value": 200
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				}
+			},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"abcd3eb1d2b76162": {
+			"parent": "abcdae9b2a96ec96",
+			"name": "Light_Flood_A_00_Tower3",
+			"template": "[assembly:/_pro/environment/templates/props/lamps/lamps_outdoor_paris_a.template?/light_flood_a_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/lamps/lamps_outdoor_paris_a.template?/light_flood_a_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 150
+						},
+						"position": {
+							"x": -11.9336,
+							"y": 18.1881,
+							"z": 29.589
+						}
+					}
+				},
+				"On": {
+					"type": "bool",
+					"value": true
+				},
+				"GlowPower": {
+					"type": "float32",
+					"value": 1500
+				},
+				"DiffusePower": {
+					"type": "float32",
+					"value": 200
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				}
+			},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"abcd99ae0d1fe38c": {
+			"parent": "abcdae9b2a96ec96",
+			"name": "Light_Flood_A_00_Filmset2",
+			"template": "[assembly:/_pro/environment/templates/props/lamps/lamps_outdoor_paris_a.template?/light_flood_a_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/lamps/lamps_outdoor_paris_a.template?/light_flood_a_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 40
+						},
+						"position": {
+							"x": -15.4938,
+							"y": 15.3775,
+							"z": 14.8387
+						}
+					}
+				},
+				"On": {
+					"type": "bool",
+					"value": true
+				},
+				"GlowPower": {
+					"type": "float32",
+					"value": 1500
+				},
+				"DiffusePower": {
+					"type": "float32",
+					"value": 200
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				}
+			},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"abcda7fbc5de8a35": {
+			"parent": "abcdae9b2a96ec96",
+			"name": "Light_Flood_A_00_Tower2",
+			"template": "[assembly:/_pro/environment/templates/props/lamps/lamps_outdoor_paris_a.template?/light_flood_a_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/lamps/lamps_outdoor_paris_a.template?/light_flood_a_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -130
+						},
+						"position": {
+							"x": -34.4599,
+							"y": 17.0916,
+							"z": 29.589
+						}
+					}
+				},
+				"On": {
+					"type": "bool",
+					"value": true
+				},
+				"GlowPower": {
+					"type": "float32",
+					"value": 1500
+				},
+				"DiffusePower": {
+					"type": "float32",
+					"value": 200
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				}
+			},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"abcd87f36905e0f2": {
+			"parent": "abcdae9b2a96ec96",
+			"name": "Lamp_Street_Ornamented_Italy_A_Hill2",
+			"template": "[assembly:/_pro/environment/templates/props/lamps/lamps_outdoor_italy_a.template?/lamp_street_ornamented_italy_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/lamps/lamps_outdoor_italy_a.template?/lamp_street_ornamented_italy_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": -39.3385,
+							"y": -115.225,
+							"z": 7.89233
+						}
+					}
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				},
+				"m_bCastShadows": {
+					"type": "bool",
+					"value": true
+				},
+				"DiffusePower": {
+					"type": "float32",
+					"value": 35
+				},
+				"m_fLightFadeDistance": {
+					"type": "float32",
+					"value": 100
+				},
+				"DiffuseColor": {
+					"type": "SColorRGB",
+					"value": "#f1fffd"
+				},
+				"m_fShadowFadeDistance": {
+					"type": "float32",
+					"value": 50
+				},
+				"LightOn": {
+					"type": "bool",
+					"value": true
+				}
+			},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"abcd4fd736d1bc7d": {
+			"parent": "abcdae9b2a96ec96",
+			"name": "Lamp_Street_Ornamented_Italy_A_Pier",
+			"template": "[assembly:/_pro/environment/templates/props/lamps/lamps_outdoor_italy_a.template?/lamp_street_ornamented_italy_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/lamps/lamps_outdoor_italy_a.template?/lamp_street_ornamented_italy_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": -8.68228,
+							"y": -128.891,
+							"z": -0.960697
+						}
+					}
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				},
+				"m_bCastShadows": {
+					"type": "bool",
+					"value": true
+				},
+				"DiffusePower": {
+					"type": "float32",
+					"value": 35
+				},
+				"m_fLightFadeDistance": {
+					"type": "float32",
+					"value": 100
+				},
+				"DiffuseColor": {
+					"type": "SColorRGB",
+					"value": "#f1fffd"
+				},
+				"m_fShadowFadeDistance": {
+					"type": "float32",
+					"value": 50
+				}
+			},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"abcd1a44546e2b03": {
+			"parent": "abcdae9b2a96ec96",
+			"name": "pier_light_b_trainyard",
+			"template": "0026B173B9158A05",
+			"blueprint": "00B2127A5DB7957E",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 40
+						},
+						"position": {
+							"x": -177.814,
+							"y": -94.1543,
+							"z": -0.960667
+						}
+					}
+				},
+				"On": {
+					"type": "bool",
+					"value": true
+				},
+				"DiffusePower": {
+					"type": "float32",
+					"value": 150
+				},
+				"GlowPower": {
+					"type": "float32",
+					"value": 800
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				},
+				"m_bCastShadows": {
+					"type": "bool",
+					"value": true
+				},
+				"m_fShadowFadeDistance": {
+					"type": "float32",
+					"value": 60
+				},
+				"m_fLightFadeDistance": {
+					"type": "float32",
+					"value": 60
+				},
+				"m_vFarAttenuation": {
+					"type": "SVector2",
+					"value": {
+						"x": 4.6000000238418579,
+						"y": 19.5
+					}
+				}
+			},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"abcde77d2608ba92": {
+			"parent": "abcdae9b2a96ec96",
+			"name": "Lamp_Street_Ornamented_Italy_A_Hill",
+			"template": "[assembly:/_pro/environment/templates/props/lamps/lamps_outdoor_italy_a.template?/lamp_street_ornamented_italy_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/lamps/lamps_outdoor_italy_a.template?/lamp_street_ornamented_italy_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": -71.6015,
+							"y": -126.133,
+							"z": 8.30507
+						}
+					}
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				},
+				"m_bCastShadows": {
+					"type": "bool",
+					"value": true
+				},
+				"DiffusePower": {
+					"type": "float32",
+					"value": 35
+				},
+				"m_fLightFadeDistance": {
+					"type": "float32",
+					"value": 100
+				},
+				"DiffuseColor": {
+					"type": "SColorRGB",
+					"value": "#f1fffd"
+				},
+				"m_fShadowFadeDistance": {
+					"type": "float32",
+					"value": 50
+				},
+				"LightOn": {
+					"type": "bool",
+					"value": true
+				}
+			},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"abcd7589ff590525": {
+			"parent": "abcdae9b2a96ec96",
+			"name": "Light_Flood_A_00_Filmset",
+			"template": "[assembly:/_pro/environment/templates/props/lamps/lamps_outdoor_paris_a.template?/light_flood_a_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/lamps/lamps_outdoor_paris_a.template?/light_flood_a_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -120
+						},
+						"position": {
+							"x": -38.2227,
+							"y": 2.25975,
+							"z": 14.8387
+						}
+					}
+				},
+				"On": {
+					"type": "bool",
+					"value": true
+				},
+				"GlowPower": {
+					"type": "float32",
+					"value": 1500
+				},
+				"DiffusePower": {
+					"type": "float32",
+					"value": 200
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				}
+			},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"abcdd4a29226529a": {
+			"parent": "abcdae9b2a96ec96",
+			"name": "Light_Flood_A_00_Tower",
+			"template": "[assembly:/_pro/environment/templates/props/lamps/lamps_outdoor_paris_a.template?/light_flood_a_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/lamps/lamps_outdoor_paris_a.template?/light_flood_a_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -40
+						},
+						"position": {
+							"x": -39.8876,
+							"y": 38.0978,
+							"z": 29.589
+						}
+					}
+				},
+				"On": {
+					"type": "bool",
+					"value": true
+				},
+				"GlowPower": {
+					"type": "float32",
+					"value": 1500
+				},
+				"DiffusePower": {
+					"type": "float32",
+					"value": 200
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				}
+			},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"abcdf3c6f287aafe": {
+			"parent": "abcdae9b2a96ec96",
+			"name": "pier_light_a_Rangan2",
+			"template": "[assembly:/_pro/environment/templates/props/lamps/lamps_outdoor_magpie_a.template?/pier_light_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/lamps/lamps_outdoor_magpie_a.template?/pier_light_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 100
+						},
+						"position": {
+							"x": -23.1116,
+							"y": 66.5441,
+							"z": -0.960637
+						}
+					}
+				},
+				"On": {
+					"type": "bool",
+					"value": true
+				},
+				"DiffusePower": {
+					"type": "float32",
+					"value": 45
+				},
+				"GlowPower": {
+					"type": "float32",
+					"value": 450
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				},
+				"m_bCastShadows": {
+					"type": "bool",
+					"value": true
+				},
+				"m_fShadowFadeDistance": {
+					"type": "float32",
+					"value": 60
+				},
+				"m_fLightFadeDistance": {
+					"type": "float32",
+					"value": 70
+				},
+				"m_vFarAttenuation": {
+					"type": "SVector2",
+					"value": {
+						"x": 19.6000000238418579,
+						"y": 5.5
+					}
+				},
+				"DiffuseColor": {
+					"type": "SColorRGB",
+					"value": "#f2f2f2"
+				}
+			},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"abcd03805c4c8917": {
+			"parent": "abcdae9b2a96ec96",
+			"name": "Lamp_Strip_Light_Single_A_Tower3",
+			"template": "[assembly:/_pro/environment/templates/props/lamps/lamps_indoor_a.template?/lamp_strip_light_single_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/lamps/lamps_indoor_a.template?/lamp_strip_light_single_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -90,
+							"y": 90,
+							"z": 90
+						},
+						"position": {
+							"x": -15.8,
+							"y": 17.9392,
+							"z": 15.8387
+						}
+					}
+				},
+				"DiffusePower": {
+					"type": "float32",
+					"value": 300
+				},
+				"DiffuseColor": {
+					"type": "SColorRGB",
+					"value": "#79fff8"
+				},
+				"m_vFarAttenuation": {
+					"type": "SVector2",
+					"value": {
+						"x": 1.1399999856948853,
+						"y": 4.5
+					}
+				},
+				"m_vAngularAttenuation": {
+					"type": "SVector2",
+					"value": {
+						"x": 0.20000000298023224,
+						"y": 0.8199999928474426
+					}
+				},
+				"m_bCastShadows": {
+					"type": "bool",
+					"value": true
+				},
+				"GlowPower": {
+					"type": "float32",
+					"value": 200
+				},
+				"On": {
+					"type": "bool",
+					"value": true
+				},
+				"m_fWrappedDiffuse": {
+					"type": "float32",
+					"value": 0.60000002384185791
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				}
+			},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"abcdda5f4df17164": {
+			"parent": "abcdae9b2a96ec96",
+			"name": "pier_light_b_InnerTrainyard",
+			"template": "0026B173B9158A05",
+			"blueprint": "00B2127A5DB7957E",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -140
+						},
+						"position": {
+							"x": -142.199,
+							"y": -140.978,
+							"z": -0.885181
+						}
+					}
+				},
+				"On": {
+					"type": "bool",
+					"value": true
+				},
+				"DiffusePower": {
+					"type": "float32",
+					"value": 150
+				},
+				"GlowPower": {
+					"type": "float32",
+					"value": 800
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				},
+				"m_bCastShadows": {
+					"type": "bool",
+					"value": true
+				},
+				"m_fShadowFadeDistance": {
+					"type": "float32",
+					"value": 60
+				},
+				"m_fLightFadeDistance": {
+					"type": "float32",
+					"value": 60
+				},
+				"m_vFarAttenuation": {
+					"type": "SVector2",
+					"value": {
+						"x": 4.6000000238418579,
+						"y": 19.5
+					}
+				}
+			},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"abcd7febb44ab223": {
+			"parent": "abcdae9b2a96ec96",
+			"name": "Lamp_Strip_Light_Single_A_Streets",
+			"template": "[assembly:/_pro/environment/templates/props/lamps/lamps_indoor_a.template?/lamp_strip_light_single_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/lamps/lamps_indoor_a.template?/lamp_strip_light_single_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 70,
+							"y": 0,
+							"z": -11
+						},
+						"position": {
+							"x": -49.7,
+							"y": -146.0,
+							"z": 1.6
+						}
+					}
+				},
+				"DiffusePower": {
+					"type": "float32",
+					"value": 300
+				},
+				"DiffuseColor": {
+					"type": "SColorRGB",
+					"value": "#79fff8"
+				},
+				"m_vFarAttenuation": {
+					"type": "SVector2",
+					"value": {
+						"x": 1.1399999856948853,
+						"y": 4.5
+					}
+				},
+				"m_vAngularAttenuation": {
+					"type": "SVector2",
+					"value": {
+						"x": 0.20000000298023224,
+						"y": 0.8199999928474426
+					}
+				},
+				"m_bCastShadows": {
+					"type": "bool",
+					"value": true
+				},
+				"GlowPower": {
+					"type": "float32",
+					"value": 200
+				},
+				"On": {
+					"type": "bool",
+					"value": true
+				},
+				"m_fWrappedDiffuse": {
+					"type": "float32",
+					"value": 0.60000002384185791
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				}
+			},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"abcd337adc281f3f": {
+			"parent": "abcdae9b2a96ec96",
+			"name": "Wall_Lamp_Rustic_C_00Sewer",
+			"template": "[assembly:/_pro/environment/templates/props/lamps/lamps_indoor_italy_a.template?/wall_lamp_rustic_c_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/lamps/lamps_indoor_italy_a.template?/wall_lamp_rustic_c_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 60
+						},
+						"position": {
+							"x": -107.98,
+							"y": -132.419,
+							"z": 1.8
+						}
+					}
+				},
+				"IgnoreTimeOfDay": {
+					"type": "bool",
+					"value": false
+				},
+				"GlowPower": {
+					"type": "float32",
+					"value": 500
+				},
+				"DiffusePower": {
+					"type": "float32",
+					"value": 150
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				},
+				"m_bCastShadows": {
+					"type": "bool",
+					"value": true
+				}
+			},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"abcd97b258e4067b": {
+			"parent": "abcdae9b2a96ec96",
+			"name": "Light_Flood_A_00_WeedYard1",
+			"template": "[assembly:/_pro/environment/templates/props/lamps/lamps_outdoor_paris_a.template?/light_flood_a_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/lamps/lamps_outdoor_paris_a.template?/light_flood_a_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 100
+						},
+						"position": {
+							"x": -219.591,
+							"y": -96.6121,
+							"z": 0.102215
+						}
+					}
+				},
+				"On": {
+					"type": "bool",
+					"value": true
+				},
+				"GlowPower": {
+					"type": "float32",
+					"value": 1500
+				},
+				"DiffusePower": {
+					"type": "float32",
+					"value": 200
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				},
+				"m_vFarAttenuation": {
+					"type": "SVector2",
+					"value": {
+						"x": 4.6000000238418579,
+						"y": 19.5
+					}
+				}
+			},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"abcd760841684167": {
+			"parent": "abcdae9b2a96ec96",
+			"name": "Light_Flood_A_00_WeedYard3",
+			"template": "[assembly:/_pro/environment/templates/props/lamps/lamps_outdoor_paris_a.template?/light_flood_a_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/lamps/lamps_outdoor_paris_a.template?/light_flood_a_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -70
+						},
+						"position": {
+							"x": -165.567,
+							"y": -181.01,
+							"z": -0.644051
+						}
+					}
+				},
+				"On": {
+					"type": "bool",
+					"value": true
+				},
+				"GlowPower": {
+					"type": "float32",
+					"value": 1500
+				},
+				"DiffusePower": {
+					"type": "float32",
+					"value": 200
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				}
+			},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"abcd18f499fcbc7a": {
+			"parent": "fffffffffffffffe",
+			"name": "Trigger stuff upon game start",
+			"template": "[modules:/zgameeventlistenerentity.class].pc_entitytype",
+			"blueprint": "[modules:/zgameeventlistenerentity.class].pc_entityblueprint",
+			"properties": {
+				"m_eEvent": {
+					"type": "EGameEventType",
+					"value": "GET_IntroCutEnd"
+				}
+			},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"events": [{
+				"onEvent": "EventOccurred",
+				"shouldTrigger": "GetIndex",
+				"onEntity": "abcd2ce9563c89e9"
+			}],
+			"platformSpecificPropertyValues": []
+		},
+		"abcd2ce9563c89e9": {
+			"parent": "abcd18f499fcbc7a",
+			"name": "zmultiparentspatialentity",
+			"template": "[modules:/zmultiparentspatialentity.class].pc_entitytype",
+			"blueprint": "[modules:/zmultiparentspatialentity.class].pc_entityblueprint",
+			"properties": {
+				"m_aParents": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["abcd4fd736d1bc7d", "abcda7fbc5de8a35", "abcd3eb1d2b76162", "abcd7589ff590525", "abcd99ae0d1fe38c", "abcdd4a29226529a", "abcd7febb44ab223", "abcd03805c4c8917", "abcdda5f4df17164", "abcde77d2608ba92", "abcd87f36905e0f2", "abcdf3c6f287aafe", "abcd97b258e4067b", "abcd760841684167", "abcd1a44546e2b03", "abcd7dcf3f4ef33d", "abcd3ea13708fd6f", "abcd1d8eb9b00578", "abcd337adc281f3f"]
+				}
+			},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": [],
+			"events": [],
+			"inputCopying": [],
+			"outputCopying": []
+		},
+		"abcd94572771cebe": {
+			"parent": "abcdae9b2a96ec96",
+			"name": "Light_Flood_A_00_Construction",
+			"template": "[assembly:/_pro/environment/templates/props/lamps/lamps_outdoor_paris_a.template?/light_flood_a_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/lamps/lamps_outdoor_paris_a.template?/light_flood_a_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 155
+						},
+						"position": {
+							"x": 12.829,
+							"y": -44.4933,
+							"z": -1.07069
+						}
+					}
+				},
+				"On": {
+					"type": "bool",
+					"value": true
+				},
+				"GlowPower": {
+					"type": "float32",
+					"value": 1500
+				},
+				"DiffusePower": {
+					"type": "float32",
+					"value": 200
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				}
+			},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"abcdf82d2938e939": {
+			"parent": "abcdae9b2a96ec96",
+			"name": "Light_Flood_A_00_Construction2",
+			"template": "[assembly:/_pro/environment/templates/props/lamps/lamps_outdoor_paris_a.template?/light_flood_a_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/lamps/lamps_outdoor_paris_a.template?/light_flood_a_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": 10.3593,
+							"y": -16.8394,
+							"z": -1.07069
+						}
+					}
+				},
+				"On": {
+					"type": "bool",
+					"value": true
+				},
+				"GlowPower": {
+					"type": "float32",
+					"value": 1500
+				},
+				"DiffusePower": {
+					"type": "float32",
+					"value": 200
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				}
+			},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"abcd990909de1472": {
+			"parent": "abcdae9b2a96ec96",
+			"name": "Light_Flood_A_00_Construction3",
+			"template": "[assembly:/_pro/environment/templates/props/lamps/lamps_outdoor_paris_a.template?/light_flood_a_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/lamps/lamps_outdoor_paris_a.template?/light_flood_a_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 100
+						},
+						"position": {
+							"x": 14.8315,
+							"y": 5.16613,
+							"z": -0.628583
+						}
+					}
+				},
+				"On": {
+					"type": "bool",
+					"value": true
+				},
+				"GlowPower": {
+					"type": "float32",
+					"value": 1500
+				},
+				"DiffusePower": {
+					"type": "float32",
+					"value": 200
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				}
+			},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"abcd9de5977db818": {
+			"parent": "abcdae9b2a96ec96",
+			"name": "Light_Flood_A_00_Construction4",
+			"template": "[assembly:/_pro/environment/templates/props/lamps/lamps_outdoor_paris_a.template?/light_flood_a_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/lamps/lamps_outdoor_paris_a.template?/light_flood_a_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 50
+						},
+						"position": {
+							"x": 14.6338,
+							"y": 51.143,
+							"z": -0.953203
+						}
+					}
+				},
+				"On": {
+					"type": "bool",
+					"value": true
+				},
+				"GlowPower": {
+					"type": "float32",
+					"value": 1500
+				},
+				"DiffusePower": {
+					"type": "float32",
+					"value": 200
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				}
+			},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"abcd5326efae6fa9": {
+			"parent": "abcdae9b2a96ec96",
+			"name": "Light_Flood_A_00_Construction5",
+			"template": "[assembly:/_pro/environment/templates/props/lamps/lamps_outdoor_paris_a.template?/light_flood_a_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/lamps/lamps_outdoor_paris_a.template?/light_flood_a_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -20
+						},
+						"position": {
+							"x": -9.68566,
+							"y": 32.6643,
+							"z": -1.05458
+						}
+					}
+				},
+				"On": {
+					"type": "bool",
+					"value": true
+				},
+				"GlowPower": {
+					"type": "float32",
+					"value": 1500
+				},
+				"DiffusePower": {
+					"type": "float32",
+					"value": 200
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				}
+			},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"abcd37a6ceb5724b": {
+			"parent": "abcdae9b2a96ec96",
+			"name": "Light_Flood_A_00_Construction6",
+			"template": "[assembly:/_pro/environment/templates/props/lamps/lamps_outdoor_paris_a.template?/light_flood_a_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/lamps/lamps_outdoor_paris_a.template?/light_flood_a_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -120
+						},
+						"position": {
+							"x": -5.28082,
+							"y": 50.8212,
+							"z": -1.11595
+						}
+					}
+				},
+				"On": {
+					"type": "bool",
+					"value": true
+				},
+				"GlowPower": {
+					"type": "float32",
+					"value": 1500
+				},
+				"DiffusePower": {
+					"type": "float32",
+					"value": 200
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				}
+			},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"abcdb8d4f4e3f854": {
+			"parent": "abcdae9b2a96ec96",
+			"name": "Lamp_Strip_Light_Single_A_Construction",
+			"template": "[assembly:/_pro/environment/templates/props/lamps/lamps_indoor_a.template?/lamp_strip_light_single_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/lamps/lamps_indoor_a.template?/lamp_strip_light_single_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 30,
+							"y": 0,
+							"z": 90
+						},
+						"position": {
+							"x": 5.1,
+							"y": 29.3,
+							"z": 2.09309
+						}
+					}
+				},
+				"DiffusePower": {
+					"type": "float32",
+					"value": 300
+				},
+				"DiffuseColor": {
+					"type": "SColorRGB",
+					"value": "#79fff8"
+				},
+				"m_vFarAttenuation": {
+					"type": "SVector2",
+					"value": {
+						"x": 1.1399999856948853,
+						"y": 4.5
+					}
+				},
+				"m_vAngularAttenuation": {
+					"type": "SVector2",
+					"value": {
+						"x": 0.20000000298023224,
+						"y": 0.8199999928474426
+					}
+				},
+				"m_bCastShadows": {
+					"type": "bool",
+					"value": true
+				},
+				"GlowPower": {
+					"type": "float32",
+					"value": 200
+				},
+				"On": {
+					"type": "bool",
+					"value": true
+				},
+				"m_fWrappedDiffuse": {
+					"type": "float32",
+					"value": 0.60000002384185791
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				}
+			},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"abcd01d4598eed3f": {
+			"parent": "abcdae9b2a96ec96",
+			"name": "Lamp_Strip_Light_Single_A_Tower",
+			"template": "[assembly:/_pro/environment/templates/props/lamps/lamps_indoor_a.template?/lamp_strip_light_single_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/lamps/lamps_indoor_a.template?/lamp_strip_light_single_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -90,
+							"y": 90,
+							"z": 90
+						},
+						"position": {
+							"x": -15.8,
+							"y": 34.4975,
+							"z": 15.8387
+						}
+					}
+				},
+				"DiffusePower": {
+					"type": "float32",
+					"value": 300
+				},
+				"DiffuseColor": {
+					"type": "SColorRGB",
+					"value": "#79fff8"
+				},
+				"m_vFarAttenuation": {
+					"type": "SVector2",
+					"value": {
+						"x": 1.1399999856948853,
+						"y": 4.5
+					}
+				},
+				"m_vAngularAttenuation": {
+					"type": "SVector2",
+					"value": {
+						"x": 0.20000000298023224,
+						"y": 0.8199999928474426
+					}
+				},
+				"m_bCastShadows": {
+					"type": "bool",
+					"value": true
+				},
+				"GlowPower": {
+					"type": "float32",
+					"value": 200
+				},
+				"On": {
+					"type": "bool",
+					"value": true
+				},
+				"m_fWrappedDiffuse": {
+					"type": "float32",
+					"value": 0.60000002384185791
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				}
+			},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"abcd2c338f6baec6": {
+			"parent": "abcdae9b2a96ec96",
+			"name": "Lamp_Strip_Light_Single_A_Tower2",
+			"template": "[assembly:/_pro/environment/templates/props/lamps/lamps_indoor_a.template?/lamp_strip_light_single_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/lamps/lamps_indoor_a.template?/lamp_strip_light_single_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -90,
+							"y": 90,
+							"z": 90
+						},
+						"position": {
+							"x": -15.84,
+							"y": 24.6803,
+							"z": 15.8387
+						}
+					}
+				},
+				"DiffusePower": {
+					"type": "float32",
+					"value": 300
+				},
+				"DiffuseColor": {
+					"type": "SColorRGB",
+					"value": "#79fff8"
+				},
+				"m_vFarAttenuation": {
+					"type": "SVector2",
+					"value": {
+						"x": 1.1399999856948853,
+						"y": 4.5
+					}
+				},
+				"m_vAngularAttenuation": {
+					"type": "SVector2",
+					"value": {
+						"x": 0.20000000298023224,
+						"y": 0.8199999928474426
+					}
+				},
+				"m_bCastShadows": {
+					"type": "bool",
+					"value": true
+				},
+				"GlowPower": {
+					"type": "float32",
+					"value": 200
+				},
+				"On": {
+					"type": "bool",
+					"value": true
+				},
+				"m_fWrappedDiffuse": {
+					"type": "float32",
+					"value": 0.60000002384185791
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				}
+			},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"abcde603d46a78b3": {
+			"parent": "abcdae9b2a96ec96",
+			"name": "pier_light_a_Trainyard",
+			"template": "[assembly:/_pro/environment/templates/props/lamps/lamps_outdoor_magpie_a.template?/pier_light_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/lamps/lamps_outdoor_magpie_a.template?/pier_light_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 70
+						},
+						"position": {
+							"x": -162.368,
+							"y": -95.7456,
+							"z": -0.963968
+						}
+					}
+				},
+				"On": {
+					"type": "bool",
+					"value": true
+				},
+				"DiffusePower": {
+					"type": "float32",
+					"value": 45
+				},
+				"GlowPower": {
+					"type": "float32",
+					"value": 150
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				},
+				"m_bCastShadows": {
+					"type": "bool",
+					"value": true
+				},
+				"m_fShadowFadeDistance": {
+					"type": "float32",
+					"value": 60
+				},
+				"m_fLightFadeDistance": {
+					"type": "float32",
+					"value": 70
+				},
+				"m_vFarAttenuation": {
+					"type": "SVector2",
+					"value": {
+						"x": 19.6000000238418579,
+						"y": 5.5
+					}
+				},
+				"DiffuseColor": {
+					"type": "SColorRGB",
+					"value": "#00ffdb"
+				}
+			},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"abcd5aab6a2f7766": {
+			"parent": "abcdae9b2a96ec96",
+			"name": "pier_light_a_Rangan",
+			"template": "[assembly:/_pro/environment/templates/props/lamps/lamps_outdoor_magpie_a.template?/pier_light_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/lamps/lamps_outdoor_magpie_a.template?/pier_light_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 50
+						},
+						"position": {
+							"x": -38.9275,
+							"y": 66.7444,
+							"z": -0.959967
+						}
+					}
+				},
+				"On": {
+					"type": "bool",
+					"value": true
+				},
+				"DiffusePower": {
+					"type": "float32",
+					"value": 45
+				},
+				"GlowPower": {
+					"type": "float32",
+					"value": 450
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				},
+				"m_bCastShadows": {
+					"type": "bool",
+					"value": true
+				},
+				"m_fShadowFadeDistance": {
+					"type": "float32",
+					"value": 60
+				},
+				"m_fLightFadeDistance": {
+					"type": "float32",
+					"value": 70
+				},
+				"m_vFarAttenuation": {
+					"type": "SVector2",
+					"value": {
+						"x": 19.6000000238418579,
+						"y": 5.5
+					}
+				},
+				"DiffuseColor": {
+					"type": "SColorRGB",
+					"value": "#f2f2f2"
+				}
+			},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"abcd491217d6d8dd": {
+			"parent": "abcdae9b2a96ec96",
+			"name": "Wall_Lamp_Rustic_C_00Trainyard",
+			"template": "[assembly:/_pro/environment/templates/props/lamps/lamps_indoor_italy_a.template?/wall_lamp_rustic_c_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/lamps/lamps_indoor_italy_a.template?/wall_lamp_rustic_c_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -140
+						},
+						"position": {
+							"x": -186.17,
+							"y": -107.6,
+							"z": 1.966577
+						}
+					}
+				},
+				"IgnoreTimeOfDay": {
+					"type": "bool",
+					"value": false
+				},
+				"GlowPower": {
+					"type": "float32",
+					"value": 500
+				},
+				"DiffusePower": {
+					"type": "float32",
+					"value": 150
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				},
+				"m_bCastShadows": {
+					"type": "bool",
+					"value": true
+				}
+			},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"abcd48bd1867a1b5": {
+			"parent": "abcdae9b2a96ec96",
+			"name": "Wall_Lamp_Rustic_C_00Chawls",
+			"template": "[assembly:/_pro/environment/templates/props/lamps/lamps_indoor_italy_a.template?/wall_lamp_rustic_c_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/lamps/lamps_indoor_italy_a.template?/wall_lamp_rustic_c_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -140
+						},
+						"position": {
+							"x": -146.1,
+							"y": -24.0963,
+							"z": 1.760782
+						}
+					}
+				},
+				"IgnoreTimeOfDay": {
+					"type": "bool",
+					"value": false
+				},
+				"GlowPower": {
+					"type": "float32",
+					"value": 500
+				},
+				"DiffusePower": {
+					"type": "float32",
+					"value": 150
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				},
+				"m_bCastShadows": {
+					"type": "bool",
+					"value": true
+				}
+			},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"abcd0b84beb83168": {
+			"parent": "abcdae9b2a96ec96",
+			"name": "Lamp_Strip_Light_Single_A_ShippingCOntainer",
+			"template": "[assembly:/_pro/environment/templates/props/lamps/lamps_indoor_a.template?/lamp_strip_light_single_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/lamps/lamps_indoor_a.template?/lamp_strip_light_single_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -30,
+							"y": 0,
+							"z": 85
+						},
+						"position": {
+							"x": 15.45,
+							"y": 21.9175,
+							"z": 2.00914
+						}
+					}
+				},
+				"DiffusePower": {
+					"type": "float32",
+					"value": 300
+				},
+				"DiffuseColor": {
+					"type": "SColorRGB",
+					"value": "#79fff8"
+				},
+				"m_vFarAttenuation": {
+					"type": "SVector2",
+					"value": {
+						"x": 1.1399999856948853,
+						"y": 4.5
+					}
+				},
+				"m_vAngularAttenuation": {
+					"type": "SVector2",
+					"value": {
+						"x": 0.20000000298023224,
+						"y": 0.8199999928474426
+					}
+				},
+				"m_bCastShadows": {
+					"type": "bool",
+					"value": true
+				},
+				"GlowPower": {
+					"type": "float32",
+					"value": 200
+				},
+				"On": {
+					"type": "bool",
+					"value": true
+				},
+				"m_fWrappedDiffuse": {
+					"type": "float32",
+					"value": 0.60000002384185791
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				}
+			},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"abcdd97100b80fbd": {
+			"parent": "abcdae9b2a96ec96",
+			"name": "Lamp_Strip_Light_Single_A_Train",
+			"template": "[assembly:/_pro/environment/templates/props/lamps/lamps_indoor_a.template?/lamp_strip_light_single_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/lamps/lamps_indoor_a.template?/lamp_strip_light_single_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 130
+						},
+						"position": {
+							"x": -180.0,
+							"y": -108.9,
+							"z": 11.24
+						}
+					}
+				},
+				"DiffusePower": {
+					"type": "float32",
+					"value": 300
+				},
+				"DiffuseColor": {
+					"type": "SColorRGB",
+					"value": "#79fff8"
+				},
+				"m_vFarAttenuation": {
+					"type": "SVector2",
+					"value": {
+						"x": 1.1399999856948853,
+						"y": 4.5
+					}
+				},
+				"m_vAngularAttenuation": {
+					"type": "SVector2",
+					"value": {
+						"x": 0.20000000298023224,
+						"y": 0.8199999928474426
+					}
+				},
+				"m_bCastShadows": {
+					"type": "bool",
+					"value": true
+				},
+				"GlowPower": {
+					"type": "float32",
+					"value": 200
+				},
+				"On": {
+					"type": "bool",
+					"value": true
+				},
+				"m_fWrappedDiffuse": {
+					"type": "float32",
+					"value": 0.60000002384185791
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				}
+			},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"abcd295576d125d3": {
+			"parent": "abcdae9b2a96ec96",
+			"name": "Wall_Lamp_Rustic_C_00Chawls2",
+			"template": "[assembly:/_pro/environment/templates/props/lamps/lamps_indoor_italy_a.template?/wall_lamp_rustic_c_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/lamps/lamps_indoor_italy_a.template?/wall_lamp_rustic_c_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 45
+						},
+						"position": {
+							"x": -133.2,
+							"y": -10.272,
+							"z": 1.760782
+						}
+					}
+				},
+				"IgnoreTimeOfDay": {
+					"type": "bool",
+					"value": false
+				},
+				"GlowPower": {
+					"type": "float32",
+					"value": 500
+				},
+				"DiffusePower": {
+					"type": "float32",
+					"value": 150
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				},
+				"m_bCastShadows": {
+					"type": "bool",
+					"value": true
+				}
+			},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"abcdfd4bfad1c38c": {
+			"parent": "abcdae9b2a96ec96",
+			"name": "Lamp_Street_Ornamented_Italy_A_Park1",
+			"template": "[assembly:/_pro/environment/templates/props/lamps/lamps_outdoor_italy_a.template?/lamp_street_ornamented_italy_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/lamps/lamps_outdoor_italy_a.template?/lamp_street_ornamented_italy_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": -136.064,
+							"y": -125.797,
+							"z": -0.96212
+						}
+					}
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				},
+				"m_bCastShadows": {
+					"type": "bool",
+					"value": true
+				},
+				"DiffusePower": {
+					"type": "float32",
+					"value": 35
+				},
+				"m_fLightFadeDistance": {
+					"type": "float32",
+					"value": 100
+				},
+				"DiffuseColor": {
+					"type": "SColorRGB",
+					"value": "#f1fffd"
+				},
+				"m_fShadowFadeDistance": {
+					"type": "float32",
+					"value": 50
+				},
+				"LightOn": {
+					"type": "bool",
+					"value": true
+				}
+			},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"abcdfb69e720ed9a": {
+			"parent": "abcdae9b2a96ec96",
+			"name": "Lamp_Street_Ornamented_Italy_A_Park2",
+			"template": "[assembly:/_pro/environment/templates/props/lamps/lamps_outdoor_italy_a.template?/lamp_street_ornamented_italy_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/lamps/lamps_outdoor_italy_a.template?/lamp_street_ornamented_italy_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": -201.101,
+							"y": -123.707,
+							"z": -0.960667
+						}
+					}
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				},
+				"m_bCastShadows": {
+					"type": "bool",
+					"value": true
+				},
+				"DiffusePower": {
+					"type": "float32",
+					"value": 35
+				},
+				"m_fLightFadeDistance": {
+					"type": "float32",
+					"value": 100
+				},
+				"DiffuseColor": {
+					"type": "SColorRGB",
+					"value": "#f1fffd"
+				},
+				"m_fShadowFadeDistance": {
+					"type": "float32",
+					"value": 50
+				},
+				"LightOn": {
+					"type": "bool",
+					"value": true
+				}
+			},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"abcdf8cd38a20cef": {
+			"parent": "abcdae9b2a96ec96",
+			"name": "Lamp_Strip_Light_Single_A_Train2",
+			"template": "[assembly:/_pro/environment/templates/props/lamps/lamps_indoor_a.template?/lamp_strip_light_single_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/lamps/lamps_indoor_a.template?/lamp_strip_light_single_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 130
+						},
+						"position": {
+							"x": -176.9,
+							"y": -127.1,
+							"z": 13.06
+						}
+					}
+				},
+				"DiffusePower": {
+					"type": "float32",
+					"value": 300
+				},
+				"DiffuseColor": {
+					"type": "SColorRGB",
+					"value": "#79fff8"
+				},
+				"m_vFarAttenuation": {
+					"type": "SVector2",
+					"value": {
+						"x": 1.1399999856948853,
+						"y": 4.5
+					}
+				},
+				"m_vAngularAttenuation": {
+					"type": "SVector2",
+					"value": {
+						"x": 0.20000000298023224,
+						"y": 0.8199999928474426
+					}
+				},
+				"m_bCastShadows": {
+					"type": "bool",
+					"value": true
+				},
+				"GlowPower": {
+					"type": "float32",
+					"value": 200
+				},
+				"On": {
+					"type": "bool",
+					"value": true
+				},
+				"m_fWrappedDiffuse": {
+					"type": "float32",
+					"value": 0.60000002384185791
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				}
+			},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"abcde3317db68303": {
+			"parent": "abcdae9b2a96ec96",
+			"name": "Lamp_Strip_Light_Single_A_Hill",
+			"template": "[assembly:/_pro/environment/templates/props/lamps/lamps_indoor_a.template?/lamp_strip_light_single_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/lamps/lamps_indoor_a.template?/lamp_strip_light_single_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 30,
+							"y": 0,
+							"z": -13
+						},
+						"position": {
+							"x": -53.5,
+							"y": -137.41,
+							"z": 11.04
+						}
+					}
+				},
+				"DiffusePower": {
+					"type": "float32",
+					"value": 300
+				},
+				"DiffuseColor": {
+					"type": "SColorRGB",
+					"value": "#79fff8"
+				},
+				"m_vFarAttenuation": {
+					"type": "SVector2",
+					"value": {
+						"x": 1.1399999856948853,
+						"y": 4.5
+					}
+				},
+				"m_vAngularAttenuation": {
+					"type": "SVector2",
+					"value": {
+						"x": 0.20000000298023224,
+						"y": 0.8199999928474426
+					}
+				},
+				"m_bCastShadows": {
+					"type": "bool",
+					"value": true
+				},
+				"GlowPower": {
+					"type": "float32",
+					"value": 200
+				},
+				"On": {
+					"type": "bool",
+					"value": true
+				},
+				"m_fWrappedDiffuse": {
+					"type": "float32",
+					"value": 0.60000002384185791
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				}
+			},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"abcd880231cded7c": {
+			"parent": "abcdae9b2a96ec96",
+			"name": "Lamp_Strip_Light_Single_A_Hill2",
+			"template": "[assembly:/_pro/environment/templates/props/lamps/lamps_indoor_a.template?/lamp_strip_light_single_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/lamps/lamps_indoor_a.template?/lamp_strip_light_single_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -55,
+							"y": 0,
+							"z": -13
+						},
+						"position": {
+							"x": -50.65,
+							"y": -128.8,
+							"z": 11.0
+						}
+					}
+				},
+				"DiffusePower": {
+					"type": "float32",
+					"value": 300
+				},
+				"DiffuseColor": {
+					"type": "SColorRGB",
+					"value": "#79fff8"
+				},
+				"m_vFarAttenuation": {
+					"type": "SVector2",
+					"value": {
+						"x": 1.1399999856948853,
+						"y": 4.5
+					}
+				},
+				"m_vAngularAttenuation": {
+					"type": "SVector2",
+					"value": {
+						"x": 0.20000000298023224,
+						"y": 0.8199999928474426
+					}
+				},
+				"m_bCastShadows": {
+					"type": "bool",
+					"value": true
+				},
+				"GlowPower": {
+					"type": "float32",
+					"value": 200
+				},
+				"On": {
+					"type": "bool",
+					"value": true
+				},
+				"m_fWrappedDiffuse": {
+					"type": "float32",
+					"value": 0.60000002384185791
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				}
+			},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"abcdd87be8ebd9e8": {
+			"parent": "abcdae9b2a96ec96",
+			"name": "Lamp_Strip_Light_Single_A_Hill3",
+			"template": "[assembly:/_pro/environment/templates/props/lamps/lamps_indoor_a.template?/lamp_strip_light_single_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/lamps/lamps_indoor_a.template?/lamp_strip_light_single_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -45,
+							"y": 0,
+							"z": 100
+						},
+						"position": {
+							"x": -90.75,
+							"y": -117.8,
+							"z": 9.5
+						}
+					}
+				},
+				"DiffusePower": {
+					"type": "float32",
+					"value": 300
+				},
+				"DiffuseColor": {
+					"type": "SColorRGB",
+					"value": "#79fff8"
+				},
+				"m_vFarAttenuation": {
+					"type": "SVector2",
+					"value": {
+						"x": 1.1399999856948853,
+						"y": 4.5
+					}
+				},
+				"m_vAngularAttenuation": {
+					"type": "SVector2",
+					"value": {
+						"x": 0.20000000298023224,
+						"y": 0.8199999928474426
+					}
+				},
+				"m_bCastShadows": {
+					"type": "bool",
+					"value": true
+				},
+				"GlowPower": {
+					"type": "float32",
+					"value": 200
+				},
+				"On": {
+					"type": "bool",
+					"value": true
+				},
+				"m_fWrappedDiffuse": {
+					"type": "float32",
+					"value": 0.60000002384185791
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				}
+			},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"abcd1ae68840ed6e": {
+			"parent": "abcdae9b2a96ec96",
+			"name": "Wall_Lamp_Rustic_C_00Hill",
+			"template": "[assembly:/_pro/environment/templates/props/lamps/lamps_indoor_italy_a.template?/wall_lamp_rustic_c_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/lamps/lamps_indoor_italy_a.template?/wall_lamp_rustic_c_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": -76.729,
+							"y": -139.1,
+							"z": 10.63128
+						}
+					}
+				},
+				"IgnoreTimeOfDay": {
+					"type": "bool",
+					"value": false
+				},
+				"GlowPower": {
+					"type": "float32",
+					"value": 500
+				},
+				"DiffusePower": {
+					"type": "float32",
+					"value": 150
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				},
+				"m_bCastShadows": {
+					"type": "bool",
+					"value": true
+				}
+			},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"abcd081affe908fb": {
+			"parent": "abcdae9b2a96ec96",
+			"name": "Lamp_Strip_Light_Single_A_Hill4",
+			"template": "[assembly:/_pro/environment/templates/props/lamps/lamps_indoor_a.template?/lamp_strip_light_single_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/lamps/lamps_indoor_a.template?/lamp_strip_light_single_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 80,
+							"y": 0,
+							"z": 97
+						},
+						"position": {
+							"x": -102.6,
+							"y": -118.926,
+							"z": 8.1
+						}
+					}
+				},
+				"DiffusePower": {
+					"type": "float32",
+					"value": 300
+				},
+				"DiffuseColor": {
+					"type": "SColorRGB",
+					"value": "#79fff8"
+				},
+				"m_vFarAttenuation": {
+					"type": "SVector2",
+					"value": {
+						"x": 1.1399999856948853,
+						"y": 4.5
+					}
+				},
+				"m_vAngularAttenuation": {
+					"type": "SVector2",
+					"value": {
+						"x": 0.20000000298023224,
+						"y": 0.8199999928474426
+					}
+				},
+				"m_bCastShadows": {
+					"type": "bool",
+					"value": true
+				},
+				"GlowPower": {
+					"type": "float32",
+					"value": 200
+				},
+				"On": {
+					"type": "bool",
+					"value": true
+				},
+				"m_fWrappedDiffuse": {
+					"type": "float32",
+					"value": 0.60000002384185791
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				}
+			},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"abcd7d078a11757b": {
+			"parent": "abcdae9b2a96ec96",
+			"name": "Light_Flood_A_00_WeedYard2",
+			"template": "[assembly:/_pro/environment/templates/props/lamps/lamps_outdoor_paris_a.template?/light_flood_a_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/lamps/lamps_outdoor_paris_a.template?/light_flood_a_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -90
+						},
+						"position": {
+							"x": -247.979,
+							"y": -110.113,
+							"z": -0.960667
+						}
+					}
+				},
+				"On": {
+					"type": "bool",
+					"value": true
+				},
+				"GlowPower": {
+					"type": "float32",
+					"value": 1500
+				},
+				"DiffusePower": {
+					"type": "float32",
+					"value": 200
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				}
+			},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"abcdb08989bc60a7": {
+			"parent": "abcdae9b2a96ec96",
+			"name": "Lamp_Street_Ornamented_Italy_A_Park3",
+			"template": "[assembly:/_pro/environment/templates/props/lamps/lamps_outdoor_italy_a.template?/lamp_street_ornamented_italy_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/lamps/lamps_outdoor_italy_a.template?/lamp_street_ornamented_italy_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": 73.03,
+							"y": 46.621,
+							"z": 5
+						}
+					}
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				},
+				"m_bCastShadows": {
+					"type": "bool",
+					"value": true
+				},
+				"DiffusePower": {
+					"type": "float32",
+					"value": 35
+				},
+				"m_fLightFadeDistance": {
+					"type": "float32",
+					"value": 100
+				},
+				"DiffuseColor": {
+					"type": "SColorRGB",
+					"value": "#f1fffd"
+				},
+				"m_fShadowFadeDistance": {
+					"type": "float32",
+					"value": 50
+				}
+			},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"abcdd5af8d1d7d1e": {
+			"parent": "abcdae9b2a96ec96",
+			"name": "Lamp_Strip_Light_Single_A_Train3",
+			"template": "[assembly:/_pro/environment/templates/props/lamps/lamps_indoor_a.template?/lamp_strip_light_single_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/lamps/lamps_indoor_a.template?/lamp_strip_light_single_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 60,
+							"y": 0,
+							"z": 40
+						},
+						"position": {
+							"x": -180.55,
+							"y": -154.4,
+							"z": 1.9
+						}
+					}
+				},
+				"DiffusePower": {
+					"type": "float32",
+					"value": 300
+				},
+				"DiffuseColor": {
+					"type": "SColorRGB",
+					"value": "#79fff8"
+				},
+				"m_vFarAttenuation": {
+					"type": "SVector2",
+					"value": {
+						"x": 1.1399999856948853,
+						"y": 4.5
+					}
+				},
+				"m_vAngularAttenuation": {
+					"type": "SVector2",
+					"value": {
+						"x": 0.20000000298023224,
+						"y": 0.8199999928474426
+					}
+				},
+				"m_bCastShadows": {
+					"type": "bool",
+					"value": true
+				},
+				"GlowPower": {
+					"type": "float32",
+					"value": 200
+				},
+				"On": {
+					"type": "bool",
+					"value": true
+				},
+				"m_fWrappedDiffuse": {
+					"type": "float32",
+					"value": 0.60000002384185791
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				}
+			},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"abcd5884f2f229fa": {
+			"parent": "abcdae9b2a96ec96",
+			"name": "Lamp_Street_Ornamented_Italy_A_Train",
+			"template": "[assembly:/_pro/environment/templates/props/lamps/lamps_outdoor_italy_a.template?/lamp_street_ornamented_italy_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/lamps/lamps_outdoor_italy_a.template?/lamp_street_ornamented_italy_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": -144.195,
+							"y": -173.765,
+							"z": -0.957088
+						}
+					}
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				},
+				"m_bCastShadows": {
+					"type": "bool",
+					"value": true
+				},
+				"DiffusePower": {
+					"type": "float32",
+					"value": 35
+				},
+				"m_fLightFadeDistance": {
+					"type": "float32",
+					"value": 100
+				},
+				"DiffuseColor": {
+					"type": "SColorRGB",
+					"value": "#f1fffd"
+				},
+				"m_fShadowFadeDistance": {
+					"type": "float32",
+					"value": 50
+				}
+			},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		}
+	},
+	"propertyOverrides": [{
+		"entities": [{
+			"ref": "f21c78bd8145f9a8",
+			"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+		}],
+		"properties": {
+			"m_bVisible": {
+				"type": "bool",
+				"value": false
+			}
+		}
+	}, {
+		"entities": [{
+			"ref": "88cdae6109f35b6e",
+			"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+		}],
+		"properties": {
+			"m_nGroupSize": {
+				"type": "uint32",
+				"value": 100
+			}
+		}
+	}, {
+		"entities": [{
+			"ref": "61547eee92152a89",
+			"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+		}, {
+			"ref": "4ed19f1c1c1a49c1",
+			"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+		}],
+		"properties": {
+			"m_nGroupSize": {
+				"type": "uint32",
+				"value": 32
+			}
+		}
+	}, {
+		"entities": [{
+			"ref": "4c8be018ca7da8e9",
+			"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+		}],
+		"properties": {
+			"m_nGroupSize": {
+				"type": "uint32",
+				"value": 18
+			}
+		}
+	}, {
+		"entities": [{
+			"ref": "a64748500f4887d2",
+			"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+		}],
+		"properties": {
+			"m_nGroupSize": {
+				"type": "uint32",
+				"value": 8
+			}
+		}
+	}, {
+		"entities": [{
+			"ref": "a82b68b0586bd71e",
+			"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+		}],
+		"properties": {
+			"m_nGroupSize": {
+				"type": "uint32",
+				"value": 50
+			}
+		}
+	}, {
+		"entities": [{
+			"ref": "971acbf97fdec18e",
+			"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+		}],
+		"properties": {
+			"m_nGroupSize": {
+				"type": "uint32",
+				"value": 80
+			}
+		}
+	}, {
+		"entities": [{
+			"ref": "e6e53caa9905460a",
+			"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+		}, {
+			"ref": "a92ddc9e1800547a",
+			"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+		}, {
+			"ref": "af61e74dbe1b0ac0",
+			"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+		}, {
+			"ref": "8210f68bab673c2e",
+			"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+		}, {
+			"ref": "d47de1c570fb1ff0",
+			"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+		}, {
+			"ref": "292466027cf7e846",
+			"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+		}, {
+			"ref": "90561bfd70214978",
+			"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+		}, {
+			"ref": "a6e48ffcf3cd6260",
+			"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+		}, {
+			"ref": "8e2dc24753f4ad97",
+			"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+		}, {
+			"ref": "125f06598c71e84e",
+			"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+		}, {
+			"ref": "137cc16c8351a6b9",
+			"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+		}, {
+			"ref": "205ec77feeb523a6",
+			"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+		}, {
+			"ref": "db5b8fcee4dce9e",
+			"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+		}, {
+			"ref": "52bd5f769fa1c51c",
+			"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+		}, {
+			"ref": "5a3318a0f00c6470",
+			"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+		}, {
+			"ref": "23eada1c5e15cecd",
+			"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+		}, {
+			"ref": "b01f8431c636a96d",
+			"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+		}, {
+			"ref": "ee1af7aba554cc34",
+			"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+		}, {
+			"ref": "7a1268c99aab688d",
+			"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+		}, {
+			"ref": "2b25d242bd55248a",
+			"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+		}, {
+			"ref": "e4a93e677229b309",
+			"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+		}, {
+			"ref": "e281a83e6b54e519",
+			"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+		}, {
+			"ref": "ce8467e42a1b4bfb",
+			"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+		}, {
+			"ref": "57e37f3149905399",
+			"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+		}, {
+			"ref": "f753115dd13e06ac",
+			"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+		}, {
+			"ref": "2a6eccea27520716",
+			"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+		}, {
+			"ref": "710c53be8ed55392",
+			"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+		}, {
+			"ref": "a5966f46bd1d5486",
+			"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+		}, {
+			"ref": "8181528c6059d336",
+			"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+		}, {
+			"ref": "64fdba587f1abdf6",
+			"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+		}, {
+			"ref": "19e1134273075bc0",
+			"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+		}, {
+			"ref": "88a2921ecf3bc8a",
+			"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+		}, {
+			"ref": "c3c5cc6310fafa54",
+			"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+		}, {
+			"ref": "d8c9037b74e1d859",
+			"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+		}, {
+			"ref": "5510396f5b8fb5d6",
+			"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+		}, {
+			"ref": "b530b4af708a6893",
+			"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+		}, {
+			"ref": "923db465cf311fe3",
+			"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+		}, {
+			"ref": "c12d2e50214d5aa9",
+			"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+		}, {
+			"ref": "e6e53caa9905460a",
+			"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+		}],
+		"properties": {
+			"DiffusePower": {
+				"type": "float32",
+				"value": 200
+			},
+			"m_vFarAttenuation": {
+				"type": "SVector2",
+				"value": {
+					"x": 1,
+					"y": 9.890000343322754
+				}
+			},
+			"m_vAngularAttenuation": {
+				"type": "SVector2",
+				"value": {
+					"x": 0.10000000149011612,
+					"y": 1.100000023841858
+				}
+			},
+			"DiffuseColor": {
+				"type": "SColorRGB",
+				"value": "#ffc6a6"
+			},
+			"m_bCastShadows": {
+				"type": "bool",
+				"value": true
+			},
+			"On": {
+				"type": "bool",
+				"value": true
+			},
+			"GlowPower": {
+				"type": "float32",
+				"value": 200
+			}
+		}
+	}, {
+		"entities": [{
+			"ref": "1008f4c34c282f9c",
+			"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+		}, {
+			"ref": "e739c26dccab6f83",
+			"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+		}, {
+			"ref": "13c29162b1c63c78",
+			"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+		}, {
+			"ref": "5217f9a606b9a406",
+			"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+		}, {
+			"ref": "8649b6f1c1e51863",
+			"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+		}, {
+			"ref": "1f370be37301e616",
+			"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+		}, {
+			"ref": "54e8581c72fc978b",
+			"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+		}, {
+			"ref": "23ccaccd1d736cd",
+			"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+		}, {
+			"ref": "81f94959f893a000",
+			"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+		}, {
+			"ref": "e5b33036e5d6f91b",
+			"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+		}, {
+			"ref": "84e826d7e255a25c",
+			"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+		}, {
+			"ref": "7c11047f543cc811",
+			"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+		}, {
+			"ref": "2de8cfecfe969bc1",
+			"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+		}, {
+			"ref": "ae0e0dacb3d7ca4a",
+			"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+		}, {
+			"ref": "17c0c1a912b787a3",
+			"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+		}, {
+			"ref": "6f2efa2b6b57f786",
+			"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+		}, {
+			"ref": "6bbfef2e63631453",
+			"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+		}, {
+			"ref": "807c937e55b8df8b",
+			"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+		}, {
+			"ref": "d20f71793fa47bea",
+			"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+		}, {
+			"ref": "e4de65d2a158d68b",
+			"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+		}, {
+			"ref": "bbab3065645c13e8",
+			"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+		}, {
+			"ref": "da078676c92c3cee",
+			"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+		}, {
+			"ref": "77f821c87dc88dda",
+			"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+		}, {
+			"ref": "77f821c87dc88dda",
+			"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+		}],
+		"properties": {
+			"On": {
+				"type": "bool",
+				"value": true
+			},
+			"IgnoreTimeOfDay": {
+				"type": "bool",
+				"value": true
+			}
+		}
+	}, {
+		"entities": [{
+			"ref": "efc105a35ae67d3e",
+			"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+		}, {
+			"ref": "96a2f0a671aebe41",
+			"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+		}, {
+			"ref": "774968d638a2c328",
+			"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+		}, {
+			"ref": "d00ed9e3a4625bc",
+			"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+		}, {
+			"ref": "242143e9ec2a6a88",
+			"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+		}, {
+			"ref": "e8e9dadfa8c90085",
+			"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+		}, {
+			"ref": "ca19cd253b144559",
+			"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+		}, {
+			"ref": "35c7458f480153fa",
+			"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+		}, {
+			"ref": "16026fe9f3a2c774",
+			"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+		}, {
+			"ref": "692b3c4ab1a137dc",
+			"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+		}, {
+			"ref": "2b60feabf95002ef",
+			"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+		}, {
+			"ref": "ad963bba66cad135",
+			"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+		}, {
+			"ref": "4564c80f0e13003d",
+			"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+		}, {
+			"ref": "de2e53c00956b4bb",
+			"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+		}, {
+			"ref": "eb40fe46479be4b1",
+			"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+		}, {
+			"ref": "3a9731335c9f3cda",
+			"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+		}, {
+			"ref": "cd3aadf2554ad8ff",
+			"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+		}, {
+			"ref": "3a96790d80c9f691",
+			"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+		}, {
+			"ref": "ee73ac79fdeceae4",
+			"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+		}, {
+			"ref": "476ceb08fe91fe4",
+			"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+		}, {
+			"ref": "9e863346a43fe630",
+			"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+		}, {
+			"ref": "d8f6231b9b218f91",
+			"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+		}],
+		"properties": {
+			"On": {
+				"type": "bool",
+				"value": true
+			},
+			"IgnoreTimeOfDay": {
+				"type": "bool",
+				"value": true
+			},
+			"DiffusePower": {
+				"type": "float32",
+				"value": 200
+			},
+			"m_vFarAttenuation": {
+				"type": "SVector2",
+				"value": {
+					"x": 1,
+					"y": 9.890000343322754
+				}
+			},
+			"m_bCastShadows": {
+				"type": "bool",
+				"value": true
+			},
+			"GlowPower": {
+				"type": "float32",
+				"value": 200
+			}
+		}
+	}, {
+		"entities": [{
+			"ref": "48ab85da3f222293",
+			"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+		}, {
+			"ref": "617e00218cc9094",
+			"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+		}, {
+			"ref": "6584ebf52d3ec8f",
+			"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+		}, {
+			"ref": "f10e19448a7e0a3a",
+			"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+		}, {
+			"ref": "e8b34505000f88c5",
+			"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+		}, {
+			"ref": "fc96c66e6e6a9fa9",
+			"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+		}, {
+			"ref": "6a4ae68a58391835",
+			"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+		}, {
+			"ref": "4de8c9a195530721",
+			"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+		}, {
+			"ref": "318130bd54f80c7e",
+			"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+		}, {
+			"ref": "fd9c805463b6ab59",
+			"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+		}, {
+			"ref": "e221dd3aaa931486",
+			"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+		}, {
+			"ref": "fd4d846db8dad6d0",
+			"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+		}, {
+			"ref": "76b2f5345b30cd9e",
+			"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+		}, {
+			"ref": "8bed25b6d1e95e27",
+			"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+		}, {
+			"ref": "6f58630d87750668",
+			"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+		}, {
+			"ref": "cde2921a6a95f104",
+			"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+		}, {
+			"ref": "91547d0dbcce1345",
+			"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+		}, {
+			"ref": "bdb59a85f7a9fd70",
+			"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+		}, {
+			"ref": "d8f21f9595ee5147",
+			"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+		}, {
+			"ref": "906dfde9d1da8c99",
+			"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+		}],
+		"properties": {
+			"LightOn": {
+				"type": "bool",
+				"value": true
+			},
+			"DiffusePower": {
+				"type": "float32",
+				"value": 100
+			},
+			"EmissiveIntensity": {
+				"type": "float32",
+				"value": 700
+			},
+			"m_diffuseColor": {
+				"type": "SColorRGB",
+				"value": "#add1ff"
+			},
+			"m_vFarAttenuation": {
+				"type": "SVector2",
+				"value": {
+					"x": 2.740999937057495,
+					"y": 4.760000228881836
+				}
+			},
+			"SoundEnabled": {
+				"type": "bool",
+				"value": true
+			},
+			"IgnoreTimeOfDay": {
+				"type": "bool",
+				"value": true
+			}
+		}
+	}, {
+		"entities": [{
+			"ref": "ffaebe3c8038df93",
+			"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+		}, {
+			"ref": "62530e5daa354b0d",
+			"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+		}, {
+			"ref": "72fc6981dd21d61",
+			"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+		}, {
+			"ref": "b101fe5abba27ce0",
+			"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+		}, {
+			"ref": "2f34e529a84b48d3",
+			"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+		}],
+		"properties": {
+			"DiffusePower": {
+				"type": "float32",
+				"value": 100
+			},
+			"DiffuseColor": {
+				"type": "SColorRGB",
+				"value": "#aecbeb"
+			},
+			"m_vFarAttenuation": {
+				"type": "SVector2",
+				"value": {
+					"x": 1.2999999523162842,
+					"y": 9.869999885559082
+				}
+			},
+			"On": {
+				"type": "bool",
+				"value": true
+			},
+			"GlowPower": {
+				"type": "float32",
+				"value": 900
+			},
+			"m_eRoomBehaviour": {
+				"type": "ZSpatialEntity.ERoomBehaviour",
+				"value": "ROOM_DYNAMIC"
+			},
+			"IgnoreTimeOfDay": {
+				"type": "bool",
+				"value": true
+			}
+		}
+	}, {
+		"entities": [{
+			"ref": "684991cbf5cd93f2",
+			"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+		}],
+		"properties": {
+			"IgnoreTimeOfDay": {
+				"type": "bool",
+				"value": true
+			}
+		}
+	}, {
+		"entities": [{
+			"ref": "e85dcd711534585c",
+			"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+		}, {
+			"ref": "2911ab4f0ac477bb",
+			"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+		}, {
+			"ref": "106c0ae03e6c3a83",
+			"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+		}, {
+			"ref": "6a916d6f6e70fdc7",
+			"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+		}, {
+			"ref": "f993c44c12a8e426",
+			"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+		}, {
+			"ref": "fe5c3be45321b4fd",
+			"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+		}, {
+			"ref": "f836206d1b52aa15",
+			"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+		}, {
+			"ref": "3ff0ee794ede751a",
+			"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+		}, {
+			"ref": "91b32f031a7cf3bd",
+			"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+		}, {
+			"ref": "89dc8a605d271668",
+			"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+		}, {
+			"ref": "55d47ea304d5138f",
+			"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+		}],
+		"properties": {
+			"DiffusePower": {
+				"type": "float32",
+				"value": 50
+			},
+			"DiffuseColor": {
+				"type": "SColorRGB",
+				"value": "#c4e0ff"
+			},
+			"On": {
+				"type": "bool",
+				"value": true
+			},
+			"GlowPower": {
+				"type": "float32",
+				"value": 50
+			},
+			"IgnoreTimeOfDay": {
+				"type": "bool",
+				"value": true
+			}
+		}
+	}, {
+		"entities": [{
+			"ref": "9740c5ba77eea73a",
+			"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+		}, {
+			"ref": "b75d58621f7e13e4",
+			"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+		}, {
+			"ref": "69e81d9c54567705",
+			"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+		}],
+		"properties": {
+			"On": {
+				"type": "bool",
+				"value": true
+			},
+			"DiffuseColor": {
+				"type": "SColorRGB",
+				"value": "#a6e0ff"
+			},
+			"m_vFarAttenuation": {
+				"type": "SVector2",
+				"value": {
+					"x": 5.010000228881836,
+					"y": 10.430000305175781
+				}
+			},
+			"LightCastShadows": {
+				"type": "bool",
+				"value": true
+			},
+			"GlowPower": {
+				"type": "float32",
+				"value": 3000
+			},
+			"DiffusePower": {
+				"type": "float32",
+				"value": 100
+			},
+			"m_vAngularAttenuation": {
+				"type": "SVector2",
+				"value": {
+					"x": 0,
+					"y": 1
+				}
+			}
+		}
+	}],
+	"overrideDeletes": [{
+		"ref": "a3b2a637b6b73897",
+		"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+	}, {
+		"ref": "8cd7e64f2f287fc3",
+		"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+	}, {
+		"ref": "98ecad96908aee96",
+		"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+	}, {
+		"ref": "e22c5d3876845cc0",
+		"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+	}, {
+		"ref": "ecc5fde8cf1d432c",
+		"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+	}, {
+		"ref": "9d096e8d169efe26",
+		"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+	}, {
+		"ref": "a5e71bac1a389868",
+		"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+	}, {
+		"ref": "c1965d462b18de40",
+		"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+	}, {
+		"ref": "3dbcd18295988ae1",
+		"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+	}, {
+		"ref": "924d828c9b735da3",
+		"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+	}, {
+		"ref": "be8e5dab7490a3c5",
+		"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+	}, {
+		"ref": "7f83b80ee65b4741",
+		"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+	}, {
+		"ref": "17f3470c54eb216",
+		"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+	}, {
+		"ref": "e514b24ec829d161",
+		"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+	}, {
+		"ref": "6641090205c86ef6",
+		"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+	}, {
+		"ref": "e8c9870cdaf66e16",
+		"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+	}, {
+		"ref": "a4652f2b52866c7a",
+		"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+	}, {
+		"ref": "ee900112be74eab0",
+		"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+	}, {
+		"ref": "e2a383421bc65a20",
+		"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+	}, {
+		"ref": "a5b9a888f0bac783",
+		"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+	}, {
+		"ref": "8ca3ca3594688fe3",
+		"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+	}, {
+		"ref": "18b8a41c50e331b1",
+		"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+	}, {
+		"ref": "a937a89943dfa494",
+		"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+	}, {
+		"ref": "76b3b072bddcf205",
+		"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+	}, {
+		"ref": "900ec3f8c0a2e330",
+		"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+	}, {
+		"ref": "67e789b6fe273eb8",
+		"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+	}, {
+		"ref": "2b143f9c4dda2256",
+		"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+	}, {
+		"ref": "4b65db31f36ec02a",
+		"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+	}, {
+		"ref": "4affce974cfd040",
+		"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+	}, {
+		"ref": "3e077bbb1bba213",
+		"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+	}, {
+		"ref": "b65dda75c0b4046e",
+		"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+	}, {
+		"ref": "55d6b2ce4d4271d1",
+		"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+	}, {
+		"ref": "d10f4c5a4588b6af",
+		"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+	}, {
+		"ref": "94e9f261b230fe4f",
+		"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+	}, {
+		"ref": "50e129ec61f5dfa2",
+		"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+	}, {
+		"ref": "5b9d3f92b5fbf5d9",
+		"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+	}, {
+		"ref": "36d2a8c7779a9795",
+		"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+	}, {
+		"ref": "1afe9980bcbde006",
+		"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+	}, {
+		"ref": "26e85c64d246f4d7",
+		"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+	}, {
+		"ref": "e041a13e19e5cafd",
+		"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+	}, {
+		"ref": "b56d193dad1a454f",
+		"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+	}, {
+		"ref": "5c788051219c14a4",
+		"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+	}, {
+		"ref": "f0f709c3c1f65e8e",
+		"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+	}, {
+		"ref": "e02e7bd3e460d16d",
+		"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+	}, {
+		"ref": "1f729782961bb0ae",
+		"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+	}, {
+		"ref": "e295bacfb4182c9a",
+		"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+	}, {
+		"ref": "ed1f1ce0c4bc9294",
+		"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+	}, {
+		"ref": "47ccfaa0a7032fd3",
+		"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+	}, {
+		"ref": "9a5034a15d8e770c",
+		"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+	}, {
+		"ref": "a8f50c148b30d5a2",
+		"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+	}, {
+		"ref": "9ad1e218278ca986",
+		"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+	}, {
+		"ref": "5570543ed8333c6c",
+		"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+	}, {
+		"ref": "2ee90eb9becb0bf4",
+		"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+	}, {
+		"ref": "8e099955a27df594",
+		"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+	}, {
+		"ref": "944d2604e11f1dc5",
+		"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+	}, {
+		"ref": "18ca6bb1e845a591",
+		"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+	}, {
+		"ref": "3b8618fb1cde4fa0",
+		"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+	}, {
+		"ref": "542f1de8cb804",
+		"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+	}, {
+		"ref": "b92fd39226762f43",
+		"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+	}, {
+		"ref": "c363da571a20c47f",
+		"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+	}, {
+		"ref": "2cf676628faf140",
+		"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+	}, {
+		"ref": "946aeda282eaab39",
+		"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+	}, {
+		"ref": "f35e9c9454766d56",
+		"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+	}, {
+		"ref": "a39525919b6aa985",
+		"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+	}, {
+		"ref": "1ad0a8e0c13c2f89",
+		"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+	}, {
+		"ref": "59611cf0fc014b41",
+		"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+	}, {
+		"ref": "c16872f3f27ef5dd",
+		"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+	}, {
+		"ref": "68ac22d27b4eca9f",
+		"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+	}, {
+		"ref": "cb7c3f4bdb9afe6f",
+		"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+	}, {
+		"ref": "787eeff53a38655b",
+		"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+	}, {
+		"ref": "3a25b1e7e6e9070b",
+		"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+	}, {
+		"ref": "3a25b1e7e6e9070b",
+		"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+	}, {
+		"ref": "68a8a94e548283d1",
+		"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+	}, {
+		"ref": "550c4e24c0ebdc44",
+		"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+	}, {
+		"ref": "5301e8cafae3399d",
+		"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+	}, {
+		"ref": "8130508e76d6c902",
+		"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+	}, {
+		"ref": "abc89f0011f5c037",
+		"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+	}, {
+		"ref": "e28d4f46a7d9907c",
+		"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+	}, {
+		"ref": "c713dfc4fe2d1186",
+		"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+	}, {
+		"ref": "67c1e7928cf33c14",
+		"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+	}, {
+		"ref": "9260a12b0e659f39",
+		"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+	}, {
+		"ref": "a91f2c48b0e590e2",
+		"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+	}, {
+		"ref": "d690677e8f174c8e",
+		"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+	}, {
+		"ref": "c6e769b1f3d6866b",
+		"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+	}, {
+		"ref": "3b8db1cfb627611d",
+		"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+	}, {
+		"ref": "47850b7a8b5f9d8f",
+		"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+	}, {
+		"ref": "2a693fc5380cfc80",
+		"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+	}, {
+		"ref": "4b362d58cffd4565",
+		"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+	}, {
+		"ref": "857993eac6f34de",
+		"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+	}],
+	"pinConnectionOverrides": [{
+		"fromEntity": {
+			"ref": "6e787bce76f6a70",
+			"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+		},
+		"toEntity": {
+			"ref": "7797283b86778151",
+			"externalScene": "[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"
+		},
+		"fromPinName": "OnLeft",
+		"toPinName": "SetFalse",
+		"constantPinValue": {
+			"$type": "void",
+			"$val": null
+		}
+	}],
+	"pinConnectionOverrideDeletes": [],
+	"externalScenes": ["[assembly:/_pro/scenes/missions/mumbai/scenario_mongoose.brick].pc_entitytype"],
+	"subType": 1,
+	"quickEntityVersion": 2.1
+}

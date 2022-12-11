@@ -9,19 +9,19 @@
         "DisplayAsKillObjective": true,
         "ForceShowOnLoadingScreen": true,
         "IsHidden": false,
-        "BriefingName": "$($repository 2e1a30c5-b1e0-4984-b3f4-67f01f9ebfef).Name",
-        "Image": "images/dbierek/mumbai_test_target.jpg",
+        "BriefingName": "$($repository C2F6C0F9-5DDC-4379-86A9-07216ADF5569).Name",
+        "Image": "images/dbierek/sapienza_target.jpg",
         "HUDTemplate": {
-          "display": "Eliminate the Ether Scientist"
+          "display": "Eliminate Thomas Cross"
         },
-        "BriefingText": "Eliminate the Ether Scientist",
+        "BriefingText": "Eliminate Thomas Cross",
         "Type": "statemachine",
         "Definition": {
           "Scope": "session",
           "Context": {
             "KilledActors": [],
             "Targets": [
-              "743F058F-56A0-420F-8B5E-46DABABACA37"
+              "C2F6C0F9-5DDC-4379-86A9-07216ADF5569"
             ]
           },
           "States": {
@@ -31,7 +31,7 @@
                   "Condition": {
                     "$eq": [
                       "$Value.RepositoryId",
-                      "743F058F-56A0-420F-8B5E-46DABABACA37"
+                      "C2F6C0F9-5DDC-4379-86A9-07216ADF5569"
                     ]
                   },
                   "Transition": "Success"
@@ -57,34 +57,27 @@
       }
     ],
     "Bricks": [
-      "assembly:/_PRO/scenes/missions/mumbai/mission_mongoose.brick"
     ],
     "DevOnlyBricks": [],
-    "Entrances": [
-      "37af536b-3f36-49ed-986a-9d55f4481ed4"
-    ],
-    "Exits": [
-      "c09f21a8-6849-4b70-93fb-8de1bc7333d7"
-    ],
     "GameChangers": [],
     "GameChangerReferences": []
   },
   "Metadata": {
-    "Id": "a8036782-de0a-4353-b522-0ab7a384badd",
+    "Id": "179563a4-727a-4072-b354-c9fff4e8bff1",
     "IsPublished": true,
-    "Title": "UI_DARTMOOR_TITLE",
-    "Description": "DESC_DARTMOOR",
-    "CodeName_Hint": "Mumbai Test Target",
-    "ScenePath": "assembly:/_pro/scenes/missions/ancestral/scene_bulldog.entity",
-    "TileImage": "images/dbierek/dartmoor.jpg",
-    "Location": "LOCATION_MUMBAI",
+    "Title": "UI_SAPIENZA_TITLE",
+    "Description": "DESC_SAPIENZA",
+    "CodeName_Hint": "Sapienza",
+    "ScenePath": "assembly:/_PRO/Scenes/Missions/CoastalTown/Mission01.entity",
+    "TileImage": "images/dbierek/sapienza.jpg",
+    "Location": "LOCATION_COASTALTOWN",
     "LastUpdate": "2022-12-06T08:36:00.000Z",
     "CreationTimestamp": "2022-12-06T08:36:00.000Z",
     "CreatorUserId": "00000000-0000-0000-0000-000000000000",
     "Type": "flashback",
     "Subtype": "specialassignment",
-    "Release": "2.2.x",
-    "RequiredUnlockable": "ACCESS_HIT_MONGOOSE",
+    "Release": "1.1.x",
+    "RequiredUnlockable": "ACCESS_HIT_OCTOPUS",
     "Entitlements": [
       "H1_LEGACY_STANDARD"
     ]

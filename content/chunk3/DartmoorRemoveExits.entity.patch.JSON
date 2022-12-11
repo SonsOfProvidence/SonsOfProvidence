@@ -1,0 +1,59 @@
+{
+  "tempHash": "004F945201F83AB1",
+  "tbluHash": "0061ABD80908FB2A",
+  "patch": [
+    {
+      "op": "remove",
+      "path": "/entities/61328612b1f3d6b0"
+    },
+    {
+      "op": "remove",
+      "path": "/entities/7e2ccc34b61aed6"
+    },
+    {
+      "op": "remove",
+      "path": "/entities/35738a28c7e3f66b"
+    },
+    {
+      "op": "remove",
+      "path": "/entities/8317142a87dfd6d8"
+    },
+    {
+      "op": "remove",
+      "path": "/entities/3303fd8e521ffaa3/events/OnTrue/EnableExit/0"
+    },
+    {
+      "op": "remove",
+      "path": "/entities/3303fd8e521ffaa3/events/OnFalse/DisableExit/0"
+    },
+    {
+      "op": "remove",
+      "path": "/entities/2cedb303fc03e8a9/properties/m_rValueEntity"
+    },
+    {
+      "op": "remove",
+      "path": "/entities/413f881be2b49c9/properties/m_eidParent"
+    },
+    {
+      "op": "remove",
+      "path": "/entities/66c7f4f495c09998/properties/m_rCondition"
+    },
+    {
+      "op": "remove",
+      "path": "/entities/cca158c6d894ef0d/events/ExitSequenceOver/Trigger/0"
+    },
+    {
+      "op": "remove",
+      "path": "/entities/a9676b0b96bbdc1c/events/ExitSequenceOver/Trigger/0"
+    },
+    {
+      "op": "remove",
+      "path": "/entities/c2016f47183b94ed/events/ExitSequenceOver/Trigger/1"
+    },
+    {
+      "op": "remove",
+      "path": "/entities/83c4641b6bdc8ca/events/ExitSequenceOver/Poll/0"
+    }
+  ],
+  "patchVersion": 5
+}

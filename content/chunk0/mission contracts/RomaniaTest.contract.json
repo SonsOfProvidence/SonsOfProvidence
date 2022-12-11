@@ -3,25 +3,27 @@
     "EnableSaving": true,
     "Objectives": [
       {
-        "Id": "6726232b-1926-4ed2-8b92-0e2c4bcd7384",
+        "_comment": "----- Eliminate Arthur Edwards -----",
+        "Id": "63b987e4-18d7-4a09-8848-4fc4970fa733",
         "Category": "primary",
-        "ObjectiveType": "setpiece",
-        "DisplayAsKillObjective": true,
-        "ForceShowOnLoadingScreen": true,
-        "IsHidden": false,
-        "BriefingName": "$($repository 2e1a30c5-b1e0-4984-b3f4-67f01f9ebfef).Name",
-        "Image": "images/dbierek/mumbai_test_target.jpg",
-        "HUDTemplate": {
-          "display": "Eliminate the Ether Scientist"
+        "Activation": {
+          "$eq": [
+            "$c458f79e-f308-49d9-8491-854e04aaeecb",
+            "Completed"
+          ]
         },
-        "BriefingText": "Eliminate the Ether Scientist",
+        "RepeatSuccess": 1,
+        "RepeatFailed": 1,
+        "HUDTemplate": {
+          "display": "$loc UI_CONTRACT_WOLVERINE_OBJ_EDWARDS"
+        },
+        "BriefingText": "$loc UI_CONTRACT_WOLVERINE_OBJ_EDWARDS",
         "Type": "statemachine",
         "Definition": {
           "Scope": "session",
           "Context": {
-            "KilledActors": [],
             "Targets": [
-              "743F058F-56A0-420F-8B5E-46DABABACA37"
+              "17c40b70-506a-494e-89ef-31360cdead47"
             ]
           },
           "States": {
@@ -29,11 +31,21 @@
               "Kill": [
                 {
                   "Condition": {
-                    "$eq": [
-                      "$Value.RepositoryId",
-                      "743F058F-56A0-420F-8B5E-46DABABACA37"
-                    ]
+                    "$inarray": {
+                      "in": "$.Targets",
+                      "?": {
+                        "$eq": [
+                          "$.#",
+                          "$Value.RepositoryId"
+                        ]
+                      }
+                    }
                   },
+                  "Transition": "Success"
+                }
+              ],
+              "CompleteObjective": [
+                {
                   "Transition": "Success"
                 }
               ]
@@ -57,15 +69,9 @@
       }
     ],
     "Bricks": [
-      "assembly:/_PRO/scenes/missions/mumbai/mission_mongoose.brick"
+      "assembly:/_pro/scenes/missions/trapped/mission_wolverine.brick"
     ],
     "DevOnlyBricks": [],
-    "Entrances": [
-      "37af536b-3f36-49ed-986a-9d55f4481ed4"
-    ],
-    "Exits": [
-      "c09f21a8-6849-4b70-93fb-8de1bc7333d7"
-    ],
     "GameChangers": [],
     "GameChangerReferences": []
   },
@@ -74,19 +80,19 @@
     "IsPublished": true,
     "Title": "UI_ROMANIA_TITLE",
     "Description": "DESC_ROMANIA",
-    "CodeName_Hint": "Mumbai Test Target",
-    "ScenePath": "assembly:/_pro/scenes/missions/Mumbai/scene_mongoose.entity",
+    "CodeName_Hint": "Romania Test Target",
+    "ScenePath": "assembly:/_PRO/Scenes/Missions/trapped/scene_wolverine.entity",
     "TileImage": "images/dbierek/romania.jpg",
-    "Location": "LOCATION_MUMBAI",
+    "Location": "LOCATION_TRAPPED_WOLVERINE",
     "LastUpdate": "2022-12-06T08:36:00.000Z",
     "CreationTimestamp": "2022-12-06T08:36:00.000Z",
     "CreatorUserId": "00000000-0000-0000-0000-000000000000",
     "Type": "flashback",
     "Subtype": "specialassignment",
-    "Release": "2.2.x",
+    "Release": "3.0.0",
     "RequiredUnlockable": "ACCESS_HIT_MONGOOSE",
     "Entitlements": [
-      "H1_LEGACY_STANDARD"
+      "LOCATION_TRAPPED"
     ]
   },
   "UserData": {}

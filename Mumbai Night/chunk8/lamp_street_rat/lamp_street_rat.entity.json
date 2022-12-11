@@ -1,0 +1,404 @@
+{
+	"tempHash": "003F5D775F9BEED0",
+	"tbluHash": "004CCC229BB9687B",
+	"rootEntity": "8e555546f4d63e6f",
+	"entities": {
+		"cccc396e43c8f832": {
+			"parent": "8e555546f4d63e6f",
+			"name": "Lightbulb_A",
+			"template": "[assembly:/_pro/environment/templates/props/lamps/lightbulb_a.template?/lightbulb_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/lamps/lightbulb_a.template?/lightbulb_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -90,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": -0.00037956240703351796,
+							"y": -2.6923980712890625,
+							"z": 7.591499042510986
+						}
+					}
+				},
+				"DiffuseColor": {
+					"type": "SColorRGB",
+					"value": "#ffe2c2"
+				},
+				"m_bEnableLightFade": {
+					"type": "bool",
+					"value": false
+				},
+				"GlowPower": {
+					"type": "float32",
+					"value": 1000
+				}
+			},
+			"postInitProperties": {
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "8e555546f4d63e6f"
+				}
+			},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"3dcd51c3afe97fd8": {
+			"parent": "8e555546f4d63e6f",
+			"name": "Light",
+			"template": "[modules:/zlightentity.class].pc_entitytype",
+			"blueprint": "[modules:/zlightentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 8.900000119979802,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": -0.0019890000112354755,
+							"y": -2.87677001953125,
+							"z": 7.574729919433594
+						}
+					}
+				},
+				"m_vFarAttenuation": {
+					"type": "SVector2",
+					"value": {
+						"x": 4.550000190734863,
+						"y": 10.199999809265137
+					}
+				},
+				"m_vAngularAttenuation": {
+					"type": "SVector2",
+					"value": {
+						"x": 0.4000000059604645,
+						"y": 0.7799999713897705
+					}
+				},
+				"m_bEnableLightFade": {
+					"type": "bool",
+					"value": false
+				},
+				"m_fLightFadeDistance": {
+					"type": "float32",
+					"value": 200
+				},
+				"m_bCastShadows": {
+					"type": "bool",
+					"value": true
+				},
+				"m_bUseDynamicShadowMap": {
+					"type": "bool",
+					"value": true
+				}
+			},
+			"postInitProperties": {
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "8e555546f4d63e6f"
+				}
+			},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"df9841ae8624d19e": {
+			"parent": "8e555546f4d63e6f",
+			"name": "lamp_street_rat_01",
+			"template": "[assembly:/templates/aspectdummy.aspect]([assembly:/_pro/environment/geometry/props/street_props/lamp_street_mumbai_a.wl2?/lamp_street_mumbai_a.prim].entitytype,[modules:/zdisablecameracollisionaspect.class].entitytype).pc_entitytype",
+			"blueprint": "[assembly:/templates/aspectdummy.aspect]([assembly:/templates/geometrytemplatestaticcoll.template?/geomentity01.entitytemplate].entitytype,[modules:/zdisablecameracollisionaspect.class].entitytype).pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": 1.907349087559851e-06,
+							"y": 0,
+							"z": 0
+						}
+					}
+				}
+			},
+			"postInitProperties": {
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "8e555546f4d63e6f"
+				}
+			},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		},
+		"2c2f32a8600f5e79": {
+			"parent": "8e555546f4d63e6f",
+			"name": "FX_Logic_LampCore",
+			"template": "[assembly:/_pro/effects/templates/logic/fx_logic_lampcore.template?/fx_logic_lampcore.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/effects/templates/logic/fx_logic_lampcore.template?/fx_logic_lampcore.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"GlowPower": {
+					"type": "float32",
+					"value": 10000
+				},
+				"On": {
+					"type": "bool",
+					"value": true
+				},
+				"DiffuseColor": {
+					"type": "SColorRGB",
+					"value": "#ffeddb"
+				},
+				"DiffusePower": {
+					"type": "float32",
+					"value": 200
+				}
+			},
+			"postInitProperties": {
+				"LampGeometry": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["cccc396e43c8f832"]
+				},
+				"m_aRenderables": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["cccc396e43c8f832", "3dcd51c3afe97fd8"]
+				}
+			},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": [],
+			"events": [{
+				"onEvent": "DiffuseColor",
+				"shouldTrigger": "DiffuseColor",
+				"onEntity": "3dcd51c3afe97fd8"
+			}, {
+				"onEvent": "DiffuseColor",
+				"shouldTrigger": "Color",
+				"onEntity": "cccc396e43c8f832"
+			}, {
+				"onEvent": "On",
+				"shouldTrigger": "SetVisible",
+				"onEntity": "3dcd51c3afe97fd8"
+			}, {
+				"onEvent": "GlowPower",
+				"shouldTrigger": "GlowPower",
+				"onEntity": "cccc396e43c8f832"
+			}, {
+				"onEvent": "DiffusePower",
+				"shouldTrigger": "DiffusePower",
+				"onEntity": "3dcd51c3afe97fd8"
+			}, {
+				"onEvent": "GeomShadowToggle",
+				"shouldTrigger": "CastShadows",
+				"onEntity": "df9841ae8624d19e"
+			}]
+		},
+		"8e555546f4d63e6f": {
+			"parent": null,
+			"name": "lamp_street_rat",
+			"template": "[modules:/zcompositeentity.class].pc_entitytype",
+			"blueprint": "[modules:/zcompositeentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": 14.539779663085938,
+							"y": -3.173233985900879,
+							"z": -9.999999974752427e-07
+						}
+					}
+				},
+				"DiffuseColor": {
+					"type": "SColorRGB",
+					"value": "#ffeddb"
+				},
+				"m_vFarAttenuation": {
+					"type": "SVector2",
+					"value": {
+						"x": 4.550000190734863,
+						"y": 10.199999809265137
+					}
+				}
+			},
+			"postInitProperties": {},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": [],
+			"propertyAliases": [{
+				"exposeProperty": "m_vFarAttenuation",
+				"onEntity": "3dcd51c3afe97fd8",
+				"asProperty": "m_vFarAttenuation"
+			}, {
+				"exposeProperty": "m_vAngularAttenuation",
+				"onEntity": "3dcd51c3afe97fd8",
+				"asProperty": "m_vAngularAttenuation"
+			}, {
+				"exposeProperty": "m_mTransform",
+				"onEntity": "3dcd51c3afe97fd8",
+				"asProperty": "LightTransform"
+			}, {
+				"exposeProperty": "m_fLightFadeDistance",
+				"onEntity": "3dcd51c3afe97fd8",
+				"asProperty": "m_fLightFadeDistance"
+			}, {
+				"exposeProperty": "m_bCastShadows",
+				"onEntity": "3dcd51c3afe97fd8",
+				"asProperty": "m_bCastShadows"
+			}, {
+				"exposeProperty": "DiffuseColor",
+				"onEntity": "2c2f32a8600f5e79",
+				"asProperty": "DiffuseColor"
+			}, {
+				"exposeProperty": "On",
+				"onEntity": "2c2f32a8600f5e79",
+				"asProperty": "On"
+			}, {
+				"exposeProperty": "DiffusePower",
+				"onEntity": "2c2f32a8600f5e79",
+				"asProperty": "DiffusePower"
+			}, {
+				"exposeProperty": "GlowPower",
+				"onEntity": "2c2f32a8600f5e79",
+				"asProperty": "GlowPower"
+			}, {
+				"exposeProperty": "m_bUseDynamicShadowMap",
+				"onEntity": "3dcd51c3afe97fd8",
+				"asProperty": "m_bUseDynamicShadowMap"
+			}]
+		},
+		"abcdc9eaad59c5ba": {
+			"parent": "8e555546f4d63e6f",
+			"name": "Light_Omni_Slave",
+			"template": "[modules:/zlightentity.class].pc_entitytype",
+			"blueprint": "[modules:/zlightentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -3.976152143753267e-8,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						}
+					}
+				},
+				"m_eLightType": {
+					"type": "ILightEntity.ELightType",
+					"value": "LT_OMNI"
+				},
+				"m_bCastShadows": {
+					"type": "bool",
+					"value": false
+				},
+				"m_vFarAttenuation": {
+					"type": "SVector2",
+					"value": {
+						"x": 0.24462200701236725,
+						"y": 0.5573660135269165
+					}
+				},
+				"m_vNearAttenuation": {
+					"type": "SVector2",
+					"value": {
+						"x": 0.009999999776482582,
+						"y": 0.019999999552965164
+					}
+				},
+				"m_fDiffusePower": {
+					"type": "float32",
+					"value": 15
+				},
+				"m_bEnableLightFade": {
+					"type": "bool",
+					"value": false
+				},
+				"m_vAngularAttenuation": {
+					"type": "SVector2",
+					"value": {
+						"x": 0.6841890215873718,
+						"y": 1.135398030281067
+					}
+				},
+				"m_bCrowdCastShadows": {
+					"type": "bool",
+					"value": true
+				},
+				"m_bCastOmniShadows": {
+					"type": "bool",
+					"value": false
+				},
+				"m_fLightFadeDistance": {
+					"type": "float32",
+					"value": 50
+				},
+				"m_vBoxSize": {
+					"type": "SVector3",
+					"value": {
+						"x": 0.23697899281978607,
+						"y": 0.2098499983549118,
+						"z": 0.20000000298023224
+					}
+				},
+				"m_vBoxFadePos": {
+					"type": "SVector3",
+					"value": {
+						"x": 0.021537000313401222,
+						"y": 0.04985760152339935,
+						"z": 0.030818600207567215
+					}
+				},
+				"m_vBoxFadeNeg": {
+					"type": "SVector3",
+					"value": {
+						"x": 0.0403607003390789,
+						"y": 0.01145000010728836,
+						"z": 0.05036130174994469
+					}
+				},
+				"m_diffuseColor": {
+					"type": "SColorRGB",
+					"value": "#ffffff"
+				},
+				"m_MasterLight": {
+					"type": "SEntityTemplateReference",
+					"value": "3dcd51c3afe97fd8"
+				},
+				"GlowPower": {
+					"type": "float32",
+					"value": 1000
+				}
+			},
+			"postInitProperties": {
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "cccc396e43c8f832"
+				}
+			},
+			"editorOnly": false,
+			"platformSpecificPropertyValues": []
+		}
+	},
+	"propertyOverrides": [],
+	"overrideDeletes": [],
+	"pinConnectionOverrides": [],
+	"pinConnectionOverrideDeletes": [],
+	"externalScenes": [],
+	"subType": 0,
+	"quickEntityVersion": 2.1
+}

@@ -1,0 +1,22 @@
+{
+  "tempHash": "004F945201F83AB1",
+  "tbluHash": "0061ABD80908FB2A",
+  "patch": [
+    {
+      "op": "replace",
+      "path": "/entities/6fcd3b4dfce0b60/properties/m_mTransform/value/position/x",
+      "value": -25.8754
+    },
+    {
+      "op": "replace",
+      "path": "/entities/6fcd3b4dfce0b60/properties/m_mTransform/value/position/y",
+      "value": -3.824
+    },
+    {
+      "op": "replace",
+      "path": "/entities/6fcd3b4dfce0b60/properties/m_mTransform/value/position/z",
+      "value": 3.0
+    }
+  ],
+  "patchVersion": 5
+}
