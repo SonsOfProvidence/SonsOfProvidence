@@ -1,5 +1,5 @@
 {
-  "id": "DannyBierek.MissionPack",
+  "id": "DannyBierek.SonsOfProvidence",
   "name": "Sons of Providence",
   "description": "This mod tells a tale of two brothers, and their mission to take them all down.",
   "blobsFolders": [
@@ -14,6 +14,13 @@
   "contentFolders": [
     "content",
     "Mumbai Night"
+  ],
+  "packagedefinition": [
+    {
+      "type": "entity",
+      "partition": "mumbai",
+      "path": "[assembly:/_pro/scenes/missions/mumbai/_scene_etherhq.entity].entitytemplate"
+    }
   ],
   "dependencies": [
     {

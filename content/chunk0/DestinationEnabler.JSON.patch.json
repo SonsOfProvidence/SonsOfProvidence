@@ -125,6 +125,21 @@
       "op": "add",
       "path": "/Root/Children/-",
       "value": {
+        "Id": "a2befcec-4747-4987-9215-6a152cb6a321",
+        "_comment": "Ether HQ",
+        "NarrativeContext": "Mission",
+        "Meta": {
+          "Ui": {
+            "Row": 3,
+            "Col": 5
+          }
+        }
+      }
+    },
+    {
+      "op": "add",
+      "path": "/Root/Children/-",
+      "value": {
         "Id": "97c4148b-ecea-4735-87cd-563e9a4ad343",
         "_comment": "Sgail Test",
         "NarrativeContext": "Mission",

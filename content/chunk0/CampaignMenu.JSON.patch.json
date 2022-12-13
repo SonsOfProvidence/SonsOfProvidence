@@ -175,6 +175,11 @@
           },
           {
             "Type": "Mission",
+            "Id": "a2befcec-4747-4987-9215-6a152cb6a321",
+            "_comment": "Ether HQ"
+          },
+          {
+            "Type": "Mission",
             "Id": "a2befcec-7799-4987-9215-6a152cb6a321",
             "_comment": "Mumbai Test"
           },

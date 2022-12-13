@@ -1,28 +1,4 @@
 {
-  "STARTING_LOCATION_MUMBAI_ROOF": {
-    "Id": "STARTING_LOCATION_MUMBAI_ROOF",
-    "Guid": "0f71dff0-bcfd-4a65-9888-21f834141a8c",
-    "Type": "access",
-    "Subtype": "startinglocation",
-    "ImageId": null,
-    "RMTPrice": -1,
-    "GamePrice": -1,
-    "IsPurchasable": false,
-    "IsPublished": true,
-    "IsDroppable": false,
-    "Capabilities": [],
-    "Qualities": {},
-    "Properties": {
-      "Location": "LOCATION_PARENT_MUMBAI",
-      "RepositoryId": "37af536b-3f36-49ed-986a-9d55f4481ed4",
-      "UnlockOrder": 0,
-      "LoadoutSettings": {
-        "ConcealedWeaponSlotEnabled": true
-      },
-      "Equip": []
-    },
-    "Rarity": null
-  },
   "STARTING_LOCATION_DARTMOOR_INSTITUTE": {
     "Properties": {
       "Location": "STARTING_LOCATION_DARTMOOR_INSTITUTE",
