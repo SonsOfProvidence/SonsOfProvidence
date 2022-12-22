@@ -3,8 +3,7 @@
   "name": "Sons of Providence",
   "description": "This mod tells a tale of two brothers, and their mission to take them all down.",
   "blobsFolders": [
-    "blobs",
-    "Mumbai Night/blobs"
+    "blobs"
   ],
   "authors": [
     "Danny Bierek"
@@ -12,36 +11,16 @@
   "frameworkVersion": "2.1.5",
   "version": "0.9.0",
   "contentFolders": [
-    "content",
-    "Mumbai Night"
+    "content"
+  ],
+  "dependencies": [
+    "00012A91C8D518E1"
   ],
   "packagedefinition": [
     {
       "type": "entity",
-      "partition": "mumbai",
-      "path": "[assembly:/_pro/scenes/missions/mumbai/_scene_etherhq.entity].entitytemplate"
-    }
-  ],
-  "dependencies": [
-    {
-      "runtimeID": "00A01A2790FF4E7D",
-      "toChunk": 1,
-      "comment": "Sgail Night Sky"
-    },
-    {
-      "runtimeID": "0000BB4D3ACBD175",
-      "toChunk": 1,
-      "comment": "Lamp Ornate Marrakesh"
-    },
-    {
-      "runtimeID": "002E8103127A9ED2",
-      "toChunk": 1,
-      "comment": "Lamp Ornate Marrakesh"
-    },
-    {
-      "runtimeID": "001341F87621CA97",
-      "toChunk": 1,
-      "comment": "Lamp Ornate Marrakesh"
+      "partition": "mongoose",
+      "path": "[assembly:/_pro/scenes/missions/sonsofprovidence/scene_etherhq.entity].entitytemplate"
     }
   ],
   "localisation": {
