@@ -1,0 +1,86 @@
+{
+  "Data": {
+    "EnableSaving": true,
+    "Objectives": [
+      {
+        "Id": "6726232b-1926-4ed2-8b92-0e2c4bcd7384",
+        "Category": "primary",
+        "ObjectiveType": "setpiece",
+        "DisplayAsKillObjective": true,
+        "ForceShowOnLoadingScreen": true,
+        "IsHidden": false,
+        "BriefingName": "$($repository C2F6C0F9-5DDC-4379-86A9-07216ADF5569).Name",
+        "Image": "images/dbierek/sapienza_target.jpg",
+        "HUDTemplate": {
+          "display": "Eliminate Thomas Cross"
+        },
+        "BriefingText": "Eliminate Thomas Cross",
+        "Type": "statemachine",
+        "Definition": {
+          "Scope": "session",
+          "Context": {
+            "KilledActors": [],
+            "Targets": [
+              "C2F6C0F9-5DDC-4379-86A9-07216ADF5569"
+            ]
+          },
+          "States": {
+            "Start": {
+              "Kill": [
+                {
+                  "Condition": {
+                    "$eq": [
+                      "$Value.RepositoryId",
+                      "C2F6C0F9-5DDC-4379-86A9-07216ADF5569"
+                    ]
+                  },
+                  "Transition": "Success"
+                }
+              ]
+            }
+          }
+        }
+      }
+    ],
+    "GameDifficulties": [
+      {
+        "Difficulty": "easy",
+        "Bricks": []
+      },
+      {
+        "Difficulty": "normal",
+        "Bricks": []
+      },
+      {
+        "Difficulty": "hard",
+        "Bricks": []
+      }
+    ],
+    "Bricks": [
+    ],
+    "DevOnlyBricks": [],
+    "GameChangers": [],
+    "GameChangerReferences": []
+  },
+  "Metadata": {
+    "Id": "179563a4-727a-4072-b354-c9fff4e8bff1",
+    "IsPublished": true,
+    "Title": "UI_SAPIENZA_TITLE",
+    "Description": "DESC_SAPIENZA",
+    "CodeName_Hint": "Sapienza",
+    "ScenePath": "assembly:/_PRO/Scenes/Missions/CoastalTown/Mission01.entity",
+    "TileImage": "images/dbierek/sapienza.jpg",
+    "Location": "LOCATION_COASTALTOWN",
+    "LastUpdate": "2022-12-06T08:36:00.000Z",
+    "CreationTimestamp": "2022-12-06T08:36:00.000Z",
+    "CreatorUserId": "00000000-0000-0000-0000-000000000000",
+    "Type": "flashback",
+    "Subtype": "specialassignment",
+    "Release": "1.1.x",
+    "RequiredUnlockable": "ACCESS_HIT_OCTOPUS",
+    "Entitlements": [
+      "H1_LEGACY_STANDARD"
+    ]
+  },
+  "UserData": {}
+}

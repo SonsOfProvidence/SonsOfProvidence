@@ -1,0 +1,54 @@
+{
+  "Data": {
+    "EnableSaving": true,
+    "Objectives": [
+    ],
+    "GameDifficulties": [
+      {
+        "Difficulty": "easy",
+        "Bricks": []
+      },
+      {
+        "Difficulty": "normal",
+        "Bricks": []
+      },
+      {
+        "Difficulty": "hard",
+        "Bricks": []
+      }
+    ],
+    "Bricks": [
+      "assembly:/_pro/scenes/missions/edgy/mission_fox/mission_fox.brick"
+    ],
+    "Entrances": [
+      "0523519e-608e-49fd-bdda-3edc75fd1f77"
+    ],
+    "Exits": [
+      "e9c70f80-4316-46ab-aa70-953eaa7cc60e"
+    ],
+    "DevOnlyBricks": [],
+    "GameChangers": [],
+    "GameChangerReferences": []
+  },
+  "Metadata": {
+    "Id": "f1ba328f-e3dd-4ef8-bb26-0363499fdd96",
+    "IsPublished": true,
+    "Title": "UI_BERLIN_TITLE",
+    "Description": "DESC_BERLIN",
+    "CodeName_Hint": "Berlin Test",
+    "ScenePath": "assembly:/_pro/scenes/missions/edgy/mission_fox/scene_fox_basic.entity",
+    "TileImage": "images/dbierek/berlin.jpg",
+    "Location": "LOCATION_EDGY_FOX",
+    "LastUpdate": "2022-12-06T08:36:00.000Z",
+    "CreationTimestamp": "2022-12-06T08:36:00.000Z",
+    "CreatorUserId": "00000000-0000-0000-0000-000000000000",
+    "Type": "flashback",
+    "Subtype": "specialassignment",
+    "Release": "2.2.x",
+    "RequiredUnlockable": "ACCESS_HIT_FOX",
+    "Entitlements": [
+      "LOCATION_EDGY"
+    ]
+  },
+  "UserData": {}
+}

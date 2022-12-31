@@ -1,0 +1,307 @@
+{
+  "file": "0093B70B9E704CE0",
+  "patch": [
+    {
+      "op": "add",
+      "path": "/4/Subgroups/-",
+      "value": {
+        "Name": "UI_MENU_PAGE_HITS_ELEMENT_CATEGORY_MODDED",
+        "Image": "",
+        "Type": "campaign",
+        "BackgroundImage": "images/ui/boot/bg_welcome.jpg",
+        "StoryData": [
+          {
+            "Type": "Mission",
+            "Id": "a8036782-de0a-4353-b522-0ab7a384badd",
+            "_comment": "Dartmoor Test"
+          },
+          {
+            "Type": "Mission",
+            "Id": "a8036782-de0a-4353-b522-0ab7a384badc",
+            "_comment": "Romania Test"
+          },
+          {
+            "Type": "Mission",
+            "Id": "25b20d86-bb5a-4ebd-b6bb-81ed2779c180",
+            "_comment": "Siberia Test"
+          },
+          {
+            "Type": "Video",
+            "VideoType": "Video",
+            "Id": "debriefing_peacock",
+            "Title": "UI_MENU_PAGE_STORY_CUTSCENE_PEACOCK_TITLE",
+            "Header": "UI_MENU_PAGE_STORY_CUTSCENE_HEADER",
+            "VideoImage": "images/Cinematics/tiles/Cinematic1_SecretsOftheGlobalElite.jpg",
+            "RequiredResources": [
+              {
+                "Type": "Contract",
+                "Value": "00000000-0000-0000-0000-000000000200"
+              }
+            ],
+            "RequiredUnlockable": "ACCESS_HIT_OCTOPUS",
+            "_comment": "Cutscene : The Dossier"
+          },
+          {
+            "Type": "Video",
+            "VideoType": "Video",
+            "Id": "prologue_intermission4",
+            "Title": "UI_MENU_PAGE_STORY_CUTSCENE_PROLOGUE_INTERMISSION4_TITLE",
+            "Header": "UI_MENU_PAGE_STORY_CUTSCENE_HEADER",
+            "VideoImage": "images/Cinematics/tiles/Credits_CallMe47.jpg",
+            "RequiredResources": [
+              {
+                "Type": "Contract",
+                "Value": "ada5f2b1-8529-48bb-a596-717f75f5eacb"
+              }
+            ],
+            "RequiredUnlockable": "ACCESS_HIT_PEACOCK",
+            "_comment": "Polarbear graduation debriefing video"
+          },
+          {
+            "Type": "Mission",
+            "Id": "1436cbe4-164b-450f-ad2c-77dec88f53de",
+            "_comment": "Marrakesh Test"
+          },
+          {
+            "Type": "Video",
+            "VideoType": "Video",
+            "Id": "debriefing_octopus",
+            "Title": "UI_MENU_PAGE_STORY_CUTSCENE_OCTOPUS_TITLE",
+            "Header": "UI_MENU_PAGE_STORY_CUTSCENE_HEADER",
+            "VideoImage": "images/Cinematics/tiles/Cinematic2_TheKey.jpg",
+            "RequiredResources": [
+              {
+                "Type": "Contract",
+                "Value": "00000000-0000-0000-0000-000000000600"
+              }
+            ],
+            "RequiredUnlockable": "ACCESS_HIT_SPIDER",
+            "_comment": "Cutscene : The Messenger"
+          },
+          {
+            "Type": "Mission",
+            "Id": "c65019e5-43a8-4a33-8a2a-84c750a5eeb4",
+            "_comment": "New York Test"
+          },
+          {
+            "Type": "Video",
+            "VideoType": "Video",
+            "Id": "debriefing_spider",
+            "Title": "UI_MENU_PAGE_STORY_CUTSCENE_SPIDER_TITLE",
+            "Header": "UI_MENU_PAGE_STORY_CUTSCENE_HEADER",
+            "VideoImage": "images/Cinematics/tiles/Cinematic3_ProvidenceIsUnderAttack.jpg",
+            "RequiredResources": [
+              {
+                "Type": "Contract",
+                "Value": "00000000-0000-0000-0000-000000000400"
+              }
+            ],
+            "RequiredUnlockable": "ACCESS_HIT_TIGER",
+            "_comment": "Cutscene: The Vault"
+          },
+          {
+            "Type": "Mission",
+            "Id": "179563a4-727a-4072-b354-c9fff4e8bff1",
+            "_comment": "Sapienza Test"
+          },
+          {
+            "Type": "Video",
+            "VideoType": "Video",
+            "Id": "debriefing_tiger",
+            "Title": "UI_MENU_PAGE_STORY_CUTSCENE_TIGER_TITLE",
+            "Header": "UI_MENU_PAGE_STORY_CUTSCENE_HEADER",
+            "VideoImage": "images/Cinematics/tiles/Cinematic4_TheShadowClient.jpg",
+            "RequiredResources": [
+              {
+                "Type": "Contract",
+                "Value": "db341d9f-58a4-411d-be57-0bc4ed85646b"
+              }
+            ],
+            "RequiredUnlockable": "ACCESS_HIT_BULL",
+            "_comment": "Cutscene : The Shadow Client"
+          },
+          {
+            "Type": "Mission",
+            "Id": "7a03a97d-238c-48bd-bda0-e5f279569ccf",
+            "_comment": "Colorado Test"
+          },
+          {
+            "Type": "Video",
+            "VideoType": "Video",
+            "Id": "bull_secret_room",
+            "Title": "UI_MENU_PAGE_STORY_CUTSCENE_BULL_SECRET_ROOM_TITLE",
+            "Header": "UI_MENU_PAGE_STORY_IN_GAME_CUTSCENE_HEADER",
+            "VideoImage": "images/Cinematics/tiles/Cinematic5_secretRoom.jpg",
+            "RequiredResources": [
+              {
+                "Type": "Contract",
+                "Value": "42bac555-bbb9-429d-a8ce-f1ffdf94211c"
+              }
+            ],
+            "RequiredUnlockable": "ACCESS_HIT_SNOW_CRANE",
+            "_comment": "Cutscene: Secret Room"
+          },
+          {
+            "Type": "Video",
+            "VideoType": "Video",
+            "Id": "debriefing_bull",
+            "Title": "UI_MENU_PAGE_STORY_CUTSCENE_BULL_TITLE",
+            "Header": "UI_MENU_PAGE_STORY_CUTSCENE_HEADER",
+            "VideoImage": "images/Cinematics/tiles/Cinematic5_MyFriendAndI.jpg",
+            "RequiredResources": [
+              {
+                "Type": "Contract",
+                "Value": "42bac555-bbb9-429d-a8ce-f1ffdf94211c"
+              }
+            ],
+            "RequiredUnlockable": "ACCESS_HIT_SNOW_CRANE",
+            "_comment": "Cutscene: The Curse"
+          },
+          {
+            "Type": "Video",
+            "VideoType": "Video",
+            "Id": "debriefing_flamingo",
+            "Title": "UI_MENU_PAGE_STORY_CUTSCENE_SEASON2_STORY_BLOCK_02_TITLE",
+            "Header": "UI_MENU_PAGE_STORY_CUTSCENE_HEADER",
+            "VideoImage": "images/cinematics/tiles_s2/cinematic02.jpg",
+            "RequiredResources": [
+              {
+                "Type": "Contract",
+                "Value": "c1d015b4-be08-4e44-808e-ada0f387656f"
+              }
+            ],
+            "RequiredUnlockable": "ACCESS_HIT_HIPPO",
+            "_comment": "Cutscene : Story Block 2"
+          },
+          {
+            "Type": "Mission",
+            "Id": "a2befcec-7799-4987-9215-6a152cb6a321",
+            "_comment": "Ether HQ"
+          },
+          {
+            "Type": "Video",
+            "VideoType": "Video",
+            "Id": "debriefing_hippo",
+            "Title": "UI_MENU_PAGE_STORY_CUTSCENE_SEASON2_STORY_BLOCK_03_TITLE",
+            "Header": "UI_MENU_PAGE_STORY_CUTSCENE_HEADER",
+            "VideoImage": "images/cinematics/tiles_s2/cinematic03.jpg",
+            "RequiredResources": [
+              {
+                "Type": "Contract",
+                "Value": "422519be-ed2e-44df-9dac-18f739d44fd9"
+              }
+            ],
+            "RequiredUnlockable": "ACCESS_HIT_MONGOOSE",
+            "_comment": "Cutscene : Story Block 3"
+          },
+          {
+            "Type": "Video",
+            "VideoType": "Video",
+            "Id": "debriefing_mongoose",
+            "Title": "UI_MENU_PAGE_STORY_CUTSCENE_SEASON2_STORY_BLOCK_04_TITLE",
+            "Header": "UI_MENU_PAGE_STORY_CUTSCENE_HEADER",
+            "VideoImage": "images/cinematics/tiles_s2/cinematic04.jpg",
+            "RequiredResources": [
+              {
+                "Type": "Contract",
+                "Value": "0fad48d7-3d0f-4c66-8605-6cbe9c3a46d7"
+              }
+            ],
+            "RequiredUnlockable": "ACCESS_HIT_SKUNK",
+            "_comment": "Cutscene : Story Block 4"
+          },
+          {
+            "Type": "Video",
+            "VideoType": "Video",
+            "Id": "intro_skunk",
+            "Title": "UI_MENU_PAGE_STORY_CUTSCENE_SEASON2_STORY_BLOCK_05_TITLE",
+            "Header": "UI_MENU_PAGE_STORY_CUTSCENE_HEADER",
+            "VideoImage": "images/cinematics/tiles_s2/cinematic05.jpg",
+            "RequiredResources": [
+              {
+                "Type": "Contract",
+                "Value": "82f55837-e26c-41bf-bc6e-fa97b7981fbc"
+              }
+            ],
+            "RequiredUnlockable": "ACCESS_HIT_SKUNK",
+            "_comment": "Cutscene : Story Block 5"
+          },
+          {
+            "Type": "Video",
+            "VideoType": "Video",
+            "Id": "debriefing_skunk",
+            "Title": "UI_MENU_PAGE_STORY_CUTSCENE_SEASON2_STORY_BLOCK_06_TITLE",
+            "Header": "UI_MENU_PAGE_STORY_CUTSCENE_HEADER",
+            "VideoImage": "images/cinematics/tiles_s2/cinematic06.jpg",
+            "RequiredResources": [
+              {
+                "Type": "Contract",
+                "Value": "82f55837-e26c-41bf-bc6e-fa97b7981fbc"
+              }
+            ],
+            "RequiredUnlockable": "ACCESS_HIT_MAGPIE",
+            "_comment": "Cutscene : Story Block 6"
+          },
+          {
+            "Type": "Video",
+            "VideoType": "Video",
+            "Id": "intro_magpie",
+            "Title": "UI_MENU_PAGE_STORY_CUTSCENE_SEASON2_STORY_BLOCK_07_TITLE",
+            "Header": "UI_MENU_PAGE_STORY_CUTSCENE_HEADER",
+            "VideoImage": "images/cinematics/tiles_s2/cinematic07.jpg",
+            "RequiredResources": [
+              {
+                "Type": "Contract",
+                "Value": "0d225edf-40cd-4f20-a30f-b62a373801d3"
+              }
+            ],
+            "RequiredUnlockable": "ACCESS_HIT_MAGPIE",
+            "_comment": "Cutscene : Story Block 7"
+          },
+          {
+            "Type": "Mission",
+            "Id": "97c4148b-ecea-4735-87cd-563e9a4ad343",
+            "_comment": "Sgail Test"
+          },
+          {
+            "Type": "Video",
+            "VideoType": "Video",
+            "Id": "debriefing_gecko",
+            "Title": "UI_MENU_PAGE_STORY_CUTSCENE_SEASON3_STORY_BLOCK_02_TITLE",
+            "Header": "UI_MENU_PAGE_STORY_CUTSCENE_HEADER",
+            "VideoImage": "images/cinematics/tiles_s3/cinematic02.jpg",
+            "RequiredResources": [
+              {
+                "Type": "Contract",
+                "Value": "7d85f2b0-80ca-49be-a2b7-d56f67faf252"
+              }
+            ],
+            "RequiredUnlockable": "ACCESS_HIT_BULLDOG",
+            "_comment": "Cutscene : Story Block 2"
+          },
+          {
+            "Type": "Mission",
+            "Id": "f1ba328f-e3dd-4ef8-bb26-0363499fdd96",
+            "_comment": "Berlin Test"
+          },
+          {
+            "Type": "Video",
+            "VideoType": "Video",
+            "Id": "debriefing_bulldog",
+            "Title": "UI_MENU_PAGE_STORY_CUTSCENE_SEASON3_STORY_BLOCK_04_TITLE",
+            "Header": "UI_MENU_PAGE_STORY_CUTSCENE_HEADER",
+            "VideoImage": "images/cinematics/tiles_s3/cinematic03.jpg",
+            "RequiredResources": [
+              {
+                "Type": "Contract",
+                "Value": "755984a8-fb0b-4673-8637-95cfe7d34e0f"
+              }
+            ],
+            "RequiredUnlockable": "ACCESS_HIT_FOX",
+            "_comment": "Cutscene : Story Block 4"
+          }
+        ]
+      }
+    }
+  ]
+}

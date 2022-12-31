@@ -11,8 +11,18 @@
   "frameworkVersion": "2.1.5",
   "version": "0.11.0",
   "contentFolders": [
+<<<<<<< Updated upstream
     "content"
   ],
+=======
+    "content", "SHARED"
+  ],
+  "packagedefinition": [{
+    "type": "entity",
+    "partition": "mongoose",
+    "path": "[assembly:/_pro/scenes/missions/mumbai/tod_night.brick].entitytype"
+  }],
+>>>>>>> Stashed changes
   "dependencies": [
     "00A813CFA8CEB1AA",
     "00B83EC8270D9027",

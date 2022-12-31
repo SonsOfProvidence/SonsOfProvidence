@@ -1,0 +1,56 @@
+{
+  "Data": {
+    "Bricks": [
+      "assembly:/_pro/scenes/missions/ancestral/mission_bulldog.brick"
+    ],
+    "DevOnlyBricks": [
+      "assembly:/_pro/scenes/missions/ancestral/dev_bulldog.brick"
+    ],
+    "EnableSaving": true,
+    "Objectives": [
+    ],
+    "GameDifficulties": [
+      {
+        "Difficulty": "easy",
+        "Bricks": []
+      },
+      {
+        "Difficulty": "normal",
+        "Bricks": []
+      },
+      {
+        "Difficulty": "hard",
+        "Bricks": []
+      }
+    ],
+    "Entrances": [
+      "3812ea57-e29c-42cb-b93a-ea2d3e6a6806"
+    ],
+    "Exits": [
+      "d40d28d2-1ebf-48b6-9eba-57bc3ed36bc7"
+    ],
+    "GameChangers": [],
+    "GameChangerReferences": []
+  },
+  "Metadata": {
+    "Id": "a8036782-de0a-4353-b522-0ab7a384badd",
+    "IsPublished": true,
+    "Title": "UI_DARTMOOR_TITLE",
+    "Description": "DESC_DARTMOOR",
+    "CodeName_Hint": "Dartmoor Test",
+    "ScenePath": "assembly:/_PRO/Scenes/Missions/Ancestral/scene_bulldog.entity",
+    "TileImage": "images/dbierek/dartmoor.jpg",
+    "Location": "LOCATION_ANCESTRAL_BULLDOG",
+    "LastUpdate": "2022-12-06T08:36:00.000Z",
+    "CreationTimestamp": "2022-12-06T08:36:00.000Z",
+    "CreatorUserId": "00000000-0000-0000-0000-000000000000",
+    "Type": "flashback",
+    "Subtype": "specialassignment",
+    "Release": "2.2.x",
+    "RequiredUnlockable": "ACCESS_HIT_MONGOOSE",
+    "Entitlements": [
+      "LOCATION_ANCESTRAL"
+    ]
+  },
+  "UserData": {}
+}

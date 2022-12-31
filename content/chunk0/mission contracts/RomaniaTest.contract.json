@@ -1,0 +1,90 @@
+{
+  "Data": {
+    "EnableSaving": true,
+    "Objectives": [
+      {
+        "Id": "6726232b-1926-4ed2-8b92-0e2c4bcd7384",
+        "Category": "primary",
+        "ObjectiveType": "setpiece",
+        "DisplayAsKillObjective": true,
+        "ForceShowOnLoadingScreen": true,
+        "IsHidden": false,
+        "BriefingName": "$loc UI_ROMANIA_TARGET_BRIEFING",
+        "Image": "images/dbierek/romania_target.jpg",
+        "HUDTemplate": {
+          "display": "Eliminate Eugene Cobb"
+        },
+        "BriefingText": "Eliminate Eugene Cobb",
+        "Type": "statemachine",
+        "Definition": {
+          "Scope": "session",
+          "Context": {
+            "KilledActors": [],
+            "Targets": [
+              "17c40b70-506a-494e-89ef-31360cdead47"
+            ]
+          },
+          "States": {
+            "Start": {
+              "Kill": [
+                {
+                  "Condition": {
+                    "$eq": [
+                      "$Value.RepositoryId",
+                      "17c40b70-506a-494e-89ef-31360cdead47"
+                    ]
+                  },
+                  "Transition": "Success"
+                }
+              ]
+            }
+          }
+        }
+      }
+    ],
+    "GameDifficulties": [
+      {
+        "Difficulty": "easy",
+        "Bricks": []
+      },
+      {
+        "Difficulty": "normal",
+        "Bricks": []
+      },
+      {
+        "Difficulty": "hard",
+        "Bricks": []
+      }
+    ],
+    "Entrances": [
+      "ee4b0060-b322-4bb0-99b5-942e8a20f278"
+    ],
+    "Bricks": [
+      "assembly:/_pro/scenes/missions/trapped/mission_wolverine.brick"
+    ],
+    "DevOnlyBricks": [],
+    "GameChangers": [],
+    "GameChangerReferences": []
+  },
+  "Metadata": {
+    "Id": "a8036782-de0a-4353-b522-0ab7a384badc",
+    "IsPublished": true,
+    "Title": "UI_ROMANIA_TITLE",
+    "Description": "DESC_ROMANIA",
+    "CodeName_Hint": "Romania Test Target",
+    "ScenePath": "assembly:/_PRO/Scenes/Missions/trapped/scene_wolverine.entity",
+    "TileImage": "images/dbierek/romania.jpg",
+    "Location": "LOCATION_TRAPPED_WOLVERINE",
+    "LastUpdate": "2022-12-06T08:36:00.000Z",
+    "CreationTimestamp": "2022-12-06T08:36:00.000Z",
+    "CreatorUserId": "00000000-0000-0000-0000-000000000000",
+    "Type": "flashback",
+    "Subtype": "specialassignment",
+    "Release": "3.0.0",
+    "RequiredUnlockable": "ACCESS_HIT_MONGOOSE",
+    "Entitlements": [
+      "LOCATION_TRAPPED"
+    ]
+  },
+  "UserData": {}
+}
