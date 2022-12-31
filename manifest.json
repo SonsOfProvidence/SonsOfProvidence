@@ -14,13 +14,16 @@
     "content"
   ],
   "dependencies": [
-    "00012A91C8D518E1"
+    "00A813CFA8CEB1AA",
+    "00B83EC8270D9027",
+    "00F9F45FE0CCA363",
+    "005134DE5759A304"
   ],
   "packagedefinition": [
     {
       "type": "entity",
       "partition": "mongoose",
-      "path": "[assembly:/_pro/scenes/missions/sonsofprovidence/scene_etherhq.entity].entitytemplate"
+      "path": "[assembly:/sonsofprovidence/scene_etherhq.entity].entitytemplate"
     }
   ],
   "localisation": {
