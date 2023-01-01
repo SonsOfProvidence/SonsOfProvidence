@@ -21,8 +21,8 @@
     },
     {
       "type": "entity",
-      "partition": "sheep",
-      "path": "[assembly:/_pro/scenes/missions/sheep/outfits_puka.brick].entitytype"
+      "partition": "mongoose",
+      "path": "[assembly:/sonsofprovidence/outfits_etherhq.entity].entitytype"
     }
   ],
   "localisation": {
