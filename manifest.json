@@ -18,6 +18,11 @@
       "type": "entity",
       "partition": "mongoose",
       "path": "[assembly:/sonsofprovidence/scene_etherhq.entity].entitytemplate"
+    },
+    {
+      "type": "entity",
+      "partition": "sheep",
+      "path": "[assembly:/_pro/scenes/missions/sheep/outfits_puka.brick].entitytype"
     }
   ],
   "localisation": {
