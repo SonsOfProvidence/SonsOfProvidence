@@ -1,0 +1,42 @@
+[
+  {
+    "hash": "[assembly:/sonsofprovidence/scene_funeral.entity].pc_entitytemplate",
+    "ioiString": "0096465A56516411"
+  },
+  {
+    "hash": "[assembly:/sonsofprovidence/scene_funeral.entity].pc_entityblueprint",
+    "ioiString": "00A670A2217EF19B"
+  },
+  {
+    "hash": "[assembly:/sonsofprovidence/funeral/funeral_outfits.brick].pc_entitytype",
+    "ioiString": "00562C638AE2F297"
+  },
+  {
+    "hash": "[assembly:/sonsofprovidence/funeral/funeral_outfits.brick].pc_entityblueprint",
+    "ioiString": "0000803C387ADE8F"
+  },
+  {
+    "hash": "[assembly:/sonsofprovidence/scene_etherhq.entity].pc_entitytemplate",
+    "ioiString": "00FB1DCB4037786A"
+  },
+  {
+    "hash": "[assembly:/sonsofprovidence/scene_etherhq.entity].pc_entityblueprint",
+    "ioiString": "007BC3C6E18A6EDD"
+  },
+  {
+    "hash": "[assembly:/sonsofprovidence/etherhq/etherhq_outfits.brick].pc_entitytype",
+    "ioiString": "00CE2AA7A5261502"
+  },
+  {
+    "hash": "[assembly:/sonsofprovidence/etherhq/etherhq_outfits.brick].pc_entityblueprint",
+    "ioiString": "005E103AA21441A0"
+  },
+  {
+    "hash": "006FD6888AFEFBCC",
+    "ioiString": "(planning_contract) sonsofprovidence funeral"
+  },
+  {
+    "hash": "",
+    "ioiString": ""
+  }
+]
