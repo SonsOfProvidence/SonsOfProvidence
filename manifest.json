@@ -18,6 +18,21 @@
       "type": "entity",
       "partition": "mongoose",
       "path": "[assembly:/sonsofprovidence/scene_etherhq.entity].entitytemplate"
+    },
+    {
+      "type": "entity",
+      "partition": "mongoose",
+      "path": "[assembly:/sonsofprovidence/outfits_etherhq.entity].entitytype"
+    },
+    {
+      "type": "entity",
+      "partition": "coastaltown",
+      "path": "[assembly:/sonsofprovidence/scene_funeral.entity].entitytemplate"
+    },
+    {
+      "type": "entity",
+      "partition": "coastaltown",
+      "path": "[assembly:/sonsofprovidence/outfits_funeral.entity].entitytype"
     }
   ],
   "localisation": {

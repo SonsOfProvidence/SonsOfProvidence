@@ -1,0 +1,77 @@
+{
+  "TOKEN_OUTFIT_LUCAS_GREY": {
+    "Id": "TOKEN_OUTFIT_LUCAS_GREY",
+    "Guid": "uiobaa8b-6153-4aaa-95ed-5a67d9473b47",
+    "Type": "disguise",
+    "Subtype": "disguise",
+    "ImageId": "",
+    "RMTPrice": 99,
+    "GamePrice": 99,
+    "IsPurchasable": false,
+    "IsPublished": true,
+    "Capabilities": [],
+    "Qualities": {},
+    "Properties": {
+      "Quality": 1,
+      "Rarity": "common",
+      "LoadoutSlot": "disguise",
+      "RepositoryId": "b40a74a0-91a2-490d-8806-3ccfc852c82b",
+      "OrderIndex": 640,
+      "AllowUpSync": true
+    },
+    "Rarity": "common",
+    "IsDroppable": false
+  },
+  "TOKEN_OUTFIT_ITALY_KITCHENASSISTANT_MALE_ETHERHQ": {
+    "Id": "TOKEN_OUTFIT_ITALY_KITCHENASSISTANT_MALE",
+    "Guid": "0deb56dd-4fb8-418d-9c29-54bf7d8ccf18",
+    "Type": "disguise",
+    "Subtype": "disguise",
+    "ImageId": "",
+    "RMTPrice": 99,
+    "GamePrice": 99,
+    "IsPurchasable": false,
+    "IsPublished": true,
+    "Capabilities": [],
+    "Qualities": {},
+    "Properties": {
+      "Quality": 1,
+      "Rarity": "common",
+      "LoadoutSlot": "disguise",
+      "RepositoryId": "10601c6b-1f65-44ed-92a1-bf843f023d3f"
+    },
+    "Rarity": "common",
+    "IsDroppable": false
+  },
+  "STARTING_LOCATION_SAPIENZA_CEMETERY": {
+    "Id": "STARTING_LOCATION_SAPIENZA_CEMETERY",
+    "Guid": "ff4b0060-b322-4bb0-99b5-942e8a20f299",
+    "Type": "access",
+    "Subtype": "startinglocation",
+    "ImageId": null,
+    "RMTPrice": -1,
+    "GamePrice": -1,
+    "IsPurchasable": false,
+    "IsPublished": true,
+    "IsDroppable": false,
+    "Capabilities": [],
+    "Qualities": {},
+    "Properties": {
+      "Location": "LOCATION_PARENT_SAPIENZA",
+      "RepositoryId": "1021798e-cec1-4b43-ba33-69b7d53da888",
+      "Equip": [
+        "TOKEN_OUTFIT_ITALY_KITCHENASSISTANT_MALE"
+      ],
+      "UnlockOrder": 3
+    },
+    "Rarity": null
+  },
+  "PACKAGE_STARTING_PACKAGE": {
+    "Properties": {
+      "Unlocks": [
+        "TOKEN_OUTFIT_LUCAS_GREY",
+        "TOKEN_OUTFIT_ITALY_KITCHENASSISTANT_MALE"
+      ]
+    }
+  }
+}
