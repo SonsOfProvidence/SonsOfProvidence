@@ -13,6 +13,12 @@
   "contentFolders": [
     "content"
   ],
+  "dependencies": [
+    {
+      "runtimeID": "00A0133A0879666C",
+      "toChunk": 26
+    }
+  ],
   "packagedefinition": [
     {
       "type": "entity",
