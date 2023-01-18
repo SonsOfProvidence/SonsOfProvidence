@@ -1380,6 +1380,20 @@
           "value": "b40a74a0-91a2-490d-8806-3ccfc852c82b"
         }
       }
+    },
+    {
+      "entities": [
+        { "ref": "c9ded05a67ebe70b", "externalScene": "00506E5E344E8BEB" }
+      ],
+      "properties": {
+        "m_mTransform": {
+          "type": "SMatrix43",
+          "value": {
+            "rotation": { "x": 0, "y": 0, "z": 175.0765313907609 },
+            "position": { "x": -61, "y": 108, "z": 3.5 }
+          }
+        }
+      }
     }
   ],
   "overrideDeletes": [
@@ -1392,7 +1406,8 @@
     "00199C55C9BC50D6",
     "00C7C85A34D8C892",
     "00E9F09C3B030590",
-    "00562C638AE2F297"
+    "00562C638AE2F297",
+    "00506E5E344E8BEB"
   ],
   "subType": "scene",
   "quickEntityVersion": 3.1,
