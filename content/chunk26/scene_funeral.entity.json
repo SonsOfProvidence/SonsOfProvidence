@@ -903,7 +903,7 @@
     },
     "feed89b38b417491": {
       "parent": "abcde92f2c09c134",
-      "name": "Bodyguard Char",
+      "name": "Bodyguard Rocco 2",
       "factory": "[assembly:/templates/gameplay/ai2/actors.template?/npcactor.entitytemplate].pc_entitytype",
       "blueprint": "[assembly:/templates/gameplay/ai2/actors.template?/npcactor.entitytemplate].pc_entityblueprint",
       "properties": {
@@ -911,7 +911,7 @@
           "type": "SMatrix43",
           "value": {
             "rotation": { "x": 0, "y": 0, "z": 99.64731889731796 },
-            "position": { "x": -65, "y": 113, "z": 3.5 }
+            "position": { "x": -57, "y": 115, "z": 3.5 }
           }
         },
         "m_bStartEnabled": { "type": "bool", "value": true },
@@ -1292,7 +1292,7 @@
     },
     "feed6633b9036d38": {
       "parent": "abcde92f2c09c134",
-      "name": "Bodyguard Char",
+      "name": "Bodyguard Rocco 1",
       "factory": "[assembly:/templates/gameplay/ai2/actors.template?/npcactor.entitytemplate].pc_entitytype",
       "blueprint": "[assembly:/templates/gameplay/ai2/actors.template?/npcactor.entitytemplate].pc_entityblueprint",
       "properties": {
