@@ -1382,7 +1382,9 @@
       }
     }
   ],
-  "overrideDeletes": [],
+  "overrideDeletes": [
+    { "ref": "57c3220311b2c358", "externalScene": "00E9F09C3B030590" }
+  ],
   "pinConnectionOverrides": [],
   "pinConnectionOverrideDeletes": [],
   "externalScenes": [
