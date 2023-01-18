@@ -59,9 +59,7 @@
     "Properties": {
       "Location": "LOCATION_PARENT_SAPIENZA",
       "RepositoryId": "1021798e-cec1-4b43-ba33-69b7d53da888",
-      "Equip": [
-        "TOKEN_OUTFIT_ITALY_KITCHENASSISTANT_MALE"
-      ],
+      "Equip": ["TOKEN_OUTFIT_ITALY_KITCHENASSISTANT_MALE"],
       "UnlockOrder": 3
     },
     "Rarity": null
