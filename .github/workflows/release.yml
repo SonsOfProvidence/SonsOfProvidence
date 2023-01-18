@@ -18,12 +18,12 @@ jobs:
       - name: Prettier Action
         uses: creyD/prettier_action@v4.2
         with:
-          prettier_options: --write **/*.json
+          prettier_options: --write **/*.json --end-of-line crlf
 
       - name: Create package.json
         run: |
           echo "{\"name\": \"smf-mod\",\"version\":\"0.0.0\",\"description\":\"An SMF mod.\",\"private\":true}" > package.json
-      
+
       - name: Set up Node.js
         uses: actions/setup-node@v3
         with:
@@ -32,13 +32,13 @@ jobs:
       - name: Install semantic release plugin
         run: |
           npm install --save-dev semantic-release-export-data conventional-changelog-conventionalcommits
-      
+
       - name: Create .releaserc
         env:
           REPO_URL: ${{ format('https://github.com/{0}.git', github.repository) }}
         run: |
           echo "{\"branches\":[\"main\"],\"plugins\":[[\"@semantic-release/commit-analyzer\",{\"preset\":\"conventionalcommits\",\"releaseRules\":[{\"type\":\"enhancement\",\"release\":\"minor\"}]}], \"semantic-release-export-data\"],\"repositoryUrl\":\"$REPO_URL\",\"tagFormat\":\"\${version}\"}" > .releaserc
-      
+
       - name: Get new version
         id: newVersion
         run: npx --yes semantic-release --branches main --dry-run
@@ -81,8 +81,8 @@ jobs:
         id: modID
         uses: notiz-dev/github-action-json-property@release
         with:
-            path: 'manifest.json'
-            prop_path: 'id'
+          path: "manifest.json"
+          prop_path: "id"
 
       - name: Copy files
         if: ${{ steps.newVersion.outputs.new-release-version }}
@@ -121,7 +121,7 @@ jobs:
           files: |
             SonsOfProvidence.zip
             updates.json
-      
+
       - name: Remove files
         if: ${{ steps.newVersion.outputs.new-release-version }}
         env:
@@ -129,7 +129,7 @@ jobs:
         run: |
           rm SonsOfProvidence.zip updates.json
           rm -rf $ZIPDIR
-      
+
       - name: Commit changes
         if: ${{ steps.newVersion.outputs.new-release-version }}
         uses: EndBug/add-and-commit@v9.1.0
