@@ -1,0 +1,6 @@
+# Ignore artifacts:
+package.json
+package-lock.json
+.releaserc
+node_modules
+.prettierc.json
