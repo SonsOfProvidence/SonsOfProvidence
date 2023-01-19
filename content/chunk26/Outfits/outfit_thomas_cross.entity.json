@@ -187,14 +187,14 @@
         "m_aBodyParts": {
           "type": "TArray<SEntityTemplateReference>",
           "value": [
+            "feedbd9047c42b84",
             "46afbd68b0ad12da",
             "1237492ef1933bf4",
             "ae35a5b0c2d84358",
             "8c93fa8ff0d8926",
             "27a2c8cf4a1942f1",
             "a7968a0cf13eb4b1",
-            "94615079bc6b58ef",
-            "9d63a8cf3efdbd23"
+            "94615079bc6b58ef"
           ],
           "postInit": true
         },
@@ -361,18 +361,6 @@
         "m_pMeshResource": {
           "type": "ZRuntimeResourceID",
           "value": { "resource": "009B141405F226E2", "flag": "5F" }
-        }
-      }
-    },
-    "9d63a8cf3efdbd23": {
-      "parent": "289718269afdf771",
-      "name": "Mesh_Hair",
-      "factory": "[modules:/zbodypartentity.class].pc_entitytype",
-      "blueprint": "[modules:/zbodypartentity.class].pc_entityblueprint",
-      "properties": {
-        "m_pMeshResource": {
-          "type": "ZRuntimeResourceID",
-          "value": { "resource": "00A195E385774F18", "flag": "5F" }
         }
       }
     },
@@ -933,6 +921,18 @@
         "m_eidParent": {
           "type": "SEntityTemplateReference",
           "value": "289718269afdf771"
+        }
+      }
+    },
+    "feedbd9047c42b84": {
+      "parent": "289718269afdf771",
+      "name": "Part_Beard",
+      "factory": "[modules:/zbodypartentity.class].pc_entitytype",
+      "blueprint": "[modules:/zbodypartentity.class].pc_entityblueprint",
+      "properties": {
+        "m_pMeshResource": {
+          "type": "ZRuntimeResourceID",
+          "value": { "resource": "00349423AC6EE19A", "flag": "5F" }
         }
       }
     }
