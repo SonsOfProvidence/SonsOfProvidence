@@ -5,7 +5,7 @@
   "blobsFolders": ["blobs"],
   "authors": ["Danny Bierek"],
   "frameworkVersion": "2.1.5",
-  "version": "0.22.0",
+  "version": "0.23.0",
   "contentFolders": ["content"],
   "dependencies": [
     {
