@@ -378,6 +378,11 @@
           "value": ["e39aa42e8a3c1e88"],
           "postInit": true
         },
+        "Texture2D_01_enab": { "type": "bool", "value": true },
+        "Texture2D_01": {
+          "type": "ZRuntimeResourceID",
+          "value": { "resource": "00D023CAEBCDCC63", "flag": "5F" }
+        },
         "m_eidParent": {
           "type": "SEntityTemplateReference",
           "value": "e39aa42e8a3c1e88",
