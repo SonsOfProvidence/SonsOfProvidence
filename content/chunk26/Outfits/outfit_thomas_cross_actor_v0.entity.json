@@ -75,12 +75,12 @@
         "m_aBodyParts": {
           "type": "TArray<SEntityTemplateReference>",
           "value": [
+            "feed09eae4e03cc2",
             "feed615e0a9107dc",
             "feedee0f8e0e585c",
             "feedb4c6809e08ef",
             "f7e91f7b3cbe18a6",
             "d3d48d14e2adbae6",
-            "abcdedcebf9b0cae",
             "abcdfdb051cf1e6f",
             "abcdaa62e71dcff4"
           ],
@@ -97,18 +97,6 @@
         "m_pMeshResource": {
           "type": "ZRuntimeResourceID",
           "value": "[assembly:/_pro/characters/assets/guards/bodyguards_01/geometry/regmale_bodyguard_paris.wl2?/trousers.weightedprim](bodypart).pc_weightedprim"
-        }
-      },
-      "factory": "[modules:/zbodypartentity.class].pc_entitytype"
-    },
-    "abcdedcebf9b0cae": {
-      "parent": "8a1a25c92b349cbb",
-      "name": "Mesh_Shirt",
-      "blueprint": "[modules:/zbodypartentity.class].pc_entityblueprint",
-      "properties": {
-        "m_pMeshResource": {
-          "type": "ZRuntimeResourceID",
-          "value": "[assembly:/_pro/characters/assets/guards/bodyguards_01/geometry/regmale_bodyguard_paris.wl2?/shirt.weightedprim](bodypart).pc_weightedprim"
         }
       },
       "factory": "[modules:/zbodypartentity.class].pc_entitytype"
@@ -285,6 +273,50 @@
         "m_pMeshResource": {
           "type": "ZRuntimeResourceID",
           "value": { "resource": "00C2FEB6C9B5967C", "flag": "5F" }
+        }
+      }
+    },
+    "feed09eae4e03cc2": {
+      "parent": "8a1a25c92b349cbb",
+      "name": "Mesh_Shirt",
+      "factory": "[modules:/zbodypartentity.class].pc_entitytype",
+      "blueprint": "[modules:/zbodypartentity.class].pc_entityblueprint",
+      "properties": {
+        "m_pMeshResource": {
+          "type": "ZRuntimeResourceID",
+          "value": { "resource": "00C4AF076372C994", "flag": "5F" }
+        }
+      }
+    },
+    "feed55b4b5e2a022": {
+      "parent": "8a1a25c92b349cbb",
+      "name": "male_reg_civ_photographer_02_shirt",
+      "factory": "[assembly:/_pro/characters/assets/civilians/formal_01/materials/male_reg_civ_photographer_02_shirt.mi].pc_entitytype",
+      "blueprint": "[assembly:/_pro/characters/assets/civilians/formal_01/materials/male_reg_civ_photographer_02_shirt.mi].pc_entityblueprint",
+      "properties": {
+        "m_mTransform": {
+          "type": "SMatrix43",
+          "value": {
+            "rotation": { "x": 0, "y": 0, "z": 0 },
+            "position": { "x": 0, "y": 0, "z": 0 }
+          }
+        },
+        "Clients": {
+          "type": "TArray<SEntityTemplateReference>",
+          "value": ["8a1a25c92b349cbb"]
+        },
+        "ConstantVector1D_01_Value": {
+          "type": "float32",
+          "value": 0.44999998807907104
+        },
+        "ConstantVector1D_01_Value_op": {
+          "type": "IRenderMaterialEntity.EModifierOperation",
+          "value": "eReplace"
+        },
+        "Texture2D_01_enab": { "type": "bool", "value": true },
+        "Texture2D_01": {
+          "type": "ZRuntimeResourceID",
+          "value": { "resource": "00C254CAF824E8DA", "flag": "5F" }
         }
       }
     }
