@@ -6,7 +6,7 @@
 
 Here is a Google doc describing the mod: https://docs.google.com/document/d/1p4J-pR4IhnzVp71J1IrT_--5JewQFazpATbZDWTHmXA/edit#
 
-## Mod description:
+## Mod description: 
 
 This mod is a new campaign that follows Lucas Grey throughout his journey in the World of Assassination Trilogy, beginning with his escape from The Institute, through his untimely demise in Dartmoor. It is broken up into multiple missions, each based on a situation described or shown in the original trilogy. Each mission will be played in one of the destinations in the original trilogy, but occasionally the location will be repurposed to take place in a different setting’s location.
 
