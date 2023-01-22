@@ -10,11 +10,21 @@ Here is a Google doc describing the mod: https://docs.google.com/document/d/1p4J
 
 This mod is a new campaign that follows Lucas Grey throughout his journey in the World of Assassination Trilogy, beginning with his escape from The Institute, through his untimely demise in Dartmoor. It is broken up into multiple missions, each based on a situation described or shown in the original trilogy. Each mission will be played in one of the destinations in the original trilogy, but occasionally the location will be repurposed to take place in a different setting’s location.
 
+Note: The mod is still a work in progress and currently only works with launching directly into a level by replacing the thumbs.dat in your "Hitman 3/Retail" folder. It is planned to be an offline mode mod so it may not work properly in online mode.
+
+## Installation instructions:
+
+1. Download a release zip file.
+2. Import it using SMF (Simple Mod Framework: https://github.com/atampy25/simple-mod-framework).
+3. Click Deploy.
+4. Replace the thumbs.dat in your "Hitman 3/Retail" folder with the one from the zip file.
+5. Launch Hitman.
+
 ### Credits
 
 Based on Kevin Rudd's Custom Map Pack - https://www.nexusmods.com/hitman3/mods/38  
 Thanks to everyone at the Glacier 2 Modding discord!  
-Especially Kevin Rudd, Anthony Fuller, Invalid, Notex, Sieni, Atampy26, kercyx, and volvomodus for helping me along the way and encouraging me to continue.
+Especially Kevin Rudd, Anthony Fuller, Invalid, Notex, Sieni, Atampy26, kercyx, volvomodus, and HMBM47 for helping me along the way and encouraging me to continue.
 
 ## To Do List:
 
