@@ -935,7 +935,7 @@
         "m_nOutfitCharset": { "type": "int32", "value": 0 },
         "m_aEnforcedOutfits": {
           "type": "TArray<SEntityTemplateReference>",
-          "value": ["feed0dbd99ad71b5", "feed7207fe19ff39"]
+          "value": []
         },
         "m_eidParent": {
           "type": "SEntityTemplateReference",
@@ -946,49 +946,6 @@
       "subsets": {
         "AudioEmitters": ["fffffffffffffffe"],
         "Replicable": ["fffffffffffffffe"]
-      }
-    },
-    "feed7207fe19ff39": {
-      "parent": "feed89b38b417491",
-      "name": "Prof_Sapienza_Worker_KitchenAssistant",
-      "factory": "[assembly:/_pro/design/actor/profession.template?/prof_sapienza_worker_kitchenassistant.entitytemplate].pc_entitytype",
-      "blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_sapienza_worker_kitchenassistant.entitytemplate].pc_entityblueprint"
-    },
-    "feed0dbd99ad71b5": {
-      "parent": "feed89b38b417491",
-      "name": "Prof_Sapienza_Civilian_NakedGuy",
-      "factory": "[assembly:/_pro/design/actor/profession.template?/prof_sapienza_civilian_nakedguy.entitytemplate].pc_entitytype",
-      "blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_sapienza_civilian_nakedguy.entitytemplate].pc_entityblueprint"
-    },
-    "feed681cc67affb4": {
-      "parent": "abcd0b045d13d43f",
-      "name": "Setpiece_Hips_Lie_Morgue_Table_A_00",
-      "factory": "[assembly:/_pro/design/setpieces/setpieces_hideinplainsight.template?/setpiece_hips_lie_morgue_table_a_00.entitytemplate].pc_entitytype",
-      "blueprint": "[assembly:/_pro/design/setpieces/setpieces_hideinplainsight.template?/setpiece_hips_lie_morgue_table_a_00.entitytemplate].pc_entityblueprint",
-      "properties": {
-        "m_mTransform": {
-          "type": "SMatrix43",
-          "value": {
-            "rotation": { "x": 0, "y": 0, "z": 90.00005729577937 },
-            "position": { "x": -60, "y": 118, "z": 3.5 }
-          }
-        }
-      },
-      "subsets": { "AudioEmitters": ["fffffffffffffffe"] }
-    },
-    "feedd87b12ee83e0": {
-      "parent": "abcd0b045d13d43f",
-      "name": "Setpiece_TheIsland_LIP_Janus_Coffin",
-      "factory": "[assembly:/templates/aspectdummy.aspect]([modules:/zgeomentity.class].entitytype,[modules:/zstaticphysicsaspect.class].entitytype,[modules:/zcollisionresourceshapeaspect.class].entitytype).pc_entitytype",
-      "blueprint": "[assembly:/templates/aspectdummy.aspect]([modules:/zgeomentity.class].entitytype,[modules:/zstaticphysicsaspect.class].entitytype,[modules:/zcollisionresourceshapeaspect.class].entitytype).pc_entityblueprint",
-      "properties": {
-        "m_mTransform": {
-          "type": "SMatrix43",
-          "value": {
-            "rotation": { "x": 0, "y": 0, "z": 0 },
-            "position": { "x": -60, "y": 112, "z": 3.5 }
-          }
-        }
       }
     },
     "feede4de9751546d": {
@@ -1324,7 +1281,7 @@
         "m_nOutfitCharset": { "type": "int32", "value": 0 },
         "m_aEnforcedOutfits": {
           "type": "TArray<SEntityTemplateReference>",
-          "value": ["feed92bd3f86513f", "feede634b0964240"]
+          "value": []
         },
         "m_eidParent": {
           "type": "SEntityTemplateReference",
@@ -1422,7 +1379,7 @@
     "[assembly:/_pro/scenes/missions/golden/mission_gecko/outfits_gecko.brick].pc_entitytype",
     "00199C55C9BC50D6",
     "00C7C85A34D8C892",
-    "00E9F09C3B030590",
+    "[assembly:/_pro/scenes/missions/coastaltown/location.brick].pc_entitytype",
     "00562C638AE2F297",
     "00506E5E344E8BEB",
     "003D280D592C5059"
