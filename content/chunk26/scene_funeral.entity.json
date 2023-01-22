@@ -1337,17 +1337,27 @@
         "Replicable": ["fffffffffffffffe"]
       }
     },
-    "feede634b0964240": {
-      "parent": "feed6633b9036d38",
-      "name": "Prof_Sapienza_Worker_KitchenAssistant",
-      "factory": "[assembly:/_pro/design/actor/profession.template?/prof_sapienza_worker_kitchenassistant.entitytemplate].pc_entitytype",
-      "blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_sapienza_worker_kitchenassistant.entitytemplate].pc_entityblueprint"
-    },
-    "feed92bd3f86513f": {
-      "parent": "feed6633b9036d38",
-      "name": "Prof_Sapienza_Civilian_NakedGuy",
-      "factory": "[assembly:/_pro/design/actor/profession.template?/prof_sapienza_civilian_nakedguy.entitytemplate].pc_entitytype",
-      "blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_sapienza_civilian_nakedguy.entitytemplate].pc_entityblueprint"
+    "feed66806742eea8": {
+      "parent": "abcd0b045d13d43f",
+      "name": "party_balloons_f_00",
+      "blueprint": "0099FFE517A30A36",
+      "properties": {
+        "m_mTransform": {
+          "type": "SMatrix43",
+          "value": {
+            "rotation": { "x": 0, "y": 0, "z": 120.45098114013672 },
+            "position": { "x": -58, "y": 113, "z": 3.5 }
+          }
+        },
+        "m_eidParent": {
+          "type": "SEntityTemplateReference",
+          "value": {
+            "ref": "c053f10ea0b7925b",
+            "externalScene": "[assembly:/_pro/scenes/missions/coastaltown/location.brick].pc_entitytype"
+          }
+        }
+      },
+      "factory": "0058B401203EDBB7"
     }
   },
   "propertyOverrides": [
@@ -1372,7 +1382,10 @@
     },
     {
       "entities": [
-        { "ref": "d049eca709348881", "externalScene": "00E9F09C3B030590" }
+        {
+          "ref": "d049eca709348881",
+          "externalScene": "[assembly:/_pro/scenes/missions/coastaltown/location.brick].pc_entitytype"
+        }
       ],
       "properties": {
         "m_InitialOutfitId": {
@@ -1397,7 +1410,10 @@
     }
   ],
   "overrideDeletes": [
-    { "ref": "57c3220311b2c358", "externalScene": "00E9F09C3B030590" },
+    {
+      "ref": "57c3220311b2c358",
+      "externalScene": "[assembly:/_pro/scenes/missions/coastaltown/location.brick].pc_entitytype"
+    },
     { "ref": "17fd451074c017af", "externalScene": "003D280D592C5059" }
   ],
   "pinConnectionOverrides": [],
