@@ -2,28 +2,25 @@
   "id": "DannyBierek.SonsOfProvidence",
   "name": "Sons of Providence",
   "description": "This mod tells a tale of two brothers, and their mission to take them all down.",
-  "blobsFolders": [
-    "blobs"
-  ],
-  "authors": [
-    "Danny Bierek"
-  ],
+  "blobsFolders": ["blobs"],
+  "authors": ["Danny Bierek"],
   "frameworkVersion": "2.1.5",
   "version": "0.28.0",
-  "contentFolders": [
-    "content"
-  ],
+  "contentFolders": ["content"],
   "dependencies": [
     {
-      "runtimeID": "00A0133A0879666C",
+      "runtimeID": "0058B401203EDBB7",
+      "comment": "Party Balloons",
       "toChunk": 26
     },
     {
-      "runtimeID": "0058B401203EDBB7",
+      "runtimeID": "00C7FD7BF123ACB4",
+      "comment": "Helicopter from S'gail",
       "toChunk": 26
     },
     {
       "runtimeID": "009B5962B1FCAA8C",
+      "comment": "Lucas Grey's head mesh",
       "toChunk": 0
     }
   ],

@@ -1315,6 +1315,34 @@
         }
       },
       "factory": "0058B401203EDBB7"
+    },
+    "feed196f8917128d": {
+      "parent": "abcd85cba5ab5afa",
+      "name": "Magpie_Luxury_Helicopter_A_01",
+      "factory": "[assembly:/_pro/vehicles/templates/vehicles_aircrafts_a.template?/magpie_luxury_helicopter_a.entitytemplate].pc_entitytype",
+      "blueprint": "[assembly:/_pro/vehicles/templates/vehicles_aircrafts_a.template?/magpie_luxury_helicopter_a.entitytemplate].pc_entityblueprint",
+      "properties": {
+        "m_mTransform": {
+          "type": "SMatrix43",
+          "value": {
+            "rotation": { "x": 0, "y": 0, "z": 0 },
+            "position": { "x": -55, "y": 60, "z": -11.55 }
+          }
+        },
+        "m_eRoomBehaviour": {
+          "type": "ZSpatialEntity.ERoomBehaviour",
+          "value": "ROOM_DYNAMIC"
+        },
+        "m_bVisible": { "type": "bool", "value": true },
+        "DefaultLightsOff": { "type": "bool", "value": false },
+        "m_eidParent": {
+          "type": "SEntityTemplateReference",
+          "value": {
+            "ref": "a3abfc17113fa981",
+            "externalScene": "[assembly:/_pro/scenes/missions/coastaltown/location.brick].pc_entitytype"
+          }
+        }
+      }
     }
   },
   "propertyOverrides": [
