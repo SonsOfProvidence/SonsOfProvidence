@@ -1303,13 +1303,13 @@
           "type": "SMatrix43",
           "value": {
             "rotation": { "x": 0, "y": 0, "z": 120.45098114013672 },
-            "position": { "x": -58, "y": 113, "z": 3.5 }
+            "position": { "x": -92, "y": 148, "z": -9 }
           }
         },
         "m_eidParent": {
           "type": "SEntityTemplateReference",
           "value": {
-            "ref": "c053f10ea0b7925b",
+            "ref": "a3abfc17113fa981",
             "externalScene": "[assembly:/_pro/scenes/missions/coastaltown/location.brick].pc_entitytype"
           }
         }
