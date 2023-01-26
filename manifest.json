@@ -2,17 +2,11 @@
   "id": "DannyBierek.SonsOfProvidence",
   "name": "Sons of Providence",
   "description": "This mod tells a tale of two brothers, and their mission to take them all down.",
-  "blobsFolders": [
-    "blobs"
-  ],
-  "authors": [
-    "Danny Bierek"
-  ],
+  "blobsFolders": ["blobs"],
+  "authors": ["Danny Bierek"],
   "frameworkVersion": "2.1.5",
   "version": "0.31.0",
-  "contentFolders": [
-    "content"
-  ],
+  "contentFolders": ["content"],
   "dependencies": [
     {
       "runtimeID": "0058B401203EDBB7",
@@ -27,6 +21,16 @@
     {
       "runtimeID": "009B5962B1FCAA8C",
       "comment": "Lucas Grey's head mesh",
+      "toChunk": 0
+    },
+    {
+      "runtimeID": "00451195639D4C73",
+      "comment": "Butler charset from Dartmoor",
+      "toChunk": 0
+    },
+    {
+      "runtimeID": "00236E475565625B",
+      "comment": "Kitchen Assistant charset from Sapienza",
       "toChunk": 0
     }
   ],
