@@ -887,6 +887,7 @@
           "type": "EActorVoiceVariation",
           "value": "eAVV_CIVMALE02"
         },
+        "m_bStartEnabled": { "type": "bool", "value": true },
         "m_eidParent": {
           "type": "SEntityTemplateReference",
           "value": "fffffffffffffffe",
@@ -946,7 +947,7 @@
       }
     },
     "feede4de9751546d": {
-      "parent": "feed93e54821f99f",
+      "parent": "feed6633b9036d38",
       "name": "Escape via helicopter",
       "factory": "[modules:/zvipevacuationnodeentity.class].pc_entitytype",
       "blueprint": "[modules:/zvipevacuationnodeentity.class].pc_entityblueprint",
@@ -1299,8 +1300,8 @@
         "m_mTransform": {
           "type": "SMatrix43",
           "value": {
-            "rotation": { "x": 0, "y": 0, "z": 120.45098114013672 },
-            "position": { "x": -92, "y": 148, "z": -9 }
+            "rotation": { "x": 0, "y": 0, "z": 180 },
+            "position": { "x": -40.05, "y": 61.13, "z": 0.71 }
           }
         },
         "m_eidParent": {
@@ -1423,7 +1424,7 @@
           "type": "SMatrix43",
           "value": {
             "rotation": { "x": 0, "y": 0, "z": 180 },
-            "position": { "x": -39.05, "y": 60.13, "z": 0.71 }
+            "position": { "x": -39.05, "y": 60.13, "z": 1.71 }
           }
         },
         "m_fCoverLength": { "type": "float32", "value": 1.3347619771957397 },
@@ -1449,6 +1450,303 @@
           }
         }
       }
+    },
+    "feed8ef9ba227930": {
+      "parent": "feed93e54821f99f",
+      "name": "DramaSituation Thomas Cross",
+      "blueprint": "00EC88C8E4442C57",
+      "properties": {
+        "m_aRoles": {
+          "type": "TArray<SEntityTemplateReference>",
+          "value": ["feedf3f8140a43b4"]
+        },
+        "m_bTerminateOnDone": { "type": "bool", "value": false }
+      },
+      "factory": "00C6B73FE00A947C"
+    },
+    "feed73e1273b868c": {
+      "parent": "feed8ef9ba227930",
+      "name": "DramaSituation2Proxy",
+      "blueprint": "00900EB78F2E0F5E",
+      "properties": {
+        "m_rOriginalDrama": {
+          "type": "SEntityTemplateReference",
+          "value": "feed8ef9ba227930"
+        }
+      },
+      "events": { "OnStart": { "Start": ["feed79bb0382b378"] } },
+      "factory": "000C288A323918F9"
+    },
+    "feedaefd28a6cbba": {
+      "parent": "feed88616d82fc28",
+      "name": "ItemKey_Tool_Crowbar",
+      "factory": "[modules:/zitemrepositorykeyentity.class].pc_entitytype",
+      "blueprint": "[modules:/zitemrepositorykeyentity.class].pc_entityblueprint",
+      "properties": {
+        "m_RepositoryId": {
+          "type": "ZGuid",
+          "value": "01ed6d15-e26e-4362-b1a6-363684a7d0fd"
+        }
+      }
+    },
+    "feed79bb0382b378": {
+      "parent": "feed8ef9ba227930",
+      "name": "Act_MR_Guard_Stand_ArmsBack",
+      "factory": "[assembly:/_pro/design/actor/acts/mr_guard.template?/act_mr_guard_stand_armsback.entitytemplate].pc_entitytype",
+      "blueprint": "[assembly:/_pro/design/actor/acts/mr_guard.template?/act_mr_guard_stand_armsback.entitytemplate].pc_entityblueprint",
+      "properties": {
+        "m_mTransform": {
+          "type": "SMatrix43",
+          "value": {
+            "rotation": { "x": 0, "y": 0, "z": 180 },
+            "position": { "x": -18, "y": 22, "z": 1.34 }
+          }
+        },
+        "m_fActTimeout": { "type": "float32", "value": 5 },
+        "m_eidParent": {
+          "type": "SEntityTemplateReference",
+          "value": "fffffffffffffffe",
+          "postInit": true
+        }
+      },
+      "events": { "OnActTimeout": { "Done": ["feede9f2ca880893"] } }
+    },
+    "feedf3e2e8dfd033": {
+      "parent": "feed8ef9ba227930",
+      "name": "Thomas Cross Leaning",
+      "factory": "[assembly:/_pro/design/actor/dramasystem2.template?/dramasituation.entitytemplate].pc_entitytype",
+      "blueprint": "[assembly:/_pro/design/actor/dramasystem2.template?/dramasituation.entitytemplate].pc_entityblueprint",
+      "properties": {
+        "m_aRoles": {
+          "type": "TArray<SEntityTemplateReference>",
+          "value": ["feedf3f8140a43b4"]
+        },
+        "m_bTerminateOnDone": { "type": "bool", "value": false },
+        "m_eExclusionLayer": { "type": "EExclusionLayer", "value": "EL_STORY" },
+        "m_nCooldown": { "type": "float32", "value": 20 }
+      }
+    },
+    "feedf3f8140a43b4": {
+      "parent": "feed8ef9ba227930",
+      "name": "Thomas Cross",
+      "factory": "[assembly:/_pro/design/actor/dramasystem2.template?/role.entitytemplate].pc_entitytype",
+      "blueprint": "[assembly:/_pro/design/actor/dramasystem2.template?/role.entitytemplate].pc_entityblueprint",
+      "properties": {
+        "m_rActorProvider": {
+          "type": "SEntityTemplateReference",
+          "value": "feed93e54821f99f",
+          "postInit": true
+        }
+      }
+    },
+    "feede7746ca99cfa": {
+      "parent": "feedf3e2e8dfd033",
+      "name": "Act_MR_Stand_Rail_Lean",
+      "factory": "00D032FB7FF302DE",
+      "blueprint": "00CFE6FCED1A00B7",
+      "properties": {
+        "m_mTransform": {
+          "type": "SMatrix43",
+          "value": {
+            "rotation": { "x": 0, "y": 0, "z": 180 },
+            "position": { "x": -18, "y": 22, "z": 1.34 }
+          }
+        },
+        "m_fActTimeout": { "type": "float32", "value": 60 },
+        "ShouldFallCondition": {
+          "type": "TArray<SEntityTemplateReference>",
+          "value": []
+        },
+        "m_pActor": {
+          "type": "SEntityTemplateReference",
+          "value": "feedf3f8140a43b4",
+          "postInit": true
+        },
+        "m_eidParent": {
+          "type": "SEntityTemplateReference",
+          "value": "fffffffffffffffe",
+          "postInit": true
+        }
+      },
+      "events": { "OnActTimeout": { "Done": ["feed4f1d4924760d"] } }
+    },
+    "feed4f1d4924760d": {
+      "parent": "feedf3e2e8dfd033",
+      "name": "DramaSituation2Proxy",
+      "factory": "[assembly:/_pro/design/actor/dramasystem2.template?/dramasituationproxy.entitytemplate].pc_entitytype",
+      "blueprint": "[assembly:/_pro/design/actor/dramasystem2.template?/dramasituationproxy.entitytemplate].pc_entityblueprint",
+      "properties": {
+        "m_rOriginalDrama": {
+          "type": "SEntityTemplateReference",
+          "value": "feedf3e2e8dfd033"
+        }
+      },
+      "events": { "OnStart": { "Start": ["feede7746ca99cfa"] } }
+    },
+    "feedb43c1e015a6e": {
+      "parent": "feedf3e2e8dfd033",
+      "name": "ActorProviderWaypoint",
+      "factory": "[modules:/zactorproviderapproach.class].pc_entitytype",
+      "blueprint": "[modules:/zactorproviderapproach.class].pc_entityblueprint",
+      "properties": {
+        "m_aWaypoints": {
+          "type": "TArray<SEntityTemplateReference>",
+          "value": []
+        },
+        "m_fMaxApproachDistance": { "type": "float32", "value": 1 }
+      }
+    },
+    "feed0c1f4c74c755": {
+      "parent": "feed89b38b417491",
+      "name": "Shaik walking to ingram",
+      "factory": "[assembly:/_pro/design/actor/dramasystem2.template?/dramasituation.entitytemplate].pc_entitytype",
+      "blueprint": "[assembly:/_pro/design/actor/dramasystem2.template?/dramasituation.entitytemplate].pc_entityblueprint",
+      "properties": {
+        "m_aRoles": {
+          "type": "TArray<SEntityTemplateReference>",
+          "value": ["feedf3f8140a43b4"]
+        },
+        "m_bTerminateOnDone": { "type": "bool", "value": false }
+      }
+    },
+    "feede5d3ab2fa7ab": {
+      "parent": "feed0c1f4c74c755",
+      "name": "Act_MR_Stand_Confident",
+      "factory": "0009400BA2E62965",
+      "blueprint": "00189923B0709B09",
+      "properties": {
+        "m_mTransform": {
+          "type": "SMatrix43",
+          "value": {
+            "rotation": { "x": 0, "y": 0, "z": 180 },
+            "position": { "x": -18, "y": 29, "z": 1.37 }
+          }
+        },
+        "m_fActTimeout": { "type": "float32", "value": 10 },
+        "m_eidParent": {
+          "type": "SEntityTemplateReference",
+          "value": "fffffffffffffffe",
+          "postInit": true
+        }
+      },
+      "events": { "OnActTimeout": { "Done": ["feedfb5d391aec80"] } }
+    },
+    "feedfb5d391aec80": {
+      "parent": "feed0c1f4c74c755",
+      "name": "DramaSituation2Proxy",
+      "factory": "[assembly:/_pro/design/actor/dramasystem2.template?/dramasituationproxy.entitytemplate].pc_entitytype",
+      "blueprint": "[assembly:/_pro/design/actor/dramasystem2.template?/dramasituationproxy.entitytemplate].pc_entityblueprint",
+      "properties": {
+        "m_rOriginalDrama": {
+          "type": "SEntityTemplateReference",
+          "value": "feed0c1f4c74c755"
+        }
+      },
+      "events": { "OnStart": { "Start": ["feede5d3ab2fa7ab"] } }
+    },
+    "feede9f2ca880893": {
+      "parent": "feed8ef9ba227930",
+      "name": "Act_MR_Stand_Basic",
+      "factory": "00251CC86224019D",
+      "blueprint": "005C75C0C3B1863A",
+      "properties": {
+        "m_mTransform": {
+          "type": "SMatrix43",
+          "value": {
+            "rotation": { "x": 0, "y": 0, "z": 180 },
+            "position": { "x": -23, "y": 26, "z": 1.34 }
+          }
+        },
+        "m_fActTimeout": { "type": "float32", "value": 5 },
+        "m_bUseConversationHelper": { "type": "bool", "value": true },
+        "m_MovementType": {
+          "type": "ZActBehaviorEntity.EMovementType",
+          "value": "MT_IGNORE_POSITION"
+        },
+        "m_eidParent": {
+          "type": "SEntityTemplateReference",
+          "value": "fffffffffffffffe",
+          "postInit": true
+        }
+      },
+      "events": { "OnActTimeout": { "Done": ["feed79bb0382b378"] } }
+    },
+    "feedec94fe5835e2": {
+      "parent": "feed0c1f4c74c755",
+      "name": "Bodyguard Rocco 2",
+      "factory": "[assembly:/_pro/design/actor/dramasystem2.template?/role.entitytemplate].pc_entitytype",
+      "blueprint": "[assembly:/_pro/design/actor/dramasystem2.template?/role.entitytemplate].pc_entityblueprint",
+      "properties": {
+        "m_rActorProvider": {
+          "type": "SEntityTemplateReference",
+          "value": "feed89b38b417491",
+          "postInit": true
+        }
+      }
+    },
+    "feed1566777e352a": {
+      "parent": "feed89b38b417491",
+      "name": "LeadEscortBehavior",
+      "factory": "[assembly:/_pro/design/actor/spsystem.template?/leadescortbehavior.entitytemplate].pc_entitytype",
+      "blueprint": "[assembly:/_pro/design/actor/spsystem.template?/leadescortbehavior.entitytemplate].pc_entityblueprint",
+      "properties": {
+        "m_aWaypoints": {
+          "type": "TArray<SEntityTemplateReference>",
+          "value": ["feed0e2308e50c87"]
+        },
+        "m_pActor": {
+          "type": "SEntityTemplateReference",
+          "value": "feed93e54821f99f",
+          "postInit": true
+        }
+      }
+    },
+    "feed0e2308e50c87": {
+      "parent": "feed89b38b417491",
+      "name": "ActWaypoint",
+      "factory": "[assembly:/templates/markup/actorambience.template?/actwaypoint.entitytemplate].pc_entitytype",
+      "blueprint": "[assembly:/templates/markup/actorambience.template?/actwaypoint.entitytemplate].pc_entityblueprint",
+      "properties": {
+        "m_mTransform": {
+          "type": "SMatrix43",
+          "value": {
+            "rotation": { "x": 0, "y": 0, "z": 180 },
+            "position": { "x": -18, "y": 31, "z": 1.37 }
+          }
+        },
+        "m_eidParent": {
+          "type": "SEntityTemplateReference",
+          "value": "fffffffffffffffe",
+          "postInit": true
+        }
+      }
+    },
+    "feed309f7bca4470": {
+      "parent": "feed89b38b417491",
+      "name": "Thomas Cross",
+      "factory": "[assembly:/_pro/design/actor/dramasystem2.template?/role.entitytemplate].pc_entitytype",
+      "blueprint": "[assembly:/_pro/design/actor/dramasystem2.template?/role.entitytemplate].pc_entityblueprint",
+      "properties": {
+        "m_rActorProvider": {
+          "type": "SEntityTemplateReference",
+          "value": "feed93e54821f99f",
+          "postInit": true
+        }
+      }
+    },
+    "feede5ef4f5f9d0d": {
+      "parent": "feed89b38b417491",
+      "name": "Screenplay",
+      "factory": "[assembly:/_pro/design/actor/spsystem.template?/screenplay.entitytemplate].pc_entitytype",
+      "blueprint": "[assembly:/_pro/design/actor/spsystem.template?/screenplay.entitytemplate].pc_entityblueprint",
+      "properties": {
+        "Roles": {
+          "type": "TArray<SEntityTemplateReference>",
+          "value": ["feed309f7bca4470"],
+          "postInit": true
+        }
+      },
+      "events": { "OnStart": { "Start": ["feed1566777e352a"] } }
     }
   },
   "propertyOverrides": [
