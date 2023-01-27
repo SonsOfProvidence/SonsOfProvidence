@@ -22,16 +22,6 @@
       "runtimeID": "009B5962B1FCAA8C",
       "comment": "Lucas Grey's head mesh",
       "toChunk": 0
-    },
-    {
-      "runtimeID": "00451195639D4C73",
-      "comment": "Butler charset from Dartmoor",
-      "toChunk": 0
-    },
-    {
-      "runtimeID": "00236E475565625B",
-      "comment": "Kitchen Assistant charset from Sapienza",
-      "toChunk": 0
     }
   ],
   "packagedefinition": [

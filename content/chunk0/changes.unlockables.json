@@ -22,29 +22,6 @@
     "Rarity": "common",
     "IsDroppable": false
   },
-  "TOKEN_OUTFIT_KITCHEN_ASSISTANT": {
-    "Id": "TOKEN_OUTFIT_KITCHEN_ASSISTANT",
-    "Guid": "uiobaa8b-6153-4aaa-95ed-5a67d9473b48",
-    "Type": "disguise",
-    "Subtype": "disguise",
-    "ImageId": "",
-    "RMTPrice": 99,
-    "GamePrice": 99,
-    "IsPurchasable": false,
-    "IsPublished": true,
-    "Capabilities": [],
-    "Qualities": {},
-    "Properties": {
-      "Quality": 1,
-      "Rarity": "common",
-      "LoadoutSlot": "disguise",
-      "RepositoryId": "10601c6b-1f65-44ed-92a1-bf843f023d3f",
-      "OrderIndex": 641,
-      "AllowUpSync": true
-    },
-    "Rarity": "common",
-    "IsDroppable": false
-  },
   "STARTING_LOCATION_SAPIENZA_APARTMENT": {
     "Id": "STARTING_LOCATION_SAPIENZA_APARTMENT",
     "Guid": "ff4b0060-b322-4bb0-99b5-942e8a20f299",
@@ -68,7 +45,7 @@
   },
   "PACKAGE_STARTING_PACKAGE": {
     "Properties": {
-      "Unlocks": ["TOKEN_OUTFIT_LUCAS_GREY", "TOKEN_OUTFIT_KITCHEN_ASSISTANT"]
+      "Unlocks": ["TOKEN_OUTFIT_LUCAS_GREY"]
     }
   }
 }
