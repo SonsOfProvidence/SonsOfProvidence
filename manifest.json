@@ -2,17 +2,11 @@
   "id": "DannyBierek.SonsOfProvidence",
   "name": "Sons of Providence",
   "description": "This mod tells a tale of two brothers, and their mission to take them all down.",
-  "blobsFolders": [
-    "blobs"
-  ],
-  "authors": [
-    "Danny Bierek"
-  ],
+  "blobsFolders": ["blobs"],
+  "authors": ["Danny Bierek"],
   "frameworkVersion": "2.1.5",
   "version": "0.33.0",
-  "contentFolders": [
-    "content"
-  ],
+  "contentFolders": ["content"],
   "dependencies": [
     {
       "runtimeID": "0058B401203EDBB7",
