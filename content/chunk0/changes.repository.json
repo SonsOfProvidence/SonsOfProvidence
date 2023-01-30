@@ -26,8 +26,16 @@
   "c2f6c0f9-5ddc-4379-86a9-07216adf5569": {
     "Name": "Eugene Cobb"
   },
-  "c2f6c0f9-5ddc-4379-86a9-07216adf5569": {
-    "Name": "Thomas Cross"
+  "d3959196-6be0-43ea-b6e7-aafa70822045": {
+    "CharacterSetIndex": 0.0,
+    "Description": "Thomas Cross",
+    "Description_LOC": "actor_description",
+    "ID_": "d3959196-6be0-43ea-b6e7-aafa70822045",
+    "Image": "images/dbierek/sapienza_target.png",
+    "Name": "Thomas Cross",
+    "Outfit": "d3bdbcfe-4747-4774-a642-17daa98a7f69",
+    "OutfitVariationIndex": 0.0,
+    "Tile": "images/dbierek/sapienza_target.png"
   },
   "743F058F-56A0-420F-8B5E-46DABABACA37": {
     "Name": "Ben Bern"
