@@ -12,8 +12,25 @@
         "StoryData": [
           {
             "Type": "Mission",
+            "Id": "179563a4-727a-4072-b354-c9fff4e8bff2",
+            "_comment": "Institute Mission"
+          }
+        ]
+      }
+    },
+    {
+      "op": "add",
+      "path": "/4/Subgroups/-",
+      "value": {
+        "Name": "UI_MENU_PAGE_HITS_ELEMENT_CATEGORY_MODDED",
+        "Image": "",
+        "Type": "campaign",
+        "BackgroundImage": "images/ui/boot/bg_welcome.jpg",
+        "StoryData": [
+          {
+            "Type": "Mission",
             "Id": "179563a4-727a-4072-b354-c9fff4e8bff1",
-            "_comment": "Sapienza Test"
+            "_comment": "Funeral Mission"
           }
         ]
       }

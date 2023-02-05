@@ -36,6 +36,26 @@
     "ioiString": "(planning_contract) sonsofprovidence funeral"
   },
   {
+    "hash": "002DDBAAF0E0B62C",
+    "ioiString": "Act_MR_HeadOfSecurity_AimPistol_Dianna"
+  },
+  {
+    "hash": "[assembly:/sonsofprovidence/scene_institute.entity].pc_entitytemplate",
+    "ioiString": ":005565E11B9913E7"
+  },
+  {
+    "hash": "[assembly:/sonsofprovidence/scene_institute.entity].pc_entityblueprint",
+    "ioiString": "00CF5E77B6B7AE8C"
+  },
+  {
+    "hash": "[assembly:/sonsofprovidence/outfits_institute.brick].pc_entitytype",
+    "ioiString": "005214B99E0E45B5"
+  },
+  {
+    "hash": "[assembly:/sonsofprovidence/outfits_institute.brick].pc_entityblueprint",
+    "ioiString": "00924446012F3BD1"
+  },
+  {
     "hash": "",
     "ioiString": ""
   }
