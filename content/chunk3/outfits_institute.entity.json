@@ -63,6 +63,13 @@
         "m_rDescriptionTextResource": {
           "type": "ZRuntimeResourceID",
           "value": "[assembly:/localization/hitman6/conversations/ui/pro/online/repository/outfits_npcs_sapienza.sweetmenutext?/outfits_sapienza_worker_nakedguy_m_hpa1370_description_d3bdbcfe-8e46-4774-a642-17daa98a7f69.sweetline].pc_sweetline"
+        },
+        "m_pParentOutfit": {
+          "type": "SEntityTemplateReference",
+          "value": {
+            "ref": "6736fcbbd3e73209",
+            "externalScene": "[assembly:/_pro/scenes/bricks/globaldata.brick].pc_entitytype"
+          }
         }
       },
       "factory": "[modules:/zglobaloutfitkit.class].pc_entitytype"

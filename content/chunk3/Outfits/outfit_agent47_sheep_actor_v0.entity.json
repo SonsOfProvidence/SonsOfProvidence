@@ -347,7 +347,7 @@
         "m_RuntimeNetworkResourceID": {
           "type": "ZRuntimeResourceID",
           "value": {
-            "resource": "[assembly:/animationnetworks/hitman01/idles/suitidle.aln].pc_rtn",
+            "resource": "[assembly:/animationnetworks/hitman01/idles/idletest.aln].pc_rtn",
             "flag": "9F"
           }
         }

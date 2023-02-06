@@ -912,7 +912,6 @@
             "position": { "x": -15.209289, "y": 21.249016, "z": 1.34 }
           }
         },
-        "m_bStartEnabled": { "type": "bool", "value": true },
         "RepositoryId": {
           "type": "ZGuid",
           "value": "3ed1c7e6-7707-48b4-a0f0-b933bc851fdd"
@@ -930,16 +929,17 @@
           "type": "EActorVoiceVariation",
           "value": "eAVV_CIVMALE03"
         },
-        "m_nOutfitCharset": { "type": "int32", "value": 0 },
         "m_aEnforcedOutfits": {
           "type": "TArray<SEntityTemplateReference>",
           "value": []
         },
+        "m_bStartEnabled": { "type": "bool", "value": true },
         "m_eidParent": {
           "type": "SEntityTemplateReference",
           "value": "fffffffffffffffe",
           "postInit": true
-        }
+        },
+        "m_nOutfitCharset": { "type": "int32", "value": 0 }
       },
       "subsets": {
         "AudioEmitters": ["fffffffffffffffe"],
@@ -1258,7 +1258,6 @@
             "position": { "x": -17, "y": 27.88859, "z": 1.34 }
           }
         },
-        "m_bStartEnabled": { "type": "bool", "value": true },
         "RepositoryId": {
           "type": "ZGuid",
           "value": "3ed1c7e6-7707-48b4-a0f0-b933bc851fdc"
@@ -1276,16 +1275,17 @@
           "type": "EActorVoiceVariation",
           "value": "eAVV_CIVMALE03"
         },
-        "m_nOutfitCharset": { "type": "int32", "value": 0 },
         "m_aEnforcedOutfits": {
           "type": "TArray<SEntityTemplateReference>",
           "value": []
         },
+        "m_bStartEnabled": { "type": "bool", "value": true },
         "m_eidParent": {
           "type": "SEntityTemplateReference",
           "value": "fffffffffffffffe",
           "postInit": true
-        }
+        },
+        "m_nOutfitCharset": { "type": "int32", "value": 0 }
       },
       "subsets": {
         "AudioEmitters": ["fffffffffffffffe"],
