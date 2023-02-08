@@ -22,6 +22,11 @@
       "runtimeID": "009B5962B1FCAA8C",
       "comment": "Lucas Grey's head mesh",
       "toChunk": 0
+    },
+    {
+      "runtimeID": "0019481567B9D3B4",
+      "comment": "Lucas Grey Outfit from Romania",
+      "toChunk": 3
     }
   ],
   "packagedefinition": [

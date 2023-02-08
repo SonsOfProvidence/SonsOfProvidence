@@ -480,7 +480,7 @@
         "m_aBodyParts": {
           "type": "TArray<SEntityTemplateReference>",
           "value": [
-            "feed359a6dd61adf",
+            "feed2b476b45124b",
             "19df23332c101fc9",
             "f2712bc9fee5aee3",
             "89f61213fd120b7",
@@ -601,110 +601,6 @@
         }
       }
     },
-    "feed359a6dd61adf": {
-      "parent": "1ea6b26752b01a56",
-      "name": "Mesh_Head",
-      "blueprint": "[modules:/zbodypartentity.class].pc_entityblueprint",
-      "properties": {
-        "m_pMeshResource": {
-          "type": "ZRuntimeResourceID",
-          "value": { "resource": "009B5962B1FCAA8C", "flag": "5F" }
-        },
-        "m_IsHiddenInVR": { "type": "bool", "value": true }
-      },
-      "factory": "[modules:/zbodypartentity.class].pc_entitytype"
-    },
-    "feed1f277fea1875": {
-      "parent": "feed359a6dd61adf",
-      "name": "male_reg_body",
-      "blueprint": "0041C89DFA9D7801",
-      "properties": {
-        "m_mTransform": {
-          "type": "SMatrix43",
-          "value": {
-            "rotation": { "x": 0, "y": 0, "z": 0 },
-            "position": { "x": 0, "y": 0, "z": 0 }
-          }
-        },
-        "ConstantColorRGB_01_Value_op": {
-          "type": "IRenderMaterialEntity.EModifierOperation",
-          "value": "eReplace"
-        },
-        "ConstantColorRGB_01_Value": {
-          "type": "SColorRGB",
-          "value": "#c8d6de"
-        },
-        "Texture2D_01_enab": { "type": "bool", "value": true },
-        "Texture2D_01": {
-          "type": "ZRuntimeResourceID",
-          "value": { "resource": "00ED4FC8F4FA7398", "flag": "5F" }
-        },
-        "Texture2DNormal_01_enab": { "type": "bool", "value": true },
-        "Texture2DNormal_01": {
-          "type": "ZRuntimeResourceID",
-          "value": { "resource": "00DA740F967B776D", "flag": "5F" }
-        },
-        "Texture2D_03_enab": { "type": "bool", "value": true },
-        "Texture2D_03": {
-          "type": "ZRuntimeResourceID",
-          "value": { "resource": "00B90739AEF16559", "flag": "5F" }
-        },
-        "Clients": {
-          "type": "TArray<SEntityTemplateReference>",
-          "value": ["feed359a6dd61adf"],
-          "postInit": true
-        }
-      },
-      "factory": "003DCA5E22F37B5F"
-    },
-    "feedabda77684f5a": {
-      "parent": "feed359a6dd61adf",
-      "name": "base_eye",
-      "blueprint": "00C4E4179AE75353",
-      "properties": {
-        "1762730872": {
-          "type": "IRenderMaterialEntity.EModifierOperation",
-          "value": "eReplace"
-        },
-        "3480721934": {
-          "type": "IRenderMaterialEntity.EModifierOperation",
-          "value": "eReplace"
-        },
-        "4103203329": {
-          "type": "IRenderMaterialEntity.EModifierOperation",
-          "value": "eReplace"
-        },
-        "m_mTransform": {
-          "type": "SMatrix43",
-          "value": {
-            "rotation": { "x": 0, "y": 0, "z": 0 },
-            "position": { "x": 0, "y": 0, "z": 0 }
-          }
-        },
-        "Clients": {
-          "type": "TArray<SEntityTemplateReference>",
-          "value": ["feed359a6dd61adf"]
-        },
-        "EyeShader_01_IrisHueShift": {
-          "type": "float32",
-          "value": -0.27000001072883606
-        },
-        "Texture2D_01_enab": { "type": "bool", "value": true },
-        "Texture2D_01": {
-          "type": "ZRuntimeResourceID",
-          "value": { "resource": "00956964149E802F", "flag": "5F" }
-        },
-        "EyeShader_01_IrisBrightness": {
-          "type": "float32",
-          "value": 1.4500000476837158
-        },
-        "EyeShader_01_PupilSize": {
-          "type": "float32",
-          "value": 0.10000000149011612
-        }
-      },
-      "factory": "00FDEC17A5A2BF5F"
-    },
     "feedb41221b7a6a6": {
       "parent": "1ea6b26752b01a56",
       "name": "Mesh_Eyebrows",
@@ -748,6 +644,26 @@
         "ConstantColorRGB_02_Value": { "type": "SColorRGB", "value": "#ffffff" }
       },
       "factory": "00AF6FD15BFAC222"
+    },
+    "feed2b476b45124b": {
+      "parent": "1ea6b26752b01a56",
+      "name": "Head_LucasGrey",
+      "factory": "00FA41C25F90B53E",
+      "blueprint": "00D98E235D0B78A4",
+      "properties": {
+        "Texture2D_01_1": {
+          "type": "ZRuntimeResourceID",
+          "value": { "resource": "008A8F18C0AE21E6", "flag": "5F" }
+        },
+        "Texture2DNormal_01": {
+          "type": "ZRuntimeResourceID",
+          "value": { "resource": "001C97C69649EABD", "flag": "5F" }
+        },
+        "Texture2D_03": {
+          "type": "ZRuntimeResourceID",
+          "value": { "resource": "005BDAE2964EAC24", "flag": "5F" }
+        }
+      }
     }
   },
   "propertyOverrides": [],

@@ -728,6 +728,536 @@
         },
         "m_fMaxApproachDistance": { "type": "float32", "value": 1 }
       }
+    },
+    "feedfbe6915d4391": {
+      "parent": "abcde92f2c09c134",
+      "name": "Agent 47 Shooter",
+      "factory": "[assembly:/templates/gameplay/ai2/actors.template?/npcactor.entitytemplate].pc_entitytype",
+      "blueprint": "[assembly:/templates/gameplay/ai2/actors.template?/npcactor.entitytemplate].pc_entityblueprint",
+      "properties": {
+        "m_mTransform": {
+          "type": "SMatrix43",
+          "value": {
+            "rotation": { "x": 0, "y": 0, "z": -3.859046208886626 },
+            "position": { "x": 90, "y": -130, "z": 1.13 }
+          }
+        },
+        "RepositoryId": {
+          "type": "ZGuid",
+          "value": "d3959196-6be0-43ea-b6e7-aafa70822047"
+        },
+        "m_OutfitRepositoryID": {
+          "type": "ZGuid",
+          "value": "d3bdbcfe-4747-4774-a642-17daa98a4747"
+        },
+        "m_sActorName": { "type": "ZString", "value": "Agent 47" },
+        "m_nOutfitVariation": { "type": "int32", "value": 0 },
+        "m_nOutfitCharset": { "type": "int32", "value": 0 },
+        "m_eRequiredVoiceVariation": {
+          "type": "EActorVoiceVariation",
+          "value": "eAVV_CIVMALE02"
+        },
+        "m_bStartEnabled": { "type": "bool", "value": true },
+        "m_eidParent": {
+          "type": "SEntityTemplateReference",
+          "value": "fffffffffffffffe",
+          "postInit": true
+        }
+      },
+      "subsets": {
+        "AudioEmitters": ["fffffffffffffffe"],
+        "Replicable": ["fffffffffffffffe"]
+      }
+    },
+    "feedca647ad670c0": {
+      "parent": "feedfbe6915d4391",
+      "name": "DramaSituation Walking to Church",
+      "blueprint": "00EC88C8E4442C57",
+      "properties": {
+        "m_aRoles": {
+          "type": "TArray<SEntityTemplateReference>",
+          "value": ["feed913a80f53384"]
+        },
+        "m_bTerminateOnDone": { "type": "bool", "value": false }
+      },
+      "factory": "00C6B73FE00A947C"
+    },
+    "feeda8821a7fadd9": {
+      "parent": "feedca647ad670c0",
+      "name": "DramaSituation2Proxy",
+      "blueprint": "00900EB78F2E0F5E",
+      "properties": {
+        "m_rOriginalDrama": {
+          "type": "SEntityTemplateReference",
+          "value": "feedca647ad670c0"
+        }
+      },
+      "events": { "OnStart": { "Start": ["feedb9d9be58798d"] } },
+      "factory": "000C288A323918F9"
+    },
+    "feed96ec42766a66": {
+      "parent": "feedca647ad670c0",
+      "name": "Act_MR_Guard_Stand_ArmsBack",
+      "factory": "[assembly:/_pro/design/actor/acts/mr_guard.template?/act_mr_guard_stand_armsback.entitytemplate].pc_entitytype",
+      "blueprint": "[assembly:/_pro/design/actor/acts/mr_guard.template?/act_mr_guard_stand_armsback.entitytemplate].pc_entityblueprint",
+      "properties": {
+        "m_mTransform": {
+          "type": "SMatrix43",
+          "value": {
+            "rotation": { "x": 0, "y": 0, "z": 180 },
+            "position": { "x": -18, "y": 22, "z": 1.34 }
+          }
+        },
+        "m_fActTimeout": { "type": "float32", "value": 5 },
+        "m_eidParent": {
+          "type": "SEntityTemplateReference",
+          "value": "fffffffffffffffe",
+          "postInit": true
+        }
+      },
+      "events": { "OnActTimeout": { "Done": ["feedb9d9be58798d"] } }
+    },
+    "feedced4e448147f": {
+      "parent": "feedca647ad670c0",
+      "name": "Thomas Cross Leaning",
+      "factory": "[assembly:/_pro/design/actor/dramasystem2.template?/dramasituation.entitytemplate].pc_entitytype",
+      "blueprint": "[assembly:/_pro/design/actor/dramasystem2.template?/dramasituation.entitytemplate].pc_entityblueprint",
+      "properties": {
+        "m_aRoles": {
+          "type": "TArray<SEntityTemplateReference>",
+          "value": ["feed913a80f53384"]
+        },
+        "m_bTerminateOnDone": { "type": "bool", "value": false },
+        "m_eExclusionLayer": { "type": "EExclusionLayer", "value": "EL_STORY" },
+        "m_nCooldown": { "type": "float32", "value": 20 }
+      }
+    },
+    "feed913a80f53384": {
+      "parent": "feedca647ad670c0",
+      "name": "Thomas Cross",
+      "factory": "[assembly:/_pro/design/actor/dramasystem2.template?/role.entitytemplate].pc_entitytype",
+      "blueprint": "[assembly:/_pro/design/actor/dramasystem2.template?/role.entitytemplate].pc_entityblueprint",
+      "properties": {
+        "m_rActorProvider": {
+          "type": "SEntityTemplateReference",
+          "value": "feedfbe6915d4391",
+          "postInit": true
+        }
+      }
+    },
+    "feedb9d9be58798d": {
+      "parent": "feedca647ad670c0",
+      "name": "Act_MR_Stand_Basic Helicopter",
+      "factory": "00251CC86224019D",
+      "blueprint": "005C75C0C3B1863A",
+      "properties": {
+        "m_mTransform": {
+          "type": "SMatrix43",
+          "value": {
+            "rotation": { "x": 0, "y": 0, "z": -3.859046208886626 },
+            "position": { "x": 90, "y": -132, "z": 1.13 }
+          }
+        },
+        "m_AlignRotation": {
+          "type": "ZActBehaviorEntity.ERotationAlignment",
+          "value": "RA_LOOSE"
+        },
+        "m_fActTimeout": { "type": "float32", "value": 3 },
+        "m_bUseConversationHelper": { "type": "bool", "value": true },
+        "m_MovementType": {
+          "type": "ZActBehaviorEntity.EMovementType",
+          "value": "MT_WALK"
+        },
+        "m_eidParent": {
+          "type": "SEntityTemplateReference",
+          "value": "fffffffffffffffe",
+          "postInit": true
+        }
+      },
+      "events": { "OnActTimeout": { "Start": ["feed34b94e3e52e6"] } }
+    },
+    "feed34b94e3e52e6": {
+      "parent": "feedca647ad670c0",
+      "name": "Act_MR_Stand_Basic Church",
+      "factory": "00251CC86224019D",
+      "blueprint": "005C75C0C3B1863A",
+      "properties": {
+        "m_mTransform": {
+          "type": "SMatrix43",
+          "value": {
+            "rotation": {
+              "x": -82.9997894354563,
+              "y": -0.00006830189170012751,
+              "z": -49.71457689288082
+            },
+            "position": { "x": 85, "y": -130, "z": 1.13 }
+          }
+        },
+        "m_AlignRotation": {
+          "type": "ZActBehaviorEntity.ERotationAlignment",
+          "value": "RA_EXACT"
+        },
+        "m_fActTimeout": { "type": "float32", "value": 5 },
+        "m_bUseConversationHelper": { "type": "bool", "value": true },
+        "m_MovementType": {
+          "type": "ZActBehaviorEntity.EMovementType",
+          "value": "MT_WALK"
+        },
+        "m_eidParent": {
+          "type": "SEntityTemplateReference",
+          "value": "fffffffffffffffe",
+          "postInit": true
+        }
+      },
+      "events": { "OnActTimeout": { "Start": ["feed550d04c9b18b"] } }
+    },
+    "feed550d04c9b18b": {
+      "parent": "feedca647ad670c0",
+      "name": "Act_MR_Stand_Basic Beach",
+      "factory": "00251CC86224019D",
+      "blueprint": "005C75C0C3B1863A",
+      "properties": {
+        "m_mTransform": {
+          "type": "SMatrix43",
+          "value": {
+            "rotation": { "x": 0, "y": 0, "z": 132 },
+            "position": { "x": 95, "y": -130, "z": 1.13 }
+          }
+        },
+        "m_AlignRotation": {
+          "type": "ZActBehaviorEntity.ERotationAlignment",
+          "value": "RA_LOOSE"
+        },
+        "m_fActTimeout": { "type": "float32", "value": 5 },
+        "m_bUseConversationHelper": { "type": "bool", "value": true },
+        "m_MovementType": {
+          "type": "ZActBehaviorEntity.EMovementType",
+          "value": "MT_WALK"
+        },
+        "m_eidParent": {
+          "type": "SEntityTemplateReference",
+          "value": "fffffffffffffffe",
+          "postInit": true
+        }
+      },
+      "events": { "OnActTimeout": { "Done": ["feedb9d9be58798d"] } }
+    },
+    "feed53d6fccb6f97": {
+      "parent": "feedced4e448147f",
+      "name": "Act_MR_Stand_Rail_Lean",
+      "factory": "00D032FB7FF302DE",
+      "blueprint": "00CFE6FCED1A00B7",
+      "properties": {
+        "m_mTransform": {
+          "type": "SMatrix43",
+          "value": {
+            "rotation": { "x": 0, "y": 0, "z": 180 },
+            "position": { "x": -18, "y": 22, "z": 1.34 }
+          }
+        },
+        "m_fActTimeout": { "type": "float32", "value": 60 },
+        "ShouldFallCondition": {
+          "type": "TArray<SEntityTemplateReference>",
+          "value": []
+        },
+        "m_pActor": {
+          "type": "SEntityTemplateReference",
+          "value": "feed913a80f53384",
+          "postInit": true
+        },
+        "m_eidParent": {
+          "type": "SEntityTemplateReference",
+          "value": "fffffffffffffffe",
+          "postInit": true
+        }
+      },
+      "events": { "OnActTimeout": { "Done": ["feedc9d35c287a60"] } }
+    },
+    "feedc9d35c287a60": {
+      "parent": "feedced4e448147f",
+      "name": "DramaSituation2Proxy",
+      "factory": "[assembly:/_pro/design/actor/dramasystem2.template?/dramasituationproxy.entitytemplate].pc_entitytype",
+      "blueprint": "[assembly:/_pro/design/actor/dramasystem2.template?/dramasituationproxy.entitytemplate].pc_entityblueprint",
+      "properties": {
+        "m_rOriginalDrama": {
+          "type": "SEntityTemplateReference",
+          "value": "feedced4e448147f"
+        }
+      },
+      "events": { "OnStart": { "Start": ["feed53d6fccb6f97"] } }
+    },
+    "feed38bb67dd35f9": {
+      "parent": "feedced4e448147f",
+      "name": "ActorProviderWaypoint",
+      "factory": "[modules:/zactorproviderapproach.class].pc_entitytype",
+      "blueprint": "[modules:/zactorproviderapproach.class].pc_entityblueprint",
+      "properties": {
+        "m_aWaypoints": {
+          "type": "TArray<SEntityTemplateReference>",
+          "value": []
+        },
+        "m_fMaxApproachDistance": { "type": "float32", "value": 1 }
+      }
+    },
+    "feedb45d88ff3578": {
+      "parent": "feedca647ad670c0",
+      "name": "Act_MR_HeadOfSecurity_AimPistol_Dianna",
+      "factory": "[modules:/zentity.class].pc_entitytype",
+      "blueprint": "[modules:/zentity.class].pc_entityblueprint",
+      "properties": {
+        "m_mTransform": {
+          "type": "SMatrix43",
+          "value": {
+            "rotation": { "x": 0, "y": 0, "z": 0 },
+            "position": { "x": 0, "y": 0, "z": 0 }
+          }
+        },
+        "m_AlignRotation": {
+          "type": "ZActBehaviorEntity.ERotationAlignment",
+          "value": "RA_LOOSE"
+        },
+        "m_bAlignPosition": { "type": "bool", "value": false }
+      },
+      "inputCopying": {
+        "Start": { "Start": ["feed3e5fbcae4105"] },
+        "React": { "Request": ["feed017ea8a9fc82"] },
+        "Fire_Pistol_From_ReactLoop": { "Request": ["feed8507111da721"] },
+        "Fire_Pistol_From_ArmBackLoop": { "Request": ["feed3809d4207252"] }
+      },
+      "propertyAliases": {
+        "m_pActor": [
+          {
+            "originalProperty": "m_pActor",
+            "originalEntity": "feed3e5fbcae4105"
+          },
+          {
+            "originalProperty": "m_pActor",
+            "originalEntity": "feedf00430c556b3"
+          }
+        ],
+        "m_mTransform": [
+          {
+            "originalProperty": "m_mTransform",
+            "originalEntity": "feed3e5fbcae4105"
+          }
+        ],
+        "m_eidParent": [
+          {
+            "originalProperty": "m_eidParent",
+            "originalEntity": "feed3e5fbcae4105"
+          }
+        ],
+        "m_fActTimeout": [
+          {
+            "originalProperty": "m_fActTimeout",
+            "originalEntity": "feed3e5fbcae4105"
+          }
+        ],
+        "m_bAlignPosition": [
+          {
+            "originalProperty": "m_bAlignPosition",
+            "originalEntity": "feed3e5fbcae4105"
+          }
+        ],
+        "m_AlignRotation": [
+          {
+            "originalProperty": "m_AlignRotation",
+            "originalEntity": "feed3e5fbcae4105"
+          }
+        ],
+        "m_MovementType": [
+          {
+            "originalProperty": "m_MovementType",
+            "originalEntity": "feed3e5fbcae4105"
+          }
+        ],
+        "m_eDebugState": [
+          {
+            "originalProperty": "m_eDebugState",
+            "originalEntity": "feed3e5fbcae4105"
+          }
+        ],
+        "m_aApproachPath": [
+          {
+            "originalProperty": "m_aApproachPath",
+            "originalEntity": "feed3e5fbcae4105"
+          }
+        ],
+        "m_bAllowReactToSillyHitman": [
+          {
+            "originalProperty": "m_bAllowReactToSillyHitman",
+            "originalEntity": "feed97d250ba0f6d"
+          }
+        ],
+        "m_eState": [
+          {
+            "originalProperty": "m_eState",
+            "originalEntity": "feed3e5fbcae4105"
+          }
+        ],
+        "m_bIgnoreEndCollision": [
+          {
+            "originalProperty": "m_bIgnoreEndCollision",
+            "originalEntity": "feed3e5fbcae4105"
+          }
+        ],
+        "m_Color": [
+          {
+            "originalProperty": "m_Color",
+            "originalEntity": "feed3e5fbcae4105"
+          }
+        ],
+        "m_ePerceptionSensitivity": [
+          {
+            "originalProperty": "m_ePerceptionSensitivity",
+            "originalEntity": "feed97d250ba0f6d"
+          }
+        ],
+        "m_pTarget": [
+          {
+            "originalProperty": "m_pTarget",
+            "originalEntity": "feedf00430c556b3"
+          }
+        ],
+        "m_bUseConversationHelper": [
+          {
+            "originalProperty": "m_bUseConversationHelper",
+            "originalEntity": "feed3e5fbcae4105"
+          }
+        ],
+        "m_rOrientToTransform": [
+          {
+            "originalProperty": "m_rOrientToTransform",
+            "originalEntity": "feed3e5fbcae4105"
+          }
+        ]
+      },
+      "exposedInterfaces": {
+        "ZSpatialEntity": "feed3e5fbcae4105",
+        "IWaypoint": "feed3e5fbcae4105",
+        "IBoolCondition": "feed3e5fbcae4105",
+        "ZActBehaviorEntity": "feed3e5fbcae4105"
+      }
+    },
+    "feedf00430c556b3": {
+      "parent": "feedb45d88ff3578",
+      "name": "WeaponCustomControl",
+      "factory": "[modules:/zweaponcustomcontrolentity.class].pc_entitytype",
+      "blueprint": "[modules:/zweaponcustomcontrolentity.class].pc_entityblueprint",
+      "properties": {
+        "m_bAllowActorHitActor": { "type": "bool", "value": true },
+        "m_bDynamicAnimSet": { "type": "bool", "value": false },
+        "m_eDeathContext": { "type": "EDeathContext", "value": "eDC_NOT_HERO" }
+      }
+    },
+    "feed017ea8a9fc82": {
+      "parent": "feedb45d88ff3578",
+      "name": "ActRequest_Aim",
+      "factory": "[modules:/zactrequestentity.class].pc_entitytype",
+      "blueprint": "[modules:/zactrequestentity.class].pc_entityblueprint",
+      "properties": {
+        "m_sRequest": { "type": "ZString", "value": "Aim" },
+        "m_rActEntity": {
+          "type": "SEntityTemplateReference",
+          "value": "feed97d250ba0f6d",
+          "postInit": true
+        }
+      }
+    },
+    "feed3809d4207252": {
+      "parent": "feedb45d88ff3578",
+      "name": "ActRequest_Fire_Pistol_01",
+      "factory": "[modules:/zactrequestentity.class].pc_entitytype",
+      "blueprint": "[modules:/zactrequestentity.class].pc_entityblueprint",
+      "properties": {
+        "m_sRequest": { "type": "ZString", "value": "Fire_Pistol" },
+        "m_rActEntity": {
+          "type": "SEntityTemplateReference",
+          "value": "feed97d250ba0f6d",
+          "postInit": true
+        }
+      }
+    },
+    "feed97d250ba0f6d": {
+      "parent": "feedb45d88ff3578",
+      "name": "Childnetwork01",
+      "factory": "[assembly:/templates/markup/actorambience.template?/childnetworkact.entitytemplate].pc_entitytype",
+      "blueprint": "[assembly:/templates/markup/actorambience.template?/childnetworkact.entitytemplate].pc_entityblueprint",
+      "properties": {
+        "m_RuntimeNetworkResourceID": {
+          "type": "ZRuntimeResourceID",
+          "value": { "resource": "0070778ED48BBCC6", "flag": "9F" }
+        },
+        "m_bEnableAmbientLookat": { "type": "bool", "value": false },
+        "m_ePerceptionSensitivity": {
+          "type": "EActorPerceptionSensitivity",
+          "value": "APS_AMBIENT"
+        }
+      },
+      "events": {
+        "ActEvent4002": { "StartFire": ["feedf00430c556b3"] },
+        "ActEvent4003": { "Holster": ["feedf00430c556b3"] }
+      },
+      "outputCopying": {
+        "ActEvent4002": { "Fire_Weapon": ["feedb45d88ff3578"] }
+      }
+    },
+    "feed8507111da721": {
+      "parent": "feedb45d88ff3578",
+      "name": "ActRequest_Fire_Pistol",
+      "factory": "[modules:/zactrequestentity.class].pc_entitytype",
+      "blueprint": "[modules:/zactrequestentity.class].pc_entityblueprint",
+      "properties": {
+        "m_rActEntity": {
+          "type": "SEntityTemplateReference",
+          "value": "feed97d250ba0f6d"
+        },
+        "m_sRequest": { "type": "ZString", "value": "Fire_Pistol" }
+      }
+    },
+    "feed3e5fbcae4105": {
+      "parent": "feedb45d88ff3578",
+      "name": "ActBehavior",
+      "factory": "[assembly:/_pro/design/actor/spsystem.template?/actbehavior.entitytemplate].pc_entitytype",
+      "blueprint": "[assembly:/_pro/design/actor/spsystem.template?/actbehavior.entitytemplate].pc_entityblueprint",
+      "properties": {
+        "m_mTransform": {
+          "type": "SMatrix43",
+          "value": {
+            "rotation": { "x": 0, "y": 0, "z": 0 },
+            "position": { "x": 0, "y": 0, "z": 0 }
+          }
+        },
+        "m_rAct": {
+          "type": "SEntityTemplateReference",
+          "value": "feed97d250ba0f6d"
+        },
+        "m_bAlignPosition": { "type": "bool", "value": false },
+        "m_AlignRotation": {
+          "type": "ZActBehaviorEntity.ERotationAlignment",
+          "value": "RA_LOOSE"
+        },
+        "m_bUseConversationHelper": { "type": "bool", "value": false },
+        "m_bHolsterDuringAct": { "type": "bool", "value": false },
+        "m_fActTimeout": { "type": "float32", "value": 5 },
+        "m_MovementType": {
+          "type": "ZActBehaviorEntity.EMovementType",
+          "value": "MT_WALK"
+        },
+        "m_aApproachPath": {
+          "type": "TArray<SEntityTemplateReference>",
+          "value": []
+        },
+        "m_eState": { "type": "ZActBehaviorEntity.EState", "value": "IDLE" },
+        "m_bIgnoreEndCollision": { "type": "bool", "value": true },
+        "m_Color": { "type": "SColorRGB", "value": "#e600c1" }
+      },
+      "events": { "OnStart": { "Unholster": ["feedf00430c556b3"] } },
+      "outputCopying": {
+        "OnStart": { "OnStart": ["feedb45d88ff3578"] },
+        "OnReached": { "OnReached": ["feedb45d88ff3578"] },
+        "OnActDone": { "OnActDone": ["feedb45d88ff3578"] }
+      }
     }
   },
   "propertyOverrides": [
