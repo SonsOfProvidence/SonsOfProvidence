@@ -2,3 +2,5 @@ package.json
 package-lock.json
 .releaserc
 node_modules
+runScriptsSonsOfProvidence.bat
+/.idea/

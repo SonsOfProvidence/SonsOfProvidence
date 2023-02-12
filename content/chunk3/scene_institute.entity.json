@@ -469,7 +469,7 @@
           "type": "SMatrix43",
           "value": {
             "rotation": { "x": 0, "y": 0, "z": -3.859046208886626 },
-            "position": { "x": 100, "y": -130, "z": 1.13 }
+            "position": { "x": 92, "y": -132, "z": 1.13 }
           }
         },
         "RepositoryId": {
@@ -590,7 +590,7 @@
           "type": "SMatrix43",
           "value": {
             "rotation": { "x": 0, "y": 0, "z": -3.859046208886626 },
-            "position": { "x": 100, "y": -132, "z": 1.13 }
+            "position": { "x": 92, "y": -132, "z": 1.13 }
           }
         },
         "m_AlignRotation": {
@@ -625,7 +625,7 @@
               "y": -0.00006830189170012751,
               "z": -49.71457689288082
             },
-            "position": { "x": 90, "y": -130, "z": 1.13 }
+            "position": { "x": 94, "y": -134, "z": 1.13 }
           }
         },
         "m_AlignRotation": {
@@ -1030,7 +1030,7 @@
         },
         "m_AlignRotation": {
           "type": "ZActBehaviorEntity.ERotationAlignment",
-          "value": "RA_EXACT"
+          "value": "RA_LOOSE"
         },
         "m_bUseConversationHelper": { "type": "bool", "value": false },
         "m_pTarget": {
@@ -1102,7 +1102,7 @@
     },
     "feed4505c670f8a3": {
       "parent": "abcd1e1d830c091c",
-      "name": "Intro Cutscene",
+      "name": "Start Cutscene",
       "factory": "[modules:/zentity.class].pc_entitytype",
       "blueprint": "[modules:/zentity.class].pc_entityblueprint"
     },
@@ -1120,19 +1120,23 @@
     },
     "feedb26935f2dc98": {
       "parent": "feed4505c670f8a3",
-      "name": "ItemSpawner17",
+      "name": "ItemSpawner17 Combat Shotgun",
       "factory": "[modules:/zitemspawner.class].pc_entitytype",
       "blueprint": "[modules:/zitemspawner.class].pc_entityblueprint",
       "properties": {
         "m_mTransform": {
           "type": "SMatrix43",
           "value": {
-            "rotation": { "x": 0, "y": 0, "z": -46.448902184664085 },
-            "position": { "x": -68, "y": 113, "z": 3.5 }
+            "rotation": { "x": 0, "y": 0, "z": 0 },
+            "position": { "x": 100, "y": -130, "z": 2 }
           }
         },
         "m_bUsePlacementAttach": { "type": "bool", "value": false },
-        "m_bSpawnOnStart": { "type": "bool", "value": false },
+        "m_rMainItemKey": {
+          "type": "SEntityTemplateReference",
+          "value": "feedeff2d54ef681"
+        },
+        "m_bSpawnOnStart": { "type": "bool", "value": true },
         "m_eRoomBehaviour": {
           "type": "ZSpatialEntity.ERoomBehaviour",
           "value": "ROOM_STATIC"
@@ -1146,8 +1150,8 @@
         }
       },
       "events": {
-        "Item": { "SetItem": ["feed42c36242b86c"] },
-        "ItemReady": { "PickupIntoPocket": ["feed42c36242b86c"] }
+        "Item": { "SetItem": ["feedeff2d54ef681"] },
+        "ItemReady": { "PickupIntoPocket": ["feedeff2d54ef681"] }
       }
     },
     "feeda1a45338526d": {
@@ -1213,7 +1217,7 @@
           "type": "SMatrix43",
           "value": {
             "rotation": { "x": 0, "y": 0, "z": 60 },
-            "position": { "x": 97, "y": -131, "z": 3 }
+            "position": { "x": 100, "y": -130, "z": 2 }
           }
         },
         "m_bDefaultHeroSpawn": { "type": "bool", "value": true },
@@ -1250,8 +1254,8 @@
       "name": "Start_Default",
       "blueprint": "[modules:/zsequenceentity.class].pc_entityblueprint",
       "properties": {
-        "m_duration": { "type": "ZGameTime", "value": { "m_nTicks": 2000 } },
-        "m_startTime": { "type": "ZGameTime", "value": { "m_nTicks": 1000 } },
+        "m_duration": { "type": "ZGameTime", "value": { "m_nTicks": 20000 } },
+        "m_startTime": { "type": "ZGameTime", "value": { "m_nTicks": 10000 } },
         "m_bLetterbox": { "type": "bool", "value": true },
         "m_eLetterBoxAspect": {
           "type": "ZSequenceEntity.ELetterBoxAspect",
@@ -1260,7 +1264,7 @@
         "m_bFadeOutBeforeEnd": { "type": "bool", "value": false },
         "m_letterboxFadeOut": {
           "type": "ZGameTime",
-          "value": { "m_nTicks": 1048576 }
+          "value": { "m_nTicks": 30000 }
         },
         "m_aTracksAndGroups": {
           "type": "TArray<SEntityTemplateReference>",
@@ -1301,8 +1305,8 @@
       "name": "Active Camera Item",
       "blueprint": "[modules:/zsingleactivecamerasource.class].pc_entityblueprint",
       "properties": {
-        "m_duration": { "type": "ZGameTime", "value": { "m_nTicks": 2000 } },
-        "m_startTime": { "type": "ZGameTime", "value": { "m_nTicks": 1000 } },
+        "m_duration": { "type": "ZGameTime", "value": { "m_nTicks": 20000 } },
+        "m_startTime": { "type": "ZGameTime", "value": { "m_nTicks": 10000 } },
         "m_pCamera": {
           "type": "SEntityTemplateReference",
           "value": "feed65eacff622a1"
@@ -1333,11 +1337,8 @@
       "name": "CurveTrajectoryItem 1",
       "blueprint": "[modules:/zeulerangletrajectorysource.class].pc_entityblueprint",
       "properties": {
-        "m_startTime": { "type": "ZGameTime", "value": { "m_nTicks": 83886 } },
-        "m_duration": {
-          "type": "ZGameTime",
-          "value": { "m_nTicks": 10454302 }
-        },
+        "m_startTime": { "type": "ZGameTime", "value": { "m_nTicks": 10000 } },
+        "m_duration": { "type": "ZGameTime", "value": { "m_nTicks": 20000 } },
         "m_CurveX": {
           "type": "ZCurve",
           "value": {
@@ -1410,7 +1411,7 @@
           "type": "SMatrix43",
           "value": {
             "rotation": { "x": 0, "y": 0, "z": 0 },
-            "position": { "x": 100, "y": -130, "z": 6 }
+            "position": { "x": 100, "y": -130, "z": 30 }
           }
         },
         "m_bExportScreenshot": { "type": "bool", "value": true },
@@ -1501,6 +1502,100 @@
           "value": "feedeff2d54ef681"
         }
       }
+    },
+    "feed39534486d7a2": {
+      "parent": "feed4505c670f8a3",
+      "name": "ItemSpawner17 Hackl",
+      "factory": "[modules:/zitemspawner.class].pc_entitytype",
+      "blueprint": "[modules:/zitemspawner.class].pc_entityblueprint",
+      "properties": {
+        "m_mTransform": {
+          "type": "SMatrix43",
+          "value": {
+            "rotation": { "x": 0, "y": 0, "z": 0 },
+            "position": { "x": 100, "y": -130, "z": 2 }
+          }
+        },
+        "m_bUsePlacementAttach": { "type": "bool", "value": false },
+        "m_rMainItemKey": {
+          "type": "SEntityTemplateReference",
+          "value": "feeda5a2807eeeb5"
+        },
+        "m_bSpawnOnStart": { "type": "bool", "value": true },
+        "m_eRoomBehaviour": {
+          "type": "ZSpatialEntity.ERoomBehaviour",
+          "value": "ROOM_STATIC"
+        },
+        "m_bVisible": { "type": "bool", "value": true },
+        "m_bIsPrivate": { "type": "bool", "value": false },
+        "m_bVisibleInBoxReflection": { "type": "bool", "value": true },
+        "m_eidParent": {
+          "type": "SEntityTemplateReference",
+          "value": "fffffffffffffffe"
+        }
+      },
+      "events": {
+        "Item": { "SetItem": ["feeda5a2807eeeb5"] },
+        "ItemReady": { "PickupIntoPocket": ["feeda5a2807eeeb5"] }
+      }
+    },
+    "feed6381d2dde3dc": {
+      "parent": "feed4505c670f8a3",
+      "name": "ItemSpawner17 Combat Knife",
+      "factory": "[modules:/zitemspawner.class].pc_entitytype",
+      "blueprint": "[modules:/zitemspawner.class].pc_entityblueprint",
+      "properties": {
+        "m_mTransform": {
+          "type": "SMatrix43",
+          "value": {
+            "rotation": { "x": 0, "y": 0, "z": 0 },
+            "position": { "x": 100, "y": -130, "z": 2 }
+          }
+        },
+        "m_bUsePlacementAttach": { "type": "bool", "value": false },
+        "m_rMainItemKey": {
+          "type": "SEntityTemplateReference",
+          "value": "feed42c36242b86c"
+        },
+        "m_bSpawnOnStart": { "type": "bool", "value": true },
+        "m_eRoomBehaviour": {
+          "type": "ZSpatialEntity.ERoomBehaviour",
+          "value": "ROOM_STATIC"
+        },
+        "m_bVisible": { "type": "bool", "value": true },
+        "m_bIsPrivate": { "type": "bool", "value": false },
+        "m_bVisibleInBoxReflection": { "type": "bool", "value": true },
+        "m_eidParent": {
+          "type": "SEntityTemplateReference",
+          "value": "fffffffffffffffe"
+        }
+      },
+      "events": {
+        "Item": { "SetItem": ["feed42c36242b86c"] },
+        "ItemReady": { "PickupIntoPocket": ["feed42c36242b86c"] }
+      }
+    },
+    "feed7d93f7f88cd3": {
+      "parent": "feed4505c670f8a3",
+      "name": "GetConditionValue_Institute",
+      "factory": "[modules:/zgetconditionvalue.class].pc_entitytype",
+      "blueprint": "[modules:/zgetconditionvalue.class].pc_entityblueprint",
+      "properties": {
+        "m_rCondition": {
+          "type": "SEntityTemplateReference",
+          "value": "feed218d6f0f3a23"
+        }
+      },
+      "events": {
+        "OnTrue": { "Start": ["feed2bc3a7b432c6"], "TransmitEvent": [] }
+      }
+    },
+    "feed218d6f0f3a23": {
+      "parent": "feed4505c670f8a3",
+      "name": "PlayingInstituteMission",
+      "factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entitytype",
+      "blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entityblueprint",
+      "properties": { "m_bValue": { "type": "bool", "value": true } }
     }
   },
   "propertyOverrides": [
