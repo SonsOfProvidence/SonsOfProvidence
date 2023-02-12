@@ -128,6 +128,11 @@
           "type": "TArray<SEntityTemplateReference>",
           "value": ["e62e6760cc0b954b"],
           "postInit": true
+        },
+        "Texture2D_01_enab": { "type": "bool", "value": true },
+        "Texture2D_01": {
+          "type": "ZRuntimeResourceID",
+          "value": { "resource": "00949A3A50C3A8BC", "flag": "5F" }
         }
       }
     },
