@@ -32,11 +32,11 @@
             "m_bApplyLeftRightScalars": false
           }
         },
-        "m_eActorType": { "type": "EActorType", "value": "eAT_Civilian" },
         "m_eActorCCClass": {
           "type": "EActorCCPreset",
-          "value": "ACCP_CivilianeMale"
+          "value": "ACCP_GuardMaleElite"
         },
+        "m_bWeaponsAllowed": { "type": "bool", "value": true },
         "m_bHeroDisguiseAvailable": { "type": "bool", "value": false },
         "m_eSoundFootwearType": {
           "type": "EHM5SoundFootwearType",
@@ -46,16 +46,33 @@
           "type": "TArray<SEntityTemplateReference>",
           "value": ["feed1c32d5e1c54b"]
         },
+        "m_eOutfitAICategory": {
+          "type": "EOutfitAICategory",
+          "value": "OAC_Soldier"
+        },
+        "m_AvailableWeaponKeys": {
+          "type": "TArray<SEntityTemplateReference>",
+          "value": ["feedea82b8fd3609", "feed48e78d7435bb"]
+        },
+        "m_pParentOutfit": {
+          "type": "SEntityTemplateReference",
+          "value": {
+            "ref": "958ef354a73d986e",
+            "externalScene": "[assembly:/_pro/scenes/bricks/globaldata.brick].pc_entitytype"
+          }
+        },
+        "m_rDefaultVoiceVariations": {
+          "type": "TArray<EActorVoiceVariation>",
+          "value": ["eAVV_CIVMALE08"]
+        },
+        "m_eOutfitType": { "type": "EOutfitType", "value": "eOT_Guard" },
+        "m_eActorRank": { "type": "EActorRank", "value": "AR_Elite" },
         "m_sId": {
           "type": "ZGuid",
           "value": "d3bdbcfe-4747-4774-a642-17daa98a4747"
         },
         "m_sCommonName": { "type": "ZString", "value": "Agent 47" },
         "m_sTitle": { "type": "ZString", "value": "Agent 47" },
-        "m_eOutfitAICategory": {
-          "type": "EOutfitAICategory",
-          "value": "OAC_Fallback"
-        },
         "m_rNameTextResource": {
           "type": "ZRuntimeResourceID",
           "value": "[assembly:/localization/hitman6/conversations/ui/pro/online/repository/outfits_npcs_sapienza.sweetmenutext?/outfits_sapienza_worker_nakedguy_m_hpa1370_name_d3bdbcfe-8e46-4774-a642-17daa98a7f69.sweetline].pc_sweetline"
@@ -63,13 +80,6 @@
         "m_rDescriptionTextResource": {
           "type": "ZRuntimeResourceID",
           "value": "[assembly:/localization/hitman6/conversations/ui/pro/online/repository/outfits_npcs_sapienza.sweetmenutext?/outfits_sapienza_worker_nakedguy_m_hpa1370_description_d3bdbcfe-8e46-4774-a642-17daa98a7f69.sweetline].pc_sweetline"
-        },
-        "m_pParentOutfit": {
-          "type": "SEntityTemplateReference",
-          "value": {
-            "ref": "6736fcbbd3e73209",
-            "externalScene": "[assembly:/_pro/scenes/bricks/globaldata.brick].pc_entitytype"
-          }
         }
       },
       "factory": "[modules:/zglobaloutfitkit.class].pc_entitytype"

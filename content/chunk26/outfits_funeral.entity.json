@@ -137,6 +137,7 @@
           "type": "EActorCCPreset",
           "value": "ACCP_CivilianeMale"
         },
+        "m_bWeaponsAllowed": { "type": "bool", "value": true },
         "m_bHeroDisguiseAvailable": { "type": "bool", "value": false },
         "m_eSoundFootwearType": {
           "type": "EHM5SoundFootwearType",

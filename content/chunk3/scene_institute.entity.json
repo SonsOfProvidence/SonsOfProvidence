@@ -23,7 +23,7 @@
     },
     "abcd1e1d830c091c": {
       "parent": "abcd6b299c3d3e26",
-      "name": "CutScenes",
+      "name": "Cutscenes",
       "blueprint": "[modules:/zentity.class].pc_entityblueprint",
       "factory": "[modules:/zentity.class].pc_entitytype"
     },
@@ -461,7 +461,7 @@
     },
     "feed458e92ce0f7f": {
       "parent": "abcde92f2c09c134",
-      "name": "Agent 47 CHAR_Guest_Male11",
+      "name": "Agent 47 Victim",
       "factory": "[assembly:/templates/gameplay/ai2/actors.template?/npcactor.entitytemplate].pc_entitytype",
       "blueprint": "[assembly:/templates/gameplay/ai2/actors.template?/npcactor.entitytemplate].pc_entityblueprint",
       "properties": {
@@ -522,7 +522,12 @@
           "value": "feedba76a33db082"
         }
       },
-      "events": { "OnStart": { "Start": ["feed881deb61c7aa"] } },
+      "events": {
+        "OnStart": {
+          "Set": ["feeda8270ec7e404"],
+          "Start": ["feed881deb61c7aa"]
+        }
+      },
       "factory": "000C288A323918F9"
     },
     "feed70130fe5851e": {
@@ -620,7 +625,7 @@
               "y": -0.00006830189170012751,
               "z": -49.71457689288082
             },
-            "position": { "x": 110, "y": -130, "z": 1.13 }
+            "position": { "x": 90, "y": -130, "z": 1.13 }
           }
         },
         "m_AlignRotation": {
@@ -753,9 +758,10 @@
         "m_sActorName": { "type": "ZString", "value": "Agent 47" },
         "m_nOutfitVariation": { "type": "int32", "value": 0 },
         "m_nOutfitCharset": { "type": "int32", "value": 0 },
+        "m_nWeaponIndex": { "type": "int32", "value": 0 },
         "m_eRequiredVoiceVariation": {
           "type": "EActorVoiceVariation",
-          "value": "eAVV_CIVMALE02"
+          "value": "eAVV_BDYGRD05"
         },
         "m_bStartEnabled": { "type": "bool", "value": true },
         "m_eidParent": {
@@ -771,7 +777,7 @@
     },
     "feedca647ad670c0": {
       "parent": "feedfbe6915d4391",
-      "name": "DramaSituation Walking to Church",
+      "name": "DramaSituation Agent 47 shoots Agent 47 Victim",
       "blueprint": "00EC88C8E4442C57",
       "properties": {
         "m_aRoles": {
@@ -792,7 +798,12 @@
           "value": "feedca647ad670c0"
         }
       },
-      "events": { "OnStart": { "Start": ["feedb9d9be58798d"] } },
+      "events": {
+        "OnStart": {
+          "Set": ["feed7ccd9677119c"],
+          "Start": ["feedb9d9be58798d"]
+        }
+      },
       "factory": "000C288A323918F9"
     },
     "feed96ec42766a66": {
@@ -819,7 +830,7 @@
     },
     "feedced4e448147f": {
       "parent": "feedca647ad670c0",
-      "name": "Thomas Cross Leaning",
+      "name": "Agent 47 Shooter Leaning",
       "factory": "[assembly:/_pro/design/actor/dramasystem2.template?/dramasituation.entitytemplate].pc_entitytype",
       "blueprint": "[assembly:/_pro/design/actor/dramasystem2.template?/dramasituation.entitytemplate].pc_entityblueprint",
       "properties": {
@@ -834,7 +845,7 @@
     },
     "feed913a80f53384": {
       "parent": "feedca647ad670c0",
-      "name": "Thomas Cross",
+      "name": "Agent 47 Shooter",
       "factory": "[assembly:/_pro/design/actor/dramasystem2.template?/role.entitytemplate].pc_entitytype",
       "blueprint": "[assembly:/_pro/design/actor/dramasystem2.template?/role.entitytemplate].pc_entityblueprint",
       "properties": {
@@ -874,7 +885,7 @@
           "postInit": true
         }
       },
-      "events": { "OnActTimeout": { "Start": ["feed34b94e3e52e6"] } }
+      "events": { "OnActTimeout": { "Start": ["feeddabb9032d439"] } }
     },
     "feed34b94e3e52e6": {
       "parent": "feedca647ad670c0",
@@ -999,264 +1010,496 @@
         "m_fMaxApproachDistance": { "type": "float32", "value": 1 }
       }
     },
-    "feedb45d88ff3578": {
+    "feeddabb9032d439": {
       "parent": "feedca647ad670c0",
-      "name": "Act_MR_HeadOfSecurity_AimPistol_Dianna",
-      "factory": "[modules:/zentity.class].pc_entitytype",
-      "blueprint": "[modules:/zentity.class].pc_entityblueprint",
+      "name": "Act Agent 47 Shooter shoots Agent 47 Victim",
+      "factory": "[assembly:/_pro/design/actor/acts/mr_guard.template?/act_mr_headofsecurity_aimpistol_dianna.entitytemplate].pc_entitytype",
+      "blueprint": "[assembly:/_pro/design/actor/acts/mr_guard.template?/act_mr_headofsecurity_aimpistol_dianna.entitytemplate].pc_entityblueprint",
       "properties": {
         "m_mTransform": {
           "type": "SMatrix43",
           "value": {
             "rotation": { "x": 0, "y": 0, "z": 0 },
-            "position": { "x": 0, "y": 0, "z": 0 }
+            "position": { "x": 85, "y": -130, "z": 1.13 }
           }
         },
-        "m_AlignRotation": {
-          "type": "ZActBehaviorEntity.ERotationAlignment",
-          "value": "RA_LOOSE"
-        },
-        "m_bAlignPosition": { "type": "bool", "value": false }
-      },
-      "inputCopying": {
-        "Start": { "Start": ["feed3e5fbcae4105"] },
-        "React": { "Request": ["feed017ea8a9fc82"] },
-        "Fire_Pistol_From_ReactLoop": { "Request": ["feed8507111da721"] },
-        "Fire_Pistol_From_ArmBackLoop": { "Request": ["feed3809d4207252"] }
-      },
-      "propertyAliases": {
-        "m_pActor": [
-          {
-            "originalProperty": "m_pActor",
-            "originalEntity": "feed3e5fbcae4105"
-          },
-          {
-            "originalProperty": "m_pActor",
-            "originalEntity": "feedf00430c556b3"
-          }
-        ],
-        "m_mTransform": [
-          {
-            "originalProperty": "m_mTransform",
-            "originalEntity": "feed3e5fbcae4105"
-          }
-        ],
-        "m_eidParent": [
-          {
-            "originalProperty": "m_eidParent",
-            "originalEntity": "feed3e5fbcae4105"
-          }
-        ],
-        "m_fActTimeout": [
-          {
-            "originalProperty": "m_fActTimeout",
-            "originalEntity": "feed3e5fbcae4105"
-          }
-        ],
-        "m_bAlignPosition": [
-          {
-            "originalProperty": "m_bAlignPosition",
-            "originalEntity": "feed3e5fbcae4105"
-          }
-        ],
-        "m_AlignRotation": [
-          {
-            "originalProperty": "m_AlignRotation",
-            "originalEntity": "feed3e5fbcae4105"
-          }
-        ],
-        "m_MovementType": [
-          {
-            "originalProperty": "m_MovementType",
-            "originalEntity": "feed3e5fbcae4105"
-          }
-        ],
-        "m_eDebugState": [
-          {
-            "originalProperty": "m_eDebugState",
-            "originalEntity": "feed3e5fbcae4105"
-          }
-        ],
-        "m_aApproachPath": [
-          {
-            "originalProperty": "m_aApproachPath",
-            "originalEntity": "feed3e5fbcae4105"
-          }
-        ],
-        "m_bAllowReactToSillyHitman": [
-          {
-            "originalProperty": "m_bAllowReactToSillyHitman",
-            "originalEntity": "feed97d250ba0f6d"
-          }
-        ],
-        "m_eState": [
-          {
-            "originalProperty": "m_eState",
-            "originalEntity": "feed3e5fbcae4105"
-          }
-        ],
-        "m_bIgnoreEndCollision": [
-          {
-            "originalProperty": "m_bIgnoreEndCollision",
-            "originalEntity": "feed3e5fbcae4105"
-          }
-        ],
-        "m_Color": [
-          {
-            "originalProperty": "m_Color",
-            "originalEntity": "feed3e5fbcae4105"
-          }
-        ],
-        "m_ePerceptionSensitivity": [
-          {
-            "originalProperty": "m_ePerceptionSensitivity",
-            "originalEntity": "feed97d250ba0f6d"
-          }
-        ],
-        "m_pTarget": [
-          {
-            "originalProperty": "m_pTarget",
-            "originalEntity": "feedf00430c556b3"
-          }
-        ],
-        "m_bUseConversationHelper": [
-          {
-            "originalProperty": "m_bUseConversationHelper",
-            "originalEntity": "feed3e5fbcae4105"
-          }
-        ],
-        "m_rOrientToTransform": [
-          {
-            "originalProperty": "m_rOrientToTransform",
-            "originalEntity": "feed3e5fbcae4105"
-          }
-        ]
-      },
-      "exposedInterfaces": {
-        "ZSpatialEntity": "feed3e5fbcae4105",
-        "IWaypoint": "feed3e5fbcae4105",
-        "IBoolCondition": "feed3e5fbcae4105",
-        "ZActBehaviorEntity": "feed3e5fbcae4105"
-      }
-    },
-    "feedf00430c556b3": {
-      "parent": "feedb45d88ff3578",
-      "name": "WeaponCustomControl",
-      "factory": "[modules:/zweaponcustomcontrolentity.class].pc_entitytype",
-      "blueprint": "[modules:/zweaponcustomcontrolentity.class].pc_entityblueprint",
-      "properties": {
-        "m_bAllowActorHitActor": { "type": "bool", "value": true },
-        "m_bDynamicAnimSet": { "type": "bool", "value": false },
-        "m_eDeathContext": { "type": "EDeathContext", "value": "eDC_NOT_HERO" }
-      }
-    },
-    "feed017ea8a9fc82": {
-      "parent": "feedb45d88ff3578",
-      "name": "ActRequest_Aim",
-      "factory": "[modules:/zactrequestentity.class].pc_entitytype",
-      "blueprint": "[modules:/zactrequestentity.class].pc_entityblueprint",
-      "properties": {
-        "m_sRequest": { "type": "ZString", "value": "Aim" },
-        "m_rActEntity": {
-          "type": "SEntityTemplateReference",
-          "value": "feed97d250ba0f6d",
-          "postInit": true
-        }
-      }
-    },
-    "feed3809d4207252": {
-      "parent": "feedb45d88ff3578",
-      "name": "ActRequest_Fire_Pistol_01",
-      "factory": "[modules:/zactrequestentity.class].pc_entitytype",
-      "blueprint": "[modules:/zactrequestentity.class].pc_entityblueprint",
-      "properties": {
-        "m_sRequest": { "type": "ZString", "value": "Fire_Pistol" },
-        "m_rActEntity": {
-          "type": "SEntityTemplateReference",
-          "value": "feed97d250ba0f6d",
-          "postInit": true
-        }
-      }
-    },
-    "feed97d250ba0f6d": {
-      "parent": "feedb45d88ff3578",
-      "name": "Childnetwork01",
-      "factory": "[assembly:/templates/markup/actorambience.template?/childnetworkact.entitytemplate].pc_entitytype",
-      "blueprint": "[assembly:/templates/markup/actorambience.template?/childnetworkact.entitytemplate].pc_entityblueprint",
-      "properties": {
-        "m_RuntimeNetworkResourceID": {
-          "type": "ZRuntimeResourceID",
-          "value": { "resource": "0070778ED48BBCC6", "flag": "9F" }
-        },
-        "m_bEnableAmbientLookat": { "type": "bool", "value": false },
-        "m_ePerceptionSensitivity": {
-          "type": "EActorPerceptionSensitivity",
-          "value": "APS_AMBIENT"
-        }
-      },
-      "events": {
-        "ActEvent4002": { "StartFire": ["feedf00430c556b3"] },
-        "ActEvent4003": { "Holster": ["feedf00430c556b3"] }
-      },
-      "outputCopying": {
-        "ActEvent4002": { "Fire_Weapon": ["feedb45d88ff3578"] }
-      }
-    },
-    "feed8507111da721": {
-      "parent": "feedb45d88ff3578",
-      "name": "ActRequest_Fire_Pistol",
-      "factory": "[modules:/zactrequestentity.class].pc_entitytype",
-      "blueprint": "[modules:/zactrequestentity.class].pc_entityblueprint",
-      "properties": {
-        "m_rActEntity": {
-          "type": "SEntityTemplateReference",
-          "value": "feed97d250ba0f6d"
-        },
-        "m_sRequest": { "type": "ZString", "value": "Fire_Pistol" }
-      }
-    },
-    "feed3e5fbcae4105": {
-      "parent": "feedb45d88ff3578",
-      "name": "ActBehavior",
-      "factory": "[assembly:/_pro/design/actor/spsystem.template?/actbehavior.entitytemplate].pc_entitytype",
-      "blueprint": "[assembly:/_pro/design/actor/spsystem.template?/actbehavior.entitytemplate].pc_entityblueprint",
-      "properties": {
-        "m_mTransform": {
-          "type": "SMatrix43",
-          "value": {
-            "rotation": { "x": 0, "y": 0, "z": 0 },
-            "position": { "x": 0, "y": 0, "z": 0 }
-          }
-        },
-        "m_rAct": {
-          "type": "SEntityTemplateReference",
-          "value": "feed97d250ba0f6d"
-        },
-        "m_bAlignPosition": { "type": "bool", "value": false },
-        "m_AlignRotation": {
-          "type": "ZActBehaviorEntity.ERotationAlignment",
-          "value": "RA_LOOSE"
-        },
-        "m_bUseConversationHelper": { "type": "bool", "value": false },
-        "m_bHolsterDuringAct": { "type": "bool", "value": false },
-        "m_fActTimeout": { "type": "float32", "value": 5 },
+        "m_fActTimeout": { "type": "float32", "value": -1 },
         "m_MovementType": {
           "type": "ZActBehaviorEntity.EMovementType",
           "value": "MT_WALK"
         },
-        "m_aApproachPath": {
-          "type": "TArray<SEntityTemplateReference>",
-          "value": []
+        "m_AlignRotation": {
+          "type": "ZActBehaviorEntity.ERotationAlignment",
+          "value": "RA_EXACT"
         },
-        "m_eState": { "type": "ZActBehaviorEntity.EState", "value": "IDLE" },
-        "m_bIgnoreEndCollision": { "type": "bool", "value": true },
-        "m_Color": { "type": "SColorRGB", "value": "#e600c1" }
+        "m_bUseConversationHelper": { "type": "bool", "value": false },
+        "m_pTarget": {
+          "type": "SEntityTemplateReference",
+          "value": "feedbddeac73e2e9",
+          "postInit": true
+        },
+        "m_pActor": {
+          "type": "SEntityTemplateReference",
+          "value": "feed913a80f53384",
+          "postInit": true
+        },
+        "m_eidParent": {
+          "type": "SEntityTemplateReference",
+          "value": "fffffffffffffffe",
+          "postInit": true
+        }
       },
-      "events": { "OnStart": { "Unholster": ["feedf00430c556b3"] } },
-      "outputCopying": {
-        "OnStart": { "OnStart": ["feedb45d88ff3578"] },
-        "OnReached": { "OnReached": ["feedb45d88ff3578"] },
-        "OnActDone": { "OnActDone": ["feedb45d88ff3578"] }
+      "events": {
+        "Fire_Weapon": { "TransmitEvent": [] },
+        "OnReached": { "SetTrue": [] }
+      },
+      "outputCopying": { "Fire_Weapon": { "Fire_Weapon": [] } }
+    },
+    "feed7ccd9677119c": {
+      "parent": "feedca647ad670c0",
+      "name": "AIModifierActor",
+      "factory": "[modules:/zaimodifieractor.class].pc_entitytype",
+      "blueprint": "[modules:/zaimodifieractor.class].pc_entityblueprint",
+      "properties": {
+        "m_bIgnoreWeapons": { "type": "bool", "value": true },
+        "m_bIgnoreAccidents": { "type": "bool", "value": false },
+        "m_bDisableHelpCivilian": { "type": "bool", "value": true },
+        "m_bIgnoreDistractions": { "type": "bool", "value": false },
+        "m_bIgnoreDeadBodies": { "type": "bool", "value": true }
+      }
+    },
+    "feeda8270ec7e404": {
+      "parent": "feedba76a33db082",
+      "name": "AIModifierActor",
+      "factory": "[modules:/zaimodifieractor.class].pc_entitytype",
+      "blueprint": "[modules:/zaimodifieractor.class].pc_entityblueprint",
+      "properties": {
+        "m_bIgnoreWeapons": { "type": "bool", "value": true },
+        "m_bIgnoreAccidents": { "type": "bool", "value": false },
+        "m_bDisableHelpCivilian": { "type": "bool", "value": true },
+        "m_bIgnoreDistractions": { "type": "bool", "value": false },
+        "m_bIgnoreDeadBodies": { "type": "bool", "value": true }
+      }
+    },
+    "feedbddeac73e2e9": {
+      "parent": "feedca647ad670c0",
+      "name": "Agent 47 Victim's face",
+      "factory": "[modules:/zspatialentity.class].pc_entitytype",
+      "blueprint": "[modules:/zspatialentity.class].pc_entityblueprint",
+      "properties": {
+        "m_mTransform": {
+          "type": "SMatrix43",
+          "value": {
+            "rotation": { "x": 0, "y": 0, "z": 0 },
+            "position": { "x": 0, "y": 0, "z": 1.5967259407043457 }
+          }
+        },
+        "m_eidParent": {
+          "type": "SEntityTemplateReference",
+          "value": "feed458e92ce0f7f"
+        }
+      }
+    },
+    "feed4505c670f8a3": {
+      "parent": "abcd1e1d830c091c",
+      "name": "Intro Cutscene",
+      "factory": "[modules:/zentity.class].pc_entitytype",
+      "blueprint": "[modules:/zentity.class].pc_entityblueprint"
+    },
+    "feed42c36242b86c": {
+      "parent": "feed4505c670f8a3",
+      "name": "Item_Combat_Knife_",
+      "factory": "[modules:/zitemrepositorykeyentity.class].pc_entitytype",
+      "blueprint": "[modules:/zitemrepositorykeyentity.class].pc_entityblueprint",
+      "properties": {
+        "m_RepositoryId": {
+          "type": "ZGuid",
+          "value": "2c037ef5-a01b-4532-8216-1d535193a837"
+        }
+      }
+    },
+    "feedb26935f2dc98": {
+      "parent": "feed4505c670f8a3",
+      "name": "ItemSpawner17",
+      "factory": "[modules:/zitemspawner.class].pc_entitytype",
+      "blueprint": "[modules:/zitemspawner.class].pc_entityblueprint",
+      "properties": {
+        "m_mTransform": {
+          "type": "SMatrix43",
+          "value": {
+            "rotation": { "x": 0, "y": 0, "z": -46.448902184664085 },
+            "position": { "x": -68, "y": 113, "z": 3.5 }
+          }
+        },
+        "m_bUsePlacementAttach": { "type": "bool", "value": false },
+        "m_bSpawnOnStart": { "type": "bool", "value": false },
+        "m_eRoomBehaviour": {
+          "type": "ZSpatialEntity.ERoomBehaviour",
+          "value": "ROOM_STATIC"
+        },
+        "m_bVisible": { "type": "bool", "value": true },
+        "m_bIsPrivate": { "type": "bool", "value": false },
+        "m_bVisibleInBoxReflection": { "type": "bool", "value": true },
+        "m_eidParent": {
+          "type": "SEntityTemplateReference",
+          "value": "fffffffffffffffe"
+        }
+      },
+      "events": {
+        "Item": { "SetItem": ["feed42c36242b86c"] },
+        "ItemReady": { "PickupIntoPocket": ["feed42c36242b86c"] }
+      }
+    },
+    "feeda1a45338526d": {
+      "parent": "feed4505c670f8a3",
+      "name": "HeroItemAction Combat Knife",
+      "factory": "[modules:/zheroitemaction.class].pc_entitytype",
+      "blueprint": "[modules:/zheroitemaction.class].pc_entityblueprint",
+      "properties": {
+        "m_rKeywordsToFind": {
+          "type": "SEntityTemplateReference",
+          "value": "feed42c36242b86c"
+        }
+      }
+    },
+    "feeda5a2807eeeb5": {
+      "parent": "feed4505c670f8a3",
+      "name": "ItemKey_Hackl9R NPC",
+      "blueprint": "[modules:/zitemrepositorykeyentity.class].pc_entityblueprint",
+      "properties": {
+        "m_RepositoryId": {
+          "type": "ZGuid",
+          "value": "1cae7d71-55c8-401a-9dfb-cd0909c4f6ee"
+        }
+      },
+      "factory": "[modules:/zitemrepositorykeyentity.class].pc_entitytype"
+    },
+    "feedeff2d54ef681": {
+      "parent": "feed4505c670f8a3",
+      "name": "ItemKey_Shotgun02 NPC",
+      "blueprint": "[modules:/zitemrepositorykeyentity.class].pc_entityblueprint",
+      "properties": {
+        "m_RepositoryId": {
+          "type": "ZGuid",
+          "value": "7f31d897-a62f-448c-be0d-79d565e2faa7"
+        }
+      },
+      "factory": "[modules:/zitemrepositorykeyentity.class].pc_entitytype"
+    },
+    "feedb19cc09394da": {
+      "parent": "feed4505c670f8a3",
+      "name": "HeroItemAction Hackl9R",
+      "factory": "[modules:/zheroitemaction.class].pc_entitytype",
+      "blueprint": "[modules:/zheroitemaction.class].pc_entityblueprint",
+      "properties": {
+        "m_rKeywordsToFind": {
+          "type": "SEntityTemplateReference",
+          "value": "feeda5a2807eeeb5"
+        }
+      }
+    },
+    "feedf47c4c875dc7": {
+      "parent": "abcd7f3d8a81df6a",
+      "name": "Road",
+      "factory": "[modules:/zentity.class].pc_entitytype",
+      "blueprint": "[modules:/zentity.class].pc_entityblueprint"
+    },
+    "feedbb04a91b2cdd": {
+      "parent": "feedf47c4c875dc7",
+      "name": "HeroSpawn_Location_Default",
+      "blueprint": "[assembly:/_pro/design/levelflow.template?/herospawn.entitytemplate].pc_entityblueprint",
+      "properties": {
+        "m_mTransform": {
+          "type": "SMatrix43",
+          "value": {
+            "rotation": { "x": 0, "y": 0, "z": 60 },
+            "position": { "x": 97, "y": -131, "z": 3 }
+          }
+        },
+        "m_bDefaultHeroSpawn": { "type": "bool", "value": true },
+        "m_eidParent": {
+          "type": "SEntityTemplateReference",
+          "value": "fffffffffffffffe",
+          "postInit": true
+        }
+      },
+      "factory": "[assembly:/_pro/design/levelflow.template?/herospawn.entitytemplate].pc_entitytype",
+      "events": { "OnSpawn": { "Activate": [] } }
+    },
+    "feed52fdcd6e48f7": {
+      "parent": "feed4505c670f8a3",
+      "name": "HeroSpawnSequenceDirector",
+      "blueprint": "005AEBE4BDFCD1C9",
+      "properties": {
+        "m_aSequences": {
+          "type": "TArray<SEntityTemplateReference>",
+          "value": ["feed2bc3a7b432c6"]
+        },
+        "m_rSpawner": {
+          "type": "SEntityTemplateReference",
+          "value": "feedbb04a91b2cdd"
+        },
+        "m_fInterpolationTime": { "type": "float32", "value": 0 },
+        "m_nPriority": { "type": "uint32", "value": 20 }
+      },
+      "outputCopying": { "OnStop": { "Stopped": ["feed4505c670f8a3"] } },
+      "factory": "00A6F689FB19B096"
+    },
+    "feed2bc3a7b432c6": {
+      "parent": "feed4505c670f8a3",
+      "name": "Start_Default",
+      "blueprint": "[modules:/zsequenceentity.class].pc_entityblueprint",
+      "properties": {
+        "m_duration": { "type": "ZGameTime", "value": { "m_nTicks": 2000 } },
+        "m_startTime": { "type": "ZGameTime", "value": { "m_nTicks": 1000 } },
+        "m_bLetterbox": { "type": "bool", "value": true },
+        "m_eLetterBoxAspect": {
+          "type": "ZSequenceEntity.ELetterBoxAspect",
+          "value": "LETTERBOXASPECT_CINEMASCOPE"
+        },
+        "m_bFadeOutBeforeEnd": { "type": "bool", "value": false },
+        "m_letterboxFadeOut": {
+          "type": "ZGameTime",
+          "value": { "m_nTicks": 1048576 }
+        },
+        "m_aTracksAndGroups": {
+          "type": "TArray<SEntityTemplateReference>",
+          "value": ["feed7f1f4808eac2", "feedc67b75143876"],
+          "postInit": true
+        }
+      },
+      "factory": "[modules:/zsequenceentity.class].pc_entitytype"
+    },
+    "feed7f1f4808eac2": {
+      "parent": "feed2bc3a7b432c6",
+      "name": "Active Camera Track",
+      "blueprint": "[modules:/zrenderdestinationtrack.class].pc_entityblueprint",
+      "properties": {
+        "m_aItems": {
+          "type": "TArray<SEntityTemplateReference>",
+          "value": ["feedaac1c969e570"],
+          "postInit": true
+        }
+      },
+      "factory": "[modules:/zrenderdestinationtrack.class].pc_entitytype"
+    },
+    "feedc67b75143876": {
+      "parent": "feed2bc3a7b432c6",
+      "name": "EntityTrack_FlyInCamera",
+      "blueprint": "[modules:/zentitygroup.class].pc_entityblueprint",
+      "properties": {
+        "m_aTracksAndGroups": {
+          "type": "TArray<SEntityTemplateReference>",
+          "value": ["feedce14afdb2e3a"],
+          "postInit": true
+        }
+      },
+      "factory": "[modules:/zentitygroup.class].pc_entitytype"
+    },
+    "feedaac1c969e570": {
+      "parent": "feed7f1f4808eac2",
+      "name": "Active Camera Item",
+      "blueprint": "[modules:/zsingleactivecamerasource.class].pc_entityblueprint",
+      "properties": {
+        "m_duration": { "type": "ZGameTime", "value": { "m_nTicks": 2000 } },
+        "m_startTime": { "type": "ZGameTime", "value": { "m_nTicks": 1000 } },
+        "m_pCamera": {
+          "type": "SEntityTemplateReference",
+          "value": "feed65eacff622a1"
+        }
+      },
+      "factory": "[modules:/zsingleactivecamerasource.class].pc_entitytype"
+    },
+    "feedce14afdb2e3a": {
+      "parent": "feedc67b75143876",
+      "name": "TrajectoryTrack",
+      "blueprint": "[modules:/ztrajectorytrack.class].pc_entityblueprint",
+      "properties": {
+        "m_entityGroup": {
+          "type": "SEntityTemplateReference",
+          "value": "feedc67b75143876"
+        },
+        "m_bRestoreValueAfterEnd": { "type": "bool", "value": false },
+        "m_aItems": {
+          "type": "TArray<SEntityTemplateReference>",
+          "value": ["feedceb8d6d9c7c3"],
+          "postInit": true
+        }
+      },
+      "factory": "[modules:/ztrajectorytrack.class].pc_entitytype"
+    },
+    "feedceb8d6d9c7c3": {
+      "parent": "feedce14afdb2e3a",
+      "name": "CurveTrajectoryItem 1",
+      "blueprint": "[modules:/zeulerangletrajectorysource.class].pc_entityblueprint",
+      "properties": {
+        "m_startTime": { "type": "ZGameTime", "value": { "m_nTicks": 83886 } },
+        "m_duration": {
+          "type": "ZGameTime",
+          "value": { "m_nTicks": 10454302 }
+        },
+        "m_CurveX": {
+          "type": "ZCurve",
+          "value": {
+            "data": [
+              [0, 90, 0, 0, 0, 0, -1, 90],
+              [1, 91, 0, 0, 0, 0, 0, 91]
+            ]
+          }
+        },
+        "m_CurveRotX": {
+          "type": "ZCurve",
+          "value": {
+            "data": [
+              [0, 6.5, 0, 0, 0, 0, 1, 6.5],
+              [1, 0.5, 0, 0, 0, 0, 0, 0.5]
+            ]
+          }
+        },
+        "m_CurveY": {
+          "type": "ZCurve",
+          "value": {
+            "data": [
+              [0, -130, 0, 0, 0, 0, 1, -130],
+              [1, -132, 0, 0, 0, 0, 0, -132]
+            ]
+          }
+        },
+        "m_CurveRotY": {
+          "type": "ZCurve",
+          "value": {
+            "data": [
+              [0, 0, 0, 0, 0, 0, 0, 0],
+              [1, 0, 0, 0, 0, 0, 0, 0]
+            ]
+          }
+        },
+        "m_CurveZ": {
+          "type": "ZCurve",
+          "value": {
+            "data": [
+              [0, 5, 0, 0, 0, 0, -1, 5],
+              [1, 6, 0, 0, 0, 0, 0, 6]
+            ]
+          }
+        },
+        "m_CurveRotZ": {
+          "type": "ZCurve",
+          "value": {
+            "data": [
+              [0, 4, 0, 0, 0, 0, 0, 4],
+              [1, 5, 0, 0, 0, 0, 0, 5]
+            ]
+          }
+        }
+      },
+      "factory": "[modules:/zeulerangletrajectorysource.class].pc_entitytype"
+    },
+    "feed5419090603e9": {
+      "parent": "abcd1e1d830c091c",
+      "name": "Cameras",
+      "blueprint": "[modules:/zentity.class].pc_entityblueprint",
+      "factory": "[modules:/zentity.class].pc_entitytype"
+    },
+    "feed65eacff622a1": {
+      "parent": "feed5419090603e9",
+      "name": "Camera 1",
+      "blueprint": "[modules:/zcameraentity.class].pc_entityblueprint",
+      "properties": {
+        "m_mTransform": {
+          "type": "SMatrix43",
+          "value": {
+            "rotation": { "x": 0, "y": 0, "z": 0 },
+            "position": { "x": 100, "y": -130, "z": 6 }
+          }
+        },
+        "m_bExportScreenshot": { "type": "bool", "value": true },
+        "m_eidParent": {
+          "type": "SEntityTemplateReference",
+          "value": "abcd1e1d830c091c",
+          "postInit": true
+        }
+      },
+      "factory": "[modules:/zcameraentity.class].pc_entitytype"
+    },
+    "feed3d01cdd74f5e": {
+      "parent": "abcd1e1d830c091c",
+      "name": "HeroSpawn_StartingLocation",
+      "factory": "[modules:/zentity.class].pc_entitytype",
+      "blueprint": "[modules:/zentity.class].pc_entityblueprint"
+    },
+    "feed34a66afe9150": {
+      "parent": "feed3d01cdd74f5e",
+      "name": "Mission_Introcut_Camera",
+      "factory": "[modules:/zcameraentity.class].pc_entitytype",
+      "blueprint": "[modules:/zcameraentity.class].pc_entityblueprint",
+      "properties": {
+        "m_mTransform": {
+          "type": "SMatrix43",
+          "value": {
+            "rotation": { "x": 0, "y": 0, "z": 0 },
+            "position": { "x": 100, "y": -130, "z": 6 }
+          }
+        },
+        "m_fFovYDeg": { "type": "float32", "value": 40 },
+        "m_eidParent": {
+          "type": "SEntityTemplateReference",
+          "value": "fffffffffffffffe",
+          "postInit": true
+        }
+      }
+    },
+    "feed9513a114f362": {
+      "parent": "feed3d01cdd74f5e",
+      "name": "HM5GameCamPOI01",
+      "factory": "[modules:/zhm5gamecampoi.class].pc_entitytype",
+      "blueprint": "[modules:/zhm5gamecampoi.class].pc_entityblueprint",
+      "properties": {
+        "m_mTransform": {
+          "type": "SMatrix43",
+          "value": {
+            "rotation": { "x": 0, "y": 0, "z": 0 },
+            "position": { "x": 100, "y": -130, "z": 6 }
+          }
+        },
+        "m_bForce": { "type": "bool", "value": true },
+        "m_bActivateOnce": { "type": "bool", "value": false },
+        "m_fBlendTime": { "type": "float32", "value": 0 },
+        "m_eidParent": {
+          "type": "SEntityTemplateReference",
+          "value": "fffffffffffffffe",
+          "postInit": true
+        }
+      }
+    },
+    "feedbb055a26f216": {
+      "parent": "feed4505c670f8a3",
+      "name": "GameEventListener01",
+      "factory": "[modules:/zgameeventlistenerentity.class].pc_entitytype",
+      "blueprint": "[modules:/zgameeventlistenerentity.class].pc_entityblueprint",
+      "properties": {
+        "m_eEvent": { "type": "EGameEventType", "value": "GET_IntroCutEnd" }
+      },
+      "events": {
+        "EventOccurred": {
+          "SpawnItem": [
+            "feeda1a45338526d",
+            "feedb19cc09394da",
+            "feedfb1e9141f4da"
+          ]
+        }
+      }
+    },
+    "feedfb1e9141f4da": {
+      "parent": "feed4505c670f8a3",
+      "name": "HeroItemAction Sawed off Shotgun",
+      "factory": "[modules:/zheroitemaction.class].pc_entitytype",
+      "blueprint": "[modules:/zheroitemaction.class].pc_entityblueprint",
+      "properties": {
+        "m_rKeywordsToFind": {
+          "type": "SEntityTemplateReference",
+          "value": "feedeff2d54ef681"
+        }
       }
     }
   },
@@ -1273,6 +1516,17 @@
           "type": "ZGuid",
           "value": "d3bdbcfe-4747-4774-a642-17daa98a4747"
         }
+      }
+    },
+    {
+      "entities": [
+        {
+          "ref": "aaae70db265926d9",
+          "externalScene": "[assembly:/_pro/scenes/missions/ancestral/scenario_bulldog.brick].pc_entitytype"
+        }
+      ],
+      "properties": {
+        "m_bDefaultHeroSpawn": { "type": "bool", "value": false }
       }
     }
   ],
