@@ -1,0 +1,689 @@
+{
+  "tempHash": "002438330BC4BDCD",
+  "tbluHash": "00656D5CC4DC5B67",
+  "rootEntity": "fffffffffffffffe",
+  "entities": {
+    "fffffffffffffffe": {
+      "parent": null,
+      "name": "Scene",
+      "blueprint": "[modules:/zspatialentity.class].pc_entityblueprint",
+      "factory": "[modules:/zspatialentity.class].pc_entitytype"
+    },
+    "abcd6b299c3d3e26": {
+      "parent": "fffffffffffffffe",
+      "name": "Scenario_Airplane",
+      "blueprint": "[modules:/zentity.class].pc_entityblueprint",
+      "factory": "[modules:/zentity.class].pc_entitytype"
+    },
+    "abcd249e5a2a9fca": {
+      "parent": "abcd6b299c3d3e26",
+      "name": "AI",
+      "blueprint": "[modules:/zentity.class].pc_entityblueprint",
+      "factory": "[modules:/zentity.class].pc_entitytype"
+    },
+    "abcd1e1d830c091c": {
+      "parent": "abcd6b299c3d3e26",
+      "name": "CutScenes",
+      "blueprint": "[modules:/zentity.class].pc_entityblueprint",
+      "factory": "[modules:/zentity.class].pc_entitytype"
+    },
+    "abcd85cba5ab5afa": {
+      "parent": "abcd6b299c3d3e26",
+      "name": "Envionment",
+      "blueprint": "[modules:/zentity.class].pc_entityblueprint",
+      "factory": "[modules:/zentity.class].pc_entitytype"
+    },
+    "abcd5e509cf0ca65": {
+      "parent": "abcd6b299c3d3e26",
+      "name": "Gameplay",
+      "blueprint": "[modules:/zentity.class].pc_entityblueprint",
+      "factory": "[modules:/zentity.class].pc_entitytype"
+    },
+    "abcdb8a050d68c57": {
+      "parent": "abcd6b299c3d3e26",
+      "name": "Maps",
+      "blueprint": "[modules:/zentity.class].pc_entityblueprint",
+      "factory": "[modules:/zentity.class].pc_entitytype"
+    },
+    "abcde92f2c09c134": {
+      "parent": "abcd6b299c3d3e26",
+      "name": "NPCs",
+      "blueprint": "[modules:/zentity.class].pc_entityblueprint",
+      "factory": "[modules:/zentity.class].pc_entitytype"
+    },
+    "abcd0bb39b5d1024": {
+      "parent": "abcd6b299c3d3e26",
+      "name": "PerformanceProfiling",
+      "blueprint": "[modules:/zentity.class].pc_entityblueprint",
+      "factory": "[modules:/zentity.class].pc_entitytype"
+    },
+    "abcd18ecb43f18d5": {
+      "parent": "abcd6b299c3d3e26",
+      "name": "Physics",
+      "blueprint": "[modules:/zentity.class].pc_entityblueprint",
+      "factory": "[modules:/zentity.class].pc_entitytype"
+    },
+    "abcd14d85b184763": {
+      "parent": "abcd6b299c3d3e26",
+      "name": "Sounds",
+      "blueprint": "[modules:/zentity.class].pc_entityblueprint",
+      "factory": "[modules:/zentity.class].pc_entitytype"
+    },
+    "abcd042dd592c367": {
+      "parent": "abcd6b299c3d3e26",
+      "name": "Lighting",
+      "blueprint": "[modules:/zentity.class].pc_entityblueprint",
+      "factory": "[modules:/zentity.class].pc_entitytype"
+    },
+    "abcd205a46d3bb61": {
+      "parent": "abcd249e5a2a9fca",
+      "name": "AI Areas and vision blockers",
+      "blueprint": "[modules:/zentity.class].pc_entityblueprint",
+      "factory": "[modules:/zentity.class].pc_entitytype"
+    },
+    "abcdf6bc0632156d": {
+      "parent": "abcd249e5a2a9fca",
+      "name": "AI Reasoning Grid",
+      "blueprint": "[modules:/zentity.class].pc_entityblueprint",
+      "factory": "[modules:/zentity.class].pc_entitytype"
+    },
+    "abcd79e0852e4364": {
+      "parent": "abcd249e5a2a9fca",
+      "name": "Disguise Rules",
+      "blueprint": "[modules:/zentity.class].pc_entityblueprint",
+      "factory": "[modules:/zentity.class].pc_entitytype"
+    },
+    "abcd5141c63616dc": {
+      "parent": "abcd249e5a2a9fca",
+      "name": "Evacuation",
+      "blueprint": "[modules:/zentity.class].pc_entityblueprint",
+      "factory": "[modules:/zentity.class].pc_entitytype"
+    },
+    "abcdf4ae94f92b86": {
+      "parent": "abcd249e5a2a9fca",
+      "name": "GeoTags",
+      "blueprint": "[modules:/zentity.class].pc_entityblueprint",
+      "factory": "[modules:/zentity.class].pc_entitytype"
+    },
+    "abcdaaad94a35e02": {
+      "parent": "abcd249e5a2a9fca",
+      "name": "Hunt Acts",
+      "blueprint": "[modules:/zentity.class].pc_entityblueprint",
+      "factory": "[modules:/zentity.class].pc_entitytype"
+    },
+    "abcdf5867d97e9dc": {
+      "parent": "abcd249e5a2a9fca",
+      "name": "Lockdown and VIP setup",
+      "blueprint": "[modules:/zentity.class].pc_entityblueprint",
+      "factory": "[modules:/zentity.class].pc_entitytype"
+    },
+    "abcde188fadc40de": {
+      "parent": "abcd249e5a2a9fca",
+      "name": "Morgues",
+      "blueprint": "[modules:/zentity.class].pc_entityblueprint",
+      "factory": "[modules:/zentity.class].pc_entitytype"
+    },
+    "abcdeaf23812acfd": {
+      "parent": "abcd249e5a2a9fca",
+      "name": "Pathfinding",
+      "blueprint": "[modules:/zentity.class].pc_entityblueprint",
+      "factory": "[modules:/zentity.class].pc_entitytype"
+    },
+    "abcda142f2bbcd41": {
+      "parent": "abcd249e5a2a9fca",
+      "name": "Private areas",
+      "blueprint": "[modules:/zentity.class].pc_entityblueprint",
+      "factory": "[modules:/zentity.class].pc_entitytype"
+    },
+    "abcd26609fbf264f": {
+      "parent": "abcd249e5a2a9fca",
+      "name": "Professions",
+      "blueprint": "[modules:/zentity.class].pc_entityblueprint",
+      "factory": "[modules:/zentity.class].pc_entitytype"
+    },
+    "abcdd4af1eda918f": {
+      "parent": "abcd249e5a2a9fca",
+      "name": "Sound Connectors",
+      "blueprint": "[modules:/zentity.class].pc_entityblueprint",
+      "factory": "[modules:/zentity.class].pc_entitytype"
+    },
+    "abcd89d97e31389c": {
+      "parent": "abcd249e5a2a9fca",
+      "name": "Zone Setup",
+      "blueprint": "[modules:/zentity.class].pc_entityblueprint",
+      "factory": "[modules:/zentity.class].pc_entitytype"
+    },
+    "abcd25420c514120": {
+      "parent": "abcd249e5a2a9fca",
+      "name": "Mirror Markup",
+      "blueprint": "[modules:/zentity.class].pc_entityblueprint",
+      "factory": "[modules:/zentity.class].pc_entitytype"
+    },
+    "abcd0cb38b2b24fe": {
+      "parent": "abcd85cba5ab5afa",
+      "name": "Gates",
+      "blueprint": "[modules:/zentity.class].pc_entityblueprint",
+      "factory": "[modules:/zentity.class].pc_entitytype"
+    },
+    "abcd7c6476d2f872": {
+      "parent": "abcd85cba5ab5afa",
+      "name": "Material_Overrides",
+      "blueprint": "[modules:/zentity.class].pc_entityblueprint",
+      "factory": "[modules:/zentity.class].pc_entitytype"
+    },
+    "abcd0b045d13d43f": {
+      "parent": "abcd85cba5ab5afa",
+      "name": "000_Outside",
+      "blueprint": "[modules:/zentity.class].pc_entityblueprint",
+      "factory": "[modules:/zentity.class].pc_entitytype"
+    },
+    "abcdfa9777639270": {
+      "parent": "abcd5e509cf0ca65",
+      "name": "Agency Pickups",
+      "blueprint": "[modules:/zentity.class].pc_entityblueprint",
+      "factory": "[modules:/zentity.class].pc_entitytype"
+    },
+    "abcd65e98e3b976e": {
+      "parent": "abcd5e509cf0ca65",
+      "name": "Agility",
+      "blueprint": "[modules:/zentity.class].pc_entityblueprint",
+      "factory": "[modules:/zentity.class].pc_entitytype"
+    },
+    "abcdbd6d9c83fa73": {
+      "parent": "abcd5e509cf0ca65",
+      "name": "Challenges",
+      "blueprint": "[modules:/zentity.class].pc_entityblueprint",
+      "factory": "[modules:/zentity.class].pc_entitytype"
+    },
+    "abcd414fbd3584fc": {
+      "parent": "abcd5e509cf0ca65",
+      "name": "Collision",
+      "blueprint": "[modules:/zentity.class].pc_entityblueprint",
+      "factory": "[modules:/zentity.class].pc_entitytype"
+    },
+    "abcd56b67c5c3bc1": {
+      "parent": "abcd5e509cf0ca65",
+      "name": "Exit locations",
+      "blueprint": "[modules:/zentity.class].pc_entityblueprint",
+      "factory": "[modules:/zentity.class].pc_entitytype"
+    },
+    "abcdc5ec6784516a": {
+      "parent": "abcd5e509cf0ca65",
+      "name": "Global logic",
+      "blueprint": "[modules:/zentity.class].pc_entityblueprint",
+      "factory": "[modules:/zentity.class].pc_entitytype"
+    },
+    "abcd2834d407e232": {
+      "parent": "abcd5e509cf0ca65",
+      "name": "Hero",
+      "blueprint": "[modules:/zentity.class].pc_entityblueprint",
+      "factory": "[modules:/zentity.class].pc_entitytype"
+    },
+    "abcd9d6617b50d0d": {
+      "parent": "abcd5e509cf0ca65",
+      "name": "Hero Camera",
+      "blueprint": "[modules:/zentity.class].pc_entityblueprint",
+      "factory": "[modules:/zentity.class].pc_entitytype"
+    },
+    "abcd686a3e439de0": {
+      "parent": "abcd5e509cf0ca65",
+      "name": "Hero Disguised",
+      "blueprint": "[modules:/zentity.class].pc_entityblueprint",
+      "factory": "[modules:/zentity.class].pc_entitytype"
+    },
+    "abcd7948a2a6c134": {
+      "parent": "abcd5e509cf0ca65",
+      "name": "Items",
+      "blueprint": "[modules:/zentity.class].pc_entityblueprint",
+      "factory": "[modules:/zentity.class].pc_entitytype"
+    },
+    "abcd184cf8691cb6": {
+      "parent": "abcd5e509cf0ca65",
+      "name": "Keywords",
+      "blueprint": "[modules:/zentity.class].pc_entityblueprint",
+      "factory": "[modules:/zentity.class].pc_entitytype"
+    },
+    "abcd3bc7786621da": {
+      "parent": "abcd5e509cf0ca65",
+      "name": "LeavingMissionArea",
+      "blueprint": "[modules:/zentity.class].pc_entityblueprint",
+      "factory": "[modules:/zentity.class].pc_entitytype"
+    },
+    "abcd02f53140fce7": {
+      "parent": "abcd5e509cf0ca65",
+      "name": "Level Volumes",
+      "blueprint": "[modules:/zentity.class].pc_entityblueprint",
+      "factory": "[modules:/zentity.class].pc_entitytype"
+    },
+    "abcd0d34d63700b7": {
+      "parent": "abcd5e509cf0ca65",
+      "name": "Mirror Markup",
+      "blueprint": "[modules:/zentity.class].pc_entityblueprint",
+      "factory": "[modules:/zentity.class].pc_entitytype"
+    },
+    "abcded851005d684": {
+      "parent": "abcd5e509cf0ca65",
+      "name": "PIPs",
+      "blueprint": "[modules:/zentity.class].pc_entityblueprint",
+      "factory": "[modules:/zentity.class].pc_entitytype"
+    },
+    "abcd4b7b3e7bd675": {
+      "parent": "abcd5e509cf0ca65",
+      "name": "Setpieces",
+      "blueprint": "[modules:/zentity.class].pc_entityblueprint",
+      "factory": "[modules:/zentity.class].pc_entitytype"
+    },
+    "abcd7f3d8a81df6a": {
+      "parent": "abcd5e509cf0ca65",
+      "name": "Starting locations",
+      "blueprint": "[modules:/zentity.class].pc_entityblueprint",
+      "factory": "[modules:/zentity.class].pc_entitytype"
+    },
+    "abcd6dc171b23fef": {
+      "parent": "abcd5e509cf0ca65",
+      "name": "Stashpoints",
+      "blueprint": "[modules:/zentity.class].pc_entityblueprint",
+      "factory": "[modules:/zentity.class].pc_entitytype"
+    },
+    "abcd4deb0bf8d6d9": {
+      "parent": "abcd65e98e3b976e",
+      "name": "Covers",
+      "blueprint": "[modules:/zentity.class].pc_entityblueprint",
+      "factory": "[modules:/zentity.class].pc_entitytype"
+    },
+    "abcd129e45675c1f": {
+      "parent": "abcd65e98e3b976e",
+      "name": "Ledges",
+      "blueprint": "[modules:/zentity.class].pc_entityblueprint",
+      "factory": "[modules:/zentity.class].pc_entitytype"
+    },
+    "abcd4080d61f89d0": {
+      "parent": "abcd65e98e3b976e",
+      "name": "Agility",
+      "blueprint": "[modules:/zentity.class].pc_entityblueprint",
+      "factory": "[modules:/zentity.class].pc_entitytype"
+    },
+    "abcdfcc8ee443882": {
+      "parent": "abcd65e98e3b976e",
+      "name": "DrainPipe",
+      "blueprint": "[modules:/zentity.class].pc_entityblueprint",
+      "factory": "[modules:/zentity.class].pc_entitytype"
+    },
+    "abcd57f89ec23a2d": {
+      "parent": "abcd7948a2a6c134",
+      "name": "Clothbundles",
+      "blueprint": "[modules:/zentity.class].pc_entityblueprint",
+      "factory": "[modules:/zentity.class].pc_entitytype"
+    },
+    "abcd854a05640fc5": {
+      "parent": "abcd7948a2a6c134",
+      "name": "Keys and Keycards",
+      "blueprint": "[modules:/zentity.class].pc_entityblueprint",
+      "factory": "[modules:/zentity.class].pc_entitytype"
+    },
+    "abcdac8a79b07d2f": {
+      "parent": "abcd7948a2a6c134",
+      "name": "Misc",
+      "blueprint": "[modules:/zentity.class].pc_entityblueprint",
+      "factory": "[modules:/zentity.class].pc_entitytype"
+    },
+    "abcdf5d9116033c4": {
+      "parent": "abcd7948a2a6c134",
+      "name": "Poison",
+      "blueprint": "[modules:/zentity.class].pc_entityblueprint",
+      "factory": "[modules:/zentity.class].pc_entitytype"
+    },
+    "abcd42248eaef195": {
+      "parent": "abcd7948a2a6c134",
+      "name": "Quest Items",
+      "blueprint": "[modules:/zentity.class].pc_entityblueprint",
+      "factory": "[modules:/zentity.class].pc_entitytype"
+    },
+    "abcd39183d0ff63d": {
+      "parent": "abcd7948a2a6c134",
+      "name": "Tools and Melee",
+      "blueprint": "[modules:/zentity.class].pc_entityblueprint",
+      "factory": "[modules:/zentity.class].pc_entitytype"
+    },
+    "abcd6dd82b9e30af": {
+      "parent": "abcd7948a2a6c134",
+      "name": "Weapons",
+      "blueprint": "[modules:/zentity.class].pc_entityblueprint",
+      "factory": "[modules:/zentity.class].pc_entitytype"
+    },
+    "abcdf9073db65575": {
+      "parent": "abcd7948a2a6c134",
+      "name": "Poisonables",
+      "blueprint": "[modules:/zentity.class].pc_entityblueprint",
+      "factory": "[modules:/zentity.class].pc_entitytype"
+    },
+    "abcde759213203da": {
+      "parent": "abcd7948a2a6c134",
+      "name": "Thrown distractions",
+      "blueprint": "[modules:/zentity.class].pc_entityblueprint",
+      "factory": "[modules:/zentity.class].pc_entitytype"
+    },
+    "abcd2b48ed6692f2": {
+      "parent": "abcd14d85b184763",
+      "name": "Ambience_Occlusion",
+      "blueprint": "[modules:/zentity.class].pc_entityblueprint",
+      "factory": "[modules:/zentity.class].pc_entitytype"
+    },
+    "abcd2a1ad9623bad": {
+      "parent": "abcd14d85b184763",
+      "name": "Global_Sound_parameters",
+      "blueprint": "[modules:/zentity.class].pc_entityblueprint",
+      "factory": "[modules:/zentity.class].pc_entitytype"
+    },
+    "abcda20615ed1d7c": {
+      "parent": "abcd14d85b184763",
+      "name": "Music",
+      "blueprint": "[modules:/zentity.class].pc_entityblueprint",
+      "factory": "[modules:/zentity.class].pc_entitytype"
+    },
+    "abcd9e495f49a0c6": {
+      "parent": "abcd14d85b184763",
+      "name": "SFX",
+      "blueprint": "[modules:/zentity.class].pc_entityblueprint",
+      "factory": "[modules:/zentity.class].pc_entitytype"
+    },
+    "abcd2d47070e1543": {
+      "parent": "abcd042dd592c367",
+      "name": "GlobalMaterials",
+      "blueprint": "[modules:/zentity.class].pc_entityblueprint",
+      "factory": "[modules:/zentity.class].pc_entitytype"
+    },
+    "abcdd383f8fadfab": {
+      "parent": "abcd042dd592c367",
+      "name": "Postfilters",
+      "blueprint": "[modules:/zentity.class].pc_entityblueprint",
+      "factory": "[modules:/zentity.class].pc_entitytype"
+    },
+    "abcd2f7d17f552be": {
+      "parent": "abcd85cba5ab5afa",
+      "name": "100_Plane",
+      "blueprint": "[modules:/zentity.class].pc_entityblueprint",
+      "factory": "[modules:/zentity.class].pc_entitytype"
+    },
+    "abcd760ed023cb07": {
+      "parent": "abcd2f7d17f552be",
+      "name": "Gameplay",
+      "blueprint": "[modules:/zentity.class].pc_entityblueprint",
+      "factory": "[modules:/zentity.class].pc_entitytype"
+    },
+    "abcdf149c65432b4": {
+      "parent": "abcd2f7d17f552be",
+      "name": "Lights",
+      "blueprint": "[modules:/zentity.class].pc_entityblueprint",
+      "factory": "[modules:/zentity.class].pc_entitytype"
+    },
+    "abcd655cfc023829": {
+      "parent": "abcd2f7d17f552be",
+      "name": "Geometry",
+      "blueprint": "[modules:/zentity.class].pc_entityblueprint",
+      "factory": "[modules:/zentity.class].pc_entitytype"
+    },
+    "abcd092b29bb5c64": {
+      "parent": "abcd2f7d17f552be",
+      "name": "Partitioning",
+      "blueprint": "[modules:/zentity.class].pc_entityblueprint",
+      "factory": "[modules:/zentity.class].pc_entitytype"
+    },
+    "abcd54e3cdf8e044": {
+      "parent": "abcd2f7d17f552be",
+      "name": "Effects",
+      "blueprint": "[modules:/zentity.class].pc_entityblueprint",
+      "factory": "[modules:/zentity.class].pc_entitytype"
+    },
+    "abcd7b0a2f9f5e9c": {
+      "parent": "abcd2f7d17f552be",
+      "name": "BoxReflections",
+      "blueprint": "[modules:/zentity.class].pc_entityblueprint",
+      "factory": "[modules:/zentity.class].pc_entitytype"
+    },
+    "abcde0766c7b4d3d": {
+      "parent": "abcd2f7d17f552be",
+      "name": "Decals",
+      "blueprint": "[modules:/zentity.class].pc_entityblueprint",
+      "factory": "[modules:/zentity.class].pc_entitytype"
+    },
+    "abcd182c8eab679f": {
+      "parent": "abcdf149c65432b4",
+      "name": "DarkLights",
+      "blueprint": "[modules:/zentity.class].pc_entityblueprint",
+      "factory": "[modules:/zentity.class].pc_entitytype"
+    },
+    "abcdd4bc4082f9c3": {
+      "parent": "abcd655cfc023829",
+      "name": "Props",
+      "blueprint": "[modules:/zentity.class].pc_entityblueprint",
+      "factory": "[modules:/zentity.class].pc_entitytype"
+    },
+    "feed7dc499eebdd9": {
+      "parent": "abcd85cba5ab5afa",
+      "name": "XXX_Room_Folder_Structure",
+      "blueprint": "[modules:/zentity.class].pc_entityblueprint",
+      "factory": "[modules:/zentity.class].pc_entitytype"
+    },
+    "feed860055448352": {
+      "parent": "feed7dc499eebdd9",
+      "name": "Gameplay",
+      "blueprint": "[modules:/zentity.class].pc_entityblueprint",
+      "factory": "[modules:/zentity.class].pc_entitytype"
+    },
+    "feed528c8804723c": {
+      "parent": "feed7dc499eebdd9",
+      "name": "Lights",
+      "blueprint": "[modules:/zentity.class].pc_entityblueprint",
+      "factory": "[modules:/zentity.class].pc_entitytype"
+    },
+    "feed51dafb331ca7": {
+      "parent": "feed7dc499eebdd9",
+      "name": "Geometry",
+      "blueprint": "[modules:/zentity.class].pc_entityblueprint",
+      "factory": "[modules:/zentity.class].pc_entitytype"
+    },
+    "feed25ed4a9a29bb": {
+      "parent": "feed7dc499eebdd9",
+      "name": "Partitioning",
+      "blueprint": "[modules:/zentity.class].pc_entityblueprint",
+      "factory": "[modules:/zentity.class].pc_entitytype"
+    },
+    "feed282c9af4d8f8": {
+      "parent": "feed7dc499eebdd9",
+      "name": "Effects",
+      "blueprint": "[modules:/zentity.class].pc_entityblueprint",
+      "factory": "[modules:/zentity.class].pc_entitytype"
+    },
+    "feede684d90e87aa": {
+      "parent": "feed7dc499eebdd9",
+      "name": "BoxReflections",
+      "blueprint": "[modules:/zentity.class].pc_entityblueprint",
+      "factory": "[modules:/zentity.class].pc_entitytype"
+    },
+    "feed233f2f97fb24": {
+      "parent": "feed7dc499eebdd9",
+      "name": "Decals",
+      "blueprint": "[modules:/zentity.class].pc_entityblueprint",
+      "factory": "[modules:/zentity.class].pc_entitytype"
+    },
+    "feedf0001d840dcd": {
+      "parent": "feed528c8804723c",
+      "name": "DarkLights",
+      "blueprint": "[modules:/zentity.class].pc_entityblueprint",
+      "factory": "[modules:/zentity.class].pc_entitytype"
+    },
+    "feedc651b15240bc": {
+      "parent": "feed51dafb331ca7",
+      "name": "Props",
+      "blueprint": "[modules:/zentity.class].pc_entityblueprint",
+      "factory": "[modules:/zentity.class].pc_entitytype"
+    },
+    "feed0f0ff7c5ffd6": {
+      "parent": "abcdd4bc4082f9c3",
+      "name": "window_cleaner_basket_8m_a_01",
+      "factory": "00848DEDD1AA8EEA",
+      "blueprint": "00C419118AD660D6",
+      "properties": {
+        "m_mTransform": {
+          "type": "SMatrix43",
+          "value": {
+            "rotation": { "x": 0, "y": 0, "z": 90 },
+            "position": {
+              "x": -47.46146011352539,
+              "y": 28.205949783325195,
+              "z": 54.050838470458984
+            }
+          }
+        },
+        "m_eidParent": {
+          "type": "SEntityTemplateReference",
+          "value": {
+            "ref": "630f9164460de833",
+            "externalScene": "[assembly:/_pro/scenes/missions/golden/mission_gecko/scenario_gecko.brick].pc_entitytype"
+          }
+        }
+      }
+    },
+    "feed41f53ab47061": {
+      "parent": "abcd7f3d8a81df6a",
+      "name": "Plane",
+      "factory": "[modules:/zentity.class].pc_entitytype",
+      "blueprint": "[modules:/zentity.class].pc_entityblueprint"
+    },
+    "feeded118515070f": {
+      "parent": "abcd7f3d8a81df6a",
+      "name": "HeroSpawn_Location_Default",
+      "blueprint": "[assembly:/_pro/design/levelflow.template?/herospawn.entitytemplate].pc_entityblueprint",
+      "properties": {
+        "m_mTransform": {
+          "type": "SMatrix43",
+          "value": {
+            "rotation": { "x": 0, "y": 0, "z": 90 },
+            "position": {
+              "x": -48.46146011352539,
+              "y": 24.205949783325195,
+              "z": 54.050838470458984
+            }
+          }
+        },
+        "m_bDefaultHeroSpawn": { "type": "bool", "value": true },
+        "m_eidParent": {
+          "type": "SEntityTemplateReference",
+          "value": "fffffffffffffffe",
+          "postInit": true
+        }
+      },
+      "factory": "[assembly:/_pro/design/levelflow.template?/herospawn.entitytemplate].pc_entitytype",
+      "events": { "OnSpawn": { "Activate": [] } }
+    },
+    "feed69d4c8773244": {
+      "parent": "abcdd4bc4082f9c3",
+      "name": "Airplane",
+      "factory": "[assembly:/sonsofprovidence/airplane/airplane.entitytemplate].pc_entitytype",
+      "blueprint": "[assembly:/sonsofprovidence/airplane/airplane.entitytemplate].pc_entityblueprint",
+      "properties": {
+        "m_mTransform": {
+          "type": "SMatrix43",
+          "value": {
+            "rotation": { "x": 0, "y": 0, "z": 180 },
+            "position": {
+              "x": -50.46146011352539,
+              "y": 27.205949783325195,
+              "z": 54.050838470458984
+            }
+          }
+        },
+        "m_eRoomBehaviour": {
+          "type": "ZSpatialEntity.ERoomBehaviour",
+          "value": "ROOM_DYNAMIC"
+        },
+        "m_bVisible": { "type": "bool", "value": true },
+        "DefaultLightsOff": { "type": "bool", "value": false },
+        "m_bRemovePhysics": { "type": "bool", "value": true },
+        "m_eidParent": {
+          "type": "SEntityTemplateReference",
+          "value": {
+            "ref": "630f9164460de833",
+            "externalScene": "[assembly:/_pro/scenes/missions/golden/mission_gecko/scenario_gecko.brick].pc_entitytype"
+          }
+        }
+      }
+    },
+    "feed78dbc8f35c7b": {
+      "parent": "abcd56b67c5c3bc1",
+      "name": "Exit_Plane_Door",
+      "factory": "[assembly:/_pro/design/levelflow.template?/exit_pushbutton.entitytemplate].pc_entitytype",
+      "blueprint": "[assembly:/_pro/design/levelflow.template?/exit_pushbutton.entitytemplate].pc_entityblueprint",
+      "properties": {
+        "m_mTransform": {
+          "type": "SMatrix43",
+          "value": {
+            "rotation": { "x": 0, "y": 0, "z": 90 },
+            "position": {
+              "x": -50.46146011352539,
+              "y": 24.205949783325195,
+              "z": 54.050838470458984
+            }
+          }
+        },
+        "m_sId": {
+          "type": "ZGuid",
+          "value": "07a71270-12ce-43a6-bd89-ff46cd196c6b"
+        },
+        "Manual_Exit_Trigger_Needed": { "type": "bool", "value": true },
+        "name_metricvalue": {
+          "type": "ZString",
+          "value": "Exit_Gecko_ExitName"
+        },
+        "m_eidParent": {
+          "type": "SEntityTemplateReference",
+          "value": "fffffffffffffffe",
+          "postInit": true
+        }
+      },
+      "events": { "Exit": { "StartExitSequence": [] } }
+    }
+  },
+  "propertyOverrides": [
+    {
+      "entities": [
+        {
+          "ref": "d82ece8104b77433",
+          "externalScene": "[assembly:/_pro/scenes/missions/golden/mission_gecko/scenario_gecko.brick].pc_entitytype"
+        }
+      ],
+      "properties": {
+        "m_bDefaultHeroSpawn": { "type": "bool", "value": false }
+      }
+    }
+  ],
+  "overrideDeletes": [
+    {
+      "ref": "14db47a9e4bd3240",
+      "externalScene": "[assembly:/_pro/scenes/missions/golden/mission_gecko/scenario_gecko.brick].pc_entitytype"
+    },
+    {
+      "ref": "369c90799da8655c",
+      "externalScene": "[assembly:/_pro/scenes/missions/golden/mission_gecko/scenario_gecko.brick].pc_entitytype"
+    },
+    {
+      "ref": "70f840eb756f39fe",
+      "externalScene": "[assembly:/_pro/scenes/missions/golden/mission_gecko/scenario_gecko.brick].pc_entitytype"
+    },
+    {
+      "ref": "f64c3fbe31ffb734",
+      "externalScene": "[assembly:/_pro/scenes/missions/golden/mission_gecko/scenario_gecko.brick].pc_entitytype"
+    }
+  ],
+  "pinConnectionOverrides": [],
+  "pinConnectionOverrideDeletes": [],
+  "externalScenes": [
+    "[assembly:/_pro/scenes/missions/golden/mission_gecko/scenario_gecko.brick].pc_entitytype"
+  ],
+  "subType": "scene",
+  "quickEntityVersion": 3.1,
+  "extraFactoryDependencies": [],
+  "extraBlueprintDependencies": [],
+  "comments": []
+}

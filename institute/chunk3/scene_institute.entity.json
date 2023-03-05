@@ -1120,7 +1120,7 @@
     },
     "feedb26935f2dc98": {
       "parent": "feed4505c670f8a3",
-      "name": "ItemSpawner17 Combat Shotgun",
+      "name": "ItemSpawner17 Sawed off Shotgun Shotgun",
       "factory": "[modules:/zitemspawner.class].pc_entitytype",
       "blueprint": "[modules:/zitemspawner.class].pc_entityblueprint",
       "properties": {
@@ -1151,7 +1151,7 @@
       },
       "events": {
         "Item": { "SetItem": ["feedeff2d54ef681"] },
-        "ItemReady": { "PickupIntoPocket": ["feedeff2d54ef681"] }
+        "ItemReady": { "PickupIntoPocket": ["feedfb1e9141f4da"] }
       }
     },
     "feeda1a45338526d": {
@@ -1536,7 +1536,7 @@
       },
       "events": {
         "Item": { "SetItem": ["feeda5a2807eeeb5"] },
-        "ItemReady": { "PickupIntoPocket": ["feeda5a2807eeeb5"] }
+        "ItemReady": { "PickupIntoPocket": ["feedb19cc09394da"] }
       }
     },
     "feed6381d2dde3dc": {
@@ -1572,7 +1572,7 @@
       },
       "events": {
         "Item": { "SetItem": ["feed42c36242b86c"] },
-        "ItemReady": { "PickupIntoPocket": ["feed42c36242b86c"] }
+        "ItemReady": { "PickupIntoPocket": ["feeda1a45338526d"] }
       }
     },
     "feed7d93f7f88cd3": {
@@ -1596,6 +1596,34 @@
       "factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entitytype",
       "blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entityblueprint",
       "properties": { "m_bValue": { "type": "bool", "value": true } }
+    },
+    "feedb99916d01de1": {
+      "parent": "abcd0b045d13d43f",
+      "name": "Airplane_747_A",
+      "factory": "[assembly:/_pro/vehicles/templates/vehicles_aircrafts_a.template?/airplane_747_a.entitytemplate].pc_entitytype",
+      "blueprint": "[assembly:/_pro/vehicles/templates/vehicles_aircrafts_a.template?/airplane_747_a.entitytemplate].pc_entityblueprint",
+      "properties": {
+        "m_mTransform": {
+          "type": "SMatrix43",
+          "value": {
+            "rotation": { "x": 0, "y": 0, "z": -102.49996530521706 },
+            "position": { "x": 3000, "y": 0, "z": 640 }
+          }
+        },
+        "m_eRoomBehaviour": {
+          "type": "ZSpatialEntity.ERoomBehaviour",
+          "value": "ROOM_STATIC_OUTSIDE_CLIENT"
+        },
+        "m_bVisible": { "type": "bool", "value": false },
+        "m_bRemovePhysics": { "type": "bool", "value": true },
+        "m_eidParent": {
+          "type": "SEntityTemplateReference",
+          "value": {
+            "ref": "aff994cc4a72c41f",
+            "externalScene": "[assembly:/_pro/scenes/missions/ancestral/scenario_bulldog.brick].pc_entitytype"
+          }
+        }
+      }
     }
   },
   "propertyOverrides": [

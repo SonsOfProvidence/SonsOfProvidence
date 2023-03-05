@@ -1317,8 +1317,8 @@
     "feed196f8917128d": {
       "parent": "abcd85cba5ab5afa",
       "name": "Magpie_Luxury_Helicopter_A_01",
-      "factory": "[assembly:/_pro/vehicles/templates/vehicles_aircrafts_a.template?/magpie_luxury_helicopter_a.entitytemplate].pc_entitytype",
-      "blueprint": "[assembly:/_pro/vehicles/templates/vehicles_aircrafts_a.template?/magpie_luxury_helicopter_a.entitytemplate].pc_entityblueprint",
+      "factory": "[assembly:/sonsofprovidence/airplane/airplane.entitytemplate].pc_entitytype",
+      "blueprint": "[assembly:/sonsofprovidence/airplane/airplane.entitytemplate].pc_entityblueprint",
       "properties": {
         "m_mTransform": {
           "type": "SMatrix43",
