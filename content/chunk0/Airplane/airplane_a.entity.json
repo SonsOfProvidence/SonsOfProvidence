@@ -39,7 +39,7 @@
           "type": "SMatrix43",
           "value": {
             "rotation": { "x": 90, "y": 0, "z": 90 },
-            "position": { "x": 0, "y": 4, "z": 3 }
+            "position": { "x": 0, "y": -4, "z": 3 }
           }
         },
         "m_eLightType": {
@@ -195,7 +195,7 @@
           "type": "SMatrix43",
           "value": {
             "rotation": { "x": 90, "y": 0, "z": 90 },
-            "position": { "x": 0, "y": 3, "z": 3 }
+            "position": { "x": 0, "y": -2, "z": 3 }
           }
         },
         "m_eLightType": {
