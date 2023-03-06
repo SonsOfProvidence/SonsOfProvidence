@@ -39,12 +39,18 @@
     {
       "runtimeID": "00C7FD7BF123ACB4",
       "comment": "Helicopter from S'gail",
-      "toChunk": 0
+      "toChunk": 0,
+      "portFromChunk1": true
+    },
+    {
+      "runtimeID": "00556FDAF4051EAF",
+      "comment": "Helicopter Hull",
+      "toChunk": 0,
+      "portFromChunk1": true
     },
     {
       "runtimeID": "009B5962B1FCAA8C",
-      "comment": "Lucas Grey's head mesh",
-      "toChunk": 0
+      "comment": "Lucas Grey's head mesh"
     },
     {
       "runtimeID": "0019481567B9D3B4",
@@ -53,8 +59,7 @@
     },
     {
       "runtimeID": "008ABB81A585E529",
-      "comment": "747 Airplane",
-      "toChunk": 0
+      "comment": "747 Airplane"
     }
   ],
   "packagedefinition": [
@@ -82,6 +87,11 @@
       "type": "entity",
       "partition": "coastaltown",
       "path": "[assembly:/sonsofprovidence/scene_funeral.entity].entitytemplate"
+    },
+    {
+      "type": "entity",
+      "partition": "super",
+      "path": "[assembly:/sonsofprovidence/scene_airplane.entity].entitytemplate"
     },
     {
       "type": "entity",
