@@ -8,6 +8,14 @@
     "ioiString": "00A670A2217EF19B"
   },
   {
+    "hash": "[assembly:/sonsofprovidence/funeral/funeral_outfits.brick].pc_entitytype",
+    "ioiString": "00562C638AE2F297"
+  },
+  {
+    "hash": "[assembly:/sonsofprovidence/funeral/funeral_outfits.brick].pc_entityblueprint",
+    "ioiString": "0000803C387ADE8F"
+  },
+  {
     "hash": "[assembly:/sonsofprovidence/scene_airplane.entity].pc_entitytemplate",
     "ioiString": "002438330BC4BDCD"
   },
@@ -16,12 +24,20 @@
     "ioiString": "00656D5CC4DC5B67"
   },
   {
-    "hash": "[assembly:/sonsofprovidence/funeral/funeral_outfits.brick].pc_entitytype",
-    "ioiString": "00562C638AE2F297"
+    "hash": "[assembly:/sonsofprovidence/scene_moscow.entity].pc_entitytemplate",
+    "ioiString": "002B265B3512B2F9"
   },
   {
-    "hash": "[assembly:/sonsofprovidence/funeral/funeral_outfits.brick].pc_entityblueprint",
-    "ioiString": "0000803C387ADE8F"
+    "hash": "[assembly:/sonsofprovidence/scene_moscow.entity].pc_entityblueprint",
+    "ioiString": "00D1D0C87F2EB725"
+  },
+  {
+    "hash": "[assembly:/sonsofprovidence/scene_carpark.entity].pc_entitytemplate",
+    "ioiString": "003C58407FCD8213"
+  },
+  {
+    "hash": "[assembly:/sonsofprovidence/scene_carpark.entity].pc_entityblueprint",
+    "ioiString": "00210973F4D89B00"
   },
   {
     "hash": "[assembly:/sonsofprovidence/scene_etherhq.entity].pc_entitytemplate",

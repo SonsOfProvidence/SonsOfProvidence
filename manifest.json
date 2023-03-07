@@ -10,21 +10,35 @@
   "options": [
     {
       "name": "Institute",
-      "tooltip": "Some additional content to use",
+      "tooltip": "Mission 1: Assault the Institute for Human Betterment",
       "type": "checkbox",
       "enabledByDefault": true,
       "contentFolders": ["mission_institute"]
     },
     {
       "name": "Airplane",
-      "tooltip": "Some additional content to use",
+      "tooltip": "Mission 2: Take out Eugene Cobb",
       "type": "checkbox",
       "enabledByDefault": true,
       "contentFolders": ["mission_airplane"]
     },
     {
+      "name": "Moscow",
+      "tooltip": "Mission 3: Frame the FSB section chief",
+      "type": "checkbox",
+      "enabledByDefault": true,
+      "contentFolders": ["mission_moscow"]
+    },
+    {
+      "name": "Carpark",
+      "tooltip": "Mission 4: Get the second key",
+      "type": "checkbox",
+      "enabledByDefault": true,
+      "contentFolders": ["mission_carpark"]
+    },
+    {
       "name": "Funeral",
-      "tooltip": "Some additional content to use",
+      "tooltip": "Mission 6: The Thomas Cross Robbery",
       "type": "checkbox",
       "enabledByDefault": true,
       "contentFolders": ["mission_funeral"]
