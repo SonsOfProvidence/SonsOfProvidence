@@ -531,7 +531,7 @@
             "rotation": { "x": 0, "y": 0, "z": -90 },
             "position": {
               "x": -49.46146011352539,
-              "y": 20.005949783325196,
+              "y": 22.405949783325195,
               "z": 53.8
             }
           }
@@ -560,8 +560,8 @@
           "value": {
             "rotation": { "x": 0, "y": 0, "z": 90 },
             "position": {
-              "x": -48.46146011352539,
-              "y": 22.205949783325195,
+              "x": -47.47146011352539,
+              "y": 28.025949783325196,
               "z": 54.050838470458984
             }
           }
@@ -2646,6 +2646,143 @@
           "type": "SEntityTemplateReference",
           "value": "fffffffffffffffe"
         }
+      }
+    },
+    "feed08c981747133": {
+      "parent": "abcde92f2c09c134",
+      "name": "CHAR_Golden_Unique_Pilot_M_PRO176285",
+      "factory": "[assembly:/templates/gameplay/ai2/actors.template?/npcactor.entitytemplate].pc_entitytype",
+      "blueprint": "[assembly:/templates/gameplay/ai2/actors.template?/npcactor.entitytemplate].pc_entityblueprint",
+      "properties": {
+        "m_mTransform": {
+          "type": "SMatrix43",
+          "value": {
+            "rotation": { "x": 0, "y": 0, "z": 90 },
+            "position": {
+              "x": -47.47146011352539,
+              "y": 29.025949783325196,
+              "z": 54.050838470458984
+            }
+          }
+        },
+        "RepositoryId": {
+          "type": "ZGuid",
+          "value": "1e0f5eed-8cfd-4b85-9593-38df4c7ce490"
+        },
+        "m_OutfitRepositoryID": {
+          "type": "ZGuid",
+          "value": "ea5b1cea-c305-4f60-9512-78b2e6cd5030"
+        },
+        "m_nOutfitVariation": { "type": "int32", "value": 0 },
+        "m_sActorName": { "type": "ZString", "value": "Tommy Marevick" },
+        "m_eRequiredVoiceVariation": {
+          "type": "EActorVoiceVariation",
+          "value": "eAVV_CIVMALECH01"
+        },
+        "m_aEnforcedOutfits": {
+          "type": "TArray<SEntityTemplateReference>",
+          "value": [],
+          "postInit": true
+        },
+        "m_eidParent": {
+          "type": "SEntityTemplateReference",
+          "value": "fffffffffffffffe",
+          "postInit": true
+        }
+      },
+      "subsets": {
+        "AudioEmitters": ["fffffffffffffffe"],
+        "Replicable": ["fffffffffffffffe"]
+      }
+    },
+    "feed2259c85bd1d0": {
+      "parent": "abcde92f2c09c134",
+      "name": "CHAR_Golden_Unique_Pilot_M_PRO176285",
+      "factory": "[assembly:/templates/gameplay/ai2/actors.template?/npcactor.entitytemplate].pc_entitytype",
+      "blueprint": "[assembly:/templates/gameplay/ai2/actors.template?/npcactor.entitytemplate].pc_entityblueprint",
+      "properties": {
+        "m_mTransform": {
+          "type": "SMatrix43",
+          "value": {
+            "rotation": { "x": 0, "y": 0, "z": 90 },
+            "position": {
+              "x": -49.47146011352539,
+              "y": 29.025949783325196,
+              "z": 54.050838470458984
+            }
+          }
+        },
+        "RepositoryId": {
+          "type": "ZGuid",
+          "value": "1e0f5eed-8cfd-4b85-9593-38df4c7ce490"
+        },
+        "m_OutfitRepositoryID": {
+          "type": "ZGuid",
+          "value": "ea5b1cea-c305-4f60-9512-78b2e6cd5030"
+        },
+        "m_nOutfitVariation": { "type": "int32", "value": 0 },
+        "m_sActorName": { "type": "ZString", "value": "Tommy Marevick" },
+        "m_eRequiredVoiceVariation": {
+          "type": "EActorVoiceVariation",
+          "value": "eAVV_CIVMALECH01"
+        },
+        "m_aEnforcedOutfits": {
+          "type": "TArray<SEntityTemplateReference>",
+          "value": [],
+          "postInit": true
+        },
+        "m_eidParent": {
+          "type": "SEntityTemplateReference",
+          "value": "fffffffffffffffe",
+          "postInit": true
+        }
+      },
+      "subsets": {
+        "AudioEmitters": ["fffffffffffffffe"],
+        "Replicable": ["fffffffffffffffe"]
+      }
+    },
+    "feed12cbcd5dcc93": {
+      "parent": "abcde92f2c09c134",
+      "name": "Marcus Stuyvesant",
+      "factory": "[assembly:/templates/gameplay/ai2/actors.template?/npcactor.entitytemplate].pc_entitytype",
+      "blueprint": "[assembly:/templates/gameplay/ai2/actors.template?/npcactor.entitytemplate].pc_entityblueprint",
+      "properties": {
+        "m_mTransform": {
+          "type": "SMatrix43",
+          "value": {
+            "rotation": { "x": 0, "y": 0, "z": 90 },
+            "position": {
+              "x": -47.47146011352539,
+              "y": 25.025949783325196,
+              "z": 54.050838470458984
+            }
+          }
+        },
+        "RepositoryId": {
+          "type": "ZGuid",
+          "value": "9571d196-8d67-4d94-8dad-6e2d970d7a91"
+        },
+        "m_OutfitRepositoryID": {
+          "type": "ZGuid",
+          "value": "88f7ec38-c083-4de0-9004-c1e4f0e4fba0"
+        },
+        "m_nOutfitVariation": { "type": "int32", "value": 0 },
+        "m_sActorName": { "type": "ZString", "value": "Marcus Stuyvesant" },
+        "m_nOutfitCharset": { "type": "int32", "value": 0 },
+        "m_eRequiredVoiceVariation": {
+          "type": "EActorVoiceVariation",
+          "value": "eAVV_STUYVESANT"
+        },
+        "m_eidParent": {
+          "type": "SEntityTemplateReference",
+          "value": "fffffffffffffffe",
+          "postInit": true
+        }
+      },
+      "subsets": {
+        "AudioEmitters": ["fffffffffffffffe"],
+        "Replicable": ["fffffffffffffffe"]
       }
     }
   },
