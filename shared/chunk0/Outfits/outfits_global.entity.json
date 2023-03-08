@@ -1,0 +1,145 @@
+{
+  "tempHash": "0027FA16D98A5FC5",
+  "tbluHash": "000C0C6A819F185A",
+  "rootEntity": "fffffffffffffffe",
+  "entities": {
+    "fffffffffffffffe": {
+      "parent": null,
+      "name": "Scene",
+      "blueprint": "[modules:/zspatialentity.class].pc_entityblueprint",
+      "factory": "[modules:/zspatialentity.class].pc_entitytype"
+    },
+    "feed23534575f57b": {
+      "parent": {
+        "ref": "ba8ea9278df2079",
+        "externalScene": "[assembly:/_pro/scenes/bricks/globaldata.brick].pc_entitytype"
+      },
+      "name": "CHAR_Gecko_Hero_SkydivingOutfit_M_ PRO179078",
+      "factory": "[modules:/zglobaloutfitkit.class].pc_entitytype",
+      "blueprint": "[modules:/zglobaloutfitkit.class].pc_entityblueprint",
+      "properties": {
+        "m_eActorType": { "type": "EActorType", "value": "eAT_Hitman" },
+        "m_eSoundFootwearType": {
+          "type": "EHM5SoundFootwearType",
+          "value": "EFWT_SNEAKERS"
+        },
+        "m_sId": {
+          "type": "ZGuid",
+          "value": "c4146f27-81a9-42ef-b3c7-87a9d60b4747"
+        },
+        "m_bCanCallForHelp": { "type": "bool", "value": true },
+        "m_sCommonName": {
+          "type": "ZString",
+          "value": "CHAR_Gecko_Hero_SkydivingOutfit_M_ PRO179078"
+        },
+        "m_sTitle": { "type": "ZString", "value": "Gecko Skydiving Suit" },
+        "m_eOutfitAICategory": {
+          "type": "EOutfitAICategory",
+          "value": "OAC_Fallback"
+        },
+        "m_rNameTextResource": {
+          "type": "ZRuntimeResourceID",
+          "value": {
+            "resource": "[assembly:/localization/hitman6/conversations/ui/pro/online/repository/outfits_hero_s3.sweetmenutext?/char_gecko_hero_skydivingoutfit_m_ pro179078_name_c4146f27-81a9-42ef-b3c7-87a9d60b87fe.sweetline].pc_sweetline",
+            "flag": "5F"
+          }
+        },
+        "m_rDescriptionTextResource": {
+          "type": "ZRuntimeResourceID",
+          "value": {
+            "resource": "[assembly:/localization/hitman6/conversations/ui/pro/online/repository/outfits_hero_s3.sweetmenutext?/char_gecko_hero_skydivingoutfit_m_ pro179078_description_c4146f27-81a9-42ef-b3c7-87a9d60b87fe.sweetline].pc_sweetline",
+            "flag": "5F"
+          }
+        },
+        "m_bHeroDisguiseAvailable": { "type": "bool", "value": true },
+        "m_bIsHitmanSuit": { "type": "bool", "value": true },
+        "m_bWeaponsAllowed": { "type": "bool", "value": false },
+        "m_aCharSets": {
+          "type": "TArray<SEntityTemplateReference>",
+          "value": ["feedf93470399480"],
+          "postInit": true
+        }
+      }
+    },
+    "feedf93470399480": {
+      "parent": "feed23534575f57b",
+      "name": "CHARSET_LucasGrey_SkydivingOutfit",
+      "blueprint": "00E269049830E7B9",
+      "factory": "0016FB99AD727C52"
+    },
+    "feed2854b857f697": {
+      "parent": "feed23534575f57b",
+      "name": "Keyword_Prof_Class_Default",
+      "blueprint": "00B0282A41C1CF2E",
+      "properties": {
+        "m_aHolders": {
+          "type": "TArray<SEntityTemplateReference>",
+          "value": ["feed23534575f57b"],
+          "postInit": true
+        }
+      },
+      "factory": "007A51A2AFEC0D1A"
+    },
+    "feed73d4c057c31f": {
+      "parent": "feed23534575f57b",
+      "name": "ItemKey_Hackl9R NPC",
+      "blueprint": "[modules:/zitemrepositorykeyentity.class].pc_entityblueprint",
+      "properties": {
+        "m_RepositoryId": {
+          "type": "ZGuid",
+          "value": "1cae7d71-55c8-401a-9dfb-cd0909c4f6ee"
+        }
+      },
+      "factory": "[modules:/zitemrepositorykeyentity.class].pc_entitytype"
+    },
+    "feed88d1e904be79": {
+      "parent": "feed23534575f57b",
+      "name": "Keyword_Prof_Class_Guard_Heavy",
+      "blueprint": "003A7D4D8810414B",
+      "properties": {
+        "m_aHolders": {
+          "type": "TArray<SEntityTemplateReference>",
+          "value": []
+        }
+      },
+      "factory": "00364659808ED13C"
+    },
+    "feed9398aee4060e": {
+      "parent": "feed23534575f57b",
+      "name": "ItemKey_Shotgun02 NPC",
+      "blueprint": "[modules:/zitemrepositorykeyentity.class].pc_entityblueprint",
+      "properties": {
+        "m_RepositoryId": {
+          "type": "ZGuid",
+          "value": "7f31d897-a62f-448c-be0d-79d565e2faa7"
+        }
+      },
+      "factory": "[modules:/zitemrepositorykeyentity.class].pc_entitytype"
+    },
+    "feed166f5a5bb82a": {
+      "parent": "feed23534575f57b",
+      "name": "KeywordEntity_FOLEY_OUTFIT_GUARD",
+      "blueprint": "[assembly:/_pro/design/gamecore/keywords/keywordsound.template?/keywordentity_foley_outfit_guard.entitytemplate].pc_entityblueprint",
+      "properties": {
+        "m_aHolders": {
+          "type": "TArray<SEntityTemplateReference>",
+          "value": [],
+          "postInit": true
+        }
+      },
+      "factory": "[assembly:/_pro/design/gamecore/keywords/keywordsound.template?/keywordentity_foley_outfit_guard.entitytemplate].pc_entitytype"
+    }
+  },
+  "propertyOverrides": [],
+  "overrideDeletes": [],
+  "pinConnectionOverrides": [],
+  "pinConnectionOverrideDeletes": [],
+  "externalScenes": [
+    "[assembly:/_pro/scenes/bricks/globaldata.brick].pc_entitytype"
+  ],
+  "subType": "brick",
+  "quickEntityVersion": 3.1,
+  "extraFactoryDependencies": [],
+  "extraBlueprintDependencies": [],
+  "comments": []
+}

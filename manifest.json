@@ -109,6 +109,11 @@
     },
     {
       "type": "entity",
+      "partition": "super",
+      "path": "[assembly:/sonsofprovidence/shared/global_outfits.brick].entitytype"
+    },
+    {
+      "type": "entity",
       "partition": "coastaltown",
       "path": "[assembly:/sonsofprovidence/outfits_funeral.entity].entitytype"
     }

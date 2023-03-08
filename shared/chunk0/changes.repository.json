@@ -23,6 +23,18 @@
     "Name_LOC": "ui_starting_location_sapienza_apartment_default_name",
     "Description": ""
   },
+  "c4146f27-81a9-42ef-b3c7-87a9d60b4747": {
+    "Category": "",
+    "CommonName": "CHAR_Gecko_Hero_SkydivingOutfit_M_ PRO179078",
+    "Description": "char_gecko_hero_skydivingoutfit_m_ pro179078_description_c4146f27-81a9-42ef-b3c7-87a9d60b4747",
+    "HeroDisguiseAvailable": true,
+    "ID_": "c4146f27-81a9-42ef-b3c7-87a9d60b4747",
+    "Image": "images/unlockables_override/47_Outfits_Gecko_Skydiving.jpg",
+    "ImageTransparent": "",
+    "IsHitmanSuit": true,
+    "Name": "char_gecko_hero_skydivingoutfit_m_ pro179078_name_c4146f27-81a9-42ef-b3c7-87a9d60b4747",
+    "TokenID": ""
+  },
   "c2f6c0f9-5ddc-4379-86a9-07216adf5569": {
     "Name": "Eugene Cobb"
   },

@@ -24,6 +24,14 @@
     "ioiString": "00656D5CC4DC5B67"
   },
   {
+    "hash": "[assembly:/sonsofprovidence/shared/global_outfits.brick].pc_entitytype",
+    "ioiString": "0027FA16D98A5FC5"
+  },
+  {
+    "hash": "[assembly:/sonsofprovidence/shared/global_outfits.brick].pc_entityblueprint",
+    "ioiString": "000C0C6A819F185A"
+  },
+  {
     "hash": "[assembly:/sonsofprovidence/scene_moscow.entity].pc_entitytemplate",
     "ioiString": "002B265B3512B2F9"
   },
