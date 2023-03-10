@@ -411,12 +411,6 @@
       "blueprint": "[modules:/zentity.class].pc_entityblueprint",
       "factory": "[modules:/zentity.class].pc_entitytype"
     },
-    "abcdf149c65432b4": {
-      "parent": "abcd2f7d17f552be",
-      "name": "Lights",
-      "blueprint": "[modules:/zentity.class].pc_entityblueprint",
-      "factory": "[modules:/zentity.class].pc_entitytype"
-    },
     "abcd655cfc023829": {
       "parent": "abcd2f7d17f552be",
       "name": "Geometry",
@@ -444,12 +438,6 @@
     "abcde0766c7b4d3d": {
       "parent": "abcd2f7d17f552be",
       "name": "Decals",
-      "blueprint": "[modules:/zentity.class].pc_entityblueprint",
-      "factory": "[modules:/zentity.class].pc_entitytype"
-    },
-    "abcd182c8eab679f": {
-      "parent": "abcdf149c65432b4",
-      "name": "DarkLights",
       "blueprint": "[modules:/zentity.class].pc_entityblueprint",
       "factory": "[modules:/zentity.class].pc_entitytype"
     },
@@ -531,10 +519,9 @@
             "rotation": { "x": 0, "y": 0, "z": -90 },
             "position": {
               "x": -49.46146011352539,
-              "y": 22.105949783325194,
+              "y": 20.505949783325192,
               "z": 53.8
-            },
-            "scale": { "x": 1, "y": 10, "z": 1 }
+            }
           }
         },
         "m_bVisible": { "type": "bool", "value": false },
@@ -586,7 +573,7 @@
             "rotation": { "x": 0, "y": 0, "z": 179.78599976426275 },
             "position": {
               "x": -49.56146011352539,
-              "y": 26.505949783325196,
+              "y": 24.505949783325196,
               "z": 54.050838470458984
             }
           }
@@ -2533,7 +2520,7 @@
             "rotation": { "x": 0, "y": 0, "z": 180 },
             "position": {
               "x": -48.446011352539,
-              "y": 34.205949783325195,
+              "y": 32.205949783325195,
               "z": 54.050838470458984
             }
           }
@@ -2558,7 +2545,7 @@
             "rotation": { "x": 0, "y": 0, "z": 180 },
             "position": {
               "x": -48.46146011352539,
-              "y": 25.505949783325196,
+              "y": 23.505949783325196,
               "z": 52.550838470458984
             }
           }
@@ -2657,7 +2644,7 @@
           "value": {
             "rotation": { "x": 0, "y": 0, "z": 90 },
             "position": {
-              "x": -47.97146011352539,
+              "x": -47.07146011352539,
               "y": 30.025949783325196,
               "z": 53.9
             }
@@ -2704,7 +2691,7 @@
           "value": {
             "rotation": { "x": 0, "y": 0, "z": 90 },
             "position": {
-              "x": -48.27146011352539,
+              "x": -48.67146011352539,
               "y": 30.025949783325196,
               "z": 53.9
             }
@@ -2750,11 +2737,7 @@
           "type": "SMatrix43",
           "value": {
             "rotation": { "x": 0, "y": 0, "z": 90 },
-            "position": {
-              "x": -47.47146011352539,
-              "y": 25.025949783325196,
-              "z": 53.9
-            }
+            "position": { "x": -47.634243, "y": 21.203526, "z": 55.004517 }
           }
         },
         "RepositoryId": {
@@ -3371,33 +3354,38 @@
         }
       }
     },
-    "feedb669c4c20bdb": {
-      "parent": "abcd2f7d17f552be",
-      "name": "SetPiece_Italy_Unique_Bio_Laptop_100cm",
-      "factory": "[assembly:/_pro/design/setpieces/unique/setpiece_italy_unique.template?/setpiece_italy_unique_bio_laptop_100cm.entitytemplate].pc_entitytype",
-      "blueprint": "[assembly:/_pro/design/setpieces/unique/setpiece_italy_unique.template?/setpiece_italy_unique_bio_laptop_100cm.entitytemplate].pc_entityblueprint",
+    "feed5b22e83c48ee": {
+      "parent": "feed297fccc4b752",
+      "name": "Autopilot",
+      "factory": "[modules:/zentity.class].pc_entitytype",
+      "blueprint": "[modules:/zentity.class].pc_entityblueprint"
+    },
+    "feedf18425eb2c6f": {
+      "parent": "feed5b22e83c48ee",
+      "name": "SetPiece_Italy_Unique_DoorBell",
+      "factory": "[assembly:/_pro/design/setpieces/unique/setpiece_italy_unique.template?/setpiece_italy_unique_doorbell.entitytemplate].pc_entitytype",
+      "blueprint": "[assembly:/_pro/design/setpieces/unique/setpiece_italy_unique.template?/setpiece_italy_unique_doorbell.entitytemplate].pc_entityblueprint",
       "properties": {
         "m_mTransform": {
           "type": "SMatrix43",
           "value": {
-            "rotation": { "x": 0, "y": 0, "z": 90 },
-            "position": {
-              "x": -47.97146011352539,
-              "y": 26.025949783325196,
-              "z": 53.9
-            }
+            "rotation": { "x": 0, "y": 0, "z": 0 },
+            "position": { "x": -48.596236, "y": 28.223224, "z": 53.825785 }
           }
         },
-        "m_eRoomBehaviour": {
-          "type": "ZSpatialEntity.ERoomBehaviour",
-          "value": "ROOM_DYNAMIC"
-        },
+        "SoundEnabled": { "type": "bool", "value": false },
+        "m_bUseOnlyOnce": { "type": "bool", "value": false },
+        "m_bIsOn": { "type": "bool", "value": false },
         "m_eidParent": {
           "type": "SEntityTemplateReference",
           "value": "fffffffffffffffe"
-        }
+        },
+        "m_bVisible": { "type": "bool", "value": false }
       },
-      "events": { "OnTurnedOn": { "DestroyVirus": [] } },
+      "events": {
+        "Completed": { "SetTrue": [] },
+        "OnTurnOn": { "DoorBell_Ring": [] }
+      },
       "subsets": { "AudioEmitters": ["fffffffffffffffe"] }
     }
   },

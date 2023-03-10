@@ -108,6 +108,14 @@
     "ioiString": "[assembly:/sonsofprovidence/lucasgrey_head_bald_diffuse.tex](ascolormap).pc_tex"
   },
   {
+    "hash": "[assembly:/sonsofprovidence/airplane/setpiece_airplane_unique_computer_100cm.entitytemplate].pc_entitytype",
+    "ioiString": "00645A888F6E500E"
+  },
+  {
+    "hash": "[assembly:/sonsofprovidence/airplane/setpiece_airplane_unique_computer_100cm.entitytemplate].pc_entityblueprint",
+    "ioiString": "00C33CBC44349062"
+  },
+  {
     "hash": "",
     "ioiString": ""
   }
