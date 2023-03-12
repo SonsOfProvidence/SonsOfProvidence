@@ -1,6 +1,6 @@
 {
-  "tempHash": "0007D9A3A121CFBD",
-  "tbluHash": "00BCD3F0CCFDA5BF",
+  "tempHash": "00E4CF1507F85C55",
+  "tbluHash": "00DB640FA765983B",
   "rootEntity": "feed694fb26160e3",
   "entities": {
     "ff2e13419e29d0b2": {
@@ -11,7 +11,7 @@
       "properties": {
         "m_Outfit": {
           "type": "ZRuntimeResourceID",
-          "value": "00AF51C4F87B4FE1"
+          "value": "0096715301DC3BFC"
         }
       }
     },
@@ -35,7 +35,7 @@
       "properties": {
         "m_Outfit": {
           "type": "ZRuntimeResourceID",
-          "value": "00A1791A4083CF77"
+          "value": "00084D25FCC6D494"
         }
       }
     },
@@ -65,7 +65,7 @@
     },
     "feed694fb26160e3": {
       "parent": null,
-      "name": "CHARSET_ThomasCross",
+      "name": "CHARSET_Eugene_Cobb",
       "blueprint": "[modules:/zoutfitvariationcollection.class].pc_entityblueprint",
       "properties": {
         "m_aCharacters": {
@@ -79,14 +79,14 @@
     "feeda09f936a70d4": {
       "parent": "6051217c5a972faf",
       "name": "0",
+      "factory": "[modules:/zoutfitvariation.class].pc_entitytype",
       "blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint",
       "properties": {
         "m_Outfit": {
           "type": "ZRuntimeResourceID",
-          "value": "00AB67D1D5F31823"
+          "value": "006E65A4B1D372A9"
         }
-      },
-      "factory": "[modules:/zoutfitvariation.class].pc_entitytype"
+      }
     }
   },
   "propertyOverrides": [],

@@ -24,6 +24,30 @@
     "ioiString": "00656D5CC4DC5B67"
   },
   {
+    "hash": "[assembly:/sonsofprovidence/airplane/outfits_airplane.brick].pc_entitytype",
+    "ioiString": "001A8ED7670AD41C"
+  },
+  {
+    "hash": "[assembly:/sonsofprovidence/airplane/outfits_airplane.brick].pc_entityblueprint",
+    "ioiString": "006B13AAF2FDF608"
+  },
+  {
+    "hash": "[assembly:/sonsofprovidence/airplane/charset_eugene_cobb.entitytemplate].pc_entitytype",
+    "ioiString": "00E4CF1507F85C55"
+  },
+  {
+    "hash": "[assembly:/sonsofprovidence/airplane/charset_eugene_cobb.entitytemplate].pc_entityblueprint",
+    "ioiString": "00DB640FA765983B"
+  },
+  {
+    "hash": "[assembly:/sonsofprovidence/airplane/outfit_eugene_cobb_actor_v0.entitytemplate].pc_entitytype",
+    "ioiString": "006E65A4B1D372A9"
+  },
+  {
+    "hash": "[assembly:/sonsofprovidence/airplane/outfit_eugene_cobb_actor_v0.entitytemplate].pc_entityblueprint",
+    "ioiString": "00ADBF709711CE1D"
+  },
+  {
     "hash": "[assembly:/sonsofprovidence/shared/global_outfits.brick].pc_entitytype",
     "ioiString": "0027FA16D98A5FC5"
   },

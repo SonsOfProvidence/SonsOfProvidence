@@ -1,0 +1,122 @@
+{
+  "tempHash": "001A8ED7670AD41C",
+  "tbluHash": "006B13AAF2FDF608",
+  "rootEntity": "fffffffffffffffe",
+  "entities": {
+    "fffffffffffffffe": {
+      "parent": null,
+      "name": "Scene",
+      "blueprint": "[modules:/zspatialentity.class].pc_entityblueprint",
+      "factory": "[modules:/zspatialentity.class].pc_entitytype"
+    },
+    "feed1a2830b91bcf": {
+      "parent": "fffffffffffffffe",
+      "name": "Eugene Cobb",
+      "factory": "[modules:/zglobaloutfitkit.class].pc_entitytype",
+      "blueprint": "[modules:/zglobaloutfitkit.class].pc_entityblueprint",
+      "properties": {
+        "m_DamageMultipliers": {
+          "type": "SBodyPartDamageMultipliers",
+          "value": {
+            "m_fHeadDamageMultiplier": 3,
+            "m_fFaceDamageMultiplier": 3,
+            "m_fArmDamageMultiplier": 1,
+            "m_fLArmDamageScalar": 0,
+            "m_fRArmDamageScalar": 0,
+            "m_fHandDamageMultiplier": 0.5,
+            "m_fLHandDamageScalar": 0,
+            "m_fRHandDamageScalar": 0,
+            "m_fLegDamageMultiplier": 0.6000000238418579,
+            "m_fLLegDamageScalar": 0,
+            "m_fRLegDamageScalar": 0,
+            "m_fTorsoDamageMultiplier": 1,
+            "m_bApplyLeftRightScalars": false
+          }
+        },
+        "m_eActorType": { "type": "EActorType", "value": "eAT_Civilian" },
+        "m_eActorCCClass": {
+          "type": "EActorCCPreset",
+          "value": "ACCP_CivilianeMale"
+        },
+        "m_bHeroDisguiseAvailable": { "type": "bool", "value": false },
+        "m_eSoundFootwearType": {
+          "type": "EHM5SoundFootwearType",
+          "value": "EFWT_BAREFOOT"
+        },
+        "m_aCharSets": {
+          "type": "TArray<SEntityTemplateReference>",
+          "value": ["feed85b94d5d1f13"]
+        },
+        "m_sId": {
+          "type": "ZGuid",
+          "value": "d3bdbcfe-4747-4774-a642-17da478a4747"
+        },
+        "m_pParentOutfit": {
+          "type": "SEntityTemplateReference",
+          "value": {
+            "ref": "6736fcbbd3e73209",
+            "externalScene": "[assembly:/_pro/scenes/bricks/globaldata.brick].pc_entitytype"
+          }
+        },
+        "m_sCommonName": { "type": "ZString", "value": "Eugene Cobb" },
+        "m_sTitle": { "type": "ZString", "value": "Eugene Cobb" },
+        "m_eOutfitAICategory": {
+          "type": "EOutfitAICategory",
+          "value": "OAC_Fallback"
+        },
+        "m_rNameTextResource": {
+          "type": "ZRuntimeResourceID",
+          "value": "[assembly:/localization/hitman6/conversations/ui/pro/online/repository/outfits_npcs_sapienza.sweetmenutext?/outfits_sapienza_worker_nakedguy_m_hpa1370_name_d3bdbcfe-8e46-4774-a642-17daa98a7f69.sweetline].pc_sweetline"
+        },
+        "m_rDescriptionTextResource": {
+          "type": "ZRuntimeResourceID",
+          "value": "[assembly:/localization/hitman6/conversations/ui/pro/online/repository/outfits_npcs_sapienza.sweetmenutext?/outfits_sapienza_worker_nakedguy_m_hpa1370_description_d3bdbcfe-8e46-4774-a642-17daa98a7f69.sweetline].pc_sweetline"
+        }
+      }
+    },
+    "feed7672e4d1ccc5": {
+      "parent": "feed1a2830b91bcf",
+      "name": "Keyword_Prof_Class_Default",
+      "blueprint": "00B0282A41C1CF2E",
+      "properties": {
+        "m_aHolders": {
+          "type": "TArray<SEntityTemplateReference>",
+          "value": ["feed1a2830b91bcf"],
+          "postInit": true
+        }
+      },
+      "factory": "007A51A2AFEC0D1A"
+    },
+    "feed85b94d5d1f13": {
+      "parent": "feed1a2830b91bcf",
+      "name": "CHARSET_Eugene_Cobb",
+      "blueprint": "00DB640FA765983B",
+      "factory": "00E4CF1507F85C55"
+    },
+    "feed0aa14c969bae": {
+      "parent": "feed1a2830b91bcf",
+      "name": "KeywordEntity_FOLEY_OUTFIT_NAKED",
+      "blueprint": "[assembly:/_pro/design/gamecore/keywords/keywordsound.template?/keywordentity_foley_outfit_naked.entitytemplate].pc_entityblueprint",
+      "properties": {
+        "m_rHolder": {
+          "type": "SEntityTemplateReference",
+          "value": "feed1a2830b91bcf",
+          "postInit": true
+        }
+      },
+      "factory": "[assembly:/_pro/design/gamecore/keywords/keywordsound.template?/keywordentity_foley_outfit_naked.entitytemplate].pc_entitytype"
+    }
+  },
+  "propertyOverrides": [],
+  "overrideDeletes": [],
+  "pinConnectionOverrides": [],
+  "pinConnectionOverrideDeletes": [],
+  "externalScenes": [
+    "[assembly:/_pro/scenes/bricks/globaldata.brick].pc_entitytype"
+  ],
+  "subType": "brick",
+  "quickEntityVersion": 3.1,
+  "extraFactoryDependencies": [],
+  "extraBlueprintDependencies": [],
+  "comments": []
+}

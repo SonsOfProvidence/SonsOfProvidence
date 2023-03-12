@@ -2727,45 +2727,6 @@
         "Replicable": ["fffffffffffffffe"]
       }
     },
-    "feed12cbcd5dcc93": {
-      "parent": "abcde92f2c09c134",
-      "name": "Marcus Stuyvesant",
-      "factory": "[assembly:/templates/gameplay/ai2/actors.template?/npcactor.entitytemplate].pc_entitytype",
-      "blueprint": "[assembly:/templates/gameplay/ai2/actors.template?/npcactor.entitytemplate].pc_entityblueprint",
-      "properties": {
-        "m_mTransform": {
-          "type": "SMatrix43",
-          "value": {
-            "rotation": { "x": 0, "y": 0, "z": 90 },
-            "position": { "x": -47.634243, "y": 21.203526, "z": 55.004517 }
-          }
-        },
-        "RepositoryId": {
-          "type": "ZGuid",
-          "value": "9571d196-8d67-4d94-8dad-6e2d970d7a91"
-        },
-        "m_OutfitRepositoryID": {
-          "type": "ZGuid",
-          "value": "88f7ec38-c083-4de0-9004-c1e4f0e4fba0"
-        },
-        "m_nOutfitVariation": { "type": "int32", "value": 0 },
-        "m_sActorName": { "type": "ZString", "value": "Marcus Stuyvesant" },
-        "m_nOutfitCharset": { "type": "int32", "value": 0 },
-        "m_eRequiredVoiceVariation": {
-          "type": "EActorVoiceVariation",
-          "value": "eAVV_STUYVESANT"
-        },
-        "m_eidParent": {
-          "type": "SEntityTemplateReference",
-          "value": "fffffffffffffffe",
-          "postInit": true
-        }
-      },
-      "subsets": {
-        "AudioEmitters": ["fffffffffffffffe"],
-        "Replicable": ["fffffffffffffffe"]
-      }
-    },
     "feed803110467dec": {
       "parent": "feed2259c85bd1d0",
       "name": "Act_MR_Sit_Sleeping",
@@ -2796,41 +2757,6 @@
         "m_pActor": {
           "type": "SEntityTemplateReference",
           "value": "feed2259c85bd1d0",
-          "postInit": true
-        }
-      },
-      "events": { "OnReached": { "In": [] } }
-    },
-    "feedf8ae9d50ccab": {
-      "parent": "feed12cbcd5dcc93",
-      "name": "Act_MR_Sit_Sleeping",
-      "factory": "[assembly:/_pro/design/actor/acts/mr.template?/act_mr_sit_sleeping.entitytemplate].pc_entitytype",
-      "blueprint": "[assembly:/_pro/design/actor/acts/mr.template?/act_mr_sit_sleeping.entitytemplate].pc_entityblueprint",
-      "properties": {
-        "m_mTransform": {
-          "type": "SMatrix43",
-          "value": {
-            "rotation": { "x": 0, "y": 0, "z": 67.36718632733813 },
-            "position": {
-              "x": -47.47146011352539,
-              "y": 25.025949783325196,
-              "z": 54.050838470458984
-            }
-          }
-        },
-        "m_ePerceptionSensitivity": {
-          "type": "EActorPerceptionSensitivity",
-          "value": "APS_AMBIENT_SLEEPING"
-        },
-        "m_fActTimeout": { "type": "float32", "value": -1 },
-        "m_eidParent": {
-          "type": "SEntityTemplateReference",
-          "value": "fffffffffffffffe",
-          "postInit": true
-        },
-        "m_pActor": {
-          "type": "SEntityTemplateReference",
-          "value": "feed12cbcd5dcc93",
           "postInit": true
         }
       },
@@ -3322,38 +3248,6 @@
         }
       }
     },
-    "feed56d5f35cdb89": {
-      "parent": "abcd414fbd3584fc",
-      "name": "CollisionBox01",
-      "factory": "[assembly:/templates/physics/collisionvolumes.template?/collisionbox.entitytemplate].pc_entitytype",
-      "blueprint": "[assembly:/templates/physics/collisionvolumes.template?/collisionbox.entitytemplate].pc_entityblueprint",
-      "properties": {
-        "m_mTransform": {
-          "type": "SMatrix43",
-          "value": {
-            "rotation": { "x": 0, "y": 0, "z": 59.47474006019521 },
-            "position": {
-              "x": -98.41069030761719,
-              "y": -70.30280303955078,
-              "z": 10.050600051879883
-            }
-          }
-        },
-        "m_vBoxSize": {
-          "type": "SVector3",
-          "value": {
-            "x": 1.7854700088500977,
-            "y": 0.7583320140838623,
-            "z": 2.071160078048706
-          }
-        },
-        "m_bCollideHitman": { "type": "bool", "value": true },
-        "m_eidParent": {
-          "type": "SEntityTemplateReference",
-          "value": "fffffffffffffffe"
-        }
-      }
-    },
     "feed5b22e83c48ee": {
       "parent": "feed297fccc4b752",
       "name": "Autopilot",
@@ -3387,6 +3281,116 @@
         "OnTurnOn": { "DoorBell_Ring": [] }
       },
       "subsets": { "AudioEmitters": ["fffffffffffffffe"] }
+    },
+    "feed4bd8b5f3e511": {
+      "parent": "abcd655cfc023829",
+      "name": "Collision",
+      "factory": "[modules:/zentity.class].pc_entitytype",
+      "blueprint": "[modules:/zentity.class].pc_entityblueprint"
+    },
+    "feed18fc97876133": {
+      "parent": "feed4bd8b5f3e511",
+      "name": "CollisionBox",
+      "factory": "[assembly:/templates/physics/collisionvolumes.template?/collisionbox.entitytemplate].pc_entitytype",
+      "blueprint": "[assembly:/templates/physics/collisionvolumes.template?/collisionbox.entitytemplate].pc_entityblueprint",
+      "properties": {
+        "m_mTransform": {
+          "type": "SMatrix43",
+          "value": {
+            "rotation": { "x": 0, "y": 0, "z": 0 },
+            "position": { "x": -57.149757, "y": 21.155304, "z": 50.94162 }
+          }
+        },
+        "m_bCollideHitman": { "type": "bool", "value": false },
+        "m_bCollideCamera": { "type": "bool", "value": true },
+        "m_vBoxSize": {
+          "type": "SVector3",
+          "value": {
+            "x": 0.277799606323242,
+            "y": 10.268871009349823,
+            "z": 15.675739765167236
+          }
+        }
+      }
+    },
+    "feed8bb2c70a21ef": {
+      "parent": "abcd655cfc023829",
+      "name": "AI Pathfinding",
+      "factory": "[modules:/zentity.class].pc_entitytype",
+      "blueprint": "[modules:/zentity.class].pc_entityblueprint"
+    },
+    "feed7df2a796f211": {
+      "parent": "feed8bb2c70a21ef",
+      "name": "PFObstacle 2",
+      "factory": "[modules:/zpfobstacleentity.class].pc_entitytype",
+      "blueprint": "[modules:/zpfobstacleentity.class].pc_entityblueprint",
+      "properties": {
+        "m_mTransform": {
+          "type": "SMatrix43",
+          "value": {
+            "rotation": { "x": 0, "y": 0, "z": 0 },
+            "position": { "x": -47.149757, "y": 21.155304, "z": 50.94162 }
+          }
+        },
+        "m_vGlobalSize": {
+          "type": "SVector3",
+          "value": {
+            "x": 0.277799606323242,
+            "y": 10.268871009349823,
+            "z": 15.675739765167236
+          }
+        },
+        "m_fPenaltyMultiplier": { "type": "float32", "value": 15 },
+        "m_bEnabled": { "type": "bool", "value": true },
+        "m_eidParent": {
+          "type": "SEntityTemplateReference",
+          "value": "feeda0dde246616a",
+          "postInit": true
+        }
+      }
+    },
+    "feed524921616dea": {
+      "parent": "abcde92f2c09c134",
+      "name": "Eugene Cobb",
+      "factory": "[assembly:/templates/gameplay/ai2/actors.template?/npcactor.entitytemplate].pc_entitytype",
+      "blueprint": "[assembly:/templates/gameplay/ai2/actors.template?/npcactor.entitytemplate].pc_entityblueprint",
+      "properties": {
+        "m_mTransform": {
+          "type": "SMatrix43",
+          "value": {
+            "rotation": { "x": 0, "y": 0, "z": 90 },
+            "position": { "x": -47.634243, "y": 21.203526, "z": 55.004517 }
+          }
+        },
+        "RepositoryId": {
+          "type": "ZGuid",
+          "value": "d3959196-6be0-43ea-b6e7-aafa70822046"
+        },
+        "m_OutfitRepositoryID": {
+          "type": "ZGuid",
+          "value": "d3bdbcfe-4747-4774-a642-17da478a4747"
+        },
+        "m_nOutfitVariation": { "type": "int32", "value": 0 },
+        "m_sActorName": { "type": "ZString", "value": "Eugene Cobb" },
+        "m_eRequiredVoiceVariation": {
+          "type": "EActorVoiceVariation",
+          "value": "eAVV_CIVMALECH01"
+        },
+        "m_aEnforcedOutfits": {
+          "type": "TArray<SEntityTemplateReference>",
+          "value": [],
+          "postInit": true
+        },
+        "m_eidParent": {
+          "type": "SEntityTemplateReference",
+          "value": "fffffffffffffffe",
+          "postInit": true
+        }
+      },
+      "subsets": {
+        "AudioEmitters": ["fffffffffffffffe"],
+        "Replicable": ["fffffffffffffffe"]
+      }
     }
   },
   "propertyOverrides": [
@@ -3466,7 +3470,8 @@
   "pinConnectionOverrideDeletes": [],
   "externalScenes": [
     "[assembly:/_pro/scenes/missions/golden/mission_gecko/scenario_gecko.brick].pc_entitytype",
-    "[assembly:/sonsofprovidence/shared/global_outfits.brick].pc_entitytype"
+    "[assembly:/sonsofprovidence/shared/global_outfits.brick].pc_entitytype",
+    "001A8ED7670AD41C"
   ],
   "subType": "scene",
   "quickEntityVersion": 3.1,

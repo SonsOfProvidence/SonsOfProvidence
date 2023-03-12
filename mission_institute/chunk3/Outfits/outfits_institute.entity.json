@@ -36,8 +36,14 @@
           "type": "EActorCCPreset",
           "value": "ACCP_GuardMaleElite"
         },
-        "m_bWeaponsAllowed": { "type": "bool", "value": true },
-        "m_bHeroDisguiseAvailable": { "type": "bool", "value": false },
+        "m_bWeaponsAllowed": {
+          "type": "bool",
+          "value": true
+        },
+        "m_bHeroDisguiseAvailable": {
+          "type": "bool",
+          "value": false
+        },
         "m_eSoundFootwearType": {
           "type": "EHM5SoundFootwearType",
           "value": "EFWT_BAREFOOT"
@@ -65,14 +71,26 @@
           "type": "TArray<EActorVoiceVariation>",
           "value": ["eAVV_CIVMALE08"]
         },
-        "m_eOutfitType": { "type": "EOutfitType", "value": "eOT_Guard" },
-        "m_eActorRank": { "type": "EActorRank", "value": "AR_Elite" },
+        "m_eOutfitType": {
+          "type": "EOutfitType",
+          "value": "eOT_Guard"
+        },
+        "m_eActorRank": {
+          "type": "EActorRank",
+          "value": "AR_Elite"
+        },
         "m_sId": {
           "type": "ZGuid",
           "value": "d3bdbcfe-4747-4774-a642-17daa98a4747"
         },
-        "m_sCommonName": { "type": "ZString", "value": "Agent 47" },
-        "m_sTitle": { "type": "ZString", "value": "Agent 47" },
+        "m_sCommonName": {
+          "type": "ZString",
+          "value": "Agent 47"
+        },
+        "m_sTitle": {
+          "type": "ZString",
+          "value": "Agent 47"
+        },
         "m_rNameTextResource": {
           "type": "ZRuntimeResourceID",
           "value": "[assembly:/localization/hitman6/conversations/ui/pro/online/repository/outfits_npcs_sapienza.sweetmenutext?/outfits_sapienza_worker_nakedguy_m_hpa1370_name_d3bdbcfe-8e46-4774-a642-17daa98a7f69.sweetline].pc_sweetline"

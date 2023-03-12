@@ -13,8 +13,8 @@
   },
   "ee4b0060-b322-4bb0-99b5-942e8a20f278": {
     "ID_": "ee4b0060-b322-4bb0-99b5-942e8a20f278",
-    "Image": "images/dbierek/romania_plane_start.jpg",
-    "Name_LOC": "ui_starting_location_romania_plane_default_name",
+    "Image": "images/dbierek/dubai_plane_start.jpg",
+    "Name_LOC": "ui_starting_location_dubai_plane_default_name",
     "Description": ""
   },
   "ff4b0060-b322-4bb0-99b5-942e8a20f299": {
@@ -37,6 +37,17 @@
   },
   "c2f6c0f9-5ddc-4379-86a9-07216adf5569": {
     "Name": "Eugene Cobb"
+  },
+  "d3959196-6be0-43ea-b6e7-aafa70822046": {
+    "CharacterSetIndex": 0.0,
+    "Description": "Eugene Cobb",
+    "Description_LOC": "actor_description",
+    "ID_": "d3959196-6be0-43ea-b6e7-aafa70822046",
+    "Image": "images/dbierek/dubai_target.png",
+    "Name": "Eugene Cobb",
+    "Outfit": "d3bdbcfe-4747-4774-a642-17da478a4747",
+    "OutfitVariationIndex": 0.0,
+    "Tile": "images/dbierek/dubai_target.png"
   },
   "d3959196-6be0-43ea-b6e7-aafa70822045": {
     "CharacterSetIndex": 0.0,
