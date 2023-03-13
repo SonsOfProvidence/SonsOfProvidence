@@ -507,31 +507,6 @@
       "blueprint": "[modules:/zentity.class].pc_entityblueprint",
       "factory": "[modules:/zentity.class].pc_entitytype"
     },
-    "feed0f0ff7c5ffd6": {
-      "parent": "abcdd4bc4082f9c3",
-      "name": "window_cleaner_basket_8m_a_01",
-      "factory": "00848DEDD1AA8EEA",
-      "blueprint": "00C419118AD660D6",
-      "properties": {
-        "m_mTransform": {
-          "type": "SMatrix43",
-          "value": {
-            "rotation": { "x": 0, "y": 0, "z": -90 },
-            "position": {
-              "x": -49.46146011352539,
-              "y": 20.505949783325192,
-              "z": 53.8
-            }
-          }
-        },
-        "m_bVisible": { "type": "bool", "value": false },
-        "m_eidParent": {
-          "type": "SEntityTemplateReference",
-          "value": "feeda0dde246616a",
-          "postInit": true
-        }
-      }
-    },
     "feed41f53ab47061": {
       "parent": "abcd7f3d8a81df6a",
       "name": "Plane",
@@ -2595,7 +2570,11 @@
         },
         "m_vGlobalSize": {
           "type": "SVector3",
-          "value": { "x": 22, "y": 23, "z": 22 }
+          "value": {
+            "x": 2.6103498935699463,
+            "y": 4.004970073699951,
+            "z": 4.4799299240112305
+          }
         },
         "m_order": { "type": "EEntityOrdering", "value": "EO_NORMAL" }
       }
@@ -3390,6 +3369,83 @@
       "subsets": {
         "AudioEmitters": ["fffffffffffffffe"],
         "Replicable": ["fffffffffffffffe"]
+      }
+    },
+    "feeddec2ec70bce6": {
+      "parent": "abcd02f53140fce7",
+      "name": "F3 Cleaning Platform",
+      "factory": "[assembly:/templates/aspectdummy.aspect]([modules:/zboxvolumeentity.class].entitytype,[modules:/zorderedentity.class].entitytype).pc_entitytype",
+      "blueprint": "[assembly:/templates/aspectdummy.aspect]([modules:/zboxvolumeentity.class].entitytype,[modules:/zorderedentity.class].entitytype).pc_entityblueprint",
+      "properties": {
+        "m_mTransform": {
+          "type": "SMatrix43",
+          "value": {
+            "rotation": { "x": 0, "y": 0, "z": 0 },
+            "position": {
+              "x": -48.55358123779297,
+              "y": -25.775609970092773,
+              "z": 55.95977020263672
+            }
+          }
+        },
+        "m_vGlobalSize": {
+          "type": "SVector3",
+          "value": {
+            "x": 2.6103498935699463,
+            "y": 4.004970073699951,
+            "z": 4.4799299240112305
+          }
+        }
+      }
+    },
+    "feedafd3a10d3e43": {
+      "parent": "abcd655cfc023829",
+      "name": "skyscraper_staff_ceiling_floor_zmapped_a_03",
+      "factory": "0065E6850BB157E2",
+      "blueprint": "00B6E9D9DA6DE143",
+      "properties": {
+        "m_mTransform": {
+          "type": "SMatrix43",
+          "value": {
+            "rotation": { "x": 0, "y": 0, "z": 180 },
+            "position": { "x": -47.1986, "y": 18.5282, "z": 54.0113 }
+          }
+        },
+        "m_PrimitiveScale": {
+          "type": "SVector3",
+          "value": {
+            "x": 1.608799886703491,
+            "y": 4.65,
+            "z": 1.0199999809265137
+          }
+        },
+        "m_eRoomBehaviour": {
+          "type": "ZSpatialEntity.ERoomBehaviour",
+          "value": "ROOM_DYNAMIC"
+        }
+      }
+    },
+    "feeda63f7ad613c3": {
+      "parent": "abcd655cfc023829",
+      "name": "a_int_wall_6x2_clean_a",
+      "factory": "0025D0BC2F3F2D04",
+      "blueprint": "00643EB33B38805A",
+      "properties": {
+        "m_mTransform": {
+          "type": "SMatrix43",
+          "value": {
+            "rotation": { "x": 0, "y": 0, "z": 0 },
+            "position": {
+              "x": 3.4000000953674316,
+              "y": 43.40428161621094,
+              "z": 0
+            }
+          }
+        },
+        "m_PrimitiveScale": {
+          "type": "SVector3",
+          "value": { "x": 1, "y": 1.1021900177001953, "z": 1 }
+        }
       }
     }
   },
