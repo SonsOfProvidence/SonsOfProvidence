@@ -1,6 +1,6 @@
 {
-  "tempHash": "00C6FB0D282EB377",
-  "tbluHash": "000768769D278647",
+  "tempHash": "008060B84F3C8EE3",
+  "tbluHash": "0080C74FAD65FD30",
   "rootEntity": "feedd92d90e0d5bc",
   "entities": {
     "feedd92d90e0d5bc": {
@@ -19,7 +19,7 @@
         "m_ResourceID": {
           "type": "ZRuntimeResourceID",
           "value": {
-            "resource": "[assembly:/sonsofprovidence/airplane/airplane.prim].pc_prim",
+            "resource": "[assembly:/sonsofprovidence/airplane/airplane_door.prim].pc_prim",
             "flag": "5F"
           }
         }

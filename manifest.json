@@ -108,6 +108,12 @@
       "comment": "Shirt mesh",
       "portFromChunk1": true,
       "toChunk": 0
+    },
+    {
+      "runtimeID": "00BEF4B3E5F18248",
+      "comment": "Helicopter door",
+      "portFromChunk1": true,
+      "toChunk": 0
     }
   ],
   "packagedefinition": [

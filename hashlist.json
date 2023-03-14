@@ -88,8 +88,28 @@
     "ioiString": "005E103AA21441A0"
   },
   {
+    "hash": "[assembly:/sonsofprovidence/airplane/airplane_a.wl2?/airplane_a.prim].pc_entitytype",
+    "ioiString": "00C6FB0D282EB377"
+  },
+  {
+    "hash": "[assembly:/sonsofprovidence/airplane/airplane_a.wl2?/airplane_a.prim].pc_entityblueprint",
+    "ioiString": "000768769D278647"
+  },
+  {
+    "hash": "[assembly:/sonsofprovidence/airplane/airplane_a_door.wl2?/airplane_a_door.prim].pc_entitytype",
+    "ioiString": "008060B84F3C8EE3"
+  },
+  {
+    "hash": "[assembly:/sonsofprovidence/airplane/airplane_a_door.wl2?/airplane_a_door.prim].pc_entityblueprint",
+    "ioiString": "0080C74FAD65FD30"
+  },
+  {
     "hash": "[assembly:/sonsofprovidence/airplane/airplane.prim].pc_prim",
     "ioiString": "000938C906B39983"
+  },
+  {
+    "hash": "[assembly:/sonsofprovidence/airplane/airplane_door.prim].pc_prim",
+    "ioiString": "0045F3F549247701"
   },
   {
     "hash": "[assembly:/sonsofprovidence/airplane/airplane.entitytemplate].pc_entitytype",
