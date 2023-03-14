@@ -22,10 +22,10 @@ Note: The mod is still a work in progress. It is planned to be an offline mode m
 
 ### Credits
 
-Kevin Rudd's Custom Map Pack - https://www.nexusmods.com/hitman3/mods/38
-Notex's HM3CustomMaps - https://github.com/Notexe/HM3CustomMaps
-Notex - Statue of Liberty prims and materials
-printable_models - Statue of Liberty model from https://free3d.com/3d-model/statue-of-liberty-v1--175955.html
+Kevin Rudd's Custom Map Pack - https://www.nexusmods.com/hitman3/mods/38  
+Notex's HM3CustomMaps - https://github.com/Notexe/HM3CustomMaps  
+Notex - Statue of Liberty prims and materials  
+printable_models - Statue of Liberty model from https://free3d.com/3d-model/statue-of-liberty-v1--175955.html  
 Thanks to everyone at the Glacier 2 Modding discord!  
 Especially Kevin Rudd, Anthony Fuller, Invalid, Notex, Sieni, Atampy26, kercyx, volvomodus, and HMBM47 for helping me along the way and encouraging me to continue.
 
