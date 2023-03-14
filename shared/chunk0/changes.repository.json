@@ -1,0 +1,66 @@
+{
+  "37af536b-4747-49ed-986a-9d55f4481ed4": {
+    "ID_": "37af536b-4747-49ed-986a-9d55f4481ed4",
+    "Image": "images/dbierek/mumbai_roof_starting.jpg",
+    "Name_LOC": "ui_starting_location_mumbai_ether_lab_default_name",
+    "Description": ""
+  },
+  "0aec817c-738e-4381-bbd4-a13b5d1c6730": {
+    "ID_": "0aec817c-738e-4381-bbd4-a13b5d1c6730",
+    "Image": "images/dbierek/dartmoor.jpg",
+    "Name_LOC": "ui_starting_location_dartmoor_institute_default_name",
+    "Description": ""
+  },
+  "ee4b0060-b322-4bb0-99b5-942e8a20f278": {
+    "ID_": "ee4b0060-b322-4bb0-99b5-942e8a20f278",
+    "Image": "images/dbierek/dubai_plane_start.jpg",
+    "Name_LOC": "ui_starting_location_dubai_plane_default_name",
+    "Description": ""
+  },
+  "ff4b0060-b322-4bb0-99b5-942e8a20f299": {
+    "ID_": "ff4b0060-b322-4bb0-99b5-942e8a20f299",
+    "Image": "images/dbierek/sapienza.jpg",
+    "Name_LOC": "ui_starting_location_sapienza_apartment_default_name",
+    "Description": ""
+  },
+  "c4146f27-81a9-42ef-b3c7-87a9d60b4747": {
+    "Category": "",
+    "CommonName": "CHAR_Gecko_Hero_SkydivingOutfit_M_ PRO179078",
+    "Description": "char_gecko_hero_skydivingoutfit_m_ pro179078_description_c4146f27-81a9-42ef-b3c7-87a9d60b4747",
+    "HeroDisguiseAvailable": true,
+    "ID_": "c4146f27-81a9-42ef-b3c7-87a9d60b4747",
+    "Image": "images/unlockables_override/47_Outfits_Gecko_Skydiving.jpg",
+    "ImageTransparent": "",
+    "IsHitmanSuit": true,
+    "Name": "char_gecko_hero_skydivingoutfit_m_ pro179078_name_c4146f27-81a9-42ef-b3c7-87a9d60b4747",
+    "TokenID": ""
+  },
+  "c2f6c0f9-5ddc-4379-86a9-07216adf5569": {
+    "Name": "Eugene Cobb"
+  },
+  "d3959196-6be0-43ea-b6e7-aafa70822046": {
+    "CharacterSetIndex": 0.0,
+    "Description": "Eugene Cobb",
+    "Description_LOC": "actor_description",
+    "ID_": "d3959196-6be0-43ea-b6e7-aafa70822046",
+    "Image": "images/dbierek/dubai_target.png",
+    "Name": "Eugene Cobb",
+    "Outfit": "d3bdbcfe-4747-4774-a642-17da478a4747",
+    "OutfitVariationIndex": 0.0,
+    "Tile": "images/dbierek/dubai_target.png"
+  },
+  "d3959196-6be0-43ea-b6e7-aafa70822045": {
+    "CharacterSetIndex": 0.0,
+    "Description": "Thomas Cross",
+    "Description_LOC": "actor_description",
+    "ID_": "d3959196-6be0-43ea-b6e7-aafa70822045",
+    "Image": "images/dbierek/sapienza_target.png",
+    "Name": "Thomas Cross",
+    "Outfit": "d3bdbcfe-4747-4774-a642-17daa98a7f69",
+    "OutfitVariationIndex": 0.0,
+    "Tile": "images/dbierek/sapienza_target.png"
+  },
+  "743F058F-56A0-420F-8B5E-46DABABACA37": {
+    "Name": "Ben Bern"
+  }
+}

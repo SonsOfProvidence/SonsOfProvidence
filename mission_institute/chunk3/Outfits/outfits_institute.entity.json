@@ -1,0 +1,186 @@
+{
+  "tempHash": "0069723534C277CC",
+  "tbluHash": "00D6366F5F266F1E",
+  "rootEntity": "fffffffffffffffe",
+  "entities": {
+    "fffffffffffffffe": {
+      "parent": null,
+      "name": "Scene",
+      "blueprint": "[modules:/zspatialentity.class].pc_entityblueprint",
+      "factory": "[modules:/zspatialentity.class].pc_entitytype"
+    },
+    "feeda3b6bd03594e": {
+      "parent": "fffffffffffffffe",
+      "name": "Agent 47 Tactical Wetsuit",
+      "blueprint": "[modules:/zglobaloutfitkit.class].pc_entityblueprint",
+      "properties": {
+        "m_DamageMultipliers": {
+          "type": "SBodyPartDamageMultipliers",
+          "value": {
+            "m_fHeadDamageMultiplier": 3,
+            "m_fFaceDamageMultiplier": 3,
+            "m_fArmDamageMultiplier": 1,
+            "m_fLArmDamageScalar": 0,
+            "m_fRArmDamageScalar": 0,
+            "m_fHandDamageMultiplier": 0.5,
+            "m_fLHandDamageScalar": 0,
+            "m_fRHandDamageScalar": 0,
+            "m_fLegDamageMultiplier": 0.6000000238418579,
+            "m_fLLegDamageScalar": 0,
+            "m_fRLegDamageScalar": 0,
+            "m_fTorsoDamageMultiplier": 1,
+            "m_bApplyLeftRightScalars": false
+          }
+        },
+        "m_eActorCCClass": {
+          "type": "EActorCCPreset",
+          "value": "ACCP_GuardMaleElite"
+        },
+        "m_bWeaponsAllowed": {
+          "type": "bool",
+          "value": true
+        },
+        "m_bHeroDisguiseAvailable": {
+          "type": "bool",
+          "value": false
+        },
+        "m_eSoundFootwearType": {
+          "type": "EHM5SoundFootwearType",
+          "value": "EFWT_BAREFOOT"
+        },
+        "m_aCharSets": {
+          "type": "TArray<SEntityTemplateReference>",
+          "value": ["feed1c32d5e1c54b"]
+        },
+        "m_eOutfitAICategory": {
+          "type": "EOutfitAICategory",
+          "value": "OAC_Soldier"
+        },
+        "m_AvailableWeaponKeys": {
+          "type": "TArray<SEntityTemplateReference>",
+          "value": ["feedea82b8fd3609", "feed48e78d7435bb"]
+        },
+        "m_pParentOutfit": {
+          "type": "SEntityTemplateReference",
+          "value": {
+            "ref": "958ef354a73d986e",
+            "externalScene": "[assembly:/_pro/scenes/bricks/globaldata.brick].pc_entitytype"
+          }
+        },
+        "m_rDefaultVoiceVariations": {
+          "type": "TArray<EActorVoiceVariation>",
+          "value": ["eAVV_CIVMALE08"]
+        },
+        "m_eOutfitType": {
+          "type": "EOutfitType",
+          "value": "eOT_Guard"
+        },
+        "m_eActorRank": {
+          "type": "EActorRank",
+          "value": "AR_Elite"
+        },
+        "m_sId": {
+          "type": "ZGuid",
+          "value": "d3bdbcfe-4747-4774-a642-17daa98a4747"
+        },
+        "m_sCommonName": {
+          "type": "ZString",
+          "value": "Agent 47"
+        },
+        "m_sTitle": {
+          "type": "ZString",
+          "value": "Agent 47"
+        },
+        "m_rNameTextResource": {
+          "type": "ZRuntimeResourceID",
+          "value": "[assembly:/localization/hitman6/conversations/ui/pro/online/repository/outfits_npcs_sapienza.sweetmenutext?/outfits_sapienza_worker_nakedguy_m_hpa1370_name_d3bdbcfe-8e46-4774-a642-17daa98a7f69.sweetline].pc_sweetline"
+        },
+        "m_rDescriptionTextResource": {
+          "type": "ZRuntimeResourceID",
+          "value": "[assembly:/localization/hitman6/conversations/ui/pro/online/repository/outfits_npcs_sapienza.sweetmenutext?/outfits_sapienza_worker_nakedguy_m_hpa1370_description_d3bdbcfe-8e46-4774-a642-17daa98a7f69.sweetline].pc_sweetline"
+        }
+      },
+      "factory": "[modules:/zglobaloutfitkit.class].pc_entitytype"
+    },
+    "feed1c32d5e1c54b": {
+      "parent": "feeda3b6bd03594e",
+      "name": "CHARSET_Tactical_Wetsuit",
+      "blueprint": "00B1FE3678D05433",
+      "factory": "006D00FF106C863B"
+    },
+    "feed2444c69b029c": {
+      "parent": "feeda3b6bd03594e",
+      "name": "Keyword_Prof_Class_Default",
+      "blueprint": "00B0282A41C1CF2E",
+      "properties": {
+        "m_aHolders": {
+          "type": "TArray<SEntityTemplateReference>",
+          "value": ["feeda3b6bd03594e"],
+          "postInit": true
+        }
+      },
+      "factory": "007A51A2AFEC0D1A"
+    },
+    "feedea82b8fd3609": {
+      "parent": "feeda3b6bd03594e",
+      "name": "ItemKey_Hackl9R NPC",
+      "blueprint": "[modules:/zitemrepositorykeyentity.class].pc_entityblueprint",
+      "properties": {
+        "m_RepositoryId": {
+          "type": "ZGuid",
+          "value": "1cae7d71-55c8-401a-9dfb-cd0909c4f6ee"
+        }
+      },
+      "factory": "[modules:/zitemrepositorykeyentity.class].pc_entitytype"
+    },
+    "feed4ffc656e9b13": {
+      "parent": "feeda3b6bd03594e",
+      "name": "Keyword_Prof_Class_Guard_Heavy",
+      "blueprint": "003A7D4D8810414B",
+      "properties": {
+        "m_aHolders": {
+          "type": "TArray<SEntityTemplateReference>",
+          "value": []
+        }
+      },
+      "factory": "00364659808ED13C"
+    },
+    "feed48e78d7435bb": {
+      "parent": "feeda3b6bd03594e",
+      "name": "ItemKey_Shotgun02 NPC",
+      "blueprint": "[modules:/zitemrepositorykeyentity.class].pc_entityblueprint",
+      "properties": {
+        "m_RepositoryId": {
+          "type": "ZGuid",
+          "value": "7f31d897-a62f-448c-be0d-79d565e2faa7"
+        }
+      },
+      "factory": "[modules:/zitemrepositorykeyentity.class].pc_entitytype"
+    },
+    "feed91095b321bea": {
+      "parent": "feeda3b6bd03594e",
+      "name": "KeywordEntity_FOLEY_OUTFIT_GUARD",
+      "blueprint": "[assembly:/_pro/design/gamecore/keywords/keywordsound.template?/keywordentity_foley_outfit_guard.entitytemplate].pc_entityblueprint",
+      "properties": {
+        "m_aHolders": {
+          "type": "TArray<SEntityTemplateReference>",
+          "value": [],
+          "postInit": true
+        }
+      },
+      "factory": "[assembly:/_pro/design/gamecore/keywords/keywordsound.template?/keywordentity_foley_outfit_guard.entitytemplate].pc_entitytype"
+    }
+  },
+  "propertyOverrides": [],
+  "overrideDeletes": [],
+  "pinConnectionOverrides": [],
+  "pinConnectionOverrideDeletes": [],
+  "externalScenes": [
+    "[assembly:/_pro/scenes/bricks/globaldata.brick].pc_entitytype"
+  ],
+  "subType": "brick",
+  "quickEntityVersion": 3.1,
+  "extraFactoryDependencies": [],
+  "extraBlueprintDependencies": [],
+  "comments": []
+}

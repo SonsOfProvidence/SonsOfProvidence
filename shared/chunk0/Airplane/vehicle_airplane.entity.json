@@ -1,0 +1,2965 @@
+{
+  "tempHash": "00C7FD7BF123ACB5",
+  "tbluHash": "009769D1F255542C",
+  "rootEntity": "91a717574bac161d",
+  "entities": {
+    "85c31d22a3508c1": {
+      "parent": "dd01390c4e141c21",
+      "name": "Light11",
+      "factory": "[modules:/zlightentity.class].pc_entitytype",
+      "blueprint": "[modules:/zlightentity.class].pc_entityblueprint",
+      "properties": {
+        "m_mTransform": {
+          "type": "SMatrix43",
+          "value": {
+            "rotation": { "x": 0, "y": 0, "z": 0 },
+            "position": {
+              "x": 0.10851380228996277,
+              "y": 2.460381031036377,
+              "z": 2.96099591255188
+            }
+          }
+        },
+        "m_eLightType": {
+          "type": "ILightEntity.ELightType",
+          "value": "LT_OMNI"
+        },
+        "m_fDiffusePower": { "type": "float32", "value": 5 },
+        "m_vBoxSize": {
+          "type": "SVector3",
+          "value": {
+            "x": 2.882167100906372,
+            "y": 8.404204368591309,
+            "z": 2.2646799087524414
+          }
+        },
+        "m_vBoxFadePos": {
+          "type": "SVector3",
+          "value": { "x": 0, "y": 0, "z": 1.8397190570831299 }
+        },
+        "m_diffuseColor": { "type": "SColorRGB", "value": "#dbefff" },
+        "m_vFarAttenuation": {
+          "type": "SVector2",
+          "value": { "x": 0.6777039766311646, "y": 2.2082700729370117 }
+        },
+        "m_vAngularAttenuation": {
+          "type": "SVector2",
+          "value": { "x": 0.6981319785118103, "y": 0.8460270166397095 }
+        },
+        "m_vNearAttenuation": {
+          "type": "SVector2",
+          "value": { "x": 0.041930001229047775, "y": 0.6677039861679077 }
+        },
+        "m_bEnableLightFade": { "type": "bool", "value": true },
+        "m_bCastShadows": { "type": "bool", "value": false },
+        "m_bCrowdCastShadows": { "type": "bool", "value": false },
+        "m_bVisible": { "type": "bool", "value": true },
+        "m_eidParent": {
+          "type": "SEntityTemplateReference",
+          "value": "dd01390c4e141c21",
+          "postInit": true
+        }
+      }
+    },
+    "12565185d9bf54b7": {
+      "parent": "dd01390c4e141c21",
+      "name": "Light01",
+      "factory": "[modules:/zlightentity.class].pc_entitytype",
+      "blueprint": "[modules:/zlightentity.class].pc_entityblueprint",
+      "properties": {
+        "m_mTransform": {
+          "type": "SMatrix43",
+          "value": {
+            "rotation": { "x": 0, "y": 0, "z": 0 },
+            "position": {
+              "x": 0.10851380228996277,
+              "y": -5.105959892272949,
+              "z": 2.1911330223083496
+            }
+          }
+        },
+        "m_eLightType": {
+          "type": "ILightEntity.ELightType",
+          "value": "LT_OMNI"
+        },
+        "m_fDiffusePower": { "type": "float32", "value": 1 },
+        "m_vBoxSize": {
+          "type": "SVector3",
+          "value": {
+            "x": 2.882167100906372,
+            "y": 8.404204368591309,
+            "z": 2.2646799087524414
+          }
+        },
+        "m_vBoxFadePos": {
+          "type": "SVector3",
+          "value": { "x": 0, "y": 0, "z": 1.8397190570831299 }
+        },
+        "m_diffuseColor": { "type": "SColorRGB", "value": "#b0ffb3" },
+        "m_vFarAttenuation": {
+          "type": "SVector2",
+          "value": { "x": 0.2945930063724518, "y": 1.5968799591064453 }
+        },
+        "m_vAngularAttenuation": {
+          "type": "SVector2",
+          "value": { "x": 0.6981319785118103, "y": 0.8460270166397095 }
+        },
+        "m_vNearAttenuation": {
+          "type": "SVector2",
+          "value": { "x": 0.009999999776482582, "y": 0.019999999552965164 }
+        },
+        "m_bEnableLightFade": { "type": "bool", "value": true },
+        "m_bCastShadows": { "type": "bool", "value": false },
+        "m_bCrowdCastShadows": { "type": "bool", "value": false },
+        "m_fLightFadeDistance": { "type": "float32", "value": 50 },
+        "m_bVisible": { "type": "bool", "value": true },
+        "m_eidParent": {
+          "type": "SEntityTemplateReference",
+          "value": "dd01390c4e141c21",
+          "postInit": true
+        }
+      }
+    },
+    "2448938aaa8ac80f": {
+      "parent": "91a717574bac161d",
+      "name": "FX_Logic_LampCore",
+      "factory": "[assembly:/_pro/effects/templates/logic/fx_logic_lampcore.template?/fx_logic_lampcore.entitytemplate].pc_entitytype",
+      "blueprint": "[assembly:/_pro/effects/templates/logic/fx_logic_lampcore.template?/fx_logic_lampcore.entitytemplate].pc_entityblueprint",
+      "properties": {
+        "DiffuseColor": { "type": "SColorRGB", "value": "#c2f0ff" },
+        "GlowPower": { "type": "float32", "value": 50 },
+        "DiffusePower": { "type": "float32", "value": 15 },
+        "LampGeometry": {
+          "type": "TArray<SEntityTemplateReference>",
+          "value": ["9e6038346dbf3de8"],
+          "postInit": true
+        },
+        "m_aRenderables": {
+          "type": "TArray<SEntityTemplateReference>",
+          "value": ["f3c8bd9cf43ba5a0", "69961f3dced4a249", "3caa5053b966c9ac"],
+          "postInit": true
+        }
+      },
+      "events": {
+        "DiffuseColor": {
+          "DiffuseColor": [
+            "f3c8bd9cf43ba5a0",
+            "3caa5053b966c9ac",
+            "69961f3dced4a249"
+          ]
+        },
+        "DiffusePower": {
+          "DiffusePower": ["f3c8bd9cf43ba5a0"],
+          "A": ["7b8be936efbcd610"]
+        },
+        "On": { "SetInPhysicsWorld": ["9e6038346dbf3de8"] }
+      }
+    },
+    "66dfef45367dcd9c": {
+      "parent": "87ccc3f29eb19476",
+      "name": "MorphemeBoneTrack",
+      "factory": "[modules:/zmorphemebonetrack.class].pc_entitytype",
+      "blueprint": "[modules:/zmorphemebonetrack.class].pc_entityblueprint",
+      "properties": {
+        "m_sSlotName": { "type": "ZString", "value": "FullBody" },
+        "m_bUpperBody": { "type": "bool", "value": false },
+        "m_entityGroup": {
+          "type": "SEntityTemplateReference",
+          "value": "87ccc3f29eb19476",
+          "postInit": true
+        },
+        "m_aItems": {
+          "type": "TArray<SEntityTemplateReference>",
+          "value": ["13544ff829e2ab1c"],
+          "postInit": true
+        }
+      }
+    },
+    "bfdf199481d6623a": {
+      "parent": "91a717574bac161d",
+      "name": "Luxury_Helicopter_Door_Closed",
+      "factory": "[modules:/zsequenceentity.class].pc_entitytype",
+      "blueprint": "[modules:/zsequenceentity.class].pc_entityblueprint",
+      "properties": {
+        "m_duration": { "type": "ZGameTime", "value": { "m_nTicks": 419430 } },
+        "m_nLoopCount": { "type": "int32", "value": 1 },
+        "m_aTracksAndGroups": {
+          "type": "TArray<SEntityTemplateReference>",
+          "value": ["1de340904fcd3b6d"],
+          "postInit": true
+        }
+      }
+    },
+    "7978b78543a59140": {
+      "parent": "91a717574bac161d",
+      "name": "Luxury_Helicopter_A_Signal_Lights_A03",
+      "factory": "00CA91F575E558B8",
+      "blueprint": "[assembly:/templates/geometrytemplaterigidbody.template?/geomentity01.entitytemplate].pc_entityblueprint",
+      "properties": {
+        "m_mTransform": {
+          "type": "SMatrix43",
+          "value": {
+            "rotation": {
+              "x": -175.18728287605114,
+              "y": 89.99991896792989,
+              "z": 0
+            },
+            "position": {
+              "x": 2.501239061355591,
+              "y": 4.2417120933532715,
+              "z": 1.1778160333633423
+            }
+          }
+        },
+        "m_bKinematic": { "type": "bool", "value": true },
+        "m_ResourceID": {
+          "type": "ZRuntimeResourceID",
+          "value": { "resource": "00191CCD385CD4DA", "flag": "5F" }
+        },
+        "m_eidParent": {
+          "type": "SEntityTemplateReference",
+          "value": "91a717574bac161d",
+          "postInit": true
+        }
+      }
+    },
+    "ba42b72ede245ccc": {
+      "parent": "91a717574bac161d",
+      "name": "ValueBool_Operation01",
+      "factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_operation.entitytemplate].pc_entitytype",
+      "blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_operation.entitytemplate].pc_entityblueprint",
+      "properties": {
+        "m_aValues": {
+          "type": "TArray<SEntityTemplateReference>",
+          "value": ["69faecbf6ef7db5a", "cd0dd7c14913128c"],
+          "postInit": true
+        }
+      }
+    },
+    "cd0dd7c14913128c": {
+      "parent": "91a717574bac161d",
+      "name": "VisibleCondition",
+      "factory": "[assembly:/_pro/design/logic/conditions.template?/visiblecondition.entitytemplate].pc_entitytype",
+      "blueprint": "[assembly:/_pro/design/logic/conditions.template?/visiblecondition.entitytemplate].pc_entityblueprint",
+      "properties": {
+        "m_aRenderables": {
+          "type": "TArray<SEntityTemplateReference>",
+          "value": ["6cf31c6626d445b8"],
+          "postInit": true
+        }
+      }
+    },
+    "a213a251859213a4": {
+      "parent": "656b3eaf4d20c89c",
+      "name": "Rotate01",
+      "factory": "[modules:/zrotateentity.class].pc_entitytype",
+      "blueprint": "[modules:/zrotateentity.class].pc_entityblueprint",
+      "properties": {
+        "m_bEnabled": { "type": "bool", "value": false },
+        "m_fZAxisSpeed": { "type": "float32", "value": 0 },
+        "m_fYAxisSpeed": { "type": "float32", "value": 0 },
+        "m_fXAxisSpeed": { "type": "float32", "value": 0 },
+        "m_Geom": {
+          "type": "SEntityTemplateReference",
+          "value": "f923bb9f4e1c9067",
+          "postInit": true
+        }
+      }
+    },
+    "730104ea2b628eda": {
+      "parent": "91a717574bac161d",
+      "name": "TimerConditional",
+      "factory": "[assembly:/_pro/design/logic.template?/timerconditional.entitytemplate].pc_entitytype",
+      "blueprint": "[assembly:/_pro/design/logic.template?/timerconditional.entitytemplate].pc_entityblueprint",
+      "properties": {
+        "m_bRepeatWhileTrue": { "type": "bool", "value": true },
+        "m_nInterval": { "type": "int32", "value": 1500 },
+        "m_pCondition": {
+          "type": "SEntityTemplateReference",
+          "value": "9b24aad16d5ace65",
+          "postInit": true
+        }
+      },
+      "events": { "TimeOut": { "Start": ["13edefc73958c7a0"] } }
+    },
+    "bbd3d003205be7a2": {
+      "parent": "91a717574bac161d",
+      "name": "ValueBool_RotorSpinup",
+      "factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entitytype",
+      "blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entityblueprint",
+      "events": {
+        "OnTrue": { "RotorSpinUp": ["656b3eaf4d20c89c"] },
+        "OnFalse": { "RotorSpeedReset": ["656b3eaf4d20c89c"] }
+      }
+    },
+    "9a830d595f8e119": {
+      "parent": "dd01390c4e141c21",
+      "name": "Luxury_Helicopter_A_Hull",
+      "factory": "00556FDAF4051EAF",
+      "blueprint": "[assembly:/templates/aspectdummy.aspect]([assembly:/templates/geometrytemplaterigidbody.template?/geomentity01.entitytemplate].entitytype,[modules:/zphysicssaveaspect.class].entitytype).pc_entityblueprint",
+      "properties": {
+        "m_mTransform": {
+          "type": "SMatrix43",
+          "value": {
+            "rotation": { "x": 0, "y": 0, "z": 0 },
+            "position": { "x": 0, "y": 0, "z": 0 }
+          }
+        },
+        "m_bKinematic": { "type": "bool", "value": true },
+        "m_fMass": { "type": "float32", "value": 5000 },
+        "m_fFriction": { "type": "float32", "value": 0 },
+        "m_bVisibleInBoxReflection": { "type": "bool", "value": false },
+        "m_ResourceID": {
+          "type": "ZRuntimeResourceID",
+          "value": { "resource": "000938C906B39983", "flag": "5F" }
+        },
+        "m_eidParent": {
+          "type": "SEntityTemplateReference",
+          "value": "dd01390c4e141c21",
+          "postInit": true
+        }
+      }
+    },
+    "7dbcc306aa785e50": {
+      "parent": "656b3eaf4d20c89c",
+      "name": "FX_HelicopterRotor",
+      "factory": "[assembly:/_pro/effects/materials/mechanical/fx_helicopterrotor.mi].pc_entitytype",
+      "blueprint": "[assembly:/_pro/effects/materials/mechanical/fx_helicopterrotor.mi].pc_entityblueprint",
+      "properties": {
+        "m_mTransform": {
+          "type": "SMatrix43",
+          "value": {
+            "rotation": { "x": 0, "y": 0, "z": 0 },
+            "position": { "x": 0, "y": 0, "z": 0 }
+          }
+        },
+        "ConstantVector1D_01_Value_op": {
+          "type": "IRenderMaterialEntity.EModifierOperation",
+          "value": "eReplace"
+        },
+        "Global": { "type": "bool", "value": false },
+        "ConstantVector1D_01_Value": { "type": "float32", "value": 0 },
+        "Active": { "type": "bool", "value": true },
+        "ConstantColorRGB_01_Value_op": {
+          "type": "IRenderMaterialEntity.EModifierOperation",
+          "value": "eReplace"
+        },
+        "ConstantColorRGB_01_Value": {
+          "type": "SColorRGB",
+          "value": "#262626"
+        },
+        "Clients": {
+          "type": "TArray<SEntityTemplateReference>",
+          "value": ["859386505aa141b5"],
+          "postInit": true
+        },
+        "m_eidParent": {
+          "type": "SEntityTemplateReference",
+          "value": "91a717574bac161d",
+          "postInit": true
+        }
+      }
+    },
+    "28085d5db30cbb98": {
+      "parent": "656b3eaf4d20c89c",
+      "name": "FX_HelicopterRotor01",
+      "factory": "[assembly:/_pro/effects/materials/mechanical/fx_helicoptertailrotor.mi].pc_entitytype",
+      "blueprint": "[assembly:/_pro/effects/materials/mechanical/fx_helicoptertailrotor.mi].pc_entityblueprint",
+      "properties": {
+        "m_mTransform": {
+          "type": "SMatrix43",
+          "value": {
+            "rotation": { "x": 0, "y": 0, "z": 0 },
+            "position": { "x": 0, "y": 0, "z": 0 }
+          }
+        },
+        "ConstantVector1D_01_Value_op": {
+          "type": "IRenderMaterialEntity.EModifierOperation",
+          "value": "eReplace"
+        },
+        "Global": { "type": "bool", "value": false },
+        "ConstantVector1D_01_Value": { "type": "float32", "value": 0 },
+        "Active": { "type": "bool", "value": true },
+        "ConstantColorRGB_01_Value_op": {
+          "type": "IRenderMaterialEntity.EModifierOperation",
+          "value": "eLeave"
+        },
+        "Clients": {
+          "type": "TArray<SEntityTemplateReference>",
+          "value": ["46b5c2f0a4776537"],
+          "postInit": true
+        },
+        "m_eidParent": {
+          "type": "SEntityTemplateReference",
+          "value": "91a717574bac161d",
+          "postInit": true
+        }
+      }
+    },
+    "486243f5d2d08c46": {
+      "parent": "fca9ba7ecbd2d21e",
+      "name": "PFBox04",
+      "factory": "[modules:/zpfobstacleentity.class].pc_entitytype",
+      "blueprint": "[modules:/zpfobstacleentity.class].pc_entityblueprint",
+      "properties": {
+        "m_mTransform": {
+          "type": "SMatrix43",
+          "value": {
+            "rotation": { "x": 0, "y": 0, "z": 0 },
+            "position": {
+              "x": -0.012519000098109245,
+              "y": 6.8610358238220215,
+              "z": 0.2933349907398224
+            }
+          }
+        },
+        "m_vGlobalSize": {
+          "type": "SVector3",
+          "value": { "x": 3.017940044403076, "y": 3.25669002532959, "z": 1 }
+        },
+        "m_bEnabled": { "type": "bool", "value": true },
+        "m_eidParent": {
+          "type": "SEntityTemplateReference",
+          "value": "dd01390c4e141c21",
+          "postInit": true
+        }
+      }
+    },
+    "f923bb9f4e1c9067": {
+      "parent": "656b3eaf4d20c89c",
+      "name": "Luxury_Helicopter_A_TailRotor",
+      "factory": "001A6680922BC6EE",
+      "blueprint": "[assembly:/templates/linkedtemplatenocoll.template?/compositeentity01.entitytemplate].pc_entityblueprint",
+      "properties": {
+        "m_mTransform": {
+          "type": "SMatrix43",
+          "value": {
+            "rotation": { "x": 0, "y": 0, "z": 0 },
+            "position": {
+              "x": -0.02433600090444088,
+              "y": 12.675069808959961,
+              "z": 2.734081983566284
+            }
+          }
+        },
+        "m_eidParent": {
+          "type": "SEntityTemplateReference",
+          "value": "91a717574bac161d",
+          "postInit": true
+        }
+      }
+    },
+    "6afc167ea0ec67ac": {
+      "parent": "91a717574bac161d",
+      "name": "SignalLight_Red_Point01",
+      "factory": "[modules:/zlightentity.class].pc_entitytype",
+      "blueprint": "[modules:/zlightentity.class].pc_entityblueprint",
+      "properties": {
+        "m_mTransform": {
+          "type": "SMatrix43",
+          "value": {
+            "rotation": { "x": 0, "y": 0, "z": 0 },
+            "position": {
+              "x": -0.5616827011108398,
+              "y": 9.071125984191895,
+              "z": 2.542370080947876
+            }
+          }
+        },
+        "m_eLightType": {
+          "type": "ILightEntity.ELightType",
+          "value": "LT_OMNI"
+        },
+        "m_fDiffusePower": { "type": "float32", "value": 1 },
+        "m_vBoxSize": {
+          "type": "SVector3",
+          "value": {
+            "x": 6.522520065307617,
+            "y": 6.2584099769592285,
+            "z": 4.682759761810303
+          }
+        },
+        "m_vBoxFadeNeg": {
+          "type": "SVector3",
+          "value": {
+            "x": 0.008684000000357628,
+            "y": 0.004410000052303076,
+            "z": 0.08727259933948517
+          }
+        },
+        "m_diffuseColor": { "type": "SColorRGB", "value": "#ffaa9c" },
+        "m_vFarAttenuation": {
+          "type": "SVector2",
+          "value": { "x": 0.04728839918971062, "y": 2.3863699436187744 }
+        },
+        "m_vAngularAttenuation": {
+          "type": "SVector2",
+          "value": { "x": 0.5734779834747314, "y": 0.8089190125465393 }
+        },
+        "m_vNearAttenuation": {
+          "type": "SVector2",
+          "value": { "x": 0.009999999776482582, "y": 0.019999999552965164 }
+        },
+        "m_bCastShadows": { "type": "bool", "value": false },
+        "m_bEnableLightFade": { "type": "bool", "value": true },
+        "m_fLightFadeDistance": { "type": "float32", "value": 60 },
+        "m_bVisible": { "type": "bool", "value": true },
+        "m_MasterLight": {
+          "type": "SEntityTemplateReference",
+          "value": "a2ff8fa47a361e3f",
+          "postInit": true
+        },
+        "m_eidParent": {
+          "type": "SEntityTemplateReference",
+          "value": "91a717574bac161d",
+          "postInit": true
+        }
+      }
+    },
+    "79a427d32973516c": {
+      "parent": "91a717574bac161d",
+      "name": "SignalLight_RED_Point02",
+      "factory": "[modules:/zlightentity.class].pc_entitytype",
+      "blueprint": "[modules:/zlightentity.class].pc_entityblueprint",
+      "properties": {
+        "m_mTransform": {
+          "type": "SMatrix43",
+          "value": {
+            "rotation": { "x": 0, "y": 0, "z": 0 },
+            "position": {
+              "x": 2.5179409980773926,
+              "y": 4.227052211761475,
+              "z": 1.1788350343704224
+            }
+          }
+        },
+        "m_eLightType": {
+          "type": "ILightEntity.ELightType",
+          "value": "LT_OMNI"
+        },
+        "m_fDiffusePower": { "type": "float32", "value": 50 },
+        "m_vBoxSize": {
+          "type": "SVector3",
+          "value": {
+            "x": 6.522520065307617,
+            "y": 6.2584099769592285,
+            "z": 4.682759761810303
+          }
+        },
+        "m_vBoxFadeNeg": {
+          "type": "SVector3",
+          "value": {
+            "x": 0.008684000000357628,
+            "y": 0.004410000052303076,
+            "z": 0.08727259933948517
+          }
+        },
+        "m_diffuseColor": { "type": "SColorRGB", "value": "#ff8e7a" },
+        "m_vFarAttenuation": {
+          "type": "SVector2",
+          "value": { "x": 0.029999999329447746, "y": 0.45091500878334045 }
+        },
+        "m_vAngularAttenuation": {
+          "type": "SVector2",
+          "value": { "x": 0.5734779834747314, "y": 0.8089190125465393 }
+        },
+        "m_vNearAttenuation": {
+          "type": "SVector2",
+          "value": { "x": 0.009999999776482582, "y": 0.019999999552965164 }
+        },
+        "m_bCastShadows": { "type": "bool", "value": false },
+        "m_bEnableLightFade": { "type": "bool", "value": true },
+        "m_fLightFadeDistance": { "type": "float32", "value": 60 },
+        "m_bVisible": { "type": "bool", "value": true },
+        "m_eidParent": {
+          "type": "SEntityTemplateReference",
+          "value": "91a717574bac161d",
+          "postInit": true
+        }
+      }
+    },
+    "96aab5f884fc1e6c": {
+      "parent": "656b3eaf4d20c89c",
+      "name": "luxury_helicopter_a_exterior_rotordiscard",
+      "factory": "[assembly:/_pro/vehicles/materials/luxury_helicopter_a/luxury_helicopter_a_exterior_rotordiscard.mi].pc_entitytype",
+      "blueprint": "[assembly:/_pro/vehicles/materials/luxury_helicopter_a/luxury_helicopter_a_exterior_rotordiscard.mi].pc_entityblueprint",
+      "properties": {
+        "m_mTransform": {
+          "type": "SMatrix43",
+          "value": {
+            "rotation": { "x": 0, "y": 0, "z": 0 },
+            "position": { "x": 0, "y": 0, "z": 0 }
+          }
+        },
+        "Global": { "type": "bool", "value": false },
+        "Active": { "type": "bool", "value": true },
+        "ConstantVector1D_07_Value_op": {
+          "type": "IRenderMaterialEntity.EModifierOperation",
+          "value": "eLeave"
+        },
+        "ConstantVector1D_07_Value": { "type": "float32", "value": -0.25 },
+        "ConstantVector1D_08_Value_op": {
+          "type": "IRenderMaterialEntity.EModifierOperation",
+          "value": "eReplace"
+        },
+        "ConstantVector1D_08_Value": { "type": "float32", "value": 0 },
+        "ConstantVector1D_23_Value_op": {
+          "type": "IRenderMaterialEntity.EModifierOperation",
+          "value": "eReplace"
+        },
+        "ConstantVector1D_23_Value": { "type": "float32", "value": 0 },
+        "ConstantVector1D_22_Value_op": {
+          "type": "IRenderMaterialEntity.EModifierOperation",
+          "value": "eReplace"
+        },
+        "ConstantVector1D_22_Value": {
+          "type": "float32",
+          "value": 0.4000000059604645
+        },
+        "Clients": {
+          "type": "TArray<SEntityTemplateReference>",
+          "value": ["8555e82df6b3dc2f", "f923bb9f4e1c9067"],
+          "postInit": true
+        },
+        "m_eidParent": {
+          "type": "SEntityTemplateReference",
+          "value": "91a717574bac161d",
+          "postInit": true
+        }
+      }
+    },
+    "31c121c783d1f764": {
+      "parent": "656b3eaf4d20c89c",
+      "name": "CurveEvaluator",
+      "factory": "[modules:/zcurveevaluator.class].pc_entitytype",
+      "blueprint": "[modules:/zcurveevaluator.class].pc_entityblueprint",
+      "properties": {
+        "m_Curve": {
+          "type": "ZCurve",
+          "value": {
+            "data": [
+              [0.4254385828971863, 0, -2, 5, -6, 4, 0, 0],
+              [1, 1, 0, 0, 0, 0, 0, 1]
+            ]
+          }
+        }
+      },
+      "events": {
+        "Output": {
+          "T": ["a398c988dc92261d"],
+          "ConstantVector1D_01_Value": ["28085d5db30cbb98"],
+          "ConstantVector1D_23_Value": ["96aab5f884fc1e6c"]
+        }
+      }
+    },
+    "87ccc3f29eb19476": {
+      "parent": "734ba45d44f85a6b",
+      "name": "EntityTrack_ Luxury_Helicopter_A_Rotor",
+      "factory": "[modules:/zentitygroup.class].pc_entitytype",
+      "blueprint": "[modules:/zentitygroup.class].pc_entityblueprint",
+      "properties": {
+        "m_aTracksAndGroups": {
+          "type": "TArray<SEntityTemplateReference>",
+          "value": ["66dfef45367dcd9c"]
+        },
+        "m_targetEntity": {
+          "type": "SEntityTemplateReference",
+          "value": "8555e82df6b3dc2f",
+          "postInit": true
+        }
+      }
+    },
+    "7778cf7d10561afc": {
+      "parent": "da337d67142cdff8",
+      "name": "MorphemeBoneTrack",
+      "factory": "[modules:/zmorphemebonetrack.class].pc_entitytype",
+      "blueprint": "[modules:/zmorphemebonetrack.class].pc_entityblueprint",
+      "properties": {
+        "m_sSlotName": { "type": "ZString", "value": "FullBody" },
+        "m_bUpperBody": { "type": "bool", "value": false },
+        "m_entityGroup": {
+          "type": "SEntityTemplateReference",
+          "value": "da337d67142cdff8",
+          "postInit": true
+        },
+        "m_aItems": {
+          "type": "TArray<SEntityTemplateReference>",
+          "value": ["91cc0e28c26510fe"],
+          "postInit": true
+        }
+      }
+    },
+    "69961f3dced4a249": {
+      "parent": "91a717574bac161d",
+      "name": "Light_Omni_Front_Points01",
+      "factory": "[modules:/zlightentity.class].pc_entitytype",
+      "blueprint": "[modules:/zlightentity.class].pc_entityblueprint",
+      "properties": {
+        "m_mTransform": {
+          "type": "SMatrix43",
+          "value": {
+            "rotation": { "x": 0, "y": 0, "z": 0 },
+            "position": {
+              "x": 0.6727638244628906,
+              "y": -6.618856906890869,
+              "z": 1.1581439971923828
+            }
+          }
+        },
+        "m_eLightType": {
+          "type": "ILightEntity.ELightType",
+          "value": "LT_ENVIRONMENT"
+        },
+        "m_fDiffusePower": { "type": "float32", "value": 10 },
+        "m_vBoxSize": {
+          "type": "SVector3",
+          "value": {
+            "x": 0.15410999953746796,
+            "y": 0.152195006608963,
+            "z": 0.1321759968996048
+          }
+        },
+        "m_vBoxFadeNeg": {
+          "type": "SVector3",
+          "value": {
+            "x": 0.008684000000357628,
+            "y": 0.004410000052303076,
+            "z": 0.014736000448465347
+          }
+        },
+        "m_diffuseColor": { "type": "SColorRGB", "value": "#c2f0ff" },
+        "m_vFarAttenuation": {
+          "type": "SVector2",
+          "value": { "x": 0.5638999938964844, "y": 0.05000000074505806 }
+        },
+        "m_vAngularAttenuation": {
+          "type": "SVector2",
+          "value": { "x": 0.5734779834747314, "y": 0.8089190125465393 }
+        },
+        "m_vNearAttenuation": {
+          "type": "SVector2",
+          "value": { "x": 0.041930001229047775, "y": 0.5539000034332275 }
+        },
+        "m_bCastShadows": { "type": "bool", "value": false },
+        "m_bEnableLightFade": { "type": "bool", "value": true },
+        "m_fLightFadeDistance": { "type": "float32", "value": 60 },
+        "m_bVisible": { "type": "bool", "value": true },
+        "m_eidParent": {
+          "type": "SEntityTemplateReference",
+          "value": "91a717574bac161d",
+          "postInit": true
+        }
+      }
+    },
+    "5ef994e8e8dc206a": {
+      "parent": "91a717574bac161d",
+      "name": "TimerConditional01",
+      "factory": "[assembly:/_pro/design/logic.template?/timerconditional.entitytemplate].pc_entitytype",
+      "blueprint": "[assembly:/_pro/design/logic.template?/timerconditional.entitytemplate].pc_entityblueprint",
+      "properties": {
+        "m_bRepeatWhileTrue": { "type": "bool", "value": true },
+        "m_pCondition": {
+          "type": "SEntityTemplateReference",
+          "value": "ba42b72ede245ccc"
+        },
+        "m_nInterval": { "type": "int32", "value": 3000 }
+      },
+      "events": {
+        "TimeOut": { "Start": ["92818d26730321bf"], "In": ["f08998391c5fb279"] }
+      }
+    },
+    "f508fa649475c514": {
+      "parent": "91a717574bac161d",
+      "name": "FX_Logic_ShotActivate_Simple01",
+      "factory": "[assembly:/_pro/effects/templates/logic/fx_logic_shotactivate.template?/fx_logic_shotactivate_simple.entitytemplate].pc_entitytype",
+      "blueprint": "[assembly:/_pro/effects/templates/logic/fx_logic_shotactivate.template?/fx_logic_shotactivate_simple.entitytemplate].pc_entityblueprint",
+      "properties": {
+        "OutputBoolType": { "type": "bool", "value": false },
+        "m_Listener": {
+          "type": "TArray<SEntityTemplateReference>",
+          "value": ["748ace701ea2f8dc"],
+          "postInit": true
+        }
+      },
+      "events": {
+        "BoolValue": {
+          "SetInPhysicsWorld": ["748ace701ea2f8dc"],
+          "SetVisible": ["fc51280aef5f4417", "95073bf66effc458"]
+        },
+        "FloatValue": { "ConstantVector1D_01_Value": ["1f5a4c53b3e13715"] }
+      }
+    },
+    "1f5a4c53b3e13715": {
+      "parent": "91a717574bac161d",
+      "name": "fx_basic_emissive01",
+      "factory": "[assembly:/_pro/effects/materials/basic/fx_basic_emissive.mi].pc_entitytype",
+      "blueprint": "[assembly:/_pro/effects/materials/basic/fx_basic_emissive.mi].pc_entityblueprint",
+      "properties": {
+        "m_mTransform": {
+          "type": "SMatrix43",
+          "value": {
+            "rotation": { "x": 0, "y": 0, "z": -180 },
+            "position": { "x": 0, "y": 0, "z": 0 }
+          }
+        },
+        "ConstantColorRGB_01_Value_op": {
+          "type": "IRenderMaterialEntity.EModifierOperation",
+          "value": "eReplace"
+        },
+        "ConstantColorRGB_01_Value": {
+          "type": "SColorRGB",
+          "value": "#b5ff9e"
+        },
+        "ConstantVector1D_01_Value": { "type": "float32", "value": 40 },
+        "ConstantVector1D_01_Value_op": {
+          "type": "IRenderMaterialEntity.EModifierOperation",
+          "value": "eReplace"
+        },
+        "Clients": {
+          "type": "TArray<SEntityTemplateReference>",
+          "value": ["748ace701ea2f8dc"],
+          "postInit": true
+        },
+        "m_eidParent": {
+          "type": "SEntityTemplateReference",
+          "value": "91a717574bac161d",
+          "postInit": true
+        }
+      }
+    },
+    "d52ae80461889a88": {
+      "parent": "3f2ed70feb9f9755",
+      "name": "BoneResourceItem",
+      "factory": "[modules:/zmorphemebonesource.class].pc_entitytype",
+      "blueprint": "[modules:/zmorphemebonesource.class].pc_entityblueprint",
+      "properties": {
+        "m_startTime": { "type": "ZGameTime", "value": { "m_nTicks": 0 } },
+        "m_duration": { "type": "ZGameTime", "value": { "m_nTicks": 419430 } },
+        "m_animationResourceID": {
+          "type": "ZRuntimeResourceID",
+          "value": { "resource": "0009B7BA5ADFE8EA", "flag": "5F" }
+        }
+      }
+    },
+    "dea3ca26d546786b": {
+      "parent": "656b3eaf4d20c89c",
+      "name": "FloatRangeComparator",
+      "factory": "[modules:/zfloatrangecomparatorentity.class].pc_entitytype",
+      "blueprint": "[modules:/zfloatrangecomparatorentity.class].pc_entityblueprint",
+      "properties": {
+        "m_fMinValue": { "type": "float32", "value": 0.699999988079071 }
+      },
+      "outputCopying": {
+        "WentIntoRange": { "WentIntoRange": ["656b3eaf4d20c89c"] },
+        "WentBelowMin": { "WentBelowMin": ["656b3eaf4d20c89c"] }
+      }
+    },
+    "b453e70a421f0af8": {
+      "parent": "91a717574bac161d",
+      "name": "Luxury_Helicopter_Door_Closing",
+      "factory": "[modules:/zsequenceentity.class].pc_entitytype",
+      "blueprint": "[modules:/zsequenceentity.class].pc_entityblueprint",
+      "properties": {
+        "m_duration": { "type": "ZGameTime", "value": { "m_nTicks": 1048576 } },
+        "m_aTracksAndGroups": {
+          "type": "TArray<SEntityTemplateReference>",
+          "value": ["da337d67142cdff8"],
+          "postInit": true
+        }
+      }
+    },
+    "8555e82df6b3dc2f": {
+      "parent": "656b3eaf4d20c89c",
+      "name": "Luxury_Helicopter_A_Rotor",
+      "factory": "[assembly:/templates/aspectdummy.aspect]([modules:/zlinkedentity.class].entitytype,[assembly:/templates/_viewers/animplayeraspect.template?/anim player aspect.entitytemplate].entitytype).pc_entitytype",
+      "blueprint": "[assembly:/templates/aspectdummy.aspect]([modules:/zlinkedentity.class].entitytype,[assembly:/templates/_viewers/animplayeraspect.template?/anim player aspect.entitytemplate].entitytype).pc_entityblueprint",
+      "properties": {
+        "m_ResourceID": {
+          "type": "ZRuntimeResourceID",
+          "value": { "resource": "0091C65A3ACC020D", "flag": "5F" }
+        },
+        "m_mTransform": {
+          "type": "SMatrix43",
+          "value": {
+            "rotation": { "x": 0, "y": 0, "z": 0 },
+            "position": {
+              "x": 0,
+              "y": 0.7373499870300293,
+              "z": 5.275397777557373
+            }
+          }
+        },
+        "m_bVisibleInBoxReflection": { "type": "bool", "value": false },
+        "m_eidParent": {
+          "type": "SEntityTemplateReference",
+          "value": "91a717574bac161d",
+          "postInit": true
+        }
+      }
+    },
+    "1e32e98cd33ebfb5": {
+      "parent": "656b3eaf4d20c89c",
+      "name": "KinematicLinkedPhysics",
+      "factory": "[modules:/zkinematiclinkedphysicsentity.class].pc_entitytype",
+      "blueprint": "[modules:/zkinematiclinkedphysicsentity.class].pc_entityblueprint",
+      "properties": {
+        "m_pLinked": {
+          "type": "SEntityTemplateReference",
+          "value": "8555e82df6b3dc2f"
+        },
+        "m_pCollisionResource": {
+          "type": "ZRuntimeResourceID",
+          "value": { "resource": "00433BFE2A9DA01E", "flag": "5F" }
+        },
+        "m_pOwner": {
+          "type": "SEntityTemplateReference",
+          "value": "8555e82df6b3dc2f"
+        }
+      }
+    },
+    "da337d67142cdff8": {
+      "parent": "b453e70a421f0af8",
+      "name": "EntityTrack_ Luxury_Helicopter_A",
+      "factory": "[modules:/zentitygroup.class].pc_entitytype",
+      "blueprint": "[modules:/zentitygroup.class].pc_entityblueprint",
+      "properties": {
+        "m_aTracksAndGroups": {
+          "type": "TArray<SEntityTemplateReference>",
+          "value": ["7778cf7d10561afc"]
+        },
+        "m_targetEntity": {
+          "type": "SEntityTemplateReference",
+          "value": "dd01390c4e141c21",
+          "postInit": true
+        }
+      }
+    },
+    "fc51280aef5f4417": {
+      "parent": "91a717574bac161d",
+      "name": "SignalLight_Green_Point01",
+      "factory": "[modules:/zlightentity.class].pc_entitytype",
+      "blueprint": "[modules:/zlightentity.class].pc_entityblueprint",
+      "properties": {
+        "m_mTransform": {
+          "type": "SMatrix43",
+          "value": {
+            "rotation": { "x": 0, "y": 0, "z": 0 },
+            "position": {
+              "x": -2.499998092651367,
+              "y": 4.227052211761475,
+              "z": 1.1788350343704224
+            }
+          }
+        },
+        "m_eLightType": {
+          "type": "ILightEntity.ELightType",
+          "value": "LT_OMNI"
+        },
+        "m_fDiffusePower": { "type": "float32", "value": 50 },
+        "m_vBoxSize": {
+          "type": "SVector3",
+          "value": {
+            "x": 6.522520065307617,
+            "y": 6.2584099769592285,
+            "z": 4.682759761810303
+          }
+        },
+        "m_vBoxFadeNeg": {
+          "type": "SVector3",
+          "value": {
+            "x": 0.008684000000357628,
+            "y": 0.004410000052303076,
+            "z": 0.08727259933948517
+          }
+        },
+        "m_diffuseColor": { "type": "SColorRGB", "value": "#b5ff9e" },
+        "m_vFarAttenuation": {
+          "type": "SVector2",
+          "value": { "x": 0.029999999329447746, "y": 0.45091500878334045 }
+        },
+        "m_vAngularAttenuation": {
+          "type": "SVector2",
+          "value": { "x": 0.5734779834747314, "y": 0.8089190125465393 }
+        },
+        "m_vNearAttenuation": {
+          "type": "SVector2",
+          "value": { "x": 0.009999999776482582, "y": 0.019999999552965164 }
+        },
+        "m_bCastShadows": { "type": "bool", "value": false },
+        "m_bEnableLightFade": { "type": "bool", "value": true },
+        "m_fLightFadeDistance": { "type": "float32", "value": 60 },
+        "m_bVisible": { "type": "bool", "value": true },
+        "m_eidParent": {
+          "type": "SEntityTemplateReference",
+          "value": "91a717574bac161d",
+          "postInit": true
+        }
+      }
+    },
+    "30117ac140160718": {
+      "parent": "656b3eaf4d20c89c",
+      "name": "Lerp",
+      "factory": "[modules:/zmathlerp.class].pc_entitytype",
+      "blueprint": "[modules:/zmathlerp.class].pc_entityblueprint",
+      "properties": {
+        "m_B": { "type": "float32", "value": 12 },
+        "m_fT": { "type": "float32", "value": 0 }
+      },
+      "events": { "Lerp": { "SetZAxisSpeed": ["50ad21f9ac5b803d"] } }
+    },
+    "f770bea0219c8c0b": {
+      "parent": "91a717574bac161d",
+      "name": "Luxury_Helicopter_A_Signal_Lights_A01",
+      "factory": "00CA91F575E558B8",
+      "blueprint": "[assembly:/templates/geometrytemplaterigidbody.template?/geomentity01.entitytemplate].pc_entityblueprint",
+      "properties": {
+        "m_mTransform": {
+          "type": "SMatrix43",
+          "value": {
+            "rotation": { "x": 6.20954658498309, "y": 90, "z": 0 },
+            "position": {
+              "x": -0.5418872833251953,
+              "y": 9.072212219238281,
+              "z": 2.5510048866271973
+            }
+          }
+        },
+        "m_bKinematic": { "type": "bool", "value": true },
+        "m_ResourceID": {
+          "type": "ZRuntimeResourceID",
+          "value": { "resource": "00191CCD385CD4DA", "flag": "5F" }
+        },
+        "m_eidParent": {
+          "type": "SEntityTemplateReference",
+          "value": "91a717574bac161d",
+          "postInit": true
+        }
+      }
+    },
+    "e133e2a12c97e31b": {
+      "parent": "91a717574bac161d",
+      "name": "fx_basic_emissive02",
+      "factory": "[assembly:/_pro/effects/materials/basic/fx_basic_emissive.mi].pc_entitytype",
+      "blueprint": "[assembly:/_pro/effects/materials/basic/fx_basic_emissive.mi].pc_entityblueprint",
+      "properties": {
+        "m_mTransform": {
+          "type": "SMatrix43",
+          "value": {
+            "rotation": { "x": 0, "y": 0, "z": -180 },
+            "position": { "x": 0, "y": 0, "z": 0 }
+          }
+        },
+        "ConstantColorRGB_01_Value_op": {
+          "type": "IRenderMaterialEntity.EModifierOperation",
+          "value": "eReplace"
+        },
+        "ConstantColorRGB_01_Value": {
+          "type": "SColorRGB",
+          "value": "#e6f8ff"
+        },
+        "ConstantVector1D_01_Value": { "type": "float32", "value": 0 },
+        "ConstantVector1D_01_Value_op": {
+          "type": "IRenderMaterialEntity.EModifierOperation",
+          "value": "eReplace"
+        },
+        "Clients": {
+          "type": "TArray<SEntityTemplateReference>",
+          "value": ["9a3fdaabebee006c"],
+          "postInit": true
+        },
+        "m_eidParent": {
+          "type": "SEntityTemplateReference",
+          "value": "91a717574bac161d",
+          "postInit": true
+        }
+      }
+    },
+    "6b31bae30dbab76f": {
+      "parent": "656b3eaf4d20c89c",
+      "name": "ValueFloat_RotorSpeed",
+      "factory": "[assembly:/_pro/design/logic/valuefloat.template?/valuefloat_basic.entitytemplate].pc_entitytype",
+      "blueprint": "[assembly:/_pro/design/logic/valuefloat.template?/valuefloat_basic.entitytemplate].pc_entityblueprint",
+      "properties": { "m_fValue": { "type": "float32", "value": 0 } },
+      "events": {
+        "OnValue": {
+          "Time": ["734ba45d44f85a6b"],
+          "Value": ["dea3ca26d546786b"]
+        }
+      }
+    },
+    "f08998391c5fb279": {
+      "parent": "91a717574bac161d",
+      "name": "TimerSimple02",
+      "factory": "[assembly:/_pro/design/logic.template?/timersimple.entitytemplate].pc_entitytype",
+      "blueprint": "[assembly:/_pro/design/logic.template?/timersimple.entitytemplate].pc_entityblueprint",
+      "properties": { "Delay time (ms)": { "type": "int32", "value": 300 } },
+      "events": { "Out": { "Start": ["92818d26730321bf"] } }
+    },
+    "734ba45d44f85a6b": {
+      "parent": "656b3eaf4d20c89c",
+      "name": "Sequence_RotorLift",
+      "factory": "[modules:/zsequenceentity.class].pc_entitytype",
+      "blueprint": "[modules:/zsequenceentity.class].pc_entityblueprint",
+      "properties": {
+        "m_duration": { "type": "ZGameTime", "value": { "m_nTicks": 1048576 } },
+        "m_aTracksAndGroups": {
+          "type": "TArray<SEntityTemplateReference>",
+          "value": ["87ccc3f29eb19476"]
+        },
+        "m_bSaveState": { "type": "bool", "value": false },
+        "m_bPausedOnStart": { "type": "bool", "value": true },
+        "m_sequenceTime": {
+          "type": "ZGameTime",
+          "value": { "m_nTicks": 1048576 }
+        }
+      }
+    },
+    "659dc6887bd072b2": {
+      "parent": "91a717574bac161d",
+      "name": "fx_basic_emissive03",
+      "factory": "[assembly:/_pro/effects/materials/basic/fx_basic_emissive.mi].pc_entitytype",
+      "blueprint": "[assembly:/_pro/effects/materials/basic/fx_basic_emissive.mi].pc_entityblueprint",
+      "properties": {
+        "m_mTransform": {
+          "type": "SMatrix43",
+          "value": {
+            "rotation": { "x": 0, "y": 0, "z": -180 },
+            "position": { "x": 0, "y": 0, "z": 0 }
+          }
+        },
+        "Clients": {
+          "type": "TArray<SEntityTemplateReference>",
+          "value": ["7978b78543a59140"]
+        },
+        "ConstantColorRGB_01_Value_op": {
+          "type": "IRenderMaterialEntity.EModifierOperation",
+          "value": "eReplace"
+        },
+        "ConstantColorRGB_01_Value": {
+          "type": "SColorRGB",
+          "value": "#ff8e7a"
+        },
+        "ConstantVector1D_01_Value": { "type": "float32", "value": 40 },
+        "ConstantVector1D_01_Value_op": {
+          "type": "IRenderMaterialEntity.EModifierOperation",
+          "value": "eReplace"
+        },
+        "m_eidParent": {
+          "type": "SEntityTemplateReference",
+          "value": "91a717574bac161d",
+          "postInit": true
+        }
+      }
+    },
+    "9a3fdaabebee006c": {
+      "parent": "91a717574bac161d",
+      "name": "Luxury_Helicopter_A_Signal_Lights_A04",
+      "factory": "00CA91F575E558B8",
+      "blueprint": "[assembly:/templates/geometrytemplaterigidbody.template?/geomentity01.entitytemplate].pc_entityblueprint",
+      "properties": {
+        "m_mTransform": {
+          "type": "SMatrix43",
+          "value": {
+            "rotation": { "x": 0, "y": 0, "z": 0 },
+            "position": {
+              "x": 0,
+              "y": 1.837934970855713,
+              "z": 5.50219202041626
+            }
+          }
+        },
+        "m_bKinematic": { "type": "bool", "value": true },
+        "m_ResourceID": {
+          "type": "ZRuntimeResourceID",
+          "value": { "resource": "00191CCD385CD4DA", "flag": "5F" }
+        },
+        "m_eidParent": {
+          "type": "SEntityTemplateReference",
+          "value": "91a717574bac161d",
+          "postInit": true
+        }
+      }
+    },
+    "a2ff8fa47a361e3f": {
+      "parent": "91a717574bac161d",
+      "name": "SignalLight_Red_Point",
+      "factory": "[modules:/zlightentity.class].pc_entitytype",
+      "blueprint": "[modules:/zlightentity.class].pc_entityblueprint",
+      "properties": {
+        "m_mTransform": {
+          "type": "SMatrix43",
+          "value": {
+            "rotation": { "x": 0, "y": 0, "z": 0 },
+            "position": {
+              "x": 0.5771036148071289,
+              "y": 9.071125984191895,
+              "z": 2.542370080947876
+            }
+          }
+        },
+        "m_eLightType": {
+          "type": "ILightEntity.ELightType",
+          "value": "LT_OMNI"
+        },
+        "m_fDiffusePower": { "type": "float32", "value": 0 },
+        "m_vBoxSize": {
+          "type": "SVector3",
+          "value": {
+            "x": 6.522520065307617,
+            "y": 6.2584099769592285,
+            "z": 4.682759761810303
+          }
+        },
+        "m_vBoxFadeNeg": {
+          "type": "SVector3",
+          "value": {
+            "x": 0.008684000000357628,
+            "y": 0.004410000052303076,
+            "z": 0.08727259933948517
+          }
+        },
+        "m_diffuseColor": { "type": "SColorRGB", "value": "#ff8e7a" },
+        "m_vFarAttenuation": {
+          "type": "SVector2",
+          "value": { "x": 0.04728839918971062, "y": 2.3863699436187744 }
+        },
+        "m_vAngularAttenuation": {
+          "type": "SVector2",
+          "value": { "x": 0.5734779834747314, "y": 0.8089190125465393 }
+        },
+        "m_vNearAttenuation": {
+          "type": "SVector2",
+          "value": { "x": 0.009999999776482582, "y": 0.019999999552965164 }
+        },
+        "m_bCastShadows": { "type": "bool", "value": false },
+        "m_bEnableLightFade": { "type": "bool", "value": true },
+        "m_fLightFadeDistance": { "type": "float32", "value": 60 },
+        "m_bVisible": { "type": "bool", "value": true },
+        "m_eidParent": {
+          "type": "SEntityTemplateReference",
+          "value": "91a717574bac161d",
+          "postInit": true
+        }
+      }
+    },
+    "1463d8ca402039f": {
+      "parent": "656b3eaf4d20c89c",
+      "name": "GameEventListener",
+      "factory": "[modules:/zgameeventlistenerentity.class].pc_entitytype",
+      "blueprint": "[modules:/zgameeventlistenerentity.class].pc_entityblueprint",
+      "events": { "EventOccurred": { "Start": ["734ba45d44f85a6b"] } }
+    },
+    "859386505aa141b5": {
+      "parent": "656b3eaf4d20c89c",
+      "name": "Luxury_Helicopter_A_RotorBlur",
+      "factory": "00CB8026D44C4FB2",
+      "blueprint": "[assembly:/templates/geometrytemplatenocoll.template?/geomentity01.entitytemplate].pc_entityblueprint",
+      "properties": {
+        "m_mTransform": {
+          "type": "SMatrix43",
+          "value": {
+            "rotation": { "x": 0, "y": 0, "z": 0 },
+            "position": { "x": 0, "y": 0, "z": -0.15000000596046448 }
+          }
+        },
+        "m_eidParent": {
+          "type": "SEntityTemplateReference",
+          "value": "8555e82df6b3dc2f"
+        },
+        "m_bCastShadows": { "type": "bool", "value": true }
+      }
+    },
+    "2dc72535d1edbdcd": {
+      "parent": "656b3eaf4d20c89c",
+      "name": "Lerp04",
+      "factory": "[modules:/zmathlerp.class].pc_entitytype",
+      "blueprint": "[modules:/zmathlerp.class].pc_entityblueprint",
+      "properties": {
+        "m_B": { "type": "float32", "value": -8 },
+        "m_fT": { "type": "float32", "value": 0 }
+      },
+      "events": { "Lerp": { "SetXAxisSpeed": ["a213a251859213a4"] } }
+    },
+    "13edefc73958c7a0": {
+      "parent": "91a717574bac161d",
+      "name": "WaveformGenerator",
+      "factory": "[modules:/zwaveformgeneratorentity.class].pc_entitytype",
+      "blueprint": "[modules:/zwaveformgeneratorentity.class].pc_entityblueprint",
+      "properties": {
+        "m_eCurveType": {
+          "type": "ZWaveformGeneratorEntity.ECurveType",
+          "value": "CURVE_TYPE_REVERSE_SAWTOOTH"
+        },
+        "m_nLoopCount": { "type": "uint32", "value": 1 },
+        "m_bInitiallyActive": { "type": "bool", "value": false },
+        "m_fScale": { "type": "float32", "value": 1 },
+        "m_fFrequency": { "type": "float32", "value": 6.5 },
+        "m_nValuesPrSec": { "type": "uint32", "value": 60 },
+        "m_rUpdateCondition": {
+          "type": "SEntityTemplateReference",
+          "value": "9b24aad16d5ace65",
+          "postInit": true
+        }
+      },
+      "events": { "Value": { "A": ["9551676c081878fb"] } }
+    },
+    "dd642678a220b2e6": {
+      "parent": "656b3eaf4d20c89c",
+      "name": "WaveformGenerator",
+      "factory": "[modules:/zwaveformgeneratorentity.class].pc_entitytype",
+      "blueprint": "[modules:/zwaveformgeneratorentity.class].pc_entityblueprint",
+      "properties": {
+        "m_bInitiallyActive": { "type": "bool", "value": false },
+        "m_eCurveType": {
+          "type": "ZWaveformGeneratorEntity.ECurveType",
+          "value": "CURVE_TYPE_SAWTOOTH"
+        },
+        "m_nLoopCount": { "type": "uint32", "value": 1 },
+        "m_fScale": { "type": "float32", "value": 1 },
+        "m_fFrequency": { "type": "float32", "value": 0.019999999552965164 },
+        "m_nValuesPrSec": { "type": "uint32", "value": 60 }
+      },
+      "events": { "Value": { "A": ["a85c867393b2aca6"] } }
+    },
+    "5af0b742422cf0da": {
+      "parent": "91a717574bac161d",
+      "name": "FX_Logic_ShotActivate_Simple02",
+      "factory": "[assembly:/_pro/effects/templates/logic/fx_logic_shotactivate.template?/fx_logic_shotactivate_simple.entitytemplate].pc_entitytype",
+      "blueprint": "[assembly:/_pro/effects/templates/logic/fx_logic_shotactivate.template?/fx_logic_shotactivate_simple.entitytemplate].pc_entityblueprint",
+      "properties": {
+        "m_Listener": {
+          "type": "TArray<SEntityTemplateReference>",
+          "value": ["7978b78543a59140"]
+        },
+        "OutputBoolType": { "type": "bool", "value": false }
+      },
+      "events": {
+        "BoolValue": {
+          "SetVisible": ["79a427d32973516c", "c06efa91e17c0bfb"],
+          "SetInPhysicsWorld": ["7978b78543a59140"]
+        },
+        "FloatValue": { "ConstantVector1D_01_Value": ["659dc6887bd072b2"] }
+      }
+    },
+    "69faecbf6ef7db5a": {
+      "parent": "91a717574bac161d",
+      "name": "ValueBool_SignalLightsActive",
+      "factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entitytype",
+      "blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entityblueprint"
+    },
+    "a85c867393b2aca6": {
+      "parent": "656b3eaf4d20c89c",
+      "name": "CutSceneOverride",
+      "factory": "[modules:/zmathlerp.class].pc_entitytype",
+      "blueprint": "[modules:/zmathlerp.class].pc_entityblueprint",
+      "properties": {
+        "m_B": { "type": "float32", "value": 1 },
+        "m_fT": { "type": "float32", "value": 0 }
+      },
+      "events": {
+        "Lerp": {
+          "Input": ["31c121c783d1f764"],
+          "T": ["30117ac140160718", "2dc72535d1edbdcd"],
+          "SetValue": ["6b31bae30dbab76f"]
+        }
+      }
+    },
+    "95073bf66effc458": {
+      "parent": "91a717574bac161d",
+      "name": "SignalLight_Green_Spot01",
+      "factory": "[modules:/zlightentity.class].pc_entitytype",
+      "blueprint": "[modules:/zlightentity.class].pc_entityblueprint",
+      "properties": {
+        "m_mTransform": {
+          "type": "SMatrix43",
+          "value": {
+            "rotation": { "x": 0, "y": 70.17017852761494, "z": -180 },
+            "position": {
+              "x": -2.729794979095459,
+              "y": 4.242558002471924,
+              "z": 1.1769009828567505
+            }
+          }
+        },
+        "m_eLightType": {
+          "type": "ILightEntity.ELightType",
+          "value": "LT_SPOT"
+        },
+        "m_fDiffusePower": { "type": "float32", "value": 1 },
+        "m_vBoxSize": {
+          "type": "SVector3",
+          "value": {
+            "x": 6.522520065307617,
+            "y": 6.2584099769592285,
+            "z": 4.682759761810303
+          }
+        },
+        "m_vBoxFadeNeg": {
+          "type": "SVector3",
+          "value": {
+            "x": 0.008684000000357628,
+            "y": 0.004410000052303076,
+            "z": 0.08727259933948517
+          }
+        },
+        "m_diffuseColor": { "type": "SColorRGB", "value": "#b5ff9e" },
+        "m_vFarAttenuation": {
+          "type": "SVector2",
+          "value": { "x": 0.5710880160331726, "y": 12.223400115966797 }
+        },
+        "m_vAngularAttenuation": {
+          "type": "SVector2",
+          "value": { "x": 0.39093801379203796, "y": 1.511299967765808 }
+        },
+        "m_vNearAttenuation": {
+          "type": "SVector2",
+          "value": { "x": 0.022306200116872787, "y": 0.49868500232696533 }
+        },
+        "m_bCastShadows": { "type": "bool", "value": false },
+        "m_bEnableLightFade": { "type": "bool", "value": true },
+        "m_fLightFadeDistance": { "type": "float32", "value": 60 },
+        "m_bVisible": { "type": "bool", "value": true },
+        "m_ProjectorMap": {
+          "type": "ZRuntimeResourceID",
+          "value": {
+            "resource": "[assembly:/_pro/effects/textures/projections/fx_projection_2d_halogenspotdiffraction.texture?/diffuse_a.tex](ascolormap).pc_tex",
+            "flag": "5F"
+          }
+        },
+        "m_eidParent": {
+          "type": "SEntityTemplateReference",
+          "value": "91a717574bac161d",
+          "postInit": true
+        }
+      }
+    },
+    "73213e428657d43e": {
+      "parent": "3571d3dbea2a515c",
+      "name": "EntityTrack_ Luxury_Helicopter_A",
+      "factory": "[modules:/zentitygroup.class].pc_entitytype",
+      "blueprint": "[modules:/zentitygroup.class].pc_entityblueprint",
+      "properties": {
+        "m_targetEntity": {
+          "type": "SEntityTemplateReference",
+          "value": "dd01390c4e141c21",
+          "postInit": true
+        },
+        "m_aTracksAndGroups": {
+          "type": "TArray<SEntityTemplateReference>",
+          "value": ["84687ed0f94c1aa9"],
+          "postInit": true
+        }
+      }
+    },
+    "4658231ccc6c500a": {
+      "parent": "656b3eaf4d20c89c",
+      "name": "ValueFloat_Get01",
+      "factory": "[assembly:/_pro/design/logic/valuefloat.template?/valuefloat_get.entitytemplate].pc_entitytype",
+      "blueprint": "[assembly:/_pro/design/logic/valuefloat.template?/valuefloat_get.entitytemplate].pc_entityblueprint",
+      "properties": { "m_fValue": { "type": "float32", "value": 0 } },
+      "events": {
+        "Value": {
+          "T": ["a85c867393b2aca6"],
+          "SetZAxisSpeed": ["50ad21f9ac5b803d"],
+          "SetXAxisSpeed": ["a213a251859213a4"]
+        }
+      }
+    },
+    "3571d3dbea2a515c": {
+      "parent": "91a717574bac161d",
+      "name": "Luxury_Helicopter_Door_Opening",
+      "factory": "[modules:/zsequenceentity.class].pc_entitytype",
+      "blueprint": "[modules:/zsequenceentity.class].pc_entityblueprint",
+      "properties": {
+        "m_duration": { "type": "ZGameTime", "value": { "m_nTicks": 419430 } },
+        "m_aTracksAndGroups": {
+          "type": "TArray<SEntityTemplateReference>",
+          "value": ["73213e428657d43e", "a2638b74d8f5e320"],
+          "postInit": true
+        }
+      },
+      "outputCopying": { "Stopped": { "Start_ExitCut": ["91a717574bac161d"] } }
+    },
+    "64ab00144e8b6dec": {
+      "parent": "fca9ba7ecbd2d21e",
+      "name": "PFBox",
+      "factory": "[modules:/zpfobstacleentity.class].pc_entitytype",
+      "blueprint": "[modules:/zpfobstacleentity.class].pc_entityblueprint",
+      "properties": {
+        "m_mTransform": {
+          "type": "SMatrix43",
+          "value": {
+            "rotation": { "x": 0, "y": 0, "z": 0 },
+            "position": {
+              "x": -0.024400999769568443,
+              "y": -1.9582459926605225,
+              "z": 0.2933349907398224
+            }
+          }
+        },
+        "m_vGlobalSize": {
+          "type": "SVector3",
+          "value": { "x": 3.8745100498199463, "y": 5.517429828643799, "z": 1 }
+        },
+        "m_bEnabled": { "type": "bool", "value": true },
+        "m_eidParent": {
+          "type": "SEntityTemplateReference",
+          "value": "dd01390c4e141c21",
+          "postInit": true
+        }
+      }
+    },
+    "a398c988dc92261d": {
+      "parent": "656b3eaf4d20c89c",
+      "name": "Lerp01",
+      "factory": "[modules:/zmathlerp.class].pc_entitytype",
+      "blueprint": "[modules:/zmathlerp.class].pc_entityblueprint",
+      "properties": {
+        "m_B": { "type": "float32", "value": 3 },
+        "m_fT": { "type": "float32", "value": 0 }
+      },
+      "events": {
+        "Lerp": { "ConstantVector1D_01_Value": ["7dbcc306aa785e50"] }
+      }
+    },
+    "4032da52c092e14c": {
+      "parent": "91a717574bac161d",
+      "name": "InPhysicsWorldInverted",
+      "factory": "[modules:/zlogicnotentity.class].pc_entitytype",
+      "blueprint": "[modules:/zlogicnotentity.class].pc_entityblueprint",
+      "events": {
+        "Invert": {
+          "SetInPhysicsWorld": [
+            "9e6038346dbf3de8",
+            "f770bea0219c8c0b",
+            "7e1aed857f0c853",
+            "9a3fdaabebee006c",
+            "748ace701ea2f8dc",
+            "7978b78543a59140",
+            "dd01390c4e141c21"
+          ]
+        }
+      }
+    },
+    "9e6038346dbf3de8": {
+      "parent": "91a717574bac161d",
+      "name": "Luxury_Helicopter_A_Lamps",
+      "factory": "0030DF82EAB076DF",
+      "blueprint": "[assembly:/templates/geometrytemplaterigidbody.template?/geomentity01.entitytemplate].pc_entityblueprint",
+      "properties": {
+        "m_mTransform": {
+          "type": "SMatrix43",
+          "value": {
+            "rotation": { "x": 0, "y": 0, "z": -180 },
+            "position": { "x": -0.00015068049833644181, "y": 0, "z": 0 }
+          }
+        },
+        "m_bKinematic": { "type": "bool", "value": true },
+        "m_ResourceID": {
+          "type": "ZRuntimeResourceID",
+          "value": { "resource": "00ED7893015B6D70", "flag": "5F" }
+        },
+        "m_eidParent": {
+          "type": "SEntityTemplateReference",
+          "value": "91a717574bac161d",
+          "postInit": true
+        }
+      }
+    },
+    "f36e2a2da2c51c19": {
+      "parent": "dd01390c4e141c21",
+      "name": "DarkLight",
+      "factory": "[modules:/zdarklightentity.class].pc_entitytype",
+      "blueprint": "[modules:/zdarklightentity.class].pc_entityblueprint",
+      "properties": {
+        "m_diffuseColor": { "type": "SColorRGB", "value": "#ffffff" },
+        "m_eLightType": {
+          "type": "ILightEntity.ELightType",
+          "value": "LT_ENVIRONMENT"
+        },
+        "m_vBoxSize": {
+          "type": "SVector3",
+          "value": {
+            "x": 6.461480140686035,
+            "y": 20.410499572753906,
+            "z": 1.8537299633026123
+          }
+        },
+        "m_mTransform": {
+          "type": "SMatrix43",
+          "value": {
+            "rotation": { "x": 0, "y": 0, "z": 0 },
+            "position": {
+              "x": -0.1322346031665802,
+              "y": 2.1734750270843506,
+              "z": 0.7087820172309875
+            }
+          }
+        },
+        "m_vBoxFadePos": {
+          "type": "SVector3",
+          "value": {
+            "x": 2.006309986114502,
+            "y": 8.716050148010254,
+            "z": 0.8728079795837402
+          }
+        },
+        "m_vBoxFadeNeg": {
+          "type": "SVector3",
+          "value": { "x": 2.186350107192993, "y": 2.5469400882720947, "z": 0 }
+        },
+        "m_fDiffusePower": { "type": "float32", "value": 0.800000011920929 },
+        "m_bEnableLightFade": { "type": "bool", "value": true },
+        "m_fLightFadeDistance": { "type": "float32", "value": 50 },
+        "m_eidParent": {
+          "type": "SEntityTemplateReference",
+          "value": "dd01390c4e141c21",
+          "postInit": true
+        }
+      }
+    },
+    "c06efa91e17c0bfb": {
+      "parent": "91a717574bac161d",
+      "name": "SignalLight_RED_Spot",
+      "factory": "[modules:/zlightentity.class].pc_entitytype",
+      "blueprint": "[modules:/zlightentity.class].pc_entityblueprint",
+      "properties": {
+        "m_mTransform": {
+          "type": "SMatrix43",
+          "value": {
+            "rotation": { "x": 0, "y": 70.17017852761494, "z": 0 },
+            "position": {
+              "x": 2.6946470737457275,
+              "y": 4.242558002471924,
+              "z": 1.1769009828567505
+            }
+          }
+        },
+        "m_eLightType": {
+          "type": "ILightEntity.ELightType",
+          "value": "LT_SPOT"
+        },
+        "m_fDiffusePower": { "type": "float32", "value": 1 },
+        "m_vBoxSize": {
+          "type": "SVector3",
+          "value": {
+            "x": 6.522520065307617,
+            "y": 6.2584099769592285,
+            "z": 4.682759761810303
+          }
+        },
+        "m_vBoxFadeNeg": {
+          "type": "SVector3",
+          "value": {
+            "x": 0.008684000000357628,
+            "y": 0.004410000052303076,
+            "z": 0.08727259933948517
+          }
+        },
+        "m_diffuseColor": { "type": "SColorRGB", "value": "#ff8e7a" },
+        "m_vFarAttenuation": {
+          "type": "SVector2",
+          "value": { "x": 0.5710880160331726, "y": 8.977250099182129 }
+        },
+        "m_vAngularAttenuation": {
+          "type": "SVector2",
+          "value": { "x": 0.09150239825248718, "y": 1.511299967765808 }
+        },
+        "m_vNearAttenuation": {
+          "type": "SVector2",
+          "value": { "x": 0.022306200116872787, "y": 0.49868500232696533 }
+        },
+        "m_bCastShadows": { "type": "bool", "value": false },
+        "m_bEnableLightFade": { "type": "bool", "value": true },
+        "m_fLightFadeDistance": { "type": "float32", "value": 60 },
+        "m_bVisible": { "type": "bool", "value": true },
+        "m_ProjectorMap": {
+          "type": "ZRuntimeResourceID",
+          "value": {
+            "resource": "[assembly:/_pro/effects/textures/projections/fx_projection_2d_halogenspotdiffraction.texture?/diffuse_a.tex](ascolormap).pc_tex",
+            "flag": "5F"
+          }
+        },
+        "m_eidParent": {
+          "type": "SEntityTemplateReference",
+          "value": "91a717574bac161d",
+          "postInit": true
+        }
+      }
+    },
+    "a2638b74d8f5e320": {
+      "parent": "3571d3dbea2a515c",
+      "name": "Event Track",
+      "factory": "[modules:/zeventtrack.class].pc_entitytype",
+      "blueprint": "[modules:/zeventtrack.class].pc_entityblueprint",
+      "properties": {
+        "m_aItems": { "type": "TArray<SEntityTemplateReference>", "value": [] }
+      }
+    },
+    "13544ff829e2ab1c": {
+      "parent": "66dfef45367dcd9c",
+      "name": "BoneResourceItem",
+      "factory": "[modules:/zmorphemebonesource.class].pc_entitytype",
+      "blueprint": "[modules:/zmorphemebonesource.class].pc_entityblueprint",
+      "properties": {
+        "m_startTime": { "type": "ZGameTime", "value": { "m_nTicks": 0 } },
+        "m_duration": { "type": "ZGameTime", "value": { "m_nTicks": 1048576 } },
+        "m_animationResourceID": {
+          "type": "ZRuntimeResourceID",
+          "value": {
+            "resource": "[assembly:/_pro/vehicles/geometry/luxury_helicopter_a/luxury_helicopter_a_rotoranim.xmd?/rotorstartup.xmdtake](cutsequence).pc_animation",
+            "flag": "5F"
+          }
+        }
+      }
+    },
+    "92818d26730321bf": {
+      "parent": "91a717574bac161d",
+      "name": "WaveformGenerator01",
+      "factory": "[modules:/zwaveformgeneratorentity.class].pc_entitytype",
+      "blueprint": "[modules:/zwaveformgeneratorentity.class].pc_entityblueprint",
+      "properties": {
+        "m_eCurveType": {
+          "type": "ZWaveformGeneratorEntity.ECurveType",
+          "value": "CURVE_TYPE_REVERSE_SAWTOOTH"
+        },
+        "m_nLoopCount": { "type": "uint32", "value": 1 },
+        "m_bInitiallyActive": { "type": "bool", "value": false },
+        "m_fScale": { "type": "float32", "value": 1 },
+        "m_fFrequency": { "type": "float32", "value": 8 },
+        "m_nValuesPrSec": { "type": "uint32", "value": 60 },
+        "m_rUpdateCondition": {
+          "type": "SEntityTemplateReference",
+          "value": "ba42b72ede245ccc"
+        }
+      },
+      "events": { "Value": { "A": ["2a58c41e09b0cd60"] } }
+    },
+    "9b24aad16d5ace65": {
+      "parent": "91a717574bac161d",
+      "name": "ValueBool_Operation",
+      "factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_operation.entitytemplate].pc_entitytype",
+      "blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_operation.entitytemplate].pc_entityblueprint",
+      "properties": {
+        "m_aValues": {
+          "type": "TArray<SEntityTemplateReference>",
+          "value": ["69faecbf6ef7db5a", "b32dc5ece13a3c2c"],
+          "postInit": true
+        }
+      }
+    },
+    "f19080a6b7383788": {
+      "parent": "fca9ba7ecbd2d21e",
+      "name": "PFBox01",
+      "factory": "[modules:/zpfobstacleentity.class].pc_entitytype",
+      "blueprint": "[modules:/zpfobstacleentity.class].pc_entityblueprint",
+      "properties": {
+        "m_mTransform": {
+          "type": "SMatrix43",
+          "value": {
+            "rotation": { "x": 0, "y": 0, "z": 0 },
+            "position": {
+              "x": 0.01029600016772747,
+              "y": -5.605477809906006,
+              "z": 0.2933349907398224
+            }
+          }
+        },
+        "m_vGlobalSize": {
+          "type": "SVector3",
+          "value": { "x": 2.572819948196411, "y": 2.068269968032837, "z": 1 }
+        },
+        "m_bEnabled": { "type": "bool", "value": true },
+        "m_eidParent": {
+          "type": "SEntityTemplateReference",
+          "value": "dd01390c4e141c21",
+          "postInit": true
+        }
+      }
+    },
+    "b834953aa9dab78d": {
+      "parent": "dd01390c4e141c21",
+      "name": "CollisionBox",
+      "factory": "[assembly:/templates/physics/collisionvolumes.template?/collisionbox.entitytemplate].pc_entitytype",
+      "blueprint": "[assembly:/templates/physics/collisionvolumes.template?/collisionbox.entitytemplate].pc_entityblueprint",
+      "properties": {
+        "m_mTransform": {
+          "type": "SMatrix43",
+          "value": {
+            "rotation": { "x": 0, "y": 0, "z": 0 },
+            "position": {
+              "x": 0.005547999870032072,
+              "y": 5.801294803619385,
+              "z": 1.7435810565948486
+            }
+          }
+        },
+        "m_vBoxSize": {
+          "type": "SVector3",
+          "value": {
+            "x": 2.842740058898926,
+            "y": 2.7402100563049316,
+            "z": 1.8168100118637085
+          }
+        },
+        "m_bCollideCamera": { "type": "bool", "value": true },
+        "m_eidParent": {
+          "type": "SEntityTemplateReference",
+          "value": "dd01390c4e141c21",
+          "postInit": true
+        }
+      }
+    },
+    "dd01390c4e141c21": {
+      "parent": "91a717574bac161d",
+      "name": "Luxury_Helicopter_A",
+      "factory": "[assembly:/templates/aspectdummy.aspect]([modules:/zlinkedentity.class].entitytype,[assembly:/templates/_viewers/animplayeraspect.template?/anim player aspect.entitytemplate].entitytype,[modules:/zworldmapmarkerentity.class].entitytype).pc_entitytype",
+      "blueprint": "[assembly:/templates/aspectdummy.aspect]([modules:/zlinkedentity.class].entitytype,[assembly:/templates/_viewers/animplayeraspect.template?/anim player aspect.entitytemplate].entitytype,[modules:/zworldmapmarkerentity.class].entitytype).pc_entityblueprint",
+      "properties": {
+        "m_ResourceID": {
+          "type": "ZRuntimeResourceID",
+          "value": { "resource": "00BEF4B3E5F18248", "flag": "5F" }
+        },
+        "m_mTransform": {
+          "type": "SMatrix43",
+          "value": {
+            "rotation": { "x": 0, "y": 0, "z": 0 },
+            "position": { "x": 0, "y": -22.58746910095215, "z": 0 }
+          }
+        },
+        "m_aData": {
+          "type": "TArray<SMapMarkerData>",
+          "value": [
+            {
+              "pathPoints": [
+                { "x": -0.000023499100279877894, "y": 14.197199821472168 },
+                { "x": 0.12862899899482727, "y": 14.13759994506836 },
+                { "x": 0.27390798926353455, "y": 13.967399597167969 },
+                { "x": 0.35139000415802, "y": 13.747599601745605 },
+                { "x": 0.3869839906692505, "y": 13.51159954071045 },
+                { "x": 0.40393298864364624, "y": 13.355600357055664 },
+                { "x": 0.40393298864364624, "y": 13.118000030517578 },
+                { "x": 0.39590299129486084, "y": 12.84689998626709 },
+                { "x": 0.4321019947528839, "y": 12.818499565124512 },
+                { "x": 0.4957819879055023, "y": 12.677599906921387 },
+                { "x": 0.4321019947528839, "y": 12.537099838256836 },
+                { "x": 0.39590299129486084, "y": 12.508299827575684 },
+                { "x": 0.40393298864364624, "y": 11.778800010681152 },
+                { "x": 0.3730210065841675, "y": 11.602700233459473 },
+                { "x": 0.4144029915332794, "y": 10.803199768066406 },
+                { "x": 1.227139949798584, "y": 10.801799774169922 },
+                { "x": 1.2427599430084229, "y": 11.024100303649902 },
+                { "x": 1.2530100345611572, "y": 11.078100204467773 },
+                { "x": 1.2640700340270996, "y": 11.093199729919434 },
+                { "x": 1.2750400304794312, "y": 11.078100204467773 },
+                { "x": 1.2853699922561646, "y": 11.024100303649902 },
+                { "x": 1.296839952468872, "y": 10.842399597167969 },
+                { "x": 1.3178199529647827, "y": 10.433699607849121 },
+                { "x": 1.3065999746322632, "y": 10.15719985961914 },
+                { "x": 1.2875499725341797, "y": 10.056500434875488 },
+                { "x": 1.2640700340270996, "y": 10.041299819946289 },
+                { "x": 1.2404999732971191, "y": 10.056500434875488 },
+                { "x": 1.2215299606323242, "y": 10.15719985961914 },
+                { "x": 1.2208000421524048, "y": 10.204400062561035 },
+                { "x": 0.4448539912700653, "y": 10.209500312805176 },
+                { "x": 0.49481400847435, "y": 9.227100372314453 },
+                { "x": 0.5358150005340576, "y": 8.445099830627441 },
+                { "x": 0.8103929758071899, "y": 8.383560180664062 },
+                { "x": 1.2020000219345093, "y": 8.223939895629883 },
+                { "x": 1.2776299715042114, "y": 8.13539981842041 },
+                { "x": 1.336459994316101, "y": 7.975780010223389 },
+                { "x": 1.3582600355148315, "y": 7.869800090789795 },
+                { "x": 1.4304900169372559, "y": 7.274419784545898 },
+                { "x": 1.486340045928955, "y": 6.690889835357666 },
+                { "x": 1.489490032196045, "y": 5.691679954528809 },
+                { "x": 1.6150799989700317, "y": 5.496180057525635 },
+                { "x": 1.6518800258636475, "y": 5.164430141448975 },
+                { "x": 1.6681900024414062, "y": 5.1226301193237305 },
+                { "x": 1.7648799419403076, "y": 5.066679954528809 },
+                { "x": 1.9866700172424316, "y": 4.89355993270874 },
+                { "x": 2.1095099449157715, "y": 4.757959842681885 },
+                { "x": 2.194499969482422, "y": 4.605249881744385 },
+                { "x": 2.2116100788116455, "y": 4.484789848327637 },
+                { "x": 2.169879913330078, "y": 4.398560047149658 },
+                { "x": 1.8551599979400635, "y": 3.988490104675293 },
+                { "x": 1.7849700450897217, "y": 3.5309998989105225 },
+                { "x": 1.7973899841308594, "y": 2.8092598915100098 },
+                { "x": 7.194349765777588, "y": 8.138919830322266 },
+                { "x": 7.233749866485596, "y": 8.17199993133545 },
+                { "x": 7.588129997253418, "y": 8.403010368347168 },
+                { "x": 7.850570201873779, "y": 8.194319725036621 },
+                { "x": 7.967319965362549, "y": 8.010930061340332 },
+                { "x": 7.652339935302734, "y": 7.6082000732421875 },
+                { "x": 7.6143999099731445, "y": 7.565159797668457 },
+                { "x": 1.9801299571990967, "y": 1.9400399923324585 },
+                { "x": 1.8024100065231323, "y": 1.8607699871063232 },
+                { "x": 1.8119299411773682, "y": -0.5221049785614014 },
+                { "x": 1.7157299518585205, "y": -0.7242199778556824 },
+                { "x": 7.396790027618408, "y": -6.457240104675293 },
+                { "x": 7.429870128631592, "y": -6.496640205383301 },
+                { "x": 7.660880088806152, "y": -6.851019859313965 },
+                { "x": 7.452189922332764, "y": -7.113460063934326 },
+                { "x": 7.268809795379639, "y": -7.230209827423096 },
+                { "x": 6.866079807281494, "y": -6.915229797363281 },
+                { "x": 6.8230299949646, "y": -6.877289772033691 },
+                { "x": 1.7083100080490112, "y": -1.7609200477600098 },
+                { "x": 1.5088599920272827, "y": -1.7477699518203735 },
+                { "x": 1.509909987449646, "y": -2.355989933013916 },
+                { "x": 1.5154000520706177, "y": -2.370800018310547 },
+                { "x": 1.5162899494171143, "y": -2.5376598834991455 },
+                { "x": 1.4891200065612793, "y": -3.4891200065612793 },
+                { "x": 1.4693100452423096, "y": -3.672139883041382 },
+                { "x": 1.4623700380325317, "y": -3.8676400184631348 },
+                { "x": 1.4329500198364258, "y": -4.421219825744629 },
+                { "x": 1.3995000123977661, "y": -4.880680084228516 },
+                { "x": 1.3265399932861328, "y": -5.418789863586426 },
+                { "x": 1.1625299453735352, "y": -6.265289783477783 },
+                { "x": 0.9614019989967346, "y": -6.683929920196533 },
+                { "x": 0.7976400256156921, "y": -6.9149699211120605 },
+                { "x": 0.6100689768791199, "y": -7.0986199378967285 },
+                { "x": 0.44759801030158997, "y": -7.206900119781494 },
+                { "x": 0.25728198885917664, "y": -7.311890125274658 },
+                { "x": 0.10159099847078323, "y": -7.358630180358887 },
+                { "x": -0.000023335200239671394, "y": -7.371789932250977 },
+                { "x": -0.10171899944543839, "y": -7.358630180358887 },
+                { "x": -0.2574099898338318, "y": -7.311890125274658 },
+                { "x": -0.44764500856399536, "y": -7.206900119781494 },
+                { "x": -0.6101149916648865, "y": -7.0986199378967285 },
+                { "x": -0.7976869940757751, "y": -6.9149699211120605 },
+                { "x": -0.961529016494751, "y": -6.683929920196533 },
+                { "x": -1.1622600555419922, "y": -6.265289783477783 },
+                { "x": -1.3255300521850586, "y": -5.41648006439209 },
+                { "x": -1.4000300168991089, "y": -4.880680084228516 },
+                { "x": -1.4351799488067627, "y": -4.399499893188477 },
+                { "x": -1.462499976158142, "y": -3.6866300106048584 },
+                { "x": -1.4763799905776978, "y": -3.5859100818634033 },
+                { "x": -1.4857499599456787, "y": -3.506269931793213 },
+                { "x": -1.5150400400161743, "y": -2.4576900005340576 },
+                { "x": -1.515529990196228, "y": -2.370800018310547 },
+                { "x": -1.494379997253418, "y": -2.355989933013916 },
+                { "x": -1.5072100162506104, "y": -2.1792500019073486 },
+                { "x": -1.4917999505996704, "y": -1.4282000064849854 },
+                { "x": -1.5089900493621826, "y": -1.411080002784729 },
+                { "x": -1.5102200508117676, "y": -1.0466599464416504 },
+                { "x": -7.19936990737915, "y": -6.659679889678955 },
+                { "x": -7.238770008087158, "y": -6.692759990692139 },
+                { "x": -7.5931501388549805, "y": -6.923769950866699 },
+                { "x": -7.855589866638184, "y": -6.7150797843933105 },
+                { "x": -7.972340106964111, "y": -6.531700134277344 },
+                { "x": -7.657360076904297, "y": -6.128970146179199 },
+                { "x": -7.619420051574707, "y": -6.0859198570251465 },
+                { "x": -1.9927899837493896, "y": -0.4578939974308014 },
+                { "x": -1.8106900453567505, "y": -0.38061800599098206 },
+                { "x": -1.8012200593948364, "y": 2.257689952850342 },
+                { "x": -7.401810169219971, "y": 7.9364800453186035 },
+                { "x": -7.434889793395996, "y": 7.975880146026611 },
+                { "x": -7.665900230407715, "y": 8.330260276794434 },
+                { "x": -7.457210063934326, "y": 8.592700004577637 },
+                { "x": -7.273829936981201, "y": 8.709449768066406 },
+                { "x": -6.871099948883057, "y": 8.39447021484375 },
+                { "x": -6.828050136566162, "y": 8.35653018951416 },
+                { "x": -1.7873799800872803, "y": 3.311729907989502 },
+                { "x": -1.7850199937820435, "y": 3.5309998989105225 },
+                { "x": -1.8573499917984009, "y": 3.9960899353027344 },
+                { "x": -2.1700100898742676, "y": 4.398560047149658 },
+                { "x": -2.2116599082946777, "y": 4.484789848327637 },
+                { "x": -2.194550037384033, "y": 4.605249881744385 },
+                { "x": -2.109639883041382, "y": 4.757959842681885 },
+                { "x": -1.9867199659347534, "y": 4.89355993270874 },
+                { "x": -1.7649999856948853, "y": 5.066679954528809 },
+                { "x": -1.6520400047302246, "y": 5.1359100341796875 },
+                { "x": -1.6520099639892578, "y": 5.164430141448975 },
+                { "x": -1.6151200532913208, "y": 5.496180057525635 },
+                { "x": -1.4906100034713745, "y": 5.688350200653076 },
+                { "x": -1.4831600189208984, "y": 6.690889835357666 },
+                { "x": -1.4305399656295776, "y": 7.274419784545898 },
+                { "x": -1.3583799600601196, "y": 7.869800090789795 },
+                { "x": -1.3365099430084229, "y": 7.975780010223389 },
+                { "x": -1.277750015258789, "y": 8.13539981842041 },
+                { "x": -1.202049970626831, "y": 8.223939895629883 },
+                { "x": -0.8105199933052063, "y": 8.383560180664062 },
+                { "x": -0.5357000231742859, "y": 8.445099830627441 },
+                { "x": -0.4940530061721802, "y": 9.227100372314453 },
+                { "x": -0.44276198744773865, "y": 10.20989990234375 },
+                { "x": -1.2179800271987915, "y": 10.203399658203125 },
+                { "x": -1.2215800285339355, "y": 10.15719985961914 },
+                { "x": -1.2403000593185425, "y": 10.062100410461426 },
+                { "x": -1.2641099691390991, "y": 10.046899795532227 },
+                { "x": -1.2879999876022339, "y": 10.062100410461426 },
+                { "x": -1.3066500425338745, "y": 10.15719985961914 },
+                { "x": -1.3179500102996826, "y": 10.433699607849121 },
+                { "x": -1.2982499599456787, "y": 10.832200050354004 },
+                { "x": -1.2854199409484863, "y": 11.024100303649902 },
+                { "x": -1.2750099897384644, "y": 11.08329963684082 },
+                { "x": -1.2641099691390991, "y": 11.093199729919434 },
+                { "x": -1.2532199621200562, "y": 11.08329963684082 },
+                { "x": -1.2428100109100342, "y": 11.024100303649902 },
+                { "x": -1.2313499450683594, "y": 10.842399597167969 },
+                { "x": -1.2283300161361694, "y": 10.804300308227539 },
+                { "x": -0.4127579927444458, "y": 10.800100326538086 },
+                { "x": -0.3693549931049347, "y": 11.603400230407715 },
+                { "x": -0.4040609896183014, "y": 11.778800010681152 },
+                { "x": -0.3960300087928772, "y": 12.504199981689453 },
+                { "x": -0.43222901225090027, "y": 12.537099838256836 },
+                { "x": -0.49590998888015747, "y": 12.677599906921387 },
+                { "x": -0.43222901225090027, "y": 12.818499565124512 },
+                { "x": -0.3960300087928772, "y": 12.84689998626709 },
+                { "x": -0.4040609896183014, "y": 13.118000030517578 },
+                { "x": -0.4040609896183014, "y": 13.355600357055664 },
+                { "x": -0.3829149901866913, "y": 13.565600395202637 },
+                { "x": -0.35192200541496277, "y": 13.74590015411377 },
+                { "x": -0.2741970121860504, "y": 13.967100143432617 },
+                { "x": -0.12867599725723267, "y": 14.13759994506836 },
+                { "x": -0.000023237400455400348, "y": 14.197199821472168 }
+              ]
+            }
+          ]
+        },
+        "m_pSvgViewFactory": {
+          "type": "ZRuntimeResourceID",
+          "value": {
+            "resource": "[assembly:/templates/ui/mapexportentities.template?/mapmarkup_object.entitytemplate].pc_entitytemplate",
+            "flag": "5F"
+          }
+        },
+        "m_bEnabled": { "type": "bool", "value": false },
+        "m_bVisibleInBoxReflection": { "type": "bool", "value": false },
+        "m_eidParent": { "type": "SEntityTemplateReference", "value": null },
+        "m_bVisible": { "type": "bool", "value": true },
+        "m_eRoomBehaviour": {
+          "type": "ZSpatialEntity.ERoomBehaviour",
+          "value": "ROOM_STATIC"
+        },
+        "DefaultLightsOff": { "type": "bool", "value": true }
+      },
+      "inputCopying": {
+        "DisableHitmanCollision": {
+          "DisableHitmanCollision": ["b834953aa9dab78d"],
+          "DisableCameraCollision": ["b834953aa9dab78d"]
+        },
+        "SetInPhysicsWorld": { "SetInPhysicsWorld": ["9a830d595f8e119"] }
+      },
+      "propertyAliases": {
+        "DefaultLightsOff": [
+          {
+            "originalProperty": "m_bVisible",
+            "originalEntity": "12565185d9bf54b7"
+          },
+          {
+            "originalProperty": "m_bVisible",
+            "originalEntity": "85c31d22a3508c1"
+          }
+        ]
+      }
+    },
+    "ed3d0a2273da9204": {
+      "parent": "91a717574bac161d",
+      "name": "KinematicLinkedPhysics",
+      "factory": "[modules:/zkinematiclinkedphysicsentity.class].pc_entitytype",
+      "blueprint": "[modules:/zkinematiclinkedphysicsentity.class].pc_entityblueprint",
+      "properties": {
+        "m_pLinked": {
+          "type": "SEntityTemplateReference",
+          "value": "dd01390c4e141c21"
+        },
+        "m_pOwner": {
+          "type": "SEntityTemplateReference",
+          "value": "dd01390c4e141c21"
+        },
+        "m_pCollisionResource": {
+          "type": "ZRuntimeResourceID",
+          "value": { "resource": "002583F146BC0C8E", "flag": "5F" }
+        },
+        "m_fFriction": { "type": "float32", "value": 0 },
+        "m_bRemovePhysics": { "type": "bool", "value": false }
+      }
+    },
+    "2a58c41e09b0cd60": {
+      "parent": "91a717574bac161d",
+      "name": "MultiplyDivide02",
+      "factory": "[modules:/zmathmultiplydivide.class].pc_entitytype",
+      "blueprint": "[modules:/zmathmultiplydivide.class].pc_entityblueprint",
+      "properties": { "m_fB": { "type": "float32", "value": 150 } },
+      "events": {
+        "Out": {
+          "DiffusePower": ["6cf31c6626d445b8"],
+          "ConstantVector1D_01_Value": ["e133e2a12c97e31b"]
+        }
+      }
+    },
+    "748ace701ea2f8dc": {
+      "parent": "91a717574bac161d",
+      "name": "Luxury_Helicopter_A_Signal_Lights_A02",
+      "factory": "00CA91F575E558B8",
+      "blueprint": "[assembly:/templates/geometrytemplaterigidbody.template?/geomentity01.entitytemplate].pc_entityblueprint",
+      "properties": {
+        "m_mTransform": {
+          "type": "SMatrix43",
+          "value": {
+            "rotation": { "x": 1.0214661110844951, "y": 90, "z": 0 },
+            "position": {
+              "x": -2.501422882080078,
+              "y": 4.247672080993652,
+              "z": 1.1778160333633423
+            }
+          }
+        },
+        "m_bKinematic": { "type": "bool", "value": true },
+        "m_ResourceID": {
+          "type": "ZRuntimeResourceID",
+          "value": { "resource": "00191CCD385CD4DA", "flag": "5F" }
+        },
+        "m_eidParent": {
+          "type": "SEntityTemplateReference",
+          "value": "91a717574bac161d",
+          "postInit": true
+        }
+      }
+    },
+    "425e0d89dfd41866": {
+      "parent": "656b3eaf4d20c89c",
+      "name": "ValueBool_Rotating",
+      "factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entitytype",
+      "blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entityblueprint",
+      "events": {
+        "OnTrue": { "Start": ["50ad21f9ac5b803d", "a213a251859213a4"] },
+        "OnFalse": {
+          "Stop": ["50ad21f9ac5b803d", "dd642678a220b2e6", "a213a251859213a4"],
+          "Get": ["4658231ccc6c500a"]
+        }
+      }
+    },
+    "53597948acdded4e": {
+      "parent": "fca9ba7ecbd2d21e",
+      "name": "PFBox02",
+      "factory": "[modules:/zpfobstacleentity.class].pc_entitytype",
+      "blueprint": "[modules:/zpfobstacleentity.class].pc_entityblueprint",
+      "properties": {
+        "m_mTransform": {
+          "type": "SMatrix43",
+          "value": {
+            "rotation": { "x": 0, "y": 0, "z": 0 },
+            "position": {
+              "x": 0.04705100134015083,
+              "y": -6.700765132904053,
+              "z": 0.2933349907398224
+            }
+          }
+        },
+        "m_vGlobalSize": {
+          "type": "SVector3",
+          "value": { "x": 1.205549955368042, "y": 1.2890700101852417, "z": 1 }
+        },
+        "m_bEnabled": { "type": "bool", "value": true },
+        "m_eidParent": {
+          "type": "SEntityTemplateReference",
+          "value": "dd01390c4e141c21"
+        }
+      }
+    },
+    "46b5c2f0a4776537": {
+      "parent": "656b3eaf4d20c89c",
+      "name": "Luxury_Helicopter_A_TailRotorBlur",
+      "factory": "00F92C1B67770B56",
+      "blueprint": "[assembly:/templates/geometrytemplatenocoll.template?/geomentity01.entitytemplate].pc_entityblueprint",
+      "properties": {
+        "m_mTransform": {
+          "type": "SMatrix43",
+          "value": {
+            "rotation": { "x": 0, "y": 0, "z": 0 },
+            "position": { "x": 0, "y": 0, "z": 0 }
+          }
+        },
+        "m_eidParent": {
+          "type": "SEntityTemplateReference",
+          "value": "f923bb9f4e1c9067"
+        },
+        "m_bCastShadows": { "type": "bool", "value": false }
+      }
+    },
+    "3f2ed70feb9f9755": {
+      "parent": "1de340904fcd3b6d",
+      "name": "MorphemeBoneTrack",
+      "factory": "[modules:/zmorphemebonetrack.class].pc_entitytype",
+      "blueprint": "[modules:/zmorphemebonetrack.class].pc_entityblueprint",
+      "properties": {
+        "m_sSlotName": { "type": "ZString", "value": "FullBody" },
+        "m_bUpperBody": { "type": "bool", "value": false },
+        "m_aItems": {
+          "type": "TArray<SEntityTemplateReference>",
+          "value": ["d52ae80461889a88"]
+        },
+        "m_entityGroup": {
+          "type": "SEntityTemplateReference",
+          "value": "1de340904fcd3b6d",
+          "postInit": true
+        }
+      }
+    },
+    "f3c8bd9cf43ba5a0": {
+      "parent": "91a717574bac161d",
+      "name": "Light_Front_Spot",
+      "factory": "[modules:/zlightentity.class].pc_entitytype",
+      "blueprint": "[modules:/zlightentity.class].pc_entityblueprint",
+      "properties": {
+        "m_mTransform": {
+          "type": "SMatrix43",
+          "value": {
+            "rotation": { "x": -85.15611684467916, "y": 0, "z": -180 },
+            "position": {
+              "x": -0.05993099883198738,
+              "y": -5.620213985443115,
+              "z": 1.115578055381775
+            }
+          }
+        },
+        "m_eLightType": {
+          "type": "ILightEntity.ELightType",
+          "value": "LT_SQUARESPOT"
+        },
+        "m_fDiffusePower": { "type": "float32", "value": 30 },
+        "m_vBoxSize": {
+          "type": "SVector3",
+          "value": {
+            "x": 0.15410999953746796,
+            "y": 0.152195006608963,
+            "z": 0.1321759968996048
+          }
+        },
+        "m_vBoxFadeNeg": {
+          "type": "SVector3",
+          "value": {
+            "x": 0.008684000000357628,
+            "y": 0.004410000052303076,
+            "z": 0.014736000448465347
+          }
+        },
+        "m_diffuseColor": { "type": "SColorRGB", "value": "#c2f0ff" },
+        "m_vFarAttenuation": {
+          "type": "SVector2",
+          "value": { "x": 8.989999771118164, "y": 40 }
+        },
+        "m_vAngularAttenuation": {
+          "type": "SVector2",
+          "value": { "x": 0.3377389907836914, "y": 0.3718009889125824 }
+        },
+        "m_vNearAttenuation": {
+          "type": "SVector2",
+          "value": { "x": 1.7682000398635864, "y": 2.1586599349975586 }
+        },
+        "m_bCastShadows": { "type": "bool", "value": true },
+        "m_bEnableLightFade": { "type": "bool", "value": true },
+        "m_ProjectorMap": {
+          "type": "ZRuntimeResourceID",
+          "value": {
+            "resource": "[assembly:/_pro/effects/textures/projections/fx_projection_2d_carlights.texture?/diffuse_a.tex](ascolormap).pc_tex",
+            "flag": "5F"
+          }
+        },
+        "m_fAspectXByY": { "type": "float32", "value": 0.07000000029802322 },
+        "m_bVisible": { "type": "bool", "value": true },
+        "m_fLightFadeDistance": { "type": "float32", "value": 50 },
+        "m_eidParent": {
+          "type": "SEntityTemplateReference",
+          "value": "91a717574bac161d",
+          "postInit": true
+        }
+      }
+    },
+    "7e1aed857f0c853": {
+      "parent": "91a717574bac161d",
+      "name": "Luxury_Helicopter_A_Signal_Lights_A",
+      "factory": "00CA91F575E558B8",
+      "blueprint": "[assembly:/templates/geometrytemplaterigidbody.template?/geomentity01.entitytemplate].pc_entityblueprint",
+      "properties": {
+        "m_mTransform": {
+          "type": "SMatrix43",
+          "value": {
+            "rotation": { "x": 179.18173115266546, "y": 90, "z": 0 },
+            "position": {
+              "x": 0.539851188659668,
+              "y": 9.066360473632812,
+              "z": 2.5510048866271973
+            }
+          }
+        },
+        "m_bKinematic": { "type": "bool", "value": true },
+        "m_ResourceID": {
+          "type": "ZRuntimeResourceID",
+          "value": { "resource": "00191CCD385CD4DA", "flag": "5F" }
+        },
+        "m_eidParent": {
+          "type": "SEntityTemplateReference",
+          "value": "91a717574bac161d",
+          "postInit": true
+        }
+      }
+    },
+    "eede5c1c8579e5e1": {
+      "parent": "84687ed0f94c1aa9",
+      "name": "BoneResourceItem",
+      "factory": "[modules:/zmorphemebonesource.class].pc_entitytype",
+      "blueprint": "[modules:/zmorphemebonesource.class].pc_entityblueprint",
+      "properties": {
+        "m_startTime": { "type": "ZGameTime", "value": { "m_nTicks": 0 } },
+        "m_duration": { "type": "ZGameTime", "value": { "m_nTicks": 1048576 } },
+        "m_animationResourceID": {
+          "type": "ZRuntimeResourceID",
+          "value": { "resource": "00E199611DB3D1BD", "flag": "5F" }
+        }
+      }
+    },
+    "9551676c081878fb": {
+      "parent": "91a717574bac161d",
+      "name": "MultiplyDivide01",
+      "factory": "[modules:/zmathmultiplydivide.class].pc_entitytype",
+      "blueprint": "[modules:/zmathmultiplydivide.class].pc_entityblueprint",
+      "properties": { "m_fB": { "type": "float32", "value": 150 } },
+      "events": {
+        "Out": {
+          "DiffusePower": ["a2ff8fa47a361e3f"],
+          "ConstantVector1D_01_Value": ["abb58af4746fea"]
+        }
+      }
+    },
+    "5aefc0d74e936be7": {
+      "parent": "fca9ba7ecbd2d21e",
+      "name": "PFBox03",
+      "factory": "[modules:/zpfobstacleentity.class].pc_entitytype",
+      "blueprint": "[modules:/zpfobstacleentity.class].pc_entityblueprint",
+      "properties": {
+        "m_mTransform": {
+          "type": "SMatrix43",
+          "value": {
+            "rotation": { "x": 0, "y": 0, "z": 0 },
+            "position": {
+              "x": -0.022255999967455864,
+              "y": 3.164170980453491,
+              "z": 0.2933349907398224
+            }
+          }
+        },
+        "m_vGlobalSize": {
+          "type": "SVector3",
+          "value": { "x": 5.046720027923584, "y": 4.507900238037109, "z": 1 }
+        },
+        "m_bEnabled": { "type": "bool", "value": true },
+        "m_eidParent": {
+          "type": "SEntityTemplateReference",
+          "value": "dd01390c4e141c21"
+        }
+      }
+    },
+    "fca9ba7ecbd2d21e": {
+      "parent": "91a717574bac161d",
+      "name": "PFCutout",
+      "factory": "[modules:/zentity.class].pc_entitytype",
+      "blueprint": "[modules:/zentity.class].pc_entityblueprint",
+      "properties": {
+        "m_eidParent": {
+          "type": "SEntityTemplateReference",
+          "value": "dd01390c4e141c21"
+        },
+        "m_bEnabled": { "type": "bool", "value": true }
+      },
+      "inputCopying": {
+        "Disable": {
+          "Disable": [
+            "486243f5d2d08c46",
+            "5aefc0d74e936be7",
+            "53597948acdded4e",
+            "f19080a6b7383788",
+            "64ab00144e8b6dec"
+          ]
+        }
+      },
+      "propertyAliases": {
+        "m_bEnabled": [
+          {
+            "originalProperty": "m_bEnabled",
+            "originalEntity": "64ab00144e8b6dec"
+          },
+          {
+            "originalProperty": "m_bEnabled",
+            "originalEntity": "f19080a6b7383788"
+          },
+          {
+            "originalProperty": "m_bEnabled",
+            "originalEntity": "53597948acdded4e"
+          },
+          {
+            "originalProperty": "m_bEnabled",
+            "originalEntity": "5aefc0d74e936be7"
+          },
+          {
+            "originalProperty": "m_bEnabled",
+            "originalEntity": "486243f5d2d08c46"
+          }
+        ],
+        "m_eidParent": [
+          {
+            "originalProperty": "m_eidParent",
+            "originalEntity": "486243f5d2d08c46"
+          },
+          {
+            "originalProperty": "m_eidParent",
+            "originalEntity": "f19080a6b7383788"
+          },
+          {
+            "originalProperty": "m_eidParent",
+            "originalEntity": "64ab00144e8b6dec"
+          },
+          {
+            "originalProperty": "m_eidParent",
+            "originalEntity": "53597948acdded4e"
+          },
+          {
+            "originalProperty": "m_eidParent",
+            "originalEntity": "5aefc0d74e936be7"
+          }
+        ]
+      }
+    },
+    "50ad21f9ac5b803d": {
+      "parent": "656b3eaf4d20c89c",
+      "name": "Rotate",
+      "factory": "[modules:/zrotateentity.class].pc_entitytype",
+      "blueprint": "[modules:/zrotateentity.class].pc_entityblueprint",
+      "properties": {
+        "m_Geom": {
+          "type": "SEntityTemplateReference",
+          "value": "8555e82df6b3dc2f"
+        },
+        "m_bEnabled": { "type": "bool", "value": false },
+        "m_fZAxisSpeed": { "type": "float32", "value": 13 }
+      }
+    },
+    "6cf31c6626d445b8": {
+      "parent": "91a717574bac161d",
+      "name": "SignalLight_White_Point02",
+      "factory": "[modules:/zlightentity.class].pc_entitytype",
+      "blueprint": "[modules:/zlightentity.class].pc_entityblueprint",
+      "properties": {
+        "m_mTransform": {
+          "type": "SMatrix43",
+          "value": {
+            "rotation": { "x": 0, "y": 0, "z": 0 },
+            "position": {
+              "x": 0.002953528892248869,
+              "y": 1.8430399894714355,
+              "z": 5.530141830444336
+            }
+          }
+        },
+        "m_eLightType": {
+          "type": "ILightEntity.ELightType",
+          "value": "LT_OMNI"
+        },
+        "m_fDiffusePower": { "type": "float32", "value": 0 },
+        "m_vBoxSize": {
+          "type": "SVector3",
+          "value": {
+            "x": 6.522520065307617,
+            "y": 6.2584099769592285,
+            "z": 4.682759761810303
+          }
+        },
+        "m_vBoxFadeNeg": {
+          "type": "SVector3",
+          "value": {
+            "x": 0.008684000000357628,
+            "y": 0.004410000052303076,
+            "z": 0.08727259933948517
+          }
+        },
+        "m_diffuseColor": { "type": "SColorRGB", "value": "#e6f8ff" },
+        "m_vFarAttenuation": {
+          "type": "SVector2",
+          "value": { "x": 0.04728839918971062, "y": 2.3863699436187744 }
+        },
+        "m_vAngularAttenuation": {
+          "type": "SVector2",
+          "value": { "x": 0.5734779834747314, "y": 0.8089190125465393 }
+        },
+        "m_vNearAttenuation": {
+          "type": "SVector2",
+          "value": { "x": 0.009999999776482582, "y": 0.019999999552965164 }
+        },
+        "m_bCastShadows": { "type": "bool", "value": false },
+        "m_bEnableLightFade": { "type": "bool", "value": true },
+        "m_fLightFadeDistance": { "type": "float32", "value": 60 },
+        "m_bVisible": { "type": "bool", "value": true },
+        "m_eidParent": {
+          "type": "SEntityTemplateReference",
+          "value": "91a717574bac161d",
+          "postInit": true
+        }
+      }
+    },
+    "215bbfcb09ea4ce0": {
+      "parent": "656b3eaf4d20c89c",
+      "name": "ValueFloat_Get",
+      "factory": "[assembly:/_pro/design/logic/valuefloat.template?/valuefloat_get.entitytemplate].pc_entitytype",
+      "blueprint": "[assembly:/_pro/design/logic/valuefloat.template?/valuefloat_get.entitytemplate].pc_entityblueprint",
+      "properties": { "m_fValue": { "type": "float32", "value": 1 } },
+      "events": {
+        "Value": { "T": ["a85c867393b2aca6"], "SetValue": ["6b31bae30dbab76f"] }
+      }
+    },
+    "656b3eaf4d20c89c": {
+      "parent": "91a717574bac161d",
+      "name": "Rotor",
+      "factory": "[modules:/zentity.class].pc_entitytype",
+      "blueprint": "[modules:/zentity.class].pc_entityblueprint",
+      "properties": {
+        "RotorWindUpSpeed": { "type": "float32", "value": 0.019999999552965164 }
+      },
+      "events": {
+        "WentIntoRange": { "SetTrue": ["69faecbf6ef7db5a"] },
+        "WentBelowMin": { "SetFalse": ["69faecbf6ef7db5a"] }
+      },
+      "inputCopying": {
+        "RotorSpinUp": {
+          "Start": ["dd642678a220b2e6"],
+          "SetTrue": ["425e0d89dfd41866"]
+        },
+        "RotorFullSpeed": {
+          "Get": ["215bbfcb09ea4ce0"],
+          "SetTrue": ["425e0d89dfd41866"]
+        },
+        "RotorSpeedReset": { "SetFalse": ["425e0d89dfd41866"] }
+      },
+      "propertyAliases": {
+        "RotorWindUpSpeed": [
+          {
+            "originalProperty": "m_fFrequency",
+            "originalEntity": "dd642678a220b2e6"
+          }
+        ]
+      },
+      "exposedEntities": {
+        "ValueFloat_RotorSpeed": {
+          "isArray": false,
+          "refersTo": ["6b31bae30dbab76f"]
+        }
+      }
+    },
+    "91cc0e28c26510fe": {
+      "parent": "7778cf7d10561afc",
+      "name": "BoneResourceItem",
+      "factory": "[modules:/zmorphemebonesource.class].pc_entitytype",
+      "blueprint": "[modules:/zmorphemebonesource.class].pc_entityblueprint",
+      "properties": {
+        "m_startTime": { "type": "ZGameTime", "value": { "m_nTicks": 0 } },
+        "m_duration": { "type": "ZGameTime", "value": { "m_nTicks": 1048576 } },
+        "m_animationResourceID": {
+          "type": "ZRuntimeResourceID",
+          "value": { "resource": "001825D819BA9D4C", "flag": "5F" }
+        }
+      }
+    },
+    "1de340904fcd3b6d": {
+      "parent": "bfdf199481d6623a",
+      "name": "EntityTrack_ Luxury_Helicopter_A",
+      "factory": "[modules:/zentitygroup.class].pc_entitytype",
+      "blueprint": "[modules:/zentitygroup.class].pc_entityblueprint",
+      "properties": {
+        "m_targetEntity": {
+          "type": "SEntityTemplateReference",
+          "value": "dd01390c4e141c21"
+        },
+        "m_aTracksAndGroups": {
+          "type": "TArray<SEntityTemplateReference>",
+          "value": ["3f2ed70feb9f9755"]
+        }
+      }
+    },
+    "a5001652d0ba9e1f": {
+      "parent": "91a717574bac161d",
+      "name": "ValueBool_RotorFullSpeed",
+      "factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entitytype",
+      "blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entityblueprint",
+      "events": {
+        "OnTrue": { "RotorFullSpeed": ["656b3eaf4d20c89c"] },
+        "OnFalse": { "RotorSpeedReset": ["656b3eaf4d20c89c"] }
+      }
+    },
+    "abb58af4746fea": {
+      "parent": "91a717574bac161d",
+      "name": "fx_basic_emissive",
+      "factory": "[assembly:/_pro/effects/materials/basic/fx_basic_emissive.mi].pc_entitytype",
+      "blueprint": "[assembly:/_pro/effects/materials/basic/fx_basic_emissive.mi].pc_entityblueprint",
+      "properties": {
+        "m_mTransform": {
+          "type": "SMatrix43",
+          "value": {
+            "rotation": { "x": 0, "y": 0, "z": -180 },
+            "position": { "x": 0, "y": 0, "z": 0 }
+          }
+        },
+        "Clients": {
+          "type": "TArray<SEntityTemplateReference>",
+          "value": ["7e1aed857f0c853", "f770bea0219c8c0b"]
+        },
+        "ConstantColorRGB_01_Value_op": {
+          "type": "IRenderMaterialEntity.EModifierOperation",
+          "value": "eReplace"
+        },
+        "ConstantColorRGB_01_Value": {
+          "type": "SColorRGB",
+          "value": "#ff8e7a"
+        },
+        "ConstantVector1D_01_Value": { "type": "float32", "value": 0 },
+        "ConstantVector1D_01_Value_op": {
+          "type": "IRenderMaterialEntity.EModifierOperation",
+          "value": "eReplace"
+        },
+        "m_eidParent": {
+          "type": "SEntityTemplateReference",
+          "value": "91a717574bac161d",
+          "postInit": true
+        }
+      }
+    },
+    "7b8be936efbcd610": {
+      "parent": "91a717574bac161d",
+      "name": "MultiplyDivide",
+      "factory": "[modules:/zmathmultiplydivide.class].pc_entitytype",
+      "blueprint": "[modules:/zmathmultiplydivide.class].pc_entityblueprint",
+      "properties": { "m_fB": { "type": "float32", "value": 100 } },
+      "events": {
+        "Out": { "DiffusePower": ["69961f3dced4a249", "3caa5053b966c9ac"] }
+      }
+    },
+    "852a2634b4d686bd": {
+      "parent": "91a717574bac161d",
+      "name": "VariantConverter_void_",
+      "factory": "[modules:/zhm5variantconverterentity_void.class].pc_entitytype",
+      "blueprint": "[modules:/zhm5variantconverterentity_void.class].pc_entityblueprint",
+      "events": {
+        "Value": {
+          "DisableHitmanCollision": ["dd01390c4e141c21"],
+          "Disable": ["fca9ba7ecbd2d21e"]
+        }
+      }
+    },
+    "b32dc5ece13a3c2c": {
+      "parent": "91a717574bac161d",
+      "name": "VisibleCondition01",
+      "factory": "[assembly:/_pro/design/logic/conditions.template?/visiblecondition.entitytemplate].pc_entitytype",
+      "blueprint": "[assembly:/_pro/design/logic/conditions.template?/visiblecondition.entitytemplate].pc_entityblueprint",
+      "properties": {
+        "m_aRenderables": {
+          "type": "TArray<SEntityTemplateReference>",
+          "value": ["a2ff8fa47a361e3f", "6afc167ea0ec67ac"]
+        }
+      }
+    },
+    "3caa5053b966c9ac": {
+      "parent": "91a717574bac161d",
+      "name": "Light_Omni_Front_Points",
+      "factory": "[modules:/zlightentity.class].pc_entitytype",
+      "blueprint": "[modules:/zlightentity.class].pc_entityblueprint",
+      "properties": {
+        "m_mTransform": {
+          "type": "SMatrix43",
+          "value": {
+            "rotation": { "x": 0, "y": 0, "z": 0 },
+            "position": {
+              "x": -0.6771345138549805,
+              "y": -6.618856906890869,
+              "z": 1.1581439971923828
+            }
+          }
+        },
+        "m_eLightType": {
+          "type": "ILightEntity.ELightType",
+          "value": "LT_ENVIRONMENT"
+        },
+        "m_fDiffusePower": { "type": "float32", "value": 10 },
+        "m_vBoxSize": {
+          "type": "SVector3",
+          "value": {
+            "x": 0.15410999953746796,
+            "y": 0.152195006608963,
+            "z": 0.1321759968996048
+          }
+        },
+        "m_vBoxFadeNeg": {
+          "type": "SVector3",
+          "value": {
+            "x": 0.008684000000357628,
+            "y": 0.004410000052303076,
+            "z": 0.014736000448465347
+          }
+        },
+        "m_diffuseColor": { "type": "SColorRGB", "value": "#c2f0ff" },
+        "m_vFarAttenuation": {
+          "type": "SVector2",
+          "value": { "x": 0.5638999938964844, "y": 0.05000000074505806 }
+        },
+        "m_vAngularAttenuation": {
+          "type": "SVector2",
+          "value": { "x": 0.5734779834747314, "y": 0.8089190125465393 }
+        },
+        "m_vNearAttenuation": {
+          "type": "SVector2",
+          "value": { "x": 0.041930001229047775, "y": 0.5539000034332275 }
+        },
+        "m_bCastShadows": { "type": "bool", "value": false },
+        "m_bEnableLightFade": { "type": "bool", "value": true },
+        "m_fLightFadeDistance": { "type": "float32", "value": 60 },
+        "m_bVisible": { "type": "bool", "value": true },
+        "m_eidParent": {
+          "type": "SEntityTemplateReference",
+          "value": "91a717574bac161d",
+          "postInit": true
+        }
+      }
+    },
+    "91a717574bac161d": {
+      "parent": null,
+      "name": "Magpie_Luxury_Helicopter_A",
+      "factory": "[modules:/zentity.class].pc_entitytype",
+      "blueprint": "[modules:/zentity.class].pc_entityblueprint",
+      "properties": {
+        "m_mTransform": {
+          "type": "SMatrix43",
+          "value": {
+            "rotation": { "x": 0, "y": 0, "z": 0 },
+            "position": { "x": 0, "y": -22.58746910095215, "z": 0 }
+          }
+        },
+        "SignalLightColorA": { "type": "SColorRGB", "value": "#ff8e7a" },
+        "SignalLightColorC": { "type": "SColorRGB", "value": "#e6f8ff" },
+        "SignalLightColorB": { "type": "SColorRGB", "value": "#b5ff9e" }
+      },
+      "inputCopying": {
+        "RotorSpinUp": { "SetTrue": ["bbd3d003205be7a2"] },
+        "RotorSpeedReset": {
+          "SetFalse": ["a5001652d0ba9e1f", "bbd3d003205be7a2"]
+        },
+        "RotorFullSpeed": { "SetTrue": ["a5001652d0ba9e1f"] },
+        "Door_Closing": { "Start": ["b453e70a421f0af8"] },
+        "Door_Opening": { "Start": ["3571d3dbea2a515c"] },
+        "Door_Closed": { "Start": ["bfdf199481d6623a"] },
+        "RemovePhysics": {
+          "RemovePhysics": ["ed3d0a2273da9204"],
+          "Input": ["4032da52c092e14c"],
+          "Variant": ["852a2634b4d686bd"]
+        }
+      },
+      "propertyAliases": {
+        "SignalLightColorB": [
+          {
+            "originalProperty": "m_diffuseColor",
+            "originalEntity": "fc51280aef5f4417"
+          },
+          {
+            "originalProperty": "m_diffuseColor",
+            "originalEntity": "95073bf66effc458"
+          },
+          {
+            "originalProperty": "ConstantColorRGB_01_Value",
+            "originalEntity": "1f5a4c53b3e13715"
+          }
+        ],
+        "SignalLightColorA": [
+          {
+            "originalProperty": "m_diffuseColor",
+            "originalEntity": "a2ff8fa47a361e3f"
+          },
+          {
+            "originalProperty": "m_diffuseColor",
+            "originalEntity": "79a427d32973516c"
+          },
+          {
+            "originalProperty": "m_diffuseColor",
+            "originalEntity": "c06efa91e17c0bfb"
+          },
+          {
+            "originalProperty": "ConstantColorRGB_01_Value",
+            "originalEntity": "abb58af4746fea"
+          },
+          {
+            "originalProperty": "ConstantColorRGB_01_Value",
+            "originalEntity": "659dc6887bd072b2"
+          }
+        ],
+        "SignalLightColorC": [
+          {
+            "originalProperty": "m_diffuseColor",
+            "originalEntity": "6cf31c6626d445b8"
+          },
+          {
+            "originalProperty": "ConstantColorRGB_01_Value",
+            "originalEntity": "e133e2a12c97e31b"
+          }
+        ],
+        "SignalLightPower": [
+          { "originalProperty": "m_fB", "originalEntity": "9551676c081878fb" },
+          { "originalProperty": "m_fB", "originalEntity": "2a58c41e09b0cd60" }
+        ],
+        "m_mTransform": [
+          {
+            "originalProperty": "m_mTransform",
+            "originalEntity": "dd01390c4e141c21"
+          }
+        ],
+        "m_eidParent": [
+          {
+            "originalProperty": "m_eidParent",
+            "originalEntity": "dd01390c4e141c21"
+          }
+        ],
+        "m_bVisible": [
+          {
+            "originalProperty": "m_bVisible",
+            "originalEntity": "dd01390c4e141c21"
+          }
+        ],
+        "m_eRoomBehaviour": [
+          {
+            "originalProperty": "m_eRoomBehaviour",
+            "originalEntity": "dd01390c4e141c21"
+          }
+        ],
+        "RotorSpeedOverride": [
+          {
+            "originalProperty": "RotorSpeedOverride",
+            "originalEntity": "656b3eaf4d20c89c"
+          }
+        ],
+        "m_vFarAttenuation": [
+          {
+            "originalProperty": "m_vFarAttenuation",
+            "originalEntity": "f3c8bd9cf43ba5a0"
+          }
+        ],
+        "m_fDiffusePower": [
+          {
+            "originalProperty": "m_fDiffusePower",
+            "originalEntity": "f3c8bd9cf43ba5a0"
+          }
+        ],
+        "FronHelicoperLampsGlow": [
+          {
+            "originalProperty": "m_fDiffusePower",
+            "originalEntity": "3caa5053b966c9ac"
+          },
+          {
+            "originalProperty": "m_fDiffusePower",
+            "originalEntity": "69961f3dced4a249"
+          }
+        ],
+        "DefaultLightsOff": [
+          {
+            "originalProperty": "DefaultLightsOff",
+            "originalEntity": "dd01390c4e141c21"
+          }
+        ],
+        "RotorWindUpSpeed": [
+          {
+            "originalProperty": "RotorWindUpSpeed",
+            "originalEntity": "656b3eaf4d20c89c"
+          }
+        ],
+        "m_bEnabled": [
+          {
+            "originalProperty": "m_bEnabled",
+            "originalEntity": "fca9ba7ecbd2d21e"
+          }
+        ]
+      },
+      "exposedEntities": {
+        "ValueBool_RotorFullSpeed": {
+          "isArray": false,
+          "refersTo": ["a5001652d0ba9e1f"]
+        },
+        "ValueBool_RotorSpinup": {
+          "isArray": false,
+          "refersTo": ["bbd3d003205be7a2"]
+        },
+        "ValueFloat_RotorSpeed": {
+          "isArray": false,
+          "refersTo": ["6b31bae30dbab76f"]
+        }
+      },
+      "exposedInterfaces": {
+        "ZRenderableEntity": "dd01390c4e141c21",
+        "ZSpatialEntity": "dd01390c4e141c21",
+        "ZLinkedEntity": "dd01390c4e141c21",
+        "ZGeomEntity": "dd01390c4e141c21",
+        "IMorphemeCutSequenceAnimatable": "dd01390c4e141c21",
+        "IBoneAnimator": "dd01390c4e141c21",
+        "IAnimPlayerEntity": "dd01390c4e141c21"
+      }
+    },
+    "84687ed0f94c1aa9": {
+      "parent": "73213e428657d43e",
+      "name": "MorphemeBoneTrack",
+      "factory": "[modules:/zmorphemebonetrack.class].pc_entitytype",
+      "blueprint": "[modules:/zmorphemebonetrack.class].pc_entityblueprint",
+      "properties": {
+        "m_entityGroup": {
+          "type": "SEntityTemplateReference",
+          "value": "73213e428657d43e"
+        },
+        "m_sSlotName": { "type": "ZString", "value": "FullBody" },
+        "m_bUpperBody": { "type": "bool", "value": false },
+        "m_aItems": {
+          "type": "TArray<SEntityTemplateReference>",
+          "value": ["eede5c1c8579e5e1"]
+        }
+      }
+    }
+  },
+  "propertyOverrides": [],
+  "overrideDeletes": [],
+  "pinConnectionOverrides": [],
+  "pinConnectionOverrideDeletes": [],
+  "externalScenes": [],
+  "subType": "template",
+  "quickEntityVersion": 3.1,
+  "extraFactoryDependencies": [
+    {
+      "resource": "[assembly:/_pro/effects/textures/misc/fx_helicopterrotor.texture?/mask_a.tex](ascolormap).pc_tex",
+      "flag": "5F"
+    },
+    {
+      "resource": "[assembly:/_pro/vehicles/textures/luxury_helicopter_a/luxury_helicopter_a_exterior.texture?/normal_a.tex](asnormalmap).pc_tex",
+      "flag": "5F"
+    },
+    {
+      "resource": "[assembly:/_pro/vehicles/textures/luxury_helicopter_a/luxury_helicopter_a_exterior.texture?/diffuse_a.tex](ascolormap).pc_tex",
+      "flag": "5F"
+    },
+    {
+      "resource": "[assembly:/_pro/vehicles/textures/luxury_helicopter_a/luxury_helicopter_a_exterior.texture?/mask_a.tex](ascolormap).pc_tex",
+      "flag": "5F"
+    },
+    {
+      "resource": "[assembly:/_pro/vehicles/textures/masks/vehicle_mask_a.texture?/mask_b.tex](ascolormap).pc_tex",
+      "flag": "5F"
+    },
+    {
+      "resource": "[assembly:/_pro/vehicles/textures/masks/vehicle_mask_a.texture?/mask_d.tex](ascolormap).pc_tex",
+      "flag": "5F"
+    },
+    {
+      "resource": "[assembly:/_pro/effects/textures/misc/fx_helicopterrotor.texture?/mask_b.tex](ascolormap).pc_tex",
+      "flag": "5F"
+    },
+    { "resource": "008566C0E5B8F0CD", "flag": "5F" },
+    { "resource": "0044A247FB13DD16", "flag": "5F" },
+    { "resource": "0016460E1F584AD5", "flag": "5F" },
+    {
+      "resource": "[assembly:/geometry/g2/gizmos.wl2?/gizmo_trigger_01.prim].pc_prim",
+      "flag": "5F"
+    },
+    { "resource": "006A56FE0DD99EAB", "flag": "5F" },
+    { "resource": "00FF6143BA724469", "flag": "5F" }
+  ],
+  "extraBlueprintDependencies": [],
+  "comments": []
+}

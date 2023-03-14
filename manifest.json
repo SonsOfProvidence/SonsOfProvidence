@@ -6,7 +6,44 @@
   "authors": ["Danny Bierek"],
   "frameworkVersion": "2.1.5",
   "version": "0.33.0",
-  "contentFolders": ["content"],
+  "contentFolders": ["shared"],
+  "options": [
+    {
+      "name": "Institute",
+      "tooltip": "Mission 1: Assault the Institute for Human Betterment",
+      "type": "checkbox",
+      "enabledByDefault": true,
+      "contentFolders": ["mission_institute"]
+    },
+    {
+      "name": "Airplane",
+      "tooltip": "Mission 2: Take out Eugene Cobb",
+      "type": "checkbox",
+      "enabledByDefault": true,
+      "contentFolders": ["mission_airplane"]
+    },
+    {
+      "name": "Moscow",
+      "tooltip": "Mission 3: Frame the FSB section chief",
+      "type": "checkbox",
+      "enabledByDefault": true,
+      "contentFolders": ["mission_moscow"]
+    },
+    {
+      "name": "Carpark",
+      "tooltip": "Mission 4: Get the second key",
+      "type": "checkbox",
+      "enabledByDefault": true,
+      "contentFolders": ["mission_carpark"]
+    },
+    {
+      "name": "Funeral",
+      "tooltip": "Mission 6: The Thomas Cross Robbery",
+      "type": "checkbox",
+      "enabledByDefault": true,
+      "contentFolders": ["mission_funeral"]
+    }
+  ],
   "dependencies": [
     {
       "runtimeID": "0058B401203EDBB7",
@@ -16,11 +53,44 @@
     {
       "runtimeID": "00C7FD7BF123ACB4",
       "comment": "Helicopter from S'gail",
-      "toChunk": 26
+      "toChunk": 0,
+      "portFromChunk1": true
+    },
+    {
+      "runtimeID": "00556FDAF4051EAF",
+      "comment": "Helicopter Hull",
+      "toChunk": 0,
+      "portFromChunk1": true
     },
     {
       "runtimeID": "009B5962B1FCAA8C",
-      "comment": "Lucas Grey's head mesh",
+      "comment": "Lucas Grey's head mesh"
+    },
+    {
+      "runtimeID": "0019481567B9D3B4",
+      "comment": "Lucas Grey Outfit from Romania",
+      "toChunk": 3
+    },
+    {
+      "runtimeID": "008ABB81A585E529",
+      "comment": "747 Airplane"
+    },
+    {
+      "runtimeID": "00ADAE61FA0A0702",
+      "comment": "Doorbell from Italy",
+      "portFromChunk1": true,
+      "toChunk": 0
+    },
+    {
+      "runtimeID": "000CFFB4BB61807E",
+      "comment": "White button up shirt",
+      "portFromChunk1": true,
+      "toChunk": 0
+    },
+    {
+      "runtimeID": "00CDA4A217830BA4",
+      "comment": "Shirt mesh",
+      "portFromChunk1": true,
       "toChunk": 0
     }
   ],
@@ -37,8 +107,33 @@
     },
     {
       "type": "entity",
+      "partition": "ancestral",
+      "path": "[assembly:/sonsofprovidence/scene_institute.entity].entitytemplate"
+    },
+    {
+      "type": "entity",
+      "partition": "ancestral",
+      "path": "[assembly:/sonsofprovidence/outfits_institute.entity].entitytype"
+    },
+    {
+      "type": "entity",
       "partition": "coastaltown",
       "path": "[assembly:/sonsofprovidence/scene_funeral.entity].entitytemplate"
+    },
+    {
+      "type": "entity",
+      "partition": "super",
+      "path": "[assembly:/sonsofprovidence/scene_airplane.entity].entitytemplate"
+    },
+    {
+      "type": "entity",
+      "partition": "super",
+      "path": "[assembly:/sonsofprovidence/airplane/outfits_airplane.entity].entitytype"
+    },
+    {
+      "type": "entity",
+      "partition": "super",
+      "path": "[assembly:/sonsofprovidence/shared/global_outfits.brick].entitytype"
     },
     {
       "type": "entity",
@@ -52,9 +147,9 @@
       "UI_DBIEREK": "Danny Bierek",
       "DESC_DARTMOOR": "47 and I attacked the Institute for Human Betterment but were repelled. 47 is buying time for my escape.",
       "UI_DARTMOOR_TITLE": "Escape from the Institute",
-      "DESC_ROMANIA": "I've learned that Eugene Cobb is a member of Providence. It's time to begin taking them all down, starting with Eugene Cobb, who holds one of two keys needed to open the Providence archive.",
-      "UI_ROMANIA_TITLE": "Grey's Revenge Begins",
-      "UI_ROMANIA_TARGET_BRIEFING": "Eugene Cobb",
+      "DESC_DUBAI": "I've learned that Eugene Cobb is a member of Providence. It's time to begin taking them all down, starting with Eugene Cobb, who holds one of two keys needed to open the Providence archive.",
+      "UI_DUBAI_TITLE": "Grey's Revenge Begins",
+      "UI_DUBAI_TARGET_BRIEFING": "Eugene Cobb",
       "DESC_SIBERIA": "I'm convinced Viktor Novikov to give me the Secrets of the Global Elites document in exchange for eliminating the FSB Section Chief Nicholai Kamarov. I'm heading to Moscow to FSB headquarters now.",
       "UI_SIBERIA_TITLE": "Collateral Damage",
       "DESC_MARRAKESH": "I've tracked the Providence Herald for the Ether Biotech Corporation, Hajun, to the Ether parking garage in Johannesburg. Hajun holds the other key needed to open the Providence archive.",
@@ -76,7 +171,7 @@
       "UI_HOKKAIDO_TITLE": "Hokkaido Test Mission",
       "ui_starting_location_mumbai_ether_lab_default_name": "Roof of Ether Headquarters",
       "ui_starting_location_dartmoor_institute_default_name": "The Institute for Human Betterment",
-      "ui_starting_location_romania_plane_default_name": "Eugene Cobb's private jet"
+      "ui_starting_location_dubai_plane_default_name": "Eugene Cobb's private jet"
     }
   },
   "updateCheck": "https://github.com/dbierek/SonsOfProvidence/releases/latest/download/updates.json"
