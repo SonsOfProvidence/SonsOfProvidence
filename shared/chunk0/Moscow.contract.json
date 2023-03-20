@@ -1,0 +1,55 @@
+{
+  "Data": {
+    "EnableSaving": true,
+    "Objectives": [],
+    "GameDifficulties": [
+      {
+        "Difficulty": "easy",
+        "Bricks": []
+      },
+      {
+        "Difficulty": "normal",
+        "Bricks": []
+      },
+      {
+        "Difficulty": "hard",
+        "Bricks": []
+      }
+    ],
+    "Bricks": [],
+    "DevOnlyBricks": [],
+    "GameChangers": [],
+    "GameChangerReferences": []
+  },
+  "Metadata": {
+    "Id": "179563a4-727a-4072-b354-c9fff4e8bff3",
+    "IsPublished": true,
+    "Title": "UI_SIBERIA_TITLE",
+    "Description": "DESC_SIBERIA",
+    "CodeName_Hint": "Moscow",
+    "ScenePath": "assembly:/sonsofprovidence/scene_moscow.entity",
+    "DebriefingVideo": "",
+    "GameModes": null,
+    "EngineModes": null,
+    "OpportunitiesDisabled": true,
+    "IsVersus": false,
+    "TileImage": [
+      {
+        "Mode": "singleplayer",
+        "Image": "images/dbierek/siberia.jpg"
+      },
+      {
+        "Mode": "multiplayer",
+        "Image": "images/dbierek/siberia.jpg"
+      }
+    ],
+    "Location": "LOCATION_CAGED_FALCON",
+    "LastUpdate": "2022-12-06T08:36:00.000Z",
+    "CreationTimestamp": "2022-12-06T08:36:00.000Z",
+    "CreatorUserId": "00000000-0000-0000-0000-000000000000",
+    "Type": "mission",
+    "Release": "3.3.x",
+    "Entitlements": ["H2_LEGACY_EXPANSION"]
+  },
+  "UserData": {}
+}
