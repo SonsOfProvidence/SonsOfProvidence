@@ -2,46 +2,62 @@
   "id": "DannyBierek.SonsOfProvidence",
   "name": "Sons of Providence",
   "description": "This mod tells a tale of two brothers, and their mission to take them all down.",
-  "blobsFolders": ["blobs"],
-  "authors": ["Danny Bierek"],
+  "blobsFolders": [
+    "blobs"
+  ],
+  "authors": [
+    "Danny Bierek"
+  ],
   "frameworkVersion": "2.1.5",
-  "version": "0.35.0",
-  "contentFolders": ["shared"],
+  "version": "0.36.0",
+  "contentFolders": [
+    "shared"
+  ],
   "options": [
     {
       "name": "Institute",
       "tooltip": "Mission 1: Assault the Institute for Human Betterment",
       "type": "checkbox",
       "enabledByDefault": true,
-      "contentFolders": ["mission_institute"]
+      "contentFolders": [
+        "mission_institute"
+      ]
     },
     {
       "name": "Airplane",
       "tooltip": "Mission 2: Take out Eugene Cobb",
       "type": "checkbox",
       "enabledByDefault": true,
-      "contentFolders": ["mission_airplane"]
+      "contentFolders": [
+        "mission_airplane"
+      ]
     },
     {
       "name": "Moscow",
       "tooltip": "Mission 3: Frame the FSB section chief",
       "type": "checkbox",
       "enabledByDefault": true,
-      "contentFolders": ["mission_moscow"]
+      "contentFolders": [
+        "mission_moscow"
+      ]
     },
     {
       "name": "Carpark",
       "tooltip": "Mission 4: Get the second key",
       "type": "checkbox",
       "enabledByDefault": true,
-      "contentFolders": ["mission_carpark"]
+      "contentFolders": [
+        "mission_carpark"
+      ]
     },
     {
       "name": "Funeral",
       "tooltip": "Mission 6: The Thomas Cross Robbery",
       "type": "checkbox",
       "enabledByDefault": true,
-      "contentFolders": ["mission_funeral"]
+      "contentFolders": [
+        "mission_funeral"
+      ]
     }
   ],
   "dependencies": [
