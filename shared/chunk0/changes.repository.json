@@ -11,6 +11,12 @@
     "Name_LOC": "ui_starting_location_dartmoor_institute_default_name",
     "Description": ""
   },
+  "0aec817c-738e-4381-bbd4-a13b5d1c7731": {
+    "ID_": "0aec817c-738e-4381-bbd4-a13b5d1c7731",
+    "Image": "images/dbierek/siberia.jpg",
+    "Name_LOC": "ui_starting_location_siberia_moscow_default_name",
+    "Description": ""
+  },
   "ee4b0060-b322-4bb0-99b5-942e8a20f278": {
     "ID_": "ee4b0060-b322-4bb0-99b5-942e8a20f278",
     "Image": "images/dbierek/dubai_plane_start.jpg",

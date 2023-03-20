@@ -128,6 +128,11 @@
     },
     {
       "type": "entity",
+      "partition": "coastaltown",
+      "path": "[assembly:/sonsofprovidence/outfits_funeral.entity].entitytype"
+    },
+    {
+      "type": "entity",
       "partition": "super",
       "path": "[assembly:/sonsofprovidence/scene_airplane.entity].entitytemplate"
     },
@@ -138,25 +143,25 @@
     },
     {
       "type": "entity",
-      "partition": "super",
-      "path": "[assembly:/sonsofprovidence/shared/global_outfits.brick].entitytype"
+      "partition": "caged",
+      "path": "[assembly:/sonsofprovidence/scene_moscow.entity].entitytemplate"
     },
     {
       "type": "entity",
-      "partition": "coastaltown",
-      "path": "[assembly:/sonsofprovidence/outfits_funeral.entity].entitytype"
+      "partition": "super",
+      "path": "[assembly:/sonsofprovidence/shared/global_outfits.brick].entitytype"
     }
   ],
   "localisation": {
     "english": {
-      "UI_MENU_PAGE_HITS_ELEMENT_CATEGORY_MODDED": "Sons of Providence",
+      "UI_SONS_OF_PROVIDENCE": "Sons of Providence",
       "UI_DBIEREK": "Danny Bierek",
       "DESC_DARTMOOR": "47 and I attacked the Institute for Human Betterment but were repelled. 47 is buying time for my escape.",
       "UI_DARTMOOR_TITLE": "Escape from the Institute",
       "DESC_DUBAI": "I've learned that Eugene Cobb is a member of Providence. It's time to begin taking them all down, starting with Eugene Cobb, who holds one of two keys needed to open the Providence archive.",
       "UI_DUBAI_TITLE": "Grey's Revenge Begins",
       "UI_DUBAI_TARGET_BRIEFING": "Eugene Cobb",
-      "DESC_SIBERIA": "I'm convinced Viktor Novikov to give me the Secrets of the Global Elites document in exchange for eliminating the FSB Section Chief Nicholai Kamarov. I'm heading to Moscow to FSB headquarters now.",
+      "DESC_SIBERIA": "I've convinced Viktor Novikov to give me the Secrets of the Global Elites document in exchange for eliminating the FSB Section Chief Nicholai Kamarov. I'm heading to Moscow to FSB headquarters now.",
       "UI_SIBERIA_TITLE": "Collateral Damage",
       "DESC_MARRAKESH": "I've tracked the Providence Herald for the Ether Biotech Corporation, Hajun, to the Ether parking garage in Johannesburg. Hajun holds the other key needed to open the Providence archive.",
       "UI_MARRAKESH_TITLE": "The Keys to the Kingdom",
@@ -177,6 +182,7 @@
       "UI_HOKKAIDO_TITLE": "Hokkaido Test Mission",
       "ui_starting_location_mumbai_ether_lab_default_name": "Roof of Ether Headquarters",
       "ui_starting_location_dartmoor_institute_default_name": "The Institute for Human Betterment",
+      "ui_starting_location_siberia_moscow_default_name": "FSB Headquarters, Moscow",
       "ui_starting_location_dubai_plane_default_name": "Eugene Cobb's private jet"
     }
   },

@@ -6,6 +6,6 @@ Deploy.exe --logLevel verbose --logLevel debug --logLevel info --logLevel warn -
 cd "C:\Program Files (x86)\Steam\steamapps\common\HITMAN 3\"
 Launcher.exe
 cd "C:\Program Files (x86)\Steam\steamapps\common\HITMAN 3\Retail"
-del thumbs.dat
-copy "C:\Program Files (x86)\Steam\steamapps\common\HITMAN 3\Simple Mod Framework\Mods\Sons of Providence\thumbs_airplane.dat" thumbs.dat
+rem del thumbs.dat
+rem copy "C:\Program Files (x86)\Steam\steamapps\common\HITMAN 3\Simple Mod Framework\Mods\Sons of Providence\thumbs.dat" thumbs.dat
 cd "C:\Program Files (x86)\Steam\steamapps\common\HITMAN 3\Simple Mod Framework\Mods\Sons of Providence\"

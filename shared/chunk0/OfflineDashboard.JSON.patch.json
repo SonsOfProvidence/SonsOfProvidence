@@ -9,7 +9,7 @@
     {
       "op": "replace",
       "path": "/children/$mergearrays/0/$if/$else/data/title",
-      "value": "$loc UI_MENU_PAGE_HITS_ELEMENT_CATEGORY_MODDED"
+      "value": "$loc UI_SONS_OF_PROVIDENCE"
     },
     {
       "op": "replace",
@@ -55,7 +55,7 @@
       "path": "/children/$mergearrays/0/$if/$else/actions/accept/-",
       "value": {
         "set-selected": {
-          "target": "$formatstring story_category_UI_MENU_PAGE_HITS_ELEMENT_CATEGORY_MODDED"
+          "target": "$formatstring story_category_UI_SONS_OF_PROVIDENCE"
         }
       }
     },
@@ -87,7 +87,7 @@
     {
       "op": "replace",
       "path": "/children/$mergearrays/0/$if/$else/actions/select/replace-children/children/0/data/title",
-      "value": "$loc UI_MENU_PAGE_HITS_ELEMENT_CATEGORY_MODDED"
+      "value": "$loc UI_SONS_OF_PROVIDENCE"
     },
     {
       "op": "replace",

@@ -11,7 +11,7 @@
     },
     "abcd6b299c3d3e26": {
       "parent": "fffffffffffffffe",
-      "name": "Scenario_Empty",
+      "name": "Scenario_Moscow",
       "blueprint": "[modules:/zentity.class].pc_entityblueprint",
       "factory": "[modules:/zentity.class].pc_entitytype"
     },
@@ -458,10 +458,222 @@
       "name": "Props",
       "blueprint": "[modules:/zentity.class].pc_entityblueprint",
       "factory": "[modules:/zentity.class].pc_entitytype"
+    },
+    "feed8fa421481f9e": {
+      "parent": "abcd7f3d8a81df6a",
+      "name": "By Helicopter",
+      "factory": "[modules:/zentity.class].pc_entitytype",
+      "blueprint": "[modules:/zentity.class].pc_entityblueprint"
+    },
+    "feed8b502c379ad7": {
+      "parent": "feed8fa421481f9e",
+      "name": "HeroSpawn_Location_Default",
+      "blueprint": "[assembly:/_pro/design/levelflow.template?/herospawn.entitytemplate].pc_entityblueprint",
+      "properties": {
+        "m_mTransform": {
+          "type": "SMatrix43",
+          "value": {
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 98.72819879199992
+            },
+            "position": {
+              "x": -193.73587,
+              "y": 1.2423859,
+              "z": 17.475763
+            }
+          }
+        },
+        "m_bDefaultHeroSpawn": {
+          "type": "bool",
+          "value": true
+        },
+        "m_eidParent": {
+          "type": "SEntityTemplateReference",
+          "value": "fffffffffffffffe",
+          "postInit": true
+        }
+      },
+      "factory": "[assembly:/_pro/design/levelflow.template?/herospawn.entitytemplate].pc_entitytype"
     }
   },
-  "propertyOverrides": [],
-  "overrideDeletes": [],
+  "propertyOverrides": [
+    {
+      "entities": [
+        {
+          "ref": "f8a0fa22f1a6eafa",
+          "externalScene": "[assembly:/_pro/scenes/missions/caged/mission_falcon/singleplayer_falcon.brick].pc_entitytype"
+        }
+      ],
+      "properties": {
+        "m_bDefaultHeroSpawn": {
+          "type": "bool",
+          "value": false
+        }
+      }
+    },
+    {
+      "entities": [
+        {
+          "ref": "239f4e855b0743f4",
+          "externalScene": "[assembly:/_pro/scenes/missions/caged/mission_falcon/singleplayer_falcon.brick].pc_entitytype"
+        }
+      ],
+      "properties": {
+        "m_InitialOutfitId": {
+          "type": "ZGuid",
+          "value": "b40a74a0-91a2-490d-8806-3ccfc852c82b"
+        }
+      }
+    },
+    {
+      "entities": [
+        {
+          "ref": "303552b298a614f0",
+          "externalScene": "[assembly:/_pro/scenes/missions/caged/mission_falcon/singleplayer_falcon.brick].pc_entitytype"
+        }
+      ],
+      "properties": {
+        "m_bStandUp": {
+          "type": "bool",
+          "value": true
+        }
+      }
+    },
+    {
+      "entities": [
+        {
+          "ref": "303552b298a614f0",
+          "externalScene": "[assembly:/_pro/scenes/missions/caged/mission_falcon/singleplayer_falcon.brick].pc_entitytype"
+        }
+      ],
+      "properties": {
+        "m_bRun": {
+          "type": "bool",
+          "value": true
+        }
+      }
+    },
+    {
+      "entities": [
+        {
+          "ref": "303552b298a614f0",
+          "externalScene": "[assembly:/_pro/scenes/missions/caged/mission_falcon/singleplayer_falcon.brick].pc_entitytype"
+        }
+      ],
+      "properties": {
+        "m_bMovementAllowed": {
+          "type": "bool",
+          "value": true
+        }
+      }
+    },
+    {
+      "entities": [
+        {
+          "ref": "303552b298a614f0",
+          "externalScene": "[assembly:/_pro/scenes/missions/caged/mission_falcon/singleplayer_falcon.brick].pc_entitytype"
+        }
+      ],
+      "properties": {
+        "m_bFastWalk": {
+          "type": "bool",
+          "value": true
+        }
+      }
+    },
+    {
+      "entities": [
+        {
+          "ref": "303552b298a614f0",
+          "externalScene": "[assembly:/_pro/scenes/missions/caged/mission_falcon/singleplayer_falcon.brick].pc_entitytype"
+        }
+      ],
+      "properties": {
+        "m_bSneak": {
+          "type": "bool",
+          "value": true
+        }
+      }
+    },
+    {
+      "entities": [
+        {
+          "ref": "303552b298a614f0",
+          "externalScene": "[assembly:/_pro/scenes/missions/caged/mission_falcon/singleplayer_falcon.brick].pc_entitytype"
+        }
+      ],
+      "properties": {
+        "m_bDropItem": {
+          "type": "bool",
+          "value": true
+        }
+      }
+    },
+    {
+      "entities": [
+        {
+          "ref": "303552b298a614f0",
+          "externalScene": "[assembly:/_pro/scenes/missions/caged/mission_falcon/singleplayer_falcon.brick].pc_entitytype"
+        }
+      ],
+      "properties": {
+        "m_bCanHolsterItems": {
+          "type": "bool",
+          "value": true
+        }
+      }
+    },
+    {
+      "entities": [
+        {
+          "ref": "303552b298a614f0",
+          "externalScene": "[assembly:/_pro/scenes/missions/caged/mission_falcon/singleplayer_falcon.brick].pc_entitytype"
+        }
+      ],
+      "properties": {
+        "m_bThrowItem": {
+          "type": "bool",
+          "value": true
+        }
+      }
+    },
+    {
+      "entities": [
+        {
+          "ref": "303552b298a614f0",
+          "externalScene": "[assembly:/_pro/scenes/missions/caged/mission_falcon/singleplayer_falcon.brick].pc_entitytype"
+        }
+      ],
+      "properties": {
+        "m_bPlaceItem": {
+          "type": "bool",
+          "value": true
+        }
+      }
+    },
+    {
+      "entities": [
+        {
+          "ref": "ca9d32b96c2af333",
+          "externalScene": "[assembly:/_pro/scenes/missions/caged/mission_falcon/singleplayer_falcon.brick].pc_entitytype"
+        }
+      ],
+      "properties": {
+        "m_RepositoryId": {
+          "type": "ZGuid",
+          "value": "d5f8e067-5b44-4ddf-91e2-3c29e9222eae"
+        }
+      }
+    }
+  ],
+  "overrideDeletes": [
+    {
+      "ref": "f2e82d44b73e7669",
+      "externalScene": "[assembly:/_pro/scenes/missions/caged/mission_falcon/singleplayer_falcon.brick].pc_entitytype"
+    }
+  ],
   "pinConnectionOverrides": [],
   "pinConnectionOverrideDeletes": [],
   "externalScenes": [
