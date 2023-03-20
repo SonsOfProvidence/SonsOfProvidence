@@ -1,7 +1,19 @@
 {
   "Data": {
     "EnableSaving": true,
-    "Objectives": [],
+    "Objectives": [
+      {
+        "Comment": "--- Target Nicholai Kamarov ---",
+        "Id": "648470d6-a127-4b3d-b450-dbe3696f75dc",
+        "Primary": true,
+        "SuccessEvent": {
+          "EventName": "Kill",
+          "EventValues": {
+            "RepositoryId": "d1fcedd5-b0bc-4d91-bf7f-97ff6392d2c9"
+          }
+        }
+      }
+    ],
     "GameDifficulties": [
       {
         "Difficulty": "easy",

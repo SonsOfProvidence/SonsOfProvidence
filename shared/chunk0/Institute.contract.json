@@ -33,8 +33,7 @@
     "LastUpdate": "2022-12-06T08:36:00.000Z",
     "CreationTimestamp": "2022-12-06T08:36:00.000Z",
     "CreatorUserId": "00000000-0000-0000-0000-000000000000",
-    "Type": "flashback",
-    "Subtype": "specialassignment",
+    "Type": "mission",
     "Release": "2.2.x",
     "RequiredUnlockable": "ACCESS_HIT_MONGOOSE",
     "Entitlements": ["LOCATION_ANCESTRAL"]

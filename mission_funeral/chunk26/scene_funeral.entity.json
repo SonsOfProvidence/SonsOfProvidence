@@ -1317,8 +1317,8 @@
     "feed196f8917128d": {
       "parent": "abcd85cba5ab5afa",
       "name": "Magpie_Luxury_Helicopter_A_01",
-      "factory": "00C7FD7BF123ACB5",
-      "blueprint": "009769D1F255542C",
+      "factory": "00C7FD7BF123ACB4",
+      "blueprint": "009769D1F255542B",
       "properties": {
         "m_mTransform": {
           "type": "SMatrix43",
