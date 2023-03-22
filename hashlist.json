@@ -1,163 +1,163 @@
 [
   {
-    "hash": "[assembly:/sonsofprovidence/scene_funeral.entity].pc_entitytemplate",
-    "ioiString": "0096465A56516411"
+    "hash": "0096465A56516411",
+    "ioiString": "[assembly:/sonsofprovidence/scene_funeral.entity].pc_entitytemplate"
   },
   {
-    "hash": "[assembly:/sonsofprovidence/scene_funeral.entity].pc_entityblueprint",
-    "ioiString": "00A670A2217EF19B"
+    "hash": "00A670A2217EF19B",
+    "ioiString": "[assembly:/sonsofprovidence/scene_funeral.entity].pc_entityblueprint"
   },
   {
-    "hash": "[assembly:/sonsofprovidence/funeral/funeral_outfits.brick].pc_entitytype",
-    "ioiString": "00562C638AE2F297"
+    "hash": "00562C638AE2F297",
+    "ioiString": "[assembly:/sonsofprovidence/funeral/funeral_outfits.brick].pc_entitytype"
   },
   {
-    "hash": "[assembly:/sonsofprovidence/funeral/funeral_outfits.brick].pc_entityblueprint",
-    "ioiString": "0000803C387ADE8F"
+    "hash": "0000803C387ADE8F",
+    "ioiString": "[assembly:/sonsofprovidence/funeral/funeral_outfits.brick].pc_entityblueprint"
   },
   {
-    "hash": "[assembly:/sonsofprovidence/scene_airplane.entity].pc_entitytemplate",
-    "ioiString": "002438330BC4BDCD"
+    "hash": "002438330BC4BDCD",
+    "ioiString": "[assembly:/sonsofprovidence/scene_airplane.entity].pc_entitytemplate"
   },
   {
-    "hash": "[assembly:/sonsofprovidence/scene_airplane.entity].pc_entityblueprint",
-    "ioiString": "00656D5CC4DC5B67"
+    "hash": "00656D5CC4DC5B67",
+    "ioiString": "[assembly:/sonsofprovidence/scene_airplane.entity].pc_entityblueprint"
   },
   {
-    "hash": "[assembly:/sonsofprovidence/airplane/outfits_airplane.brick].pc_entitytype",
-    "ioiString": "001A8ED7670AD41C"
+    "hash": "001A8ED7670AD41C",
+    "ioiString": "[assembly:/sonsofprovidence/airplane/outfits_airplane.brick].pc_entitytype"
   },
   {
-    "hash": "[assembly:/sonsofprovidence/airplane/outfits_airplane.brick].pc_entityblueprint",
-    "ioiString": "006B13AAF2FDF608"
+    "hash": "006B13AAF2FDF608",
+    "ioiString": "[assembly:/sonsofprovidence/airplane/outfits_airplane.brick].pc_entityblueprint"
   },
   {
-    "hash": "[assembly:/sonsofprovidence/airplane/charset_eugene_cobb.entitytemplate].pc_entitytype",
-    "ioiString": "00E4CF1507F85C55"
+    "hash": "00E4CF1507F85C55",
+    "ioiString": "[assembly:/sonsofprovidence/airplane/charset_eugene_cobb.entitytemplate].pc_entitytype"
   },
   {
-    "hash": "[assembly:/sonsofprovidence/airplane/charset_eugene_cobb.entitytemplate].pc_entityblueprint",
-    "ioiString": "00DB640FA765983B"
+    "hash": "00DB640FA765983B",
+    "ioiString": "[assembly:/sonsofprovidence/airplane/charset_eugene_cobb.entitytemplate].pc_entityblueprint"
   },
   {
-    "hash": "[assembly:/sonsofprovidence/airplane/outfit_eugene_cobb_actor_v0.entitytemplate].pc_entitytype",
-    "ioiString": "006E65A4B1D372A9"
+    "hash": "006E65A4B1D372A9",
+    "ioiString": "[assembly:/sonsofprovidence/airplane/outfit_eugene_cobb_actor_v0.entitytemplate].pc_entitytype"
   },
   {
-    "hash": "[assembly:/sonsofprovidence/airplane/outfit_eugene_cobb_actor_v0.entitytemplate].pc_entityblueprint",
-    "ioiString": "00ADBF709711CE1D"
+    "hash": "00ADBF709711CE1D",
+    "ioiString": "[assembly:/sonsofprovidence/airplane/outfit_eugene_cobb_actor_v0.entitytemplate].pc_entityblueprint"
   },
   {
-    "hash": "[assembly:/sonsofprovidence/shared/global_outfits.brick].pc_entitytype",
-    "ioiString": "0027FA16D98A5FC5"
+    "hash": "0027FA16D98A5FC5",
+    "ioiString": "[assembly:/sonsofprovidence/shared/global_outfits.brick].pc_entitytype"
   },
   {
-    "hash": "[assembly:/sonsofprovidence/shared/global_outfits.brick].pc_entityblueprint",
-    "ioiString": "000C0C6A819F185A"
+    "hash": "000C0C6A819F185A",
+    "ioiString": "[assembly:/sonsofprovidence/shared/global_outfits.brick].pc_entityblueprint"
   },
   {
-    "hash": "[assembly:/sonsofprovidence/scene_moscow.entity].pc_entitytemplate",
-    "ioiString": "002B265B3512B2F9"
+    "hash": "002B265B3512B2F9",
+    "ioiString": "[assembly:/sonsofprovidence/scene_moscow.entity].pc_entitytemplate"
   },
   {
-    "hash": "[assembly:/sonsofprovidence/scene_moscow.entity].pc_entityblueprint",
-    "ioiString": "00D1D0C87F2EB725"
+    "hash": "00D1D0C87F2EB725",
+    "ioiString": "[assembly:/sonsofprovidence/scene_moscow.entity].pc_entityblueprint"
   },
   {
-    "hash": "[assembly:/sonsofprovidence/scene_carpark.entity].pc_entitytemplate",
-    "ioiString": "003C58407FCD8213"
+    "hash": "003C58407FCD8213",
+    "ioiString": "[assembly:/sonsofprovidence/scene_carpark.entity].pc_entitytemplate"
   },
   {
-    "hash": "[assembly:/sonsofprovidence/scene_carpark.entity].pc_entityblueprint",
-    "ioiString": "00210973F4D89B00"
+    "hash": "00210973F4D89B00",
+    "ioiString": "[assembly:/sonsofprovidence/scene_carpark.entity].pc_entityblueprint"
   },
   {
-    "hash": "[assembly:/sonsofprovidence/scene_etherhq.entity].pc_entitytemplate",
-    "ioiString": "00FB1DCB4037786A"
+    "hash": "00FB1DCB4037786A",
+    "ioiString": "[assembly:/sonsofprovidence/scene_etherhq.entity].pc_entitytemplate"
   },
   {
-    "hash": "[assembly:/sonsofprovidence/scene_etherhq.entity].pc_entityblueprint",
-    "ioiString": "007BC3C6E18A6EDD"
+    "hash": "007BC3C6E18A6EDD",
+    "ioiString": "[assembly:/sonsofprovidence/scene_etherhq.entity].pc_entityblueprint"
   },
   {
-    "hash": "[assembly:/sonsofprovidence/etherhq/etherhq_outfits.brick].pc_entitytype",
-    "ioiString": "00CE2AA7A5261502"
+    "hash": "00CE2AA7A5261502",
+    "ioiString": "[assembly:/sonsofprovidence/etherhq/etherhq_outfits.brick].pc_entitytype"
   },
   {
-    "hash": "[assembly:/sonsofprovidence/etherhq/etherhq_outfits.brick].pc_entityblueprint",
-    "ioiString": "005E103AA21441A0"
+    "hash": "005E103AA21441A0",
+    "ioiString": "[assembly:/sonsofprovidence/etherhq/etherhq_outfits.brick].pc_entityblueprint"
   },
   {
-    "hash": "[assembly:/sonsofprovidence/airplane/airplane_a.wl2?/airplane_a.prim].pc_entitytype",
-    "ioiString": "00C6FB0D282EB377"
+    "hash": "00C6FB0D282EB377",
+    "ioiString": "[assembly:/sonsofprovidence/airplane/airplane_a.wl2?/airplane_a.prim].pc_entitytype"
   },
   {
-    "hash": "[assembly:/sonsofprovidence/airplane/airplane_a.wl2?/airplane_a.prim].pc_entityblueprint",
-    "ioiString": "000768769D278647"
+    "hash": "000768769D278647",
+    "ioiString": "[assembly:/sonsofprovidence/airplane/airplane_a.wl2?/airplane_a.prim].pc_entityblueprint"
   },
   {
-    "hash": "[assembly:/sonsofprovidence/airplane/airplane_a_door.wl2?/airplane_a_door.prim].pc_entitytype",
-    "ioiString": "008060B84F3C8EE3"
+    "hash": "008060B84F3C8EE3",
+    "ioiString": "[assembly:/sonsofprovidence/airplane/airplane_a_door.wl2?/airplane_a_door.prim].pc_entitytype"
   },
   {
-    "hash": "[assembly:/sonsofprovidence/airplane/airplane_a_door.wl2?/airplane_a_door.prim].pc_entityblueprint",
-    "ioiString": "0080C74FAD65FD30"
+    "hash": "0080C74FAD65FD30",
+    "ioiString": "[assembly:/sonsofprovidence/airplane/airplane_a_door.wl2?/airplane_a_door.prim].pc_entityblueprint"
   },
   {
-    "hash": "[assembly:/sonsofprovidence/airplane/airplane.prim].pc_prim",
-    "ioiString": "000938C906B39983"
+    "hash": "000938C906B39983",
+    "ioiString": "[assembly:/sonsofprovidence/airplane/airplane.prim].pc_prim"
   },
   {
-    "hash": "[assembly:/sonsofprovidence/airplane/airplane_door.prim].pc_prim",
-    "ioiString": "0045F3F549247701"
+    "hash": "0045F3F549247701",
+    "ioiString": "[assembly:/sonsofprovidence/airplane/airplane_door.prim].pc_prim"
   },
   {
-    "hash": "[assembly:/sonsofprovidence/airplane/airplane.entitytemplate].pc_entitytype",
-    "ioiString": "0068D79CAE15D985"
+    "hash": "0068D79CAE15D985",
+    "ioiString": "[assembly:/sonsofprovidence/airplane/airplane.entitytemplate].pc_entitytype"
   },
   {
-    "hash": "[assembly:/sonsofprovidence/airplane/airplane.entitytemplate].pc_entityblueprint",
-    "ioiString": "009B53984CC700F7"
+    "hash": "009B53984CC700F7",
+    "ioiString": "[assembly:/sonsofprovidence/airplane/airplane.entitytemplate].pc_entityblueprint"
   },
   {
-    "hash": "006FD6888AFEFBCC",
-    "ioiString": "(planning_contract) sonsofprovidence funeral"
+    "hash": "(planning_contract) sonsofprovidence funeral",
+    "ioiString": "006FD6888AFEFBCC"
   },
   {
-    "hash": "002DDBAAF0E0B62C",
-    "ioiString": "Act_MR_HeadOfSecurity_AimPistol_Dianna"
+    "hash": "Act_MR_HeadOfSecurity_AimPistol_Dianna",
+    "ioiString": "002DDBAAF0E0B62C"
   },
   {
-    "hash": "[assembly:/sonsofprovidence/scene_institute.entity].pc_entitytemplate",
-    "ioiString": ":005565E11B9913E7"
+    "hash": ":005565E11B9913E7",
+    "ioiString": "[assembly:/sonsofprovidence/scene_institute.entity].pc_entitytemplate"
   },
   {
-    "hash": "[assembly:/sonsofprovidence/scene_institute.entity].pc_entityblueprint",
-    "ioiString": "00CF5E77B6B7AE8C"
+    "hash": "00CF5E77B6B7AE8C",
+    "ioiString": "[assembly:/sonsofprovidence/scene_institute.entity].pc_entityblueprint"
   },
   {
-    "hash": "[assembly:/sonsofprovidence/outfits_institute.brick].pc_entitytype",
-    "ioiString": "0069723534C277CC"
+    "hash": "0069723534C277CC",
+    "ioiString": "[assembly:/sonsofprovidence/outfits_institute.brick].pc_entitytype"
   },
   {
-    "hash": "[assembly:/sonsofprovidence/outfits_institute.brick].pc_entityblueprint",
-    "ioiString": "00D6366F5F266F1E"
+    "hash": "00D6366F5F266F1E",
+    "ioiString": "[assembly:/sonsofprovidence/outfits_institute.brick].pc_entityblueprint"
   },
   {
-    "hash": "00D023CAEBCDCC63",
-    "ioiString": "[assembly:/sonsofprovidence/thomascross_hair_diffuse.tex](ascolormap).pc_tex)"
+    "hash": "[assembly:/sonsofprovidence/thomascross_hair_diffuse.tex](ascolormap).pc_tex)",
+    "ioiString": "00D023CAEBCDCC63"
   },
   {
-    "hash": "00949A3A50C3A8BC",
-    "ioiString": "[assembly:/sonsofprovidence/lucasgrey_head_bald_diffuse.tex](ascolormap).pc_tex"
+    "hash": "[assembly:/sonsofprovidence/lucasgrey_head_bald_diffuse.tex](ascolormap).pc_tex",
+    "ioiString": "00949A3A50C3A8BC"
   },
   {
-    "hash": "[assembly:/sonsofprovidence/airplane/setpiece_airplane_unique_computer_100cm.entitytemplate].pc_entitytype",
-    "ioiString": "00645A888F6E500E"
+    "hash": "00645A888F6E500E",
+    "ioiString": "[assembly:/sonsofprovidence/airplane/setpiece_airplane_unique_computer_100cm.entitytemplate].pc_entitytype"
   },
   {
-    "hash": "[assembly:/sonsofprovidence/airplane/setpiece_airplane_unique_computer_100cm.entitytemplate].pc_entityblueprint",
-    "ioiString": "00C33CBC44349062"
+    "hash": "00C33CBC44349062",
+    "ioiString": "[assembly:/sonsofprovidence/airplane/setpiece_airplane_unique_computer_100cm.entitytemplate].pc_entityblueprint"
   },
   {
     "hash": "",

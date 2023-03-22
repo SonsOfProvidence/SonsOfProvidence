@@ -11,7 +11,7 @@
     },
     "abcd6b299c3d3e26": {
       "parent": "fffffffffffffffe",
-      "name": "Scenario_Empty",
+      "name": "Scenario_Carpark",
       "blueprint": "[modules:/zentity.class].pc_entityblueprint",
       "factory": "[modules:/zentity.class].pc_entitytype"
     },

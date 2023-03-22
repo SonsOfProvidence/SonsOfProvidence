@@ -1,0 +1,43 @@
+{
+  "Data": {
+    "EnableSaving": true,
+    "Objectives": [],
+    "GameDifficulties": [
+      {
+        "Difficulty": "easy",
+        "Bricks": []
+      },
+      {
+        "Difficulty": "normal",
+        "Bricks": []
+      },
+      {
+        "Difficulty": "hard",
+        "Bricks": []
+      }
+    ],
+    "Bricks": [],
+    "DevOnlyBricks": [],
+    "GameChangers": [],
+    "GameChangerReferences": []
+  },
+  "Metadata": {
+    "Id": "179563a4-727a-4072-b354-c9fff4e8bff5",
+    "IsPublished": true,
+    "Title": "UI_MARRAKESH_TITLE",
+    "Description": "DESC_MARRAKESH",
+    "CodeName_Hint": "Marrakesh",
+    "ScenePath": "assembly:/sonsofprovidence/scene_carpark.entity",
+    "TileImage": "images/dbierek/marrakesh.jpg",
+    "Location": "LOCATION_MARRAKECH",
+    "LastUpdate": "2022-12-06T08:36:00.000Z",
+    "CreationTimestamp": "2022-12-06T08:36:00.000Z",
+    "CreatorUserId": "00000000-0000-0000-0000-000000000000",
+    "IsLocked": false,
+    "Type": "mission",
+    "Release": "1.2.x",
+    "RequiredUnlockable": "ACCESS_HIT_SPIDER",
+    "Entitlements": ["H1_LEGACY_STANDARD"]
+  },
+  "UserData": {}
+}
