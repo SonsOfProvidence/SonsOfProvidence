@@ -98,6 +98,12 @@
       "comment": "Helicopter door",
       "portFromChunk1": true,
       "toChunk": 0
+    },
+    {
+      "runtimeID": "00301343AD550401 ",
+      "comment": "Skyscraper for Ether from Mumbai",
+      "portFromChunk1": true,
+      "toChunk": 0
     }
   ],
   "packagedefinition": [
