@@ -5,7 +5,7 @@
   "blobsFolders": ["blobs"],
   "authors": ["Danny Bierek"],
   "frameworkVersion": "2.1.5",
-  "version": "0.35.0",
+  "version": "0.36.0",
   "contentFolders": ["shared"],
   "options": [
     {
