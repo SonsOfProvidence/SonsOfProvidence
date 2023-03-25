@@ -98,6 +98,12 @@
       "comment": "Helicopter door",
       "portFromChunk1": true,
       "toChunk": 0
+    },
+    {
+      "runtimeID": "00301343AD550401 ",
+      "comment": "Skyscraper for Ether from Mumbai",
+      "portFromChunk1": true,
+      "toChunk": 0
     }
   ],
   "packagedefinition": [
@@ -125,6 +131,11 @@
       "type": "entity",
       "partition": "coastaltown",
       "path": "[assembly:/sonsofprovidence/scene_funeral.entity].entitytemplate"
+    },
+    {
+      "type": "entity",
+      "partition": "marrakesh",
+      "path": "[assembly:/sonsofprovidence/scene_carpark.entity].entitytemplate"
     },
     {
       "type": "entity",
