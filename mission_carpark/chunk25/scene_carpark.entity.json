@@ -461,7 +461,7 @@
     },
     "feed4df0cb046759": {
       "parent": "abcd7f3d8a81df6a",
-      "name": "Plane",
+      "name": "Outside Shoe Shop",
       "factory": "[modules:/zentity.class].pc_entitytype",
       "blueprint": "[modules:/zentity.class].pc_entityblueprint",
       "events": { "OnPlay": { "SetTrue": ["feed9ed416ff098a"] } }
@@ -474,8 +474,8 @@
         "m_mTransform": {
           "type": "SMatrix43",
           "value": {
-            "rotation": { "x": 0, "y": 0, "z": 90 },
-            "position": { "x": 97.26527, "y": -29.183844, "z": 2.4836123 }
+            "rotation": { "x": 0, "y": 0, "z": 28.31373299668204 },
+            "position": { "x": 67.77303, "y": -27.269623, "z": -0.014872659 }
           }
         },
         "m_bDefaultHeroSpawn": { "type": "bool", "value": true },
@@ -921,7 +921,7 @@
         },
         "m_PrimitiveScale": {
           "type": "SVector3",
-          "value": { "x": 1, "y": 1, "z": 1 }
+          "value": { "x": 0.5, "y": 0.5, "z": 0.5 }
         },
         "m_eidParent": {
           "type": "SEntityTemplateReference",
@@ -932,7 +932,7 @@
     },
     "feeda0e1f43c4fa0": {
       "parent": "abcd0b045d13d43f",
-      "name": "100_Plane",
+      "name": "000_Outside_environment",
       "factory": "[modules:/zroomentity.class].pc_entitytype",
       "blueprint": "[modules:/zroomentity.class].pc_entityblueprint",
       "properties": {
@@ -995,6 +995,174 @@
         }
       },
       "subsets": { "Rooms": ["fffffffffffffffe"] }
+    },
+    "feed9841105fdd1c": {
+      "parent": "abcd0b045d13d43f",
+      "name": "StaticDecal_Ether_B_00",
+      "factory": "[modules:/zstaticdecalentity.class].pc_entitytype",
+      "blueprint": "[modules:/zstaticdecalentity.class].pc_entityblueprint",
+      "properties": {
+        "m_mTransform": {
+          "type": "SMatrix43",
+          "value": {
+            "rotation": {
+              "x": -89.99994270422063,
+              "y": 0,
+              "z": 89.99994270422063
+            },
+            "position": { "x": 76, "y": -30, "z": 2 }
+          }
+        },
+        "m_vGlobalSize": {
+          "type": "SVector3",
+          "value": {
+            "x": 0.9003509879112244,
+            "y": 1.4421099424362183,
+            "z": 0.00875070970505476
+          }
+        },
+        "m_pController": {
+          "type": "SEntityTemplateReference",
+          "value": "feedc9dc7d475a3d"
+        },
+        "m_MaterialID": {
+          "type": "ZRuntimeResourceID",
+          "value": {
+            "resource": "[assembly:/_pro/environment/materials/decals/logos/ether_b.mi].pc_mi",
+            "flag": "5F"
+          }
+        },
+        "m_Color": { "type": "SColorRGB", "value": "#ffffff" },
+        "m_vTiling": {
+          "type": "SVector2",
+          "value": { "x": 0.9758210182189941, "y": 0.7401329874992371 }
+        },
+        "m_vUVOffset": {
+          "type": "SVector2",
+          "value": { "x": 0.014276199974119663, "y": 0.0035780000034719706 }
+        },
+        "m_fAlpha": { "type": "float32", "value": 100 },
+        "m_nZBias": { "type": "uint8", "value": 2 },
+        "m_eidParent": {
+          "type": "SEntityTemplateReference",
+          "value": "feeda0e1f43c4fa0",
+          "postInit": true
+        }
+      }
+    },
+    "feedc9dc7d475a3d": {
+      "parent": "abcd0b045d13d43f",
+      "name": "StaticDecalController_Laboratory_SecurityRoom",
+      "factory": "[modules:/zstaticdecalcontrollerentity.class].pc_entitytype",
+      "blueprint": "[modules:/zstaticdecalcontrollerentity.class].pc_entityblueprint",
+      "properties": {
+        "m_mTransform": {
+          "type": "SMatrix43",
+          "value": {
+            "rotation": { "x": 0, "y": 0, "z": 0 },
+            "position": { "x": 0, "y": 0, "z": 0 }
+          }
+        },
+        "m_pDecalMesh": {
+          "type": "ZRuntimeResourceID",
+          "value": { "resource": "0030C248A4F183C9", "flag": "5F" }
+        },
+        "m_bCastShadows": { "type": "bool", "value": false },
+        "m_eidParent": {
+          "type": "SEntityTemplateReference",
+          "value": "feeda0e1f43c4fa0",
+          "postInit": true
+        }
+      }
+    },
+    "feed84cfdd147832": {
+      "parent": "feedc9dc7d475a3d",
+      "name": "ether_b",
+      "factory": "[assembly:/_pro/environment/materials/decals/logos/ether_b.mi].pc_entitytype",
+      "blueprint": "[assembly:/_pro/environment/materials/decals/logos/ether_b.mi].pc_entityblueprint",
+      "properties": {
+        "m_mTransform": {
+          "type": "SMatrix43",
+          "value": {
+            "rotation": { "x": 0, "y": 0, "z": 0 },
+            "position": { "x": 76, "y": -32, "z": 2 }
+          }
+        },
+        "Clients": {
+          "type": "TArray<SEntityTemplateReference>",
+          "value": ["feedc9dc7d475a3d"]
+        },
+        "HueShift_01_Amount_op": {
+          "type": "IRenderMaterialEntity.EModifierOperation",
+          "value": "eReplace"
+        },
+        "ColorSaturation_01_Saturation_op": {
+          "type": "IRenderMaterialEntity.EModifierOperation",
+          "value": "eReplace"
+        },
+        "HueShift_01_Amount": {
+          "type": "float32",
+          "value": -0.4699999988079071
+        },
+        "ColorSaturation_01_Saturation": {
+          "type": "float32",
+          "value": 1.8200000524520874
+        },
+        "ConstantVector1D_01_Value_op": {
+          "type": "IRenderMaterialEntity.EModifierOperation",
+          "value": "eReplace"
+        },
+        "ConstantVector1D_01_Value": {
+          "type": "float32",
+          "value": 0.6000000238418579
+        },
+        "m_eidParent": {
+          "type": "SEntityTemplateReference",
+          "value": "feedc9dc7d475a3d"
+        }
+      }
+    },
+    "feed4469b63038a8": {
+      "parent": "abcd56b67c5c3bc1",
+      "name": "Hajun's Car",
+      "factory": "[assembly:/_pro/design/levelflow.template?/exit_pushbutton.entitytemplate].pc_entitytype",
+      "blueprint": "[assembly:/_pro/design/levelflow.template?/exit_pushbutton.entitytemplate].pc_entityblueprint",
+      "properties": {
+        "m_mTransform": {
+          "type": "SMatrix43",
+          "value": {
+            "rotation": { "x": 0, "y": 0, "z": 99.37393044904323 },
+            "position": {
+              "x": -11.790379524230957,
+              "y": -141.16090393066406,
+              "z": -3.9998180866241455
+            }
+          }
+        },
+        "m_sId": {
+          "type": "ZGuid",
+          "value": "fb75a371-8a8a-46ca-8cff-320e16018db5"
+        },
+        "Manual_Exit_Trigger_Needed": { "type": "bool", "value": true },
+        "m_eRoomBehaviour": {
+          "type": "ZSpatialEntity.ERoomBehaviour",
+          "value": "ROOM_DYNAMIC"
+        },
+        "m_aUIHighlightGeom": {
+          "type": "TArray<SEntityTemplateReference>",
+          "value": [
+            {
+              "ref": "26dab730a616357f",
+              "externalScene": "[assembly:/_pro/scenes/missions/marrakesh/mission_marrakesh_spider.brick].pc_entitytype"
+            }
+          ]
+        },
+        "m_eidParent": {
+          "type": "SEntityTemplateReference",
+          "value": "fffffffffffffffe",
+          "postInit": true
+        }
+      }
     }
   },
   "propertyOverrides": [
@@ -1008,11 +1176,50 @@
       "properties": { "m_bDefaultHeroSpawn": { "type": "bool", "value": true } }
     }
   ],
-  "overrideDeletes": [],
+  "overrideDeletes": [
+    {
+      "ref": "7d83b0254ad07f4d",
+      "externalScene": "[assembly:/_pro/scenes/missions/marrakesh/npc_mission_spider.brick].pc_entitytype"
+    },
+    {
+      "ref": "bf73228092ce54bd",
+      "externalScene": "[assembly:/_pro/scenes/missions/marrakesh/location.brick].pc_entitytype"
+    },
+    {
+      "ref": "fba2cd699d869545",
+      "externalScene": "[assembly:/_pro/scenes/missions/marrakesh/location.brick].pc_entitytype"
+    },
+    {
+      "ref": "c60a286c9c8ab533",
+      "externalScene": "[assembly:/_pro/scenes/missions/marrakesh/location.brick].pc_entitytype"
+    },
+    {
+      "ref": "fca52017e42a771c",
+      "externalScene": "[assembly:/_pro/scenes/missions/marrakesh/location.brick].pc_entitytype"
+    },
+    {
+      "ref": "a61070af49549589",
+      "externalScene": "[assembly:/_pro/scenes/missions/marrakesh/location.brick].pc_entitytype"
+    },
+    {
+      "ref": "5bbc05df776c420b",
+      "externalScene": "[assembly:/_pro/scenes/missions/marrakesh/npc_mission_spider.brick].pc_entitytype"
+    },
+    {
+      "ref": "48fc6a7f7485e95d",
+      "externalScene": "[assembly:/_pro/scenes/missions/marrakesh/mission_marrakesh_spider.brick].pc_entitytype"
+    },
+    {
+      "ref": "f18b169968e94173",
+      "externalScene": "[assembly:/_pro/scenes/missions/marrakesh/location.brick].pc_entitytype"
+    }
+  ],
   "pinConnectionOverrides": [],
   "pinConnectionOverrideDeletes": [],
   "externalScenes": [
-    "[assembly:/_pro/scenes/missions/marrakesh/mission_marrakesh_spider.brick].pc_entitytype"
+    "[assembly:/_pro/scenes/missions/marrakesh/mission_marrakesh_spider.brick].pc_entitytype",
+    "[assembly:/_pro/scenes/missions/marrakesh/npc_mission_spider.brick].pc_entitytype",
+    "[assembly:/_pro/scenes/missions/marrakesh/location.brick].pc_entitytype"
   ],
   "subType": "scene",
   "quickEntityVersion": 3.1,

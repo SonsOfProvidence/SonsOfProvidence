@@ -104,6 +104,24 @@
       "comment": "Skyscraper for Ether from Mumbai",
       "portFromChunk1": true,
       "toChunk": 0
+    },
+    {
+      "runtimeID": "0068F7EAE4FA38F6",
+      "comment": "Ether Decal Material",
+      "portFromChunk1": true,
+      "toChunk": 0
+    },
+    {
+      "runtimeID": "00777A3A7A34F87A",
+      "comment": "Ether Decal Material 2",
+      "portFromChunk1": true,
+      "toChunk": 0
+    },
+    {
+      "runtimeID": "005758B10E3CA7FE",
+      "comment": "Ether Decal Material 2 TBLU",
+      "portFromChunk1": true,
+      "toChunk": 0
     }
   ],
   "packagedefinition": [
