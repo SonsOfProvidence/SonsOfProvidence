@@ -461,7 +461,7 @@
     },
     "feed4df0cb046759": {
       "parent": "abcd7f3d8a81df6a",
-      "name": "Plane",
+      "name": "Courtyard",
       "factory": "[modules:/zentity.class].pc_entitytype",
       "blueprint": "[modules:/zentity.class].pc_entityblueprint",
       "events": { "OnPlay": { "SetTrue": ["feed9ed416ff098a"] } }
@@ -477,6 +477,10 @@
             "rotation": { "x": 0, "y": 0, "z": 90 },
             "position": { "x": 97.26527, "y": -29.183844, "z": 2.4836123 }
           }
+        },
+        "m_sId": {
+          "type": "ZGuid",
+          "value": "fb75a371-8a8a-46ca-8cff-320e16018db6"
         },
         "m_bDefaultHeroSpawn": { "type": "bool", "value": true },
         "m_eidParent": {
@@ -995,6 +999,60 @@
         }
       },
       "subsets": { "Rooms": ["fffffffffffffffe"] }
+    },
+    "feed4469b63038a8": {
+      "parent": "abcd56b67c5c3bc1",
+      "name": "Hajun's Car",
+      "factory": "[assembly:/_pro/design/levelflow.template?/exit_pushbutton.entitytemplate].pc_entitytype",
+      "blueprint": "[assembly:/_pro/design/levelflow.template?/exit_pushbutton.entitytemplate].pc_entityblueprint",
+      "properties": {
+        "m_mTransform": {
+          "type": "SMatrix43",
+          "value": {
+            "rotation": { "x": 0, "y": 0, "z": 99.37393044904323 },
+            "position": {
+              "x": -11.790379524230957,
+              "y": -141.16090393066406,
+              "z": -3.9998180866241455
+            }
+          }
+        },
+        "m_sId": {
+          "type": "ZGuid",
+          "value": "fb75a371-8a8a-46ca-8cff-320e16018db5"
+        },
+        "Manual_Exit_Trigger_Needed": { "type": "bool", "value": true },
+        "m_eRoomBehaviour": {
+          "type": "ZSpatialEntity.ERoomBehaviour",
+          "value": "ROOM_DYNAMIC"
+        },
+        "m_aUIHighlightGeom": {
+          "type": "TArray<SEntityTemplateReference>",
+          "value": [
+            {
+              "ref": "26dab730a616357f",
+              "externalScene": "[assembly:/_pro/scenes/missions/marrakesh/mission_marrakesh_spider.brick].pc_entitytype"
+            }
+          ]
+        },
+        "m_eidParent": {
+          "type": "SEntityTemplateReference",
+          "value": "fffffffffffffffe",
+          "postInit": true
+        }
+      }
+    },
+    "feedd8dec2f45bb9": {
+      "parent": "abcdb8a050d68c57",
+      "name": "Carpark",
+      "factory": "0034422566C6A53C",
+      "blueprint": "001D6533FC03CC1B",
+      "properties": {
+        "m_pMetaDataResource": {
+          "type": "ZRuntimeResourceID",
+          "value": { "resource": "00D757C1562092CC", "flag": "5F" }
+        }
+      }
     }
   },
   "propertyOverrides": [
