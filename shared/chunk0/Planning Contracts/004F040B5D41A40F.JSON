@@ -1,0 +1,21 @@
+{
+  "scene": "assembly:/sonsofprovidence/scene_institute.entity",
+  "actors": [],
+  "entrances": [
+    {
+      "id": "9c111405-637e-46b7-a051-279039c533ab",
+      "isDefaultSpawn": false,
+      "isPreferredSpawn": false,
+      "WorldTransform": "-0.618329, -0.785919, 0, 0.785919, -0.618329, 0, 0, 0, 1, 97.8754, -127.3756, 1.070843"
+    }
+  ],
+  "Exits": [
+    {
+      "id": "7256c470-23f6-445b-a6ef-027fc1b6ab84",
+      "WorldTransform": "-0.987568, -0.086397, 0.131319, 0.087152, -0.996195, 1E-06, 0.130819, 0.011446, 0.99134, 98.30611, -126.5756, 1.197588",
+      "RequireKey": false
+    }
+  ],
+  "AgencyPickups": [
+  ]
+}

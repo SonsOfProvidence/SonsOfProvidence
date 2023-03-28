@@ -17,6 +17,8 @@
       }
     ],
     "Bricks": [],
+    "Entrances": ["fb75a371-8a8a-46ca-4747-320e16018db6"],
+    "Exits": ["fb75a371-8a8a-46ca-4747-320e16018db5"],
     "DevOnlyBricks": [],
     "GameChangers": [],
     "GameChangerReferences": []

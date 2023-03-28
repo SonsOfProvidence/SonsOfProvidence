@@ -471,6 +471,10 @@
             "position": { "x": -4.88, "y": 24.37, "z": 13.54 }
           }
         },
+        "m_sId": {
+          "type": "ZGuid",
+          "value": "1021798e-cec1-4747-ba33-69b7d53da888"
+        },
         "m_bDefaultHeroSpawn": { "type": "bool", "value": true },
         "m_eidParent": {
           "type": "SEntityTemplateReference",

@@ -3,31 +3,37 @@
     "ID_": "37af536b-4747-49ed-986a-9d55f4481ed4",
     "Image": "images/dbierek/mumbai_roof_starting.jpg",
     "Name_LOC": "ui_starting_location_mumbai_ether_lab_default_name",
-    "Description": ""
+    "Description": "ui_starting_location_mumbai_ether_lab_desc"
   },
   "0aec817c-738e-4381-bbd4-a13b5d1c6730": {
     "ID_": "0aec817c-738e-4381-bbd4-a13b5d1c6730",
-    "Image": "images/dbierek/dartmoor.jpg",
+    "Image": "images/dbierek/dartmoor_exterior_start.jpg",
     "Name_LOC": "ui_starting_location_dartmoor_institute_default_name",
-    "Description": ""
+    "Description": "ui_starting_location_dartmoor_institute_desc"
   },
   "0aec817c-738e-4381-bbd4-a13b5d1c7731": {
     "ID_": "0aec817c-738e-4381-bbd4-a13b5d1c7731",
-    "Image": "images/dbierek/siberia.jpg",
+    "Image": "images/dbierek/moscow_helipad_start.jpg",
     "Name_LOC": "ui_starting_location_siberia_moscow_default_name",
-    "Description": ""
+    "Description": "ui_starting_location_siberia_moscow_desc"
   },
-  "ee4b0060-b322-4bb0-99b5-942e8a20f278": {
-    "ID_": "ee4b0060-b322-4bb0-99b5-942e8a20f278",
-    "Image": "images/dbierek/dubai_plane_start.jpg",
-    "Name_LOC": "ui_starting_location_dubai_plane_default_name",
-    "Description": ""
+  "fb75a371-8a8a-46ca-4747-123416018db6": {
+    "ID_": "fb75a371-8a8a-46ca-4747-123416018db6",
+    "Image": "images/dbierek/dubai_airplane_start.jpg",
+    "Name_LOC": "ui_starting_location_dubai_airplane_default_name",
+    "Description": "ui_starting_location_dubai_airplane_desc"
   },
-  "ff4b0060-b322-4bb0-99b5-942e8a20f299": {
-    "ID_": "ff4b0060-b322-4bb0-99b5-942e8a20f299",
-    "Image": "images/dbierek/sapienza.jpg",
+  "1021798e-cec1-4747-ba33-69b7d53da888": {
+    "ID_": "1021798e-cec1-4747-ba33-69b7d53da888",
+    "Image": "images/dbierek/sapienza_apartment_start.jpg",
     "Name_LOC": "ui_starting_location_sapienza_apartment_default_name",
-    "Description": ""
+    "Description": "ui_starting_location_sapienza_apartment_desc"
+  },
+  "fb75a371-8a8a-46ca-4747-320e16018db6": {
+    "ID_": "fb75a371-8a8a-46ca-4747-320e16018db6",
+    "Image": "images/dbierek/marrakesh_courtyard_start.jpg",
+    "Name_LOC": "ui_starting_location_marrakesh_courtyard_default_name",
+    "Description": "ui_starting_location_marrakesh_courtyard_desc"
   },
   "c4146f27-81a9-42ef-b3c7-87a9d60b4747": {
     "Category": "",

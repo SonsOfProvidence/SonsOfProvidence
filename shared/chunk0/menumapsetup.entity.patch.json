@@ -1,0 +1,47 @@
+{
+  "tempHash": "0013C71D9BC15CE0",
+  "tbluHash": "0033523805EE9077",
+  "patch": [
+    {
+      "AddEntity": [
+        "feed3bc07591cce3",
+        {
+          "parent": "929a78f9dfadedfb",
+          "name": "_scene_carpark",
+          "factory": "[assembly:/templates/ui/mapexportentities.template?/menumap.entitytemplate].pc_entitytype",
+          "blueprint": "[assembly:/templates/ui/mapexportentities.template?/menumap.entitytemplate].pc_entityblueprint",
+          "properties": {
+            "m_pMetaDataResource": {
+              "type": "ZRuntimeResourceID",
+              "value": {
+                "resource": "00D757C1562092CC",
+                "flag": "5F"
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "AddEntity": [
+        "feed9bf06819a8f2",
+        {
+          "parent": "f0854459c3fac2c5",
+          "name": "_scene_funeral",
+          "factory": "[assembly:/templates/ui/mapexportentities.template?/menumap.entitytemplate].pc_entitytype",
+          "blueprint": "[assembly:/templates/ui/mapexportentities.template?/menumap.entitytemplate].pc_entityblueprint",
+          "properties": {
+            "m_pMetaDataResource": {
+              "type": "ZRuntimeResourceID",
+              "value": {
+                "resource": "0087D3DCE70CFF95",
+                "flag": "5F"
+              }
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "patchVersion": 6
+}
