@@ -24,7 +24,7 @@
   },
   "STARTING_LOCATION_SAPIENZA_APARTMENT": {
     "Id": "STARTING_LOCATION_SAPIENZA_APARTMENT",
-    "Guid": "ff4b0060-b322-4bb0-99b5-942e8a20f299",
+    "Guid": "fb75a371-1234-46ca-4213-320e16012345",
     "Type": "access",
     "Subtype": "startinglocation",
     "ImageId": null,
@@ -36,8 +36,50 @@
     "Capabilities": [],
     "Qualities": {},
     "Properties": {
-      "Location": "LOCATION_PARENT_SAPIENZA",
-      "RepositoryId": "1021798e-cec1-4b43-ba33-69b7d53da888",
+      "Location": "LOCATION_COASTALTOWN",
+      "RepositoryId": "1021798e-cec1-4747-ba33-69b7d53da888",
+      "Equip": ["TOKEN_OUTFIT_LUCAS_GREY"],
+      "UnlockOrder": 3
+    },
+    "Rarity": null
+  },
+  "STARTING_LOCATION_AIRPLANE_SEAT": {
+    "Id": "STARTING_LOCATION_AIRPLANE_SEAT",
+    "Guid": "fb75a371-1234-46ca-4213-314e16012345",
+    "Type": "access",
+    "Subtype": "startinglocation",
+    "ImageId": null,
+    "RMTPrice": -1,
+    "GamePrice": -1,
+    "IsPurchasable": false,
+    "IsPublished": true,
+    "IsDroppable": false,
+    "Capabilities": [],
+    "Qualities": {},
+    "Properties": {
+      "Location": "LOCATION_GOLDEN_GECKO",
+      "RepositoryId": "fb75a371-8a8a-46ca-4747-123416018db6",
+      "Equip": ["TOKEN_OUTFIT_LUCAS_GREY"],
+      "UnlockOrder": 3
+    },
+    "Rarity": null
+  },
+  "STARTING_LOCATION_MARRAKESH_COURTYARD": {
+    "Id": "STARTING_LOCATION_MARRAKESH_COURTYARD",
+    "Guid": "fb75a371-8a8a-46ca-4213-320e16012345",
+    "Type": "access",
+    "Subtype": "startinglocation",
+    "ImageId": null,
+    "RMTPrice": -1,
+    "GamePrice": -1,
+    "IsPurchasable": false,
+    "IsPublished": true,
+    "IsDroppable": false,
+    "Capabilities": [],
+    "Qualities": {},
+    "Properties": {
+      "Location": "LOCATION_MARRAKECH",
+      "RepositoryId": "fb75a371-8a8a-46ca-4747-320e16018db6",
       "Equip": ["TOKEN_OUTFIT_LUCAS_GREY"],
       "UnlockOrder": 3
     },
@@ -45,7 +87,12 @@
   },
   "PACKAGE_STARTING_PACKAGE": {
     "Properties": {
-      "Unlocks": ["TOKEN_OUTFIT_LUCAS_GREY"]
+      "Unlocks": [
+        "TOKEN_OUTFIT_LUCAS_GREY",
+        "STARTING_LOCATION_MARRAKESH_COURTYARD",
+        "STARTING_LOCATION_SAPIENZA_APARTMENT",
+        "STARTING_LOCATION_AIRPLANE_SEAT"
+      ]
     }
   }
 }

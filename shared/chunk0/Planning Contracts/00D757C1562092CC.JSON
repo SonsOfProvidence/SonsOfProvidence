@@ -1,0 +1,21 @@
+{
+    "scene": "assembly:/sonsofprovidence/scene_carpark.entity",
+    "actors": [],
+    "entrances": [
+        {
+            "id": "fb75a371-8a8a-46ca-4747-320e16018db6",
+            "isDefaultSpawn": true,
+            "isPreferredSpawn": true,
+            "WorldTransform": "-0.994997, -0.099909, 0, 0.099909, -0.994997, 0, 0, 0, 1, 67, -27, 0"
+        }
+    ],
+    "Exits": [
+        {
+            "id": "fb75a371-8a8a-46ca-4747-320e16018db5",
+            "WorldTransform": "-0.015815, 0.999875, 0, -0.999875, -0.015815, 0, 0, 0, 1, -11.79, -141.16, -4",
+            "RequireKey": false
+        }
+    ],
+    "AgencyPickups": [
+    ]
+}

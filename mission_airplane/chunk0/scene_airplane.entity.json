@@ -526,6 +526,10 @@
             "position": { "x": -48.60146, "y": 22.852476, "z": 53.9 }
           }
         },
+        "m_sId": {
+          "type": "ZGuid",
+          "value": "fb75a371-8a8a-46ca-4747-123416018db6"
+        },
         "m_bDefaultHeroSpawn": { "type": "bool", "value": true },
         "m_eidParent": {
           "type": "SEntityTemplateReference",
@@ -723,7 +727,7 @@
         "m_bIgnoreOutifChange": { "type": "bool", "value": true },
         "m_RepositoryId": {
           "type": "ZGuid",
-          "value": "c4146f27-81a9-42ef-b3c7-87a9d60b4747"
+          "value": "b40a74a0-91a2-490d-8806-3ccfc852c82b"
         },
         "m_rHitmanCharacter": {
           "type": "SEntityTemplateReference",

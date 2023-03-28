@@ -1,0 +1,47 @@
+{
+  "tempHash": "0000EC8E53C34D0F",
+  "tbluHash": "009E7169BA598D69",
+  "patch": [
+    {
+      "AddEntity": [
+        "feed744e7066ae5a",
+        {
+          "parent": "fe3f0f61bad22af7",
+          "name": "scene_airplane",
+          "factory": "[assembly:/templates/ui/mapexportentities.template?/menumap.entitytemplate].pc_entitytype",
+          "blueprint": "[assembly:/templates/ui/mapexportentities.template?/menumap.entitytemplate].pc_entityblueprint",
+          "properties": {
+            "m_pMetaDataResource": {
+              "type": "ZRuntimeResourceID",
+              "value": {
+                "resource": "000753BE8FC10BD8",
+                "flag": "5F"
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "AddEntity": [
+        "feed65b1592e8a06",
+        {
+          "parent": "ce260ab9fb3bdef0",
+          "name": "scene_institute",
+          "factory": "[assembly:/templates/ui/mapexportentities.template?/menumap.entitytemplate].pc_entitytype",
+          "blueprint": "[assembly:/templates/ui/mapexportentities.template?/menumap.entitytemplate].pc_entityblueprint",
+          "properties": {
+            "m_pMetaDataResource": {
+              "type": "ZRuntimeResourceID",
+              "value": {
+                "resource": "004F040B5D41A40F",
+                "flag": "5F"
+              }
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "patchVersion": 6
+}
