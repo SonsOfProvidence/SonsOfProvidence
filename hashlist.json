@@ -120,15 +120,19 @@
     "ioiString": "[assembly:/sonsofprovidence/airplane/airplane.entitytemplate].pc_entityblueprint"
   },
   {
-    "hash": "(planning_contract) sonsofprovidence funeral",
-    "ioiString": "006FD6888AFEFBCC"
+    "hash": "0087D3DCE70CFF95",
+    "ioiString": "(planning_contract) sonsofprovidence funeral (h3)"
   },
   {
-    "hash": "Act_MR_HeadOfSecurity_AimPistol_Dianna",
-    "ioiString": "002DDBAAF0E0B62C"
+    "hash": "00D757C1562092CC",
+    "ioiString": "(planning_contract) sonsofprovidence carpark (h3)"
   },
   {
-    "hash": ":005565E11B9913E7",
+    "hash": "002DDBAAF0E0B62C",
+    "ioiString": "Act_MR_HeadOfSecurity_AimPistol_Dianna"
+  },
+  {
+    "hash": "005565E11B9913E7",
     "ioiString": "[assembly:/sonsofprovidence/scene_institute.entity].pc_entitytemplate"
   },
   {
@@ -144,12 +148,12 @@
     "ioiString": "[assembly:/sonsofprovidence/outfits_institute.brick].pc_entityblueprint"
   },
   {
-    "hash": "[assembly:/sonsofprovidence/thomascross_hair_diffuse.tex](ascolormap).pc_tex)",
-    "ioiString": "00D023CAEBCDCC63"
+    "hash": "00D023CAEBCDCC63",
+    "ioiString": "[assembly:/sonsofprovidence/thomascross_hair_diffuse.tex](ascolormap).pc_tex)"
   },
   {
-    "hash": "[assembly:/sonsofprovidence/lucasgrey_head_bald_diffuse.tex](ascolormap).pc_tex",
-    "ioiString": "00949A3A50C3A8BC"
+    "hash": "00949A3A50C3A8BC",
+    "ioiString": "[assembly:/sonsofprovidence/lucasgrey_head_bald_diffuse.tex](ascolormap).pc_tex"
   },
   {
     "hash": "00645A888F6E500E",
@@ -158,6 +162,10 @@
   {
     "hash": "00C33CBC44349062",
     "ioiString": "[assembly:/sonsofprovidence/airplane/setpiece_airplane_unique_computer_100cm.entitytemplate].pc_entityblueprint"
+  },
+  {
+    "hash": "",
+    "ioiString": ""
   },
   {
     "hash": "",

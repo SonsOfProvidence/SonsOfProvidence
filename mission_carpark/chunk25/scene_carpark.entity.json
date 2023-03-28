@@ -461,10 +461,16 @@
     },
     "feed4df0cb046759": {
       "parent": "abcd7f3d8a81df6a",
-      "name": "Outside Shoe Shop",
+      "name": "Courtyard",
       "factory": "[modules:/zentity.class].pc_entitytype",
       "blueprint": "[modules:/zentity.class].pc_entityblueprint",
-      "events": { "OnPlay": { "SetTrue": ["feed9ed416ff098a"] } }
+      "events": {
+        "OnPlay": {
+          "SetTrue": [
+            "feed9ed416ff098a"
+          ]
+        }
+      }
     },
     "feed93f1a9b26ca3": {
       "parent": "feed4df0cb046759",
@@ -474,11 +480,26 @@
         "m_mTransform": {
           "type": "SMatrix43",
           "value": {
-            "rotation": { "x": 0, "y": 0, "z": 28.31373299668204 },
-            "position": { "x": 67.77303, "y": -27.269623, "z": -0.014872659 }
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 28.31373299668204
+            },
+            "position": {
+              "x": 67.77303,
+              "y": -27.269623,
+              "z": -0.014872659
+            }
           }
         },
-        "m_bDefaultHeroSpawn": { "type": "bool", "value": true },
+        "m_sId": {
+          "type": "ZGuid",
+          "value": "fb75a371-8a8a-46ca-8cff-320e16018db6"
+        },
+        "m_bDefaultHeroSpawn": {
+          "type": "bool",
+          "value": true
+        },
         "m_eidParent": {
           "type": "SEntityTemplateReference",
           "value": "fffffffffffffffe",
@@ -486,7 +507,13 @@
         }
       },
       "factory": "[assembly:/_pro/design/levelflow.template?/herospawn.entitytemplate].pc_entitytype",
-      "events": { "OnSpawn": { "SetTrue": ["feed9ed416ff098a"] } }
+      "events": {
+        "OnSpawn": {
+          "SetTrue": [
+            "feed9ed416ff098a"
+          ]
+        }
+      }
     },
     "feed1fcb384540e6": {
       "parent": "feed4df0cb046759",
@@ -497,7 +524,11 @@
         "m_mTransform": {
           "type": "SMatrix43",
           "value": {
-            "rotation": { "x": 0, "y": 0, "z": -46.448902184664085 },
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": -46.448902184664085
+            },
             "position": {
               "x": -47.3209114074707,
               "y": -43.88808822631836,
@@ -505,8 +536,14 @@
             }
           }
         },
-        "m_bUsePlacementAttach": { "type": "bool", "value": false },
-        "m_bSpawnOnStart": { "type": "bool", "value": false },
+        "m_bUsePlacementAttach": {
+          "type": "bool",
+          "value": false
+        },
+        "m_bSpawnOnStart": {
+          "type": "bool",
+          "value": false
+        },
         "m_rMainItemKey": {
           "type": "SEntityTemplateReference",
           "value": "feedc1ced76f57ba",
@@ -519,8 +556,16 @@
         }
       },
       "events": {
-        "ItemReady": { "PickupIntoPocket": ["feedb3b37a5c56ce"] },
-        "Item": { "SetItem": ["feedb3b37a5c56ce"] }
+        "ItemReady": {
+          "PickupIntoPocket": [
+            "feedb3b37a5c56ce"
+          ]
+        },
+        "Item": {
+          "SetItem": [
+            "feedb3b37a5c56ce"
+          ]
+        }
       }
     },
     "feedc1ced76f57ba": {
@@ -553,24 +598,58 @@
         },
         "m_aSequences": {
           "type": "TArray<SEntityTemplateReference>",
-          "value": ["feeda8e7530f20e4"]
+          "value": [
+            "feeda8e7530f20e4"
+          ]
         },
-        "m_nPriority": { "type": "uint32", "value": 20 },
-        "m_bHideItems": { "type": "bool", "value": false },
-        "m_bPlaceLeftHandItem": { "type": "bool", "value": false },
-        "TriggerVRProfileOnDeactivate": { "type": "bool", "value": false }
+        "m_nPriority": {
+          "type": "uint32",
+          "value": 20
+        },
+        "m_bHideItems": {
+          "type": "bool",
+          "value": false
+        },
+        "m_bPlaceLeftHandItem": {
+          "type": "bool",
+          "value": false
+        },
+        "TriggerVRProfileOnDeactivate": {
+          "type": "bool",
+          "value": false
+        }
       },
       "events": {
         "OnPlay": {
           "SetTrue": [],
-          "SpawnItem": ["feed1fcb384540e6"],
-          "In": ["feed03d0410f26f4"],
-          "CustomFlyIn_Start": ["feed375e080ac218"]
+          "SpawnItem": [
+            "feed1fcb384540e6"
+          ],
+          "In": [
+            "feed03d0410f26f4"
+          ],
+          "CustomFlyIn_Start": [
+            "feed375e080ac218"
+          ]
         },
-        "OnStop": { "CustomFlyIn_NearEnd_EnableWorld": ["feed375e080ac218"] }
+        "OnStop": {
+          "CustomFlyIn_NearEnd_EnableWorld": [
+            "feed375e080ac218"
+          ]
+        }
       },
-      "outputCopying": { "OnPlay": { "OnPlay": ["feed4df0cb046759"] } },
-      "subsets": { "AudioEmitters": ["fffffffffffffffe"] }
+      "outputCopying": {
+        "OnPlay": {
+          "OnPlay": [
+            "feed4df0cb046759"
+          ]
+        }
+      },
+      "subsets": {
+        "AudioEmitters": [
+          "fffffffffffffffe"
+        ]
+      }
     },
     "feed375e080ac218": {
       "parent": "feed4df0cb046759",
@@ -583,9 +662,18 @@
       "name": "TimerSimple",
       "factory": "[assembly:/_pro/design/logic.template?/timersimple.entitytemplate].pc_entitytype",
       "blueprint": "[assembly:/_pro/design/logic.template?/timersimple.entitytemplate].pc_entityblueprint",
-      "properties": { "Delay time (ms)": { "type": "int32", "value": 14000 } },
+      "properties": {
+        "Delay time (ms)": {
+          "type": "int32",
+          "value": 14000
+        }
+      },
       "events": {
-        "Out": { "CustomFlyIn_NearEnd_EnableWorld": ["feed375e080ac218"] }
+        "Out": {
+          "CustomFlyIn_NearEnd_EnableWorld": [
+            "feed375e080ac218"
+          ]
+        }
       }
     },
     "feeda8e7530f20e4": {
@@ -594,20 +682,39 @@
       "factory": "[modules:/zsequenceentity.class].pc_entitytype",
       "blueprint": "[modules:/zsequenceentity.class].pc_entityblueprint",
       "properties": {
-        "m_duration": { "type": "ZGameTime", "value": { "m_nTicks": 947183 } },
-        "m_startTime": { "type": "ZGameTime", "value": { "m_nTicks": 1486 } },
-        "m_bLetterbox": { "type": "bool", "value": true },
+        "m_duration": {
+          "type": "ZGameTime",
+          "value": {
+            "m_nTicks": 947183
+          }
+        },
+        "m_startTime": {
+          "type": "ZGameTime",
+          "value": {
+            "m_nTicks": 1486
+          }
+        },
+        "m_bLetterbox": {
+          "type": "bool",
+          "value": true
+        },
         "m_eLetterBoxAspect": {
           "type": "ZSequenceEntity.ELetterBoxAspect",
           "value": "LETTERBOXASPECT_CINEMASCOPE"
         },
         "m_letterboxFadeOut": {
           "type": "ZGameTime",
-          "value": { "m_nTicks": 1572864 }
+          "value": {
+            "m_nTicks": 1572864
+          }
         },
         "m_aTracksAndGroups": {
           "type": "TArray<SEntityTemplateReference>",
-          "value": ["feedeb633a37f729", "feedd2d7f6fc02f1", "feed4a28222e7478"],
+          "value": [
+            "feedeb633a37f729",
+            "feedd2d7f6fc02f1",
+            "feed4a28222e7478"
+          ],
           "postInit": true
         }
       }
@@ -632,13 +739,17 @@
       "properties": {
         "m_aItems": {
           "type": "TArray<SEntityTemplateReference>",
-          "value": ["feed62b9671040eb"],
+          "value": [
+            "feed62b9671040eb"
+          ],
           "postInit": true
         }
       },
       "outputCopying": {
         "Interpolation_Fired": {
-          "Event_Track_Interpolation_Fired": ["feeda8e7530f20e4"]
+          "Event_Track_Interpolation_Fired": [
+            "feeda8e7530f20e4"
+          ]
         }
       }
     },
@@ -650,7 +761,9 @@
       "properties": {
         "m_aItems": {
           "type": "TArray<SEntityTemplateReference>",
-          "value": ["feed239ce80dbf1f"],
+          "value": [
+            "feed239ce80dbf1f"
+          ],
           "postInit": true
         }
       }
@@ -669,7 +782,9 @@
       "properties": {
         "m_aItems": {
           "type": "TArray<SEntityTemplateReference>",
-          "value": ["feed9b6b46f04550"],
+          "value": [
+            "feed9b6b46f04550"
+          ],
           "postInit": true
         }
       }
@@ -689,7 +804,9 @@
       "properties": {
         "m_aTracksAndGroups": {
           "type": "TArray<SEntityTemplateReference>",
-          "value": ["feedc93c46210808"],
+          "value": [
+            "feedc93c46210808"
+          ],
           "postInit": true
         }
       }
@@ -702,7 +819,9 @@
       "properties": {
         "m_aTracksAndGroups": {
           "type": "TArray<SEntityTemplateReference>",
-          "value": ["feed4df6b1899209"]
+          "value": [
+            "feed4df6b1899209"
+          ]
         }
       }
     },
@@ -712,11 +831,25 @@
       "factory": "[modules:/zeventtrackitem.class].pc_entitytype",
       "blueprint": "[modules:/zeventtrackitem.class].pc_entityblueprint",
       "properties": {
-        "m_startTime": { "type": "ZGameTime", "value": { "m_nTicks": 1486 } },
-        "m_duration": { "type": "ZGameTime", "value": { "m_nTicks": 65117 } }
+        "m_startTime": {
+          "type": "ZGameTime",
+          "value": {
+            "m_nTicks": 1486
+          }
+        },
+        "m_duration": {
+          "type": "ZGameTime",
+          "value": {
+            "m_nTicks": 65117
+          }
+        }
       },
       "outputCopying": {
-        "Fired": { "Interpolation_Fired": ["feedc62b60fb2564"] }
+        "Fired": {
+          "Interpolation_Fired": [
+            "feedc62b60fb2564"
+          ]
+        }
       }
     },
     "feed239ce80dbf1f": {
@@ -725,8 +858,18 @@
       "factory": "[modules:/zsingleactivecamerasource.class].pc_entitytype",
       "blueprint": "[modules:/zsingleactivecamerasource.class].pc_entityblueprint",
       "properties": {
-        "m_startTime": { "type": "ZGameTime", "value": { "m_nTicks": 1486 } },
-        "m_duration": { "type": "ZGameTime", "value": { "m_nTicks": 842065 } }
+        "m_startTime": {
+          "type": "ZGameTime",
+          "value": {
+            "m_nTicks": 1486
+          }
+        },
+        "m_duration": {
+          "type": "ZGameTime",
+          "value": {
+            "m_nTicks": 842065
+          }
+        }
       }
     },
     "feed9b6b46f04550": {
@@ -735,8 +878,18 @@
       "factory": "[modules:/zsingleactivecamerasource.class].pc_entitytype",
       "blueprint": "[modules:/zsingleactivecamerasource.class].pc_entityblueprint",
       "properties": {
-        "m_startTime": { "type": "ZGameTime", "value": { "m_nTicks": 1486 } },
-        "m_duration": { "type": "ZGameTime", "value": { "m_nTicks": 947183 } }
+        "m_startTime": {
+          "type": "ZGameTime",
+          "value": {
+            "m_nTicks": 1486
+          }
+        },
+        "m_duration": {
+          "type": "ZGameTime",
+          "value": {
+            "m_nTicks": 947183
+          }
+        }
       }
     },
     "feedc93c46210808": {
@@ -751,9 +904,14 @@
         },
         "m_aItems": {
           "type": "TArray<SEntityTemplateReference>",
-          "value": ["feed92acbba796b0"]
+          "value": [
+            "feed92acbba796b0"
+          ]
         },
-        "m_bRestoreValueAfterEnd": { "type": "bool", "value": false }
+        "m_bRestoreValueAfterEnd": {
+          "type": "bool",
+          "value": false
+        }
       }
     },
     "feed92acbba796b0": {
@@ -762,14 +920,42 @@
       "factory": "[modules:/zeulerangletrajectorysource.class].pc_entitytype",
       "blueprint": "[modules:/zeulerangletrajectorysource.class].pc_entityblueprint",
       "properties": {
-        "m_startTime": { "type": "ZGameTime", "value": { "m_nTicks": 1486 } },
-        "m_duration": { "type": "ZGameTime", "value": { "m_nTicks": 943183 } },
+        "m_startTime": {
+          "type": "ZGameTime",
+          "value": {
+            "m_nTicks": 1486
+          }
+        },
+        "m_duration": {
+          "type": "ZGameTime",
+          "value": {
+            "m_nTicks": 943183
+          }
+        },
         "m_CurveX": {
           "type": "ZCurve",
           "value": {
             "data": [
-              [0, -48.86540985107422, 0, 0, 0, 0, 0, -48.86540985107422],
-              [1, -49.170555114746094, 0, 0, 0, 0, 0, -49.170555114746094]
+              [
+                0,
+                -48.86540985107422,
+                0,
+                0,
+                0,
+                0,
+                0,
+                -48.86540985107422
+              ],
+              [
+                1,
+                -49.170555114746094,
+                0,
+                0,
+                0,
+                0,
+                0,
+                -49.170555114746094
+              ]
             ]
           }
         },
@@ -777,8 +963,26 @@
           "type": "ZCurve",
           "value": {
             "data": [
-              [0, -89.6476808565214, 0, 0, 0, 0, 0, -89.6476808565214],
-              [1, -89.6476808565214, 0, 0, 0, 0, 0, -89.6476808565214]
+              [
+                0,
+                -89.6476808565214,
+                0,
+                0,
+                0,
+                0,
+                0,
+                -89.6476808565214
+              ],
+              [
+                1,
+                -89.6476808565214,
+                0,
+                0,
+                0,
+                0,
+                0,
+                -89.6476808565214
+              ]
             ]
           }
         },
@@ -786,8 +990,26 @@
           "type": "ZCurve",
           "value": {
             "data": [
-              [0, 20.252476, 0, 0, 0, 0, 0, 20.252476],
-              [1, 20.252476, 0, 0, 0, 0, 0, 20.252476]
+              [
+                0,
+                20.252476,
+                0,
+                0,
+                0,
+                0,
+                0,
+                20.252476
+              ],
+              [
+                1,
+                20.252476,
+                0,
+                0,
+                0,
+                0,
+                0,
+                20.252476
+              ]
             ]
           }
         },
@@ -795,8 +1017,26 @@
           "type": "ZCurve",
           "value": {
             "data": [
-              [0, 0, 0, 0, 0, 0, 0, 0],
-              [1, 0, 0, 0, 0, 0, 0, 0]
+              [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              [
+                1,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ]
             ]
           }
         },
@@ -804,8 +1044,26 @@
           "type": "ZCurve",
           "value": {
             "data": [
-              [0, 54.902145, 0, 0, 0, 0, 0, 54.902145],
-              [1, 54.902145, 0, 0, 0, 0, 0, 54.902145]
+              [
+                0,
+                54.902145,
+                0,
+                0,
+                0,
+                0,
+                0,
+                54.902145
+              ],
+              [
+                1,
+                54.902145,
+                0,
+                0,
+                0,
+                0,
+                0,
+                54.902145
+              ]
             ]
           }
         },
@@ -813,8 +1071,26 @@
           "type": "ZCurve",
           "value": {
             "data": [
-              [0, 1.383242226748166, 0, 0, 0, 0, 0, 1.383242226748166],
-              [1, 1.383242226748166, 0, 0, 0, 0, 0, 1.383242226748166]
+              [
+                0,
+                1.383242226748166,
+                0,
+                0,
+                0,
+                0,
+                0,
+                1.383242226748166
+              ],
+              [
+                1,
+                1.383242226748166,
+                0,
+                0,
+                0,
+                0,
+                0,
+                1.383242226748166
+              ]
             ]
           }
         }
@@ -828,9 +1104,14 @@
       "properties": {
         "m_aItems": {
           "type": "TArray<SEntityTemplateReference>",
-          "value": ["feed1f4a657d9e38"]
+          "value": [
+            "feed1f4a657d9e38"
+          ]
         },
-        "m_bRestoreValueAfterEnd": { "type": "bool", "value": false },
+        "m_bRestoreValueAfterEnd": {
+          "type": "bool",
+          "value": false
+        },
         "m_entityGroup": {
           "type": "SEntityTemplateReference",
           "value": "feed59396acf9ea1",
@@ -844,14 +1125,42 @@
       "factory": "[modules:/zeulerangletrajectorysource.class].pc_entitytype",
       "blueprint": "[modules:/zeulerangletrajectorysource.class].pc_entityblueprint",
       "properties": {
-        "m_startTime": { "type": "ZGameTime", "value": { "m_nTicks": 1486 } },
-        "m_duration": { "type": "ZGameTime", "value": { "m_nTicks": 842065 } },
+        "m_startTime": {
+          "type": "ZGameTime",
+          "value": {
+            "m_nTicks": 1486
+          }
+        },
+        "m_duration": {
+          "type": "ZGameTime",
+          "value": {
+            "m_nTicks": 842065
+          }
+        },
         "m_CurveX": {
           "type": "ZCurve",
           "value": {
             "data": [
-              [0, -48.86540985107422, 0, 0, 0, 0, 0, -48.86540985107422],
-              [1, -49.170555114746094, 0, 0, 0, 0, 0, -49.170555114746094]
+              [
+                0,
+                -48.86540985107422,
+                0,
+                0,
+                0,
+                0,
+                0,
+                -48.86540985107422
+              ],
+              [
+                1,
+                -49.170555114746094,
+                0,
+                0,
+                0,
+                0,
+                0,
+                -49.170555114746094
+              ]
             ]
           }
         },
@@ -859,8 +1168,26 @@
           "type": "ZCurve",
           "value": {
             "data": [
-              [0, -89.6476808565214, 0, 0, 0, 0, 0, -89.6476808565214],
-              [1, -89.6476808565214, 0, 0, 0, 0, 0, -89.6476808565214]
+              [
+                0,
+                -89.6476808565214,
+                0,
+                0,
+                0,
+                0,
+                0,
+                -89.6476808565214
+              ],
+              [
+                1,
+                -89.6476808565214,
+                0,
+                0,
+                0,
+                0,
+                0,
+                -89.6476808565214
+              ]
             ]
           }
         },
@@ -868,8 +1195,26 @@
           "type": "ZCurve",
           "value": {
             "data": [
-              [0, 20.252476, 0, 0, 0, 0, 0, 20.252476],
-              [1, 20.252476, 0, 0, 0, 0, 0, 20.252476]
+              [
+                0,
+                20.252476,
+                0,
+                0,
+                0,
+                0,
+                0,
+                20.252476
+              ],
+              [
+                1,
+                20.252476,
+                0,
+                0,
+                0,
+                0,
+                0,
+                20.252476
+              ]
             ]
           }
         },
@@ -877,8 +1222,26 @@
           "type": "ZCurve",
           "value": {
             "data": [
-              [0, 0, 0, 0, 0, 0, 0, 0],
-              [1, 0, 0, 0, 0, 0, 0, 0]
+              [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ],
+              [
+                1,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+              ]
             ]
           }
         },
@@ -886,8 +1249,26 @@
           "type": "ZCurve",
           "value": {
             "data": [
-              [0, 54.902145, 0, 0, 0, 0, 0, 54.902145],
-              [1, 54.902145, 0, 0, 0, 0, 0, 54.902145]
+              [
+                0,
+                54.902145,
+                0,
+                0,
+                0,
+                0,
+                0,
+                54.902145
+              ],
+              [
+                1,
+                54.902145,
+                0,
+                0,
+                0,
+                0,
+                0,
+                54.902145
+              ]
             ]
           }
         },
@@ -895,8 +1276,26 @@
           "type": "ZCurve",
           "value": {
             "data": [
-              [0, 1.383242226748166, 0, 0, 0, 0, 0, 1.383242226748166],
-              [1, 1.383242226748166, 0, 0, 0, 0, 0, 1.383242226748166]
+              [
+                0,
+                1.383242226748166,
+                0,
+                0,
+                0,
+                0,
+                0,
+                1.383242226748166
+              ],
+              [
+                1,
+                1.383242226748166,
+                0,
+                0,
+                0,
+                0,
+                0,
+                1.383242226748166
+              ]
             ]
           }
         }
@@ -916,7 +1315,11 @@
               "y": 0.022492773432204023,
               "z": 0.5965008040630178
             },
-            "position": { "x": 1.1151686, "y": -135.85657, "z": 0 }
+            "position": {
+              "x": 1.1151686,
+              "y": -135.85657,
+              "z": 0
+            }
           }
         },
         "m_PrimitiveScale": {
@@ -939,8 +1342,16 @@
         "m_mTransform": {
           "type": "SMatrix43",
           "value": {
-            "rotation": { "x": 0, "y": 0, "z": 0 },
-            "position": { "x": 0, "y": 0, "z": 0 }
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "position": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            }
           }
         },
         "m_vRoomMin": {
@@ -959,10 +1370,22 @@
             "z": 3762.580078125
           }
         },
-        "m_bGlobalLightOverrideEnable": { "type": "bool", "value": false },
-        "m_bOutside": { "type": "bool", "value": true },
-        "m_bCSMRoom": { "type": "bool", "value": false },
-        "m_bContainsCrowd": { "type": "bool", "value": true },
+        "m_bGlobalLightOverrideEnable": {
+          "type": "bool",
+          "value": false
+        },
+        "m_bOutside": {
+          "type": "bool",
+          "value": true
+        },
+        "m_bCSMRoom": {
+          "type": "bool",
+          "value": false
+        },
+        "m_bContainsCrowd": {
+          "type": "bool",
+          "value": true
+        },
         "m_fGlobalLightOverrideFrontIntensity": {
           "type": "float32",
           "value": 50
@@ -979,12 +1402,22 @@
           "type": "SColorRGB",
           "value": "#82a8ff"
         },
-        "m_bOutsideMaster": { "type": "bool", "value": false },
+        "m_bOutsideMaster": {
+          "type": "bool",
+          "value": false
+        },
         "m_vGlobalLightOverrideDirection": {
           "type": "SVector3",
-          "value": { "x": 0.5, "y": 1, "z": 1 }
+          "value": {
+            "x": 0.5,
+            "y": 1,
+            "z": 1
+          }
         },
-        "m_bLuminanceOverrideEnable": { "type": "bool", "value": false },
+        "m_bLuminanceOverrideEnable": {
+          "type": "bool",
+          "value": false
+        },
         "m_Clients": {
           "type": "TArray<SEntityTemplateReference>",
           "value": []
@@ -994,7 +1427,114 @@
           "value": "fffffffffffffffe"
         }
       },
-      "subsets": { "Rooms": ["fffffffffffffffe"] }
+      "subsets": {
+        "Rooms": [
+          "fffffffffffffffe"
+        ]
+      }
+    },
+    "feed4469b63038a8": {
+      "parent": "abcd56b67c5c3bc1",
+      "name": "Hajun's Car",
+      "factory": "[assembly:/_pro/design/levelflow.template?/exit_pushbutton.entitytemplate].pc_entitytype",
+      "blueprint": "[assembly:/_pro/design/levelflow.template?/exit_pushbutton.entitytemplate].pc_entityblueprint",
+      "properties": {
+        "m_mTransform": {
+          "type": "SMatrix43",
+          "value": {
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 99.37393044904323
+            },
+            "position": {
+              "x": -11.790379524230957,
+              "y": -141.16090393066406,
+              "z": -3.9998180866241455
+            }
+          }
+        },
+        "m_sId": {
+          "type": "ZGuid",
+          "value": "fb75a371-8a8a-46ca-8cff-320e16018db5"
+        },
+        "Manual_Exit_Trigger_Needed": {
+          "type": "bool",
+          "value": true
+        },
+        "m_eRoomBehaviour": {
+          "type": "ZSpatialEntity.ERoomBehaviour",
+          "value": "ROOM_DYNAMIC"
+        },
+        "m_aUIHighlightGeom": {
+          "type": "TArray<SEntityTemplateReference>",
+          "value": [
+            {
+              "ref": "26dab730a616357f",
+              "externalScene": "[assembly:/_pro/scenes/missions/marrakesh/mission_marrakesh_spider.brick].pc_entitytype"
+            }
+          ]
+        },
+        "m_eidParent": {
+          "type": "SEntityTemplateReference",
+          "value": "fffffffffffffffe",
+          "postInit": true
+        }
+      }
+    },
+    "feedd8dec2f45bb9": {
+      "parent": "abcdb8a050d68c57",
+      "name": "Carpark",
+      "factory": "0034422566C6A53C",
+      "blueprint": "001D6533FC03CC1B",
+      "properties": {
+        "m_pMetaDataResource": {
+          "type": "ZRuntimeResourceID",
+          "value": { "resource": "00D757C1562092CC", "flag": "5F" }
+        }
+      }
+    },
+    "feed4469b63038a8": {
+      "parent": "abcd56b67c5c3bc1",
+      "name": "Hajun's Car",
+      "factory": "[assembly:/_pro/design/levelflow.template?/exit_pushbutton.entitytemplate].pc_entitytype",
+      "blueprint": "[assembly:/_pro/design/levelflow.template?/exit_pushbutton.entitytemplate].pc_entityblueprint",
+      "properties": {
+        "m_mTransform": {
+          "type": "SMatrix43",
+          "value": {
+            "rotation": { "x": 0, "y": 0, "z": 99.37393044904323 },
+            "position": {
+              "x": -11.790379524230957,
+              "y": -141.16090393066406,
+              "z": -3.9998180866241455
+            }
+          }
+        },
+        "m_sId": {
+          "type": "ZGuid",
+          "value": "fb75a371-8a8a-46ca-8cff-320e16018db5"
+        },
+        "Manual_Exit_Trigger_Needed": { "type": "bool", "value": true },
+        "m_eRoomBehaviour": {
+          "type": "ZSpatialEntity.ERoomBehaviour",
+          "value": "ROOM_DYNAMIC"
+        },
+        "m_aUIHighlightGeom": {
+          "type": "TArray<SEntityTemplateReference>",
+          "value": [
+            {
+              "ref": "26dab730a616357f",
+              "externalScene": "[assembly:/_pro/scenes/missions/marrakesh/mission_marrakesh_spider.brick].pc_entitytype"
+            }
+          ]
+        },
+        "m_eidParent": {
+          "type": "SEntityTemplateReference",
+          "value": "fffffffffffffffe",
+          "postInit": true
+        }
+      }
     },
     "feed9841105fdd1c": {
       "parent": "abcd0b045d13d43f",
@@ -1084,13 +1624,23 @@
         "m_mTransform": {
           "type": "SMatrix43",
           "value": {
-            "rotation": { "x": 0, "y": 0, "z": 0 },
-            "position": { "x": 76, "y": -32, "z": 2 }
+            "rotation": {
+              "x": 0,
+              "y": 0,
+              "z": 0
+            },
+            "position": {
+              "x": 76,
+              "y": -32,
+              "z": 2
+            }
           }
         },
         "Clients": {
           "type": "TArray<SEntityTemplateReference>",
-          "value": ["feedc9dc7d475a3d"]
+          "value": [
+            "feedc9dc7d475a3d"
+          ]
         },
         "HueShift_01_Amount_op": {
           "type": "IRenderMaterialEntity.EModifierOperation",
@@ -1122,45 +1672,15 @@
         }
       }
     },
-    "feed4469b63038a8": {
-      "parent": "abcd56b67c5c3bc1",
-      "name": "Hajun's Car",
-      "factory": "[assembly:/_pro/design/levelflow.template?/exit_pushbutton.entitytemplate].pc_entitytype",
-      "blueprint": "[assembly:/_pro/design/levelflow.template?/exit_pushbutton.entitytemplate].pc_entityblueprint",
+    "feedd8dec2f45bb9": {
+      "parent": "abcdb8a050d68c57",
+      "name": "Carpark",
+      "factory": "0034422566C6A53C",
+      "blueprint": "001D6533FC03CC1B",
       "properties": {
-        "m_mTransform": {
-          "type": "SMatrix43",
-          "value": {
-            "rotation": { "x": 0, "y": 0, "z": 99.37393044904323 },
-            "position": {
-              "x": -11.790379524230957,
-              "y": -141.16090393066406,
-              "z": -3.9998180866241455
-            }
-          }
-        },
-        "m_sId": {
-          "type": "ZGuid",
-          "value": "fb75a371-8a8a-46ca-8cff-320e16018db5"
-        },
-        "Manual_Exit_Trigger_Needed": { "type": "bool", "value": true },
-        "m_eRoomBehaviour": {
-          "type": "ZSpatialEntity.ERoomBehaviour",
-          "value": "ROOM_DYNAMIC"
-        },
-        "m_aUIHighlightGeom": {
-          "type": "TArray<SEntityTemplateReference>",
-          "value": [
-            {
-              "ref": "26dab730a616357f",
-              "externalScene": "[assembly:/_pro/scenes/missions/marrakesh/mission_marrakesh_spider.brick].pc_entitytype"
-            }
-          ]
-        },
-        "m_eidParent": {
-          "type": "SEntityTemplateReference",
-          "value": "fffffffffffffffe",
-          "postInit": true
+        "m_pMetaDataResource": {
+          "type": "ZRuntimeResourceID",
+          "value": { "resource": "00D757C1562092CC", "flag": "5F" }
         }
       }
     }
