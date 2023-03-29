@@ -22,6 +22,48 @@
     "Rarity": "common",
     "IsDroppable": false
   },
+  "STARTING_LOCATION_DARTMOOR_OUTSIDE": {
+    "Id": "STARTING_LOCATION_DARTMOOR_OUTSIDE",
+    "Guid": "179474a4-727a-1111-b354-c9fff4e8bff2",
+    "Type": "access",
+    "Subtype": "startinglocation",
+    "ImageId": null,
+    "RMTPrice": -1,
+    "GamePrice": -1,
+    "IsPurchasable": false,
+    "IsPublished": true,
+    "IsDroppable": false,
+    "Capabilities": [],
+    "Qualities": {},
+    "Properties": {
+      "Location": "LOCATION_ANCESTRAL_BULLDOG",
+      "RepositoryId": "9c111405-637e-46b7-a051-279039c533ac",
+      "Equip": ["TOKEN_OUTFIT_LUCAS_GREY"],
+      "UnlockOrder": 3
+    },
+    "Rarity": null
+  },
+  "STARTING_LOCATION_MOSCOW_OUTSIDE": {
+    "Id": "STARTING_LOCATION_MOSCOW_OUTSIDE",
+    "Guid": "17922224-4774-4072-b354-c9fff4e8bff3",
+    "Type": "access",
+    "Subtype": "startinglocation",
+    "ImageId": null,
+    "RMTPrice": -1,
+    "GamePrice": -1,
+    "IsPurchasable": false,
+    "IsPublished": true,
+    "IsDroppable": false,
+    "Capabilities": [],
+    "Qualities": {},
+    "Properties": {
+      "Location": "LOCATION_CAGED_FALCON",
+      "RepositoryId": "fb75a371-8a8a-46ca-4747-123447478db6",
+      "Equip": ["TOKEN_OUTFIT_LUCAS_GREY"],
+      "UnlockOrder": 3
+    },
+    "Rarity": null
+  },
   "STARTING_LOCATION_SAPIENZA_APARTMENT": {
     "Id": "STARTING_LOCATION_SAPIENZA_APARTMENT",
     "Guid": "fb75a371-1234-46ca-4213-320e16012345",
@@ -91,7 +133,9 @@
         "TOKEN_OUTFIT_LUCAS_GREY",
         "STARTING_LOCATION_MARRAKESH_COURTYARD",
         "STARTING_LOCATION_SAPIENZA_APARTMENT",
-        "STARTING_LOCATION_AIRPLANE_SEAT"
+        "STARTING_LOCATION_AIRPLANE_SEAT",
+        "STARTING_LOCATION_MOSCOW_OUTSIDE",
+        "STARTING_LOCATION_DARTMOOR_OUTSIDE"
       ]
     }
   }

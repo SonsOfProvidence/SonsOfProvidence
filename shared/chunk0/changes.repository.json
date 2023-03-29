@@ -5,14 +5,14 @@
     "Name_LOC": "ui_starting_location_mumbai_ether_lab_default_name",
     "Description": "ui_starting_location_mumbai_ether_lab_desc"
   },
-  "0aec817c-738e-4381-bbd4-a13b5d1c6730": {
-    "ID_": "0aec817c-738e-4381-bbd4-a13b5d1c6730",
+  "9c111405-637e-46b7-a051-279039c533ac": {
+    "ID_": "9c111405-637e-46b7-a051-279039c533ac",
     "Image": "images/dbierek/dartmoor_exterior_start.jpg",
     "Name_LOC": "ui_starting_location_dartmoor_institute_default_name",
     "Description": "ui_starting_location_dartmoor_institute_desc"
   },
-  "0aec817c-738e-4381-bbd4-a13b5d1c7731": {
-    "ID_": "0aec817c-738e-4381-bbd4-a13b5d1c7731",
+  "fb75a371-8a8a-46ca-4747-123447478db6": {
+    "ID_": "fb75a371-8a8a-46ca-4747-123447478db6",
     "Image": "images/dbierek/moscow_helipad_start.jpg",
     "Name_LOC": "ui_starting_location_siberia_moscow_default_name",
     "Description": "ui_starting_location_siberia_moscow_desc"
@@ -47,30 +47,49 @@
     "Name": "char_gecko_hero_skydivingoutfit_m_ pro179078_name_c4146f27-81a9-42ef-b3c7-87a9d60b4747",
     "TokenID": ""
   },
-  "c2f6c0f9-5ddc-4379-86a9-07216adf5569": {
-    "Name": "Eugene Cobb"
-  },
   "d3959196-6be0-43ea-b6e7-aafa70824746": {
     "CharacterSetIndex": 0.0,
     "Description": "Eugene Cobb",
     "Description_LOC": "actor_description",
     "ID_": "d3959196-6be0-43ea-b6e7-aafa70824746",
-    "Image": "images/dbierek/dubai_target.png",
+    "Image": "images/dbierek/dubai_target.jpg",
     "Name": "Eugene Cobb",
     "Outfit": "d3bdbcfe-4747-4774-a642-17da478a4747",
     "OutfitVariationIndex": 0.0,
-    "Tile": "images/dbierek/dubai_target.png"
+    "Tile": "images/dbierek/dubai_target.jpg"
+  },
+  "d3959196-6be0-43ea-b6e7-aafa70824747": {
+    "CharacterSetIndex": 0.0,
+    "Description": "Hajun",
+    "Description_LOC": "actor_description",
+    "ID_": "d3959196-6be0-43ea-b6e7-aafa70824747",
+    "Image": "images/dbierek/marrakesh_target.jpg",
+    "Name": "Eugene Cobb",
+    "Outfit": "d3bdbcfe-4747-4774-a642-17da478a4747",
+    "OutfitVariationIndex": 0.0,
+    "Tile": "images/dbierek/marrakesh_target.jpg"
+  },
+  "d3959196-6be0-43ea-b6e7-aafa70824748": {
+    "CharacterSetIndex": 0.0,
+    "Description": "Nicholai Kamarov",
+    "Description_LOC": "actor_description",
+    "ID_": "d3959196-6be0-43ea-b6e7-aafa70824748",
+    "Image": "images/dbierek/moscow_target.jpg",
+    "Name": "Nicholai Kamarov",
+    "Outfit": "d3bdbcfe-4747-4774-a642-17da478a4747",
+    "OutfitVariationIndex": 0.0,
+    "Tile": "images/dbierek/moscow_target.jpg"
   },
   "d3959196-6be0-43ea-b6e7-aafa70822045": {
     "CharacterSetIndex": 0.0,
     "Description": "Thomas Cross",
     "Description_LOC": "actor_description",
     "ID_": "d3959196-6be0-43ea-b6e7-aafa70822045",
-    "Image": "images/dbierek/sapienza_target.png",
+    "Image": "images/dbierek/sapienza_target.jpg",
     "Name": "Thomas Cross",
     "Outfit": "d3bdbcfe-4747-4774-a642-17daa98a7f69",
     "OutfitVariationIndex": 0.0,
-    "Tile": "images/dbierek/sapienza_target.png"
+    "Tile": "images/dbierek/sapienza_target.jpg"
   },
   "743F058F-56A0-420F-8B5E-46DABABACA37": {
     "Name": "Ben Bern"

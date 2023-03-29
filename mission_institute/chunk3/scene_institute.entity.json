@@ -1220,6 +1220,10 @@
             "position": { "x": 100, "y": -130, "z": 2 }
           }
         },
+        "m_sId": {
+          "type": "ZGuid",
+          "value": "9c111405-637e-46b7-a051-279039c533ac"
+        },
         "m_bDefaultHeroSpawn": { "type": "bool", "value": true },
         "m_eidParent": {
           "type": "SEntityTemplateReference",
@@ -1622,6 +1626,18 @@
             "ref": "aff994cc4a72c41f",
             "externalScene": "[assembly:/_pro/scenes/missions/ancestral/scenario_bulldog.brick].pc_entitytype"
           }
+        }
+      }
+    },
+    "feed6de0592e523a": {
+      "parent": "abcdb8a050d68c57",
+      "name": "Institute",
+      "factory": "0034422566C6A53C",
+      "blueprint": "001D6533FC03CC1B",
+      "properties": {
+        "m_pMetaDataResource": {
+          "type": "ZRuntimeResourceID",
+          "value": { "resource": "004F040B5D41A40F", "flag": "5F" }
         }
       }
     }

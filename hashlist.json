@@ -120,12 +120,24 @@
     "ioiString": "[assembly:/sonsofprovidence/airplane/airplane.entitytemplate].pc_entityblueprint"
   },
   {
+    "hash": "004F040B5D41A40F",
+    "ioiString": "(planning_contract) sonsofprovidence institute (h3)"
+  },
+  {
+    "hash": "000753BE8FC10BD8",
+    "ioiString": "(planning_contract) sonsofprovidence airplane (h3)"
+  },
+  {
     "hash": "0087D3DCE70CFF95",
     "ioiString": "(planning_contract) sonsofprovidence funeral (h3)"
   },
   {
     "hash": "00D757C1562092CC",
     "ioiString": "(planning_contract) sonsofprovidence carpark (h3)"
+  },
+  {
+    "hash": "00988241F442CDDF",
+    "ioiString": "(planning_contract) sonsofprovidence moscow (h3)"
   },
   {
     "hash": "002DDBAAF0E0B62C",

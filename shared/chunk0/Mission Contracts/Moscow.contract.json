@@ -6,10 +6,16 @@
         "Comment": "--- Target Nicholai Kamarov ---",
         "Id": "648470d6-a127-4b3d-b450-dbe3696f75dc",
         "Primary": true,
+        "BriefingName": "$($repository d3959196-6be0-43ea-b6e7-aafa70824748).Name",
+        "BriefingText": "Eliminate Nicholai Kamarov",
+        "HUDTemplate": {
+          "display": "Eliminate Nicholai Kamarov"
+        },
+        "Image": "images/dbierek/dbierek_tile.jpg",
         "SuccessEvent": {
           "EventName": "Kill",
           "EventValues": {
-            "RepositoryId": "d1fcedd5-b0bc-4d91-bf7f-97ff6392d2c9"
+            "RepositoryId": "d3959196-6be0-43ea-b6e7-aafa70824748"
           }
         }
       }
@@ -30,6 +36,7 @@
     ],
     "Bricks": [],
     "DevOnlyBricks": [],
+    "Entrances": ["fb75a371-8a8a-46ca-4747-123447478db6"],
     "GameChangers": [],
     "GameChangerReferences": []
   },

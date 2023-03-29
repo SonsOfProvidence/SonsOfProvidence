@@ -3,10 +3,10 @@
   "actors": [],
   "entrances": [
     {
-      "id": "9c111405-637e-46b7-a051-279039c533ab",
-      "isDefaultSpawn": false,
-      "isPreferredSpawn": false,
-      "WorldTransform": "-0.618329, -0.785919, 0, 0.785919, -0.618329, 0, 0, 0, 1, 97.8754, -127.3756, 1.070843"
+      "id": "9c111405-637e-46b7-a051-279039c533ac",
+      "isDefaultSpawn": true,
+      "isPreferredSpawn": true,
+      "WorldTransform": "-0.618329, -0.785919, 0, 0.785919, -0.618329, 0, 0, 0, 1, 100, -130, 2"
     }
   ],
   "Exits": [

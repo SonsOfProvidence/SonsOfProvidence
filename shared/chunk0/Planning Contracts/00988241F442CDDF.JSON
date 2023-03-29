@@ -1,0 +1,20 @@
+{
+  "scene": "assembly:/sonsofprovidence/scene_moscow.entity",
+  "actors": [],
+  "entrances": [
+    {
+      "id": "fb75a371-8a8a-46ca-4747-123447478db6",
+      "isDefaultSpawn": true,
+      "isPreferredSpawn": true,
+      "WorldTransform": "-0.596219, -0.802822, 0, 0.802822, -0.596219, 0, 0, 0, 1, -193.73587, 1.2423859, 17.475763"
+    }
+  ],
+  "Exits": [
+    {
+      "id": "fc58abee-40e9-41b0-bf17-4747aecfe5d9",
+      "WorldTransform": "-0.596219, -0.802822, 0, 0.802822, -0.596219, 0, 0, 0, 1, -195.73587, 3.2423859, 17.475763",
+      "RequireKey": false
+    }
+  ],
+  "AgencyPickups": []
+}
