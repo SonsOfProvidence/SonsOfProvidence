@@ -1,0 +1,42 @@
+{
+  "Data": {
+    "EnableSaving": true,
+    "Objectives": [],
+    "GameDifficulties": [
+      {
+        "Difficulty": "easy",
+        "Bricks": []
+      },
+      {
+        "Difficulty": "normal",
+        "Bricks": []
+      },
+      {
+        "Difficulty": "hard",
+        "Bricks": []
+      }
+    ],
+    "Bricks": [],
+    "Entrances": ["6244bf6d-18c1-4629-a691-d7845a87ef07"],
+    "DevOnlyBricks": [],
+    "GameChangers": [],
+    "GameChangerReferences": []
+  },
+  "Metadata": {
+    "Id": "712b1b97-009d-46cf-919d-e7b0144d6d92",
+    "IsPublished": true,
+    "Title": "UI_BERLIN_TITLE",
+    "Description": "DESC_BERLIN",
+    "CodeName_Hint": "Berlin",
+    "ScenePath": "assembly:/sonsofprovidence/scene_tower.entity",
+    "TileImage": "images/dbierek/berlin.jpg",
+    "Location": "LOCATION_EDGY_FOX",
+    "LastUpdate": "2023-03-31T05:48:00.000Z",
+    "CreationTimestamp": "2023-03-31T05:48:00.000Z",
+    "CreatorUserId": "00000000-0000-0000-0000-000000000000",
+    "Type": "mission",
+    "Release": "3.0.0",
+    "Entitlements": ["LOCATION_EDGY"]
+  },
+  "UserData": {}
+}

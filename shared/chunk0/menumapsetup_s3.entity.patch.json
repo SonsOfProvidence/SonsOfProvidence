@@ -13,10 +13,7 @@
           "properties": {
             "m_pMetaDataResource": {
               "type": "ZRuntimeResourceID",
-              "value": {
-                "resource": "000753BE8FC10BD8",
-                "flag": "5F"
-              }
+              "value": { "resource": "000753BE8FC10BD8", "flag": "5F" }
             }
           }
         }
@@ -27,16 +24,30 @@
         "feed65b1592e8a06",
         {
           "parent": "ce260ab9fb3bdef0",
-          "name": "scene_institute",
+          "name": "scene_Institute",
           "factory": "[assembly:/templates/ui/mapexportentities.template?/menumap.entitytemplate].pc_entitytype",
           "blueprint": "[assembly:/templates/ui/mapexportentities.template?/menumap.entitytemplate].pc_entityblueprint",
           "properties": {
             "m_pMetaDataResource": {
               "type": "ZRuntimeResourceID",
-              "value": {
-                "resource": "004F040B5D41A40F",
-                "flag": "5F"
-              }
+              "value": { "resource": "004F040B5D41A40F", "flag": "5F" }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "AddEntity": [
+        "feed981371b99d54",
+        {
+          "parent": "1aea9c8ff0cdf827",
+          "name": "scene_Tower",
+          "factory": "[assembly:/templates/ui/mapexportentities.template?/menumap.entitytemplate].pc_entitytype",
+          "blueprint": "[assembly:/templates/ui/mapexportentities.template?/menumap.entitytemplate].pc_entityblueprint",
+          "properties": {
+            "m_pMetaDataResource": {
+              "type": "ZRuntimeResourceID",
+              "value": { "resource": "008D479D666B23A6", "flag": "5F" }
             }
           }
         }

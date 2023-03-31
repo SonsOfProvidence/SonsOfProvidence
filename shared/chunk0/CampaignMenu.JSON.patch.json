@@ -37,6 +37,11 @@
             "Type": "Mission",
             "Id": "179563a4-727a-4072-b354-c9fff4e8bff1",
             "_comment": "Funeral Mission"
+          },
+          {
+            "Type": "Mission",
+            "Id": "712b1b97-009d-46cf-919d-e7b0144d6d92",
+            "_comment": "Tower Mission"
           }
         ]
       }

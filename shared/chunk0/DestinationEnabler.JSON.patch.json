@@ -75,6 +75,21 @@
           }
         }
       }
+    },
+    {
+      "op": "add",
+      "path": "/Root/Children/-",
+      "value": {
+        "Id": "712b1b97-009d-46cf-919d-e7b0144d6d92",
+        "_comment": "Tower",
+        "NarrativeContext": "Mission",
+        "Meta": {
+          "Ui": {
+            "Row": 3,
+            "Col": 5
+          }
+        }
+      }
     }
   ]
 }

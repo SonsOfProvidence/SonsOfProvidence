@@ -43,6 +43,27 @@
     },
     "Rarity": null
   },
+  "STARTING_LOCATION_BERLIN_OUTSIDE": {
+    "Id": "STARTING_LOCATION_BERLIN_OUTSIDE",
+    "Guid": "a8f6a822-b6d7-40b0-8446-e1c65c92f724",
+    "Type": "access",
+    "Subtype": "startinglocation",
+    "ImageId": null,
+    "RMTPrice": -1,
+    "GamePrice": -1,
+    "IsPurchasable": false,
+    "IsPublished": true,
+    "IsDroppable": false,
+    "Capabilities": [],
+    "Qualities": {},
+    "Properties": {
+      "Location": "LOCATION_EDGY_FOX",
+      "RepositoryId": "6244bf6d-18c1-4629-a691-d7845a87ef07",
+      "Equip": ["TOKEN_OUTFIT_LUCAS_GREY"],
+      "UnlockOrder": 3
+    },
+    "Rarity": null
+  },
   "STARTING_LOCATION_MOSCOW_OUTSIDE": {
     "Id": "STARTING_LOCATION_MOSCOW_OUTSIDE",
     "Guid": "17922224-4774-4072-b354-c9fff4e8bff3",
@@ -135,7 +156,8 @@
         "STARTING_LOCATION_SAPIENZA_APARTMENT",
         "STARTING_LOCATION_AIRPLANE_SEAT",
         "STARTING_LOCATION_MOSCOW_OUTSIDE",
-        "STARTING_LOCATION_DARTMOOR_OUTSIDE"
+        "STARTING_LOCATION_DARTMOOR_OUTSIDE",
+        "STARTING_LOCATION_BERLIN_OUTSIDE"
       ]
     }
   }

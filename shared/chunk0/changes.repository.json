@@ -35,6 +35,12 @@
     "Name_LOC": "ui_starting_location_marrakesh_courtyard_default_name",
     "Description": "ui_starting_location_marrakesh_courtyard_desc"
   },
+  "6244bf6d-18c1-4629-a691-d7845a87ef07": {
+    "ID_": "6244bf6d-18c1-4629-a691-d7845a87ef07",
+    "Image": "images/dbierek/berlin.jpg",
+    "Name_LOC": "ui_starting_location_berlin_road_default_name",
+    "Description": "ui_starting_location_berlin_road_desc"
+  },
   "c4146f27-81a9-42ef-b3c7-87a9d60b4747": {
     "Category": "",
     "CommonName": "CHAR_Gecko_Hero_SkydivingOutfit_M_ PRO179078",
@@ -90,6 +96,17 @@
     "Outfit": "d3bdbcfe-4747-4774-a642-17daa98a7f69",
     "OutfitVariationIndex": 0.0,
     "Tile": "images/dbierek/sapienza_target.jpg"
+  },
+  "5a176a60-01ae-4df7-8efa-233a7ad1bcfe": {
+    "CharacterSetIndex": 0.0,
+    "Description": "Communications Director",
+    "Description_LOC": "actor_description",
+    "ID_": "5a176a60-01ae-4df7-8efa-233a7ad1bcfe",
+    "Image": "images/dbierek/berlin.jpg",
+    "Name": "Communications Director",
+    "Outfit": "b40a74a0-91a2-490d-8806-3ccfc852c82b",
+    "OutfitVariationIndex": 0.0,
+    "Tile": "images/dbierek/berlin.jpg"
   },
   "743F058F-56A0-420F-8B5E-46DABABACA37": {
     "Name": "Ben Bern"

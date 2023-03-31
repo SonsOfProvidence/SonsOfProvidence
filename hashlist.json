@@ -24,6 +24,14 @@
     "ioiString": "[assembly:/sonsofprovidence/scene_airplane.entity].pc_entityblueprint"
   },
   {
+    "hash": "001B4FDA485BC7E7",
+    "ioiString": "[assembly:/sonsofprovidence/scene_tower.entity].pc_entitytemplate"
+  },
+  {
+    "hash": "00E975BC09F9395D",
+    "ioiString": "[assembly:/sonsofprovidence/scene_tower.entity].pc_entityblueprint"
+  },
+  {
     "hash": "001A8ED7670AD41C",
     "ioiString": "[assembly:/sonsofprovidence/airplane/outfits_airplane.brick].pc_entitytype"
   },
@@ -134,6 +142,10 @@
   {
     "hash": "00D757C1562092CC",
     "ioiString": "(planning_contract) sonsofprovidence carpark (h3)"
+  },
+  {
+    "hash": "008D479D666B23A6",
+    "ioiString": "(planning_contract) sonsofprovidence tower (h3)"
   },
   {
     "hash": "00988241F442CDDF",
