@@ -41,6 +41,12 @@
 		"Name_LOC": "ui_starting_location_berlin_road_default_name",
 		"Description": "ui_starting_location_berlin_road_desc"
 	},
+	"8e2bdc62-905d-43c1-8d91-3dceb8506a77": {
+		"ID_": "8e2bdc62-905d-43c1-8d91-3dceb8506a77",
+		"Image": "images/dbierek/newyork.jpg",
+		"Name_LOC": "ui_starting_location_newyork_garage_default_name",
+		"Description": "ui_starting_location_newyork_garage_desc"
+	},
 	"c4146f27-81a9-42ef-b3c7-87a9d60b4747": {
 		"Category": "",
 		"CommonName": "CHAR_Gecko_Hero_SkydivingOutfit_M_ PRO179078",

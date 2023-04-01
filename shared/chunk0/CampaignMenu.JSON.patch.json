@@ -35,6 +35,11 @@
 					},
 					{
 						"Type": "Mission",
+						"Id": "eb4c2ed8-eebc-4fed-804f-d822a8c55428",
+						"_comment": "Bank Mission"
+					},
+					{
+						"Type": "Mission",
 						"Id": "179563a4-727a-4072-b354-c9fff4e8bff1",
 						"_comment": "Funeral Mission"
 					},

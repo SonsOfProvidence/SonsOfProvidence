@@ -6,7 +6,7 @@
 	"blobsFolders": ["blobs"],
 	"authors": ["Danny Bierek"],
 	"frameworkVersion": "2.15.1",
-	"version": "0.41.0",
+	"version": "0.40.0",
 	"contentFolders": ["shared"],
 	"options": [
 		{
@@ -36,6 +36,13 @@
 			"type": "checkbox",
 			"enabledByDefault": true,
 			"contentFolders": ["mission_carpark"]
+		},
+		{
+			"name": "Bank",
+			"tooltip": "Mission 6: Raid the Archive",
+			"type": "checkbox",
+			"enabledByDefault": true,
+			"contentFolders": ["mission_bank"]
 		},
 		{
 			"name": "Funeral",
@@ -175,6 +182,11 @@
 		},
 		{
 			"type": "entity",
+			"partition": "greedy",
+			"path": "[assembly:/sonsofprovidence/scene_bank.entity].entitytemplate"
+		},
+		{
+			"type": "entity",
 			"partition": "super",
 			"path": "[assembly:/sonsofprovidence/airplane/outfits_airplane.entity].entitytype"
 		},
@@ -235,7 +247,9 @@
 			"ui_starting_location_sapienza_apartment_default_name": "Hotel Room, New York City, USA",
 			"ui_starting_location_sapienza_apartment_desc": "I've rented a room overlooking the courtyard helipad near the church.",
 			"ui_starting_location_berlin_road_default_name": "Near Communications Tower, Dartmoor, England",
-			"ui_starting_location_berlin_road_desc": "I've made my way to the communications tower for Madame Carlisle's security detail."
+			"ui_starting_location_berlin_road_desc": "I've made my way to the communications tower for Madame Carlisle's security detail.",
+			"ui_starting_location_newyork_garage_default_name": "Garage of Milton-Fitzpatrick Bank, New York, USA",
+			"ui_starting_location_newyork_garage_desc": "I've infiltrated the garage at the Milton-Fitzpatrick Bank."
 		}
 	},
 	"updateCheck": "https://github.com/dbierek/SonsOfProvidence/releases/latest/download/updates.json"

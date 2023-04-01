@@ -32,6 +32,14 @@
 		"ioiString": "[assembly:/sonsofprovidence/scene_tower.entity].pc_entityblueprint"
 	},
 	{
+		"hash": "00581D13D5849A2A",
+		"ioiString": "[assembly:/sonsofprovidence/scene_bank.entity].pc_entitytemplate"
+	},
+	{
+		"hash": "0092E1A6005A2B78",
+		"ioiString": "[assembly:/sonsofprovidence/scene_bank.entity].pc_entityblueprint"
+	},
+	{
 		"hash": "001A8ED7670AD41C",
 		"ioiString": "[assembly:/sonsofprovidence/airplane/outfits_airplane.brick].pc_entitytype"
 	},
@@ -150,6 +158,10 @@
 	{
 		"hash": "00988241F442CDDF",
 		"ioiString": "(planning_contract) sonsofprovidence moscow (h3)"
+	},
+	{
+		"hash": "004D36DBA84266E6",
+		"ioiString": "(planning_contract) sonsofprovidence bank (h3)"
 	},
 	{
 		"hash": "002DDBAAF0E0B62C",

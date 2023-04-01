@@ -13,10 +13,24 @@
 					"properties": {
 						"m_pMetaDataResource": {
 							"type": "ZRuntimeResourceID",
-							"value": {
-								"resource": "00988241F442CDDF",
-								"flag": "5F"
-							}
+							"value": { "resource": "00988241F442CDDF", "flag": "5F" }
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"feede759363fc272",
+				{
+					"parent": "6761b747b628794a",
+					"name": "scene_Bank",
+					"factory": "[assembly:/templates/ui/mapexportentities.template?/menumap.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/templates/ui/mapexportentities.template?/menumap.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"m_pMetaDataResource": {
+							"type": "ZRuntimeResourceID",
+							"value": { "resource": "004D36DBA84266E6", "flag": "5F" }
 						}
 					}
 				}
