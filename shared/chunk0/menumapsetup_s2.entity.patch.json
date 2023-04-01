@@ -1,27 +1,27 @@
 {
-  "tempHash": "0045E7CBA87680F0",
-  "tbluHash": "00EAEC4D64DAED21",
-  "patch": [
-    {
-      "AddEntity": [
-        "feed6198bf9fb7b4",
-        {
-          "parent": "fef80c8ec3caf936",
-          "name": "scene_moscow",
-          "factory": "[assembly:/templates/ui/mapexportentities.template?/menumap.entitytemplate].pc_entitytype",
-          "blueprint": "[assembly:/templates/ui/mapexportentities.template?/menumap.entitytemplate].pc_entityblueprint",
-          "properties": {
-            "m_pMetaDataResource": {
-              "type": "ZRuntimeResourceID",
-              "value": {
-                "resource": "00988241F442CDDF",
-                "flag": "5F"
-              }
-            }
-          }
-        }
-      ]
-    }
-  ],
-  "patchVersion": 6
+	"tempHash": "0045E7CBA87680F0",
+	"tbluHash": "00EAEC4D64DAED21",
+	"patch": [
+		{
+			"AddEntity": [
+				"feed6198bf9fb7b4",
+				{
+					"parent": "fef80c8ec3caf936",
+					"name": "scene_moscow",
+					"factory": "[assembly:/templates/ui/mapexportentities.template?/menumap.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/templates/ui/mapexportentities.template?/menumap.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"m_pMetaDataResource": {
+							"type": "ZRuntimeResourceID",
+							"value": {
+								"resource": "00988241F442CDDF",
+								"flag": "5F"
+							}
+						}
+					}
+				}
+			]
+		}
+	],
+	"patchVersion": 6
 }

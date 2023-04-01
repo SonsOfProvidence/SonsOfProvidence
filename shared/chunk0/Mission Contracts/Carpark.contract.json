@@ -1,45 +1,45 @@
 {
-  "Data": {
-    "EnableSaving": true,
-    "Objectives": [],
-    "GameDifficulties": [
-      {
-        "Difficulty": "easy",
-        "Bricks": []
-      },
-      {
-        "Difficulty": "normal",
-        "Bricks": []
-      },
-      {
-        "Difficulty": "hard",
-        "Bricks": []
-      }
-    ],
-    "Bricks": [],
-    "Entrances": ["fb75a371-8a8a-46ca-4747-320e16018db6"],
-    "Exits": ["fb75a371-8a8a-46ca-4747-320e16018db5"],
-    "DevOnlyBricks": [],
-    "GameChangers": [],
-    "GameChangerReferences": []
-  },
-  "Metadata": {
-    "Id": "179563a4-727a-4072-b354-c9fff4e8bff5",
-    "IsPublished": true,
-    "Title": "UI_MARRAKESH_TITLE",
-    "Description": "DESC_MARRAKESH",
-    "CodeName_Hint": "Marrakesh",
-    "ScenePath": "assembly:/sonsofprovidence/scene_carpark.entity",
-    "TileImage": "images/dbierek/marrakesh.jpg",
-    "Location": "LOCATION_MARRAKECH",
-    "LastUpdate": "2023-03-31T05:48:00.000Z",
-    "CreationTimestamp": "2023-03-31T05:48:00.000Z",
-    "CreatorUserId": "00000000-0000-0000-0000-000000000000",
-    "IsLocked": false,
-    "Type": "mission",
-    "Release": "1.2.x",
-    "RequiredUnlockable": "ACCESS_HIT_SPIDER",
-    "Entitlements": ["H1_LEGACY_STANDARD"]
-  },
-  "UserData": {}
+	"Data": {
+		"EnableSaving": true,
+		"Objectives": [],
+		"GameDifficulties": [
+			{
+				"Difficulty": "easy",
+				"Bricks": []
+			},
+			{
+				"Difficulty": "normal",
+				"Bricks": []
+			},
+			{
+				"Difficulty": "hard",
+				"Bricks": []
+			}
+		],
+		"Bricks": [],
+		"Entrances": ["fb75a371-8a8a-46ca-4747-320e16018db6"],
+		"Exits": ["fb75a371-8a8a-46ca-4747-320e16018db5"],
+		"DevOnlyBricks": [],
+		"GameChangers": [],
+		"GameChangerReferences": []
+	},
+	"Metadata": {
+		"Id": "179563a4-727a-4072-b354-c9fff4e8bff5",
+		"IsPublished": true,
+		"Title": "UI_MARRAKESH_TITLE",
+		"Description": "DESC_MARRAKESH",
+		"CodeName_Hint": "Marrakesh",
+		"ScenePath": "assembly:/sonsofprovidence/scene_carpark.entity",
+		"TileImage": "images/dbierek/marrakesh.jpg",
+		"Location": "LOCATION_MARRAKECH",
+		"LastUpdate": "2023-03-31T05:48:00.000Z",
+		"CreationTimestamp": "2023-03-31T05:48:00.000Z",
+		"CreatorUserId": "00000000-0000-0000-0000-000000000000",
+		"IsLocked": false,
+		"Type": "mission",
+		"Release": "1.2.x",
+		"RequiredUnlockable": "ACCESS_HIT_SPIDER",
+		"Entitlements": ["H1_LEGACY_STANDARD"]
+	},
+	"UserData": {}
 }

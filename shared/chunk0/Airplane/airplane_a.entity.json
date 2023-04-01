@@ -1,1824 +1,1824 @@
 {
-  "tempHash": "000F83981CA13201",
-  "tbluHash": "0044DFB2593628D0",
-  "rootEntity": "feed41fa9eed6cf6",
-  "entities": {
-    "feed41fa9eed6cf6": {
-      "parent": null,
-      "name": "airplane_a",
-      "factory": "[modules:/zspatialentity.class].pc_entitytype",
-      "blueprint": "[modules:/zspatialentity.class].pc_entityblueprint"
-    },
-    "feedcd3a5639a408": {
-      "parent": "feed97ef1041db1f",
-      "name": "Light_Capsule_Celling_10",
-      "factory": "[modules:/zlightentity.class].pc_entitytype",
-      "blueprint": "[modules:/zlightentity.class].pc_entityblueprint",
-      "properties": {
-        "m_mTransform": {
-          "type": "SMatrix43",
-          "value": {
-            "rotation": { "x": 0, "y": 180, "z": 0 },
-            "position": { "x": -0.75, "y": -6, "z": 1 }
-          }
-        },
-        "m_eLightType": {
-          "type": "ILightEntity.ELightType",
-          "value": "LT_CAPSULE"
-        },
-        "m_diffuseColor": { "type": "SColorRGB", "value": "#ffe4b3" },
-        "m_fDiffusePower": { "type": "float32", "value": 500 },
-        "m_vBoxSize": {
-          "type": "SVector3",
-          "value": {
-            "x": 32.625999450683594,
-            "y": 35.870201110839844,
-            "z": 2.3263099193573
-          }
-        },
-        "m_vBoxFadePos": {
-          "type": "SVector3",
-          "value": { "x": 0, "y": 0, "z": 0 }
-        },
-        "m_vBoxFadeNeg": {
-          "type": "SVector3",
-          "value": { "x": 0, "y": 0, "z": 2.3263099193573 }
-        },
-        "m_vFarAttenuation": {
-          "type": "SVector2",
-          "value": { "x": 0.16527900099754333, "y": 1.2534799575805664 }
-        },
-        "m_vNearAttenuation": {
-          "type": "SVector2",
-          "value": { "x": 0.009999999776482582, "y": 0.019999999552965164 }
-        },
-        "m_fCapsuleHeight": { "type": "float32", "value": 7.193312168121338 },
-        "m_bCastShadows": { "type": "bool", "value": false },
-        "m_eidParent": {
-          "type": "SEntityTemplateReference",
-          "value": "feed41fa9eed6cf6",
-          "postInit": true
-        }
-      }
-    },
-    "feed34ee48cb8908": {
-      "parent": "feed97ef1041db1f",
-      "name": "Light_Capsule_Celling_02",
-      "factory": "[modules:/zlightentity.class].pc_entitytype",
-      "blueprint": "[modules:/zlightentity.class].pc_entityblueprint",
-      "properties": {
-        "m_mTransform": {
-          "type": "SMatrix43",
-          "value": {
-            "rotation": { "x": 0, "y": 180, "z": 0 },
-            "position": { "x": -0.75, "y": -3, "z": 1 }
-          }
-        },
-        "m_eLightType": {
-          "type": "ILightEntity.ELightType",
-          "value": "LT_CAPSULE"
-        },
-        "m_diffuseColor": { "type": "SColorRGB", "value": "#ffe4b3" },
-        "m_fDiffusePower": { "type": "float32", "value": 500 },
-        "m_vBoxSize": {
-          "type": "SVector3",
-          "value": {
-            "x": 32.625999450683594,
-            "y": 35.870201110839844,
-            "z": 2.3263099193573
-          }
-        },
-        "m_vBoxFadePos": {
-          "type": "SVector3",
-          "value": { "x": 0, "y": 0, "z": 0 }
-        },
-        "m_vBoxFadeNeg": {
-          "type": "SVector3",
-          "value": { "x": 0, "y": 0, "z": 2.3263099193573 }
-        },
-        "m_vFarAttenuation": {
-          "type": "SVector2",
-          "value": { "x": 0.16527900099754333, "y": 1.2534799575805664 }
-        },
-        "m_vNearAttenuation": {
-          "type": "SVector2",
-          "value": { "x": 0.009999999776482582, "y": 0.019999999552965164 }
-        },
-        "m_fCapsuleHeight": { "type": "float32", "value": 7.193312168121338 },
-        "m_bCastShadows": { "type": "bool", "value": false },
-        "m_eidParent": {
-          "type": "SEntityTemplateReference",
-          "value": "feed41fa9eed6cf6",
-          "postInit": true
-        }
-      }
-    },
-    "feed4232705727a3": {
-      "parent": "feed97ef1041db1f",
-      "name": "Light_Capsule_Celling_06",
-      "factory": "[modules:/zlightentity.class].pc_entitytype",
-      "blueprint": "[modules:/zlightentity.class].pc_entityblueprint",
-      "properties": {
-        "m_mTransform": {
-          "type": "SMatrix43",
-          "value": {
-            "rotation": { "x": 0, "y": 180, "z": 0 },
-            "position": { "x": -0.75, "y": 1, "z": 1 }
-          }
-        },
-        "m_eLightType": {
-          "type": "ILightEntity.ELightType",
-          "value": "LT_CAPSULE"
-        },
-        "m_diffuseColor": { "type": "SColorRGB", "value": "#ffe4b3" },
-        "m_fDiffusePower": { "type": "float32", "value": 500 },
-        "m_vBoxSize": {
-          "type": "SVector3",
-          "value": {
-            "x": 32.625999450683594,
-            "y": 35.870201110839844,
-            "z": 2.3263099193573
-          }
-        },
-        "m_vBoxFadePos": {
-          "type": "SVector3",
-          "value": { "x": 0, "y": 0, "z": 0 }
-        },
-        "m_vBoxFadeNeg": {
-          "type": "SVector3",
-          "value": { "x": 0, "y": 0, "z": 2.3263099193573 }
-        },
-        "m_vFarAttenuation": {
-          "type": "SVector2",
-          "value": { "x": 0.16527900099754333, "y": 1.2534799575805664 }
-        },
-        "m_vNearAttenuation": {
-          "type": "SVector2",
-          "value": { "x": 0.009999999776482582, "y": 0.019999999552965164 }
-        },
-        "m_fCapsuleHeight": { "type": "float32", "value": 7.193312168121338 },
-        "m_bCastShadows": { "type": "bool", "value": false },
-        "m_eidParent": {
-          "type": "SEntityTemplateReference",
-          "value": "feed41fa9eed6cf6",
-          "postInit": true
-        }
-      }
-    },
-    "feed11b1049b9f3d": {
-      "parent": "feed97ef1041db1f",
-      "name": "Light_Capsule_Celling_03",
-      "factory": "[modules:/zlightentity.class].pc_entitytype",
-      "blueprint": "[modules:/zlightentity.class].pc_entityblueprint",
-      "properties": {
-        "m_mTransform": {
-          "type": "SMatrix43",
-          "value": {
-            "rotation": { "x": 0, "y": 180, "z": 0 },
-            "position": { "x": -0.75, "y": -2, "z": 1 }
-          }
-        },
-        "m_eLightType": {
-          "type": "ILightEntity.ELightType",
-          "value": "LT_CAPSULE"
-        },
-        "m_diffuseColor": { "type": "SColorRGB", "value": "#ffe4b3" },
-        "m_fDiffusePower": { "type": "float32", "value": 500 },
-        "m_vBoxSize": {
-          "type": "SVector3",
-          "value": {
-            "x": 32.625999450683594,
-            "y": 35.870201110839844,
-            "z": 2.3263099193573
-          }
-        },
-        "m_vBoxFadePos": {
-          "type": "SVector3",
-          "value": { "x": 0, "y": 0, "z": 0 }
-        },
-        "m_vBoxFadeNeg": {
-          "type": "SVector3",
-          "value": { "x": 0, "y": 0, "z": 2.3263099193573 }
-        },
-        "m_vFarAttenuation": {
-          "type": "SVector2",
-          "value": { "x": 0.16527900099754333, "y": 1.2534799575805664 }
-        },
-        "m_vNearAttenuation": {
-          "type": "SVector2",
-          "value": { "x": 0.009999999776482582, "y": 0.019999999552965164 }
-        },
-        "m_fCapsuleHeight": { "type": "float32", "value": 7.193312168121338 },
-        "m_bCastShadows": { "type": "bool", "value": false },
-        "m_eidParent": {
-          "type": "SEntityTemplateReference",
-          "value": "feed41fa9eed6cf6",
-          "postInit": true
-        }
-      }
-    },
-    "feedf030b82472fe": {
-      "parent": "feed97ef1041db1f",
-      "name": "Light_Capsule_Celling_11",
-      "factory": "[modules:/zlightentity.class].pc_entitytype",
-      "blueprint": "[modules:/zlightentity.class].pc_entityblueprint",
-      "properties": {
-        "m_mTransform": {
-          "type": "SMatrix43",
-          "value": {
-            "rotation": { "x": 0, "y": 180, "z": 0 },
-            "position": { "x": -0.75, "y": 4, "z": 1 }
-          }
-        },
-        "m_eLightType": {
-          "type": "ILightEntity.ELightType",
-          "value": "LT_CAPSULE"
-        },
-        "m_diffuseColor": { "type": "SColorRGB", "value": "#ffe4b3" },
-        "m_fDiffusePower": { "type": "float32", "value": 500 },
-        "m_vBoxSize": {
-          "type": "SVector3",
-          "value": {
-            "x": 32.625999450683594,
-            "y": 35.870201110839844,
-            "z": 2.3263099193573
-          }
-        },
-        "m_vBoxFadePos": {
-          "type": "SVector3",
-          "value": { "x": 0, "y": 0, "z": 0 }
-        },
-        "m_vBoxFadeNeg": {
-          "type": "SVector3",
-          "value": { "x": 0, "y": 0, "z": 2.3263099193573 }
-        },
-        "m_vFarAttenuation": {
-          "type": "SVector2",
-          "value": { "x": 0.16527900099754333, "y": 1.2534799575805664 }
-        },
-        "m_vNearAttenuation": {
-          "type": "SVector2",
-          "value": { "x": 0.009999999776482582, "y": 0.019999999552965164 }
-        },
-        "m_fCapsuleHeight": { "type": "float32", "value": 7.193312168121338 },
-        "m_bCastShadows": { "type": "bool", "value": false },
-        "m_eidParent": {
-          "type": "SEntityTemplateReference",
-          "value": "feed41fa9eed6cf6",
-          "postInit": true
-        }
-      }
-    },
-    "feed7ac4afce0b16": {
-      "parent": "feed97ef1041db1f",
-      "name": "Light_Capsule_Celling_04",
-      "factory": "[modules:/zlightentity.class].pc_entitytype",
-      "blueprint": "[modules:/zlightentity.class].pc_entityblueprint",
-      "properties": {
-        "m_mTransform": {
-          "type": "SMatrix43",
-          "value": {
-            "rotation": { "x": 0, "y": 180, "z": 0 },
-            "position": { "x": -0.75, "y": -1, "z": 1 }
-          }
-        },
-        "m_eLightType": {
-          "type": "ILightEntity.ELightType",
-          "value": "LT_CAPSULE"
-        },
-        "m_diffuseColor": { "type": "SColorRGB", "value": "#ffe4b3" },
-        "m_fDiffusePower": { "type": "float32", "value": 500 },
-        "m_vBoxSize": {
-          "type": "SVector3",
-          "value": {
-            "x": 32.625999450683594,
-            "y": 35.870201110839844,
-            "z": 2.3263099193573
-          }
-        },
-        "m_vBoxFadePos": {
-          "type": "SVector3",
-          "value": { "x": 0, "y": 0, "z": 0 }
-        },
-        "m_vBoxFadeNeg": {
-          "type": "SVector3",
-          "value": { "x": 0, "y": 0, "z": 2.3263099193573 }
-        },
-        "m_vFarAttenuation": {
-          "type": "SVector2",
-          "value": { "x": 0.16527900099754333, "y": 1.2534799575805664 }
-        },
-        "m_vNearAttenuation": {
-          "type": "SVector2",
-          "value": { "x": 0.009999999776482582, "y": 0.019999999552965164 }
-        },
-        "m_fCapsuleHeight": { "type": "float32", "value": 7.193312168121338 },
-        "m_bCastShadows": { "type": "bool", "value": false },
-        "m_eidParent": {
-          "type": "SEntityTemplateReference",
-          "value": "feed41fa9eed6cf6",
-          "postInit": true
-        }
-      }
-    },
-    "feed226d789b6cfe": {
-      "parent": "feed97ef1041db1f",
-      "name": "Light_Capsule_Celling_05",
-      "factory": "[modules:/zlightentity.class].pc_entitytype",
-      "blueprint": "[modules:/zlightentity.class].pc_entityblueprint",
-      "properties": {
-        "m_mTransform": {
-          "type": "SMatrix43",
-          "value": {
-            "rotation": { "x": 0, "y": 180, "z": 0 },
-            "position": { "x": -0.75, "y": 0, "z": 1 }
-          }
-        },
-        "m_eLightType": {
-          "type": "ILightEntity.ELightType",
-          "value": "LT_CAPSULE"
-        },
-        "m_diffuseColor": { "type": "SColorRGB", "value": "#ffe4b3" },
-        "m_fDiffusePower": { "type": "float32", "value": 500 },
-        "m_vBoxSize": {
-          "type": "SVector3",
-          "value": {
-            "x": 32.625999450683594,
-            "y": 35.870201110839844,
-            "z": 2.3263099193573
-          }
-        },
-        "m_vBoxFadePos": {
-          "type": "SVector3",
-          "value": { "x": 0, "y": 0, "z": 0 }
-        },
-        "m_vBoxFadeNeg": {
-          "type": "SVector3",
-          "value": { "x": 0, "y": 0, "z": 2.3263099193573 }
-        },
-        "m_vFarAttenuation": {
-          "type": "SVector2",
-          "value": { "x": 0.16527900099754333, "y": 1.2534799575805664 }
-        },
-        "m_vNearAttenuation": {
-          "type": "SVector2",
-          "value": { "x": 0.009999999776482582, "y": 0.019999999552965164 }
-        },
-        "m_fCapsuleHeight": { "type": "float32", "value": 7.193312168121338 },
-        "m_bCastShadows": { "type": "bool", "value": false },
-        "m_eidParent": {
-          "type": "SEntityTemplateReference",
-          "value": "feed41fa9eed6cf6",
-          "postInit": true
-        }
-      }
-    },
-    "feede8241ed3137d": {
-      "parent": "feed97ef1041db1f",
-      "name": "Light_Capsule_Celling_01",
-      "factory": "[modules:/zlightentity.class].pc_entitytype",
-      "blueprint": "[modules:/zlightentity.class].pc_entityblueprint",
-      "properties": {
-        "m_mTransform": {
-          "type": "SMatrix43",
-          "value": {
-            "rotation": { "x": 0, "y": 180, "z": 0 },
-            "position": { "x": -0.75, "y": -4, "z": 1 }
-          }
-        },
-        "m_eLightType": {
-          "type": "ILightEntity.ELightType",
-          "value": "LT_CAPSULE"
-        },
-        "m_diffuseColor": { "type": "SColorRGB", "value": "#ffe4b3" },
-        "m_fDiffusePower": { "type": "float32", "value": 500 },
-        "m_vBoxSize": {
-          "type": "SVector3",
-          "value": {
-            "x": 32.625999450683594,
-            "y": 35.870201110839844,
-            "z": 2.3263099193573
-          }
-        },
-        "m_vBoxFadePos": {
-          "type": "SVector3",
-          "value": { "x": 0, "y": 0, "z": 0 }
-        },
-        "m_vBoxFadeNeg": {
-          "type": "SVector3",
-          "value": { "x": 0, "y": 0, "z": 2.3263099193573 }
-        },
-        "m_vFarAttenuation": {
-          "type": "SVector2",
-          "value": { "x": 0.16527900099754333, "y": 1.2534799575805664 }
-        },
-        "m_vNearAttenuation": {
-          "type": "SVector2",
-          "value": { "x": 0.009999999776482582, "y": 0.019999999552965164 }
-        },
-        "m_fCapsuleHeight": { "type": "float32", "value": 7.193312168121338 },
-        "m_bCastShadows": { "type": "bool", "value": false },
-        "m_eidParent": {
-          "type": "SEntityTemplateReference",
-          "value": "feed41fa9eed6cf6",
-          "postInit": true
-        }
-      }
-    },
-    "feedab73462feba1": {
-      "parent": "feed97ef1041db1f",
-      "name": "Light_Capsule_Celling_07",
-      "factory": "[modules:/zlightentity.class].pc_entitytype",
-      "blueprint": "[modules:/zlightentity.class].pc_entityblueprint",
-      "properties": {
-        "m_mTransform": {
-          "type": "SMatrix43",
-          "value": {
-            "rotation": { "x": 0, "y": 180, "z": 0 },
-            "position": { "x": -0.75, "y": 2, "z": 1 }
-          }
-        },
-        "m_eLightType": {
-          "type": "ILightEntity.ELightType",
-          "value": "LT_CAPSULE"
-        },
-        "m_diffuseColor": { "type": "SColorRGB", "value": "#ffe4b3" },
-        "m_fDiffusePower": { "type": "float32", "value": 500 },
-        "m_vBoxSize": {
-          "type": "SVector3",
-          "value": {
-            "x": 32.625999450683594,
-            "y": 35.870201110839844,
-            "z": 2.3263099193573
-          }
-        },
-        "m_vBoxFadePos": {
-          "type": "SVector3",
-          "value": { "x": 0, "y": 0, "z": 0 }
-        },
-        "m_vBoxFadeNeg": {
-          "type": "SVector3",
-          "value": { "x": 0, "y": 0, "z": 2.3263099193573 }
-        },
-        "m_vFarAttenuation": {
-          "type": "SVector2",
-          "value": { "x": 0.16527900099754333, "y": 1.2534799575805664 }
-        },
-        "m_vNearAttenuation": {
-          "type": "SVector2",
-          "value": { "x": 0.009999999776482582, "y": 0.019999999552965164 }
-        },
-        "m_fCapsuleHeight": { "type": "float32", "value": 7.193312168121338 },
-        "m_bCastShadows": { "type": "bool", "value": false },
-        "m_eidParent": {
-          "type": "SEntityTemplateReference",
-          "value": "feed41fa9eed6cf6",
-          "postInit": true
-        }
-      }
-    },
-    "feed97ef1041db1f": {
-      "parent": "feed41fa9eed6cf6",
-      "name": "Light_Row_Side_1",
-      "factory": "[modules:/zentity.class].pc_entitytype",
-      "blueprint": "[modules:/zentity.class].pc_entityblueprint"
-    },
-    "feed974b2c5c8f9c": {
-      "parent": "feed97ef1041db1f",
-      "name": "Light_Capsule_Celling_08",
-      "factory": "[modules:/zlightentity.class].pc_entitytype",
-      "blueprint": "[modules:/zlightentity.class].pc_entityblueprint",
-      "properties": {
-        "m_mTransform": {
-          "type": "SMatrix43",
-          "value": {
-            "rotation": { "x": 0, "y": 180, "z": 0 },
-            "position": { "x": -0.75, "y": -5, "z": 1 }
-          }
-        },
-        "m_eLightType": {
-          "type": "ILightEntity.ELightType",
-          "value": "LT_CAPSULE"
-        },
-        "m_diffuseColor": { "type": "SColorRGB", "value": "#ffe4b3" },
-        "m_fDiffusePower": { "type": "float32", "value": 500 },
-        "m_vBoxSize": {
-          "type": "SVector3",
-          "value": {
-            "x": 32.625999450683594,
-            "y": 35.870201110839844,
-            "z": 2.3263099193573
-          }
-        },
-        "m_vBoxFadePos": {
-          "type": "SVector3",
-          "value": { "x": 0, "y": 0, "z": 0 }
-        },
-        "m_vBoxFadeNeg": {
-          "type": "SVector3",
-          "value": { "x": 0, "y": 0, "z": 2.3263099193573 }
-        },
-        "m_vFarAttenuation": {
-          "type": "SVector2",
-          "value": { "x": 0.16527900099754333, "y": 1.2534799575805664 }
-        },
-        "m_vNearAttenuation": {
-          "type": "SVector2",
-          "value": { "x": 0.009999999776482582, "y": 0.019999999552965164 }
-        },
-        "m_fCapsuleHeight": { "type": "float32", "value": 7.193312168121338 },
-        "m_bCastShadows": { "type": "bool", "value": false },
-        "m_eidParent": {
-          "type": "SEntityTemplateReference",
-          "value": "feed41fa9eed6cf6",
-          "postInit": true
-        }
-      }
-    },
-    "feed68caad22d64d": {
-      "parent": "feed97ef1041db1f",
-      "name": "Light_Capsule_Celling_09",
-      "factory": "[modules:/zlightentity.class].pc_entitytype",
-      "blueprint": "[modules:/zlightentity.class].pc_entityblueprint",
-      "properties": {
-        "m_mTransform": {
-          "type": "SMatrix43",
-          "value": {
-            "rotation": { "x": 0, "y": 180, "z": 0 },
-            "position": { "x": -0.75, "y": 3, "z": 1 }
-          }
-        },
-        "m_eLightType": {
-          "type": "ILightEntity.ELightType",
-          "value": "LT_CAPSULE"
-        },
-        "m_diffuseColor": { "type": "SColorRGB", "value": "#ffe4b3" },
-        "m_fDiffusePower": { "type": "float32", "value": 500 },
-        "m_vBoxSize": {
-          "type": "SVector3",
-          "value": {
-            "x": 32.625999450683594,
-            "y": 35.870201110839844,
-            "z": 2.3263099193573
-          }
-        },
-        "m_vBoxFadePos": {
-          "type": "SVector3",
-          "value": { "x": 0, "y": 0, "z": 0 }
-        },
-        "m_vBoxFadeNeg": {
-          "type": "SVector3",
-          "value": { "x": 0, "y": 0, "z": 2.3263099193573 }
-        },
-        "m_vFarAttenuation": {
-          "type": "SVector2",
-          "value": { "x": 0.16527900099754333, "y": 1.2534799575805664 }
-        },
-        "m_vNearAttenuation": {
-          "type": "SVector2",
-          "value": { "x": 0.009999999776482582, "y": 0.019999999552965164 }
-        },
-        "m_fCapsuleHeight": { "type": "float32", "value": 7.193312168121338 },
-        "m_bCastShadows": { "type": "bool", "value": false },
-        "m_eidParent": {
-          "type": "SEntityTemplateReference",
-          "value": "feed41fa9eed6cf6",
-          "postInit": true
-        }
-      }
-    },
-    "feedcfc75465bd6c": {
-      "parent": "feed41fa9eed6cf6",
-      "name": "Light_Row_Side_2",
-      "factory": "[modules:/zentity.class].pc_entitytype",
-      "blueprint": "[modules:/zentity.class].pc_entityblueprint"
-    },
-    "feedf8bd80b60960": {
-      "parent": "feedcfc75465bd6c",
-      "name": "Light_Capsule_Celling_10",
-      "factory": "[modules:/zlightentity.class].pc_entitytype",
-      "blueprint": "[modules:/zlightentity.class].pc_entityblueprint",
-      "properties": {
-        "m_mTransform": {
-          "type": "SMatrix43",
-          "value": {
-            "rotation": { "x": 0, "y": 180, "z": 0 },
-            "position": { "x": 0.75, "y": -6, "z": 1 }
-          }
-        },
-        "m_eLightType": {
-          "type": "ILightEntity.ELightType",
-          "value": "LT_CAPSULE"
-        },
-        "m_diffuseColor": { "type": "SColorRGB", "value": "#ffe4b3" },
-        "m_fDiffusePower": { "type": "float32", "value": 500 },
-        "m_vBoxSize": {
-          "type": "SVector3",
-          "value": {
-            "x": 32.625999450683594,
-            "y": 35.870201110839844,
-            "z": 2.3263099193573
-          }
-        },
-        "m_vBoxFadePos": {
-          "type": "SVector3",
-          "value": { "x": 0, "y": 0, "z": 0 }
-        },
-        "m_vBoxFadeNeg": {
-          "type": "SVector3",
-          "value": { "x": 0, "y": 0, "z": 2.3263099193573 }
-        },
-        "m_vFarAttenuation": {
-          "type": "SVector2",
-          "value": { "x": 0.16527900099754333, "y": 1.2534799575805664 }
-        },
-        "m_vNearAttenuation": {
-          "type": "SVector2",
-          "value": { "x": 0.009999999776482582, "y": 0.019999999552965164 }
-        },
-        "m_fCapsuleHeight": { "type": "float32", "value": 7.193312168121338 },
-        "m_bCastShadows": { "type": "bool", "value": false },
-        "m_eidParent": {
-          "type": "SEntityTemplateReference",
-          "value": "feed41fa9eed6cf6",
-          "postInit": true
-        }
-      }
-    },
-    "feed5b3047ce3c16": {
-      "parent": "feedcfc75465bd6c",
-      "name": "Light_Capsule_Celling_02",
-      "factory": "[modules:/zlightentity.class].pc_entitytype",
-      "blueprint": "[modules:/zlightentity.class].pc_entityblueprint",
-      "properties": {
-        "m_mTransform": {
-          "type": "SMatrix43",
-          "value": {
-            "rotation": { "x": 0, "y": 180, "z": 0 },
-            "position": { "x": 0.75, "y": -3, "z": 1 }
-          }
-        },
-        "m_eLightType": {
-          "type": "ILightEntity.ELightType",
-          "value": "LT_CAPSULE"
-        },
-        "m_diffuseColor": { "type": "SColorRGB", "value": "#ffe4b3" },
-        "m_fDiffusePower": { "type": "float32", "value": 500 },
-        "m_vBoxSize": {
-          "type": "SVector3",
-          "value": {
-            "x": 32.625999450683594,
-            "y": 35.870201110839844,
-            "z": 2.3263099193573
-          }
-        },
-        "m_vBoxFadePos": {
-          "type": "SVector3",
-          "value": { "x": 0, "y": 0, "z": 0 }
-        },
-        "m_vBoxFadeNeg": {
-          "type": "SVector3",
-          "value": { "x": 0, "y": 0, "z": 2.3263099193573 }
-        },
-        "m_vFarAttenuation": {
-          "type": "SVector2",
-          "value": { "x": 0.16527900099754333, "y": 1.2534799575805664 }
-        },
-        "m_vNearAttenuation": {
-          "type": "SVector2",
-          "value": { "x": 0.009999999776482582, "y": 0.019999999552965164 }
-        },
-        "m_fCapsuleHeight": { "type": "float32", "value": 7.193312168121338 },
-        "m_bCastShadows": { "type": "bool", "value": false },
-        "m_eidParent": {
-          "type": "SEntityTemplateReference",
-          "value": "feed41fa9eed6cf6",
-          "postInit": true
-        }
-      }
-    },
-    "feed664f129a2eaa": {
-      "parent": "feedcfc75465bd6c",
-      "name": "Light_Capsule_Celling_06",
-      "factory": "[modules:/zlightentity.class].pc_entitytype",
-      "blueprint": "[modules:/zlightentity.class].pc_entityblueprint",
-      "properties": {
-        "m_mTransform": {
-          "type": "SMatrix43",
-          "value": {
-            "rotation": { "x": 0, "y": 180, "z": 0 },
-            "position": { "x": 0.75, "y": 1, "z": 1 }
-          }
-        },
-        "m_eLightType": {
-          "type": "ILightEntity.ELightType",
-          "value": "LT_CAPSULE"
-        },
-        "m_diffuseColor": { "type": "SColorRGB", "value": "#ffe4b3" },
-        "m_fDiffusePower": { "type": "float32", "value": 500 },
-        "m_vBoxSize": {
-          "type": "SVector3",
-          "value": {
-            "x": 32.625999450683594,
-            "y": 35.870201110839844,
-            "z": 2.3263099193573
-          }
-        },
-        "m_vBoxFadePos": {
-          "type": "SVector3",
-          "value": { "x": 0, "y": 0, "z": 0 }
-        },
-        "m_vBoxFadeNeg": {
-          "type": "SVector3",
-          "value": { "x": 0, "y": 0, "z": 2.3263099193573 }
-        },
-        "m_vFarAttenuation": {
-          "type": "SVector2",
-          "value": { "x": 0.16527900099754333, "y": 1.2534799575805664 }
-        },
-        "m_vNearAttenuation": {
-          "type": "SVector2",
-          "value": { "x": 0.009999999776482582, "y": 0.019999999552965164 }
-        },
-        "m_fCapsuleHeight": { "type": "float32", "value": 7.193312168121338 },
-        "m_bCastShadows": { "type": "bool", "value": false },
-        "m_eidParent": {
-          "type": "SEntityTemplateReference",
-          "value": "feed41fa9eed6cf6",
-          "postInit": true
-        }
-      }
-    },
-    "feedbd8b379f9744": {
-      "parent": "feedcfc75465bd6c",
-      "name": "Light_Capsule_Celling_03",
-      "factory": "[modules:/zlightentity.class].pc_entitytype",
-      "blueprint": "[modules:/zlightentity.class].pc_entityblueprint",
-      "properties": {
-        "m_mTransform": {
-          "type": "SMatrix43",
-          "value": {
-            "rotation": { "x": 0, "y": 180, "z": 0 },
-            "position": { "x": 0.75, "y": -2, "z": 1 }
-          }
-        },
-        "m_eLightType": {
-          "type": "ILightEntity.ELightType",
-          "value": "LT_CAPSULE"
-        },
-        "m_diffuseColor": { "type": "SColorRGB", "value": "#ffe4b3" },
-        "m_fDiffusePower": { "type": "float32", "value": 500 },
-        "m_vBoxSize": {
-          "type": "SVector3",
-          "value": {
-            "x": 32.625999450683594,
-            "y": 35.870201110839844,
-            "z": 2.3263099193573
-          }
-        },
-        "m_vBoxFadePos": {
-          "type": "SVector3",
-          "value": { "x": 0, "y": 0, "z": 0 }
-        },
-        "m_vBoxFadeNeg": {
-          "type": "SVector3",
-          "value": { "x": 0, "y": 0, "z": 2.3263099193573 }
-        },
-        "m_vFarAttenuation": {
-          "type": "SVector2",
-          "value": { "x": 0.16527900099754333, "y": 1.2534799575805664 }
-        },
-        "m_vNearAttenuation": {
-          "type": "SVector2",
-          "value": { "x": 0.009999999776482582, "y": 0.019999999552965164 }
-        },
-        "m_fCapsuleHeight": { "type": "float32", "value": 7.193312168121338 },
-        "m_bCastShadows": { "type": "bool", "value": false },
-        "m_eidParent": {
-          "type": "SEntityTemplateReference",
-          "value": "feed41fa9eed6cf6",
-          "postInit": true
-        }
-      }
-    },
-    "feedec1834374e1d": {
-      "parent": "feedcfc75465bd6c",
-      "name": "Light_Capsule_Celling_11",
-      "factory": "[modules:/zlightentity.class].pc_entitytype",
-      "blueprint": "[modules:/zlightentity.class].pc_entityblueprint",
-      "properties": {
-        "m_mTransform": {
-          "type": "SMatrix43",
-          "value": {
-            "rotation": { "x": 0, "y": 180, "z": 0 },
-            "position": { "x": 0.75, "y": 4, "z": 1 }
-          }
-        },
-        "m_eLightType": {
-          "type": "ILightEntity.ELightType",
-          "value": "LT_CAPSULE"
-        },
-        "m_diffuseColor": { "type": "SColorRGB", "value": "#ffe4b3" },
-        "m_fDiffusePower": { "type": "float32", "value": 500 },
-        "m_vBoxSize": {
-          "type": "SVector3",
-          "value": {
-            "x": 32.625999450683594,
-            "y": 35.870201110839844,
-            "z": 2.3263099193573
-          }
-        },
-        "m_vBoxFadePos": {
-          "type": "SVector3",
-          "value": { "x": 0, "y": 0, "z": 0 }
-        },
-        "m_vBoxFadeNeg": {
-          "type": "SVector3",
-          "value": { "x": 0, "y": 0, "z": 2.3263099193573 }
-        },
-        "m_vFarAttenuation": {
-          "type": "SVector2",
-          "value": { "x": 0.16527900099754333, "y": 1.2534799575805664 }
-        },
-        "m_vNearAttenuation": {
-          "type": "SVector2",
-          "value": { "x": 0.009999999776482582, "y": 0.019999999552965164 }
-        },
-        "m_fCapsuleHeight": { "type": "float32", "value": 7.193312168121338 },
-        "m_bCastShadows": { "type": "bool", "value": false },
-        "m_eidParent": {
-          "type": "SEntityTemplateReference",
-          "value": "feed41fa9eed6cf6",
-          "postInit": true
-        }
-      }
-    },
-    "feedbcf4ca04f340": {
-      "parent": "feedcfc75465bd6c",
-      "name": "Light_Capsule_Celling_04",
-      "factory": "[modules:/zlightentity.class].pc_entitytype",
-      "blueprint": "[modules:/zlightentity.class].pc_entityblueprint",
-      "properties": {
-        "m_mTransform": {
-          "type": "SMatrix43",
-          "value": {
-            "rotation": { "x": 0, "y": 180, "z": 0 },
-            "position": { "x": 0.75, "y": -1, "z": 1 }
-          }
-        },
-        "m_eLightType": {
-          "type": "ILightEntity.ELightType",
-          "value": "LT_CAPSULE"
-        },
-        "m_diffuseColor": { "type": "SColorRGB", "value": "#ffe4b3" },
-        "m_fDiffusePower": { "type": "float32", "value": 500 },
-        "m_vBoxSize": {
-          "type": "SVector3",
-          "value": {
-            "x": 32.625999450683594,
-            "y": 35.870201110839844,
-            "z": 2.3263099193573
-          }
-        },
-        "m_vBoxFadePos": {
-          "type": "SVector3",
-          "value": { "x": 0, "y": 0, "z": 0 }
-        },
-        "m_vBoxFadeNeg": {
-          "type": "SVector3",
-          "value": { "x": 0, "y": 0, "z": 2.3263099193573 }
-        },
-        "m_vFarAttenuation": {
-          "type": "SVector2",
-          "value": { "x": 0.16527900099754333, "y": 1.2534799575805664 }
-        },
-        "m_vNearAttenuation": {
-          "type": "SVector2",
-          "value": { "x": 0.009999999776482582, "y": 0.019999999552965164 }
-        },
-        "m_fCapsuleHeight": { "type": "float32", "value": 7.193312168121338 },
-        "m_bCastShadows": { "type": "bool", "value": false },
-        "m_eidParent": {
-          "type": "SEntityTemplateReference",
-          "value": "feed41fa9eed6cf6",
-          "postInit": true
-        }
-      }
-    },
-    "feede804b41e8447": {
-      "parent": "feedcfc75465bd6c",
-      "name": "Light_Capsule_Celling_05",
-      "factory": "[modules:/zlightentity.class].pc_entitytype",
-      "blueprint": "[modules:/zlightentity.class].pc_entityblueprint",
-      "properties": {
-        "m_mTransform": {
-          "type": "SMatrix43",
-          "value": {
-            "rotation": { "x": 0, "y": 180, "z": 0 },
-            "position": { "x": 0.75, "y": 0, "z": 1 }
-          }
-        },
-        "m_eLightType": {
-          "type": "ILightEntity.ELightType",
-          "value": "LT_CAPSULE"
-        },
-        "m_diffuseColor": { "type": "SColorRGB", "value": "#ffe4b3" },
-        "m_fDiffusePower": { "type": "float32", "value": 500 },
-        "m_vBoxSize": {
-          "type": "SVector3",
-          "value": {
-            "x": 32.625999450683594,
-            "y": 35.870201110839844,
-            "z": 2.3263099193573
-          }
-        },
-        "m_vBoxFadePos": {
-          "type": "SVector3",
-          "value": { "x": 0, "y": 0, "z": 0 }
-        },
-        "m_vBoxFadeNeg": {
-          "type": "SVector3",
-          "value": { "x": 0, "y": 0, "z": 2.3263099193573 }
-        },
-        "m_vFarAttenuation": {
-          "type": "SVector2",
-          "value": { "x": 0.16527900099754333, "y": 1.2534799575805664 }
-        },
-        "m_vNearAttenuation": {
-          "type": "SVector2",
-          "value": { "x": 0.009999999776482582, "y": 0.019999999552965164 }
-        },
-        "m_fCapsuleHeight": { "type": "float32", "value": 7.193312168121338 },
-        "m_bCastShadows": { "type": "bool", "value": false },
-        "m_eidParent": {
-          "type": "SEntityTemplateReference",
-          "value": "feed41fa9eed6cf6",
-          "postInit": true
-        }
-      }
-    },
-    "feed6976de55615b": {
-      "parent": "feedcfc75465bd6c",
-      "name": "Light_Capsule_Celling_01",
-      "factory": "[modules:/zlightentity.class].pc_entitytype",
-      "blueprint": "[modules:/zlightentity.class].pc_entityblueprint",
-      "properties": {
-        "m_mTransform": {
-          "type": "SMatrix43",
-          "value": {
-            "rotation": { "x": 0, "y": 180, "z": 0 },
-            "position": { "x": 0.75, "y": -4, "z": 1 }
-          }
-        },
-        "m_eLightType": {
-          "type": "ILightEntity.ELightType",
-          "value": "LT_CAPSULE"
-        },
-        "m_diffuseColor": { "type": "SColorRGB", "value": "#ffe4b3" },
-        "m_fDiffusePower": { "type": "float32", "value": 500 },
-        "m_vBoxSize": {
-          "type": "SVector3",
-          "value": {
-            "x": 32.625999450683594,
-            "y": 35.870201110839844,
-            "z": 2.3263099193573
-          }
-        },
-        "m_vBoxFadePos": {
-          "type": "SVector3",
-          "value": { "x": 0, "y": 0, "z": 0 }
-        },
-        "m_vBoxFadeNeg": {
-          "type": "SVector3",
-          "value": { "x": 0, "y": 0, "z": 2.3263099193573 }
-        },
-        "m_vFarAttenuation": {
-          "type": "SVector2",
-          "value": { "x": 0.16527900099754333, "y": 1.2534799575805664 }
-        },
-        "m_vNearAttenuation": {
-          "type": "SVector2",
-          "value": { "x": 0.009999999776482582, "y": 0.019999999552965164 }
-        },
-        "m_fCapsuleHeight": { "type": "float32", "value": 7.193312168121338 },
-        "m_bCastShadows": { "type": "bool", "value": false },
-        "m_eidParent": {
-          "type": "SEntityTemplateReference",
-          "value": "feed41fa9eed6cf6",
-          "postInit": true
-        }
-      }
-    },
-    "feedbc0724548d39": {
-      "parent": "feedcfc75465bd6c",
-      "name": "Light_Capsule_Celling_07",
-      "factory": "[modules:/zlightentity.class].pc_entitytype",
-      "blueprint": "[modules:/zlightentity.class].pc_entityblueprint",
-      "properties": {
-        "m_mTransform": {
-          "type": "SMatrix43",
-          "value": {
-            "rotation": { "x": 0, "y": 180, "z": 0 },
-            "position": { "x": 0.75, "y": 2, "z": 1 }
-          }
-        },
-        "m_eLightType": {
-          "type": "ILightEntity.ELightType",
-          "value": "LT_CAPSULE"
-        },
-        "m_diffuseColor": { "type": "SColorRGB", "value": "#ffe4b3" },
-        "m_fDiffusePower": { "type": "float32", "value": 500 },
-        "m_vBoxSize": {
-          "type": "SVector3",
-          "value": {
-            "x": 32.625999450683594,
-            "y": 35.870201110839844,
-            "z": 2.3263099193573
-          }
-        },
-        "m_vBoxFadePos": {
-          "type": "SVector3",
-          "value": { "x": 0, "y": 0, "z": 0 }
-        },
-        "m_vBoxFadeNeg": {
-          "type": "SVector3",
-          "value": { "x": 0, "y": 0, "z": 2.3263099193573 }
-        },
-        "m_vFarAttenuation": {
-          "type": "SVector2",
-          "value": { "x": 0.16527900099754333, "y": 1.2534799575805664 }
-        },
-        "m_vNearAttenuation": {
-          "type": "SVector2",
-          "value": { "x": 0.009999999776482582, "y": 0.019999999552965164 }
-        },
-        "m_fCapsuleHeight": { "type": "float32", "value": 7.193312168121338 },
-        "m_bCastShadows": { "type": "bool", "value": false },
-        "m_eidParent": {
-          "type": "SEntityTemplateReference",
-          "value": "feed41fa9eed6cf6",
-          "postInit": true
-        }
-      }
-    },
-    "feedcdc483ed2f2e": {
-      "parent": "feedcfc75465bd6c",
-      "name": "Light_Capsule_Celling_08",
-      "factory": "[modules:/zlightentity.class].pc_entitytype",
-      "blueprint": "[modules:/zlightentity.class].pc_entityblueprint",
-      "properties": {
-        "m_mTransform": {
-          "type": "SMatrix43",
-          "value": {
-            "rotation": { "x": 0, "y": 180, "z": 0 },
-            "position": { "x": 0.75, "y": -5, "z": 1 }
-          }
-        },
-        "m_eLightType": {
-          "type": "ILightEntity.ELightType",
-          "value": "LT_CAPSULE"
-        },
-        "m_diffuseColor": { "type": "SColorRGB", "value": "#ffe4b3" },
-        "m_fDiffusePower": { "type": "float32", "value": 500 },
-        "m_vBoxSize": {
-          "type": "SVector3",
-          "value": {
-            "x": 32.625999450683594,
-            "y": 35.870201110839844,
-            "z": 2.3263099193573
-          }
-        },
-        "m_vBoxFadePos": {
-          "type": "SVector3",
-          "value": { "x": 0, "y": 0, "z": 0 }
-        },
-        "m_vBoxFadeNeg": {
-          "type": "SVector3",
-          "value": { "x": 0, "y": 0, "z": 2.3263099193573 }
-        },
-        "m_vFarAttenuation": {
-          "type": "SVector2",
-          "value": { "x": 0.16527900099754333, "y": 1.2534799575805664 }
-        },
-        "m_vNearAttenuation": {
-          "type": "SVector2",
-          "value": { "x": 0.009999999776482582, "y": 0.019999999552965164 }
-        },
-        "m_fCapsuleHeight": { "type": "float32", "value": 7.193312168121338 },
-        "m_bCastShadows": { "type": "bool", "value": false },
-        "m_eidParent": {
-          "type": "SEntityTemplateReference",
-          "value": "feed41fa9eed6cf6",
-          "postInit": true
-        }
-      }
-    },
-    "feed3ef67b3e472a": {
-      "parent": "feedcfc75465bd6c",
-      "name": "Light_Capsule_Celling_09",
-      "factory": "[modules:/zlightentity.class].pc_entitytype",
-      "blueprint": "[modules:/zlightentity.class].pc_entityblueprint",
-      "properties": {
-        "m_mTransform": {
-          "type": "SMatrix43",
-          "value": {
-            "rotation": { "x": 0, "y": 180, "z": 0 },
-            "position": { "x": 0.75, "y": 3, "z": 1 }
-          }
-        },
-        "m_eLightType": {
-          "type": "ILightEntity.ELightType",
-          "value": "LT_CAPSULE"
-        },
-        "m_diffuseColor": { "type": "SColorRGB", "value": "#ffe4b3" },
-        "m_fDiffusePower": { "type": "float32", "value": 500 },
-        "m_vBoxSize": {
-          "type": "SVector3",
-          "value": {
-            "x": 32.625999450683594,
-            "y": 35.870201110839844,
-            "z": 2.3263099193573
-          }
-        },
-        "m_vBoxFadePos": {
-          "type": "SVector3",
-          "value": { "x": 0, "y": 0, "z": 0 }
-        },
-        "m_vBoxFadeNeg": {
-          "type": "SVector3",
-          "value": { "x": 0, "y": 0, "z": 2.3263099193573 }
-        },
-        "m_vFarAttenuation": {
-          "type": "SVector2",
-          "value": { "x": 0.16527900099754333, "y": 1.2534799575805664 }
-        },
-        "m_vNearAttenuation": {
-          "type": "SVector2",
-          "value": { "x": 0.009999999776482582, "y": 0.019999999552965164 }
-        },
-        "m_fCapsuleHeight": { "type": "float32", "value": 7.193312168121338 },
-        "m_bCastShadows": { "type": "bool", "value": false },
-        "m_eidParent": {
-          "type": "SEntityTemplateReference",
-          "value": "feed41fa9eed6cf6",
-          "postInit": true
-        }
-      }
-    },
-    "feed6c961a16df1f": {
-      "parent": "feed41fa9eed6cf6",
-      "name": "Light_Row_Center",
-      "factory": "[modules:/zentity.class].pc_entitytype",
-      "blueprint": "[modules:/zentity.class].pc_entityblueprint"
-    },
-    "feed5fc7f7f102e1": {
-      "parent": "feed6c961a16df1f",
-      "name": "Light_Capsule_Celling_10",
-      "factory": "[modules:/zlightentity.class].pc_entitytype",
-      "blueprint": "[modules:/zlightentity.class].pc_entityblueprint",
-      "properties": {
-        "m_mTransform": {
-          "type": "SMatrix43",
-          "value": {
-            "rotation": { "x": 0, "y": 180, "z": 0 },
-            "position": { "x": 0, "y": -6, "z": 1 }
-          }
-        },
-        "m_eLightType": {
-          "type": "ILightEntity.ELightType",
-          "value": "LT_CAPSULE"
-        },
-        "m_diffuseColor": { "type": "SColorRGB", "value": "#ffe4b3" },
-        "m_fDiffusePower": { "type": "float32", "value": 500 },
-        "m_vBoxSize": {
-          "type": "SVector3",
-          "value": {
-            "x": 32.625999450683594,
-            "y": 35.870201110839844,
-            "z": 2.3263099193573
-          }
-        },
-        "m_vBoxFadePos": {
-          "type": "SVector3",
-          "value": { "x": 0, "y": 0, "z": 0 }
-        },
-        "m_vBoxFadeNeg": {
-          "type": "SVector3",
-          "value": { "x": 0, "y": 0, "z": 2.3263099193573 }
-        },
-        "m_vFarAttenuation": {
-          "type": "SVector2",
-          "value": { "x": 0.16527900099754333, "y": 1.2534799575805664 }
-        },
-        "m_vNearAttenuation": {
-          "type": "SVector2",
-          "value": { "x": 0.009999999776482582, "y": 0.019999999552965164 }
-        },
-        "m_fCapsuleHeight": { "type": "float32", "value": 7.193312168121338 },
-        "m_bCastShadows": { "type": "bool", "value": false },
-        "m_eidParent": {
-          "type": "SEntityTemplateReference",
-          "value": "feed41fa9eed6cf6",
-          "postInit": true
-        }
-      }
-    },
-    "feed14aa96fbcb9c": {
-      "parent": "feed6c961a16df1f",
-      "name": "Light_Capsule_Celling_02",
-      "factory": "[modules:/zlightentity.class].pc_entitytype",
-      "blueprint": "[modules:/zlightentity.class].pc_entityblueprint",
-      "properties": {
-        "m_mTransform": {
-          "type": "SMatrix43",
-          "value": {
-            "rotation": { "x": 0, "y": 180, "z": 0 },
-            "position": { "x": 0, "y": -3, "z": 1 }
-          }
-        },
-        "m_eLightType": {
-          "type": "ILightEntity.ELightType",
-          "value": "LT_CAPSULE"
-        },
-        "m_diffuseColor": { "type": "SColorRGB", "value": "#ffe4b3" },
-        "m_fDiffusePower": { "type": "float32", "value": 500 },
-        "m_vBoxSize": {
-          "type": "SVector3",
-          "value": {
-            "x": 32.625999450683594,
-            "y": 35.870201110839844,
-            "z": 2.3263099193573
-          }
-        },
-        "m_vBoxFadePos": {
-          "type": "SVector3",
-          "value": { "x": 0, "y": 0, "z": 0 }
-        },
-        "m_vBoxFadeNeg": {
-          "type": "SVector3",
-          "value": { "x": 0, "y": 0, "z": 2.3263099193573 }
-        },
-        "m_vFarAttenuation": {
-          "type": "SVector2",
-          "value": { "x": 0.16527900099754333, "y": 1.2534799575805664 }
-        },
-        "m_vNearAttenuation": {
-          "type": "SVector2",
-          "value": { "x": 0.009999999776482582, "y": 0.019999999552965164 }
-        },
-        "m_fCapsuleHeight": { "type": "float32", "value": 7.193312168121338 },
-        "m_bCastShadows": { "type": "bool", "value": false },
-        "m_eidParent": {
-          "type": "SEntityTemplateReference",
-          "value": "feed41fa9eed6cf6",
-          "postInit": true
-        }
-      }
-    },
-    "feed9d1562174374": {
-      "parent": "feed6c961a16df1f",
-      "name": "Light_Capsule_Celling_06",
-      "factory": "[modules:/zlightentity.class].pc_entitytype",
-      "blueprint": "[modules:/zlightentity.class].pc_entityblueprint",
-      "properties": {
-        "m_mTransform": {
-          "type": "SMatrix43",
-          "value": {
-            "rotation": { "x": 0, "y": 180, "z": 0 },
-            "position": { "x": 0, "y": 1, "z": 1 }
-          }
-        },
-        "m_eLightType": {
-          "type": "ILightEntity.ELightType",
-          "value": "LT_CAPSULE"
-        },
-        "m_diffuseColor": { "type": "SColorRGB", "value": "#ffe4b3" },
-        "m_fDiffusePower": { "type": "float32", "value": 500 },
-        "m_vBoxSize": {
-          "type": "SVector3",
-          "value": {
-            "x": 32.625999450683594,
-            "y": 35.870201110839844,
-            "z": 2.3263099193573
-          }
-        },
-        "m_vBoxFadePos": {
-          "type": "SVector3",
-          "value": { "x": 0, "y": 0, "z": 0 }
-        },
-        "m_vBoxFadeNeg": {
-          "type": "SVector3",
-          "value": { "x": 0, "y": 0, "z": 2.3263099193573 }
-        },
-        "m_vFarAttenuation": {
-          "type": "SVector2",
-          "value": { "x": 0.16527900099754333, "y": 1.2534799575805664 }
-        },
-        "m_vNearAttenuation": {
-          "type": "SVector2",
-          "value": { "x": 0.009999999776482582, "y": 0.019999999552965164 }
-        },
-        "m_fCapsuleHeight": { "type": "float32", "value": 7.193312168121338 },
-        "m_bCastShadows": { "type": "bool", "value": false },
-        "m_eidParent": {
-          "type": "SEntityTemplateReference",
-          "value": "feed41fa9eed6cf6",
-          "postInit": true
-        }
-      }
-    },
-    "feed097cd9389cbf": {
-      "parent": "feed6c961a16df1f",
-      "name": "Light_Capsule_Celling_03",
-      "factory": "[modules:/zlightentity.class].pc_entitytype",
-      "blueprint": "[modules:/zlightentity.class].pc_entityblueprint",
-      "properties": {
-        "m_mTransform": {
-          "type": "SMatrix43",
-          "value": {
-            "rotation": { "x": 0, "y": 180, "z": 0 },
-            "position": { "x": 0, "y": -2, "z": 1 }
-          }
-        },
-        "m_eLightType": {
-          "type": "ILightEntity.ELightType",
-          "value": "LT_CAPSULE"
-        },
-        "m_diffuseColor": { "type": "SColorRGB", "value": "#ffe4b3" },
-        "m_fDiffusePower": { "type": "float32", "value": 500 },
-        "m_vBoxSize": {
-          "type": "SVector3",
-          "value": {
-            "x": 32.625999450683594,
-            "y": 35.870201110839844,
-            "z": 2.3263099193573
-          }
-        },
-        "m_vBoxFadePos": {
-          "type": "SVector3",
-          "value": { "x": 0, "y": 0, "z": 0 }
-        },
-        "m_vBoxFadeNeg": {
-          "type": "SVector3",
-          "value": { "x": 0, "y": 0, "z": 2.3263099193573 }
-        },
-        "m_vFarAttenuation": {
-          "type": "SVector2",
-          "value": { "x": 0.16527900099754333, "y": 1.2534799575805664 }
-        },
-        "m_vNearAttenuation": {
-          "type": "SVector2",
-          "value": { "x": 0.009999999776482582, "y": 0.019999999552965164 }
-        },
-        "m_fCapsuleHeight": { "type": "float32", "value": 7.193312168121338 },
-        "m_bCastShadows": { "type": "bool", "value": false },
-        "m_eidParent": {
-          "type": "SEntityTemplateReference",
-          "value": "feed41fa9eed6cf6",
-          "postInit": true
-        }
-      }
-    },
-    "feed3c2976586aa0": {
-      "parent": "feed6c961a16df1f",
-      "name": "Light_Capsule_Celling_11",
-      "factory": "[modules:/zlightentity.class].pc_entitytype",
-      "blueprint": "[modules:/zlightentity.class].pc_entityblueprint",
-      "properties": {
-        "m_mTransform": {
-          "type": "SMatrix43",
-          "value": {
-            "rotation": { "x": 0, "y": 180, "z": 0 },
-            "position": { "x": 0, "y": 4, "z": 1 }
-          }
-        },
-        "m_eLightType": {
-          "type": "ILightEntity.ELightType",
-          "value": "LT_CAPSULE"
-        },
-        "m_diffuseColor": { "type": "SColorRGB", "value": "#ffe4b3" },
-        "m_fDiffusePower": { "type": "float32", "value": 500 },
-        "m_vBoxSize": {
-          "type": "SVector3",
-          "value": {
-            "x": 32.625999450683594,
-            "y": 35.870201110839844,
-            "z": 2.3263099193573
-          }
-        },
-        "m_vBoxFadePos": {
-          "type": "SVector3",
-          "value": { "x": 0, "y": 0, "z": 0 }
-        },
-        "m_vBoxFadeNeg": {
-          "type": "SVector3",
-          "value": { "x": 0, "y": 0, "z": 2.3263099193573 }
-        },
-        "m_vFarAttenuation": {
-          "type": "SVector2",
-          "value": { "x": 0.16527900099754333, "y": 1.2534799575805664 }
-        },
-        "m_vNearAttenuation": {
-          "type": "SVector2",
-          "value": { "x": 0.009999999776482582, "y": 0.019999999552965164 }
-        },
-        "m_fCapsuleHeight": { "type": "float32", "value": 7.193312168121338 },
-        "m_bCastShadows": { "type": "bool", "value": false },
-        "m_eidParent": {
-          "type": "SEntityTemplateReference",
-          "value": "feed41fa9eed6cf6",
-          "postInit": true
-        }
-      }
-    },
-    "feed274079a7d606": {
-      "parent": "feed6c961a16df1f",
-      "name": "Light_Capsule_Celling_04",
-      "factory": "[modules:/zlightentity.class].pc_entitytype",
-      "blueprint": "[modules:/zlightentity.class].pc_entityblueprint",
-      "properties": {
-        "m_mTransform": {
-          "type": "SMatrix43",
-          "value": {
-            "rotation": { "x": 0, "y": 180, "z": 0 },
-            "position": { "x": 0, "y": -1, "z": 1 }
-          }
-        },
-        "m_eLightType": {
-          "type": "ILightEntity.ELightType",
-          "value": "LT_CAPSULE"
-        },
-        "m_diffuseColor": { "type": "SColorRGB", "value": "#ffe4b3" },
-        "m_fDiffusePower": { "type": "float32", "value": 500 },
-        "m_vBoxSize": {
-          "type": "SVector3",
-          "value": {
-            "x": 32.625999450683594,
-            "y": 35.870201110839844,
-            "z": 2.3263099193573
-          }
-        },
-        "m_vBoxFadePos": {
-          "type": "SVector3",
-          "value": { "x": 0, "y": 0, "z": 0 }
-        },
-        "m_vBoxFadeNeg": {
-          "type": "SVector3",
-          "value": { "x": 0, "y": 0, "z": 2.3263099193573 }
-        },
-        "m_vFarAttenuation": {
-          "type": "SVector2",
-          "value": { "x": 0.16527900099754333, "y": 1.2534799575805664 }
-        },
-        "m_vNearAttenuation": {
-          "type": "SVector2",
-          "value": { "x": 0.009999999776482582, "y": 0.019999999552965164 }
-        },
-        "m_fCapsuleHeight": { "type": "float32", "value": 7.193312168121338 },
-        "m_bCastShadows": { "type": "bool", "value": false },
-        "m_eidParent": {
-          "type": "SEntityTemplateReference",
-          "value": "feed41fa9eed6cf6",
-          "postInit": true
-        }
-      }
-    },
-    "feed07de4b86b5d5": {
-      "parent": "feed6c961a16df1f",
-      "name": "Light_Capsule_Celling_05",
-      "factory": "[modules:/zlightentity.class].pc_entitytype",
-      "blueprint": "[modules:/zlightentity.class].pc_entityblueprint",
-      "properties": {
-        "m_mTransform": {
-          "type": "SMatrix43",
-          "value": {
-            "rotation": { "x": 0, "y": 180, "z": 0 },
-            "position": { "x": 0, "y": 0, "z": 1 }
-          }
-        },
-        "m_eLightType": {
-          "type": "ILightEntity.ELightType",
-          "value": "LT_CAPSULE"
-        },
-        "m_diffuseColor": { "type": "SColorRGB", "value": "#ffe4b3" },
-        "m_fDiffusePower": { "type": "float32", "value": 500 },
-        "m_vBoxSize": {
-          "type": "SVector3",
-          "value": {
-            "x": 32.625999450683594,
-            "y": 35.870201110839844,
-            "z": 2.3263099193573
-          }
-        },
-        "m_vBoxFadePos": {
-          "type": "SVector3",
-          "value": { "x": 0, "y": 0, "z": 0 }
-        },
-        "m_vBoxFadeNeg": {
-          "type": "SVector3",
-          "value": { "x": 0, "y": 0, "z": 2.3263099193573 }
-        },
-        "m_vFarAttenuation": {
-          "type": "SVector2",
-          "value": { "x": 0.16527900099754333, "y": 1.2534799575805664 }
-        },
-        "m_vNearAttenuation": {
-          "type": "SVector2",
-          "value": { "x": 0.009999999776482582, "y": 0.019999999552965164 }
-        },
-        "m_fCapsuleHeight": { "type": "float32", "value": 7.193312168121338 },
-        "m_bCastShadows": { "type": "bool", "value": false },
-        "m_eidParent": {
-          "type": "SEntityTemplateReference",
-          "value": "feed41fa9eed6cf6",
-          "postInit": true
-        }
-      }
-    },
-    "feed1c91cc42e4d0": {
-      "parent": "feed6c961a16df1f",
-      "name": "Light_Capsule_Celling_01",
-      "factory": "[modules:/zlightentity.class].pc_entitytype",
-      "blueprint": "[modules:/zlightentity.class].pc_entityblueprint",
-      "properties": {
-        "m_mTransform": {
-          "type": "SMatrix43",
-          "value": {
-            "rotation": { "x": 0, "y": 180, "z": 0 },
-            "position": { "x": 0, "y": -4, "z": 1 }
-          }
-        },
-        "m_eLightType": {
-          "type": "ILightEntity.ELightType",
-          "value": "LT_CAPSULE"
-        },
-        "m_diffuseColor": { "type": "SColorRGB", "value": "#ffe4b3" },
-        "m_fDiffusePower": { "type": "float32", "value": 500 },
-        "m_vBoxSize": {
-          "type": "SVector3",
-          "value": {
-            "x": 32.625999450683594,
-            "y": 35.870201110839844,
-            "z": 2.3263099193573
-          }
-        },
-        "m_vBoxFadePos": {
-          "type": "SVector3",
-          "value": { "x": 0, "y": 0, "z": 0 }
-        },
-        "m_vBoxFadeNeg": {
-          "type": "SVector3",
-          "value": { "x": 0, "y": 0, "z": 2.3263099193573 }
-        },
-        "m_vFarAttenuation": {
-          "type": "SVector2",
-          "value": { "x": 0.16527900099754333, "y": 1.2534799575805664 }
-        },
-        "m_vNearAttenuation": {
-          "type": "SVector2",
-          "value": { "x": 0.009999999776482582, "y": 0.019999999552965164 }
-        },
-        "m_fCapsuleHeight": { "type": "float32", "value": 7.193312168121338 },
-        "m_bCastShadows": { "type": "bool", "value": false },
-        "m_eidParent": {
-          "type": "SEntityTemplateReference",
-          "value": "feed41fa9eed6cf6",
-          "postInit": true
-        }
-      }
-    },
-    "feed8f0d31222427": {
-      "parent": "feed6c961a16df1f",
-      "name": "Light_Capsule_Celling_07",
-      "factory": "[modules:/zlightentity.class].pc_entitytype",
-      "blueprint": "[modules:/zlightentity.class].pc_entityblueprint",
-      "properties": {
-        "m_mTransform": {
-          "type": "SMatrix43",
-          "value": {
-            "rotation": { "x": 0, "y": 180, "z": 0 },
-            "position": { "x": 0, "y": 2, "z": 1 }
-          }
-        },
-        "m_eLightType": {
-          "type": "ILightEntity.ELightType",
-          "value": "LT_CAPSULE"
-        },
-        "m_diffuseColor": { "type": "SColorRGB", "value": "#ffe4b3" },
-        "m_fDiffusePower": { "type": "float32", "value": 500 },
-        "m_vBoxSize": {
-          "type": "SVector3",
-          "value": {
-            "x": 32.625999450683594,
-            "y": 35.870201110839844,
-            "z": 2.3263099193573
-          }
-        },
-        "m_vBoxFadePos": {
-          "type": "SVector3",
-          "value": { "x": 0, "y": 0, "z": 0 }
-        },
-        "m_vBoxFadeNeg": {
-          "type": "SVector3",
-          "value": { "x": 0, "y": 0, "z": 2.3263099193573 }
-        },
-        "m_vFarAttenuation": {
-          "type": "SVector2",
-          "value": { "x": 0.16527900099754333, "y": 1.2534799575805664 }
-        },
-        "m_vNearAttenuation": {
-          "type": "SVector2",
-          "value": { "x": 0.009999999776482582, "y": 0.019999999552965164 }
-        },
-        "m_fCapsuleHeight": { "type": "float32", "value": 7.193312168121338 },
-        "m_bCastShadows": { "type": "bool", "value": false },
-        "m_eidParent": {
-          "type": "SEntityTemplateReference",
-          "value": "feed41fa9eed6cf6",
-          "postInit": true
-        }
-      }
-    },
-    "feed2efe74272ed0": {
-      "parent": "feed6c961a16df1f",
-      "name": "Light_Capsule_Celling_08",
-      "factory": "[modules:/zlightentity.class].pc_entitytype",
-      "blueprint": "[modules:/zlightentity.class].pc_entityblueprint",
-      "properties": {
-        "m_mTransform": {
-          "type": "SMatrix43",
-          "value": {
-            "rotation": { "x": 0, "y": 180, "z": 0 },
-            "position": { "x": 0, "y": -5, "z": 1 }
-          }
-        },
-        "m_eLightType": {
-          "type": "ILightEntity.ELightType",
-          "value": "LT_CAPSULE"
-        },
-        "m_diffuseColor": { "type": "SColorRGB", "value": "#ffe4b3" },
-        "m_fDiffusePower": { "type": "float32", "value": 500 },
-        "m_vBoxSize": {
-          "type": "SVector3",
-          "value": {
-            "x": 32.625999450683594,
-            "y": 35.870201110839844,
-            "z": 2.3263099193573
-          }
-        },
-        "m_vBoxFadePos": {
-          "type": "SVector3",
-          "value": { "x": 0, "y": 0, "z": 0 }
-        },
-        "m_vBoxFadeNeg": {
-          "type": "SVector3",
-          "value": { "x": 0, "y": 0, "z": 2.3263099193573 }
-        },
-        "m_vFarAttenuation": {
-          "type": "SVector2",
-          "value": { "x": 0.16527900099754333, "y": 1.2534799575805664 }
-        },
-        "m_vNearAttenuation": {
-          "type": "SVector2",
-          "value": { "x": 0.009999999776482582, "y": 0.019999999552965164 }
-        },
-        "m_fCapsuleHeight": { "type": "float32", "value": 7.193312168121338 },
-        "m_bCastShadows": { "type": "bool", "value": false },
-        "m_eidParent": {
-          "type": "SEntityTemplateReference",
-          "value": "feed41fa9eed6cf6",
-          "postInit": true
-        }
-      }
-    },
-    "feed8ebbf51dedba": {
-      "parent": "feed6c961a16df1f",
-      "name": "Light_Capsule_Celling_09",
-      "factory": "[modules:/zlightentity.class].pc_entitytype",
-      "blueprint": "[modules:/zlightentity.class].pc_entityblueprint",
-      "properties": {
-        "m_mTransform": {
-          "type": "SMatrix43",
-          "value": {
-            "rotation": { "x": 0, "y": 180, "z": 0 },
-            "position": { "x": 0, "y": 3, "z": 1 }
-          }
-        },
-        "m_eLightType": {
-          "type": "ILightEntity.ELightType",
-          "value": "LT_CAPSULE"
-        },
-        "m_diffuseColor": { "type": "SColorRGB", "value": "#ffe4b3" },
-        "m_fDiffusePower": { "type": "float32", "value": 500 },
-        "m_vBoxSize": {
-          "type": "SVector3",
-          "value": {
-            "x": 32.625999450683594,
-            "y": 35.870201110839844,
-            "z": 2.3263099193573
-          }
-        },
-        "m_vBoxFadePos": {
-          "type": "SVector3",
-          "value": { "x": 0, "y": 0, "z": 0 }
-        },
-        "m_vBoxFadeNeg": {
-          "type": "SVector3",
-          "value": { "x": 0, "y": 0, "z": 2.3263099193573 }
-        },
-        "m_vFarAttenuation": {
-          "type": "SVector2",
-          "value": { "x": 0.16527900099754333, "y": 1.2534799575805664 }
-        },
-        "m_vNearAttenuation": {
-          "type": "SVector2",
-          "value": { "x": 0.009999999776482582, "y": 0.019999999552965164 }
-        },
-        "m_fCapsuleHeight": { "type": "float32", "value": 7.193312168121338 },
-        "m_bCastShadows": { "type": "bool", "value": false },
-        "m_eidParent": {
-          "type": "SEntityTemplateReference",
-          "value": "feed41fa9eed6cf6",
-          "postInit": true
-        }
-      }
-    },
-    "feed2b2bb9fabe12": {
-      "parent": "feed41fa9eed6cf6",
-      "name": "airplane_a_door",
-      "factory": "[assembly:/sonsofprovidence/airplane/airplane_a_door.wl2?/airplane_a_door.prim].pc_entitytype",
-      "blueprint": "[assembly:/templates/geometrytemplatenocoll.template?/geomentity01.entitytemplate].pc_entityblueprint",
-      "properties": {
-        "m_mTransform": {
-          "type": "SMatrix43",
-          "value": {
-            "rotation": { "x": 0, "y": 0, "z": 0 },
-            "position": { "x": 0, "y": 0, "z": 0 }
-          }
-        },
-        "m_eidParent": {
-          "type": "SEntityTemplateReference",
-          "value": "feed41fa9eed6cf6",
-          "postInit": true
-        }
-      }
-    },
-    "feeda0b32864958c": {
-      "parent": "feed41fa9eed6cf6",
-      "name": "Luxury_Helicopter_A_Door",
-      "factory": "[assembly:/templates/aspectdummy.aspect]([modules:/zlinkedentity.class].entitytype,[assembly:/templates/_viewers/animplayeraspect.template?/anim player aspect.entitytemplate].entitytype,[modules:/zworldmapmarkerentity.class].entitytype).pc_entitytype",
-      "blueprint": "[assembly:/templates/aspectdummy.aspect]([modules:/zlinkedentity.class].entitytype,[assembly:/templates/_viewers/animplayeraspect.template?/anim player aspect.entitytemplate].entitytype,[modules:/zworldmapmarkerentity.class].entitytype).pc_entityblueprint",
-      "properties": {
-        "m_ResourceID": {
-          "type": "ZRuntimeResourceID",
-          "value": { "resource": "0045F3F549247701", "flag": "5F" }
-        },
-        "m_mTransform": {
-          "type": "SMatrix43",
-          "value": {
-            "rotation": { "x": 0, "y": 0, "z": 0 },
-            "position": { "x": 20, "y": 0, "z": 0 }
-          }
-        },
-        "m_bEnabled": { "type": "bool", "value": true },
-        "m_bVisibleInBoxReflection": { "type": "bool", "value": false },
-        "m_bVisible": { "type": "bool", "value": true },
-        "m_eRoomBehaviour": {
-          "type": "ZSpatialEntity.ERoomBehaviour",
-          "value": "ROOM_STATIC"
-        },
-        "DefaultLightsOff": { "type": "bool", "value": true }
-      }
-    },
-    "feedd8c79f0215b8": {
-      "parent": "feed41fa9eed6cf6",
-      "name": "airplane_a",
-      "factory": "[assembly:/sonsofprovidence/airplane/airplane_a.wl2?/airplane_a.prim].pc_entitytype",
-      "blueprint": "[assembly:/templates/geometrytemplatenocoll.template?/geomentity01.entitytemplate].pc_entityblueprint",
-      "properties": {
-        "m_mTransform": {
-          "type": "SMatrix43",
-          "value": {
-            "rotation": { "x": 0, "y": 0, "z": 0 },
-            "position": { "x": 0, "y": 0, "z": 0 }
-          }
-        },
-        "m_eidParent": {
-          "type": "SEntityTemplateReference",
-          "value": "feed41fa9eed6cf6",
-          "postInit": true
-        }
-      }
-    }
-  },
-  "propertyOverrides": [],
-  "overrideDeletes": [],
-  "pinConnectionOverrides": [],
-  "pinConnectionOverrideDeletes": [],
-  "externalScenes": [],
-  "subType": "template",
-  "quickEntityVersion": 3.1,
-  "extraFactoryDependencies": [],
-  "extraBlueprintDependencies": [],
-  "comments": []
+	"tempHash": "000F83981CA13201",
+	"tbluHash": "0044DFB2593628D0",
+	"rootEntity": "feed41fa9eed6cf6",
+	"entities": {
+		"feed41fa9eed6cf6": {
+			"parent": null,
+			"name": "airplane_a",
+			"factory": "[modules:/zspatialentity.class].pc_entitytype",
+			"blueprint": "[modules:/zspatialentity.class].pc_entityblueprint"
+		},
+		"feedcd3a5639a408": {
+			"parent": "feed97ef1041db1f",
+			"name": "Light_Capsule_Celling_10",
+			"factory": "[modules:/zlightentity.class].pc_entitytype",
+			"blueprint": "[modules:/zlightentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 180, "z": 0 },
+						"position": { "x": -0.75, "y": -6, "z": 1 }
+					}
+				},
+				"m_eLightType": {
+					"type": "ILightEntity.ELightType",
+					"value": "LT_CAPSULE"
+				},
+				"m_diffuseColor": { "type": "SColorRGB", "value": "#ffe4b3" },
+				"m_fDiffusePower": { "type": "float32", "value": 500 },
+				"m_vBoxSize": {
+					"type": "SVector3",
+					"value": {
+						"x": 32.625999450683594,
+						"y": 35.870201110839844,
+						"z": 2.3263099193573
+					}
+				},
+				"m_vBoxFadePos": {
+					"type": "SVector3",
+					"value": { "x": 0, "y": 0, "z": 0 }
+				},
+				"m_vBoxFadeNeg": {
+					"type": "SVector3",
+					"value": { "x": 0, "y": 0, "z": 2.3263099193573 }
+				},
+				"m_vFarAttenuation": {
+					"type": "SVector2",
+					"value": { "x": 0.16527900099754333, "y": 1.2534799575805664 }
+				},
+				"m_vNearAttenuation": {
+					"type": "SVector2",
+					"value": { "x": 0.009999999776482582, "y": 0.019999999552965164 }
+				},
+				"m_fCapsuleHeight": { "type": "float32", "value": 7.193312168121338 },
+				"m_bCastShadows": { "type": "bool", "value": false },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feed41fa9eed6cf6",
+					"postInit": true
+				}
+			}
+		},
+		"feed34ee48cb8908": {
+			"parent": "feed97ef1041db1f",
+			"name": "Light_Capsule_Celling_02",
+			"factory": "[modules:/zlightentity.class].pc_entitytype",
+			"blueprint": "[modules:/zlightentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 180, "z": 0 },
+						"position": { "x": -0.75, "y": -3, "z": 1 }
+					}
+				},
+				"m_eLightType": {
+					"type": "ILightEntity.ELightType",
+					"value": "LT_CAPSULE"
+				},
+				"m_diffuseColor": { "type": "SColorRGB", "value": "#ffe4b3" },
+				"m_fDiffusePower": { "type": "float32", "value": 500 },
+				"m_vBoxSize": {
+					"type": "SVector3",
+					"value": {
+						"x": 32.625999450683594,
+						"y": 35.870201110839844,
+						"z": 2.3263099193573
+					}
+				},
+				"m_vBoxFadePos": {
+					"type": "SVector3",
+					"value": { "x": 0, "y": 0, "z": 0 }
+				},
+				"m_vBoxFadeNeg": {
+					"type": "SVector3",
+					"value": { "x": 0, "y": 0, "z": 2.3263099193573 }
+				},
+				"m_vFarAttenuation": {
+					"type": "SVector2",
+					"value": { "x": 0.16527900099754333, "y": 1.2534799575805664 }
+				},
+				"m_vNearAttenuation": {
+					"type": "SVector2",
+					"value": { "x": 0.009999999776482582, "y": 0.019999999552965164 }
+				},
+				"m_fCapsuleHeight": { "type": "float32", "value": 7.193312168121338 },
+				"m_bCastShadows": { "type": "bool", "value": false },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feed41fa9eed6cf6",
+					"postInit": true
+				}
+			}
+		},
+		"feed4232705727a3": {
+			"parent": "feed97ef1041db1f",
+			"name": "Light_Capsule_Celling_06",
+			"factory": "[modules:/zlightentity.class].pc_entitytype",
+			"blueprint": "[modules:/zlightentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 180, "z": 0 },
+						"position": { "x": -0.75, "y": 1, "z": 1 }
+					}
+				},
+				"m_eLightType": {
+					"type": "ILightEntity.ELightType",
+					"value": "LT_CAPSULE"
+				},
+				"m_diffuseColor": { "type": "SColorRGB", "value": "#ffe4b3" },
+				"m_fDiffusePower": { "type": "float32", "value": 500 },
+				"m_vBoxSize": {
+					"type": "SVector3",
+					"value": {
+						"x": 32.625999450683594,
+						"y": 35.870201110839844,
+						"z": 2.3263099193573
+					}
+				},
+				"m_vBoxFadePos": {
+					"type": "SVector3",
+					"value": { "x": 0, "y": 0, "z": 0 }
+				},
+				"m_vBoxFadeNeg": {
+					"type": "SVector3",
+					"value": { "x": 0, "y": 0, "z": 2.3263099193573 }
+				},
+				"m_vFarAttenuation": {
+					"type": "SVector2",
+					"value": { "x": 0.16527900099754333, "y": 1.2534799575805664 }
+				},
+				"m_vNearAttenuation": {
+					"type": "SVector2",
+					"value": { "x": 0.009999999776482582, "y": 0.019999999552965164 }
+				},
+				"m_fCapsuleHeight": { "type": "float32", "value": 7.193312168121338 },
+				"m_bCastShadows": { "type": "bool", "value": false },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feed41fa9eed6cf6",
+					"postInit": true
+				}
+			}
+		},
+		"feed11b1049b9f3d": {
+			"parent": "feed97ef1041db1f",
+			"name": "Light_Capsule_Celling_03",
+			"factory": "[modules:/zlightentity.class].pc_entitytype",
+			"blueprint": "[modules:/zlightentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 180, "z": 0 },
+						"position": { "x": -0.75, "y": -2, "z": 1 }
+					}
+				},
+				"m_eLightType": {
+					"type": "ILightEntity.ELightType",
+					"value": "LT_CAPSULE"
+				},
+				"m_diffuseColor": { "type": "SColorRGB", "value": "#ffe4b3" },
+				"m_fDiffusePower": { "type": "float32", "value": 500 },
+				"m_vBoxSize": {
+					"type": "SVector3",
+					"value": {
+						"x": 32.625999450683594,
+						"y": 35.870201110839844,
+						"z": 2.3263099193573
+					}
+				},
+				"m_vBoxFadePos": {
+					"type": "SVector3",
+					"value": { "x": 0, "y": 0, "z": 0 }
+				},
+				"m_vBoxFadeNeg": {
+					"type": "SVector3",
+					"value": { "x": 0, "y": 0, "z": 2.3263099193573 }
+				},
+				"m_vFarAttenuation": {
+					"type": "SVector2",
+					"value": { "x": 0.16527900099754333, "y": 1.2534799575805664 }
+				},
+				"m_vNearAttenuation": {
+					"type": "SVector2",
+					"value": { "x": 0.009999999776482582, "y": 0.019999999552965164 }
+				},
+				"m_fCapsuleHeight": { "type": "float32", "value": 7.193312168121338 },
+				"m_bCastShadows": { "type": "bool", "value": false },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feed41fa9eed6cf6",
+					"postInit": true
+				}
+			}
+		},
+		"feedf030b82472fe": {
+			"parent": "feed97ef1041db1f",
+			"name": "Light_Capsule_Celling_11",
+			"factory": "[modules:/zlightentity.class].pc_entitytype",
+			"blueprint": "[modules:/zlightentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 180, "z": 0 },
+						"position": { "x": -0.75, "y": 4, "z": 1 }
+					}
+				},
+				"m_eLightType": {
+					"type": "ILightEntity.ELightType",
+					"value": "LT_CAPSULE"
+				},
+				"m_diffuseColor": { "type": "SColorRGB", "value": "#ffe4b3" },
+				"m_fDiffusePower": { "type": "float32", "value": 500 },
+				"m_vBoxSize": {
+					"type": "SVector3",
+					"value": {
+						"x": 32.625999450683594,
+						"y": 35.870201110839844,
+						"z": 2.3263099193573
+					}
+				},
+				"m_vBoxFadePos": {
+					"type": "SVector3",
+					"value": { "x": 0, "y": 0, "z": 0 }
+				},
+				"m_vBoxFadeNeg": {
+					"type": "SVector3",
+					"value": { "x": 0, "y": 0, "z": 2.3263099193573 }
+				},
+				"m_vFarAttenuation": {
+					"type": "SVector2",
+					"value": { "x": 0.16527900099754333, "y": 1.2534799575805664 }
+				},
+				"m_vNearAttenuation": {
+					"type": "SVector2",
+					"value": { "x": 0.009999999776482582, "y": 0.019999999552965164 }
+				},
+				"m_fCapsuleHeight": { "type": "float32", "value": 7.193312168121338 },
+				"m_bCastShadows": { "type": "bool", "value": false },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feed41fa9eed6cf6",
+					"postInit": true
+				}
+			}
+		},
+		"feed7ac4afce0b16": {
+			"parent": "feed97ef1041db1f",
+			"name": "Light_Capsule_Celling_04",
+			"factory": "[modules:/zlightentity.class].pc_entitytype",
+			"blueprint": "[modules:/zlightentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 180, "z": 0 },
+						"position": { "x": -0.75, "y": -1, "z": 1 }
+					}
+				},
+				"m_eLightType": {
+					"type": "ILightEntity.ELightType",
+					"value": "LT_CAPSULE"
+				},
+				"m_diffuseColor": { "type": "SColorRGB", "value": "#ffe4b3" },
+				"m_fDiffusePower": { "type": "float32", "value": 500 },
+				"m_vBoxSize": {
+					"type": "SVector3",
+					"value": {
+						"x": 32.625999450683594,
+						"y": 35.870201110839844,
+						"z": 2.3263099193573
+					}
+				},
+				"m_vBoxFadePos": {
+					"type": "SVector3",
+					"value": { "x": 0, "y": 0, "z": 0 }
+				},
+				"m_vBoxFadeNeg": {
+					"type": "SVector3",
+					"value": { "x": 0, "y": 0, "z": 2.3263099193573 }
+				},
+				"m_vFarAttenuation": {
+					"type": "SVector2",
+					"value": { "x": 0.16527900099754333, "y": 1.2534799575805664 }
+				},
+				"m_vNearAttenuation": {
+					"type": "SVector2",
+					"value": { "x": 0.009999999776482582, "y": 0.019999999552965164 }
+				},
+				"m_fCapsuleHeight": { "type": "float32", "value": 7.193312168121338 },
+				"m_bCastShadows": { "type": "bool", "value": false },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feed41fa9eed6cf6",
+					"postInit": true
+				}
+			}
+		},
+		"feed226d789b6cfe": {
+			"parent": "feed97ef1041db1f",
+			"name": "Light_Capsule_Celling_05",
+			"factory": "[modules:/zlightentity.class].pc_entitytype",
+			"blueprint": "[modules:/zlightentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 180, "z": 0 },
+						"position": { "x": -0.75, "y": 0, "z": 1 }
+					}
+				},
+				"m_eLightType": {
+					"type": "ILightEntity.ELightType",
+					"value": "LT_CAPSULE"
+				},
+				"m_diffuseColor": { "type": "SColorRGB", "value": "#ffe4b3" },
+				"m_fDiffusePower": { "type": "float32", "value": 500 },
+				"m_vBoxSize": {
+					"type": "SVector3",
+					"value": {
+						"x": 32.625999450683594,
+						"y": 35.870201110839844,
+						"z": 2.3263099193573
+					}
+				},
+				"m_vBoxFadePos": {
+					"type": "SVector3",
+					"value": { "x": 0, "y": 0, "z": 0 }
+				},
+				"m_vBoxFadeNeg": {
+					"type": "SVector3",
+					"value": { "x": 0, "y": 0, "z": 2.3263099193573 }
+				},
+				"m_vFarAttenuation": {
+					"type": "SVector2",
+					"value": { "x": 0.16527900099754333, "y": 1.2534799575805664 }
+				},
+				"m_vNearAttenuation": {
+					"type": "SVector2",
+					"value": { "x": 0.009999999776482582, "y": 0.019999999552965164 }
+				},
+				"m_fCapsuleHeight": { "type": "float32", "value": 7.193312168121338 },
+				"m_bCastShadows": { "type": "bool", "value": false },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feed41fa9eed6cf6",
+					"postInit": true
+				}
+			}
+		},
+		"feede8241ed3137d": {
+			"parent": "feed97ef1041db1f",
+			"name": "Light_Capsule_Celling_01",
+			"factory": "[modules:/zlightentity.class].pc_entitytype",
+			"blueprint": "[modules:/zlightentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 180, "z": 0 },
+						"position": { "x": -0.75, "y": -4, "z": 1 }
+					}
+				},
+				"m_eLightType": {
+					"type": "ILightEntity.ELightType",
+					"value": "LT_CAPSULE"
+				},
+				"m_diffuseColor": { "type": "SColorRGB", "value": "#ffe4b3" },
+				"m_fDiffusePower": { "type": "float32", "value": 500 },
+				"m_vBoxSize": {
+					"type": "SVector3",
+					"value": {
+						"x": 32.625999450683594,
+						"y": 35.870201110839844,
+						"z": 2.3263099193573
+					}
+				},
+				"m_vBoxFadePos": {
+					"type": "SVector3",
+					"value": { "x": 0, "y": 0, "z": 0 }
+				},
+				"m_vBoxFadeNeg": {
+					"type": "SVector3",
+					"value": { "x": 0, "y": 0, "z": 2.3263099193573 }
+				},
+				"m_vFarAttenuation": {
+					"type": "SVector2",
+					"value": { "x": 0.16527900099754333, "y": 1.2534799575805664 }
+				},
+				"m_vNearAttenuation": {
+					"type": "SVector2",
+					"value": { "x": 0.009999999776482582, "y": 0.019999999552965164 }
+				},
+				"m_fCapsuleHeight": { "type": "float32", "value": 7.193312168121338 },
+				"m_bCastShadows": { "type": "bool", "value": false },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feed41fa9eed6cf6",
+					"postInit": true
+				}
+			}
+		},
+		"feedab73462feba1": {
+			"parent": "feed97ef1041db1f",
+			"name": "Light_Capsule_Celling_07",
+			"factory": "[modules:/zlightentity.class].pc_entitytype",
+			"blueprint": "[modules:/zlightentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 180, "z": 0 },
+						"position": { "x": -0.75, "y": 2, "z": 1 }
+					}
+				},
+				"m_eLightType": {
+					"type": "ILightEntity.ELightType",
+					"value": "LT_CAPSULE"
+				},
+				"m_diffuseColor": { "type": "SColorRGB", "value": "#ffe4b3" },
+				"m_fDiffusePower": { "type": "float32", "value": 500 },
+				"m_vBoxSize": {
+					"type": "SVector3",
+					"value": {
+						"x": 32.625999450683594,
+						"y": 35.870201110839844,
+						"z": 2.3263099193573
+					}
+				},
+				"m_vBoxFadePos": {
+					"type": "SVector3",
+					"value": { "x": 0, "y": 0, "z": 0 }
+				},
+				"m_vBoxFadeNeg": {
+					"type": "SVector3",
+					"value": { "x": 0, "y": 0, "z": 2.3263099193573 }
+				},
+				"m_vFarAttenuation": {
+					"type": "SVector2",
+					"value": { "x": 0.16527900099754333, "y": 1.2534799575805664 }
+				},
+				"m_vNearAttenuation": {
+					"type": "SVector2",
+					"value": { "x": 0.009999999776482582, "y": 0.019999999552965164 }
+				},
+				"m_fCapsuleHeight": { "type": "float32", "value": 7.193312168121338 },
+				"m_bCastShadows": { "type": "bool", "value": false },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feed41fa9eed6cf6",
+					"postInit": true
+				}
+			}
+		},
+		"feed97ef1041db1f": {
+			"parent": "feed41fa9eed6cf6",
+			"name": "Light_Row_Side_1",
+			"factory": "[modules:/zentity.class].pc_entitytype",
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
+		},
+		"feed974b2c5c8f9c": {
+			"parent": "feed97ef1041db1f",
+			"name": "Light_Capsule_Celling_08",
+			"factory": "[modules:/zlightentity.class].pc_entitytype",
+			"blueprint": "[modules:/zlightentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 180, "z": 0 },
+						"position": { "x": -0.75, "y": -5, "z": 1 }
+					}
+				},
+				"m_eLightType": {
+					"type": "ILightEntity.ELightType",
+					"value": "LT_CAPSULE"
+				},
+				"m_diffuseColor": { "type": "SColorRGB", "value": "#ffe4b3" },
+				"m_fDiffusePower": { "type": "float32", "value": 500 },
+				"m_vBoxSize": {
+					"type": "SVector3",
+					"value": {
+						"x": 32.625999450683594,
+						"y": 35.870201110839844,
+						"z": 2.3263099193573
+					}
+				},
+				"m_vBoxFadePos": {
+					"type": "SVector3",
+					"value": { "x": 0, "y": 0, "z": 0 }
+				},
+				"m_vBoxFadeNeg": {
+					"type": "SVector3",
+					"value": { "x": 0, "y": 0, "z": 2.3263099193573 }
+				},
+				"m_vFarAttenuation": {
+					"type": "SVector2",
+					"value": { "x": 0.16527900099754333, "y": 1.2534799575805664 }
+				},
+				"m_vNearAttenuation": {
+					"type": "SVector2",
+					"value": { "x": 0.009999999776482582, "y": 0.019999999552965164 }
+				},
+				"m_fCapsuleHeight": { "type": "float32", "value": 7.193312168121338 },
+				"m_bCastShadows": { "type": "bool", "value": false },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feed41fa9eed6cf6",
+					"postInit": true
+				}
+			}
+		},
+		"feed68caad22d64d": {
+			"parent": "feed97ef1041db1f",
+			"name": "Light_Capsule_Celling_09",
+			"factory": "[modules:/zlightentity.class].pc_entitytype",
+			"blueprint": "[modules:/zlightentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 180, "z": 0 },
+						"position": { "x": -0.75, "y": 3, "z": 1 }
+					}
+				},
+				"m_eLightType": {
+					"type": "ILightEntity.ELightType",
+					"value": "LT_CAPSULE"
+				},
+				"m_diffuseColor": { "type": "SColorRGB", "value": "#ffe4b3" },
+				"m_fDiffusePower": { "type": "float32", "value": 500 },
+				"m_vBoxSize": {
+					"type": "SVector3",
+					"value": {
+						"x": 32.625999450683594,
+						"y": 35.870201110839844,
+						"z": 2.3263099193573
+					}
+				},
+				"m_vBoxFadePos": {
+					"type": "SVector3",
+					"value": { "x": 0, "y": 0, "z": 0 }
+				},
+				"m_vBoxFadeNeg": {
+					"type": "SVector3",
+					"value": { "x": 0, "y": 0, "z": 2.3263099193573 }
+				},
+				"m_vFarAttenuation": {
+					"type": "SVector2",
+					"value": { "x": 0.16527900099754333, "y": 1.2534799575805664 }
+				},
+				"m_vNearAttenuation": {
+					"type": "SVector2",
+					"value": { "x": 0.009999999776482582, "y": 0.019999999552965164 }
+				},
+				"m_fCapsuleHeight": { "type": "float32", "value": 7.193312168121338 },
+				"m_bCastShadows": { "type": "bool", "value": false },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feed41fa9eed6cf6",
+					"postInit": true
+				}
+			}
+		},
+		"feedcfc75465bd6c": {
+			"parent": "feed41fa9eed6cf6",
+			"name": "Light_Row_Side_2",
+			"factory": "[modules:/zentity.class].pc_entitytype",
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
+		},
+		"feedf8bd80b60960": {
+			"parent": "feedcfc75465bd6c",
+			"name": "Light_Capsule_Celling_10",
+			"factory": "[modules:/zlightentity.class].pc_entitytype",
+			"blueprint": "[modules:/zlightentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 180, "z": 0 },
+						"position": { "x": 0.75, "y": -6, "z": 1 }
+					}
+				},
+				"m_eLightType": {
+					"type": "ILightEntity.ELightType",
+					"value": "LT_CAPSULE"
+				},
+				"m_diffuseColor": { "type": "SColorRGB", "value": "#ffe4b3" },
+				"m_fDiffusePower": { "type": "float32", "value": 500 },
+				"m_vBoxSize": {
+					"type": "SVector3",
+					"value": {
+						"x": 32.625999450683594,
+						"y": 35.870201110839844,
+						"z": 2.3263099193573
+					}
+				},
+				"m_vBoxFadePos": {
+					"type": "SVector3",
+					"value": { "x": 0, "y": 0, "z": 0 }
+				},
+				"m_vBoxFadeNeg": {
+					"type": "SVector3",
+					"value": { "x": 0, "y": 0, "z": 2.3263099193573 }
+				},
+				"m_vFarAttenuation": {
+					"type": "SVector2",
+					"value": { "x": 0.16527900099754333, "y": 1.2534799575805664 }
+				},
+				"m_vNearAttenuation": {
+					"type": "SVector2",
+					"value": { "x": 0.009999999776482582, "y": 0.019999999552965164 }
+				},
+				"m_fCapsuleHeight": { "type": "float32", "value": 7.193312168121338 },
+				"m_bCastShadows": { "type": "bool", "value": false },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feed41fa9eed6cf6",
+					"postInit": true
+				}
+			}
+		},
+		"feed5b3047ce3c16": {
+			"parent": "feedcfc75465bd6c",
+			"name": "Light_Capsule_Celling_02",
+			"factory": "[modules:/zlightentity.class].pc_entitytype",
+			"blueprint": "[modules:/zlightentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 180, "z": 0 },
+						"position": { "x": 0.75, "y": -3, "z": 1 }
+					}
+				},
+				"m_eLightType": {
+					"type": "ILightEntity.ELightType",
+					"value": "LT_CAPSULE"
+				},
+				"m_diffuseColor": { "type": "SColorRGB", "value": "#ffe4b3" },
+				"m_fDiffusePower": { "type": "float32", "value": 500 },
+				"m_vBoxSize": {
+					"type": "SVector3",
+					"value": {
+						"x": 32.625999450683594,
+						"y": 35.870201110839844,
+						"z": 2.3263099193573
+					}
+				},
+				"m_vBoxFadePos": {
+					"type": "SVector3",
+					"value": { "x": 0, "y": 0, "z": 0 }
+				},
+				"m_vBoxFadeNeg": {
+					"type": "SVector3",
+					"value": { "x": 0, "y": 0, "z": 2.3263099193573 }
+				},
+				"m_vFarAttenuation": {
+					"type": "SVector2",
+					"value": { "x": 0.16527900099754333, "y": 1.2534799575805664 }
+				},
+				"m_vNearAttenuation": {
+					"type": "SVector2",
+					"value": { "x": 0.009999999776482582, "y": 0.019999999552965164 }
+				},
+				"m_fCapsuleHeight": { "type": "float32", "value": 7.193312168121338 },
+				"m_bCastShadows": { "type": "bool", "value": false },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feed41fa9eed6cf6",
+					"postInit": true
+				}
+			}
+		},
+		"feed664f129a2eaa": {
+			"parent": "feedcfc75465bd6c",
+			"name": "Light_Capsule_Celling_06",
+			"factory": "[modules:/zlightentity.class].pc_entitytype",
+			"blueprint": "[modules:/zlightentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 180, "z": 0 },
+						"position": { "x": 0.75, "y": 1, "z": 1 }
+					}
+				},
+				"m_eLightType": {
+					"type": "ILightEntity.ELightType",
+					"value": "LT_CAPSULE"
+				},
+				"m_diffuseColor": { "type": "SColorRGB", "value": "#ffe4b3" },
+				"m_fDiffusePower": { "type": "float32", "value": 500 },
+				"m_vBoxSize": {
+					"type": "SVector3",
+					"value": {
+						"x": 32.625999450683594,
+						"y": 35.870201110839844,
+						"z": 2.3263099193573
+					}
+				},
+				"m_vBoxFadePos": {
+					"type": "SVector3",
+					"value": { "x": 0, "y": 0, "z": 0 }
+				},
+				"m_vBoxFadeNeg": {
+					"type": "SVector3",
+					"value": { "x": 0, "y": 0, "z": 2.3263099193573 }
+				},
+				"m_vFarAttenuation": {
+					"type": "SVector2",
+					"value": { "x": 0.16527900099754333, "y": 1.2534799575805664 }
+				},
+				"m_vNearAttenuation": {
+					"type": "SVector2",
+					"value": { "x": 0.009999999776482582, "y": 0.019999999552965164 }
+				},
+				"m_fCapsuleHeight": { "type": "float32", "value": 7.193312168121338 },
+				"m_bCastShadows": { "type": "bool", "value": false },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feed41fa9eed6cf6",
+					"postInit": true
+				}
+			}
+		},
+		"feedbd8b379f9744": {
+			"parent": "feedcfc75465bd6c",
+			"name": "Light_Capsule_Celling_03",
+			"factory": "[modules:/zlightentity.class].pc_entitytype",
+			"blueprint": "[modules:/zlightentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 180, "z": 0 },
+						"position": { "x": 0.75, "y": -2, "z": 1 }
+					}
+				},
+				"m_eLightType": {
+					"type": "ILightEntity.ELightType",
+					"value": "LT_CAPSULE"
+				},
+				"m_diffuseColor": { "type": "SColorRGB", "value": "#ffe4b3" },
+				"m_fDiffusePower": { "type": "float32", "value": 500 },
+				"m_vBoxSize": {
+					"type": "SVector3",
+					"value": {
+						"x": 32.625999450683594,
+						"y": 35.870201110839844,
+						"z": 2.3263099193573
+					}
+				},
+				"m_vBoxFadePos": {
+					"type": "SVector3",
+					"value": { "x": 0, "y": 0, "z": 0 }
+				},
+				"m_vBoxFadeNeg": {
+					"type": "SVector3",
+					"value": { "x": 0, "y": 0, "z": 2.3263099193573 }
+				},
+				"m_vFarAttenuation": {
+					"type": "SVector2",
+					"value": { "x": 0.16527900099754333, "y": 1.2534799575805664 }
+				},
+				"m_vNearAttenuation": {
+					"type": "SVector2",
+					"value": { "x": 0.009999999776482582, "y": 0.019999999552965164 }
+				},
+				"m_fCapsuleHeight": { "type": "float32", "value": 7.193312168121338 },
+				"m_bCastShadows": { "type": "bool", "value": false },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feed41fa9eed6cf6",
+					"postInit": true
+				}
+			}
+		},
+		"feedec1834374e1d": {
+			"parent": "feedcfc75465bd6c",
+			"name": "Light_Capsule_Celling_11",
+			"factory": "[modules:/zlightentity.class].pc_entitytype",
+			"blueprint": "[modules:/zlightentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 180, "z": 0 },
+						"position": { "x": 0.75, "y": 4, "z": 1 }
+					}
+				},
+				"m_eLightType": {
+					"type": "ILightEntity.ELightType",
+					"value": "LT_CAPSULE"
+				},
+				"m_diffuseColor": { "type": "SColorRGB", "value": "#ffe4b3" },
+				"m_fDiffusePower": { "type": "float32", "value": 500 },
+				"m_vBoxSize": {
+					"type": "SVector3",
+					"value": {
+						"x": 32.625999450683594,
+						"y": 35.870201110839844,
+						"z": 2.3263099193573
+					}
+				},
+				"m_vBoxFadePos": {
+					"type": "SVector3",
+					"value": { "x": 0, "y": 0, "z": 0 }
+				},
+				"m_vBoxFadeNeg": {
+					"type": "SVector3",
+					"value": { "x": 0, "y": 0, "z": 2.3263099193573 }
+				},
+				"m_vFarAttenuation": {
+					"type": "SVector2",
+					"value": { "x": 0.16527900099754333, "y": 1.2534799575805664 }
+				},
+				"m_vNearAttenuation": {
+					"type": "SVector2",
+					"value": { "x": 0.009999999776482582, "y": 0.019999999552965164 }
+				},
+				"m_fCapsuleHeight": { "type": "float32", "value": 7.193312168121338 },
+				"m_bCastShadows": { "type": "bool", "value": false },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feed41fa9eed6cf6",
+					"postInit": true
+				}
+			}
+		},
+		"feedbcf4ca04f340": {
+			"parent": "feedcfc75465bd6c",
+			"name": "Light_Capsule_Celling_04",
+			"factory": "[modules:/zlightentity.class].pc_entitytype",
+			"blueprint": "[modules:/zlightentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 180, "z": 0 },
+						"position": { "x": 0.75, "y": -1, "z": 1 }
+					}
+				},
+				"m_eLightType": {
+					"type": "ILightEntity.ELightType",
+					"value": "LT_CAPSULE"
+				},
+				"m_diffuseColor": { "type": "SColorRGB", "value": "#ffe4b3" },
+				"m_fDiffusePower": { "type": "float32", "value": 500 },
+				"m_vBoxSize": {
+					"type": "SVector3",
+					"value": {
+						"x": 32.625999450683594,
+						"y": 35.870201110839844,
+						"z": 2.3263099193573
+					}
+				},
+				"m_vBoxFadePos": {
+					"type": "SVector3",
+					"value": { "x": 0, "y": 0, "z": 0 }
+				},
+				"m_vBoxFadeNeg": {
+					"type": "SVector3",
+					"value": { "x": 0, "y": 0, "z": 2.3263099193573 }
+				},
+				"m_vFarAttenuation": {
+					"type": "SVector2",
+					"value": { "x": 0.16527900099754333, "y": 1.2534799575805664 }
+				},
+				"m_vNearAttenuation": {
+					"type": "SVector2",
+					"value": { "x": 0.009999999776482582, "y": 0.019999999552965164 }
+				},
+				"m_fCapsuleHeight": { "type": "float32", "value": 7.193312168121338 },
+				"m_bCastShadows": { "type": "bool", "value": false },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feed41fa9eed6cf6",
+					"postInit": true
+				}
+			}
+		},
+		"feede804b41e8447": {
+			"parent": "feedcfc75465bd6c",
+			"name": "Light_Capsule_Celling_05",
+			"factory": "[modules:/zlightentity.class].pc_entitytype",
+			"blueprint": "[modules:/zlightentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 180, "z": 0 },
+						"position": { "x": 0.75, "y": 0, "z": 1 }
+					}
+				},
+				"m_eLightType": {
+					"type": "ILightEntity.ELightType",
+					"value": "LT_CAPSULE"
+				},
+				"m_diffuseColor": { "type": "SColorRGB", "value": "#ffe4b3" },
+				"m_fDiffusePower": { "type": "float32", "value": 500 },
+				"m_vBoxSize": {
+					"type": "SVector3",
+					"value": {
+						"x": 32.625999450683594,
+						"y": 35.870201110839844,
+						"z": 2.3263099193573
+					}
+				},
+				"m_vBoxFadePos": {
+					"type": "SVector3",
+					"value": { "x": 0, "y": 0, "z": 0 }
+				},
+				"m_vBoxFadeNeg": {
+					"type": "SVector3",
+					"value": { "x": 0, "y": 0, "z": 2.3263099193573 }
+				},
+				"m_vFarAttenuation": {
+					"type": "SVector2",
+					"value": { "x": 0.16527900099754333, "y": 1.2534799575805664 }
+				},
+				"m_vNearAttenuation": {
+					"type": "SVector2",
+					"value": { "x": 0.009999999776482582, "y": 0.019999999552965164 }
+				},
+				"m_fCapsuleHeight": { "type": "float32", "value": 7.193312168121338 },
+				"m_bCastShadows": { "type": "bool", "value": false },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feed41fa9eed6cf6",
+					"postInit": true
+				}
+			}
+		},
+		"feed6976de55615b": {
+			"parent": "feedcfc75465bd6c",
+			"name": "Light_Capsule_Celling_01",
+			"factory": "[modules:/zlightentity.class].pc_entitytype",
+			"blueprint": "[modules:/zlightentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 180, "z": 0 },
+						"position": { "x": 0.75, "y": -4, "z": 1 }
+					}
+				},
+				"m_eLightType": {
+					"type": "ILightEntity.ELightType",
+					"value": "LT_CAPSULE"
+				},
+				"m_diffuseColor": { "type": "SColorRGB", "value": "#ffe4b3" },
+				"m_fDiffusePower": { "type": "float32", "value": 500 },
+				"m_vBoxSize": {
+					"type": "SVector3",
+					"value": {
+						"x": 32.625999450683594,
+						"y": 35.870201110839844,
+						"z": 2.3263099193573
+					}
+				},
+				"m_vBoxFadePos": {
+					"type": "SVector3",
+					"value": { "x": 0, "y": 0, "z": 0 }
+				},
+				"m_vBoxFadeNeg": {
+					"type": "SVector3",
+					"value": { "x": 0, "y": 0, "z": 2.3263099193573 }
+				},
+				"m_vFarAttenuation": {
+					"type": "SVector2",
+					"value": { "x": 0.16527900099754333, "y": 1.2534799575805664 }
+				},
+				"m_vNearAttenuation": {
+					"type": "SVector2",
+					"value": { "x": 0.009999999776482582, "y": 0.019999999552965164 }
+				},
+				"m_fCapsuleHeight": { "type": "float32", "value": 7.193312168121338 },
+				"m_bCastShadows": { "type": "bool", "value": false },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feed41fa9eed6cf6",
+					"postInit": true
+				}
+			}
+		},
+		"feedbc0724548d39": {
+			"parent": "feedcfc75465bd6c",
+			"name": "Light_Capsule_Celling_07",
+			"factory": "[modules:/zlightentity.class].pc_entitytype",
+			"blueprint": "[modules:/zlightentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 180, "z": 0 },
+						"position": { "x": 0.75, "y": 2, "z": 1 }
+					}
+				},
+				"m_eLightType": {
+					"type": "ILightEntity.ELightType",
+					"value": "LT_CAPSULE"
+				},
+				"m_diffuseColor": { "type": "SColorRGB", "value": "#ffe4b3" },
+				"m_fDiffusePower": { "type": "float32", "value": 500 },
+				"m_vBoxSize": {
+					"type": "SVector3",
+					"value": {
+						"x": 32.625999450683594,
+						"y": 35.870201110839844,
+						"z": 2.3263099193573
+					}
+				},
+				"m_vBoxFadePos": {
+					"type": "SVector3",
+					"value": { "x": 0, "y": 0, "z": 0 }
+				},
+				"m_vBoxFadeNeg": {
+					"type": "SVector3",
+					"value": { "x": 0, "y": 0, "z": 2.3263099193573 }
+				},
+				"m_vFarAttenuation": {
+					"type": "SVector2",
+					"value": { "x": 0.16527900099754333, "y": 1.2534799575805664 }
+				},
+				"m_vNearAttenuation": {
+					"type": "SVector2",
+					"value": { "x": 0.009999999776482582, "y": 0.019999999552965164 }
+				},
+				"m_fCapsuleHeight": { "type": "float32", "value": 7.193312168121338 },
+				"m_bCastShadows": { "type": "bool", "value": false },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feed41fa9eed6cf6",
+					"postInit": true
+				}
+			}
+		},
+		"feedcdc483ed2f2e": {
+			"parent": "feedcfc75465bd6c",
+			"name": "Light_Capsule_Celling_08",
+			"factory": "[modules:/zlightentity.class].pc_entitytype",
+			"blueprint": "[modules:/zlightentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 180, "z": 0 },
+						"position": { "x": 0.75, "y": -5, "z": 1 }
+					}
+				},
+				"m_eLightType": {
+					"type": "ILightEntity.ELightType",
+					"value": "LT_CAPSULE"
+				},
+				"m_diffuseColor": { "type": "SColorRGB", "value": "#ffe4b3" },
+				"m_fDiffusePower": { "type": "float32", "value": 500 },
+				"m_vBoxSize": {
+					"type": "SVector3",
+					"value": {
+						"x": 32.625999450683594,
+						"y": 35.870201110839844,
+						"z": 2.3263099193573
+					}
+				},
+				"m_vBoxFadePos": {
+					"type": "SVector3",
+					"value": { "x": 0, "y": 0, "z": 0 }
+				},
+				"m_vBoxFadeNeg": {
+					"type": "SVector3",
+					"value": { "x": 0, "y": 0, "z": 2.3263099193573 }
+				},
+				"m_vFarAttenuation": {
+					"type": "SVector2",
+					"value": { "x": 0.16527900099754333, "y": 1.2534799575805664 }
+				},
+				"m_vNearAttenuation": {
+					"type": "SVector2",
+					"value": { "x": 0.009999999776482582, "y": 0.019999999552965164 }
+				},
+				"m_fCapsuleHeight": { "type": "float32", "value": 7.193312168121338 },
+				"m_bCastShadows": { "type": "bool", "value": false },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feed41fa9eed6cf6",
+					"postInit": true
+				}
+			}
+		},
+		"feed3ef67b3e472a": {
+			"parent": "feedcfc75465bd6c",
+			"name": "Light_Capsule_Celling_09",
+			"factory": "[modules:/zlightentity.class].pc_entitytype",
+			"blueprint": "[modules:/zlightentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 180, "z": 0 },
+						"position": { "x": 0.75, "y": 3, "z": 1 }
+					}
+				},
+				"m_eLightType": {
+					"type": "ILightEntity.ELightType",
+					"value": "LT_CAPSULE"
+				},
+				"m_diffuseColor": { "type": "SColorRGB", "value": "#ffe4b3" },
+				"m_fDiffusePower": { "type": "float32", "value": 500 },
+				"m_vBoxSize": {
+					"type": "SVector3",
+					"value": {
+						"x": 32.625999450683594,
+						"y": 35.870201110839844,
+						"z": 2.3263099193573
+					}
+				},
+				"m_vBoxFadePos": {
+					"type": "SVector3",
+					"value": { "x": 0, "y": 0, "z": 0 }
+				},
+				"m_vBoxFadeNeg": {
+					"type": "SVector3",
+					"value": { "x": 0, "y": 0, "z": 2.3263099193573 }
+				},
+				"m_vFarAttenuation": {
+					"type": "SVector2",
+					"value": { "x": 0.16527900099754333, "y": 1.2534799575805664 }
+				},
+				"m_vNearAttenuation": {
+					"type": "SVector2",
+					"value": { "x": 0.009999999776482582, "y": 0.019999999552965164 }
+				},
+				"m_fCapsuleHeight": { "type": "float32", "value": 7.193312168121338 },
+				"m_bCastShadows": { "type": "bool", "value": false },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feed41fa9eed6cf6",
+					"postInit": true
+				}
+			}
+		},
+		"feed6c961a16df1f": {
+			"parent": "feed41fa9eed6cf6",
+			"name": "Light_Row_Center",
+			"factory": "[modules:/zentity.class].pc_entitytype",
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
+		},
+		"feed5fc7f7f102e1": {
+			"parent": "feed6c961a16df1f",
+			"name": "Light_Capsule_Celling_10",
+			"factory": "[modules:/zlightentity.class].pc_entitytype",
+			"blueprint": "[modules:/zlightentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 180, "z": 0 },
+						"position": { "x": 0, "y": -6, "z": 1 }
+					}
+				},
+				"m_eLightType": {
+					"type": "ILightEntity.ELightType",
+					"value": "LT_CAPSULE"
+				},
+				"m_diffuseColor": { "type": "SColorRGB", "value": "#ffe4b3" },
+				"m_fDiffusePower": { "type": "float32", "value": 500 },
+				"m_vBoxSize": {
+					"type": "SVector3",
+					"value": {
+						"x": 32.625999450683594,
+						"y": 35.870201110839844,
+						"z": 2.3263099193573
+					}
+				},
+				"m_vBoxFadePos": {
+					"type": "SVector3",
+					"value": { "x": 0, "y": 0, "z": 0 }
+				},
+				"m_vBoxFadeNeg": {
+					"type": "SVector3",
+					"value": { "x": 0, "y": 0, "z": 2.3263099193573 }
+				},
+				"m_vFarAttenuation": {
+					"type": "SVector2",
+					"value": { "x": 0.16527900099754333, "y": 1.2534799575805664 }
+				},
+				"m_vNearAttenuation": {
+					"type": "SVector2",
+					"value": { "x": 0.009999999776482582, "y": 0.019999999552965164 }
+				},
+				"m_fCapsuleHeight": { "type": "float32", "value": 7.193312168121338 },
+				"m_bCastShadows": { "type": "bool", "value": false },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feed41fa9eed6cf6",
+					"postInit": true
+				}
+			}
+		},
+		"feed14aa96fbcb9c": {
+			"parent": "feed6c961a16df1f",
+			"name": "Light_Capsule_Celling_02",
+			"factory": "[modules:/zlightentity.class].pc_entitytype",
+			"blueprint": "[modules:/zlightentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 180, "z": 0 },
+						"position": { "x": 0, "y": -3, "z": 1 }
+					}
+				},
+				"m_eLightType": {
+					"type": "ILightEntity.ELightType",
+					"value": "LT_CAPSULE"
+				},
+				"m_diffuseColor": { "type": "SColorRGB", "value": "#ffe4b3" },
+				"m_fDiffusePower": { "type": "float32", "value": 500 },
+				"m_vBoxSize": {
+					"type": "SVector3",
+					"value": {
+						"x": 32.625999450683594,
+						"y": 35.870201110839844,
+						"z": 2.3263099193573
+					}
+				},
+				"m_vBoxFadePos": {
+					"type": "SVector3",
+					"value": { "x": 0, "y": 0, "z": 0 }
+				},
+				"m_vBoxFadeNeg": {
+					"type": "SVector3",
+					"value": { "x": 0, "y": 0, "z": 2.3263099193573 }
+				},
+				"m_vFarAttenuation": {
+					"type": "SVector2",
+					"value": { "x": 0.16527900099754333, "y": 1.2534799575805664 }
+				},
+				"m_vNearAttenuation": {
+					"type": "SVector2",
+					"value": { "x": 0.009999999776482582, "y": 0.019999999552965164 }
+				},
+				"m_fCapsuleHeight": { "type": "float32", "value": 7.193312168121338 },
+				"m_bCastShadows": { "type": "bool", "value": false },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feed41fa9eed6cf6",
+					"postInit": true
+				}
+			}
+		},
+		"feed9d1562174374": {
+			"parent": "feed6c961a16df1f",
+			"name": "Light_Capsule_Celling_06",
+			"factory": "[modules:/zlightentity.class].pc_entitytype",
+			"blueprint": "[modules:/zlightentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 180, "z": 0 },
+						"position": { "x": 0, "y": 1, "z": 1 }
+					}
+				},
+				"m_eLightType": {
+					"type": "ILightEntity.ELightType",
+					"value": "LT_CAPSULE"
+				},
+				"m_diffuseColor": { "type": "SColorRGB", "value": "#ffe4b3" },
+				"m_fDiffusePower": { "type": "float32", "value": 500 },
+				"m_vBoxSize": {
+					"type": "SVector3",
+					"value": {
+						"x": 32.625999450683594,
+						"y": 35.870201110839844,
+						"z": 2.3263099193573
+					}
+				},
+				"m_vBoxFadePos": {
+					"type": "SVector3",
+					"value": { "x": 0, "y": 0, "z": 0 }
+				},
+				"m_vBoxFadeNeg": {
+					"type": "SVector3",
+					"value": { "x": 0, "y": 0, "z": 2.3263099193573 }
+				},
+				"m_vFarAttenuation": {
+					"type": "SVector2",
+					"value": { "x": 0.16527900099754333, "y": 1.2534799575805664 }
+				},
+				"m_vNearAttenuation": {
+					"type": "SVector2",
+					"value": { "x": 0.009999999776482582, "y": 0.019999999552965164 }
+				},
+				"m_fCapsuleHeight": { "type": "float32", "value": 7.193312168121338 },
+				"m_bCastShadows": { "type": "bool", "value": false },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feed41fa9eed6cf6",
+					"postInit": true
+				}
+			}
+		},
+		"feed097cd9389cbf": {
+			"parent": "feed6c961a16df1f",
+			"name": "Light_Capsule_Celling_03",
+			"factory": "[modules:/zlightentity.class].pc_entitytype",
+			"blueprint": "[modules:/zlightentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 180, "z": 0 },
+						"position": { "x": 0, "y": -2, "z": 1 }
+					}
+				},
+				"m_eLightType": {
+					"type": "ILightEntity.ELightType",
+					"value": "LT_CAPSULE"
+				},
+				"m_diffuseColor": { "type": "SColorRGB", "value": "#ffe4b3" },
+				"m_fDiffusePower": { "type": "float32", "value": 500 },
+				"m_vBoxSize": {
+					"type": "SVector3",
+					"value": {
+						"x": 32.625999450683594,
+						"y": 35.870201110839844,
+						"z": 2.3263099193573
+					}
+				},
+				"m_vBoxFadePos": {
+					"type": "SVector3",
+					"value": { "x": 0, "y": 0, "z": 0 }
+				},
+				"m_vBoxFadeNeg": {
+					"type": "SVector3",
+					"value": { "x": 0, "y": 0, "z": 2.3263099193573 }
+				},
+				"m_vFarAttenuation": {
+					"type": "SVector2",
+					"value": { "x": 0.16527900099754333, "y": 1.2534799575805664 }
+				},
+				"m_vNearAttenuation": {
+					"type": "SVector2",
+					"value": { "x": 0.009999999776482582, "y": 0.019999999552965164 }
+				},
+				"m_fCapsuleHeight": { "type": "float32", "value": 7.193312168121338 },
+				"m_bCastShadows": { "type": "bool", "value": false },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feed41fa9eed6cf6",
+					"postInit": true
+				}
+			}
+		},
+		"feed3c2976586aa0": {
+			"parent": "feed6c961a16df1f",
+			"name": "Light_Capsule_Celling_11",
+			"factory": "[modules:/zlightentity.class].pc_entitytype",
+			"blueprint": "[modules:/zlightentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 180, "z": 0 },
+						"position": { "x": 0, "y": 4, "z": 1 }
+					}
+				},
+				"m_eLightType": {
+					"type": "ILightEntity.ELightType",
+					"value": "LT_CAPSULE"
+				},
+				"m_diffuseColor": { "type": "SColorRGB", "value": "#ffe4b3" },
+				"m_fDiffusePower": { "type": "float32", "value": 500 },
+				"m_vBoxSize": {
+					"type": "SVector3",
+					"value": {
+						"x": 32.625999450683594,
+						"y": 35.870201110839844,
+						"z": 2.3263099193573
+					}
+				},
+				"m_vBoxFadePos": {
+					"type": "SVector3",
+					"value": { "x": 0, "y": 0, "z": 0 }
+				},
+				"m_vBoxFadeNeg": {
+					"type": "SVector3",
+					"value": { "x": 0, "y": 0, "z": 2.3263099193573 }
+				},
+				"m_vFarAttenuation": {
+					"type": "SVector2",
+					"value": { "x": 0.16527900099754333, "y": 1.2534799575805664 }
+				},
+				"m_vNearAttenuation": {
+					"type": "SVector2",
+					"value": { "x": 0.009999999776482582, "y": 0.019999999552965164 }
+				},
+				"m_fCapsuleHeight": { "type": "float32", "value": 7.193312168121338 },
+				"m_bCastShadows": { "type": "bool", "value": false },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feed41fa9eed6cf6",
+					"postInit": true
+				}
+			}
+		},
+		"feed274079a7d606": {
+			"parent": "feed6c961a16df1f",
+			"name": "Light_Capsule_Celling_04",
+			"factory": "[modules:/zlightentity.class].pc_entitytype",
+			"blueprint": "[modules:/zlightentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 180, "z": 0 },
+						"position": { "x": 0, "y": -1, "z": 1 }
+					}
+				},
+				"m_eLightType": {
+					"type": "ILightEntity.ELightType",
+					"value": "LT_CAPSULE"
+				},
+				"m_diffuseColor": { "type": "SColorRGB", "value": "#ffe4b3" },
+				"m_fDiffusePower": { "type": "float32", "value": 500 },
+				"m_vBoxSize": {
+					"type": "SVector3",
+					"value": {
+						"x": 32.625999450683594,
+						"y": 35.870201110839844,
+						"z": 2.3263099193573
+					}
+				},
+				"m_vBoxFadePos": {
+					"type": "SVector3",
+					"value": { "x": 0, "y": 0, "z": 0 }
+				},
+				"m_vBoxFadeNeg": {
+					"type": "SVector3",
+					"value": { "x": 0, "y": 0, "z": 2.3263099193573 }
+				},
+				"m_vFarAttenuation": {
+					"type": "SVector2",
+					"value": { "x": 0.16527900099754333, "y": 1.2534799575805664 }
+				},
+				"m_vNearAttenuation": {
+					"type": "SVector2",
+					"value": { "x": 0.009999999776482582, "y": 0.019999999552965164 }
+				},
+				"m_fCapsuleHeight": { "type": "float32", "value": 7.193312168121338 },
+				"m_bCastShadows": { "type": "bool", "value": false },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feed41fa9eed6cf6",
+					"postInit": true
+				}
+			}
+		},
+		"feed07de4b86b5d5": {
+			"parent": "feed6c961a16df1f",
+			"name": "Light_Capsule_Celling_05",
+			"factory": "[modules:/zlightentity.class].pc_entitytype",
+			"blueprint": "[modules:/zlightentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 180, "z": 0 },
+						"position": { "x": 0, "y": 0, "z": 1 }
+					}
+				},
+				"m_eLightType": {
+					"type": "ILightEntity.ELightType",
+					"value": "LT_CAPSULE"
+				},
+				"m_diffuseColor": { "type": "SColorRGB", "value": "#ffe4b3" },
+				"m_fDiffusePower": { "type": "float32", "value": 500 },
+				"m_vBoxSize": {
+					"type": "SVector3",
+					"value": {
+						"x": 32.625999450683594,
+						"y": 35.870201110839844,
+						"z": 2.3263099193573
+					}
+				},
+				"m_vBoxFadePos": {
+					"type": "SVector3",
+					"value": { "x": 0, "y": 0, "z": 0 }
+				},
+				"m_vBoxFadeNeg": {
+					"type": "SVector3",
+					"value": { "x": 0, "y": 0, "z": 2.3263099193573 }
+				},
+				"m_vFarAttenuation": {
+					"type": "SVector2",
+					"value": { "x": 0.16527900099754333, "y": 1.2534799575805664 }
+				},
+				"m_vNearAttenuation": {
+					"type": "SVector2",
+					"value": { "x": 0.009999999776482582, "y": 0.019999999552965164 }
+				},
+				"m_fCapsuleHeight": { "type": "float32", "value": 7.193312168121338 },
+				"m_bCastShadows": { "type": "bool", "value": false },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feed41fa9eed6cf6",
+					"postInit": true
+				}
+			}
+		},
+		"feed1c91cc42e4d0": {
+			"parent": "feed6c961a16df1f",
+			"name": "Light_Capsule_Celling_01",
+			"factory": "[modules:/zlightentity.class].pc_entitytype",
+			"blueprint": "[modules:/zlightentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 180, "z": 0 },
+						"position": { "x": 0, "y": -4, "z": 1 }
+					}
+				},
+				"m_eLightType": {
+					"type": "ILightEntity.ELightType",
+					"value": "LT_CAPSULE"
+				},
+				"m_diffuseColor": { "type": "SColorRGB", "value": "#ffe4b3" },
+				"m_fDiffusePower": { "type": "float32", "value": 500 },
+				"m_vBoxSize": {
+					"type": "SVector3",
+					"value": {
+						"x": 32.625999450683594,
+						"y": 35.870201110839844,
+						"z": 2.3263099193573
+					}
+				},
+				"m_vBoxFadePos": {
+					"type": "SVector3",
+					"value": { "x": 0, "y": 0, "z": 0 }
+				},
+				"m_vBoxFadeNeg": {
+					"type": "SVector3",
+					"value": { "x": 0, "y": 0, "z": 2.3263099193573 }
+				},
+				"m_vFarAttenuation": {
+					"type": "SVector2",
+					"value": { "x": 0.16527900099754333, "y": 1.2534799575805664 }
+				},
+				"m_vNearAttenuation": {
+					"type": "SVector2",
+					"value": { "x": 0.009999999776482582, "y": 0.019999999552965164 }
+				},
+				"m_fCapsuleHeight": { "type": "float32", "value": 7.193312168121338 },
+				"m_bCastShadows": { "type": "bool", "value": false },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feed41fa9eed6cf6",
+					"postInit": true
+				}
+			}
+		},
+		"feed8f0d31222427": {
+			"parent": "feed6c961a16df1f",
+			"name": "Light_Capsule_Celling_07",
+			"factory": "[modules:/zlightentity.class].pc_entitytype",
+			"blueprint": "[modules:/zlightentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 180, "z": 0 },
+						"position": { "x": 0, "y": 2, "z": 1 }
+					}
+				},
+				"m_eLightType": {
+					"type": "ILightEntity.ELightType",
+					"value": "LT_CAPSULE"
+				},
+				"m_diffuseColor": { "type": "SColorRGB", "value": "#ffe4b3" },
+				"m_fDiffusePower": { "type": "float32", "value": 500 },
+				"m_vBoxSize": {
+					"type": "SVector3",
+					"value": {
+						"x": 32.625999450683594,
+						"y": 35.870201110839844,
+						"z": 2.3263099193573
+					}
+				},
+				"m_vBoxFadePos": {
+					"type": "SVector3",
+					"value": { "x": 0, "y": 0, "z": 0 }
+				},
+				"m_vBoxFadeNeg": {
+					"type": "SVector3",
+					"value": { "x": 0, "y": 0, "z": 2.3263099193573 }
+				},
+				"m_vFarAttenuation": {
+					"type": "SVector2",
+					"value": { "x": 0.16527900099754333, "y": 1.2534799575805664 }
+				},
+				"m_vNearAttenuation": {
+					"type": "SVector2",
+					"value": { "x": 0.009999999776482582, "y": 0.019999999552965164 }
+				},
+				"m_fCapsuleHeight": { "type": "float32", "value": 7.193312168121338 },
+				"m_bCastShadows": { "type": "bool", "value": false },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feed41fa9eed6cf6",
+					"postInit": true
+				}
+			}
+		},
+		"feed2efe74272ed0": {
+			"parent": "feed6c961a16df1f",
+			"name": "Light_Capsule_Celling_08",
+			"factory": "[modules:/zlightentity.class].pc_entitytype",
+			"blueprint": "[modules:/zlightentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 180, "z": 0 },
+						"position": { "x": 0, "y": -5, "z": 1 }
+					}
+				},
+				"m_eLightType": {
+					"type": "ILightEntity.ELightType",
+					"value": "LT_CAPSULE"
+				},
+				"m_diffuseColor": { "type": "SColorRGB", "value": "#ffe4b3" },
+				"m_fDiffusePower": { "type": "float32", "value": 500 },
+				"m_vBoxSize": {
+					"type": "SVector3",
+					"value": {
+						"x": 32.625999450683594,
+						"y": 35.870201110839844,
+						"z": 2.3263099193573
+					}
+				},
+				"m_vBoxFadePos": {
+					"type": "SVector3",
+					"value": { "x": 0, "y": 0, "z": 0 }
+				},
+				"m_vBoxFadeNeg": {
+					"type": "SVector3",
+					"value": { "x": 0, "y": 0, "z": 2.3263099193573 }
+				},
+				"m_vFarAttenuation": {
+					"type": "SVector2",
+					"value": { "x": 0.16527900099754333, "y": 1.2534799575805664 }
+				},
+				"m_vNearAttenuation": {
+					"type": "SVector2",
+					"value": { "x": 0.009999999776482582, "y": 0.019999999552965164 }
+				},
+				"m_fCapsuleHeight": { "type": "float32", "value": 7.193312168121338 },
+				"m_bCastShadows": { "type": "bool", "value": false },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feed41fa9eed6cf6",
+					"postInit": true
+				}
+			}
+		},
+		"feed8ebbf51dedba": {
+			"parent": "feed6c961a16df1f",
+			"name": "Light_Capsule_Celling_09",
+			"factory": "[modules:/zlightentity.class].pc_entitytype",
+			"blueprint": "[modules:/zlightentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 180, "z": 0 },
+						"position": { "x": 0, "y": 3, "z": 1 }
+					}
+				},
+				"m_eLightType": {
+					"type": "ILightEntity.ELightType",
+					"value": "LT_CAPSULE"
+				},
+				"m_diffuseColor": { "type": "SColorRGB", "value": "#ffe4b3" },
+				"m_fDiffusePower": { "type": "float32", "value": 500 },
+				"m_vBoxSize": {
+					"type": "SVector3",
+					"value": {
+						"x": 32.625999450683594,
+						"y": 35.870201110839844,
+						"z": 2.3263099193573
+					}
+				},
+				"m_vBoxFadePos": {
+					"type": "SVector3",
+					"value": { "x": 0, "y": 0, "z": 0 }
+				},
+				"m_vBoxFadeNeg": {
+					"type": "SVector3",
+					"value": { "x": 0, "y": 0, "z": 2.3263099193573 }
+				},
+				"m_vFarAttenuation": {
+					"type": "SVector2",
+					"value": { "x": 0.16527900099754333, "y": 1.2534799575805664 }
+				},
+				"m_vNearAttenuation": {
+					"type": "SVector2",
+					"value": { "x": 0.009999999776482582, "y": 0.019999999552965164 }
+				},
+				"m_fCapsuleHeight": { "type": "float32", "value": 7.193312168121338 },
+				"m_bCastShadows": { "type": "bool", "value": false },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feed41fa9eed6cf6",
+					"postInit": true
+				}
+			}
+		},
+		"feed2b2bb9fabe12": {
+			"parent": "feed41fa9eed6cf6",
+			"name": "airplane_a_door",
+			"factory": "[assembly:/sonsofprovidence/airplane/airplane_a_door.wl2?/airplane_a_door.prim].pc_entitytype",
+			"blueprint": "[assembly:/templates/geometrytemplatenocoll.template?/geomentity01.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": 0 },
+						"position": { "x": 0, "y": 0, "z": 0 }
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feed41fa9eed6cf6",
+					"postInit": true
+				}
+			}
+		},
+		"feeda0b32864958c": {
+			"parent": "feed41fa9eed6cf6",
+			"name": "Luxury_Helicopter_A_Door",
+			"factory": "[assembly:/templates/aspectdummy.aspect]([modules:/zlinkedentity.class].entitytype,[assembly:/templates/_viewers/animplayeraspect.template?/anim player aspect.entitytemplate].entitytype,[modules:/zworldmapmarkerentity.class].entitytype).pc_entitytype",
+			"blueprint": "[assembly:/templates/aspectdummy.aspect]([modules:/zlinkedentity.class].entitytype,[assembly:/templates/_viewers/animplayeraspect.template?/anim player aspect.entitytemplate].entitytype,[modules:/zworldmapmarkerentity.class].entitytype).pc_entityblueprint",
+			"properties": {
+				"m_ResourceID": {
+					"type": "ZRuntimeResourceID",
+					"value": { "resource": "0045F3F549247701", "flag": "5F" }
+				},
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": 0 },
+						"position": { "x": 20, "y": 0, "z": 0 }
+					}
+				},
+				"m_bEnabled": { "type": "bool", "value": true },
+				"m_bVisibleInBoxReflection": { "type": "bool", "value": false },
+				"m_bVisible": { "type": "bool", "value": true },
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_STATIC"
+				},
+				"DefaultLightsOff": { "type": "bool", "value": true }
+			}
+		},
+		"feedd8c79f0215b8": {
+			"parent": "feed41fa9eed6cf6",
+			"name": "airplane_a",
+			"factory": "[assembly:/sonsofprovidence/airplane/airplane_a.wl2?/airplane_a.prim].pc_entitytype",
+			"blueprint": "[assembly:/templates/geometrytemplatenocoll.template?/geomentity01.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": 0 },
+						"position": { "x": 0, "y": 0, "z": 0 }
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feed41fa9eed6cf6",
+					"postInit": true
+				}
+			}
+		}
+	},
+	"propertyOverrides": [],
+	"overrideDeletes": [],
+	"pinConnectionOverrides": [],
+	"pinConnectionOverrideDeletes": [],
+	"externalScenes": [],
+	"subType": "template",
+	"quickEntityVersion": 3.1,
+	"extraFactoryDependencies": [],
+	"extraBlueprintDependencies": [],
+	"comments": []
 }
