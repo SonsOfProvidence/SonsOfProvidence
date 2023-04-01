@@ -1,0 +1,41 @@
+{
+  "Data": {
+    "EnableSaving": true,
+    "Objectives": [],
+    "GameDifficulties": [
+      {
+        "Difficulty": "easy",
+        "Bricks": []
+      },
+      {
+        "Difficulty": "normal",
+        "Bricks": []
+      },
+      {
+        "Difficulty": "hard",
+        "Bricks": []
+      }
+    ],
+    "Bricks": [],
+    "DevOnlyBricks": [],
+    "GameChangers": [],
+    "GameChangerReferences": []
+  },
+  "Metadata": {
+    "Id": "179563a4-727a-4072-b354-c9fff4e8bff6",
+    "IsPublished": true,
+    "Title": "UI_NEWYORK_TITLE",
+    "Description": "DESC_NEWYORK",
+    "CodeName_Hint": "New York",
+    "ScenePath": "assembly:/sonsofprovidence/scene_bank.entity",
+    "TileImage": "images/dbierek/newyork.jpg",
+    "Location": "LOCATION_GREEDY_RACCOON",
+    "LastUpdate": "2022-12-06T08:36:00.000Z",
+    "CreationTimestamp": "2023-03-25T01:26:00.000Z",
+    "CreatorUserId": "00000000-0000-0000-0000-000000000000",
+    "Type": "mission",
+    "Release": "3.0.0",
+    "Entitlements": ["H2_LEGACY_EXPANSION"]
+  },
+  "UserData": {}
+}

@@ -38,6 +38,13 @@
       "contentFolders": ["mission_carpark"]
     },
     {
+      "name": "Bank",
+      "tooltip": "Mission 6: Raid the Archive",
+      "type": "checkbox",
+      "enabledByDefault": true,
+      "contentFolders": ["mission_bank"]
+    },
+    {
       "name": "Funeral",
       "tooltip": "Mission 6: The Thomas Cross Robbery",
       "type": "checkbox",
@@ -172,6 +179,11 @@
       "type": "entity",
       "partition": "super",
       "path": "[assembly:/sonsofprovidence/scene_airplane.entity].entitytemplate"
+    },
+    {
+      "type": "entity",
+      "partition": "greedy",
+      "path": "[assembly:/sonsofprovidence/scene_bank.entity].entitytemplate"
     },
     {
       "type": "entity",

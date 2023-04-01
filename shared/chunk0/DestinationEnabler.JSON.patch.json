@@ -65,6 +65,21 @@
       "op": "add",
       "path": "/Root/Children/-",
       "value": {
+        "Id": "179563a4-727a-4072-b354-c9fff4e8bff6",
+        "_comment": "Bank",
+        "NarrativeContext": "Mission",
+        "Meta": {
+          "Ui": {
+            "Row": 3,
+            "Col": 5
+          }
+        }
+      }
+    },
+    {
+      "op": "add",
+      "path": "/Root/Children/-",
+      "value": {
         "Id": "179563a4-727a-4072-b354-c9fff4e8bff1",
         "_comment": "Funeral",
         "NarrativeContext": "Mission",
