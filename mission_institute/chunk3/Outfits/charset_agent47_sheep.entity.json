@@ -1,98 +1,98 @@
 {
-  "tempHash": "006D00FF106C863B",
-  "tbluHash": "00B1FE3678D05433",
-  "rootEntity": "de35203e56ae5b4f",
-  "entities": {
-    "6dfb4930278b881d": {
-      "parent": "ca6e92690eb1889d",
-      "name": "0",
-      "factory": "[modules:/zoutfitvariation.class].pc_entitytype",
-      "blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint",
-      "properties": {
-        "m_Outfit": {
-          "type": "ZRuntimeResourceID",
-          "value": { "resource": "006DF1904C5C50F8", "flag": "9F" }
-        }
-      }
-    },
-    "de35203e56ae5b4f": {
-      "parent": null,
-      "name": "CHARSET_Agent47_Sheep",
-      "factory": "004470A9E6A7722D",
-      "blueprint": "00E21A11EC782D9E",
-      "properties": {
-        "m_aCharacters": {
-          "type": "TArray<SEntityTemplateReference>",
-          "value": ["ca6e92690eb1889d", "a62836d8d6640000", "1840b730d8fc8cb8"],
-          "postInit": true
-        }
-      }
-    },
-    "1840b730d8fc8cb8": {
-      "parent": "de35203e56ae5b4f",
-      "name": "HeroA",
-      "factory": "[modules:/zcharsetcharactertype.class].pc_entitytype",
-      "blueprint": "[modules:/zcharsetcharactertype.class].pc_entityblueprint",
-      "properties": {
-        "m_aVariations": {
-          "type": "TArray<SEntityTemplateReference>",
-          "value": ["8e66319d9d20f494"],
-          "postInit": true
-        }
-      }
-    },
-    "a62836d8d6640000": {
-      "parent": "de35203e56ae5b4f",
-      "name": "Nude",
-      "factory": "[modules:/zcharsetcharactertype.class].pc_entitytype",
-      "blueprint": "[modules:/zcharsetcharactertype.class].pc_entityblueprint",
-      "properties": {
-        "m_aVariations": {
-          "type": "TArray<SEntityTemplateReference>",
-          "value": ["e24aa3af65bc8598"],
-          "postInit": true
-        }
-      }
-    },
-    "e24aa3af65bc8598": {
-      "parent": "a62836d8d6640000",
-      "name": "Var0",
-      "factory": "[modules:/zoutfitvariation.class].pc_entitytype",
-      "blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint"
-    },
-    "ca6e92690eb1889d": {
-      "parent": "de35203e56ae5b4f",
-      "name": "Actor",
-      "factory": "[modules:/zcharsetcharactertype.class].pc_entitytype",
-      "blueprint": "[modules:/zcharsetcharactertype.class].pc_entityblueprint",
-      "properties": {
-        "m_aVariations": {
-          "type": "TArray<SEntityTemplateReference>",
-          "value": ["6dfb4930278b881d"]
-        }
-      }
-    },
-    "8e66319d9d20f494": {
-      "parent": "1840b730d8fc8cb8",
-      "name": "Var0",
-      "factory": "[modules:/zoutfitvariation.class].pc_entitytype",
-      "blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint",
-      "properties": {
-        "m_Outfit": {
-          "type": "ZRuntimeResourceID",
-          "value": { "resource": "00295990C5103987", "flag": "9F" }
-        }
-      }
-    }
-  },
-  "propertyOverrides": [],
-  "overrideDeletes": [],
-  "pinConnectionOverrides": [],
-  "pinConnectionOverrideDeletes": [],
-  "externalScenes": [],
-  "subType": "template",
-  "quickEntityVersion": 3.1,
-  "extraFactoryDependencies": [],
-  "extraBlueprintDependencies": [],
-  "comments": []
+	"tempHash": "006D00FF106C863B",
+	"tbluHash": "00B1FE3678D05433",
+	"rootEntity": "de35203e56ae5b4f",
+	"entities": {
+		"6dfb4930278b881d": {
+			"parent": "ca6e92690eb1889d",
+			"name": "0",
+			"factory": "[modules:/zoutfitvariation.class].pc_entitytype",
+			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint",
+			"properties": {
+				"m_Outfit": {
+					"type": "ZRuntimeResourceID",
+					"value": { "resource": "006DF1904C5C50F8", "flag": "9F" }
+				}
+			}
+		},
+		"de35203e56ae5b4f": {
+			"parent": null,
+			"name": "CHARSET_Agent47_Sheep",
+			"factory": "004470A9E6A7722D",
+			"blueprint": "00E21A11EC782D9E",
+			"properties": {
+				"m_aCharacters": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["ca6e92690eb1889d", "a62836d8d6640000", "1840b730d8fc8cb8"],
+					"postInit": true
+				}
+			}
+		},
+		"1840b730d8fc8cb8": {
+			"parent": "de35203e56ae5b4f",
+			"name": "HeroA",
+			"factory": "[modules:/zcharsetcharactertype.class].pc_entitytype",
+			"blueprint": "[modules:/zcharsetcharactertype.class].pc_entityblueprint",
+			"properties": {
+				"m_aVariations": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["8e66319d9d20f494"],
+					"postInit": true
+				}
+			}
+		},
+		"a62836d8d6640000": {
+			"parent": "de35203e56ae5b4f",
+			"name": "Nude",
+			"factory": "[modules:/zcharsetcharactertype.class].pc_entitytype",
+			"blueprint": "[modules:/zcharsetcharactertype.class].pc_entityblueprint",
+			"properties": {
+				"m_aVariations": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["e24aa3af65bc8598"],
+					"postInit": true
+				}
+			}
+		},
+		"e24aa3af65bc8598": {
+			"parent": "a62836d8d6640000",
+			"name": "Var0",
+			"factory": "[modules:/zoutfitvariation.class].pc_entitytype",
+			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint"
+		},
+		"ca6e92690eb1889d": {
+			"parent": "de35203e56ae5b4f",
+			"name": "Actor",
+			"factory": "[modules:/zcharsetcharactertype.class].pc_entitytype",
+			"blueprint": "[modules:/zcharsetcharactertype.class].pc_entityblueprint",
+			"properties": {
+				"m_aVariations": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["6dfb4930278b881d"]
+				}
+			}
+		},
+		"8e66319d9d20f494": {
+			"parent": "1840b730d8fc8cb8",
+			"name": "Var0",
+			"factory": "[modules:/zoutfitvariation.class].pc_entitytype",
+			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint",
+			"properties": {
+				"m_Outfit": {
+					"type": "ZRuntimeResourceID",
+					"value": { "resource": "00295990C5103987", "flag": "9F" }
+				}
+			}
+		}
+	},
+	"propertyOverrides": [],
+	"overrideDeletes": [],
+	"pinConnectionOverrides": [],
+	"pinConnectionOverrideDeletes": [],
+	"externalScenes": [],
+	"subType": "template",
+	"quickEntityVersion": 3.1,
+	"extraFactoryDependencies": [],
+	"extraBlueprintDependencies": [],
+	"comments": []
 }

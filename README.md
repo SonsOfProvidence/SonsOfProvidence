@@ -7,6 +7,7 @@
 Here is a Google doc describing the mod: https://docs.google.com/document/d/1p4J-pR4IhnzVp71J1IrT_--5JewQFazpATbZDWTHmXA/edit#
 
 Here is a Google Sheet with a tasklist: https://docs.google.com/spreadsheets/d/15JT-QGhkxBHAEJUbEwX-fVQCedr1grUeckX-KRpNCLc/edit?usp=sharing
+
 ## Mod description:
 
 This mod is a new campaign that follows Lucas Grey throughout his journey in the World of Assassination Trilogy, beginning with his escape from The Institute, through his untimely demise in Dartmoor. It is broken up into multiple missions, each based on a situation described or shown in the original trilogy. Each mission will be played in one of the destinations in the original trilogy, but occasionally the location will be repurposed to take place in a different setting’s location.
@@ -58,18 +59,18 @@ The cutscene from the original trilogy, where Subject 6 and Subject 47 are angry
 
 ### Changes that will be needed:
 
-- Start Location change
-- Guard Model replacer (Found in Chongqing Noodle Massacre)
-- Intro Cutscene (Found in Chongqing Noodle Massacre)
+-   Start Location change
+-   Guard Model replacer (Found in Chongqing Noodle Massacre)
+-   Intro Cutscene (Found in Chongqing Noodle Massacre)
 
 **New starting location**: In front of the mansion  
 **Have restricted loadout**:
 
-- Sawed-off Shotgun
-- Tactical Wetsuit
-- Only one starting location
-- No secondary items
-- No smuggled item
+-   Sawed-off Shotgun
+-   Tactical Wetsuit
+-   Only one starting location
+-   No secondary items
+-   No smuggled item
 
 **Scenery changes**:  
 Rubble added to the side of the building in front of the window
@@ -93,23 +94,23 @@ Grey has a flashback of him and 47 agreeing to take them all down and gets a ste
 
 **Changes that will be needed**:
 
-- Start Location change
-- Guard Model replacer (Found in Chongqing Noodle Massacre)
-- Intro Cutscene (Found in Chongqing Noodle Massacre)
+-   Start Location change
+-   Guard Model replacer (Found in Chongqing Noodle Massacre)
+-   Intro Cutscene (Found in Chongqing Noodle Massacre)
 
 **New starting location**: In the final train car  
 **Scenery changes**:
 
-- Outside area and other train cars are deleted
-- The front of the train car is replaced with a cockpit
-- The outside has clouds from the Dubai level
+-   Outside area and other train cars are deleted
+-   The front of the train car is replaced with a cockpit
+-   The outside has clouds from the Dubai level
 
 **Have restricted loadout**:
 
-- Black shirt
-- Only one starting location
-- Default Loadout
-- Bartoli 75R
+-   Black shirt
+-   Only one starting location
+-   Default Loadout
+-   Bartoli 75R
 
 ## Cutscene: Gaining information
 
@@ -123,21 +124,21 @@ Grey begins reminiscing about 47 and studies mysterious deaths and disappearance
 **Gameplay**:  
 **Changes that will be needed**:
 
-- Start Location change
-- Guard Model replacer (Found in Chongqing Noodle Massacre)
-- Intro Cutscene (Found in Chongqing Noodle Massacre)
+-   Start Location change
+-   Guard Model replacer (Found in Chongqing Noodle Massacre)
+-   Intro Cutscene (Found in Chongqing Noodle Massacre)
 
 **New starting location**: In front of the mansion  
 **Scenery changes**: Add a cityscape to make it look more like the Red Square in Moscow  
 **Have restricted loadout**:
 
-- Sawed-off Shotgun
-- Tactical Wetsuit
-- Only one starting location
-- No secondary items
-- No smuggled item
+-   Sawed-off Shotgun
+-   Tactical Wetsuit
+-   Only one starting location
+-   No secondary items
+-   No smuggled item
 
-* “It was a perfectly staged suicide where Kamarov was found dead with a gun in his hand inside his office, which was also locked from within. There were also evidence planted in Kamarov's safe to make him look like a traitor, having leaked state secrets to Langley and thus looking like a spy for the CIA.”
+*   “It was a perfectly staged suicide where Kamarov was found dead with a gun in his hand inside his office, which was also locked from within. There were also evidence planted in Kamarov's safe to make him look like a traitor, having leaked state secrets to Langley and thus looking like a spy for the CIA.”
 
 ## Cutscene: The keys to the kingdom
 
@@ -290,7 +291,7 @@ Grey’s sections of the You Owe Him Nothing cutscene play. The video ends with 
 
 ## Other Info
 
-- During his vendetta against Providence, he would eventually recruit mercenaries, ex-soldiers, and other criminals into a private militia in addition to forming an alliance with the Delgado drug cartel.
-- Since Grey's escape from Ort-Meyer, he had also been tracking 47's career. Knowing of his existence and his M.O, he was able to link together several deaths that were either unsolved or were assumed to have been accidents”
-- “During the gunfight, when it looked like there was no way out, 47 insisted that 6 escape and live his own life, and 6 did so, later assuming the alias Lucas Grey. In the 1990s, Grey became a mercenary for various organizations and participated in conflicts around the world, including the "Black Wasp" Yugoslavia Paramilitary Resistance and "Executive Results" group conducting paramilitary operations in Africa. He also fought in the Chechnya conflict around this time, and in 2002, met his future chief hacker, a young Olivia Hall, during the Sierra Leone Civil War. In the mid-2000s, he was a Munitions Training Associate for the Central America division of "Coastal Products," and would become head of CICADA's on-the-ground operations for their Middle East and Horn of Africa division until roughly 2013.
-- He was next employed as head of security and bodyguard for Milton-Fitzpatrick CEO, Eugene Cobb. After he discovered that Cobb was a Providence operative, he realized that he cannot run forever and decided to wage a war against Providence in an act of vengeance against all they have done. His first target was Cobb, whom
+-   During his vendetta against Providence, he would eventually recruit mercenaries, ex-soldiers, and other criminals into a private militia in addition to forming an alliance with the Delgado drug cartel.
+-   Since Grey's escape from Ort-Meyer, he had also been tracking 47's career. Knowing of his existence and his M.O, he was able to link together several deaths that were either unsolved or were assumed to have been accidents”
+-   “During the gunfight, when it looked like there was no way out, 47 insisted that 6 escape and live his own life, and 6 did so, later assuming the alias Lucas Grey. In the 1990s, Grey became a mercenary for various organizations and participated in conflicts around the world, including the "Black Wasp" Yugoslavia Paramilitary Resistance and "Executive Results" group conducting paramilitary operations in Africa. He also fought in the Chechnya conflict around this time, and in 2002, met his future chief hacker, a young Olivia Hall, during the Sierra Leone Civil War. In the mid-2000s, he was a Munitions Training Associate for the Central America division of "Coastal Products," and would become head of CICADA's on-the-ground operations for their Middle East and Horn of Africa division until roughly 2013.
+-   He was next employed as head of security and bodyguard for Milton-Fitzpatrick CEO, Eugene Cobb. After he discovered that Cobb was a Providence operative, he realized that he cannot run forever and decided to wage a war against Providence in an act of vengeance against all they have done. His first target was Cobb, whom
