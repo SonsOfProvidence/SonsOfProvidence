@@ -1,5 +1,5 @@
 {
-  "scene": "assembly:/_pro/scenes/missions/greedy/mission_raccoon/scene_raccoon_basic.entity",
+  "scene": "assembly:/sonsofprovidence/scene_bank.entity",
   "actors": [],
   "entrances": [
     {
