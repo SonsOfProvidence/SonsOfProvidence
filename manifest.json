@@ -1,11 +1,12 @@
 {
+  "$schema": "https://raw.githubusercontent.com/atampy25/simple-mod-framework/main/Mod%20Manager/src/lib/manifest-schema.json",
   "id": "DannyBierek.SonsOfProvidence",
   "name": "Sons of Providence",
   "description": "This mod tells a tale of two brothers, and their mission to take them all down.",
   "blobsFolders": ["blobs"],
   "authors": ["Danny Bierek"],
-  "frameworkVersion": "2.1.5",
-  "version": "0.39.0",
+  "frameworkVersion": "2.15.1",
+  "version": "0.40.0",
   "contentFolders": ["shared"],
   "options": [
     {
@@ -31,7 +32,7 @@
     },
     {
       "name": "Carpark",
-      "tooltip": "Mission 4: Get the second key",
+      "tooltip": "Mission 4: Get the second key ",
       "type": "checkbox",
       "enabledByDefault": true,
       "contentFolders": ["mission_carpark"]

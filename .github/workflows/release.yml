@@ -1,8 +1,12 @@
 name: Release
 
+permissions:
+  contents: write
+
 on:
   push:
-  workflow_dispatch:
+    branches:
+      - main
 
 jobs:
   build:
@@ -12,13 +16,9 @@ jobs:
     steps:
       - uses: actions/checkout@v2
         with:
+          token: ${{ secrets.SONSOFPROVIDENCERELEASETOKEN }}
           ref: "main"
           fetch-depth: 0
-
-      - name: Prettier Action
-        uses: creyD/prettier_action@v4.3
-        with:
-          prettier_options: --write **/*.json --end-of-line crlf
 
       - name: Create package.json
         run: |
@@ -38,6 +38,23 @@ jobs:
           REPO_URL: ${{ format('https://github.com/{0}.git', github.repository) }}
         run: |
           echo "{\"branches\":[\"main\"],\"plugins\":[[\"@semantic-release/commit-analyzer\",{\"preset\":\"conventionalcommits\",\"releaseRules\":[{\"type\":\"enhancement\",\"release\":\"minor\"}]}], \"semantic-release-export-data\"],\"repositoryUrl\":\"$REPO_URL\",\"tagFormat\":\"\${version}\"}" > .releaserc
+
+      - name: Get first commit
+        id: firstCommit
+        run: echo "FIRST_COMMIT=$(git rev-list --date-order main | tail -1)" >> $GITHUB_OUTPUT
+
+      - uses: mukunku/tag-exists-action@v1.2.0
+        id: checkTag
+        with:
+          tag: "0.1.0"
+
+      - name: Create tag
+        if: ${{ steps.checkTag.outputs.exists == 'false' }}
+        uses: tvdias/github-tagger@v0.0.2
+        with:
+          repo-token: ${{ secrets.GITHUB_TOKEN }}
+          tag: "0.1.0"
+          commit-sha: ${{ steps.firstCommit.outputs.FIRST_COMMIT }}
 
       - name: Get new version
         id: newVersion
@@ -61,11 +78,19 @@ jobs:
           field: "updateCheck"
           value: ${{ format('https://github.com/{0}/releases/latest/download/updates.json', github.repository) }}
 
-      - name: Create tag
+      - name: Format
         if: ${{ steps.newVersion.outputs.new-release-version }}
-        uses: tvdias/github-tagger@v0.0.2
+        uses: actionsx/prettier@v2
         with:
-          repo-token: ${{ secrets.GITHUB_TOKEN }}
+          args: --write .
+
+      - name: Commit changes
+        if: ${{ steps.newVersion.outputs.new-release-version }}
+        uses: EndBug/add-and-commit@v9.1.0
+        with:
+          token: ${{ secrets.SONSOFPROVIDENCERELEASETOKEN }}
+          default_author: github_actions
+          message: "chore: mod update"
           tag: ${{ steps.newVersion.outputs.new-release-version }}
 
       - name: Generate changelog
@@ -74,6 +99,7 @@ jobs:
         uses: loopwerk/tag-changelog@v1.0.4
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
+          config_file: .github/tag-changelog-config.js
           exclude_types: other,docs,chore,build,amend,refactor
 
       - name: Get mod ID
@@ -121,18 +147,3 @@ jobs:
           files: |
             SonsOfProvidence.zip
             updates.json
-
-      - name: Remove files
-        if: ${{ steps.newVersion.outputs.new-release-version }}
-        env:
-          ZIPDIR: ${{ steps.modID.outputs.prop }}
-        run: |
-          rm SonsOfProvidence.zip updates.json
-          rm -rf $ZIPDIR
-
-      - name: Commit changes
-        if: ${{ steps.newVersion.outputs.new-release-version }}
-        uses: EndBug/add-and-commit@v9.1.0
-        with:
-          default_author: github_actions
-          message: "chore: post-update"
