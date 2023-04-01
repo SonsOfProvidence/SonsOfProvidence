@@ -1,254 +1,256 @@
 {
-  "$schema": "https://raw.githubusercontent.com/atampy25/simple-mod-framework/main/Mod%20Manager/src/lib/manifest-schema.json",
-  "id": "DannyBierek.SonsOfProvidence",
-  "name": "Sons of Providence",
-  "description": "This mod tells a tale of two brothers, and their mission to take them all down.",
-  "blobsFolders": ["blobs"],
-  "authors": ["Danny Bierek"],
-  "frameworkVersion": "2.15.1",
-  "version": "0.40.0",
-  "contentFolders": ["shared"],
-  "options": [
-    {
-      "name": "Institute",
-      "tooltip": "Mission 1: Assault the Institute for Human Betterment",
-      "type": "checkbox",
-      "enabledByDefault": true,
-      "contentFolders": ["mission_institute"]
-    },
-    {
-      "name": "Airplane",
-      "tooltip": "Mission 2: Take out Eugene Cobb",
-      "type": "checkbox",
-      "enabledByDefault": true,
-      "contentFolders": ["mission_airplane"]
-    },
-    {
-      "name": "Moscow",
-      "tooltip": "Mission 3: Frame the FSB section chief",
-      "type": "checkbox",
-      "enabledByDefault": true,
-      "contentFolders": ["mission_moscow"]
-    },
-    {
-      "name": "Carpark",
-      "tooltip": "Mission 4: Get the second key ",
-      "type": "checkbox",
-      "enabledByDefault": true,
-      "contentFolders": ["mission_carpark"]
-    },
-    {
-      "name": "Bank",
-      "tooltip": "Mission 6: Raid the Archive",
-      "type": "checkbox",
-      "enabledByDefault": true,
-      "contentFolders": ["mission_bank"]
-    },
-    {
-      "name": "Funeral",
-      "tooltip": "Mission 6: The Thomas Cross Robbery",
-      "type": "checkbox",
-      "enabledByDefault": true,
-      "contentFolders": ["mission_funeral"]
-    },
-    {
-      "name": "Tower",
-      "tooltip": "Mission 10: Take down the comms tower",
-      "type": "checkbox",
-      "enabledByDefault": true,
-      "contentFolders": ["mission_tower"]
-    }
-  ],
-  "dependencies": [
-    {
-      "runtimeID": "0058B401203EDBB7",
-      "comment": "Party Balloons",
-      "toChunk": 26
-    },
-    {
-      "runtimeID": "00C7FD7BF123ACB4",
-      "comment": "Helicopter from S'gail",
-      "toChunk": 0,
-      "portFromChunk1": true
-    },
-    {
-      "runtimeID": "00556FDAF4051EAF",
-      "comment": "Helicopter Hull",
-      "toChunk": 0,
-      "portFromChunk1": true
-    },
-    {
-      "runtimeID": "009B5962B1FCAA8C",
-      "comment": "Lucas Grey's head mesh"
-    },
-    {
-      "runtimeID": "0019481567B9D3B4",
-      "comment": "Lucas Grey Outfit from Romania",
-      "toChunk": 3
-    },
-    {
-      "runtimeID": "008ABB81A585E529",
-      "comment": "747 Airplane"
-    },
-    {
-      "runtimeID": "00ADAE61FA0A0702",
-      "comment": "Doorbell from Italy",
-      "portFromChunk1": true,
-      "toChunk": 0
-    },
-    {
-      "runtimeID": "000CFFB4BB61807E",
-      "comment": "White button up shirt",
-      "portFromChunk1": true,
-      "toChunk": 0
-    },
-    {
-      "runtimeID": "00CDA4A217830BA4",
-      "comment": "Shirt mesh",
-      "portFromChunk1": true,
-      "toChunk": 0
-    },
-    {
-      "runtimeID": "00BEF4B3E5F18248",
-      "comment": "Helicopter door",
-      "portFromChunk1": true,
-      "toChunk": 0
-    },
-    {
-      "runtimeID": "00301343AD550401 ",
-      "comment": "Skyscraper for Ether from Mumbai",
-      "portFromChunk1": true,
-      "toChunk": 0
-    },
-    {
-      "runtimeID": "0068F7EAE4FA38F6",
-      "comment": "Ether Decal Material",
-      "portFromChunk1": true,
-      "toChunk": 0
-    },
-    {
-      "runtimeID": "00777A3A7A34F87A",
-      "comment": "Ether Decal Material 2",
-      "portFromChunk1": true,
-      "toChunk": 0
-    },
-    {
-      "runtimeID": "005758B10E3CA7FE",
-      "comment": "Ether Decal Material 2 TBLU",
-      "portFromChunk1": true,
-      "toChunk": 0
-    }
-  ],
-  "packagedefinition": [
-    {
-      "type": "entity",
-      "partition": "mongoose",
-      "path": "[assembly:/sonsofprovidence/scene_etherhq.entity].entitytemplate"
-    },
-    {
-      "type": "entity",
-      "partition": "mongoose",
-      "path": "[assembly:/sonsofprovidence/outfits_etherhq.entity].entitytype"
-    },
-    {
-      "type": "entity",
-      "partition": "ancestral",
-      "path": "[assembly:/sonsofprovidence/scene_institute.entity].entitytemplate"
-    },
-    {
-      "type": "entity",
-      "partition": "ancestral",
-      "path": "[assembly:/sonsofprovidence/outfits_institute.entity].entitytype"
-    },
-    {
-      "type": "entity",
-      "partition": "coastaltown",
-      "path": "[assembly:/sonsofprovidence/scene_funeral.entity].entitytemplate"
-    },
-    {
-      "type": "entity",
-      "partition": "marrakesh",
-      "path": "[assembly:/sonsofprovidence/scene_carpark.entity].entitytemplate"
-    },
-    {
-      "type": "entity",
-      "partition": "coastaltown",
-      "path": "[assembly:/sonsofprovidence/outfits_funeral.entity].entitytype"
-    },
-    {
-      "type": "entity",
-      "partition": "super",
-      "path": "[assembly:/sonsofprovidence/scene_airplane.entity].entitytemplate"
-    },
-    {
-      "type": "entity",
-      "partition": "greedy",
-      "path": "[assembly:/sonsofprovidence/scene_bank.entity].entitytemplate"
-    },
-    {
-      "type": "entity",
-      "partition": "super",
-      "path": "[assembly:/sonsofprovidence/airplane/outfits_airplane.entity].entitytype"
-    },
-    {
-      "type": "entity",
-      "partition": "caged",
-      "path": "[assembly:/sonsofprovidence/scene_moscow.entity].entitytemplate"
-    },
-    {
-      "type": "entity",
-      "partition": "edgy",
-      "path": "[assembly:/sonsofprovidence/scene_tower.entity].entitytemplate"
-    },
-    {
-      "type": "entity",
-      "partition": "super",
-      "path": "[assembly:/sonsofprovidence/shared/global_outfits.brick].entitytype"
-    }
-  ],
-  "localisation": {
-    "english": {
-      "UI_SONS_OF_PROVIDENCE": "Sons of Providence",
-      "UI_DBIEREK": "Danny Bierek",
-      "DESC_DARTMOOR": "47 and I attacked the Institute for Human Betterment but were repelled. 47 is buying time for my escape.",
-      "UI_DARTMOOR_TITLE": "Escape from the Institute",
-      "DESC_DUBAI": "I've learned that Eugene Cobb is a member of Providence. It's time to begin taking them all down, starting with Eugene Cobb, who holds one of two keys needed to open the Providence archive.",
-      "UI_DUBAI_TITLE": "Grey's Revenge Begins",
-      "UI_DUBAI_TARGET_BRIEFING": "Eugene Cobb",
-      "DESC_SIBERIA": "I've convinced Viktor Novikov to give me the Secrets of the Global Elites document in exchange for eliminating the FSB Section Chief Nicholai Kamarov. I'm heading to Moscow to FSB headquarters now.",
-      "UI_SIBERIA_TITLE": "Collateral Damage",
-      "DESC_MARRAKESH": "I've tracked the Providence Herald for the Ether Biotech Corporation, Hajun, to the Ether parking garage in Johannesburg. Hajun holds the other key needed to open the Providence archive.",
-      "UI_MARRAKESH_TITLE": "The Keys to the Kingdom",
-      "DESC_NEWYORK": "Heading to the Providence Archive at the Milton-Fitzpatrick bank in New York City with both Providence Archive keys, I plan to leave with all of Providence's secrets.",
-      "UI_NEWYORK_TITLE": "Know Thy Enemy",
-      "DESC_SAPIENZA": "After learning that Thomas Cross, CEO of Cross Holdings, is an operative of Providence, and tasking 47 to take out his son, Jordan, I'm travelling to New York City to capture Thomas Cross at his son's funeral.",
-      "UI_SAPIENZA_TITLE": "The Mogul's Bankroll",
-      "DESC_COLORADO": "I am conferring with my militia lieutenants to ensure that our plans are going smoothly.",
-      "UI_COLORADO_TITLE": "The Phantom of Colorado",
-      "DESC_MUMBAI": "47 is taking out some of my best lieutenants. I need to retrieve the memory wiping antidote from Ether Headquarters in Johannesburg and convince him to remember.",
-      "UI_MUMBAI_TITLE": "A Desperate Play",
-      "UI_MUMBAI_TARGET_BRIEFING": "Ether Scientist",
-      "DESC_SGAIL": "47 has eliminated the Washington sisters and stashed the Kill Switch. I need to retrieve it and capture the Constant.",
-      "UI_SGAIL_TITLE": "Capturing the Constant",
-      "DESC_BERLIN": "I need to capture the communications center for Madame Carlisle's estate house to help 47 eliminate Madame Carlisle and capture information about the Constant.",
-      "UI_BERLIN_TITLE": "Isolating Madame Carlisle",
-      "DESC_HOK_TEST": "I am Lucas Grey.\r\rMy target is Haru Takahashi.\r\rThe Nabazov Virus rages.\r\rI shall prepare.  ",
-      "UI_HOKKAIDO_TITLE": "Hokkaido Test Mission",
-      "ui_starting_location_mumbai_ether_lab_default_name": "Roof of Ether Headquarters, Johannesburg, South Africa",
-      "ui_starting_location_mumbai_ether_lab_desc": "I have landed on the roof of Ether Headquarters",
-      "ui_starting_location_dartmoor_institute_default_name": "The Institute for Human Betterment, Brasov, Romania",
-      "ui_starting_location_dartmoor_institute_desc": "47 and I have returned to the Institute for Human Betterment after our last mission.",
-      "ui_starting_location_siberia_moscow_default_name": "FSB Headquarters, Moscow, Russia",
-      "ui_starting_location_siberia_moscow_desc": "I have infiltrated the perimeter of the FSB Headquarters in Moscow.",
-      "ui_starting_location_dubai_airplane_default_name": "Eugene Cobb's private jet, Pacific Ocean",
-      "ui_starting_location_dubai_airplane_desc": "I am on a flight with Eugene Cobb on his private jet.",
-      "ui_starting_location_marrakesh_courtyard_default_name": "Outside Ether Headquarters, Johannesburg, South Africa",
-      "ui_starting_location_marrakesh_courtyard_desc": "I've made my way to Johannesburg, and have positioned myself near Ether's Headquarters building.",
-      "ui_starting_location_sapienza_apartment_default_name": "Hotel Room, New York City, USA",
-      "ui_starting_location_sapienza_apartment_desc": "I've rented a room overlooking the courtyard helipad near the church.",
-      "ui_starting_location_berlin_road_default_name": "Near Communications Tower, Dartmoor, England",
-      "ui_starting_location_berlin_road_desc": "I've made my way to the communications tower for Madame Carlisle's security detail."
-    }
-  },
-  "updateCheck": "https://github.com/dbierek/SonsOfProvidence/releases/latest/download/updates.json"
+	"$schema": "https://raw.githubusercontent.com/atampy25/simple-mod-framework/main/Mod%20Manager/src/lib/manifest-schema.json",
+	"id": "DannyBierek.SonsOfProvidence",
+	"name": "Sons of Providence",
+	"description": "This mod tells a tale of two brothers, and their mission to take them all down.",
+	"blobsFolders": ["blobs"],
+	"authors": ["Danny Bierek"],
+	"frameworkVersion": "2.15.1",
+	"version": "0.40.0",
+	"contentFolders": ["shared"],
+	"options": [
+		{
+			"name": "Institute",
+			"tooltip": "Mission 1: Assault the Institute for Human Betterment",
+			"type": "checkbox",
+			"enabledByDefault": true,
+			"contentFolders": ["mission_institute"]
+		},
+		{
+			"name": "Airplane",
+			"tooltip": "Mission 2: Take out Eugene Cobb",
+			"type": "checkbox",
+			"enabledByDefault": true,
+			"contentFolders": ["mission_airplane"]
+		},
+		{
+			"name": "Moscow",
+			"tooltip": "Mission 3: Frame the FSB section chief",
+			"type": "checkbox",
+			"enabledByDefault": true,
+			"contentFolders": ["mission_moscow"]
+		},
+		{
+			"name": "Carpark",
+			"tooltip": "Mission 4: Get the second key ",
+			"type": "checkbox",
+			"enabledByDefault": true,
+			"contentFolders": ["mission_carpark"]
+		},
+		{
+			"name": "Bank",
+			"tooltip": "Mission 6: Raid the Archive",
+			"type": "checkbox",
+			"enabledByDefault": true,
+			"contentFolders": ["mission_bank"]
+		},
+		{
+			"name": "Funeral",
+			"tooltip": "Mission 6: The Thomas Cross Robbery",
+			"type": "checkbox",
+			"enabledByDefault": true,
+			"contentFolders": ["mission_funeral"]
+		},
+		{
+			"name": "Tower",
+			"tooltip": "Mission 10: Take down the comms tower",
+			"type": "checkbox",
+			"enabledByDefault": true,
+			"contentFolders": ["mission_tower"]
+		}
+	],
+	"dependencies": [
+		{
+			"runtimeID": "0058B401203EDBB7",
+			"comment": "Party Balloons",
+			"toChunk": 26
+		},
+		{
+			"runtimeID": "00C7FD7BF123ACB4",
+			"comment": "Helicopter from S'gail",
+			"toChunk": 0,
+			"portFromChunk1": true
+		},
+		{
+			"runtimeID": "00556FDAF4051EAF",
+			"comment": "Helicopter Hull",
+			"toChunk": 0,
+			"portFromChunk1": true
+		},
+		{
+			"runtimeID": "009B5962B1FCAA8C",
+			"comment": "Lucas Grey's head mesh"
+		},
+		{
+			"runtimeID": "0019481567B9D3B4",
+			"comment": "Lucas Grey Outfit from Romania",
+			"toChunk": 3
+		},
+		{
+			"runtimeID": "008ABB81A585E529",
+			"comment": "747 Airplane"
+		},
+		{
+			"runtimeID": "00ADAE61FA0A0702",
+			"comment": "Doorbell from Italy",
+			"portFromChunk1": true,
+			"toChunk": 0
+		},
+		{
+			"runtimeID": "000CFFB4BB61807E",
+			"comment": "White button up shirt",
+			"portFromChunk1": true,
+			"toChunk": 0
+		},
+		{
+			"runtimeID": "00CDA4A217830BA4",
+			"comment": "Shirt mesh",
+			"portFromChunk1": true,
+			"toChunk": 0
+		},
+		{
+			"runtimeID": "00BEF4B3E5F18248",
+			"comment": "Helicopter door",
+			"portFromChunk1": true,
+			"toChunk": 0
+		},
+		{
+			"runtimeID": "00301343AD550401 ",
+			"comment": "Skyscraper for Ether from Mumbai",
+			"portFromChunk1": true,
+			"toChunk": 0
+		},
+		{
+			"runtimeID": "0068F7EAE4FA38F6",
+			"comment": "Ether Decal Material",
+			"portFromChunk1": true,
+			"toChunk": 0
+		},
+		{
+			"runtimeID": "00777A3A7A34F87A",
+			"comment": "Ether Decal Material 2",
+			"portFromChunk1": true,
+			"toChunk": 0
+		},
+		{
+			"runtimeID": "005758B10E3CA7FE",
+			"comment": "Ether Decal Material 2 TBLU",
+			"portFromChunk1": true,
+			"toChunk": 0
+		}
+	],
+	"packagedefinition": [
+		{
+			"type": "entity",
+			"partition": "mongoose",
+			"path": "[assembly:/sonsofprovidence/scene_etherhq.entity].entitytemplate"
+		},
+		{
+			"type": "entity",
+			"partition": "mongoose",
+			"path": "[assembly:/sonsofprovidence/outfits_etherhq.entity].entitytype"
+		},
+		{
+			"type": "entity",
+			"partition": "ancestral",
+			"path": "[assembly:/sonsofprovidence/scene_institute.entity].entitytemplate"
+		},
+		{
+			"type": "entity",
+			"partition": "ancestral",
+			"path": "[assembly:/sonsofprovidence/outfits_institute.entity].entitytype"
+		},
+		{
+			"type": "entity",
+			"partition": "coastaltown",
+			"path": "[assembly:/sonsofprovidence/scene_funeral.entity].entitytemplate"
+		},
+		{
+			"type": "entity",
+			"partition": "marrakesh",
+			"path": "[assembly:/sonsofprovidence/scene_carpark.entity].entitytemplate"
+		},
+		{
+			"type": "entity",
+			"partition": "coastaltown",
+			"path": "[assembly:/sonsofprovidence/outfits_funeral.entity].entitytype"
+		},
+		{
+			"type": "entity",
+			"partition": "super",
+			"path": "[assembly:/sonsofprovidence/scene_airplane.entity].entitytemplate"
+		},
+		{
+			"type": "entity",
+			"partition": "greedy",
+			"path": "[assembly:/sonsofprovidence/scene_bank.entity].entitytemplate"
+		},
+		{
+			"type": "entity",
+			"partition": "super",
+			"path": "[assembly:/sonsofprovidence/airplane/outfits_airplane.entity].entitytype"
+		},
+		{
+			"type": "entity",
+			"partition": "caged",
+			"path": "[assembly:/sonsofprovidence/scene_moscow.entity].entitytemplate"
+		},
+		{
+			"type": "entity",
+			"partition": "edgy",
+			"path": "[assembly:/sonsofprovidence/scene_tower.entity].entitytemplate"
+		},
+		{
+			"type": "entity",
+			"partition": "super",
+			"path": "[assembly:/sonsofprovidence/shared/global_outfits.brick].entitytype"
+		}
+	],
+	"localisation": {
+		"english": {
+			"UI_SONS_OF_PROVIDENCE": "Sons of Providence",
+			"UI_DBIEREK": "Danny Bierek",
+			"DESC_DARTMOOR": "47 and I attacked the Institute for Human Betterment but were repelled. 47 is buying time for my escape.",
+			"UI_DARTMOOR_TITLE": "Escape from the Institute",
+			"DESC_DUBAI": "I've learned that Eugene Cobb is a member of Providence. It's time to begin taking them all down, starting with Eugene Cobb, who holds one of two keys needed to open the Providence archive.",
+			"UI_DUBAI_TITLE": "Grey's Revenge Begins",
+			"UI_DUBAI_TARGET_BRIEFING": "Eugene Cobb",
+			"DESC_SIBERIA": "I've convinced Viktor Novikov to give me the Secrets of the Global Elites document in exchange for eliminating the FSB Section Chief Nicholai Kamarov. I'm heading to Moscow to FSB headquarters now.",
+			"UI_SIBERIA_TITLE": "Collateral Damage",
+			"DESC_MARRAKESH": "I've tracked the Providence Herald for the Ether Biotech Corporation, Hajun, to the Ether parking garage in Johannesburg. Hajun holds the other key needed to open the Providence archive.",
+			"UI_MARRAKESH_TITLE": "The Keys to the Kingdom",
+			"DESC_NEWYORK": "Heading to the Providence Archive at the Milton-Fitzpatrick bank in New York City with both Providence Archive keys, I plan to leave with all of Providence's secrets.",
+			"UI_NEWYORK_TITLE": "Know Thy Enemy",
+			"DESC_SAPIENZA": "After learning that Thomas Cross, CEO of Cross Holdings, is an operative of Providence, and tasking 47 to take out his son, Jordan, I'm travelling to New York City to capture Thomas Cross at his son's funeral.",
+			"UI_SAPIENZA_TITLE": "The Mogul's Bankroll",
+			"DESC_COLORADO": "I am conferring with my militia lieutenants to ensure that our plans are going smoothly.",
+			"UI_COLORADO_TITLE": "The Phantom of Colorado",
+			"DESC_MUMBAI": "47 is taking out some of my best lieutenants. I need to retrieve the memory wiping antidote from Ether Headquarters in Johannesburg and convince him to remember.",
+			"UI_MUMBAI_TITLE": "A Desperate Play",
+			"UI_MUMBAI_TARGET_BRIEFING": "Ether Scientist",
+			"DESC_SGAIL": "47 has eliminated the Washington sisters and stashed the Kill Switch. I need to retrieve it and capture the Constant.",
+			"UI_SGAIL_TITLE": "Capturing the Constant",
+			"DESC_BERLIN": "I need to capture the communications center for Madame Carlisle's estate house to help 47 eliminate Madame Carlisle and capture information about the Constant.",
+			"UI_BERLIN_TITLE": "Isolating Madame Carlisle",
+			"DESC_HOK_TEST": "I am Lucas Grey.\r\rMy target is Haru Takahashi.\r\rThe Nabazov Virus rages.\r\rI shall prepare.  ",
+			"UI_HOKKAIDO_TITLE": "Hokkaido Test Mission",
+			"ui_starting_location_mumbai_ether_lab_default_name": "Roof of Ether Headquarters, Johannesburg, South Africa",
+			"ui_starting_location_mumbai_ether_lab_desc": "I have landed on the roof of Ether Headquarters",
+			"ui_starting_location_dartmoor_institute_default_name": "The Institute for Human Betterment, Brasov, Romania",
+			"ui_starting_location_dartmoor_institute_desc": "47 and I have returned to the Institute for Human Betterment after our last mission.",
+			"ui_starting_location_siberia_moscow_default_name": "FSB Headquarters, Moscow, Russia",
+			"ui_starting_location_siberia_moscow_desc": "I have infiltrated the perimeter of the FSB Headquarters in Moscow.",
+			"ui_starting_location_dubai_airplane_default_name": "Eugene Cobb's private jet, Pacific Ocean",
+			"ui_starting_location_dubai_airplane_desc": "I am on a flight with Eugene Cobb on his private jet.",
+			"ui_starting_location_marrakesh_courtyard_default_name": "Outside Ether Headquarters, Johannesburg, South Africa",
+			"ui_starting_location_marrakesh_courtyard_desc": "I've made my way to Johannesburg, and have positioned myself near Ether's Headquarters building.",
+			"ui_starting_location_sapienza_apartment_default_name": "Hotel Room, New York City, USA",
+			"ui_starting_location_sapienza_apartment_desc": "I've rented a room overlooking the courtyard helipad near the church.",
+			"ui_starting_location_berlin_road_default_name": "Near Communications Tower, Dartmoor, England",
+			"ui_starting_location_berlin_road_desc": "I've made my way to the communications tower for Madame Carlisle's security detail.",
+			"ui_starting_location_newyork_garage_default_name": "Garage of Milton-Fitzpatrick Bank, New York, USA",
+			"ui_starting_location_newyork_garage_desc": "I've infiltrated the garage at the Milton-Fitzpatrick Bank."
+		}
+	},
+	"updateCheck": "https://github.com/dbierek/SonsOfProvidence/releases/latest/download/updates.json"
 }

@@ -148,6 +148,27 @@
 		},
 		"Rarity": null
 	},
+	"STARTING_LOCATION_NEWYORK_GARAGE": {
+		"Id": "STARTING_LOCATION_NEWYORK_GARAGE",
+		"Guid": "266e82dd-8e37-4564-bbae-3bbcbf84a1db",
+		"Type": "access",
+		"Subtype": "startinglocation",
+		"ImageId": null,
+		"RMTPrice": -1,
+		"GamePrice": -1,
+		"IsPurchasable": false,
+		"IsPublished": true,
+		"IsDroppable": false,
+		"Capabilities": [],
+		"Qualities": {},
+		"Properties": {
+			"Location": "LOCATION_GREEDY_RACCOON",
+			"RepositoryId": "8e2bdc62-905d-43c1-8d91-3dceb8506a77",
+			"Equip": ["TOKEN_OUTFIT_LUCAS_GREY"],
+			"UnlockOrder": 3
+		},
+		"Rarity": null
+	},
 	"PACKAGE_STARTING_PACKAGE": {
 		"Properties": {
 			"Unlocks": [
@@ -157,7 +178,8 @@
 				"STARTING_LOCATION_AIRPLANE_SEAT",
 				"STARTING_LOCATION_MOSCOW_OUTSIDE",
 				"STARTING_LOCATION_DARTMOOR_OUTSIDE",
-				"STARTING_LOCATION_BERLIN_OUTSIDE"
+				"STARTING_LOCATION_BERLIN_OUTSIDE",
+				"STARTING_LOCATION_NEWYORK_GARAGE"
 			]
 		}
 	}

@@ -1,55 +1,55 @@
 {
-  "file": "0093B70B9E704CE0",
-  "type": "JSON",
-  "patch": [
-    {
-      "op": "add",
-      "path": "/0",
-      "value": {
-        "Name": "UI_SONS_OF_PROVIDENCE",
-        "Image": "",
-        "Type": "mission",
-        "Properties": {
-          "BackgroundImage": "images/dbierek/dbierek_tile.jpg"
-        },
-        "StoryData": [
-          {
-            "Type": "Mission",
-            "Id": "179563a4-727a-4072-b354-c9fff4e8bff2",
-            "_comment": "Institute Mission"
-          },
-          {
-            "Type": "Mission",
-            "Id": "179563a4-727a-4072-b354-c9fff4e8bff4",
-            "_comment": "Airplane Mission"
-          },
-          {
-            "Type": "Mission",
-            "Id": "179563a4-727a-4072-b354-c9fff4e8bff3",
-            "_comment": "Moscow Mission"
-          },
-          {
-            "Type": "Mission",
-            "Id": "179563a4-727a-4072-b354-c9fff4e8bff5",
-            "_comment": "Carpark Mission"
-          },
-          {
-            "Type": "Mission",
-            "Id": "179563a4-727a-4072-b354-c9fff4e8bff6",
-            "_comment": "Bank Mission"
-          },
-          {
-            "Type": "Mission",
-            "Id": "179563a4-727a-4072-b354-c9fff4e8bff1",
-            "_comment": "Funeral Mission"
-          },
-          {
-            "Type": "Mission",
-            "Id": "712b1b97-009d-46cf-919d-e7b0144d6d92",
-            "_comment": "Tower Mission"
-          }
-        ]
-      }
-    }
-  ]
+	"file": "0093B70B9E704CE0",
+	"type": "JSON",
+	"patch": [
+		{
+			"op": "add",
+			"path": "/0",
+			"value": {
+				"Name": "UI_SONS_OF_PROVIDENCE",
+				"Image": "",
+				"Type": "mission",
+				"Properties": {
+					"BackgroundImage": "images/dbierek/dbierek_tile.jpg"
+				},
+				"StoryData": [
+					{
+						"Type": "Mission",
+						"Id": "179563a4-727a-4072-b354-c9fff4e8bff2",
+						"_comment": "Institute Mission"
+					},
+					{
+						"Type": "Mission",
+						"Id": "179563a4-727a-4072-b354-c9fff4e8bff4",
+						"_comment": "Airplane Mission"
+					},
+					{
+						"Type": "Mission",
+						"Id": "179563a4-727a-4072-b354-c9fff4e8bff3",
+						"_comment": "Moscow Mission"
+					},
+					{
+						"Type": "Mission",
+						"Id": "179563a4-727a-4072-b354-c9fff4e8bff5",
+						"_comment": "Carpark Mission"
+					},
+					{
+						"Type": "Mission",
+						"Id": "eb4c2ed8-eebc-4fed-804f-d822a8c55428",
+						"_comment": "Bank Mission"
+					},
+					{
+						"Type": "Mission",
+						"Id": "179563a4-727a-4072-b354-c9fff4e8bff1",
+						"_comment": "Funeral Mission"
+					},
+					{
+						"Type": "Mission",
+						"Id": "712b1b97-009d-46cf-919d-e7b0144d6d92",
+						"_comment": "Tower Mission"
+					}
+				]
+			}
+		}
+	]
 }
