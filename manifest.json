@@ -115,7 +115,7 @@
 			"toChunk": 0
 		},
 		{
-			"runtimeID": "00301343AD550401 ",
+			"runtimeID": "00301343AD550401",
 			"comment": "Skyscraper for Ether from Mumbai",
 			"portFromChunk1": true,
 			"toChunk": 0
@@ -135,6 +135,12 @@
 		{
 			"runtimeID": "005758B10E3CA7FE",
 			"comment": "Ether Decal Material 2 TBLU",
+			"portFromChunk1": true,
+			"toChunk": 0
+		},
+		{
+			"runtimeID": "002CEFEB054A45B4",
+			"comment": "Cinematics Outfits from Romania",
 			"portFromChunk1": true,
 			"toChunk": 0
 		}
@@ -204,6 +210,11 @@
 			"type": "entity",
 			"partition": "super",
 			"path": "[assembly:/sonsofprovidence/shared/global_outfits.brick].entitytype"
+		},
+		{
+			"type": "entity",
+			"partition": "season3",
+			"path": "[assembly:/_pro/scenes/users/notex/outfit_showcase.entity].entitytemplate"
 		}
 	],
 	"localisation": {

@@ -32,6 +32,14 @@
 		"ioiString": "[assembly:/sonsofprovidence/scene_tower.entity].pc_entityblueprint"
 	},
 	{
+		"hash": "00E71CE2EB2C372A",
+		"ioiString": "[assembly:/_pro/scenes/users/notex/outfit_showcase.entity].pc_entitytemplate"
+	},
+	{
+		"hash": "0043EDC991441D46",
+		"ioiString": "[assembly:/_pro/scenes/users/notex/outfit_showcase.entity].pc_entityblueprint"
+	},
+	{
 		"hash": "00581D13D5849A2A",
 		"ioiString": "[assembly:/sonsofprovidence/scene_bank.entity].pc_entitytemplate"
 	},

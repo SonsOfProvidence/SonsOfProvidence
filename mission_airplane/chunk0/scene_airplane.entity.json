@@ -526,16 +526,9 @@
 						"position": { "x": -48.60146, "y": 22.852476, "z": 53.9 }
 					}
 				},
-				"m_sId": {
-					"type": "ZGuid",
-					"value": "fb75a371-8a8a-46ca-4747-123416018db6"
-				},
+				"m_sId": { "type": "ZGuid", "value": "fb75a371-8a8a-46ca-4747-123416018db6" },
 				"m_bDefaultHeroSpawn": { "type": "bool", "value": true },
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "fffffffffffffffe",
-					"postInit": true
-				}
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "fffffffffffffffe", "postInit": true }
 			},
 			"factory": "[assembly:/_pro/design/levelflow.template?/herospawn.entitytemplate].pc_entitytype",
 			"events": { "OnSpawn": { "SetTrue": ["feedf259c6f7b8ce"] } }
@@ -550,30 +543,14 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": { "x": 0, "y": 0, "z": 179.78599976426275 },
-						"position": {
-							"x": -49.56146011352539,
-							"y": 24.505949783325196,
-							"z": 54.050838470458984
-						}
+						"position": { "x": -49.56146011352539, "y": 24.505949783325196, "z": 54.050838470458984 }
 					}
 				},
-				"m_sId": {
-					"type": "ZGuid",
-					"value": "fc58abee-40e9-41b0-bf17-3b6caecfe5d9"
-				},
+				"m_sId": { "type": "ZGuid", "value": "fc58abee-40e9-41b0-bf17-3b6caecfe5d9" },
 				"Manual_Exit_Trigger_Needed": { "type": "bool", "value": true },
-				"name_metricvalue": {
-					"type": "ZString",
-					"value": "Exit_Gecko_ExitName"
-				},
-				"m_aUIHighlightGeom": {
-					"type": "TArray<SEntityTemplateReference>",
-					"value": ["feeda0bad13b474f"]
-				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "fffffffffffffffe"
-				}
+				"name_metricvalue": { "type": "ZString", "value": "Exit_Gecko_ExitName" },
+				"m_aUIHighlightGeom": { "type": "TArray<SEntityTemplateReference>", "value": ["feeda0bad13b474f"] },
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "fffffffffffffffe" }
 			},
 			"events": { "Exit": { "StartExitSequence": ["feedefbe8f1f2e63"] } }
 		},
@@ -595,18 +572,10 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": { "x": 0, "y": 0, "z": 0 },
-						"position": {
-							"x": 841.7545776367188,
-							"y": 0,
-							"z": 2284.632080078125
-						}
+						"position": { "x": 841.7545776367188, "y": 0, "z": 2284.632080078125 }
 					}
 				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "fffffffffffffffe",
-					"postInit": true
-				}
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "fffffffffffffffe", "postInit": true }
 			}
 		},
 		"feeda0bad13b474f": {
@@ -615,34 +584,16 @@
 			"factory": "0055A2283F0F173F",
 			"blueprint": "00857B1285D5C085",
 			"properties": {
-				"m_ResourceID": {
-					"type": "ZRuntimeResourceID",
-					"value": { "resource": "0057AA47F0ACC8A9", "flag": "5F" }
-				},
+				"m_ResourceID": { "type": "ZRuntimeResourceID", "value": { "resource": "0057AA47F0ACC8A9", "flag": "5F" } },
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": {
-							"x": 31.367614759276933,
-							"y": -0.00011459159911637813,
-							"z": 173.11799746998352
-						},
-						"position": {
-							"x": -49.56146011352539,
-							"y": 26.505949783325196,
-							"z": 54.050838470458984
-						}
+						"rotation": { "x": 31.367614759276933, "y": -0.00011459159911637813, "z": 173.11799746998352 },
+						"position": { "x": -49.56146011352539, "y": 26.505949783325196, "z": 54.050838470458984 }
 					}
 				},
-				"m_eRoomBehaviour": {
-					"type": "ZSpatialEntity.ERoomBehaviour",
-					"value": "ROOM_DYNAMIC"
-				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "fffffffffffffffe",
-					"postInit": true
-				}
+				"m_eRoomBehaviour": { "type": "ZSpatialEntity.ERoomBehaviour", "value": "ROOM_DYNAMIC" },
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "fffffffffffffffe", "postInit": true }
 			}
 		},
 		"feedfb781fc57a6e": {
@@ -660,33 +611,15 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": {
-							"x": 173.69978784674316,
-							"y": -5.0617908151782345,
-							"z": 133.35679469942465
-						},
-						"position": {
-							"x": -48.56146011352539,
-							"y": 24.205949783325195,
-							"z": 54.050838470458984
-						}
+						"rotation": { "x": 173.69978784674316, "y": -5.0617908151782345, "z": 133.35679469942465 },
+						"position": { "x": -48.56146011352539, "y": 24.205949783325195, "z": 54.050838470458984 }
 					}
 				},
-				"m_PrimitiveScale": {
-					"type": "SVector3",
-					"value": { "x": 3, "y": 3, "z": 1 }
-				},
-				"m_eRoomBehaviour": {
-					"type": "ZSpatialEntity.ERoomBehaviour",
-					"value": "ROOM_DYNAMIC"
-				},
+				"m_PrimitiveScale": { "type": "SVector3", "value": { "x": 3, "y": 3, "z": 1 } },
+				"m_eRoomBehaviour": { "type": "ZSpatialEntity.ERoomBehaviour", "value": "ROOM_DYNAMIC" },
 				"m_bRemovePhysics": { "type": "bool", "value": true },
 				"m_bVisible": { "type": "bool", "value": false },
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "fffffffffffffffe",
-					"postInit": true
-				}
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "fffffffffffffffe", "postInit": true }
 			}
 		},
 		"feed7ce3b85366a7": {
@@ -699,23 +632,12 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": { "x": 0, "y": 0, "z": 0 },
-						"position": {
-							"x": -49.56146011352539,
-							"y": 26.505949783325196,
-							"z": 54.050838470458984
-						}
+						"position": { "x": -49.56146011352539, "y": 26.505949783325196, "z": 54.050838470458984 }
 					}
 				},
-				"m_eRoomBehaviour": {
-					"type": "ZSpatialEntity.ERoomBehaviour",
-					"value": "ROOM_DYNAMIC"
-				},
+				"m_eRoomBehaviour": { "type": "ZSpatialEntity.ERoomBehaviour", "value": "ROOM_DYNAMIC" },
 				"m_bVisible": { "type": "bool", "value": false },
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "fffffffffffffffe",
-					"postInit": true
-				}
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "fffffffffffffffe", "postInit": true }
 			}
 		},
 		"feed335c682384ec": {
@@ -725,10 +647,7 @@
 			"blueprint": "[modules:/zherooutfitmodifier.class].pc_entityblueprint",
 			"properties": {
 				"m_bIgnoreOutifChange": { "type": "bool", "value": true },
-				"m_RepositoryId": {
-					"type": "ZGuid",
-					"value": "b40a74a0-91a2-490d-8806-3ccfc852c82b"
-				},
+				"m_RepositoryId": { "type": "ZGuid", "value": "b40a74a0-91a2-490d-8806-3ccfc852c82b" },
 				"m_rHitmanCharacter": {
 					"type": "SEntityTemplateReference",
 					"value": {
@@ -748,33 +667,15 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": {
-							"x": 12.065631978804351,
-							"y": 17.299639878035666,
-							"z": 39.14928550205029
-						},
-						"position": {
-							"x": -48.56146011352539,
-							"y": 24.205949783325195,
-							"z": 54.050838470458984
-						}
+						"rotation": { "x": 12.065631978804351, "y": 17.299639878035666, "z": 39.14928550205029 },
+						"position": { "x": -48.56146011352539, "y": 24.205949783325195, "z": 54.050838470458984 }
 					}
 				},
-				"m_PrimitiveScale": {
-					"type": "SVector3",
-					"value": { "x": 3, "y": 3, "z": 1 }
-				},
-				"m_eRoomBehaviour": {
-					"type": "ZSpatialEntity.ERoomBehaviour",
-					"value": "ROOM_DYNAMIC"
-				},
+				"m_PrimitiveScale": { "type": "SVector3", "value": { "x": 3, "y": 3, "z": 1 } },
+				"m_eRoomBehaviour": { "type": "ZSpatialEntity.ERoomBehaviour", "value": "ROOM_DYNAMIC" },
 				"m_bRemovePhysics": { "type": "bool", "value": true },
 				"m_bVisible": { "type": "bool", "value": false },
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "fffffffffffffffe",
-					"postInit": true
-				}
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "fffffffffffffffe", "postInit": true }
 			}
 		},
 		"feedb68c0292cb21": {
@@ -787,22 +688,11 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": { "x": 0, "y": -1.515489373957746e-22, "z": 0 },
-						"position": {
-							"x": -49.56146011352539,
-							"y": 26.505949783325196,
-							"z": 54.050838470458984
-						}
+						"position": { "x": -49.56146011352539, "y": 26.505949783325196, "z": 54.050838470458984 }
 					}
 				},
-				"LookAtWorldUp": {
-					"type": "TArray<SEntityTemplateReference>",
-					"value": ["feed600d7198364c"]
-				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "feed99db02d9ca68",
-					"postInit": true
-				}
+				"LookAtWorldUp": { "type": "TArray<SEntityTemplateReference>", "value": ["feed600d7198364c"] },
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "feed99db02d9ca68", "postInit": true }
 			},
 			"events": { "OnHit": { "Detach": ["feed600d7198364c"] } }
 		},
@@ -816,18 +706,10 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": { "x": 0, "y": 0, "z": -73.00000033978785 },
-						"position": {
-							"x": -48.56146011352539,
-							"y": 24.205949783325195,
-							"z": 54.050838470458984
-						}
+						"position": { "x": -48.56146011352539, "y": 24.205949783325195, "z": 54.050838470458984 }
 					}
 				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "fffffffffffffffe",
-					"postInit": true
-				}
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "fffffffffffffffe", "postInit": true }
 			}
 		},
 		"feeda62203698117": {
@@ -837,24 +719,12 @@
 			"blueprint": "[modules:/zsequenceentity.class].pc_entityblueprint",
 			"properties": {
 				"m_duration": { "type": "ZGameTime", "value": { "m_nTicks": 2062200 } },
-				"m_sequenceOrigin": {
-					"type": "SEntityTemplateReference",
-					"value": "feedc267ac6fb3da"
-				},
-				"m_eLetterBoxAspect": {
-					"type": "ZSequenceEntity.ELetterBoxAspect",
-					"value": "LETTERBOXASPECT_CINEMASCOPE"
-				},
+				"m_sequenceOrigin": { "type": "SEntityTemplateReference", "value": "feedc267ac6fb3da" },
+				"m_eLetterBoxAspect": { "type": "ZSequenceEntity.ELetterBoxAspect", "value": "LETTERBOXASPECT_CINEMASCOPE" },
 				"m_bLetterbox": { "type": "bool", "value": true },
-				"m_letterboxFadeOut": {
-					"type": "ZGameTime",
-					"value": { "m_nTicks": 1048576 }
-				},
+				"m_letterboxFadeOut": { "type": "ZGameTime", "value": { "m_nTicks": 1048576 } },
 				"m_bFadeOutBeforeEnd": { "type": "bool", "value": false },
-				"m_startTime": {
-					"type": "ZGameTime",
-					"value": { "m_nTicks": 3180680 }
-				},
+				"m_startTime": { "type": "ZGameTime", "value": { "m_nTicks": 3180680 } },
 				"m_aTracksAndGroups": {
 					"type": "TArray<SEntityTemplateReference>",
 					"value": [
@@ -890,16 +760,9 @@
 			"properties": {
 				"m_mTransform": {
 					"type": "SMatrix43",
-					"value": {
-						"rotation": { "x": 0, "y": -90, "z": 0 },
-						"position": { "x": 0, "y": 0, "z": 0 }
-					}
+					"value": { "rotation": { "x": 0, "y": -90, "z": 0 }, "position": { "x": 0, "y": 0, "z": 0 } }
 				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "feed4d3e46b2effb",
-					"postInit": true
-				}
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "feed4d3e46b2effb", "postInit": true }
 			}
 		},
 		"feedc1a351324b40": {
@@ -909,19 +772,10 @@
 			"blueprint": "[modules:/zsequenceentity.class].pc_entityblueprint",
 			"properties": {
 				"m_duration": { "type": "ZGameTime", "value": { "m_nTicks": 2481630 } },
-				"m_sequenceOrigin": {
-					"type": "SEntityTemplateReference",
-					"value": "feedc267ac6fb3da"
-				},
-				"m_eLetterBoxAspect": {
-					"type": "ZSequenceEntity.ELetterBoxAspect",
-					"value": "LETTERBOXASPECT_CINEMASCOPE"
-				},
+				"m_sequenceOrigin": { "type": "SEntityTemplateReference", "value": "feedc267ac6fb3da" },
+				"m_eLetterBoxAspect": { "type": "ZSequenceEntity.ELetterBoxAspect", "value": "LETTERBOXASPECT_CINEMASCOPE" },
 				"m_bLetterbox": { "type": "bool", "value": true },
-				"m_letterboxFadeOut": {
-					"type": "ZGameTime",
-					"value": { "m_nTicks": 1048576 }
-				},
+				"m_letterboxFadeOut": { "type": "ZGameTime", "value": { "m_nTicks": 1048576 } },
 				"m_bFadeOutBeforeEnd": { "type": "bool", "value": false },
 				"m_startTime": { "type": "ZGameTime", "value": { "m_nTicks": 699050 } },
 				"m_aTracksAndGroups": {
@@ -962,32 +816,15 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": {
-							"x": 173.6998449267283,
-							"y": -5.061961942890478,
-							"z": -13.487818198466254
-						},
-						"position": {
-							"x": -48.56146011352539,
-							"y": 24.205949783325195,
-							"z": 54.050838470458984
-						}
+						"rotation": { "x": 173.6998449267283, "y": -5.061961942890478, "z": -13.487818198466254 },
+						"position": { "x": -48.56146011352539, "y": 24.205949783325195, "z": 54.050838470458984 }
 					}
 				},
-				"m_PrimitiveScale": {
-					"type": "SVector3",
-					"value": { "x": 3, "y": 3, "z": 1 }
-				},
-				"m_eRoomBehaviour": {
-					"type": "ZSpatialEntity.ERoomBehaviour",
-					"value": "ROOM_DYNAMIC"
-				},
+				"m_PrimitiveScale": { "type": "SVector3", "value": { "x": 3, "y": 3, "z": 1 } },
+				"m_eRoomBehaviour": { "type": "ZSpatialEntity.ERoomBehaviour", "value": "ROOM_DYNAMIC" },
 				"m_bRemovePhysics": { "type": "bool", "value": true },
 				"m_bVisible": { "type": "bool", "value": false },
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "fffffffffffffffe"
-				}
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "fffffffffffffffe" }
 			}
 		},
 		"feed90f0320e24f9": {
@@ -1009,15 +846,9 @@
 			"properties": {
 				"m_mTransform": {
 					"type": "SMatrix43",
-					"value": {
-						"rotation": { "x": 0, "y": 0, "z": 0 },
-						"position": { "x": 0, "y": 0, "z": 0 }
-					}
+					"value": { "rotation": { "x": 0, "y": 0, "z": 0 }, "position": { "x": 0, "y": 0, "z": 0 } }
 				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "fffffffffffffffe"
-				}
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "fffffffffffffffe" }
 			}
 		},
 		"feed470da6ba0edc": {
@@ -1028,20 +859,14 @@
 			"properties": {
 				"m_mTransform": {
 					"type": "SMatrix43",
-					"value": {
-						"rotation": { "x": 0, "y": 0, "z": 0 },
-						"position": { "x": 0, "y": 0, "z": 0 }
-					}
+					"value": { "rotation": { "x": 0, "y": 0, "z": 0 }, "position": { "x": 0, "y": 0, "z": 0 } }
 				},
 				"m_aDisableTextureStreaming": {
 					"type": "TArray<SEntityTemplateReference>",
 					"value": ["feed3dc15a0f5e11", "feed803a4a1aa1f4", "feed3817c813f606"]
 				},
 				"m_fStreamInTime": { "type": "float32", "value": 20 },
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "fffffffffffffffe"
-				}
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "fffffffffffffffe" }
 			}
 		},
 		"feed160da4ace35f": {
@@ -1051,15 +876,9 @@
 			"blueprint": "[modules:/zsequenceentity.class].pc_entityblueprint",
 			"properties": {
 				"m_duration": { "type": "ZGameTime", "value": { "m_nTicks": 5242880 } },
-				"m_eLetterBoxAspect": {
-					"type": "ZSequenceEntity.ELetterBoxAspect",
-					"value": "LETTERBOXASPECT_CINEMASCOPE"
-				},
+				"m_eLetterBoxAspect": { "type": "ZSequenceEntity.ELetterBoxAspect", "value": "LETTERBOXASPECT_CINEMASCOPE" },
 				"m_bLetterbox": { "type": "bool", "value": true },
-				"m_letterboxFadeOut": {
-					"type": "ZGameTime",
-					"value": { "m_nTicks": 1048576 }
-				},
+				"m_letterboxFadeOut": { "type": "ZGameTime", "value": { "m_nTicks": 1048576 } },
 				"m_bFadeOutBeforeEnd": { "type": "bool", "value": true },
 				"m_startTime": { "type": "ZGameTime", "value": { "m_nTicks": 0 } },
 				"m_aTracksAndGroups": {
@@ -1076,15 +895,9 @@
 					],
 					"postInit": true
 				},
-				"m_sequenceOrigin": {
-					"type": "SEntityTemplateReference",
-					"value": "feed7a3085b8a423",
-					"postInit": true
-				}
+				"m_sequenceOrigin": { "type": "SEntityTemplateReference", "value": "feed7a3085b8a423", "postInit": true }
 			},
-			"outputCopying": {
-				"Event_Track_Event_Fired": { "ExitSequenceOver": ["feedefbe8f1f2e63"] }
-			}
+			"outputCopying": { "Event_Track_Event_Fired": { "ExitSequenceOver": ["feedefbe8f1f2e63"] } }
 		},
 		"feed3b76cfc76c99": {
 			"parent": "feedefbe8f1f2e63",
@@ -1097,10 +910,7 @@
 					"value": ["feedc1a351324b40", "feeda62203698117", "feed160da4ace35f"]
 				},
 				"m_bValue": { "type": "bool", "value": false },
-				"m_rEnableCondition": {
-					"type": "SEntityTemplateReference",
-					"value": "feed69205afb6db4"
-				},
+				"m_rEnableCondition": { "type": "SEntityTemplateReference", "value": "feed69205afb6db4" },
 				"m_bHolsterWeaponOnStart": { "type": "bool", "value": true },
 				"IsExitSequence": { "type": "bool", "value": true },
 				"m_bOriginalCameraDisabled": { "type": "bool", "value": true }
@@ -1118,10 +928,7 @@
 			"blueprint": "[modules:/zactorboneattachentity.class].pc_entityblueprint",
 			"properties": {
 				"m_BoneName": { "type": "ZString", "value": "Spine2" },
-				"m_spatial": {
-					"type": "SEntityTemplateReference",
-					"value": "feed4d3e46b2effb"
-				},
+				"m_spatial": { "type": "SEntityTemplateReference", "value": "feed4d3e46b2effb" },
 				"m_bStartAttached": { "type": "bool", "value": false }
 			}
 		},
@@ -1134,22 +941,11 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": {
-							"x": -88.87667136076496,
-							"y": -3.4501428689147113,
-							"z": -177.95205356337564
-						},
-						"position": {
-							"x": -48.56146011352539,
-							"y": 24.205949783325195,
-							"z": 54.050838470458984
-						}
+						"rotation": { "x": -88.87667136076496, "y": -3.4501428689147113, "z": -177.95205356337564 },
+						"position": { "x": -48.56146011352539, "y": 24.205949783325195, "z": 54.050838470458984 }
 					}
 				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "fffffffffffffffe"
-				}
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "fffffffffffffffe" }
 			}
 		},
 		"feedf1e4536f8a4c": {
@@ -1161,67 +957,29 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": {
-							"x": -90.83738064132694,
-							"y": 0.4844993239520625,
-							"z": 9.385936422730786
-						},
-						"position": {
-							"x": -394.8214111328125,
-							"y": -900.406982421875,
-							"z": -105.68679809570312
-						}
+						"rotation": { "x": -90.83738064132694, "y": 0.4844993239520625, "z": 9.385936422730786 },
+						"position": { "x": -394.8214111328125, "y": -900.406982421875, "z": -105.68679809570312 }
 					}
 				},
-				"Clients": {
-					"type": "TArray<SEntityTemplateReference>",
-					"value": ["feed803a4a1aa1f4"]
-				},
+				"Clients": { "type": "TArray<SEntityTemplateReference>", "value": ["feed803a4a1aa1f4"] },
 				"Override": { "type": "bool", "value": true },
 				"Active": { "type": "bool", "value": true },
-				"ConstantColorRGB_02_Value_op": {
-					"type": "IRenderMaterialEntity.EModifierOperation",
-					"value": "eReplace"
-				},
-				"ConstantColorRGB_02_Value": {
-					"type": "SColorRGB",
-					"value": "#8cbaff"
-				},
-				"ConstantVector1D_21_Value_op": {
-					"type": "IRenderMaterialEntity.EModifierOperation",
-					"value": "eReplace"
-				},
+				"ConstantColorRGB_02_Value_op": { "type": "IRenderMaterialEntity.EModifierOperation", "value": "eReplace" },
+				"ConstantColorRGB_02_Value": { "type": "SColorRGB", "value": "#8cbaff" },
+				"ConstantVector1D_21_Value_op": { "type": "IRenderMaterialEntity.EModifierOperation", "value": "eReplace" },
 				"ConstantVector1D_21_Value": { "type": "float32", "value": 1 },
 				"AlphaFadeInOutSeparated_02_InEndDistance_op": {
 					"type": "IRenderMaterialEntity.EModifierOperation",
 					"value": "eReplace"
 				},
-				"AlphaFadeInOutSeparated_02_InEndDistance": {
-					"type": "float32",
-					"value": 20
-				},
-				"ConstantVector1D_23_Value_op": {
-					"type": "IRenderMaterialEntity.EModifierOperation",
-					"value": "eReplace"
-				},
+				"AlphaFadeInOutSeparated_02_InEndDistance": { "type": "float32", "value": 20 },
+				"ConstantVector1D_23_Value_op": { "type": "IRenderMaterialEntity.EModifierOperation", "value": "eReplace" },
 				"ConstantVector1D_23_Value": { "type": "float32", "value": 0 },
-				"ConstantColorRGB_01_Value_op": {
-					"type": "IRenderMaterialEntity.EModifierOperation",
-					"value": "eReplace"
-				},
-				"ConstantColorRGB_01_Value": {
-					"type": "SColorRGB",
-					"value": "#fff4bd"
-				},
-				"Fresnel_03_Power_op": {
-					"type": "IRenderMaterialEntity.EModifierOperation",
-					"value": "eReplace"
-				},
+				"ConstantColorRGB_01_Value_op": { "type": "IRenderMaterialEntity.EModifierOperation", "value": "eReplace" },
+				"ConstantColorRGB_01_Value": { "type": "SColorRGB", "value": "#fff4bd" },
+				"Fresnel_03_Power_op": { "type": "IRenderMaterialEntity.EModifierOperation", "value": "eReplace" },
 				"Fresnel_03_Power": { "type": "float32", "value": 3 },
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "feed803a4a1aa1f4"
-				}
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "feed803a4a1aa1f4" }
 			}
 		},
 		"feedbea81be3c536": {
@@ -1233,62 +991,27 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": {
-							"x": -90.83738064132694,
-							"y": 0.4844993239520625,
-							"z": 9.385936422730786
-						},
-						"position": {
-							"x": -394.8214111328125,
-							"y": -900.406982421875,
-							"z": -105.68679809570312
-						}
+						"rotation": { "x": -90.83738064132694, "y": 0.4844993239520625, "z": 9.385936422730786 },
+						"position": { "x": -394.8214111328125, "y": -900.406982421875, "z": -105.68679809570312 }
 					}
 				},
-				"Clients": {
-					"type": "TArray<SEntityTemplateReference>",
-					"value": ["feed3dc15a0f5e11"]
-				},
+				"Clients": { "type": "TArray<SEntityTemplateReference>", "value": ["feed3dc15a0f5e11"] },
 				"Override": { "type": "bool", "value": true },
 				"Active": { "type": "bool", "value": true },
-				"ConstantColorRGB_02_Value_op": {
-					"type": "IRenderMaterialEntity.EModifierOperation",
-					"value": "eReplace"
-				},
-				"ConstantColorRGB_02_Value": {
-					"type": "SColorRGB",
-					"value": "#8cbaff"
-				},
-				"ConstantVector1D_21_Value_op": {
-					"type": "IRenderMaterialEntity.EModifierOperation",
-					"value": "eReplace"
-				},
+				"ConstantColorRGB_02_Value_op": { "type": "IRenderMaterialEntity.EModifierOperation", "value": "eReplace" },
+				"ConstantColorRGB_02_Value": { "type": "SColorRGB", "value": "#8cbaff" },
+				"ConstantVector1D_21_Value_op": { "type": "IRenderMaterialEntity.EModifierOperation", "value": "eReplace" },
 				"ConstantVector1D_21_Value": { "type": "float32", "value": 1 },
 				"AlphaFadeInOutSeparated_02_InEndDistance_op": {
 					"type": "IRenderMaterialEntity.EModifierOperation",
 					"value": "eReplace"
 				},
-				"AlphaFadeInOutSeparated_02_InEndDistance": {
-					"type": "float32",
-					"value": 30
-				},
-				"ConstantVector1D_23_Value_op": {
-					"type": "IRenderMaterialEntity.EModifierOperation",
-					"value": "eReplace"
-				},
+				"AlphaFadeInOutSeparated_02_InEndDistance": { "type": "float32", "value": 30 },
+				"ConstantVector1D_23_Value_op": { "type": "IRenderMaterialEntity.EModifierOperation", "value": "eReplace" },
 				"ConstantVector1D_23_Value": { "type": "float32", "value": 0 },
-				"ConstantColorRGB_01_Value_op": {
-					"type": "IRenderMaterialEntity.EModifierOperation",
-					"value": "eReplace"
-				},
-				"ConstantColorRGB_01_Value": {
-					"type": "SColorRGB",
-					"value": "#fff4bd"
-				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "feed3dc15a0f5e11"
-				}
+				"ConstantColorRGB_01_Value_op": { "type": "IRenderMaterialEntity.EModifierOperation", "value": "eReplace" },
+				"ConstantColorRGB_01_Value": { "type": "SColorRGB", "value": "#fff4bd" },
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "feed3dc15a0f5e11" }
 			}
 		},
 		"feed5663c4dd6ea5": {
@@ -1297,15 +1020,8 @@
 			"factory": "[modules:/zentitygroup.class].pc_entitytype",
 			"blueprint": "[modules:/zentitygroup.class].pc_entityblueprint",
 			"properties": {
-				"m_aTracksAndGroups": {
-					"type": "TArray<SEntityTemplateReference>",
-					"value": []
-				},
-				"m_targetEntity": {
-					"type": "SEntityTemplateReference",
-					"value": "feedc267ac6fb3da",
-					"postInit": true
-				}
+				"m_aTracksAndGroups": { "type": "TArray<SEntityTemplateReference>", "value": [] },
+				"m_targetEntity": { "type": "SEntityTemplateReference", "value": "feedc267ac6fb3da", "postInit": true }
 			}
 		},
 		"feedd7f9e605f574": {
@@ -1327,11 +1043,7 @@
 			"factory": "[modules:/zrenderdestinationtrack.class].pc_entitytype",
 			"blueprint": "[modules:/zrenderdestinationtrack.class].pc_entityblueprint",
 			"properties": {
-				"m_aItems": {
-					"type": "TArray<SEntityTemplateReference>",
-					"value": ["feedff429f766a20"],
-					"postInit": true
-				}
+				"m_aItems": { "type": "TArray<SEntityTemplateReference>", "value": ["feedff429f766a20"], "postInit": true }
 			}
 		},
 		"feede59e1de4b05f": {
@@ -1339,15 +1051,8 @@
 			"name": "Event Track",
 			"factory": "[modules:/zeventtrack.class].pc_entitytype",
 			"blueprint": "[modules:/zeventtrack.class].pc_entityblueprint",
-			"properties": {
-				"m_aItems": {
-					"type": "TArray<SEntityTemplateReference>",
-					"value": ["feed20874fd5f21e"]
-				}
-			},
-			"outputCopying": {
-				"Event_Fired": { "Event_Track_Event_Fired": ["feeda62203698117"] }
-			}
+			"properties": { "m_aItems": { "type": "TArray<SEntityTemplateReference>", "value": ["feed20874fd5f21e"] } },
+			"outputCopying": { "Event_Fired": { "Event_Track_Event_Fired": ["feeda62203698117"] } }
 		},
 		"feed2abd32352230": {
 			"parent": "feeda62203698117",
@@ -1374,17 +1079,10 @@
 			"factory": "[modules:/zmorphemebonetrack.class].pc_entitytype",
 			"blueprint": "[modules:/zmorphemebonetrack.class].pc_entityblueprint",
 			"properties": {
-				"m_entityGroup": {
-					"type": "SEntityTemplateReference",
-					"value": "feedd7f9e605f574"
-				},
+				"m_entityGroup": { "type": "SEntityTemplateReference", "value": "feedd7f9e605f574" },
 				"m_sSlotName": { "type": "ZString", "value": "FullBody" },
 				"m_bUpperBody": { "type": "bool", "value": false },
-				"m_aItems": {
-					"type": "TArray<SEntityTemplateReference>",
-					"value": ["feed92f9e4ea8e89"],
-					"postInit": true
-				}
+				"m_aItems": { "type": "TArray<SEntityTemplateReference>", "value": ["feed92f9e4ea8e89"], "postInit": true }
 			}
 		},
 		"feedf92c94c8096b": {
@@ -1393,14 +1091,8 @@
 			"factory": "[modules:/zmorphemetrajectorytrack.class].pc_entitytype",
 			"blueprint": "[modules:/zmorphemetrajectorytrack.class].pc_entityblueprint",
 			"properties": {
-				"m_entityGroup": {
-					"type": "SEntityTemplateReference",
-					"value": "feedd7f9e605f574"
-				},
-				"m_aItems": {
-					"type": "TArray<SEntityTemplateReference>",
-					"value": ["feed7c0d4d8ca850"]
-				},
+				"m_entityGroup": { "type": "SEntityTemplateReference", "value": "feedd7f9e605f574" },
+				"m_aItems": { "type": "TArray<SEntityTemplateReference>", "value": ["feed7c0d4d8ca850"] },
 				"m_bRestoreValueAfterEnd": { "type": "bool", "value": false }
 			}
 		},
@@ -1426,10 +1118,7 @@
 			"properties": {
 				"m_startTime": { "type": "ZGameTime", "value": { "m_nTicks": 0 } },
 				"m_duration": { "type": "ZGameTime", "value": { "m_nTicks": 5242880 } },
-				"m_eCoordinateSpace": {
-					"type": "ECoordinateSpace",
-					"value": "CSPACE_SEQUENCE_ORIGIN"
-				},
+				"m_eCoordinateSpace": { "type": "ECoordinateSpace", "value": "CSPACE_SEQUENCE_ORIGIN" },
 				"m_animationResourceID": {
 					"type": "ZRuntimeResourceID",
 					"value": { "resource": "00E65898962408AC", "flag": "5F" }
@@ -1452,10 +1141,7 @@
 			"factory": "[modules:/zeventtrackitem.class].pc_entitytype",
 			"blueprint": "[modules:/zeventtrackitem.class].pc_entityblueprint",
 			"properties": {
-				"m_startTime": {
-					"type": "ZGameTime",
-					"value": { "m_nTicks": 2820669 }
-				},
+				"m_startTime": { "type": "ZGameTime", "value": { "m_nTicks": 2820669 } },
 				"m_duration": { "type": "ZGameTime", "value": { "m_nTicks": 262144 } }
 			},
 			"outputCopying": { "Fired": { "Event_Fired": ["feede59e1de4b05f"] } }
@@ -1467,11 +1153,7 @@
 			"blueprint": "[modules:/ztrajectorytrack.class].pc_entityblueprint",
 			"properties": {
 				"m_bRestoreValueAfterEnd": { "type": "bool", "value": false },
-				"m_entityGroup": {
-					"type": "SEntityTemplateReference",
-					"value": "feed9d6ae67d170a",
-					"postInit": true
-				},
+				"m_entityGroup": { "type": "SEntityTemplateReference", "value": "feed9d6ae67d170a", "postInit": true },
 				"m_aItems": {
 					"type": "TArray<SEntityTemplateReference>",
 					"value": ["feeda889e90f453e", "feed91be76ae3150"],
@@ -1486,14 +1168,8 @@
 			"blueprint": "[modules:/zentitypropertytrack.class].pc_entityblueprint",
 			"properties": {
 				"m_sPropertyName": { "type": "ZString", "value": "m_fFovYDeg" },
-				"m_entityGroup": {
-					"type": "SEntityTemplateReference",
-					"value": "feed9d6ae67d170a"
-				},
-				"m_aItems": {
-					"type": "TArray<SEntityTemplateReference>",
-					"value": ["feed6122f527ec75"]
-				},
+				"m_entityGroup": { "type": "SEntityTemplateReference", "value": "feed9d6ae67d170a" },
+				"m_aItems": { "type": "TArray<SEntityTemplateReference>", "value": ["feed6122f527ec75"] },
 				"m_bRestoreValueAfterEnd": { "type": "bool", "value": false }
 			}
 		},
@@ -1503,10 +1179,7 @@
 			"factory": "[modules:/zeulerangletrajectorysource.class].pc_entitytype",
 			"blueprint": "[modules:/zeulerangletrajectorysource.class].pc_entityblueprint",
 			"properties": {
-				"m_startTime": {
-					"type": "ZGameTime",
-					"value": { "m_nTicks": 10940142 }
-				},
+				"m_startTime": { "type": "ZGameTime", "value": { "m_nTicks": 10940142 } },
 				"m_duration": { "type": "ZGameTime", "value": { "m_nTicks": 3470787 } },
 				"m_CurveX": {
 					"type": "ZCurve",
@@ -1590,10 +1263,7 @@
 			"properties": {
 				"m_startTime": { "type": "ZGameTime", "value": { "m_nTicks": 0 } },
 				"m_duration": { "type": "ZGameTime", "value": { "m_nTicks": 5242880 } },
-				"m_eCoordinateSpace": {
-					"type": "ECoordinateSpace",
-					"value": "CSPACE_SEQUENCE_ORIGIN"
-				},
+				"m_eCoordinateSpace": { "type": "ECoordinateSpace", "value": "CSPACE_SEQUENCE_ORIGIN" },
 				"m_animationResourceID": {
 					"type": "ZRuntimeResourceID",
 					"value": { "resource": "007B2D78E167574D", "flag": "5F" }
@@ -1606,10 +1276,7 @@
 			"factory": "[modules:/zfloatcurvesource.class].pc_entitytype",
 			"blueprint": "[modules:/zfloatcurvesource.class].pc_entityblueprint",
 			"properties": {
-				"m_startTime": {
-					"type": "ZGameTime",
-					"value": { "m_nTicks": 1747626 }
-				},
+				"m_startTime": { "type": "ZGameTime", "value": { "m_nTicks": 1747626 } },
 				"m_duration": { "type": "ZGameTime", "value": { "m_nTicks": 3495254 } },
 				"m_curve": {
 					"type": "ZCurve",
@@ -1637,15 +1304,8 @@
 			"factory": "[modules:/zentitygroup.class].pc_entitytype",
 			"blueprint": "[modules:/zentitygroup.class].pc_entityblueprint",
 			"properties": {
-				"m_aTracksAndGroups": {
-					"type": "TArray<SEntityTemplateReference>",
-					"value": []
-				},
-				"m_targetEntity": {
-					"type": "SEntityTemplateReference",
-					"value": "feedc267ac6fb3da",
-					"postInit": true
-				}
+				"m_aTracksAndGroups": { "type": "TArray<SEntityTemplateReference>", "value": [] },
+				"m_targetEntity": { "type": "SEntityTemplateReference", "value": "feedc267ac6fb3da", "postInit": true }
 			}
 		},
 		"feed7e1054b6bd50": {
@@ -1653,12 +1313,7 @@
 			"name": "Active Camera Track",
 			"factory": "[modules:/zrenderdestinationtrack.class].pc_entitytype",
 			"blueprint": "[modules:/zrenderdestinationtrack.class].pc_entityblueprint",
-			"properties": {
-				"m_aItems": {
-					"type": "TArray<SEntityTemplateReference>",
-					"value": ["feed7049de9ee36d"]
-				}
-			}
+			"properties": { "m_aItems": { "type": "TArray<SEntityTemplateReference>", "value": ["feed7049de9ee36d"] } }
 		},
 		"feed8d0ac9052153": {
 			"parent": "feedc1a351324b40",
@@ -1690,15 +1345,8 @@
 			"name": "Event Track",
 			"factory": "[modules:/zeventtrack.class].pc_entitytype",
 			"blueprint": "[modules:/zeventtrack.class].pc_entityblueprint",
-			"properties": {
-				"m_aItems": {
-					"type": "TArray<SEntityTemplateReference>",
-					"value": ["feed3f5647930d15"]
-				}
-			},
-			"outputCopying": {
-				"Event_Fired": { "Event_Track_Event_Fired": ["feedc1a351324b40"] }
-			}
+			"properties": { "m_aItems": { "type": "TArray<SEntityTemplateReference>", "value": ["feed3f5647930d15"] } },
+			"outputCopying": { "Event_Fired": { "Event_Track_Event_Fired": ["feedc1a351324b40"] } }
 		},
 		"feed7049de9ee36d": {
 			"parent": "feed7e1054b6bd50",
@@ -1717,16 +1365,8 @@
 			"blueprint": "[modules:/ztrajectorytrack.class].pc_entityblueprint",
 			"properties": {
 				"m_bRestoreValueAfterEnd": { "type": "bool", "value": false },
-				"m_entityGroup": {
-					"type": "SEntityTemplateReference",
-					"value": "feed8d0ac9052153",
-					"postInit": true
-				},
-				"m_aItems": {
-					"type": "TArray<SEntityTemplateReference>",
-					"value": ["feedc6d920adf8f9"],
-					"postInit": true
-				}
+				"m_entityGroup": { "type": "SEntityTemplateReference", "value": "feed8d0ac9052153", "postInit": true },
+				"m_aItems": { "type": "TArray<SEntityTemplateReference>", "value": ["feedc6d920adf8f9"], "postInit": true }
 			}
 		},
 		"feedc9e7a756c3de": {
@@ -1736,14 +1376,8 @@
 			"blueprint": "[modules:/zentitypropertytrack.class].pc_entityblueprint",
 			"properties": {
 				"m_sPropertyName": { "type": "ZString", "value": "m_fFovYDeg" },
-				"m_entityGroup": {
-					"type": "SEntityTemplateReference",
-					"value": "feed8d0ac9052153"
-				},
-				"m_aItems": {
-					"type": "TArray<SEntityTemplateReference>",
-					"value": ["feedb6399afd3952"]
-				},
+				"m_entityGroup": { "type": "SEntityTemplateReference", "value": "feed8d0ac9052153" },
+				"m_aItems": { "type": "TArray<SEntityTemplateReference>", "value": ["feedb6399afd3952"] },
 				"m_bRestoreValueAfterEnd": { "type": "bool", "value": false }
 			}
 		},
@@ -1755,10 +1389,7 @@
 			"properties": {
 				"m_startTime": { "type": "ZGameTime", "value": { "m_nTicks": 0 } },
 				"m_duration": { "type": "ZGameTime", "value": { "m_nTicks": 5242880 } },
-				"m_eCoordinateSpace": {
-					"type": "ECoordinateSpace",
-					"value": "CSPACE_SEQUENCE_ORIGIN"
-				},
+				"m_eCoordinateSpace": { "type": "ECoordinateSpace", "value": "CSPACE_SEQUENCE_ORIGIN" },
 				"m_animationResourceID": {
 					"type": "ZRuntimeResourceID",
 					"value": { "resource": "006E9051CC9F4FCC", "flag": "5F" }
@@ -1795,16 +1426,8 @@
 			"properties": {
 				"m_sSlotName": { "type": "ZString", "value": "FullBody" },
 				"m_bUpperBody": { "type": "bool", "value": false },
-				"m_entityGroup": {
-					"type": "SEntityTemplateReference",
-					"value": "feede9b8a335e134",
-					"postInit": true
-				},
-				"m_aItems": {
-					"type": "TArray<SEntityTemplateReference>",
-					"value": ["feed7b9d7f5fc1c5"],
-					"postInit": true
-				}
+				"m_entityGroup": { "type": "SEntityTemplateReference", "value": "feede9b8a335e134", "postInit": true },
+				"m_aItems": { "type": "TArray<SEntityTemplateReference>", "value": ["feed7b9d7f5fc1c5"], "postInit": true }
 			}
 		},
 		"feedd7b8a83abd05": {
@@ -1814,16 +1437,8 @@
 			"blueprint": "[modules:/zmorphemetrajectorytrack.class].pc_entityblueprint",
 			"properties": {
 				"m_bRestoreValueAfterEnd": { "type": "bool", "value": false },
-				"m_entityGroup": {
-					"type": "SEntityTemplateReference",
-					"value": "feede9b8a335e134",
-					"postInit": true
-				},
-				"m_aItems": {
-					"type": "TArray<SEntityTemplateReference>",
-					"value": ["feed2409f5862c23"],
-					"postInit": true
-				}
+				"m_entityGroup": { "type": "SEntityTemplateReference", "value": "feede9b8a335e134", "postInit": true },
+				"m_aItems": { "type": "TArray<SEntityTemplateReference>", "value": ["feed2409f5862c23"], "postInit": true }
 			}
 		},
 		"feed7b9d7f5fc1c5": {
@@ -1848,10 +1463,7 @@
 			"properties": {
 				"m_startTime": { "type": "ZGameTime", "value": { "m_nTicks": 0 } },
 				"m_duration": { "type": "ZGameTime", "value": { "m_nTicks": 5242880 } },
-				"m_eCoordinateSpace": {
-					"type": "ECoordinateSpace",
-					"value": "CSPACE_SEQUENCE_ORIGIN"
-				},
+				"m_eCoordinateSpace": { "type": "ECoordinateSpace", "value": "CSPACE_SEQUENCE_ORIGIN" },
 				"m_animationResourceID": {
 					"type": "ZRuntimeResourceID",
 					"value": { "resource": "00E65898962408AC", "flag": "5F" }
@@ -1864,10 +1476,7 @@
 			"factory": "[modules:/zeventtrackitem.class].pc_entitytype",
 			"blueprint": "[modules:/zeventtrackitem.class].pc_entityblueprint",
 			"properties": {
-				"m_startTime": {
-					"type": "ZGameTime",
-					"value": { "m_nTicks": 2656392 }
-				},
+				"m_startTime": { "type": "ZGameTime", "value": { "m_nTicks": 2656392 } },
 				"m_duration": { "type": "ZGameTime", "value": { "m_nTicks": 262144 } }
 			},
 			"outputCopying": { "Fired": { "Event_Fired": ["feed3d3cf9027d1e"] } }
@@ -1881,67 +1490,29 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": {
-							"x": -90.83738064132694,
-							"y": 0.4844993239520625,
-							"z": 9.385936422730786
-						},
-						"position": {
-							"x": -394.8214111328125,
-							"y": -900.406982421875,
-							"z": -105.68679809570312
-						}
+						"rotation": { "x": -90.83738064132694, "y": 0.4844993239520625, "z": 9.385936422730786 },
+						"position": { "x": -394.8214111328125, "y": -900.406982421875, "z": -105.68679809570312 }
 					}
 				},
-				"Clients": {
-					"type": "TArray<SEntityTemplateReference>",
-					"value": ["feed3817c813f606"]
-				},
+				"Clients": { "type": "TArray<SEntityTemplateReference>", "value": ["feed3817c813f606"] },
 				"Override": { "type": "bool", "value": true },
 				"Active": { "type": "bool", "value": true },
-				"ConstantColorRGB_02_Value_op": {
-					"type": "IRenderMaterialEntity.EModifierOperation",
-					"value": "eReplace"
-				},
-				"ConstantColorRGB_02_Value": {
-					"type": "SColorRGB",
-					"value": "#8cbaff"
-				},
-				"ConstantVector1D_21_Value_op": {
-					"type": "IRenderMaterialEntity.EModifierOperation",
-					"value": "eReplace"
-				},
+				"ConstantColorRGB_02_Value_op": { "type": "IRenderMaterialEntity.EModifierOperation", "value": "eReplace" },
+				"ConstantColorRGB_02_Value": { "type": "SColorRGB", "value": "#8cbaff" },
+				"ConstantVector1D_21_Value_op": { "type": "IRenderMaterialEntity.EModifierOperation", "value": "eReplace" },
 				"ConstantVector1D_21_Value": { "type": "float32", "value": 1 },
 				"AlphaFadeInOutSeparated_02_InEndDistance_op": {
 					"type": "IRenderMaterialEntity.EModifierOperation",
 					"value": "eReplace"
 				},
-				"AlphaFadeInOutSeparated_02_InEndDistance": {
-					"type": "float32",
-					"value": 20
-				},
-				"ConstantVector1D_23_Value_op": {
-					"type": "IRenderMaterialEntity.EModifierOperation",
-					"value": "eReplace"
-				},
+				"AlphaFadeInOutSeparated_02_InEndDistance": { "type": "float32", "value": 20 },
+				"ConstantVector1D_23_Value_op": { "type": "IRenderMaterialEntity.EModifierOperation", "value": "eReplace" },
 				"ConstantVector1D_23_Value": { "type": "float32", "value": 0 },
-				"ConstantColorRGB_01_Value_op": {
-					"type": "IRenderMaterialEntity.EModifierOperation",
-					"value": "eReplace"
-				},
-				"ConstantColorRGB_01_Value": {
-					"type": "SColorRGB",
-					"value": "#fff4bd"
-				},
-				"Fresnel_03_Power_op": {
-					"type": "IRenderMaterialEntity.EModifierOperation",
-					"value": "eReplace"
-				},
+				"ConstantColorRGB_01_Value_op": { "type": "IRenderMaterialEntity.EModifierOperation", "value": "eReplace" },
+				"ConstantColorRGB_01_Value": { "type": "SColorRGB", "value": "#fff4bd" },
+				"Fresnel_03_Power_op": { "type": "IRenderMaterialEntity.EModifierOperation", "value": "eReplace" },
 				"Fresnel_03_Power": { "type": "float32", "value": 3 },
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "feed3817c813f606"
-				}
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "feed3817c813f606" }
 			}
 		},
 		"feed45be91a0ee4d": {
@@ -1963,11 +1534,7 @@
 			"factory": "[modules:/zrenderdestinationtrack.class].pc_entitytype",
 			"blueprint": "[modules:/zrenderdestinationtrack.class].pc_entityblueprint",
 			"properties": {
-				"m_aItems": {
-					"type": "TArray<SEntityTemplateReference>",
-					"value": ["feed12266d5f9ef5"],
-					"postInit": true
-				}
+				"m_aItems": { "type": "TArray<SEntityTemplateReference>", "value": ["feed12266d5f9ef5"], "postInit": true }
 			}
 		},
 		"feed0c7f3dd3b7b8": {
@@ -2015,10 +1582,7 @@
 			"factory": "[modules:/zentitygroup.class].pc_entitytype",
 			"blueprint": "[modules:/zentitygroup.class].pc_entityblueprint",
 			"properties": {
-				"m_aTracksAndGroups": {
-					"type": "TArray<SEntityTemplateReference>",
-					"value": ["feeda561ea1ec3e0"]
-				}
+				"m_aTracksAndGroups": { "type": "TArray<SEntityTemplateReference>", "value": ["feeda561ea1ec3e0"] }
 			}
 		},
 		"feed2e6926c0df6c": {
@@ -2027,10 +1591,7 @@
 			"factory": "[modules:/zentitygroup.class].pc_entitytype",
 			"blueprint": "[modules:/zentitygroup.class].pc_entityblueprint",
 			"properties": {
-				"m_targetEntity": {
-					"type": "SEntityTemplateReference",
-					"value": "feed7ce3b85366a7"
-				},
+				"m_targetEntity": { "type": "SEntityTemplateReference", "value": "feed7ce3b85366a7" },
 				"m_aTracksAndGroups": {
 					"type": "TArray<SEntityTemplateReference>",
 					"value": ["feed775fd674e38d", "feed9d4e5c244b56"],
@@ -2043,15 +1604,8 @@
 			"name": "Event Track",
 			"factory": "[modules:/zeventtrack.class].pc_entitytype",
 			"blueprint": "[modules:/zeventtrack.class].pc_entityblueprint",
-			"properties": {
-				"m_aItems": {
-					"type": "TArray<SEntityTemplateReference>",
-					"value": ["feed7125e0c66203"]
-				}
-			},
-			"outputCopying": {
-				"Event_Fired": { "Event_Track_Event_Fired": ["feed160da4ace35f"] }
-			}
+			"properties": { "m_aItems": { "type": "TArray<SEntityTemplateReference>", "value": ["feed7125e0c66203"] } },
+			"outputCopying": { "Event_Fired": { "Event_Track_Event_Fired": ["feed160da4ace35f"] } }
 		},
 		"feed11e5f96c1a49": {
 			"parent": "feed45be91a0ee4d",
@@ -2060,16 +1614,9 @@
 			"blueprint": "[modules:/zentitypropertytrack.class].pc_entityblueprint",
 			"properties": {
 				"m_sPropertyName": { "type": "ZString", "value": "m_bVisible" },
-				"m_entityGroup": {
-					"type": "SEntityTemplateReference",
-					"value": "feed45be91a0ee4d"
-				},
+				"m_entityGroup": { "type": "SEntityTemplateReference", "value": "feed45be91a0ee4d" },
 				"m_bRestoreValueAfterEnd": { "type": "bool", "value": false },
-				"m_aItems": {
-					"type": "TArray<SEntityTemplateReference>",
-					"value": ["feed659aff9ab534"],
-					"postInit": true
-				}
+				"m_aItems": { "type": "TArray<SEntityTemplateReference>", "value": ["feed659aff9ab534"], "postInit": true }
 			}
 		},
 		"feed659aff9ab534": {
@@ -2080,10 +1627,7 @@
 			"properties": {
 				"m_startTime": { "type": "ZGameTime", "value": { "m_nTicks": 0 } },
 				"m_duration": { "type": "ZGameTime", "value": { "m_nTicks": 2097152 } },
-				"m_fTimes": {
-					"type": "TArray<ZGameTime>",
-					"value": [{ "m_nTicks": 0 }]
-				},
+				"m_fTimes": { "type": "TArray<ZGameTime>", "value": [{ "m_nTicks": 0 }] },
 				"m_bValues": { "type": "TArray<bool>", "value": [false] }
 			}
 		},
@@ -2105,16 +1649,8 @@
 			"properties": {
 				"m_sSlotName": { "type": "ZString", "value": "FullBody" },
 				"m_bUpperBody": { "type": "bool", "value": false },
-				"m_entityGroup": {
-					"type": "SEntityTemplateReference",
-					"value": "feed0c7f3dd3b7b8",
-					"postInit": true
-				},
-				"m_aItems": {
-					"type": "TArray<SEntityTemplateReference>",
-					"value": ["feededb294e198f8"],
-					"postInit": true
-				}
+				"m_entityGroup": { "type": "SEntityTemplateReference", "value": "feed0c7f3dd3b7b8", "postInit": true },
+				"m_aItems": { "type": "TArray<SEntityTemplateReference>", "value": ["feededb294e198f8"], "postInit": true }
 			}
 		},
 		"feedd482d1ee71cc": {
@@ -2123,14 +1659,8 @@
 			"factory": "[modules:/zmorphemetrajectorytrack.class].pc_entitytype",
 			"blueprint": "[modules:/zmorphemetrajectorytrack.class].pc_entityblueprint",
 			"properties": {
-				"m_entityGroup": {
-					"type": "SEntityTemplateReference",
-					"value": "feed0c7f3dd3b7b8"
-				},
-				"m_aItems": {
-					"type": "TArray<SEntityTemplateReference>",
-					"value": ["feed5a3c9c82cc8b"]
-				},
+				"m_entityGroup": { "type": "SEntityTemplateReference", "value": "feed0c7f3dd3b7b8" },
+				"m_aItems": { "type": "TArray<SEntityTemplateReference>", "value": ["feed5a3c9c82cc8b"] },
 				"m_bRestoreValueAfterEnd": { "type": "bool", "value": false }
 			}
 		},
@@ -2158,10 +1688,7 @@
 			"properties": {
 				"m_startTime": { "type": "ZGameTime", "value": { "m_nTicks": 0 } },
 				"m_duration": { "type": "ZGameTime", "value": { "m_nTicks": 5242880 } },
-				"m_eCoordinateSpace": {
-					"type": "ECoordinateSpace",
-					"value": "CSPACE_SEQUENCE_ORIGIN"
-				},
+				"m_eCoordinateSpace": { "type": "ECoordinateSpace", "value": "CSPACE_SEQUENCE_ORIGIN" },
 				"m_animationResourceID": {
 					"type": "ZRuntimeResourceID",
 					"value": { "resource": "001BA1F4CD84E0B5", "flag": "5F" }
@@ -2175,14 +1702,8 @@
 			"blueprint": "[modules:/zentitypropertytrack.class].pc_entityblueprint",
 			"properties": {
 				"m_sPropertyName": { "type": "ZString", "value": "m_bVisible" },
-				"m_entityGroup": {
-					"type": "SEntityTemplateReference",
-					"value": "feed1e8c7ec10fa4"
-				},
-				"m_aItems": {
-					"type": "TArray<SEntityTemplateReference>",
-					"value": ["feed54720b25eaef"]
-				},
+				"m_entityGroup": { "type": "SEntityTemplateReference", "value": "feed1e8c7ec10fa4" },
+				"m_aItems": { "type": "TArray<SEntityTemplateReference>", "value": ["feed54720b25eaef"] },
 				"m_bRestoreValueAfterEnd": { "type": "bool", "value": false }
 			}
 		},
@@ -2194,10 +1715,7 @@
 			"properties": {
 				"m_startTime": { "type": "ZGameTime", "value": { "m_nTicks": 0 } },
 				"m_duration": { "type": "ZGameTime", "value": { "m_nTicks": 2097152 } },
-				"m_fTimes": {
-					"type": "TArray<ZGameTime>",
-					"value": [{ "m_nTicks": 0 }]
-				},
+				"m_fTimes": { "type": "TArray<ZGameTime>", "value": [{ "m_nTicks": 0 }] },
 				"m_bValues": { "type": "TArray<bool>", "value": [false] }
 			}
 		},
@@ -2207,14 +1725,8 @@
 			"factory": "[modules:/ztrajectorytrack.class].pc_entitytype",
 			"blueprint": "[modules:/ztrajectorytrack.class].pc_entityblueprint",
 			"properties": {
-				"m_entityGroup": {
-					"type": "SEntityTemplateReference",
-					"value": "feed973c43ad6a61"
-				},
-				"m_aItems": {
-					"type": "TArray<SEntityTemplateReference>",
-					"value": ["feed9e5b9b50b09c"]
-				},
+				"m_entityGroup": { "type": "SEntityTemplateReference", "value": "feed973c43ad6a61" },
+				"m_aItems": { "type": "TArray<SEntityTemplateReference>", "value": ["feed9e5b9b50b09c"] },
 				"m_bRestoreValueAfterEnd": { "type": "bool", "value": false }
 			}
 		},
@@ -2290,16 +1802,8 @@
 			"properties": {
 				"m_sPropertyName": { "type": "ZString", "value": "m_bVisible" },
 				"m_bRestoreValueAfterEnd": { "type": "bool", "value": false },
-				"m_entityGroup": {
-					"type": "SEntityTemplateReference",
-					"value": "feedec383928d88c",
-					"postInit": true
-				},
-				"m_aItems": {
-					"type": "TArray<SEntityTemplateReference>",
-					"value": ["feed44e6bd7cc295"],
-					"postInit": true
-				}
+				"m_entityGroup": { "type": "SEntityTemplateReference", "value": "feedec383928d88c", "postInit": true },
+				"m_aItems": { "type": "TArray<SEntityTemplateReference>", "value": ["feed44e6bd7cc295"], "postInit": true }
 			}
 		},
 		"feed44e6bd7cc295": {
@@ -2310,10 +1814,7 @@
 			"properties": {
 				"m_startTime": { "type": "ZGameTime", "value": { "m_nTicks": 0 } },
 				"m_duration": { "type": "ZGameTime", "value": { "m_nTicks": 2097152 } },
-				"m_fTimes": {
-					"type": "TArray<ZGameTime>",
-					"value": [{ "m_nTicks": 0 }]
-				},
+				"m_fTimes": { "type": "TArray<ZGameTime>", "value": [{ "m_nTicks": 0 }] },
 				"m_bValues": { "type": "TArray<bool>", "value": [false] }
 			}
 		},
@@ -2324,16 +1825,8 @@
 			"blueprint": "[modules:/ztrajectorytrack.class].pc_entityblueprint",
 			"properties": {
 				"m_bRestoreValueAfterEnd": { "type": "bool", "value": false },
-				"m_entityGroup": {
-					"type": "SEntityTemplateReference",
-					"value": "feed2e6926c0df6c",
-					"postInit": true
-				},
-				"m_aItems": {
-					"type": "TArray<SEntityTemplateReference>",
-					"value": ["feed05557aae68ba"],
-					"postInit": true
-				}
+				"m_entityGroup": { "type": "SEntityTemplateReference", "value": "feed2e6926c0df6c", "postInit": true },
+				"m_aItems": { "type": "TArray<SEntityTemplateReference>", "value": ["feed05557aae68ba"], "postInit": true }
 			}
 		},
 		"feed9d4e5c244b56": {
@@ -2343,16 +1836,9 @@
 			"blueprint": "[modules:/zentitypropertytrack.class].pc_entityblueprint",
 			"properties": {
 				"m_sPropertyName": { "type": "ZString", "value": "m_bVisible" },
-				"m_entityGroup": {
-					"type": "SEntityTemplateReference",
-					"value": "feed2e6926c0df6c"
-				},
+				"m_entityGroup": { "type": "SEntityTemplateReference", "value": "feed2e6926c0df6c" },
 				"m_bRestoreValueAfterEnd": { "type": "bool", "value": false },
-				"m_aItems": {
-					"type": "TArray<SEntityTemplateReference>",
-					"value": ["feed1f6343f6fa24"],
-					"postInit": true
-				}
+				"m_aItems": { "type": "TArray<SEntityTemplateReference>", "value": ["feed1f6343f6fa24"], "postInit": true }
 			}
 		},
 		"feed05557aae68ba": {
@@ -2363,10 +1849,7 @@
 			"properties": {
 				"m_startTime": { "type": "ZGameTime", "value": { "m_nTicks": 0 } },
 				"m_duration": { "type": "ZGameTime", "value": { "m_nTicks": 5242880 } },
-				"m_eCoordinateSpace": {
-					"type": "ECoordinateSpace",
-					"value": "CSPACE_SEQUENCE_ORIGIN"
-				},
+				"m_eCoordinateSpace": { "type": "ECoordinateSpace", "value": "CSPACE_SEQUENCE_ORIGIN" },
 				"m_animationResourceID": {
 					"type": "ZRuntimeResourceID",
 					"value": { "resource": "00A926F0926C91CD", "flag": "5F" }
@@ -2381,10 +1864,7 @@
 			"properties": {
 				"m_startTime": { "type": "ZGameTime", "value": { "m_nTicks": 0 } },
 				"m_duration": { "type": "ZGameTime", "value": { "m_nTicks": 2097152 } },
-				"m_fTimes": {
-					"type": "TArray<ZGameTime>",
-					"value": [{ "m_nTicks": 0 }]
-				},
+				"m_fTimes": { "type": "TArray<ZGameTime>", "value": [{ "m_nTicks": 0 }] },
 				"m_bValues": { "type": "TArray<bool>", "value": [true] }
 			}
 		},
@@ -2394,10 +1874,7 @@
 			"factory": "[modules:/zeventtrackitem.class].pc_entitytype",
 			"blueprint": "[modules:/zeventtrackitem.class].pc_entityblueprint",
 			"properties": {
-				"m_startTime": {
-					"type": "ZGameTime",
-					"value": { "m_nTicks": 5207927 }
-				},
+				"m_startTime": { "type": "ZGameTime", "value": { "m_nTicks": 5207927 } },
 				"m_duration": { "type": "ZGameTime", "value": { "m_nTicks": 262144 } }
 			},
 			"outputCopying": { "Fired": { "Event_Fired": ["feed023c9a3f5127"] } }
@@ -2410,61 +1887,29 @@
 			"properties": {
 				"m_mTransform": {
 					"type": "SMatrix43",
-					"value": {
-						"rotation": { "x": 0, "y": 0, "z": 0 },
-						"position": { "x": 0, "y": 0, "z": 0 }
-					}
+					"value": { "rotation": { "x": 0, "y": 0, "z": 0 }, "position": { "x": 0, "y": 0, "z": 0 } }
 				},
 				"m_vRoomMin": {
 					"type": "SVector3",
-					"value": {
-						"x": -8781.51953125,
-						"y": -11566.599609375,
-						"z": -3673.81005859375
-					}
+					"value": { "x": -8781.51953125, "y": -11566.599609375, "z": -3673.81005859375 }
 				},
 				"m_vRoomMax": {
 					"type": "SVector3",
-					"value": {
-						"x": 5560.43017578125,
-						"y": 3479.610107421875,
-						"z": 3762.580078125
-					}
+					"value": { "x": 5560.43017578125, "y": 3479.610107421875, "z": 3762.580078125 }
 				},
 				"m_bGlobalLightOverrideEnable": { "type": "bool", "value": false },
 				"m_bOutside": { "type": "bool", "value": true },
 				"m_bCSMRoom": { "type": "bool", "value": false },
 				"m_bContainsCrowd": { "type": "bool", "value": true },
-				"m_fGlobalLightOverrideFrontIntensity": {
-					"type": "float32",
-					"value": 50
-				},
-				"m_fGlobalLightOverrideBackIntensity": {
-					"type": "float32",
-					"value": 50
-				},
-				"m_GlobalLightOverrideFrontColor": {
-					"type": "SColorRGB",
-					"value": "#8cbcff"
-				},
-				"m_GlobalLightOverrideBackColor": {
-					"type": "SColorRGB",
-					"value": "#82a8ff"
-				},
+				"m_fGlobalLightOverrideFrontIntensity": { "type": "float32", "value": 50 },
+				"m_fGlobalLightOverrideBackIntensity": { "type": "float32", "value": 50 },
+				"m_GlobalLightOverrideFrontColor": { "type": "SColorRGB", "value": "#8cbcff" },
+				"m_GlobalLightOverrideBackColor": { "type": "SColorRGB", "value": "#82a8ff" },
 				"m_bOutsideMaster": { "type": "bool", "value": false },
-				"m_vGlobalLightOverrideDirection": {
-					"type": "SVector3",
-					"value": { "x": 0.5, "y": 1, "z": 1 }
-				},
+				"m_vGlobalLightOverrideDirection": { "type": "SVector3", "value": { "x": 0.5, "y": 1, "z": 1 } },
 				"m_bLuminanceOverrideEnable": { "type": "bool", "value": false },
-				"m_Clients": {
-					"type": "TArray<SEntityTemplateReference>",
-					"value": []
-				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "fffffffffffffffe"
-				}
+				"m_Clients": { "type": "TArray<SEntityTemplateReference>", "value": [] },
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "fffffffffffffffe" }
 			},
 			"subsets": { "Rooms": ["fffffffffffffffe"] }
 		},
@@ -2478,19 +1923,11 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": { "x": 0, "y": 0, "z": 180 },
-						"position": {
-							"x": -48.446011352539,
-							"y": 32.205949783325195,
-							"z": 54.050838470458984
-						}
+						"position": { "x": -48.446011352539, "y": 32.205949783325195, "z": 54.050838470458984 }
 					}
 				},
 				"m_bRemovePhysics": { "type": "bool", "value": true },
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "feeda0dde246616a",
-					"postInit": true
-				}
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "feeda0dde246616a", "postInit": true }
 			}
 		},
 		"feedf53229501400": {
@@ -2503,18 +1940,10 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": { "x": 0, "y": 0, "z": 180 },
-						"position": {
-							"x": -48.46146011352539,
-							"y": 23.505949783325196,
-							"z": 52.550838470458984
-						}
+						"position": { "x": -48.46146011352539, "y": 23.505949783325196, "z": 52.550838470458984 }
 					}
 				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "feeda0dde246616a",
-					"postInit": true
-				}
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "feeda0dde246616a", "postInit": true }
 			}
 		},
 		"feed1e6670c3b19b": {
@@ -2529,11 +1958,7 @@
 			"factory": "00688536B0E8C52E",
 			"blueprint": "0040A876B234F33B",
 			"properties": {
-				"m_Boxes": {
-					"type": "TArray<SEntityTemplateReference>",
-					"value": ["feed9e5d4b526013"],
-					"postInit": true
-				}
+				"m_Boxes": { "type": "TArray<SEntityTemplateReference>", "value": ["feed9e5d4b526013"], "postInit": true }
 			}
 		},
 		"feed9e5d4b526013": {
@@ -2546,20 +1971,12 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": { "x": 0, "y": 0, "z": 0 },
-						"position": {
-							"x": -48.46146011352539,
-							"y": 27.205949783325195,
-							"z": 54.050838470458984
-						}
+						"position": { "x": -48.46146011352539, "y": 27.205949783325195, "z": 54.050838470458984 }
 					}
 				},
 				"m_vGlobalSize": {
 					"type": "SVector3",
-					"value": {
-						"x": 2.6103498935699463,
-						"y": 4.004970073699951,
-						"z": 4.4799299240112305
-					}
+					"value": { "x": 2.6103498935699463, "y": 4.004970073699951, "z": 4.4799299240112305 }
 				},
 				"m_order": { "type": "EEntityOrdering", "value": "EO_NORMAL" }
 			}
@@ -2580,21 +1997,11 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": { "x": -90, "y": 90, "z": 0 },
-						"position": {
-							"x": -49.86146011352539,
-							"y": 27.205949783325195,
-							"z": 54.050838470458984
-						}
+						"position": { "x": -49.86146011352539, "y": 27.205949783325195, "z": 54.050838470458984 }
 					}
 				},
-				"m_RepositoryId": {
-					"type": "ZGuid",
-					"value": "c4146f27-81a9-42ef-b3c7-87a9d60b87fe"
-				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "fffffffffffffffe"
-				}
+				"m_RepositoryId": { "type": "ZGuid", "value": "c4146f27-81a9-42ef-b3c7-87a9d60b87fe" },
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "fffffffffffffffe" }
 			}
 		},
 		"feed08c981747133": {
@@ -2607,42 +2014,18 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": { "x": 0, "y": 0, "z": 90 },
-						"position": {
-							"x": -47.07146011352539,
-							"y": 30.025949783325196,
-							"z": 53.9
-						}
+						"position": { "x": -47.07146011352539, "y": 30.025949783325196, "z": 53.9 }
 					}
 				},
-				"RepositoryId": {
-					"type": "ZGuid",
-					"value": "1e0f5eed-8cfd-4b85-9593-38df4c7ce490"
-				},
-				"m_OutfitRepositoryID": {
-					"type": "ZGuid",
-					"value": "ea5b1cea-c305-4f60-9512-78b2e6cd5030"
-				},
+				"RepositoryId": { "type": "ZGuid", "value": "1e0f5eed-8cfd-4b85-9593-38df4c7ce490" },
+				"m_OutfitRepositoryID": { "type": "ZGuid", "value": "ea5b1cea-c305-4f60-9512-78b2e6cd5030" },
 				"m_nOutfitVariation": { "type": "int32", "value": 0 },
 				"m_sActorName": { "type": "ZString", "value": "Tommy Marevick" },
-				"m_eRequiredVoiceVariation": {
-					"type": "EActorVoiceVariation",
-					"value": "eAVV_CIVMALECH01"
-				},
-				"m_aEnforcedOutfits": {
-					"type": "TArray<SEntityTemplateReference>",
-					"value": [],
-					"postInit": true
-				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "fffffffffffffffe",
-					"postInit": true
-				}
+				"m_eRequiredVoiceVariation": { "type": "EActorVoiceVariation", "value": "eAVV_CIVMALECH01" },
+				"m_aEnforcedOutfits": { "type": "TArray<SEntityTemplateReference>", "value": [], "postInit": true },
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "fffffffffffffffe", "postInit": true }
 			},
-			"subsets": {
-				"AudioEmitters": ["fffffffffffffffe"],
-				"Replicable": ["fffffffffffffffe"]
-			}
+			"subsets": { "AudioEmitters": ["fffffffffffffffe"], "Replicable": ["fffffffffffffffe"] }
 		},
 		"feed2259c85bd1d0": {
 			"parent": "abcde92f2c09c134",
@@ -2654,42 +2037,18 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": { "x": 0, "y": 0, "z": 90 },
-						"position": {
-							"x": -48.67146011352539,
-							"y": 30.025949783325196,
-							"z": 53.9
-						}
+						"position": { "x": -48.67146011352539, "y": 30.025949783325196, "z": 53.9 }
 					}
 				},
-				"RepositoryId": {
-					"type": "ZGuid",
-					"value": "1e0f5eed-8cfd-4b85-9593-38df4c7ce490"
-				},
-				"m_OutfitRepositoryID": {
-					"type": "ZGuid",
-					"value": "ea5b1cea-c305-4f60-9512-78b2e6cd5030"
-				},
+				"RepositoryId": { "type": "ZGuid", "value": "1e0f5eed-8cfd-4b85-9593-38df4c7ce490" },
+				"m_OutfitRepositoryID": { "type": "ZGuid", "value": "ea5b1cea-c305-4f60-9512-78b2e6cd5030" },
 				"m_nOutfitVariation": { "type": "int32", "value": 0 },
 				"m_sActorName": { "type": "ZString", "value": "Tommy Marevick" },
-				"m_eRequiredVoiceVariation": {
-					"type": "EActorVoiceVariation",
-					"value": "eAVV_CIVMALECH01"
-				},
-				"m_aEnforcedOutfits": {
-					"type": "TArray<SEntityTemplateReference>",
-					"value": [],
-					"postInit": true
-				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "fffffffffffffffe",
-					"postInit": true
-				}
+				"m_eRequiredVoiceVariation": { "type": "EActorVoiceVariation", "value": "eAVV_CIVMALECH01" },
+				"m_aEnforcedOutfits": { "type": "TArray<SEntityTemplateReference>", "value": [], "postInit": true },
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "fffffffffffffffe", "postInit": true }
 			},
-			"subsets": {
-				"AudioEmitters": ["fffffffffffffffe"],
-				"Replicable": ["fffffffffffffffe"]
-			}
+			"subsets": { "AudioEmitters": ["fffffffffffffffe"], "Replicable": ["fffffffffffffffe"] }
 		},
 		"feed803110467dec": {
 			"parent": "feed2259c85bd1d0",
@@ -2701,28 +2060,13 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": { "x": 0, "y": 0, "z": 67.36718632733813 },
-						"position": {
-							"x": -47.47146011352539,
-							"y": 25.025949783325196,
-							"z": 54.050838470458984
-						}
+						"position": { "x": -47.47146011352539, "y": 25.025949783325196, "z": 54.050838470458984 }
 					}
 				},
-				"m_ePerceptionSensitivity": {
-					"type": "EActorPerceptionSensitivity",
-					"value": "APS_AMBIENT_SLEEPING"
-				},
+				"m_ePerceptionSensitivity": { "type": "EActorPerceptionSensitivity", "value": "APS_AMBIENT_SLEEPING" },
 				"m_fActTimeout": { "type": "float32", "value": -1 },
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "fffffffffffffffe",
-					"postInit": true
-				},
-				"m_pActor": {
-					"type": "SEntityTemplateReference",
-					"value": "feed2259c85bd1d0",
-					"postInit": true
-				}
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "fffffffffffffffe", "postInit": true },
+				"m_pActor": { "type": "SEntityTemplateReference", "value": "feed2259c85bd1d0", "postInit": true }
 			},
 			"events": { "OnReached": { "In": [] } }
 		},
@@ -2736,28 +2080,13 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": { "x": 0, "y": 0, "z": 67.36718632733813 },
-						"position": {
-							"x": -47.47146011352539,
-							"y": 25.025949783325196,
-							"z": 54.050838470458984
-						}
+						"position": { "x": -47.47146011352539, "y": 25.025949783325196, "z": 54.050838470458984 }
 					}
 				},
-				"m_ePerceptionSensitivity": {
-					"type": "EActorPerceptionSensitivity",
-					"value": "APS_AMBIENT_SLEEPING"
-				},
+				"m_ePerceptionSensitivity": { "type": "EActorPerceptionSensitivity", "value": "APS_AMBIENT_SLEEPING" },
 				"m_fActTimeout": { "type": "float32", "value": -1 },
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "fffffffffffffffe",
-					"postInit": true
-				},
-				"m_pActor": {
-					"type": "SEntityTemplateReference",
-					"value": "feed08c981747133",
-					"postInit": true
-				}
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "fffffffffffffffe", "postInit": true },
+				"m_pActor": { "type": "SEntityTemplateReference", "value": "feed08c981747133", "postInit": true }
 			},
 			"events": { "OnReached": { "In": [] } }
 		},
@@ -2771,25 +2100,13 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": { "x": 0, "y": 0, "z": -46.448902184664085 },
-						"position": {
-							"x": -47.3209114074707,
-							"y": -43.88808822631836,
-							"z": 0.6843640208244324
-						}
+						"position": { "x": -47.3209114074707, "y": -43.88808822631836, "z": 0.6843640208244324 }
 					}
 				},
 				"m_bUsePlacementAttach": { "type": "bool", "value": false },
 				"m_bSpawnOnStart": { "type": "bool", "value": false },
-				"m_rMainItemKey": {
-					"type": "SEntityTemplateReference",
-					"value": "feedf1c940ab0b1c",
-					"postInit": true
-				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "fffffffffffffffe",
-					"postInit": true
-				}
+				"m_rMainItemKey": { "type": "SEntityTemplateReference", "value": "feedf1c940ab0b1c", "postInit": true },
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "fffffffffffffffe", "postInit": true }
 			},
 			"events": {
 				"ItemReady": { "PickupIntoPocket": ["feedf813bd6cbea9"] },
@@ -2801,12 +2118,7 @@
 			"name": "ItemKey_Hackl9R_",
 			"factory": "[modules:/zitemrepositorykeyentity.class].pc_entitytype",
 			"blueprint": "[modules:/zitemrepositorykeyentity.class].pc_entityblueprint",
-			"properties": {
-				"m_RepositoryId": {
-					"type": "ZGuid",
-					"value": "1cae7d71-55c8-401a-9dfb-cd0909c4f6ee"
-				}
-			}
+			"properties": { "m_RepositoryId": { "type": "ZGuid", "value": "1cae7d71-55c8-401a-9dfb-cd0909c4f6ee" } }
 		},
 		"feedf813bd6cbea9": {
 			"parent": "feed41f53ab47061",
@@ -2820,14 +2132,8 @@
 			"factory": "00A6F689FB19B096",
 			"blueprint": "005AEBE4BDFCD1C9",
 			"properties": {
-				"m_rSpawner": {
-					"type": "SEntityTemplateReference",
-					"value": "feeded118515070f"
-				},
-				"m_aSequences": {
-					"type": "TArray<SEntityTemplateReference>",
-					"value": ["feed5a35c19b5fae"]
-				},
+				"m_rSpawner": { "type": "SEntityTemplateReference", "value": "feeded118515070f" },
+				"m_aSequences": { "type": "TArray<SEntityTemplateReference>", "value": ["feed5a35c19b5fae"] },
 				"m_nPriority": { "type": "uint32", "value": 20 },
 				"m_bHideItems": { "type": "bool", "value": false },
 				"m_bPlaceLeftHandItem": { "type": "bool", "value": false },
@@ -2857,9 +2163,7 @@
 			"factory": "[assembly:/_pro/design/logic.template?/timersimple.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/design/logic.template?/timersimple.entitytemplate].pc_entityblueprint",
 			"properties": { "Delay time (ms)": { "type": "int32", "value": 14000 } },
-			"events": {
-				"Out": { "CustomFlyIn_NearEnd_EnableWorld": ["feed230a0502b6aa"] }
-			}
+			"events": { "Out": { "CustomFlyIn_NearEnd_EnableWorld": ["feed230a0502b6aa"] } }
 		},
 		"feed5a35c19b5fae": {
 			"parent": "feed41f53ab47061",
@@ -2870,14 +2174,8 @@
 				"m_duration": { "type": "ZGameTime", "value": { "m_nTicks": 947183 } },
 				"m_startTime": { "type": "ZGameTime", "value": { "m_nTicks": 1486 } },
 				"m_bLetterbox": { "type": "bool", "value": true },
-				"m_eLetterBoxAspect": {
-					"type": "ZSequenceEntity.ELetterBoxAspect",
-					"value": "LETTERBOXASPECT_CINEMASCOPE"
-				},
-				"m_letterboxFadeOut": {
-					"type": "ZGameTime",
-					"value": { "m_nTicks": 1572864 }
-				},
+				"m_eLetterBoxAspect": { "type": "ZSequenceEntity.ELetterBoxAspect", "value": "LETTERBOXASPECT_CINEMASCOPE" },
+				"m_letterboxFadeOut": { "type": "ZGameTime", "value": { "m_nTicks": 1572864 } },
 				"m_aTracksAndGroups": {
 					"type": "TArray<SEntityTemplateReference>",
 					"value": ["feed42f153fceb05", "feedd58c4c2ab6ae", "feed303377239a27"],
@@ -2891,17 +2189,9 @@
 			"factory": "[modules:/zeventtrack.class].pc_entitytype",
 			"blueprint": "[modules:/zeventtrack.class].pc_entityblueprint",
 			"properties": {
-				"m_aItems": {
-					"type": "TArray<SEntityTemplateReference>",
-					"value": ["feedbf3b0db3c720"],
-					"postInit": true
-				}
+				"m_aItems": { "type": "TArray<SEntityTemplateReference>", "value": ["feedbf3b0db3c720"], "postInit": true }
 			},
-			"outputCopying": {
-				"Interpolation_Fired": {
-					"Event_Track_Interpolation_Fired": ["feed5a35c19b5fae"]
-				}
-			}
+			"outputCopying": { "Interpolation_Fired": { "Event_Track_Interpolation_Fired": ["feed5a35c19b5fae"] } }
 		},
 		"feed9f01a84476dd": {
 			"parent": "feed5a35c19b5fae",
@@ -2909,11 +2199,7 @@
 			"factory": "[modules:/zrenderdestinationtrack.class].pc_entitytype",
 			"blueprint": "[modules:/zrenderdestinationtrack.class].pc_entityblueprint",
 			"properties": {
-				"m_aItems": {
-					"type": "TArray<SEntityTemplateReference>",
-					"value": ["feed78bbbd0e3ddc"],
-					"postInit": true
-				}
+				"m_aItems": { "type": "TArray<SEntityTemplateReference>", "value": ["feed78bbbd0e3ddc"], "postInit": true }
 			}
 		},
 		"feedd58c4c2ab6ae": {
@@ -2928,11 +2214,7 @@
 			"factory": "[modules:/zrenderdestinationtrack.class].pc_entitytype",
 			"blueprint": "[modules:/zrenderdestinationtrack.class].pc_entityblueprint",
 			"properties": {
-				"m_aItems": {
-					"type": "TArray<SEntityTemplateReference>",
-					"value": ["feed6ec9d3edb180"],
-					"postInit": true
-				}
+				"m_aItems": { "type": "TArray<SEntityTemplateReference>", "value": ["feed6ec9d3edb180"], "postInit": true }
 			}
 		},
 		"feeddbe6646444fe": {
@@ -2977,10 +2259,7 @@
 			"factory": "[modules:/zentitygroup.class].pc_entitytype",
 			"blueprint": "[modules:/zentitygroup.class].pc_entityblueprint",
 			"properties": {
-				"m_aTracksAndGroups": {
-					"type": "TArray<SEntityTemplateReference>",
-					"value": ["feed99feb27f5ad7"]
-				}
+				"m_aTracksAndGroups": { "type": "TArray<SEntityTemplateReference>", "value": ["feed99feb27f5ad7"] }
 			}
 		},
 		"feedbf3b0db3c720": {
@@ -2992,9 +2271,7 @@
 				"m_startTime": { "type": "ZGameTime", "value": { "m_nTicks": 1486 } },
 				"m_duration": { "type": "ZGameTime", "value": { "m_nTicks": 65117 } }
 			},
-			"outputCopying": {
-				"Fired": { "Interpolation_Fired": ["feedf77a4c2a77e1"] }
-			}
+			"outputCopying": { "Fired": { "Interpolation_Fired": ["feedf77a4c2a77e1"] } }
 		},
 		"feed78bbbd0e3ddc": {
 			"parent": "feed9f01a84476dd",
@@ -3030,14 +2307,8 @@
 			"factory": "[modules:/ztrajectorytrack.class].pc_entitytype",
 			"blueprint": "[modules:/ztrajectorytrack.class].pc_entityblueprint",
 			"properties": {
-				"m_entityGroup": {
-					"type": "SEntityTemplateReference",
-					"value": "feed42f153fceb05"
-				},
-				"m_aItems": {
-					"type": "TArray<SEntityTemplateReference>",
-					"value": ["feed7c945562c807"]
-				},
+				"m_entityGroup": { "type": "SEntityTemplateReference", "value": "feed42f153fceb05" },
+				"m_aItems": { "type": "TArray<SEntityTemplateReference>", "value": ["feed7c945562c807"] },
 				"m_bRestoreValueAfterEnd": { "type": "bool", "value": false }
 			}
 		},
@@ -3111,16 +2382,9 @@
 			"factory": "[modules:/ztrajectorytrack.class].pc_entitytype",
 			"blueprint": "[modules:/ztrajectorytrack.class].pc_entityblueprint",
 			"properties": {
-				"m_aItems": {
-					"type": "TArray<SEntityTemplateReference>",
-					"value": ["feedd5916b2f3184"]
-				},
+				"m_aItems": { "type": "TArray<SEntityTemplateReference>", "value": ["feedd5916b2f3184"] },
 				"m_bRestoreValueAfterEnd": { "type": "bool", "value": false },
-				"m_entityGroup": {
-					"type": "SEntityTemplateReference",
-					"value": "feed59b4e179db16",
-					"postInit": true
-				}
+				"m_entityGroup": { "type": "SEntityTemplateReference", "value": "feed59b4e179db16", "postInit": true }
 			}
 		},
 		"feedd5916b2f3184": {
@@ -3206,10 +2470,7 @@
 			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_set.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_set.entitytemplate].pc_entityblueprint",
 			"properties": {
-				"m_aValueEntities": {
-					"type": "TArray<SEntityTemplateReference>",
-					"value": ["feed1b1b3433b625"]
-				}
+				"m_aValueEntities": { "type": "TArray<SEntityTemplateReference>", "value": ["feed1b1b3433b625"] }
 			}
 		},
 		"feed5b22e83c48ee": {
@@ -3234,16 +2495,10 @@
 				"SoundEnabled": { "type": "bool", "value": false },
 				"m_bUseOnlyOnce": { "type": "bool", "value": false },
 				"m_bIsOn": { "type": "bool", "value": false },
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "fffffffffffffffe"
-				},
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "fffffffffffffffe" },
 				"m_bVisible": { "type": "bool", "value": false }
 			},
-			"events": {
-				"Completed": { "SetTrue": [] },
-				"OnTurnOn": { "DoorBell_Ring": [] }
-			},
+			"events": { "Completed": { "SetTrue": [] }, "OnTurnOn": { "DoorBell_Ring": [] } },
 			"subsets": { "AudioEmitters": ["fffffffffffffffe"] }
 		},
 		"feed4bd8b5f3e511": {
@@ -3269,11 +2524,7 @@
 				"m_bCollideCamera": { "type": "bool", "value": true },
 				"m_vBoxSize": {
 					"type": "SVector3",
-					"value": {
-						"x": 0.277799606323242,
-						"y": 10.268871009349823,
-						"z": 15.675739765167236
-					}
+					"value": { "x": 0.277799606323242, "y": 10.268871009349823, "z": 15.675739765167236 }
 				}
 			}
 		},
@@ -3298,19 +2549,11 @@
 				},
 				"m_vGlobalSize": {
 					"type": "SVector3",
-					"value": {
-						"x": 0.277799606323242,
-						"y": 10.268871009349823,
-						"z": 15.675739765167236
-					}
+					"value": { "x": 0.277799606323242, "y": 10.268871009349823, "z": 15.675739765167236 }
 				},
 				"m_fPenaltyMultiplier": { "type": "float32", "value": 15 },
 				"m_bEnabled": { "type": "bool", "value": true },
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "feeda0dde246616a",
-					"postInit": true
-				}
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "feeda0dde246616a", "postInit": true }
 			}
 		},
 		"feed524921616dea": {
@@ -3326,35 +2569,15 @@
 						"position": { "x": -47.634243, "y": 21.203526, "z": 55.004517 }
 					}
 				},
-				"RepositoryId": {
-					"type": "ZGuid",
-					"value": "d3959196-6be0-43ea-b6e7-aafa70824746"
-				},
-				"m_OutfitRepositoryID": {
-					"type": "ZGuid",
-					"value": "d3bdbcfe-4747-4774-a642-17da478a4747"
-				},
+				"RepositoryId": { "type": "ZGuid", "value": "d3959196-6be0-43ea-b6e7-aafa70824746" },
+				"m_OutfitRepositoryID": { "type": "ZGuid", "value": "d3bdbcfe-4747-4774-a642-17da478a4747" },
 				"m_nOutfitVariation": { "type": "int32", "value": 0 },
 				"m_sActorName": { "type": "ZString", "value": "Eugene Cobb" },
-				"m_eRequiredVoiceVariation": {
-					"type": "EActorVoiceVariation",
-					"value": "eAVV_CIVMALECH01"
-				},
-				"m_aEnforcedOutfits": {
-					"type": "TArray<SEntityTemplateReference>",
-					"value": [],
-					"postInit": true
-				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "fffffffffffffffe",
-					"postInit": true
-				}
+				"m_eRequiredVoiceVariation": { "type": "EActorVoiceVariation", "value": "eAVV_CIVMALECH01" },
+				"m_aEnforcedOutfits": { "type": "TArray<SEntityTemplateReference>", "value": [], "postInit": true },
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "fffffffffffffffe", "postInit": true }
 			},
-			"subsets": {
-				"AudioEmitters": ["fffffffffffffffe"],
-				"Replicable": ["fffffffffffffffe"]
-			}
+			"subsets": { "AudioEmitters": ["fffffffffffffffe"], "Replicable": ["fffffffffffffffe"] }
 		},
 		"feeddec2ec70bce6": {
 			"parent": "abcd02f53140fce7",
@@ -3366,20 +2589,12 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": { "x": 0, "y": 0, "z": 0 },
-						"position": {
-							"x": -48.55358123779297,
-							"y": -25.775609970092773,
-							"z": 55.95977020263672
-						}
+						"position": { "x": -48.55358123779297, "y": -25.775609970092773, "z": 55.95977020263672 }
 					}
 				},
 				"m_vGlobalSize": {
 					"type": "SVector3",
-					"value": {
-						"x": 2.6103498935699463,
-						"y": 4.004970073699951,
-						"z": 4.4799299240112305
-					}
+					"value": { "x": 2.6103498935699463, "y": 4.004970073699951, "z": 4.4799299240112305 }
 				}
 			}
 		},
@@ -3398,17 +2613,10 @@
 				},
 				"m_PrimitiveScale": {
 					"type": "SVector3",
-					"value": {
-						"x": 1.608799886703491,
-						"y": 4.65,
-						"z": 1.0199999809265137
-					}
+					"value": { "x": 1.608799886703491, "y": 4.65, "z": 1.0199999809265137 }
 				},
 				"m_bVisible": { "type": "bool", "value": false },
-				"m_eRoomBehaviour": {
-					"type": "ZSpatialEntity.ERoomBehaviour",
-					"value": "ROOM_DYNAMIC"
-				}
+				"m_eRoomBehaviour": { "type": "ZSpatialEntity.ERoomBehaviour", "value": "ROOM_DYNAMIC" }
 			}
 		},
 		"feeda63f7ad613c3": {
@@ -3424,16 +2632,9 @@
 						"position": { "x": -50, "y": 28.5282, "z": 54.0113 }
 					}
 				},
-				"m_PrimitiveScale": {
-					"type": "SVector3",
-					"value": { "x": 1, "y": 2, "z": 1 }
-				},
+				"m_PrimitiveScale": { "type": "SVector3", "value": { "x": 1, "y": 2, "z": 1 } },
 				"m_bVisible": { "type": "bool", "value": false },
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "feeda0dde246616a",
-					"postInit": true
-				}
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "feeda0dde246616a", "postInit": true }
 			}
 		},
 		"feede64986386e59": {
@@ -3444,21 +2645,11 @@
 			"properties": {
 				"m_mTransform": {
 					"type": "SMatrix43",
-					"value": {
-						"rotation": { "x": 0, "y": 0, "z": 0 },
-						"position": { "x": -47.1986, "y": 29, "z": 54.0113 }
-					}
+					"value": { "rotation": { "x": 0, "y": 0, "z": 0 }, "position": { "x": -47.1986, "y": 29, "z": 54.0113 } }
 				},
-				"m_PrimitiveScale": {
-					"type": "SVector3",
-					"value": { "x": 1, "y": 10, "z": 1 }
-				},
+				"m_PrimitiveScale": { "type": "SVector3", "value": { "x": 1, "y": 10, "z": 1 } },
 				"m_bVisible": { "type": "bool", "value": false },
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "feeda0dde246616a",
-					"postInit": true
-				}
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "feeda0dde246616a", "postInit": true }
 			}
 		},
 		"feed56ca9f69e946": {
@@ -3469,21 +2660,11 @@
 			"properties": {
 				"m_mTransform": {
 					"type": "SMatrix43",
-					"value": {
-						"rotation": { "x": 0, "y": 0, "z": 180 },
-						"position": { "x": -49.8, "y": 19, "z": 54.0113 }
-					}
+					"value": { "rotation": { "x": 0, "y": 0, "z": 180 }, "position": { "x": -49.8, "y": 19, "z": 54.0113 } }
 				},
-				"m_PrimitiveScale": {
-					"type": "SVector3",
-					"value": { "x": 1, "y": 2.6, "z": 1 }
-				},
+				"m_PrimitiveScale": { "type": "SVector3", "value": { "x": 1, "y": 2.6, "z": 1 } },
 				"m_bVisible": { "type": "bool", "value": false },
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "feeda0dde246616a",
-					"postInit": true
-				}
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "feeda0dde246616a", "postInit": true }
 			}
 		},
 		"feeda1c980346f05": {
@@ -3494,21 +2675,11 @@
 			"properties": {
 				"m_mTransform": {
 					"type": "SMatrix43",
-					"value": {
-						"rotation": { "x": 0, "y": 0, "z": 180 },
-						"position": { "x": -49.8, "y": 25, "z": 54.0113 }
-					}
+					"value": { "rotation": { "x": 0, "y": 0, "z": 180 }, "position": { "x": -49.8, "y": 25, "z": 54.0113 } }
 				},
-				"m_PrimitiveScale": {
-					"type": "SVector3",
-					"value": { "x": 1, "y": 2, "z": 1 }
-				},
+				"m_PrimitiveScale": { "type": "SVector3", "value": { "x": 1, "y": 2, "z": 1 } },
 				"m_bVisible": { "type": "bool", "value": false },
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "feeda0dde246616a",
-					"postInit": true
-				}
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "feeda0dde246616a", "postInit": true }
 			}
 		},
 		"feedca45cf28fb3f": {
@@ -3524,16 +2695,9 @@
 						"position": { "x": -47.1986, "y": 18.5282, "z": 54.0113 }
 					}
 				},
-				"m_PrimitiveScale": {
-					"type": "SVector3",
-					"value": { "x": 1, "y": 2, "z": 1 }
-				},
+				"m_PrimitiveScale": { "type": "SVector3", "value": { "x": 1, "y": 2, "z": 1 } },
 				"m_bVisible": { "type": "bool", "value": false },
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "feeda0dde246616a",
-					"postInit": true
-				}
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "feeda0dde246616a", "postInit": true }
 			}
 		},
 		"feed22c6f7791010": {
@@ -3551,11 +2715,7 @@
 				},
 				"m_PrimitiveScale": {
 					"type": "SVector3",
-					"value": {
-						"x": 1.608799886703491,
-						"y": 4.65,
-						"z": 1.0199999809265137
-					}
+					"value": { "x": 1.608799886703491, "y": 4.65, "z": 1.0199999809265137 }
 				},
 				"m_bVisible": { "type": "bool", "value": false }
 			}
@@ -3569,9 +2729,7 @@
 					"externalScene": "[assembly:/_pro/scenes/missions/golden/mission_gecko/scenario_gecko.brick].pc_entitytype"
 				}
 			],
-			"properties": {
-				"m_bDefaultHeroSpawn": { "type": "bool", "value": false }
-			}
+			"properties": { "m_bDefaultHeroSpawn": { "type": "bool", "value": false } }
 		},
 		{
 			"entities": [
@@ -3580,12 +2738,7 @@
 					"externalScene": "[assembly:/_pro/scenes/missions/golden/mission_gecko/scenario_gecko.brick].pc_entitytype"
 				}
 			],
-			"properties": {
-				"m_InitialOutfitId": {
-					"type": "ZGuid",
-					"value": "b40a74a0-91a2-490d-8806-3ccfc852c82b"
-				}
-			}
+			"properties": { "m_InitialOutfitId": { "type": "ZGuid", "value": "b40a74a0-91a2-490d-8806-3ccfc852c82b" } }
 		}
 	],
 	"overrideDeletes": [
