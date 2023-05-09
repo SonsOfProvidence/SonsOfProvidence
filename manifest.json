@@ -143,6 +143,12 @@
 			"comment": "Cinematics Outfits from Romania",
 			"portFromChunk1": true,
 			"toChunk": 0
+		},
+		{
+			"runtimeID": "00873E7A549EF730",
+			"comment": "Trapped Outfits from Romania",
+			"portFromChunk1": true,
+			"toChunk": 0
 		}
 	],
 	"packagedefinition": [

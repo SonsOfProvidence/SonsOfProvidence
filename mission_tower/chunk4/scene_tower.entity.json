@@ -882,12 +882,12 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0, "y": 0, "z": 156.6021128371888 },
+						"rotation": { "x": 0, "y": 0, "z": 156.6021128371888 },
 						"position": { "x": -1.7291, "y": -227.94664, "z": 15.918614 }
 					}
 				},
 				"RepositoryId": { "type": "ZGuid", "value": "cafcb258-2ce4-4100-880d-65a2c55dec4f" },
-				"m_OutfitRepositoryID": { "type": "ZGuid", "value": "a383e616-6882-47c2-ac1d-c4085adfb4fb" },
+				"m_OutfitRepositoryID": { "type": "ZGuid", "value": "b40a74a0-91a2-490d-8806-3ccfc852c82b" },
 				"m_nOutfitVariation": { "type": "int32", "value": 3 },
 				"m_nOutfitCharset": { "type": "int32", "value": 0 },
 				"m_sActorName": { "type": "ZString", "value": "Tobias Schl?sser" },
@@ -905,12 +905,12 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0, "y": 0, "z": 173.91565883593063 },
+						"rotation": { "x": 0, "y": 0, "z": 173.91565883593063 },
 						"position": { "x": -3.6110513, "y": -228.35847, "z": 15.918658 }
 					}
 				},
 				"RepositoryId": { "type": "ZGuid", "value": "cafcb258-2ce4-4100-880d-65a2c55dec5f" },
-				"m_OutfitRepositoryID": { "type": "ZGuid", "value": "a383e616-6882-47c2-ac1d-c4085adfb4fb" },
+				"m_OutfitRepositoryID": { "type": "ZGuid", "value": "9ab20fc5-af3d-4a77-a30a-8442c058f99e" },
 				"m_nOutfitVariation": { "type": "int32", "value": 3 },
 				"m_nOutfitCharset": { "type": "int32", "value": 0 },
 				"m_sActorName": { "type": "ZString", "value": "Tobias Schl?sser" },
@@ -928,12 +928,12 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0, "y": 0, "z": -163.6363470784665 },
+						"rotation": { "x": 0, "y": 0, "z": -163.6363470784665 },
 						"position": { "x": -6.932901, "y": -228.82405, "z": 15.918704 }
 					}
 				},
 				"RepositoryId": { "type": "ZGuid", "value": "cafcb258-2ce4-4100-880d-65a2c55dec6f" },
-				"m_OutfitRepositoryID": { "type": "ZGuid", "value": "a383e616-6882-47c2-ac1d-c4085adfb4fb" },
+				"m_OutfitRepositoryID": { "type": "ZGuid", "value": "9a8fe7a5-abbd-4e12-b798-58b2c6960df1" },
 				"m_nOutfitVariation": { "type": "int32", "value": 3 },
 				"m_nOutfitCharset": { "type": "int32", "value": 0 },
 				"m_sActorName": { "type": "ZString", "value": "Tobias Schl?sser" },
@@ -944,19 +944,19 @@
 		},
 		"feedeb33b399e648": {
 			"parent": "abcde92f2c09c134",
-			"name": "CHAR_Debug4",
+			"name": "CHAR_Debug5",
 			"factory": "[assembly:/templates/gameplay/ai2/actors.template?/npcactor.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/templates/gameplay/ai2/actors.template?/npcactor.entitytemplate].pc_entityblueprint",
 			"properties": {
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0, "y": 0, "z": -136.67682544323912 },
+						"rotation": { "x": 0, "y": 0, "z": -136.67682544323912 },
 						"position": { "x": -7.703302, "y": -226.57455, "z": 15.918632 }
 					}
 				},
 				"RepositoryId": { "type": "ZGuid", "value": "cafcb258-2ce4-4100-880d-65a2c55dec7f" },
-				"m_OutfitRepositoryID": { "type": "ZGuid", "value": "a383e616-6882-47c2-ac1d-c4085adfb4fb" },
+				"m_OutfitRepositoryID": { "type": "ZGuid", "value": "2ecefc0c-d069-4402-a968-b9640d4f195f" },
 				"m_nOutfitVariation": { "type": "int32", "value": 3 },
 				"m_nOutfitCharset": { "type": "int32", "value": 0 },
 				"m_sActorName": { "type": "ZString", "value": "Tobias Schl?sser" },
@@ -965,21 +965,113 @@
 			},
 			"subsets": { "AudioEmitters": ["fffffffffffffffe"], "Replicable": ["fffffffffffffffe"] }
 		},
-		"feedeb33b399e649": {
+		"feedeb33b399e64a": {
 			"parent": "abcde92f2c09c134",
-			"name": "CHAR_Debug4",
+			"name": "CHAR_Debug6",
 			"factory": "[assembly:/templates/gameplay/ai2/actors.template?/npcactor.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/templates/gameplay/ai2/actors.template?/npcactor.entitytemplate].pc_entityblueprint",
 			"properties": {
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0, "y": 0, "z": -100.54622439432805 },
+						"rotation": { "x": 0, "y": 0, "z": -100.54622439432805 },
 						"position": { "x": -7.737824, "y": -224.2063, "z": 15.786101 }
 					}
 				},
 				"RepositoryId": { "type": "ZGuid", "value": "cafcb258-2ce4-4100-880d-65a2c55dec8f" },
-				"m_OutfitRepositoryID": { "type": "ZGuid", "value": "a383e616-6882-47c2-ac1d-c4085adfb4fb" },
+				"m_OutfitRepositoryID": { "type": "ZGuid", "value": "537f8d38-e64a-48d8-9e83-fdbb0c3ec346" },
+				"m_nOutfitVariation": { "type": "int32", "value": 3 },
+				"m_nOutfitCharset": { "type": "int32", "value": 0 },
+				"m_sActorName": { "type": "ZString", "value": "Tobias Schl?sser" },
+				"m_eRequiredVoiceVariation": { "type": "EActorVoiceVariation", "value": "eAVV_CIVMALE09" },
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "fffffffffffffffe", "postInit": true }
+			},
+			"subsets": { "AudioEmitters": ["fffffffffffffffe"], "Replicable": ["fffffffffffffffe"] }
+		},
+		"feedeb33b399e64b": {
+			"parent": "abcde92f2c09c134",
+			"name": "CHAR_Debug7",
+			"factory": "[assembly:/templates/gameplay/ai2/actors.template?/npcactor.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/templates/gameplay/ai2/actors.template?/npcactor.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": -100.54622439432805 },
+						"position": { "x": -7.737824, "y": -222.2063, "z": 15.786101 }
+					}
+				},
+				"RepositoryId": { "type": "ZGuid", "value": "cafcb258-2ce4-4100-880d-65a2c55dec9f" },
+				"m_OutfitRepositoryID": { "type": "ZGuid", "value": "5496f527-a26e-4be3-a1e5-953a8b4047cf" },
+				"m_nOutfitVariation": { "type": "int32", "value": 3 },
+				"m_nOutfitCharset": { "type": "int32", "value": 0 },
+				"m_sActorName": { "type": "ZString", "value": "Tobias Schl?sser" },
+				"m_eRequiredVoiceVariation": { "type": "EActorVoiceVariation", "value": "eAVV_CIVMALE09" },
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "fffffffffffffffe", "postInit": true }
+			},
+			"subsets": { "AudioEmitters": ["fffffffffffffffe"], "Replicable": ["fffffffffffffffe"] }
+		},
+		"feedeb33b399e64c": {
+			"parent": "abcde92f2c09c134",
+			"name": "CHAR_Debug8",
+			"factory": "[assembly:/templates/gameplay/ai2/actors.template?/npcactor.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/templates/gameplay/ai2/actors.template?/npcactor.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": -100.54622439432805 },
+						"position": { "x": -7.737824, "y": -221.2063, "z": 15.786101 }
+					}
+				},
+				"RepositoryId": { "type": "ZGuid", "value": "cafcb258-2ce4-4100-880d-65a2c55decaf" },
+				"m_OutfitRepositoryID": { "type": "ZGuid", "value": "2fb2bfd9-1773-406d-8f51-beec9f363e3a" },
+				"m_nOutfitVariation": { "type": "int32", "value": 3 },
+				"m_nOutfitCharset": { "type": "int32", "value": 0 },
+				"m_sActorName": { "type": "ZString", "value": "Tobias Schl?sser" },
+				"m_eRequiredVoiceVariation": { "type": "EActorVoiceVariation", "value": "eAVV_CIVMALE09" },
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "fffffffffffffffe", "postInit": true }
+			},
+			"subsets": { "AudioEmitters": ["fffffffffffffffe"], "Replicable": ["fffffffffffffffe"] }
+		},
+		"feedeb33b399e64d": {
+			"parent": "abcde92f2c09c134",
+			"name": "CHAR_Debug9",
+			"factory": "[assembly:/templates/gameplay/ai2/actors.template?/npcactor.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/templates/gameplay/ai2/actors.template?/npcactor.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": -100.54622439432805 },
+						"position": { "x": -7.737824, "y": -220.2063, "z": 15.786101 }
+					}
+				},
+				"RepositoryId": { "type": "ZGuid", "value": "cafcb258-2ce4-4100-880d-65a2c55decbf" },
+				"m_OutfitRepositoryID": { "type": "ZGuid", "value": "5689b34e-204f-462e-8662-2818f85df25e" },
+				"m_nOutfitVariation": { "type": "int32", "value": 3 },
+				"m_nOutfitCharset": { "type": "int32", "value": 0 },
+				"m_sActorName": { "type": "ZString", "value": "Tobias Schl?sser" },
+				"m_eRequiredVoiceVariation": { "type": "EActorVoiceVariation", "value": "eAVV_CIVMALE09" },
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "fffffffffffffffe", "postInit": true }
+			},
+			"subsets": { "AudioEmitters": ["fffffffffffffffe"], "Replicable": ["fffffffffffffffe"] }
+		},
+		"feedeb33b399e64e": {
+			"parent": "abcde92f2c09c134",
+			"name": "CHAR_Debug10",
+			"factory": "[assembly:/templates/gameplay/ai2/actors.template?/npcactor.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/templates/gameplay/ai2/actors.template?/npcactor.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": -100.54622439432805 },
+						"position": { "x": -7.737824, "y": -219.2063, "z": 15.786101 }
+					}
+				},
+				"RepositoryId": { "type": "ZGuid", "value": "cafcb258-2ce4-4100-880d-65a2c55deccf" },
+				"m_OutfitRepositoryID": { "type": "ZGuid", "value": "36b17a37-afcd-4747-85f8-8c5a0de8e1d7" },
 				"m_nOutfitVariation": { "type": "int32", "value": 3 },
 				"m_nOutfitCharset": { "type": "int32", "value": 0 },
 				"m_sActorName": { "type": "ZString", "value": "Tobias Schl?sser" },
@@ -995,7 +1087,8 @@
 	"pinConnectionOverrideDeletes": [],
 	"externalScenes": [
 		"[assembly:/_pro/scenes/missions/edgy/mission_fox/scenario_fox.brick].pc_entitytype",
-		"[assembly:/_pro/scenes/bricks/outfits_cinematics.brick].pc_entitytype"
+		"[assembly:/_pro/scenes/bricks/outfits_cinematics.brick].pc_entitytype",
+		"[assembly:/_pro/scenes/missions/trapped/outfits_wolverine.brick].pc_entitytype"
 	],
 	"subType": "scene",
 	"quickEntityVersion": 3.1,
