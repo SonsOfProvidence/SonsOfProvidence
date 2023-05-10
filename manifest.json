@@ -139,14 +139,32 @@
 			"toChunk": 0
 		},
 		{
-			"runtimeID": "002CEFEB054A45B4",
-			"comment": "Cinematics Outfits from Romania",
+			"runtimeID": "003C51A51A0EDC97",
+			"comment": "CHARSET_Cinematic_Mercenary_M",
 			"portFromChunk1": true,
 			"toChunk": 0
 		},
 		{
-			"runtimeID": "00873E7A549EF730",
-			"comment": "Trapped Outfits from Romania",
+			"runtimeID": "008E92AB49082B5F",
+			"comment": "CHARSET_Cinematic_LucasGrey_DesparateTraveler",
+			"portFromChunk1": true,
+			"toChunk": 0
+		},
+		{
+			"runtimeID": "006BC9AFDE185612",
+			"comment": "CHARSET_Cinematic_OliviaHall_NoBag",
+			"portFromChunk1": true,
+			"toChunk": 0
+		},
+		{
+			"runtimeID": "00E999F11313FAEA",
+			"comment": "CHARSET_Cinematic_OliviaHall_Wounded",
+			"portFromChunk1": true,
+			"toChunk": 0
+		},
+		{
+			"runtimeID": "00490047D1342813",
+			"comment": "CHARSET_Cinematic_Unique_LucasGrey_Parachute_M",
 			"portFromChunk1": true,
 			"toChunk": 0
 		}

@@ -10,10 +10,7 @@
 			"factory": "[modules:/zspatialentity.class].pc_entitytype"
 		},
 		"feed23534575f57b": {
-			"parent": {
-				"ref": "ba8ea9278df2079",
-				"externalScene": "[assembly:/_pro/scenes/bricks/globaldata.brick].pc_entitytype"
-			},
+			"parent": "fffffffffffffffe",
 			"name": "CHAR_Gecko_Hero_SkydivingOutfit_M_ PRO179078",
 			"factory": "[modules:/zglobaloutfitkit.class].pc_entitytype",
 			"blueprint": "[modules:/zglobaloutfitkit.class].pc_entityblueprint",
@@ -91,6 +88,326 @@
 			"blueprint": "[assembly:/_pro/design/gamecore/keywords/keywordsound.template?/keywordentity_foley_outfit_guard.entitytemplate].pc_entityblueprint",
 			"properties": { "m_aHolders": { "type": "TArray<SEntityTemplateReference>", "value": [], "postInit": true } },
 			"factory": "[assembly:/_pro/design/gamecore/keywords/keywordsound.template?/keywordentity_foley_outfit_guard.entitytemplate].pc_entitytype"
+		},
+		"feed10a338ef7406": {
+			"parent": "fffffffffffffffe",
+			"name": "Cinematic_Cinematic_LucasGrey_DesparateTraveler",
+			"factory": "[modules:/zglobaloutfitkit.class].pc_entitytype",
+			"blueprint": "[modules:/zglobaloutfitkit.class].pc_entityblueprint",
+			"properties": {
+				"m_DamageMultipliers": {
+					"type": "SBodyPartDamageMultipliers",
+					"value": {
+						"m_fHeadDamageMultiplier": 3,
+						"m_fFaceDamageMultiplier": 3,
+						"m_fArmDamageMultiplier": 1,
+						"m_fLArmDamageScalar": 0,
+						"m_fRArmDamageScalar": 0,
+						"m_fHandDamageMultiplier": 0.5,
+						"m_fLHandDamageScalar": 0,
+						"m_fRHandDamageScalar": 0,
+						"m_fLegDamageMultiplier": 0.6000000238418579,
+						"m_fLLegDamageScalar": 0,
+						"m_fRLegDamageScalar": 0,
+						"m_fTorsoDamageMultiplier": 1,
+						"m_bApplyLeftRightScalars": false
+					}
+				},
+				"m_eActorType": { "type": "EActorType", "value": "eAT_Civilian" },
+				"m_eActorCCClass": { "type": "EActorCCPreset", "value": "ACCP_CivilianeMale" },
+				"m_bHeroDisguiseAvailable": { "type": "bool", "value": false },
+				"m_aCharSets": { "type": "TArray<SEntityTemplateReference>", "value": ["feed4867830515a9"] },
+				"m_eSoundFootwearType": { "type": "EHM5SoundFootwearType", "value": "EFWT_LEATHER" },
+				"m_sId": { "type": "ZGuid", "value": "9ab20fc5-af3d-4a77-a30a-8442c058f99e" },
+				"m_pParentOutfit": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "6736fcbbd3e73209",
+						"externalScene": "[assembly:/_pro/scenes/bricks/globaldata.brick].pc_entitytype"
+					}
+				},
+				"m_sCommonName": { "type": "ZString", "value": "Cinematic_LucasGrey_DesparateTraveler" },
+				"m_sTitle": { "type": "ZString", "value": "Cinematic_LucasGrey_DesparateTraveler" },
+				"m_eOutfitAICategory": { "type": "EOutfitAICategory", "value": "OAC_Undefined" },
+				"m_rNameTextResource": { "type": "ZRuntimeResourceID", "value": null },
+				"m_rDescriptionTextResource": { "type": "ZRuntimeResourceID", "value": null },
+				"m_rDefaultVoiceVariations": {
+					"type": "TArray<EActorVoiceVariation>",
+					"value": ["eAVV_YACHTCREW01", "eAVV_YACHTCREW02", "eAVV_YACHTCREW03", "eAVV_YACHTCREW04"]
+				}
+			}
+		},
+		"feed4867830515a9": {
+			"parent": "feed10a338ef7406",
+			"name": "CHARSET_Cinematic_LucasGrey_DesparateTraveler",
+			"factory": "008E92AB49082B5F",
+			"blueprint": "00D264A88B12DB31"
+		},
+		"feed5b12a0cdb77b": {
+			"parent": "fffffffffffffffe",
+			"name": "Cinematic_OliviaHall_NoBag",
+			"factory": "[modules:/zglobaloutfitkit.class].pc_entitytype",
+			"blueprint": "[modules:/zglobaloutfitkit.class].pc_entityblueprint",
+			"properties": {
+				"m_DamageMultipliers": {
+					"type": "SBodyPartDamageMultipliers",
+					"value": {
+						"m_fHeadDamageMultiplier": 3,
+						"m_fFaceDamageMultiplier": 3,
+						"m_fArmDamageMultiplier": 1,
+						"m_fLArmDamageScalar": 0,
+						"m_fRArmDamageScalar": 0,
+						"m_fHandDamageMultiplier": 0.5,
+						"m_fLHandDamageScalar": 0,
+						"m_fRHandDamageScalar": 0,
+						"m_fLegDamageMultiplier": 0.6000000238418579,
+						"m_fLLegDamageScalar": 0,
+						"m_fRLegDamageScalar": 0,
+						"m_fTorsoDamageMultiplier": 1,
+						"m_bApplyLeftRightScalars": false
+					}
+				},
+				"m_eActorType": { "type": "EActorType", "value": "eAT_Civilian" },
+				"m_eActorCCClass": { "type": "EActorCCPreset", "value": "ACCP_CivilianFemale" },
+				"m_bHeroDisguiseAvailable": { "type": "bool", "value": false },
+				"m_aCharSets": { "type": "TArray<SEntityTemplateReference>", "value": ["feed71a75a0b5976"] },
+				"m_eSoundFootwearType": { "type": "EHM5SoundFootwearType", "value": "EFWT_SNEAKERS" },
+				"m_sId": { "type": "ZGuid", "value": "0d32164d-33ab-4043-b868-7cb7755ef202" },
+				"m_pParentOutfit": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "6736fcbbd3e73209",
+						"externalScene": "[assembly:/_pro/scenes/bricks/globaldata.brick].pc_entitytype"
+					}
+				},
+				"m_sCommonName": { "type": "ZString", "value": "Cinematic_OliviaHall_NoBag" },
+				"m_sTitle": { "type": "ZString", "value": "OliviaHall_NoBag" },
+				"m_eOutfitAICategory": { "type": "EOutfitAICategory", "value": "OAC_YachtCrew" },
+				"m_rNameTextResource": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/localization/hitman6/conversations/ui/pro/online/repository/outfits_npcs_vsrace.sweetmenutext?/outfits_newzealand_anubis_civilian_sailor_m_name_e41f9569-227c-4f2e-8697-c6ed72069f8e.sweetline].pc_sweetline",
+						"flag": "5F"
+					}
+				},
+				"m_rDescriptionTextResource": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/localization/hitman6/conversations/ui/pro/online/repository/outfits_npcs_vsrace.sweetmenutext?/outfits_newzealand_anubis_civilian_sailor_m_description_e41f9569-227c-4f2e-8697-c6ed72069f8e.sweetline].pc_sweetline",
+						"flag": "5F"
+					}
+				},
+				"m_rDefaultVoiceVariations": {
+					"type": "TArray<EActorVoiceVariation>",
+					"value": ["eAVV_YACHTCREW01", "eAVV_YACHTCREW02", "eAVV_YACHTCREW03", "eAVV_YACHTCREW04"]
+				},
+				"m_bIsFemale": { "type": "bool", "value": true }
+			}
+		},
+		"feed6d01108cdead": {
+			"parent": "feed5b12a0cdb77b",
+			"name": "KeywordEntity_FOLEY_OUTFIT_BODYGUARD",
+			"factory": "[assembly:/_pro/design/gamecore/keywords/keywordsound.template?/keywordentity_foley_outfit_bodyguard.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/gamecore/keywords/keywordsound.template?/keywordentity_foley_outfit_bodyguard.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_rHolder": { "type": "SEntityTemplateReference", "value": "feed5b12a0cdb77b", "postInit": true }
+			}
+		},
+		"feed71a75a0b5976": {
+			"parent": "feed5b12a0cdb77b",
+			"name": "CHARSET_Cinematic_OliviaHall_NoBag",
+			"factory": "006BC9AFDE185612",
+			"blueprint": "00A96FE796B44961"
+		},
+		"feedda19c52ca85e": {
+			"parent": "feed5b12a0cdb77b",
+			"name": "Keyword_Prof_Class_Default",
+			"factory": "007A51A2AFEC0D1A",
+			"blueprint": "00B0282A41C1CF2E",
+			"properties": { "m_aHolders": { "type": "TArray<SEntityTemplateReference>", "value": ["feed5b12a0cdb77b"] } }
+		},
+		"feed448d21a3bc76": {
+			"parent": "fffffffffffffffe",
+			"name": "Cinematic_OliviaHall_Wounded",
+			"factory": "[modules:/zglobaloutfitkit.class].pc_entitytype",
+			"blueprint": "[modules:/zglobaloutfitkit.class].pc_entityblueprint",
+			"properties": {
+				"m_DamageMultipliers": {
+					"type": "SBodyPartDamageMultipliers",
+					"value": {
+						"m_fHeadDamageMultiplier": 3,
+						"m_fFaceDamageMultiplier": 3,
+						"m_fArmDamageMultiplier": 1,
+						"m_fLArmDamageScalar": 0,
+						"m_fRArmDamageScalar": 0,
+						"m_fHandDamageMultiplier": 0.5,
+						"m_fLHandDamageScalar": 0,
+						"m_fRHandDamageScalar": 0,
+						"m_fLegDamageMultiplier": 0.6000000238418579,
+						"m_fLLegDamageScalar": 0,
+						"m_fRLegDamageScalar": 0,
+						"m_fTorsoDamageMultiplier": 1,
+						"m_bApplyLeftRightScalars": false
+					}
+				},
+				"m_eActorType": { "type": "EActorType", "value": "eAT_Civilian" },
+				"m_eActorCCClass": { "type": "EActorCCPreset", "value": "ACCP_CivilianFemale" },
+				"m_bHeroDisguiseAvailable": { "type": "bool", "value": false },
+				"m_aCharSets": { "type": "TArray<SEntityTemplateReference>", "value": ["feedd1980ca725c8"] },
+				"m_eSoundFootwearType": { "type": "EHM5SoundFootwearType", "value": "EFWT_SNEAKERS" },
+				"m_sId": { "type": "ZGuid", "value": "2a6639a3-2101-4606-b172-50eec2f781e2" },
+				"m_pParentOutfit": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "6736fcbbd3e73209",
+						"externalScene": "[assembly:/_pro/scenes/bricks/globaldata.brick].pc_entitytype"
+					}
+				},
+				"m_sCommonName": { "type": "ZString", "value": "Cinematic_OliviaHall_Wounded" },
+				"m_sTitle": { "type": "ZString", "value": "OliviaHall_Wounded" },
+				"m_eOutfitAICategory": { "type": "EOutfitAICategory", "value": "OAC_YachtCrew" },
+				"m_rNameTextResource": { "type": "ZRuntimeResourceID", "value": null },
+				"m_rDescriptionTextResource": { "type": "ZRuntimeResourceID", "value": null },
+				"m_rDefaultVoiceVariations": {
+					"type": "TArray<EActorVoiceVariation>",
+					"value": ["eAVV_YACHTCREW01", "eAVV_YACHTCREW02", "eAVV_YACHTCREW03", "eAVV_YACHTCREW04"]
+				},
+				"m_bIsFemale": { "type": "bool", "value": true }
+			}
+		},
+		"feedd1980ca725c8": {
+			"parent": "feed448d21a3bc76",
+			"name": "CHARSET_Cinematic_OliviaHall_Wounded",
+			"factory": "00E999F11313FAEA",
+			"blueprint": "007CB88DF09BC76C"
+		},
+		"feedc3bcc4ca4a9b": {
+			"parent": "feed448d21a3bc76",
+			"name": "Keyword_Prof_Class_Default",
+			"factory": "007A51A2AFEC0D1A",
+			"blueprint": "00B0282A41C1CF2E",
+			"properties": {
+				"m_aHolders": { "type": "TArray<SEntityTemplateReference>", "value": ["feed448d21a3bc76"], "postInit": true }
+			}
+		},
+		"feedca6a5083295f": {
+			"parent": "feed448d21a3bc76",
+			"name": "KeywordEntity_FOLEY_OUTFIT_BODYGUARD",
+			"factory": "[assembly:/_pro/design/gamecore/keywords/keywordsound.template?/keywordentity_foley_outfit_bodyguard.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/gamecore/keywords/keywordsound.template?/keywordentity_foley_outfit_bodyguard.entitytemplate].pc_entityblueprint",
+			"properties": { "m_rHolder": { "type": "SEntityTemplateReference", "value": "feed448d21a3bc76" } }
+		},
+		"feed2d370ae44d77": {
+			"parent": "fffffffffffffffe",
+			"name": "Cinematic_Unique_LucasGrey_Parachute_M",
+			"factory": "[modules:/zglobaloutfitkit.class].pc_entitytype",
+			"blueprint": "[modules:/zglobaloutfitkit.class].pc_entityblueprint",
+			"properties": {
+				"m_DamageMultipliers": {
+					"type": "SBodyPartDamageMultipliers",
+					"value": {
+						"m_fHeadDamageMultiplier": 3,
+						"m_fFaceDamageMultiplier": 3,
+						"m_fArmDamageMultiplier": 1,
+						"m_fLArmDamageScalar": 0,
+						"m_fRArmDamageScalar": 0,
+						"m_fHandDamageMultiplier": 0.5,
+						"m_fLHandDamageScalar": 0,
+						"m_fRHandDamageScalar": 0,
+						"m_fLegDamageMultiplier": 0.6000000238418579,
+						"m_fLLegDamageScalar": 0,
+						"m_fRLegDamageScalar": 0,
+						"m_fTorsoDamageMultiplier": 1,
+						"m_bApplyLeftRightScalars": false
+					}
+				},
+				"m_eActorType": { "type": "EActorType", "value": "eAT_Civilian" },
+				"m_eActorCCClass": { "type": "EActorCCPreset", "value": "ACCP_CivilianeMale" },
+				"m_bHeroDisguiseAvailable": { "type": "bool", "value": false },
+				"m_aCharSets": { "type": "TArray<SEntityTemplateReference>", "value": ["feed43ac317e7d6b"] },
+				"m_eSoundFootwearType": { "type": "EHM5SoundFootwearType", "value": "EFWT_LEATHER" },
+				"m_sId": { "type": "ZGuid", "value": "2fb2bfd9-1773-406d-8f51-beec9f363e3a" },
+				"m_pParentOutfit": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "6736fcbbd3e73209",
+						"externalScene": "[assembly:/_pro/scenes/bricks/globaldata.brick].pc_entitytype"
+					}
+				},
+				"m_sCommonName": { "type": "ZString", "value": "Cinematic_Unique_LucasGrey_Parachute_M" },
+				"m_sTitle": { "type": "ZString", "value": "Cinematic_Unique_LucasGrey_Parachute_M" },
+				"m_eOutfitAICategory": { "type": "EOutfitAICategory", "value": "OAC_Undefined" },
+				"m_rNameTextResource": { "type": "ZRuntimeResourceID", "value": null },
+				"m_rDescriptionTextResource": { "type": "ZRuntimeResourceID", "value": null },
+				"m_rDefaultVoiceVariations": {
+					"type": "TArray<EActorVoiceVariation>",
+					"value": ["eAVV_YACHTCREW01", "eAVV_YACHTCREW02", "eAVV_YACHTCREW03", "eAVV_YACHTCREW04"]
+				}
+			}
+		},
+		"feed43ac317e7d6b": {
+			"parent": "feed2d370ae44d77",
+			"name": "CHARSET_Cinematic_Unique_LucasGrey_Parachute_M",
+			"factory": "00490047D1342813",
+			"blueprint": "00089B3EB98783A1"
+		},
+		"feedcbc93756ebca": {
+			"parent": "fffffffffffffffe",
+			"name": "Cinematic_Bulldog_Mercenary",
+			"factory": "[modules:/zglobaloutfitkit.class].pc_entitytype",
+			"blueprint": "[modules:/zglobaloutfitkit.class].pc_entityblueprint",
+			"properties": {
+				"m_DamageMultipliers": {
+					"type": "SBodyPartDamageMultipliers",
+					"value": {
+						"m_fHeadDamageMultiplier": 3,
+						"m_fFaceDamageMultiplier": 3,
+						"m_fArmDamageMultiplier": 1,
+						"m_fLArmDamageScalar": 0,
+						"m_fRArmDamageScalar": 0,
+						"m_fHandDamageMultiplier": 0.5,
+						"m_fLHandDamageScalar": 0,
+						"m_fRHandDamageScalar": 0,
+						"m_fLegDamageMultiplier": 0.6000000238418579,
+						"m_fLLegDamageScalar": 0,
+						"m_fRLegDamageScalar": 0,
+						"m_fTorsoDamageMultiplier": 1,
+						"m_bApplyLeftRightScalars": false
+					}
+				},
+				"m_eActorType": { "type": "EActorType", "value": "eAT_Civilian" },
+				"m_eActorCCClass": { "type": "EActorCCPreset", "value": "ACCP_CivilianeMale" },
+				"m_bHeroDisguiseAvailable": { "type": "bool", "value": false },
+				"m_eSoundFootwearType": { "type": "EHM5SoundFootwearType", "value": "EFWT_LEATHER" },
+				"m_sId": { "type": "ZGuid", "value": "d5883f9b-11af-445e-a80a-036ff424970f" },
+				"m_pParentOutfit": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "6736fcbbd3e73209",
+						"externalScene": "[assembly:/_pro/scenes/bricks/globaldata.brick].pc_entitytype"
+					}
+				},
+				"m_sCommonName": { "type": "ZString", "value": "Cinematic_Bulldog_Mercenary" },
+				"m_sTitle": { "type": "ZString", "value": "Bulldog_Mercenary" },
+				"m_eOutfitAICategory": { "type": "EOutfitAICategory", "value": "OAC_Undefined" },
+				"m_rNameTextResource": { "type": "ZRuntimeResourceID", "value": null },
+				"m_rDescriptionTextResource": { "type": "ZRuntimeResourceID", "value": null },
+				"m_rDefaultVoiceVariations": {
+					"type": "TArray<EActorVoiceVariation>",
+					"value": ["eAVV_YACHTCREW01", "eAVV_YACHTCREW02", "eAVV_YACHTCREW03", "eAVV_YACHTCREW04"]
+				},
+				"m_aCharSets": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["feed3445125e1f2b"],
+					"postInit": true
+				}
+			}
+		},
+		"feed3445125e1f2b": {
+			"parent": "feedcbc93756ebca",
+			"name": "CHARSET_Cinematic_Mercenary_M",
+			"factory": "003C51A51A0EDC97",
+			"blueprint": "005F8488059FD4B1"
 		}
 	},
 	"propertyOverrides": [],

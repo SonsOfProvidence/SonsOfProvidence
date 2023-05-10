@@ -47,10 +47,7 @@
 			"factory": "[modules:/zoutfitvariation.class].pc_entitytype",
 			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint",
 			"properties": {
-				"m_Outfit": {
-					"type": "ZRuntimeResourceID",
-					"value": { "resource": "00EC23CD5ED3321D", "flag": "9F" }
-				}
+				"m_Outfit": { "type": "ZRuntimeResourceID", "value": { "resource": "00EC23CD5ED3321D", "flag": "9F" } }
 			}
 		},
 		"bf81da1146eed93": {
@@ -58,24 +55,14 @@
 			"name": "Nude",
 			"factory": "[modules:/zcharsetcharactertype.class].pc_entitytype",
 			"blueprint": "[modules:/zcharsetcharactertype.class].pc_entityblueprint",
-			"properties": {
-				"m_aVariations": {
-					"type": "TArray<SEntityTemplateReference>",
-					"value": ["3cce40a4c4246609"]
-				}
-			}
+			"properties": { "m_aVariations": { "type": "TArray<SEntityTemplateReference>", "value": ["3cce40a4c4246609"] } }
 		},
 		"da0c107335769424": {
 			"parent": "67cb74e467b90298",
 			"name": "HeroA",
 			"factory": "[modules:/zcharsetcharactertype.class].pc_entitytype",
 			"blueprint": "[modules:/zcharsetcharactertype.class].pc_entityblueprint",
-			"properties": {
-				"m_aVariations": {
-					"type": "TArray<SEntityTemplateReference>",
-					"value": ["71efb3aa9cc309e5"]
-				}
-			}
+			"properties": { "m_aVariations": { "type": "TArray<SEntityTemplateReference>", "value": ["71efb3aa9cc309e5"] } }
 		}
 	},
 	"propertyOverrides": [],
