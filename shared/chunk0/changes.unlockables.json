@@ -22,6 +22,29 @@
 		"Rarity": "common",
 		"IsDroppable": false
 	},
+	"TOKEN_OUTFIT_LUCAS_GREY_JACKET": {
+		"Id": "TOKEN_OUTFIT_LUCAS_GREY_JACKET",
+		"Guid": "2638b7fc-a3f4-40c2-aa2b-6a611873fd63",
+		"Type": "disguise",
+		"Subtype": "disguise",
+		"ImageId": "",
+		"RMTPrice": 99,
+		"GamePrice": 99,
+		"IsPurchasable": false,
+		"IsPublished": true,
+		"Capabilities": [],
+		"Qualities": {},
+		"Properties": {
+			"Quality": 1,
+			"Rarity": "common",
+			"LoadoutSlot": "disguise",
+			"RepositoryId": "9a8fe7a5-abbd-4e12-b798-58b2c6960df1",
+			"OrderIndex": 640,
+			"AllowUpSync": true
+		},
+		"Rarity": "common",
+		"IsDroppable": false
+	},
 	"STARTING_LOCATION_DARTMOOR_OUTSIDE": {
 		"Id": "STARTING_LOCATION_DARTMOOR_OUTSIDE",
 		"Guid": "179474a4-727a-1111-b354-c9fff4e8bff2",
@@ -59,7 +82,7 @@
 		"Properties": {
 			"Location": "LOCATION_EDGY_FOX",
 			"RepositoryId": "6244bf6d-18c1-4629-a691-d7845a87ef07",
-			"Equip": ["TOKEN_OUTFIT_LUCAS_GREY"],
+			"Equip": ["TOKEN_OUTFIT_LUCAS_GREY_JACKET"],
 			"UnlockOrder": 3
 		},
 		"Rarity": null
@@ -173,6 +196,7 @@
 		"Properties": {
 			"Unlocks": [
 				"TOKEN_OUTFIT_LUCAS_GREY",
+				"TOKEN_OUTFIT_LUCAS_GREY_JACKET",
 				"STARTING_LOCATION_MARRAKESH_COURTYARD",
 				"STARTING_LOCATION_SAPIENZA_APARTMENT",
 				"STARTING_LOCATION_AIRPLANE_SEAT",

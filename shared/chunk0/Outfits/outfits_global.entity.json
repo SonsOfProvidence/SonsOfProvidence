@@ -408,6 +408,83 @@
 			"name": "CHARSET_Cinematic_Mercenary_M",
 			"factory": "003C51A51A0EDC97",
 			"blueprint": "005F8488059FD4B1"
+		},
+		"feed89a95fc2881d": {
+			"parent": "fffffffffffffffe",
+			"name": "Cinematic_LucasGrey_Jacket",
+			"factory": "[modules:/zglobaloutfitkit.class].pc_entitytype",
+			"blueprint": "[modules:/zglobaloutfitkit.class].pc_entityblueprint",
+			"properties": {
+				"m_DamageMultipliers": {
+					"type": "SBodyPartDamageMultipliers",
+					"value": {
+						"m_fHeadDamageMultiplier": 3,
+						"m_fFaceDamageMultiplier": 3,
+						"m_fArmDamageMultiplier": 1,
+						"m_fLArmDamageScalar": 0,
+						"m_fRArmDamageScalar": 0,
+						"m_fHandDamageMultiplier": 0.5,
+						"m_fLHandDamageScalar": 0,
+						"m_fRHandDamageScalar": 0,
+						"m_fLegDamageMultiplier": 0.6000000238418579,
+						"m_fLLegDamageScalar": 0,
+						"m_fRLegDamageScalar": 0,
+						"m_fTorsoDamageMultiplier": 1,
+						"m_bApplyLeftRightScalars": false
+					}
+				},
+				"m_eActorType": { "type": "EActorType", "value": "eAT_Civilian" },
+				"m_eActorCCClass": { "type": "EActorCCPreset", "value": "ACCP_CivilianeMale" },
+				"m_bHeroDisguiseAvailable": { "type": "bool", "value": false },
+				"m_aCharSets": { "type": "TArray<SEntityTemplateReference>", "value": ["feed93a6e1f43c8a"] },
+				"m_eSoundFootwearType": { "type": "EHM5SoundFootwearType", "value": "EFWT_LEATHER" },
+				"m_sId": { "type": "ZGuid", "value": "9a8fe7a5-abbd-4e12-b798-58b2c6960df1" },
+				"m_sCommonName": { "type": "ZString", "value": "Cinematic_LucasGrey_Jacket" },
+				"m_sTitle": { "type": "ZString", "value": "LucasGrey_Jacket" },
+				"m_eOutfitAICategory": { "type": "EOutfitAICategory", "value": "OAC_YachtCrew" },
+				"m_rNameTextResource": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/localization/hitman6/conversations/ui/pro/online/repository/outfits_npcs_vsrace.sweetmenutext?/outfits_newzealand_anubis_civilian_sailor_m_name_e41f9569-227c-4f2e-8697-c6ed72069f8e.sweetline].pc_sweetline",
+						"flag": "5F"
+					}
+				},
+				"m_rDescriptionTextResource": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/localization/hitman6/conversations/ui/pro/online/repository/outfits_npcs_vsrace.sweetmenutext?/outfits_newzealand_anubis_civilian_sailor_m_description_e41f9569-227c-4f2e-8697-c6ed72069f8e.sweetline].pc_sweetline",
+						"flag": "5F"
+					}
+				},
+				"m_rDefaultVoiceVariations": {
+					"type": "TArray<EActorVoiceVariation>",
+					"value": ["eAVV_YACHTCREW01", "eAVV_YACHTCREW02", "eAVV_YACHTCREW03", "eAVV_YACHTCREW04"]
+				}
+			}
+		},
+		"feed93a6e1f43c8a": {
+			"parent": "feed89a95fc2881d",
+			"name": "CHARSET_Cinematic_LucasGrey_Jacket",
+			"factory": "003001DD73BB2BA2",
+			"blueprint": "00B1CD43172A120F"
+		},
+		"feede852e4dacc43": {
+			"parent": "feed89a95fc2881d",
+			"name": "Keyword_Prof_Class_Default",
+			"factory": "007A51A2AFEC0D1A",
+			"blueprint": "00B0282A41C1CF2E",
+			"properties": {
+				"m_aHolders": { "type": "TArray<SEntityTemplateReference>", "value": ["feed89a95fc2881d"], "postInit": true }
+			}
+		},
+		"feedb8526f440be2": {
+			"parent": "feed89a95fc2881d",
+			"name": "KeywordEntity_FOLEY_OUTFIT_BODYGUARD",
+			"factory": "[assembly:/_pro/design/gamecore/keywords/keywordsound.template?/keywordentity_foley_outfit_bodyguard.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/gamecore/keywords/keywordsound.template?/keywordentity_foley_outfit_bodyguard.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_rHolder": { "type": "SEntityTemplateReference", "value": "feed89a95fc2881d", "postInit": true }
+			}
 		}
 	},
 	"propertyOverrides": [],
