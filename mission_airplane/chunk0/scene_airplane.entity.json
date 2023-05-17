@@ -2000,7 +2000,7 @@
 						"position": { "x": -49.86146011352539, "y": 27.205949783325195, "z": 54.050838470458984 }
 					}
 				},
-				"m_RepositoryId": { "type": "ZGuid", "value": "c4146f27-81a9-42ef-b3c7-87a9d60b87fe" },
+				"m_RepositoryId": { "type": "ZGuid", "value": "2fb2bfd9-1773-406d-8f51-beec9f363e3a" },
 				"m_eidParent": { "type": "SEntityTemplateReference", "value": "fffffffffffffffe" }
 			}
 		},
@@ -2730,15 +2730,6 @@
 				}
 			],
 			"properties": { "m_bDefaultHeroSpawn": { "type": "bool", "value": false } }
-		},
-		{
-			"entities": [
-				{
-					"ref": "11b420629d3ee72e",
-					"externalScene": "[assembly:/_pro/scenes/missions/golden/mission_gecko/scenario_gecko.brick].pc_entitytype"
-				}
-			],
-			"properties": { "m_InitialOutfitId": { "type": "ZGuid", "value": "b40a74a0-91a2-490d-8806-3ccfc852c82b" } }
 		}
 	],
 	"overrideDeletes": [

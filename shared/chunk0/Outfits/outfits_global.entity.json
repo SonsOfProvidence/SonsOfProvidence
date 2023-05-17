@@ -9,88 +9,8 @@
 			"blueprint": "[modules:/zspatialentity.class].pc_entityblueprint",
 			"factory": "[modules:/zspatialentity.class].pc_entitytype"
 		},
-		"feed23534575f57b": {
-			"parent": "fffffffffffffffe",
-			"name": "CHAR_Gecko_Hero_SkydivingOutfit_M_ PRO179078",
-			"factory": "[modules:/zglobaloutfitkit.class].pc_entitytype",
-			"blueprint": "[modules:/zglobaloutfitkit.class].pc_entityblueprint",
-			"properties": {
-				"m_eActorType": { "type": "EActorType", "value": "eAT_Hitman" },
-				"m_eSoundFootwearType": { "type": "EHM5SoundFootwearType", "value": "EFWT_SNEAKERS" },
-				"m_sId": { "type": "ZGuid", "value": "c4146f27-81a9-42ef-b3c7-87a9d60b4747" },
-				"m_bCanCallForHelp": { "type": "bool", "value": true },
-				"m_sCommonName": { "type": "ZString", "value": "CHAR_Gecko_Hero_SkydivingOutfit_M_ PRO179078" },
-				"m_sTitle": { "type": "ZString", "value": "Gecko Skydiving Suit" },
-				"m_eOutfitAICategory": { "type": "EOutfitAICategory", "value": "OAC_Fallback" },
-				"m_rNameTextResource": {
-					"type": "ZRuntimeResourceID",
-					"value": {
-						"resource": "[assembly:/localization/hitman6/conversations/ui/pro/online/repository/outfits_hero_s3.sweetmenutext?/char_gecko_hero_skydivingoutfit_m_ pro179078_name_c4146f27-81a9-42ef-b3c7-87a9d60b87fe.sweetline].pc_sweetline",
-						"flag": "5F"
-					}
-				},
-				"m_rDescriptionTextResource": {
-					"type": "ZRuntimeResourceID",
-					"value": {
-						"resource": "[assembly:/localization/hitman6/conversations/ui/pro/online/repository/outfits_hero_s3.sweetmenutext?/char_gecko_hero_skydivingoutfit_m_ pro179078_description_c4146f27-81a9-42ef-b3c7-87a9d60b87fe.sweetline].pc_sweetline",
-						"flag": "5F"
-					}
-				},
-				"m_bHeroDisguiseAvailable": { "type": "bool", "value": true },
-				"m_bIsHitmanSuit": { "type": "bool", "value": true },
-				"m_bWeaponsAllowed": { "type": "bool", "value": false },
-				"m_aCharSets": {
-					"type": "TArray<SEntityTemplateReference>",
-					"value": ["feedf93470399480"],
-					"postInit": true
-				}
-			}
-		},
-		"feedf93470399480": {
-			"parent": "feed23534575f57b",
-			"name": "CHARSET_LucasGrey_SkydivingOutfit",
-			"blueprint": "00E269049830E7B9",
-			"factory": "0016FB99AD727C52"
-		},
-		"feed2854b857f697": {
-			"parent": "feed23534575f57b",
-			"name": "Keyword_Prof_Class_Default",
-			"blueprint": "00B0282A41C1CF2E",
-			"properties": {
-				"m_aHolders": { "type": "TArray<SEntityTemplateReference>", "value": ["feed23534575f57b"], "postInit": true }
-			},
-			"factory": "007A51A2AFEC0D1A"
-		},
-		"feed73d4c057c31f": {
-			"parent": "feed23534575f57b",
-			"name": "ItemKey_Hackl9R NPC",
-			"blueprint": "[modules:/zitemrepositorykeyentity.class].pc_entityblueprint",
-			"properties": { "m_RepositoryId": { "type": "ZGuid", "value": "1cae7d71-55c8-401a-9dfb-cd0909c4f6ee" } },
-			"factory": "[modules:/zitemrepositorykeyentity.class].pc_entitytype"
-		},
-		"feed88d1e904be79": {
-			"parent": "feed23534575f57b",
-			"name": "Keyword_Prof_Class_Guard_Heavy",
-			"blueprint": "003A7D4D8810414B",
-			"properties": { "m_aHolders": { "type": "TArray<SEntityTemplateReference>", "value": [] } },
-			"factory": "00364659808ED13C"
-		},
-		"feed9398aee4060e": {
-			"parent": "feed23534575f57b",
-			"name": "ItemKey_Shotgun02 NPC",
-			"blueprint": "[modules:/zitemrepositorykeyentity.class].pc_entityblueprint",
-			"properties": { "m_RepositoryId": { "type": "ZGuid", "value": "7f31d897-a62f-448c-be0d-79d565e2faa7" } },
-			"factory": "[modules:/zitemrepositorykeyentity.class].pc_entitytype"
-		},
-		"feed166f5a5bb82a": {
-			"parent": "feed23534575f57b",
-			"name": "KeywordEntity_FOLEY_OUTFIT_GUARD",
-			"blueprint": "[assembly:/_pro/design/gamecore/keywords/keywordsound.template?/keywordentity_foley_outfit_guard.entitytemplate].pc_entityblueprint",
-			"properties": { "m_aHolders": { "type": "TArray<SEntityTemplateReference>", "value": [], "postInit": true } },
-			"factory": "[assembly:/_pro/design/gamecore/keywords/keywordsound.template?/keywordentity_foley_outfit_guard.entitytemplate].pc_entitytype"
-		},
 		"feed10a338ef7406": {
-			"parent": "fffffffffffffffe",
+			"parent": "feed1d8f3a151446",
 			"name": "Cinematic_Cinematic_LucasGrey_DesparateTraveler",
 			"factory": "[modules:/zglobaloutfitkit.class].pc_entitytype",
 			"blueprint": "[modules:/zglobaloutfitkit.class].pc_entityblueprint",
@@ -226,79 +146,8 @@
 			"blueprint": "00B0282A41C1CF2E",
 			"properties": { "m_aHolders": { "type": "TArray<SEntityTemplateReference>", "value": ["feed5b12a0cdb77b"] } }
 		},
-		"feed448d21a3bc76": {
-			"parent": "fffffffffffffffe",
-			"name": "Cinematic_OliviaHall_Wounded",
-			"factory": "[modules:/zglobaloutfitkit.class].pc_entitytype",
-			"blueprint": "[modules:/zglobaloutfitkit.class].pc_entityblueprint",
-			"properties": {
-				"m_DamageMultipliers": {
-					"type": "SBodyPartDamageMultipliers",
-					"value": {
-						"m_fHeadDamageMultiplier": 3,
-						"m_fFaceDamageMultiplier": 3,
-						"m_fArmDamageMultiplier": 1,
-						"m_fLArmDamageScalar": 0,
-						"m_fRArmDamageScalar": 0,
-						"m_fHandDamageMultiplier": 0.5,
-						"m_fLHandDamageScalar": 0,
-						"m_fRHandDamageScalar": 0,
-						"m_fLegDamageMultiplier": 0.6000000238418579,
-						"m_fLLegDamageScalar": 0,
-						"m_fRLegDamageScalar": 0,
-						"m_fTorsoDamageMultiplier": 1,
-						"m_bApplyLeftRightScalars": false
-					}
-				},
-				"m_eActorType": { "type": "EActorType", "value": "eAT_Civilian" },
-				"m_eActorCCClass": { "type": "EActorCCPreset", "value": "ACCP_CivilianFemale" },
-				"m_bHeroDisguiseAvailable": { "type": "bool", "value": false },
-				"m_aCharSets": { "type": "TArray<SEntityTemplateReference>", "value": ["feedd1980ca725c8"] },
-				"m_eSoundFootwearType": { "type": "EHM5SoundFootwearType", "value": "EFWT_SNEAKERS" },
-				"m_sId": { "type": "ZGuid", "value": "2a6639a3-2101-4606-b172-50eec2f781e2" },
-				"m_pParentOutfit": {
-					"type": "SEntityTemplateReference",
-					"value": {
-						"ref": "6736fcbbd3e73209",
-						"externalScene": "[assembly:/_pro/scenes/bricks/globaldata.brick].pc_entitytype"
-					}
-				},
-				"m_sCommonName": { "type": "ZString", "value": "Cinematic_OliviaHall_Wounded" },
-				"m_sTitle": { "type": "ZString", "value": "OliviaHall_Wounded" },
-				"m_eOutfitAICategory": { "type": "EOutfitAICategory", "value": "OAC_YachtCrew" },
-				"m_rNameTextResource": { "type": "ZRuntimeResourceID", "value": null },
-				"m_rDescriptionTextResource": { "type": "ZRuntimeResourceID", "value": null },
-				"m_rDefaultVoiceVariations": {
-					"type": "TArray<EActorVoiceVariation>",
-					"value": ["eAVV_YACHTCREW01", "eAVV_YACHTCREW02", "eAVV_YACHTCREW03", "eAVV_YACHTCREW04"]
-				},
-				"m_bIsFemale": { "type": "bool", "value": true }
-			}
-		},
-		"feedd1980ca725c8": {
-			"parent": "feed448d21a3bc76",
-			"name": "CHARSET_Cinematic_OliviaHall_Wounded",
-			"factory": "00E999F11313FAEA",
-			"blueprint": "007CB88DF09BC76C"
-		},
-		"feedc3bcc4ca4a9b": {
-			"parent": "feed448d21a3bc76",
-			"name": "Keyword_Prof_Class_Default",
-			"factory": "007A51A2AFEC0D1A",
-			"blueprint": "00B0282A41C1CF2E",
-			"properties": {
-				"m_aHolders": { "type": "TArray<SEntityTemplateReference>", "value": ["feed448d21a3bc76"], "postInit": true }
-			}
-		},
-		"feedca6a5083295f": {
-			"parent": "feed448d21a3bc76",
-			"name": "KeywordEntity_FOLEY_OUTFIT_BODYGUARD",
-			"factory": "[assembly:/_pro/design/gamecore/keywords/keywordsound.template?/keywordentity_foley_outfit_bodyguard.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/design/gamecore/keywords/keywordsound.template?/keywordentity_foley_outfit_bodyguard.entitytemplate].pc_entityblueprint",
-			"properties": { "m_rHolder": { "type": "SEntityTemplateReference", "value": "feed448d21a3bc76" } }
-		},
 		"feed2d370ae44d77": {
-			"parent": "fffffffffffffffe",
+			"parent": "feed1d8f3a151446",
 			"name": "Cinematic_Unique_LucasGrey_Parachute_M",
 			"factory": "[modules:/zglobaloutfitkit.class].pc_entitytype",
 			"blueprint": "[modules:/zglobaloutfitkit.class].pc_entityblueprint",
@@ -410,7 +259,7 @@
 			"blueprint": "005F8488059FD4B1"
 		},
 		"feed89a95fc2881d": {
-			"parent": "fffffffffffffffe",
+			"parent": "feed1d8f3a151446",
 			"name": "Cinematic_LucasGrey_Jacket",
 			"factory": "[modules:/zglobaloutfitkit.class].pc_entitytype",
 			"blueprint": "[modules:/zglobaloutfitkit.class].pc_entityblueprint",
@@ -435,10 +284,17 @@
 				},
 				"m_eActorType": { "type": "EActorType", "value": "eAT_Civilian" },
 				"m_eActorCCClass": { "type": "EActorCCPreset", "value": "ACCP_CivilianeMale" },
-				"m_bHeroDisguiseAvailable": { "type": "bool", "value": false },
+				"m_bHeroDisguiseAvailable": { "type": "bool", "value": true },
 				"m_aCharSets": { "type": "TArray<SEntityTemplateReference>", "value": ["feed93a6e1f43c8a"] },
 				"m_eSoundFootwearType": { "type": "EHM5SoundFootwearType", "value": "EFWT_LEATHER" },
 				"m_sId": { "type": "ZGuid", "value": "9a8fe7a5-abbd-4e12-b798-58b2c6960df1" },
+				"m_pParentOutfit": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "6736fcbbd3e73209",
+						"externalScene": "[assembly:/_pro/scenes/bricks/globaldata.brick].pc_entitytype"
+					}
+				},
 				"m_sCommonName": { "type": "ZString", "value": "Cinematic_LucasGrey_Jacket" },
 				"m_sTitle": { "type": "ZString", "value": "LucasGrey_Jacket" },
 				"m_eOutfitAICategory": { "type": "EOutfitAICategory", "value": "OAC_YachtCrew" },
@@ -485,6 +341,120 @@
 			"properties": {
 				"m_rHolder": { "type": "SEntityTemplateReference", "value": "feed89a95fc2881d", "postInit": true }
 			}
+		},
+		"feed2a809621bde9": {
+			"parent": "feed1d8f3a151446",
+			"name": "Cinematic_lucasgrey_noarmband",
+			"factory": "[modules:/zglobaloutfitkit.class].pc_entitytype",
+			"blueprint": "[modules:/zglobaloutfitkit.class].pc_entityblueprint",
+			"properties": {
+				"m_DamageMultipliers": {
+					"type": "SBodyPartDamageMultipliers",
+					"value": {
+						"m_fHeadDamageMultiplier": 3,
+						"m_fFaceDamageMultiplier": 3,
+						"m_fArmDamageMultiplier": 1,
+						"m_fLArmDamageScalar": 0,
+						"m_fRArmDamageScalar": 0,
+						"m_fHandDamageMultiplier": 0.5,
+						"m_fLHandDamageScalar": 0,
+						"m_fRHandDamageScalar": 0,
+						"m_fLegDamageMultiplier": 0.6000000238418579,
+						"m_fLLegDamageScalar": 0,
+						"m_fRLegDamageScalar": 0,
+						"m_fTorsoDamageMultiplier": 1,
+						"m_bApplyLeftRightScalars": false
+					}
+				},
+				"m_eActorType": { "type": "EActorType", "value": "eAT_Civilian" },
+				"m_eActorCCClass": { "type": "EActorCCPreset", "value": "ACCP_CivilianeMale" },
+				"m_bHeroDisguiseAvailable": { "type": "bool", "value": false },
+				"m_aCharSets": { "type": "TArray<SEntityTemplateReference>", "value": ["feeddfaf39c8ee04"] },
+				"m_eSoundFootwearType": { "type": "EHM5SoundFootwearType", "value": "EFWT_LEATHER" },
+				"m_sId": { "type": "ZGuid", "value": "537f8d38-e64a-48d8-9e83-fdbb0c3ec346" },
+				"m_pParentOutfit": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "6736fcbbd3e73209",
+						"externalScene": "[assembly:/_pro/scenes/bricks/globaldata.brick].pc_entitytype"
+					}
+				},
+				"m_sCommonName": { "type": "ZString", "value": "Cinematic_lucasgrey_noarmband" },
+				"m_sTitle": { "type": "ZString", "value": "Cinematic_lucasgrey_noarmband" },
+				"m_eOutfitAICategory": { "type": "EOutfitAICategory", "value": "OAC_YachtCrew" },
+				"m_rNameTextResource": { "type": "ZRuntimeResourceID", "value": null },
+				"m_rDescriptionTextResource": { "type": "ZRuntimeResourceID", "value": null },
+				"m_rDefaultVoiceVariations": {
+					"type": "TArray<EActorVoiceVariation>",
+					"value": ["eAVV_YACHTCREW01", "eAVV_YACHTCREW02", "eAVV_YACHTCREW03", "eAVV_YACHTCREW04"]
+				}
+			}
+		},
+		"feeddfaf39c8ee04": {
+			"parent": "feed2a809621bde9",
+			"name": "CHARSET_Cinematic_LucasGrey_NoArmBand",
+			"factory": "00595FD7FF85F22C",
+			"blueprint": "0039918555A1D49C"
+		},
+		"feedcc401700db3b": {
+			"parent": "feed1d8f3a151446",
+			"name": "Cinematic_lucasgrey_poncho",
+			"factory": "[modules:/zglobaloutfitkit.class].pc_entitytype",
+			"blueprint": "[modules:/zglobaloutfitkit.class].pc_entityblueprint",
+			"properties": {
+				"m_DamageMultipliers": {
+					"type": "SBodyPartDamageMultipliers",
+					"value": {
+						"m_fHeadDamageMultiplier": 3,
+						"m_fFaceDamageMultiplier": 3,
+						"m_fArmDamageMultiplier": 1,
+						"m_fLArmDamageScalar": 0,
+						"m_fRArmDamageScalar": 0,
+						"m_fHandDamageMultiplier": 0.5,
+						"m_fLHandDamageScalar": 0,
+						"m_fRHandDamageScalar": 0,
+						"m_fLegDamageMultiplier": 0.6000000238418579,
+						"m_fLLegDamageScalar": 0,
+						"m_fRLegDamageScalar": 0,
+						"m_fTorsoDamageMultiplier": 1,
+						"m_bApplyLeftRightScalars": false
+					}
+				},
+				"m_eActorType": { "type": "EActorType", "value": "eAT_Civilian" },
+				"m_eActorCCClass": { "type": "EActorCCPreset", "value": "ACCP_CivilianeMale" },
+				"m_bHeroDisguiseAvailable": { "type": "bool", "value": false },
+				"m_aCharSets": { "type": "TArray<SEntityTemplateReference>", "value": ["feed27b7cd27280f"] },
+				"m_eSoundFootwearType": { "type": "EHM5SoundFootwearType", "value": "EFWT_LEATHER" },
+				"m_sId": { "type": "ZGuid", "value": "5496f527-a26e-4be3-a1e5-953a8b4047cf" },
+				"m_pParentOutfit": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "6736fcbbd3e73209",
+						"externalScene": "[assembly:/_pro/scenes/bricks/globaldata.brick].pc_entitytype"
+					}
+				},
+				"m_sCommonName": { "type": "ZString", "value": "Cinematic_lucasgrey_poncho" },
+				"m_sTitle": { "type": "ZString", "value": "Cinematic_lucasgrey_poncho" },
+				"m_eOutfitAICategory": { "type": "EOutfitAICategory", "value": "OAC_YachtCrew" },
+				"m_rNameTextResource": { "type": "ZRuntimeResourceID", "value": null },
+				"m_rDescriptionTextResource": { "type": "ZRuntimeResourceID", "value": null },
+				"m_rDefaultVoiceVariations": {
+					"type": "TArray<EActorVoiceVariation>",
+					"value": ["eAVV_YACHTCREW01", "eAVV_YACHTCREW02", "eAVV_YACHTCREW03", "eAVV_YACHTCREW04"]
+				}
+			}
+		},
+		"feed27b7cd27280f": {
+			"parent": "feedcc401700db3b",
+			"name": "CHARSET_Cinematic_LucasGrey_Poncho",
+			"factory": "005089935EC550BA",
+			"blueprint": "00882E01D33E6E9E"
+		},
+		"feed1d8f3a151446": {
+			"parent": "fffffffffffffffe",
+			"name": "Lucas Grey Outfits",
+			"factory": "[modules:/zentity.class].pc_entitytype",
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
 		}
 	},
 	"propertyOverrides": [],

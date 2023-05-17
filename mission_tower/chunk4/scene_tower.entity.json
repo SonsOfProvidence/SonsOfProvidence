@@ -875,7 +875,7 @@
 		},
 		"feedeb33b399e64e": {
 			"parent": "abcde92f2c09c134",
-			"name": "CHAR_Olivia",
+			"name": "Cinematic_OliviaHall_NoBag",
 			"factory": "[assembly:/templates/gameplay/ai2/actors.template?/npcactor.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/templates/gameplay/ai2/actors.template?/npcactor.entitytemplate].pc_entityblueprint",
 			"properties": {
@@ -921,7 +921,7 @@
 		},
 		"feedfaa8df9c43e9": {
 			"parent": "abcde92f2c09c134",
-			"name": "CHAR_Bulldog_Mercenary",
+			"name": "CHAR_Lucas_Grey_Parachute",
 			"factory": "[assembly:/templates/gameplay/ai2/actors.template?/npcactor.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/templates/gameplay/ai2/actors.template?/npcactor.entitytemplate].pc_entityblueprint",
 			"properties": {
@@ -929,14 +929,14 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": { "x": 0, "y": 0, "z": -163.6363470784665 },
-						"position": { "x": -6.932901, "y": -225.82405, "z": 15.918704 }
+						"position": { "x": -6.932901, "y": -224.82405, "z": 16.918704 }
 					}
 				},
 				"RepositoryId": { "type": "ZGuid", "value": "cafcb258-2ce4-4100-880d-65a2c55dec6f" },
-				"m_OutfitRepositoryID": { "type": "ZGuid", "value": "d5883f9b-11af-445e-a80a-036ff424970f" },
+				"m_OutfitRepositoryID": { "type": "ZGuid", "value": "2fb2bfd9-1773-406d-8f51-beec9f363e3a" },
 				"m_nOutfitVariation": { "type": "int32", "value": 0 },
 				"m_nOutfitCharset": { "type": "int32", "value": 0 },
-				"m_sActorName": { "type": "ZString", "value": "Bulldog Mercenary" },
+				"m_sActorName": { "type": "ZString", "value": "Lucas Grey" },
 				"m_eRequiredVoiceVariation": { "type": "EActorVoiceVariation", "value": "eAVV_CIVMALE09" },
 				"m_eidParent": { "type": "SEntityTemplateReference", "value": "fffffffffffffffe", "postInit": true }
 			},
@@ -962,6 +962,75 @@
 				"m_bWeaponUnholstered": { "type": "bool", "value": false },
 				"m_sActorName": { "type": "ZString", "value": "Cicada Mercenary" },
 				"m_eRequiredVoiceVariation": { "type": "EActorVoiceVariation", "value": "eAVV_FOX_THUG_M05" },
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "fffffffffffffffe", "postInit": true }
+			},
+			"subsets": { "AudioEmitters": ["fffffffffffffffe"], "Replicable": ["fffffffffffffffe"] }
+		},
+		"feed51488a003b77": {
+			"parent": "abcde92f2c09c134",
+			"name": "CHAR_Lucas_Grey_Jacket",
+			"factory": "[assembly:/templates/gameplay/ai2/actors.template?/npcactor.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/templates/gameplay/ai2/actors.template?/npcactor.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": -163.6363470784665 },
+						"position": { "x": -6.932901, "y": -225.82405, "z": 15.918704 }
+					}
+				},
+				"RepositoryId": { "type": "ZGuid", "value": "cafcb258-2ce4-4100-880d-65a2c55dec6f" },
+				"m_OutfitRepositoryID": { "type": "ZGuid", "value": "9a8fe7a5-abbd-4e12-b798-58b2c6960df1" },
+				"m_nOutfitVariation": { "type": "int32", "value": 0 },
+				"m_nOutfitCharset": { "type": "int32", "value": 0 },
+				"m_sActorName": { "type": "ZString", "value": "Lucas Grey" },
+				"m_eRequiredVoiceVariation": { "type": "EActorVoiceVariation", "value": "eAVV_CIVMALE09" },
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "fffffffffffffffe", "postInit": true }
+			},
+			"subsets": { "AudioEmitters": ["fffffffffffffffe"], "Replicable": ["fffffffffffffffe"] }
+		},
+		"feed91614bf9a779": {
+			"parent": "abcde92f2c09c134",
+			"name": "Cinematic_lucasgrey_noarmband",
+			"factory": "[assembly:/templates/gameplay/ai2/actors.template?/npcactor.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/templates/gameplay/ai2/actors.template?/npcactor.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": -163.6363470784665 },
+						"position": { "x": -5.932901, "y": -223.82405, "z": 15.918704 }
+					}
+				},
+				"RepositoryId": { "type": "ZGuid", "value": "cafcb258-2ce4-4100-880d-65a2c55dec6f" },
+				"m_OutfitRepositoryID": { "type": "ZGuid", "value": "537f8d38-e64a-48d8-9e83-fdbb0c3ec346" },
+				"m_nOutfitVariation": { "type": "int32", "value": 0 },
+				"m_nOutfitCharset": { "type": "int32", "value": 0 },
+				"m_sActorName": { "type": "ZString", "value": "Lucas Grey" },
+				"m_eRequiredVoiceVariation": { "type": "EActorVoiceVariation", "value": "eAVV_CIVMALE09" },
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "fffffffffffffffe", "postInit": true }
+			},
+			"subsets": { "AudioEmitters": ["fffffffffffffffe"], "Replicable": ["fffffffffffffffe"] }
+		},
+		"feede2875c94f6dc": {
+			"parent": "abcde92f2c09c134",
+			"name": "Cinematic_lucasgrey_poncho",
+			"factory": "[assembly:/templates/gameplay/ai2/actors.template?/npcactor.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/templates/gameplay/ai2/actors.template?/npcactor.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": -163.6363470784665 },
+						"position": { "x": -6.932901, "y": -222.82405, "z": 15.918704 }
+					}
+				},
+				"RepositoryId": { "type": "ZGuid", "value": "cafcb258-2ce4-4100-880d-65a2c55dec6f" },
+				"m_OutfitRepositoryID": { "type": "ZGuid", "value": "5496f527-a26e-4be3-a1e5-953a8b4047cf" },
+				"m_nOutfitVariation": { "type": "int32", "value": 0 },
+				"m_nOutfitCharset": { "type": "int32", "value": 0 },
+				"m_sActorName": { "type": "ZString", "value": "Lucas Grey" },
+				"m_eRequiredVoiceVariation": { "type": "EActorVoiceVariation", "value": "eAVV_CIVMALE09" },
 				"m_eidParent": { "type": "SEntityTemplateReference", "value": "fffffffffffffffe", "postInit": true }
 			},
 			"subsets": { "AudioEmitters": ["fffffffffffffffe"], "Replicable": ["fffffffffffffffe"] }

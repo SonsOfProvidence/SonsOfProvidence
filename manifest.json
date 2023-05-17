@@ -151,14 +151,32 @@
 			"toChunk": 0
 		},
 		{
-			"runtimeID": "006BC9AFDE185612",
-			"comment": "CHARSET_Cinematic_OliviaHall_NoBag",
+			"runtimeID": "003001DD73BB2BA2",
+			"comment": "CHARSET_Cinematic_LucasGrey_Jacket",
 			"portFromChunk1": true,
 			"toChunk": 0
 		},
 		{
-			"runtimeID": "00E999F11313FAEA",
-			"comment": "CHARSET_Cinematic_OliviaHall_Wounded",
+			"runtimeID": "00595FD7FF85F22C",
+			"comment": "charset_cinematic_lucasgrey_noarmband",
+			"portFromChunk1": true,
+			"toChunk": 0
+		},
+		{
+			"runtimeID": "00595FD7FF85F22C",
+			"comment": "charset_cinematic_lucasgrey_noarmband",
+			"portFromChunk1": true,
+			"toChunk": 0
+		},
+		{
+			"runtimeID": "005089935EC550BA",
+			"comment": "charset_cinematic_lucasgrey_poncho",
+			"portFromChunk1": true,
+			"toChunk": 0
+		},
+		{
+			"runtimeID": "006BC9AFDE185612",
+			"comment": "CHARSET_Cinematic_OliviaHall_NoBag",
 			"portFromChunk1": true,
 			"toChunk": 0
 		},
