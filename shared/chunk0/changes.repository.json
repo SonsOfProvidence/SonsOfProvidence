@@ -66,7 +66,7 @@
 		"HeroDisguiseAvailable": true,
 		"ID_": "4ddb6c12-97fc-49f9-acc4-1ac7b5cc7d6d",
 		"Image": "images/dbierek/outfit_lucas_grey_poncho.jpg",
-		"ImageTransparent": "images/dbierek/outfit_lucas_grey_poncho.jpg",
+		"ImageTransparent": "images/dbierek/outfit_lucas_grey_poncho.png",
 		"IsHitmanSuit": true,
 		"Name_": "$loc char_sonsofprovidence_hero_poncho_m_name",
 		"TokenID": ""
