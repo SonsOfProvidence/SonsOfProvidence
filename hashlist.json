@@ -80,6 +80,22 @@
 		"ioiString": "[assembly:/sonsofprovidence/shared/global_outfits.brick].pc_entityblueprint"
 	},
 	{
+		"hash": "0024FD56B984BC90",
+		"ioiString": "[assembly:/sonsofprovidence/shared/charset_lucasgrey_poncho.entitytemplate].pc_entitytype"
+	},
+	{
+		"hash": "003C88F67A1FFE7F",
+		"ioiString": "[assembly:/sonsofprovidence/shared/charset_lucasgrey_poncho.entitytemplate].pc_entityblueprint"
+	},
+	{
+		"hash": "00AC2BE477FD9E36",
+		"ioiString": "[assembly:/sonsofprovidence/shared/outfit_lucasgrey_poncho_heroa_v0.entitytemplate].pc_entitytype"
+	},
+	{
+		"hash": "00BC4937360BF300",
+		"ioiString": "[assembly:/sonsofprovidence/shared/outfit_lucasgrey_poncho_heroa_v0.entitytemplate].pc_entityblueprint"
+	},
+	{
 		"hash": "002B265B3512B2F9",
 		"ioiString": "[assembly:/sonsofprovidence/scene_moscow.entity].pc_entitytemplate"
 	},

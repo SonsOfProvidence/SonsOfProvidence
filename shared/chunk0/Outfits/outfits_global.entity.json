@@ -446,7 +446,7 @@
 		},
 		"feed27b7cd27280f": {
 			"parent": "feedcc401700db3b",
-			"name": "CHARSET_Cinematic_LucasGrey_Poncho",
+			"name": "CHARSET_Cinematic_lucasgrey_poncho",
 			"factory": "005089935EC550BA",
 			"blueprint": "00882E01D33E6E9E"
 		},
@@ -457,7 +457,7 @@
 			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
 		}
 	},
-	"propertyOverrides": [],
+	"propertyOverrides": [{ "entities": [], "properties": {} }],
 	"overrideDeletes": [],
 	"pinConnectionOverrides": [],
 	"pinConnectionOverrideDeletes": [],

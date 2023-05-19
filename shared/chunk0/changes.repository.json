@@ -59,6 +59,18 @@
 		"Name": "char_gecko_hero_skydivingoutfit_m_ pro179078_name_c4146f27-81a9-42ef-b3c7-87a9d60b4747",
 		"TokenID": ""
 	},
+	"4ddb6c12-97fc-49f9-acc4-1ac7b5cc7d6d": {
+		"Category": "",
+		"CommonName": "$loc char_sonsofprovidence_hero_poncho_m",
+		"Description": "$loc char_sonsofprovidence_hero_poncho_m_description",
+		"HeroDisguiseAvailable": true,
+		"ID_": "4ddb6c12-97fc-49f9-acc4-1ac7b5cc7d6d",
+		"Image": "images/dbierek/outfit_lucas_grey_poncho.jpg",
+		"ImageTransparent": "images/dbierek/outfit_lucas_grey_poncho.jpg",
+		"IsHitmanSuit": true,
+		"Name_": "$loc char_sonsofprovidence_hero_poncho_m_name",
+		"TokenID": ""
+	},
 	"d3959196-6be0-43ea-b6e7-aafa70824746": {
 		"CharacterSetIndex": 0.0,
 		"Description": "Eugene Cobb",
