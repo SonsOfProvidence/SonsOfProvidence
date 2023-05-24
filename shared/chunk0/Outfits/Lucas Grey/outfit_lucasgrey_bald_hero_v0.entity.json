@@ -1,6 +1,6 @@
 {
-	"tempHash": "0019481567B9D3B4",
-	"tbluHash": "00F6A3CB70F6902D",
+	"tempHash": "004D052D5A3A1F42",
+	"tbluHash": "004D052D5A3A1F42",
 	"rootEntity": "196c032594a3655",
 	"entities": {
 		"6d482723553dbaac": {
@@ -9,11 +9,7 @@
 			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_set.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_set.entitytemplate].pc_entityblueprint",
 			"properties": {
-				"m_rValueEntity": {
-					"type": "SEntityTemplateReference",
-					"value": "2737bae023a4d7b7",
-					"postInit": true
-				}
+				"m_rValueEntity": { "type": "SEntityTemplateReference", "value": "2737bae023a4d7b7", "postInit": true }
 			}
 		},
 		"c07d82add09fa5ff": {
@@ -29,19 +25,11 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": { "x": 0, "y": 0, "z": 0 },
-						"position": {
-							"x": -0.023358000442385674,
-							"y": 0.010861000046133995,
-							"z": 0.049173999577760696
-						}
+						"position": { "x": -0.023358000442385674, "y": 0.010861000046133995, "z": 0.049173999577760696 }
 					}
 				},
 				"m_bEnabled": { "type": "bool", "value": true },
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "b3bcf542a709116d",
-					"postInit": true
-				}
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "b3bcf542a709116d", "postInit": true }
 			}
 		},
 		"d5cddd9008d2f050": {
@@ -61,9 +49,7 @@
 			"name": "Wolverine_LG_ClothSim",
 			"factory": "[modules:/ztokenidentity.class].pc_entitytype",
 			"blueprint": "[modules:/ztokenidentity.class].pc_entityblueprint",
-			"properties": {
-				"m_sName": { "type": "ZString", "value": "Wolverine_LG_ClothSim" }
-			}
+			"properties": { "m_sName": { "type": "ZString", "value": "Wolverine_LG_ClothSim" } }
 		},
 		"c383fd559f740ec1": {
 			"parent": "b3bcf542a709116d",
@@ -75,11 +61,7 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": { "x": 0, "y": 0, "z": 0 },
-						"position": {
-							"x": -1.290655973207322e-7,
-							"y": 2.171457902377938e-9,
-							"z": 0
-						}
+						"position": { "x": -1.290655973207322e-7, "y": 2.171457902377938e-9, "z": 0 }
 					}
 				},
 				"m_Spheres": {
@@ -87,11 +69,7 @@
 					"value": ["ba4557537e073fa8", "c07d82add09fa5ff", "21672384c03633d6"],
 					"postInit": true
 				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "b3bcf542a709116d",
-					"postInit": true
-				}
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "b3bcf542a709116d", "postInit": true }
 			}
 		},
 		"b81a374489a81707": {
@@ -107,18 +85,10 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": { "x": 0.01976704358638215, "y": 0, "z": 0 },
-						"position": {
-							"x": 0.12606200575828552,
-							"y": -0.011234999634325504,
-							"z": -0.0020119999535381794
-						}
+						"position": { "x": 0.12606200575828552, "y": -0.011234999634325504, "z": -0.0020119999535381794 }
 					}
 				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "b1df40cae6b5b7da",
-					"postInit": true
-				}
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "b1df40cae6b5b7da", "postInit": true }
 			}
 		},
 		"21f05edb392fc6c0": {
@@ -131,11 +101,7 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": { "x": 0, "y": 0, "z": 0 },
-						"position": {
-							"x": 1.4530309438705444,
-							"y": 8.02124309539795,
-							"z": -1.4957720041275024
-						}
+						"position": { "x": 1.4530309438705444, "y": 8.02124309539795, "z": -1.4957720041275024 }
 					}
 				},
 				"MaterialInstanceOverrideDest": {
@@ -146,10 +112,7 @@
 					}
 				},
 				"Wounded": { "type": "float32", "value": 0 },
-				"Wounded_op": {
-					"type": "IRenderMaterialEntity.EModifierOperation",
-					"value": "eReplace"
-				},
+				"Wounded_op": { "type": "IRenderMaterialEntity.EModifierOperation", "value": "eReplace" },
 				"Override": { "type": "bool", "value": true },
 				"Texture2DNormal_01": {
 					"type": "ZRuntimeResourceID",
@@ -159,16 +122,8 @@
 					}
 				},
 				"Texture2DNormal_01_enab": { "type": "bool", "value": true },
-				"Clients": {
-					"type": "TArray<SEntityTemplateReference>",
-					"value": ["196c032594a3655"],
-					"postInit": true
-				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "5bfe6c561ddf8c",
-					"postInit": true
-				}
+				"Clients": { "type": "TArray<SEntityTemplateReference>", "value": ["196c032594a3655"], "postInit": true },
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "5bfe6c561ddf8c", "postInit": true }
 			}
 		},
 		"4bcf04739e64aefd": {
@@ -184,18 +139,10 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": { "x": 0, "y": 0, "z": 0 },
-						"position": {
-							"x": 0.03605800122022629,
-							"y": 0.007757000159472227,
-							"z": -0.03519900143146515
-						}
+						"position": { "x": 0.03605800122022629, "y": 0.007757000159472227, "z": -0.03519900143146515 }
 					}
 				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "b1df40cae6b5b7da",
-					"postInit": true
-				}
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "b1df40cae6b5b7da", "postInit": true }
 			}
 		},
 		"39d221133d5ff54e": {
@@ -211,19 +158,11 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": { "x": 0, "y": 0, "z": 7.7272824481222155 },
-						"position": {
-							"x": -0.034219998866319656,
-							"y": 0.02934800088405609,
-							"z": -0.04060899838805199
-						}
+						"position": { "x": -0.034219998866319656, "y": 0.02934800088405609, "z": -0.04060899838805199 }
 					}
 				},
 				"m_bEnabled": { "type": "bool", "value": true },
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "b3bcf542a709116d",
-					"postInit": true
-				}
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "b3bcf542a709116d", "postInit": true }
 			}
 		},
 		"43d5982956ee73cc": {
@@ -235,16 +174,8 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": {
-							"x": 3.4625495295201843e-7,
-							"y": -6.315862537584159e-7,
-							"z": 5.004550884630443e-7
-						},
-						"position": {
-							"x": -5.008154957408806e-8,
-							"y": 1.6014109149864453e-8,
-							"z": -1.6104669597893917e-8
-						}
+						"rotation": { "x": 3.4625495295201843e-7, "y": -6.315862537584159e-7, "z": 5.004550884630443e-7 },
+						"position": { "x": -5.008154957408806e-8, "y": 1.6014109149864453e-8, "z": -1.6104669597893917e-8 }
 					}
 				},
 				"m_bCollisionGroup0": { "type": "bool", "value": true },
@@ -254,11 +185,7 @@
 					"value": ["6b8cc460b540a5f7", "16fc4e88f0e7cd30"],
 					"postInit": true
 				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "b1df40cae6b5b7da",
-					"postInit": true
-				}
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "b1df40cae6b5b7da", "postInit": true }
 			}
 		},
 		"63f23b79c07b9fdd": {
@@ -274,19 +201,11 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": { "x": 0, "y": 0.019767042409995977, "z": 0 },
-						"position": {
-							"x": 0.05449400097131729,
-							"y": 0.005206000059843063,
-							"z": 0.012148000299930573
-						}
+						"position": { "x": 0.05449400097131729, "y": 0.005206000059843063, "z": 0.012148000299930573 }
 					}
 				},
 				"m_bCollisionGroup0": { "type": "bool", "value": true },
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "b3bcf542a709116d",
-					"postInit": true
-				}
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "b3bcf542a709116d", "postInit": true }
 			}
 		},
 		"aef86ab2249d144c": {
@@ -300,17 +219,10 @@
 				"m_fRadius": { "type": "float32", "value": 0.07999999821186066 },
 				"m_mTransform": {
 					"type": "SMatrix43",
-					"value": {
-						"rotation": { "x": 0, "y": 0, "z": 0 },
-						"position": { "x": 0, "y": 0, "z": 0 }
-					}
+					"value": { "rotation": { "x": 0, "y": 0, "z": 0 }, "position": { "x": 0, "y": 0, "z": 0 } }
 				},
 				"m_bEnabled": { "type": "bool", "value": true },
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "b3bcf542a709116d",
-					"postInit": true
-				}
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "b3bcf542a709116d", "postInit": true }
 			}
 		},
 		"f152307fc65fb805": {
@@ -321,10 +233,7 @@
 			"properties": {
 				"m_mTransform": {
 					"type": "SMatrix43",
-					"value": {
-						"rotation": { "x": 0, "y": 0, "z": 0 },
-						"position": { "x": 0, "y": 0, "z": 0 }
-					}
+					"value": { "rotation": { "x": 0, "y": 0, "z": 0 }, "position": { "x": 0, "y": 0, "z": 0 } }
 				},
 				"Texture2DNormal_01_enab": { "type": "bool", "value": true },
 				"Texture2DNormal_01": {
@@ -334,11 +243,7 @@
 						"flag": "5F"
 					}
 				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "5bfe6c561ddf8c",
-					"postInit": true
-				}
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "5bfe6c561ddf8c", "postInit": true }
 			}
 		},
 		"e18d1f2efa1b40c4": {
@@ -352,17 +257,10 @@
 				"m_fRadius": { "type": "float32", "value": 0.07000000029802322 },
 				"m_mTransform": {
 					"type": "SMatrix43",
-					"value": {
-						"rotation": { "x": 0, "y": 0, "z": 0 },
-						"position": { "x": 0, "y": 0, "z": 0 }
-					}
+					"value": { "rotation": { "x": 0, "y": 0, "z": 0 }, "position": { "x": 0, "y": 0, "z": 0 } }
 				},
 				"m_bEnabled": { "type": "bool", "value": true },
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "b3bcf542a709116d",
-					"postInit": true
-				}
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "b3bcf542a709116d", "postInit": true }
 			}
 		},
 		"2737bae023a4d7b7": {
@@ -371,15 +269,8 @@
 			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_entityproperty.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_entityproperty.entitytemplate].pc_entityblueprint",
 			"properties": {
-				"m_sPropertyName": {
-					"type": "ZString",
-					"value": "m_bSimulationEnabled"
-				},
-				"m_rEntity": {
-					"type": "SEntityTemplateReference",
-					"value": "196c032594a3655",
-					"postInit": true
-				}
+				"m_sPropertyName": { "type": "ZString", "value": "m_bSimulationEnabled" },
+				"m_rEntity": { "type": "SEntityTemplateReference", "value": "196c032594a3655", "postInit": true }
 			}
 		},
 		"5c67cc23075a8c49": {
@@ -394,19 +285,11 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": { "x": 0, "y": 0.11785748420796589, "z": 0 },
-						"position": {
-							"x": 0.036486998200416565,
-							"y": 0.008605999872088432,
-							"z": -0.06559199839830399
-						}
+						"position": { "x": 0.036486998200416565, "y": 0.008605999872088432, "z": -0.06559199839830399 }
 					}
 				},
 				"m_bEnabled": { "type": "bool", "value": true },
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "b1df40cae6b5b7da",
-					"postInit": true
-				}
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "b1df40cae6b5b7da", "postInit": true }
 			}
 		},
 		"8245663ae92c8e8e": {
@@ -419,11 +302,7 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": { "x": 0, "y": 0, "z": 0 },
-						"position": {
-							"x": -1.290655973207322e-7,
-							"y": 2.171457902377938e-9,
-							"z": 0
-						}
+						"position": { "x": -1.290655973207322e-7, "y": 2.171457902377938e-9, "z": 0 }
 					}
 				},
 				"m_Spheres": {
@@ -431,11 +310,7 @@
 					"value": ["bd2f717188cfb9b9", "760754e7876ec96c", "ad3893d8d2cfabd"],
 					"postInit": true
 				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "b1df40cae6b5b7da",
-					"postInit": true
-				}
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "b1df40cae6b5b7da", "postInit": true }
 			}
 		},
 		"39ebecda44197c54": {
@@ -449,17 +324,10 @@
 				"m_fRadius": { "type": "float32", "value": 0.07000000029802322 },
 				"m_mTransform": {
 					"type": "SMatrix43",
-					"value": {
-						"rotation": { "x": 0, "y": 0, "z": 0 },
-						"position": { "x": 0, "y": 0, "z": 0 }
-					}
+					"value": { "rotation": { "x": 0, "y": 0, "z": 0 }, "position": { "x": 0, "y": 0, "z": 0 } }
 				},
 				"m_bEnabled": { "type": "bool", "value": true },
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "b1df40cae6b5b7da",
-					"postInit": true
-				}
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "b1df40cae6b5b7da", "postInit": true }
 			}
 		},
 		"f244f84e096c1f9d": {
@@ -472,15 +340,9 @@
 					"type": "ZRuntimeResourceID",
 					"value": { "resource": "006AA60835A796C1", "flag": "5F" }
 				},
-				"Texture2D_01": {
-					"type": "ZRuntimeResourceID",
-					"value": { "resource": "0070CA134D3881BF", "flag": "5F" }
-				},
+				"Texture2D_01": { "type": "ZRuntimeResourceID", "value": { "resource": "0070CA134D3881BF", "flag": "5F" } },
 				"ConstantVector1D_01_Value": { "type": "float32", "value": 0.5 },
-				"Texture2D_03": {
-					"type": "ZRuntimeResourceID",
-					"value": { "resource": "00DAA699AA655196", "flag": "5F" }
-				},
+				"Texture2D_03": { "type": "ZRuntimeResourceID", "value": { "resource": "00DAA699AA655196", "flag": "5F" } },
 				"Diffuse_Saturation_01_Value": { "type": "float32", "value": 1 }
 			}
 		},
@@ -531,18 +393,10 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": { "x": 0, "y": 0, "z": 0 },
-						"position": {
-							"x": 0.054016001522541046,
-							"y": -0.0017750000115484,
-							"z": -0.01396500039845705
-						}
+						"position": { "x": 0.054016001522541046, "y": -0.0017750000115484, "z": -0.01396500039845705 }
 					}
 				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "b1df40cae6b5b7da",
-					"postInit": true
-				}
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "b1df40cae6b5b7da", "postInit": true }
 			}
 		},
 		"904e4691bd80136b": {
@@ -555,11 +409,7 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": { "x": 0, "y": 0, "z": 0 },
-						"position": {
-							"x": -1.290655973207322e-7,
-							"y": 2.171457902377938e-9,
-							"z": 0
-						}
+						"position": { "x": -1.290655973207322e-7, "y": 2.171457902377938e-9, "z": 0 }
 					}
 				},
 				"m_Spheres": {
@@ -567,11 +417,7 @@
 					"value": ["2d8af0adc9c8f7a0", "cc67a1fe8fa5e937", "39d221133d5ff54e"],
 					"postInit": true
 				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "b3bcf542a709116d",
-					"postInit": true
-				}
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "b3bcf542a709116d", "postInit": true }
 			}
 		},
 		"6b8cc460b540a5f7": {
@@ -587,19 +433,11 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": { "x": 0, "y": 0, "z": 0 },
-						"position": {
-							"x": 0.00010699999984353781,
-							"y": 0.022412000223994255,
-							"z": 0.008923999965190887
-						}
+						"position": { "x": 0.00010699999984353781, "y": 0.022412000223994255, "z": 0.008923999965190887 }
 					}
 				},
 				"m_bEnabled": { "type": "bool", "value": true },
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "b1df40cae6b5b7da",
-					"postInit": true
-				}
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "b1df40cae6b5b7da", "postInit": true }
 			}
 		},
 		"6c1ae3c01b4cbe62": {
@@ -615,18 +453,10 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": { "x": 0, "y": 0, "z": 0 },
-						"position": {
-							"x": 0.054016001522541046,
-							"y": -0.0017750000115484,
-							"z": -0.01396500039845705
-						}
+						"position": { "x": 0.054016001522541046, "y": -0.0017750000115484, "z": -0.01396500039845705 }
 					}
 				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "b3bcf542a709116d",
-					"postInit": true
-				}
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "b3bcf542a709116d", "postInit": true }
 			}
 		},
 		"b0d7db670f71c1f": {
@@ -641,23 +471,11 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": {
-							"x": 0.024236112738795976,
-							"y": -0.013980166736339797,
-							"z": 0.01976704122633652
-						},
-						"position": {
-							"x": 0.035895999521017075,
-							"y": 0.005816000048071146,
-							"z": 0.035875000059604645
-						}
+						"rotation": { "x": 0.024236112738795976, "y": -0.013980166736339797, "z": 0.01976704122633652 },
+						"position": { "x": 0.035895999521017075, "y": 0.005816000048071146, "z": 0.035875000059604645 }
 					}
 				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "b3bcf542a709116d",
-					"postInit": true
-				}
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "b3bcf542a709116d", "postInit": true }
 			}
 		},
 		"bd2f717188cfb9b9": {
@@ -672,25 +490,13 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": {
-							"x": 0.039591378655694,
-							"y": 0,
-							"z": -0.04847229189167753
-						},
-						"position": {
-							"x": 0.000003999999989900971,
-							"y": 0.028679000213742256,
-							"z": 0.04795299842953682
-						}
+						"rotation": { "x": 0.039591378655694, "y": 0, "z": -0.04847229189167753 },
+						"position": { "x": 0.000003999999989900971, "y": 0.028679000213742256, "z": 0.04795299842953682 }
 					}
 				},
 				"m_bEnabled": { "type": "bool", "value": true },
 				"m_bCollisionGroup0": { "type": "bool", "value": true },
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "b1df40cae6b5b7da",
-					"postInit": true
-				}
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "b1df40cae6b5b7da", "postInit": true }
 			}
 		},
 		"16fc4e88f0e7cd30": {
@@ -706,19 +512,11 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": { "x": 0, "y": -0.034262866698659196, "z": 0 },
-						"position": {
-							"x": 0.07092700153589249,
-							"y": 0.010377000086009502,
-							"z": -0.000004999999873689376
-						}
+						"position": { "x": 0.07092700153589249, "y": 0.010377000086009502, "z": -0.000004999999873689376 }
 					}
 				},
 				"m_bEnabled": { "type": "bool", "value": true },
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "b1df40cae6b5b7da",
-					"postInit": true
-				}
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "b1df40cae6b5b7da", "postInit": true }
 			}
 		},
 		"7575e2b7766d5f0f": {
@@ -733,24 +531,12 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": {
-							"x": -0.013980211318233324,
-							"y": -0.13344205696817665,
-							"z": 0.019767090724669784
-						},
-						"position": {
-							"x": 0.036490000784397125,
-							"y": 0.008603000082075596,
-							"z": 0.06355399638414383
-						}
+						"rotation": { "x": -0.013980211318233324, "y": -0.13344205696817665, "z": 0.019767090724669784 },
+						"position": { "x": 0.036490000784397125, "y": 0.008603000082075596, "z": 0.06355399638414383 }
 					}
 				},
 				"m_bEnabled": { "type": "bool", "value": true },
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "b3bcf542a709116d",
-					"postInit": true
-				}
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "b3bcf542a709116d", "postInit": true }
 			}
 		},
 		"123a333a59af29d0": {
@@ -766,19 +552,11 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": { "x": 0, "y": 0, "z": 0 },
-						"position": {
-							"x": -0.022530000656843185,
-							"y": 0.014897000044584274,
-							"z": -0.035301998257637024
-						}
+						"position": { "x": -0.022530000656843185, "y": 0.014897000044584274, "z": -0.035301998257637024 }
 					}
 				},
 				"m_bEnabled": { "type": "bool", "value": true },
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "b1df40cae6b5b7da",
-					"postInit": true
-				}
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "b1df40cae6b5b7da", "postInit": true }
 			}
 		},
 		"101e5eb7f47a353b": {
@@ -793,19 +571,11 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": { "x": 0, "y": 0.11785748420796589, "z": 0 },
-						"position": {
-							"x": 0.036486998200416565,
-							"y": 0.008605999872088432,
-							"z": -0.06559199839830399
-						}
+						"position": { "x": 0.036486998200416565, "y": 0.008605999872088432, "z": -0.06559199839830399 }
 					}
 				},
 				"m_bEnabled": { "type": "bool", "value": true },
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "b3bcf542a709116d",
-					"postInit": true
-				}
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "b3bcf542a709116d", "postInit": true }
 			}
 		},
 		"a8fe0fe6cc2ad5f0": {
@@ -813,16 +583,8 @@
 			"name": "EventChannelReceiver_ValueBool",
 			"factory": "[assembly:/_pro/design/gamecore/events/eventchannel.template?/eventchannelreceiver_valuebool.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/design/gamecore/events/eventchannel.template?/eventchannelreceiver_valuebool.entitytemplate].pc_entityblueprint",
-			"properties": {
-				"m_rChannelToken": {
-					"type": "SEntityTemplateReference",
-					"value": "556dd5bb3c254e10"
-				}
-			},
-			"events": {
-				"OnTrue": { "SetTrue": ["6d482723553dbaac"] },
-				"OnFalse": { "SetFalse": ["6d482723553dbaac"] }
-			}
+			"properties": { "m_rChannelToken": { "type": "SEntityTemplateReference", "value": "556dd5bb3c254e10" } },
+			"events": { "OnTrue": { "SetTrue": ["6d482723553dbaac"] }, "OnFalse": { "SetFalse": ["6d482723553dbaac"] } }
 		},
 		"6809bbf886974610": {
 			"parent": "b1df40cae6b5b7da",
@@ -841,11 +603,7 @@
 					],
 					"postInit": true
 				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "b1df40cae6b5b7da",
-					"postInit": true
-				}
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "b1df40cae6b5b7da", "postInit": true }
 			}
 		},
 		"2dd700e41d8179d8": {
@@ -862,10 +620,7 @@
 					"type": "ZRuntimeResourceID",
 					"value": { "resource": "001C97C69649EABD", "flag": "5F" }
 				},
-				"Texture2D_03": {
-					"type": "ZRuntimeResourceID",
-					"value": { "resource": "005BDAE2964EAC24", "flag": "5F" }
-				}
+				"Texture2D_03": { "type": "ZRuntimeResourceID", "value": { "resource": "005BDAE2964EAC24", "flag": "5F" } }
 			}
 		},
 		"771d9384f4bc4f6d": {
@@ -878,28 +633,13 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": { "x": 0, "y": 0, "z": -16.901776954238162 },
-						"position": {
-							"x": 4.113232135772705,
-							"y": -8.824055671691895,
-							"z": -0.443340003490448
-						}
+						"position": { "x": 4.113232135772705, "y": -8.824055671691895, "z": -0.443340003490448 }
 					}
 				},
-				"Diffuse_Color_01_Value_op": {
-					"type": "IRenderMaterialEntity.EModifierOperation",
-					"value": "eReplace"
-				},
+				"Diffuse_Color_01_Value_op": { "type": "IRenderMaterialEntity.EModifierOperation", "value": "eReplace" },
 				"Diffuse_Color_01_Value": { "type": "SColorRGB", "value": "#292929" },
-				"Clients": {
-					"type": "TArray<SEntityTemplateReference>",
-					"value": ["f2344cba471b86d4"],
-					"postInit": true
-				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "f2344cba471b86d4",
-					"postInit": true
-				}
+				"Clients": { "type": "TArray<SEntityTemplateReference>", "value": ["f2344cba471b86d4"], "postInit": true },
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "f2344cba471b86d4", "postInit": true }
 			}
 		},
 		"c1d8c0b59fbf58c": {
@@ -913,17 +653,10 @@
 				"m_fRadius": { "type": "float32", "value": 0.08500000089406967 },
 				"m_mTransform": {
 					"type": "SMatrix43",
-					"value": {
-						"rotation": { "x": 0, "y": 0, "z": 0 },
-						"position": { "x": 0, "y": 0, "z": 0 }
-					}
+					"value": { "rotation": { "x": 0, "y": 0, "z": 0 }, "position": { "x": 0, "y": 0, "z": 0 } }
 				},
 				"m_bEnabled": { "type": "bool", "value": true },
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "b3bcf542a709116d",
-					"postInit": true
-				}
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "b3bcf542a709116d", "postInit": true }
 			}
 		},
 		"557e18153490346e": {
@@ -939,18 +672,10 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": { "x": 0, "y": 0, "z": 0 },
-						"position": {
-							"x": 0.03605800122022629,
-							"y": 0.007757000159472227,
-							"z": -0.03519900143146515
-						}
+						"position": { "x": 0.03605800122022629, "y": 0.007757000159472227, "z": -0.03519900143146515 }
 					}
 				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "b3bcf542a709116d",
-					"postInit": true
-				}
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "b3bcf542a709116d", "postInit": true }
 			}
 		},
 		"87ca7d333567d763": {
@@ -964,17 +689,10 @@
 				"m_fRadius": { "type": "float32", "value": 0.07000000029802322 },
 				"m_mTransform": {
 					"type": "SMatrix43",
-					"value": {
-						"rotation": { "x": 0, "y": 0, "z": 0 },
-						"position": { "x": 0, "y": 0, "z": 0 }
-					}
+					"value": { "rotation": { "x": 0, "y": 0, "z": 0 }, "position": { "x": 0, "y": 0, "z": 0 } }
 				},
 				"m_bEnabled": { "type": "bool", "value": true },
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "b1df40cae6b5b7da",
-					"postInit": true
-				}
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "b1df40cae6b5b7da", "postInit": true }
 			}
 		},
 		"babeb72030d42306": {
@@ -989,24 +707,12 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": {
-							"x": -0.013980211318233324,
-							"y": -0.13344205696817665,
-							"z": 0.019767090724669784
-						},
-						"position": {
-							"x": 0.036490000784397125,
-							"y": 0.008603000082075596,
-							"z": 0.06355399638414383
-						}
+						"rotation": { "x": -0.013980211318233324, "y": -0.13344205696817665, "z": 0.019767090724669784 },
+						"position": { "x": 0.036490000784397125, "y": 0.008603000082075596, "z": 0.06355399638414383 }
 					}
 				},
 				"m_bEnabled": { "type": "bool", "value": true },
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "b1df40cae6b5b7da",
-					"postInit": true
-				}
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "b1df40cae6b5b7da", "postInit": true }
 			}
 		},
 		"12e724d523608e2c": {
@@ -1022,18 +728,10 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": { "x": 0, "y": 0.019767042409995977, "z": 0 },
-						"position": {
-							"x": 0.12600800395011902,
-							"y": -0.011082000099122524,
-							"z": -0.008000999689102173
-						}
+						"position": { "x": 0.12600800395011902, "y": -0.011082000099122524, "z": -0.008000999689102173 }
 					}
 				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "b1df40cae6b5b7da",
-					"postInit": true
-				}
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "b1df40cae6b5b7da", "postInit": true }
 			}
 		},
 		"1e46e38ba3851127": {
@@ -1048,25 +746,13 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": {
-							"x": 0.039591378655694,
-							"y": 0,
-							"z": -0.04847229189167753
-						},
-						"position": {
-							"x": 0.00002099999983329326,
-							"y": 0.02721799910068512,
-							"z": -0.05074499920010567
-						}
+						"rotation": { "x": 0.039591378655694, "y": 0, "z": -0.04847229189167753 },
+						"position": { "x": 0.00002099999983329326, "y": 0.02721799910068512, "z": -0.05074499920010567 }
 					}
 				},
 				"m_bEnabled": { "type": "bool", "value": true },
 				"m_bCollisionGroup0": { "type": "bool", "value": true },
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "b1df40cae6b5b7da",
-					"postInit": true
-				}
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "b1df40cae6b5b7da", "postInit": true }
 			}
 		},
 		"c5e2f59931160e6": {
@@ -1080,17 +766,10 @@
 				"m_fRadius": { "type": "float32", "value": 0.08500000089406967 },
 				"m_mTransform": {
 					"type": "SMatrix43",
-					"value": {
-						"rotation": { "x": 0, "y": 0, "z": 0 },
-						"position": { "x": 0, "y": 0, "z": 0 }
-					}
+					"value": { "rotation": { "x": 0, "y": 0, "z": 0 }, "position": { "x": 0, "y": 0, "z": 0 } }
 				},
 				"m_bEnabled": { "type": "bool", "value": true },
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "b1df40cae6b5b7da",
-					"postInit": true
-				}
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "b1df40cae6b5b7da", "postInit": true }
 			}
 		},
 		"d442d20e17ef6d9c": {
@@ -1104,17 +783,10 @@
 				"m_fRadius": { "type": "float32", "value": 0.07000000029802322 },
 				"m_mTransform": {
 					"type": "SMatrix43",
-					"value": {
-						"rotation": { "x": 0, "y": 0, "z": 0 },
-						"position": { "x": 0, "y": 0, "z": 0 }
-					}
+					"value": { "rotation": { "x": 0, "y": 0, "z": 0 }, "position": { "x": 0, "y": 0, "z": 0 } }
 				},
 				"m_bEnabled": { "type": "bool", "value": true },
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "b1df40cae6b5b7da",
-					"postInit": true
-				}
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "b1df40cae6b5b7da", "postInit": true }
 			}
 		},
 		"e024ff9b6155a80f": {
@@ -1128,17 +800,10 @@
 				"m_fRadius": { "type": "float32", "value": 0.07000000029802322 },
 				"m_mTransform": {
 					"type": "SMatrix43",
-					"value": {
-						"rotation": { "x": 0, "y": 0, "z": 0 },
-						"position": { "x": 0, "y": 0, "z": 0 }
-					}
+					"value": { "rotation": { "x": 0, "y": 0, "z": 0 }, "position": { "x": 0, "y": 0, "z": 0 } }
 				},
 				"m_bEnabled": { "type": "bool", "value": true },
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "b3bcf542a709116d",
-					"postInit": true
-				}
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "b3bcf542a709116d", "postInit": true }
 			}
 		},
 		"f2344cba471b86d4": {
@@ -1150,28 +815,13 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": {
-							"x": -1.787164313337448,
-							"y": -3.3044157478277474,
-							"z": -101.35956045017898
-						},
-						"position": {
-							"x": -2.651052951812744,
-							"y": -0.090628981590271,
-							"z": 0.009215000085532665
-						}
+						"rotation": { "x": -1.787164313337448, "y": -3.3044157478277474, "z": -101.35956045017898 },
+						"position": { "x": -2.651052951812744, "y": -0.090628981590271, "z": 0.009215000085532665 }
 					}
 				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "196c032594a3655",
-					"postInit": true
-				}
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "196c032594a3655", "postInit": true }
 			},
-			"exposedInterfaces": {
-				"ZClothColliderGroupAspect": "26c863574d08eff7",
-				"ZBodyPartEntity": "26c863574d08eff7"
-			}
+			"exposedInterfaces": { "ZClothColliderGroupAspect": "26c863574d08eff7", "ZBodyPartEntity": "26c863574d08eff7" }
 		},
 		"841ff328e554aca1": {
 			"parent": "b1df40cae6b5b7da",
@@ -1184,17 +834,10 @@
 				"m_fRadius": { "type": "float32", "value": 0.08500000089406967 },
 				"m_mTransform": {
 					"type": "SMatrix43",
-					"value": {
-						"rotation": { "x": 0, "y": 0, "z": 0 },
-						"position": { "x": 0, "y": 0, "z": 0 }
-					}
+					"value": { "rotation": { "x": 0, "y": 0, "z": 0 }, "position": { "x": 0, "y": 0, "z": 0 } }
 				},
 				"m_bEnabled": { "type": "bool", "value": true },
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "b1df40cae6b5b7da",
-					"postInit": true
-				}
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "b1df40cae6b5b7da", "postInit": true }
 			}
 		},
 		"9a6cbf654087855c": {
@@ -1208,14 +851,8 @@
 					"type": "ZRuntimeResourceID",
 					"value": { "resource": "007494184CB3268A", "flag": "5F" }
 				},
-				"Texture2D_01": {
-					"type": "ZRuntimeResourceID",
-					"value": { "resource": "00D9CDF420B9EE3B", "flag": "5F" }
-				},
-				"Texture2D_03": {
-					"type": "ZRuntimeResourceID",
-					"value": { "resource": "00027B5706861314", "flag": "5F" }
-				},
+				"Texture2D_01": { "type": "ZRuntimeResourceID", "value": { "resource": "00D9CDF420B9EE3B", "flag": "5F" } },
+				"Texture2D_03": { "type": "ZRuntimeResourceID", "value": { "resource": "00027B5706861314", "flag": "5F" } },
 				"ConstantVector1D_01_Value": { "type": "float32", "value": 0.5 },
 				"Diffuse_Saturation_01_Value": { "type": "float32", "value": 1 }
 			}
@@ -1231,17 +868,10 @@
 				"m_fRadius": { "type": "float32", "value": 0.07999999821186066 },
 				"m_mTransform": {
 					"type": "SMatrix43",
-					"value": {
-						"rotation": { "x": 0, "y": 0, "z": 0 },
-						"position": { "x": 0, "y": 0, "z": 0 }
-					}
+					"value": { "rotation": { "x": 0, "y": 0, "z": 0 }, "position": { "x": 0, "y": 0, "z": 0 } }
 				},
 				"m_bEnabled": { "type": "bool", "value": true },
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "b1df40cae6b5b7da",
-					"postInit": true
-				}
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "b1df40cae6b5b7da", "postInit": true }
 			}
 		},
 		"196c032594a3655": {
@@ -1250,20 +880,13 @@
 			"factory": "00A9AD805B92ED71",
 			"blueprint": "00B1F416EEE92077",
 			"properties": {
-				"m_LocalColliders": {
-					"type": "TArray<SEntityTemplateReference>",
-					"value": []
-				},
+				"m_LocalColliders": { "type": "TArray<SEntityTemplateReference>", "value": [] },
 				"m_fFrustumFarDistanceProperty": { "type": "float32", "value": 40 },
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
 						"rotation": { "x": 0, "y": 0, "z": 0 },
-						"position": {
-							"x": 5.987730979919434,
-							"y": 0,
-							"z": 0.05046699941158295
-						}
+						"position": { "x": 5.987730979919434, "y": 0, "z": 0.05046699941158295 }
 					}
 				},
 				"m_pBonesAndCollisionResource": {
@@ -1304,11 +927,7 @@
 					}
 				},
 				"m_bEnabled": { "type": "bool", "value": true },
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "b1df40cae6b5b7da",
-					"postInit": true
-				}
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "b1df40cae6b5b7da", "postInit": true }
 			}
 		},
 		"ba4557537e073fa8": {
@@ -1323,25 +942,13 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": {
-							"x": 0.039591378655694,
-							"y": 0,
-							"z": -0.04847229189167753
-						},
-						"position": {
-							"x": 0.000003999999989900971,
-							"y": 0.028679000213742256,
-							"z": 0.04795299842953682
-						}
+						"rotation": { "x": 0.039591378655694, "y": 0, "z": -0.04847229189167753 },
+						"position": { "x": 0.000003999999989900971, "y": 0.028679000213742256, "z": 0.04795299842953682 }
 					}
 				},
 				"m_bEnabled": { "type": "bool", "value": true },
 				"m_bCollisionGroup0": { "type": "bool", "value": true },
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "b3bcf542a709116d",
-					"postInit": true
-				}
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "b3bcf542a709116d", "postInit": true }
 			}
 		},
 		"ad3893d8d2cfabd": {
@@ -1357,19 +964,11 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": { "x": 0, "y": 0, "z": 7.727565864974899 },
-						"position": {
-							"x": -0.03303999826312065,
-							"y": 0.03816099837422371,
-							"z": 0.04014899954199791
-						}
+						"position": { "x": -0.03303999826312065, "y": 0.03816099837422371, "z": 0.04014899954199791 }
 					}
 				},
 				"m_bEnabled": { "type": "bool", "value": true },
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "b1df40cae6b5b7da",
-					"postInit": true
-				}
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "b1df40cae6b5b7da", "postInit": true }
 			}
 		},
 		"2d8af0adc9c8f7a0": {
@@ -1384,25 +983,13 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": {
-							"x": 0.039591378655694,
-							"y": 0,
-							"z": -0.04847229189167753
-						},
-						"position": {
-							"x": 0.00002099999983329326,
-							"y": 0.02721799910068512,
-							"z": -0.05074499920010567
-						}
+						"rotation": { "x": 0.039591378655694, "y": 0, "z": -0.04847229189167753 },
+						"position": { "x": 0.00002099999983329326, "y": 0.02721799910068512, "z": -0.05074499920010567 }
 					}
 				},
 				"m_bEnabled": { "type": "bool", "value": true },
 				"m_bCollisionGroup0": { "type": "bool", "value": true },
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "b3bcf542a709116d",
-					"postInit": true
-				}
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "b3bcf542a709116d", "postInit": true }
 			}
 		},
 		"8886636d90878b37": {
@@ -1411,11 +998,7 @@
 			"factory": "[assembly:/_pro/design/gamecore/events/eventchannel.template?/eventchannelreceiver_float32.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/design/gamecore/events/eventchannel.template?/eventchannelreceiver_float32.entitytemplate].pc_entityblueprint",
 			"properties": {
-				"m_rChannelToken": {
-					"type": "SEntityTemplateReference",
-					"value": "c29f8b1cbc77de7",
-					"postInit": true
-				}
+				"m_rChannelToken": { "type": "SEntityTemplateReference", "value": "c29f8b1cbc77de7", "postInit": true }
 			},
 			"events": { "EventReceived": { "Wounded": ["21f05edb392fc6c0"] } }
 		},
@@ -1430,17 +1013,10 @@
 				"m_fRadius": { "type": "float32", "value": 0.08500000089406967 },
 				"m_mTransform": {
 					"type": "SMatrix43",
-					"value": {
-						"rotation": { "x": 0, "y": 0, "z": 0 },
-						"position": { "x": 0, "y": 0, "z": 0 }
-					}
+					"value": { "rotation": { "x": 0, "y": 0, "z": 0 }, "position": { "x": 0, "y": 0, "z": 0 } }
 				},
 				"m_bEnabled": { "type": "bool", "value": true },
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "b3bcf542a709116d",
-					"postInit": true
-				}
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "b3bcf542a709116d", "postInit": true }
 			}
 		},
 		"8b78782b31e99435": {
@@ -1457,10 +1033,7 @@
 					"type": "ZRuntimeResourceID",
 					"value": { "resource": "001C97C69649EABD", "flag": "5F" }
 				},
-				"Texture2D_03": {
-					"type": "ZRuntimeResourceID",
-					"value": { "resource": "005BDAE2964EAC24", "flag": "5F" }
-				}
+				"Texture2D_03": { "type": "ZRuntimeResourceID", "value": { "resource": "005BDAE2964EAC24", "flag": "5F" } }
 			}
 		},
 		"21672384c03633d6": {
@@ -1476,19 +1049,11 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": { "x": 0, "y": 0, "z": 7.727565864974899 },
-						"position": {
-							"x": -0.03303999826312065,
-							"y": 0.03816099837422371,
-							"z": 0.04014899954199791
-						}
+						"position": { "x": -0.03303999826312065, "y": 0.03816099837422371, "z": 0.04014899954199791 }
 					}
 				},
 				"m_bEnabled": { "type": "bool", "value": true },
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "b3bcf542a709116d",
-					"postInit": true
-				}
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "b3bcf542a709116d", "postInit": true }
 			}
 		},
 		"55f7e0485725958b": {
@@ -1503,23 +1068,11 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": {
-							"x": 0.024236112738795976,
-							"y": -0.013980166736339797,
-							"z": 0.01976704122633652
-						},
-						"position": {
-							"x": 0.035895999521017075,
-							"y": 0.005816000048071146,
-							"z": 0.035875000059604645
-						}
+						"rotation": { "x": 0.024236112738795976, "y": -0.013980166736339797, "z": 0.01976704122633652 },
+						"position": { "x": 0.035895999521017075, "y": 0.005816000048071146, "z": 0.035875000059604645 }
 					}
 				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "b1df40cae6b5b7da",
-					"postInit": true
-				}
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "b1df40cae6b5b7da", "postInit": true }
 			}
 		},
 		"6ef8794ba6e516ae": {
@@ -1543,16 +1096,8 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": {
-							"x": 3.4625495295201843e-7,
-							"y": -6.315862537584159e-7,
-							"z": 5.004550884630443e-7
-						},
-						"position": {
-							"x": -5.008154957408806e-8,
-							"y": 1.6014109149864453e-8,
-							"z": -1.6104669597893917e-8
-						}
+						"rotation": { "x": 3.4625495295201843e-7, "y": -6.315862537584159e-7, "z": 5.004550884630443e-7 },
+						"position": { "x": -5.008154957408806e-8, "y": 1.6014109149864453e-8, "z": -1.6104669597893917e-8 }
 					}
 				},
 				"m_bCollisionGroup0": { "type": "bool", "value": true },
@@ -1562,11 +1107,7 @@
 					"value": ["bb19428c20a048da", "850369ed91e98260"],
 					"postInit": true
 				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "b3bcf542a709116d",
-					"postInit": true
-				}
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "b3bcf542a709116d", "postInit": true }
 			}
 		},
 		"f6912771c1a15c50": {
@@ -1579,11 +1120,7 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": { "x": 0, "y": 0, "z": 0 },
-						"position": {
-							"x": -1.290655973207322e-7,
-							"y": 2.171457902377938e-9,
-							"z": 0
-						}
+						"position": { "x": -1.290655973207322e-7, "y": 2.171457902377938e-9, "z": 0 }
 					}
 				},
 				"m_Spheres": {
@@ -1591,11 +1128,7 @@
 					"value": ["1e46e38ba3851127", "123a333a59af29d0", "a8d9121ad7a9e3f8"],
 					"postInit": true
 				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "b1df40cae6b5b7da",
-					"postInit": true
-				}
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "b1df40cae6b5b7da", "postInit": true }
 			}
 		},
 		"3235a2272a33d02b": {
@@ -1609,17 +1142,10 @@
 				"m_fRadius": { "type": "float32", "value": 0.07000000029802322 },
 				"m_mTransform": {
 					"type": "SMatrix43",
-					"value": {
-						"rotation": { "x": 0, "y": 0, "z": 0 },
-						"position": { "x": 0, "y": 0, "z": 0 }
-					}
+					"value": { "rotation": { "x": 0, "y": 0, "z": 0 }, "position": { "x": 0, "y": 0, "z": 0 } }
 				},
 				"m_bEnabled": { "type": "bool", "value": true },
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "b1df40cae6b5b7da",
-					"postInit": true
-				}
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "b1df40cae6b5b7da", "postInit": true }
 			}
 		},
 		"b0138f128654941b": {
@@ -1647,19 +1173,11 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": { "x": 0, "y": 0.019767042409995977, "z": 0 },
-						"position": {
-							"x": 0.05449400097131729,
-							"y": 0.005206000059843063,
-							"z": 0.012148000299930573
-						}
+						"position": { "x": 0.05449400097131729, "y": 0.005206000059843063, "z": 0.012148000299930573 }
 					}
 				},
 				"m_bCollisionGroup0": { "type": "bool", "value": true },
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "b1df40cae6b5b7da",
-					"postInit": true
-				}
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "b1df40cae6b5b7da", "postInit": true }
 			}
 		},
 		"d93ce6429b55c54b": {
@@ -1670,43 +1188,22 @@
 			"properties": {
 				"m_mTransform": {
 					"type": "SMatrix43",
-					"value": {
-						"rotation": { "x": 0, "y": 0, "z": 0 },
-						"position": { "x": 0, "y": 0, "z": 0 }
-					}
+					"value": { "rotation": { "x": 0, "y": 0, "z": 0 }, "position": { "x": 0, "y": 0, "z": 0 } }
 				},
-				"Clients": {
-					"type": "TArray<SEntityTemplateReference>",
-					"value": ["d5cddd9008d2f050"]
-				},
-				"Texture2D_01": {
-					"type": "ZRuntimeResourceID",
-					"value": { "resource": "00D49AFF08625834", "flag": "5F" }
-				},
+				"Clients": { "type": "TArray<SEntityTemplateReference>", "value": ["d5cddd9008d2f050"] },
+				"Texture2D_01": { "type": "ZRuntimeResourceID", "value": { "resource": "00D49AFF08625834", "flag": "5F" } },
 				"Texture2D_01_enab": { "type": "bool", "value": true },
 				"Texture2D_03_enab": { "type": "bool", "value": true },
-				"Texture2D_03": {
-					"type": "ZRuntimeResourceID",
-					"value": { "resource": "0091FF4DD884AA9D", "flag": "5F" }
-				},
-				"Diffuse_Color_01_Value_op": {
-					"type": "IRenderMaterialEntity.EModifierOperation",
-					"value": "eReplace"
-				},
+				"Texture2D_03": { "type": "ZRuntimeResourceID", "value": { "resource": "0091FF4DD884AA9D", "flag": "5F" } },
+				"Diffuse_Color_01_Value_op": { "type": "IRenderMaterialEntity.EModifierOperation", "value": "eReplace" },
 				"Texture2DNormal_01_enab": { "type": "bool", "value": true },
 				"Texture2DNormal_01": {
 					"type": "ZRuntimeResourceID",
 					"value": { "resource": "00A293A418A97568", "flag": "5F" }
 				},
-				"ConstantVector1D_15_Value_op": {
-					"type": "IRenderMaterialEntity.EModifierOperation",
-					"value": "eReplace"
-				},
+				"ConstantVector1D_15_Value_op": { "type": "IRenderMaterialEntity.EModifierOperation", "value": "eReplace" },
 				"ConstantVector1D_15_Value": { "type": "float32", "value": 1 },
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "196c032594a3655"
-				}
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "196c032594a3655" }
 			}
 		},
 		"f9b97494cc332005": {
@@ -1726,11 +1223,7 @@
 					}
 				},
 				"m_bEnabled": { "type": "bool", "value": true },
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "b3bcf542a709116d",
-					"postInit": true
-				}
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "b3bcf542a709116d", "postInit": true }
 			}
 		},
 		"bb19428c20a048da": {
@@ -1746,19 +1239,11 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": { "x": 0, "y": 0, "z": 0 },
-						"position": {
-							"x": 0.00010699999984353781,
-							"y": 0.022412000223994255,
-							"z": 0.008923999965190887
-						}
+						"position": { "x": 0.00010699999984353781, "y": 0.022412000223994255, "z": 0.008923999965190887 }
 					}
 				},
 				"m_bEnabled": { "type": "bool", "value": true },
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "b3bcf542a709116d",
-					"postInit": true
-				}
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "b3bcf542a709116d", "postInit": true }
 			}
 		},
 		"850369ed91e98260": {
@@ -1774,19 +1259,11 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": { "x": 0, "y": -0.034262866698659196, "z": 0 },
-						"position": {
-							"x": 0.07092700153589249,
-							"y": 0.010377000086009502,
-							"z": -0.000004999999873689376
-						}
+						"position": { "x": 0.07092700153589249, "y": 0.010377000086009502, "z": -0.000004999999873689376 }
 					}
 				},
 				"m_bEnabled": { "type": "bool", "value": true },
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "b3bcf542a709116d",
-					"postInit": true
-				}
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "b3bcf542a709116d", "postInit": true }
 			}
 		},
 		"a8d9121ad7a9e3f8": {
@@ -1802,19 +1279,11 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": { "x": 0, "y": 0, "z": 7.7272824481222155 },
-						"position": {
-							"x": -0.034219998866319656,
-							"y": 0.02934800088405609,
-							"z": -0.04060899838805199
-						}
+						"position": { "x": -0.034219998866319656, "y": 0.02934800088405609, "z": -0.04060899838805199 }
 					}
 				},
 				"m_bEnabled": { "type": "bool", "value": true },
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "b1df40cae6b5b7da",
-					"postInit": true
-				}
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "b1df40cae6b5b7da", "postInit": true }
 			}
 		},
 		"93a1924140ab048b": {
@@ -1848,11 +1317,7 @@
 					],
 					"postInit": true
 				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "b3bcf542a709116d",
-					"postInit": true
-				}
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "b3bcf542a709116d", "postInit": true }
 			}
 		},
 		"de0320da207f0996": {
@@ -1866,17 +1331,10 @@
 				"m_fRadius": { "type": "float32", "value": 0.07999999821186066 },
 				"m_mTransform": {
 					"type": "SMatrix43",
-					"value": {
-						"rotation": { "x": 0, "y": 0, "z": 0 },
-						"position": { "x": 0, "y": 0, "z": 0 }
-					}
+					"value": { "rotation": { "x": 0, "y": 0, "z": 0 }, "position": { "x": 0, "y": 0, "z": 0 } }
 				},
 				"m_bEnabled": { "type": "bool", "value": true },
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "b1df40cae6b5b7da",
-					"postInit": true
-				}
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "b1df40cae6b5b7da", "postInit": true }
 			}
 		},
 		"fc6547e0ef7d89ea": {
@@ -1890,17 +1348,10 @@
 				"m_fRadius": { "type": "float32", "value": 0.07999999821186066 },
 				"m_mTransform": {
 					"type": "SMatrix43",
-					"value": {
-						"rotation": { "x": 0, "y": 0, "z": 0 },
-						"position": { "x": 0, "y": 0, "z": 0 }
-					}
+					"value": { "rotation": { "x": 0, "y": 0, "z": 0 }, "position": { "x": 0, "y": 0, "z": 0 } }
 				},
 				"m_bEnabled": { "type": "bool", "value": true },
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "b3bcf542a709116d",
-					"postInit": true
-				}
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "b3bcf542a709116d", "postInit": true }
 			}
 		},
 		"14ba091f159b8183": {
@@ -1916,18 +1367,10 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": { "x": 0.01976704358638215, "y": 0, "z": 0 },
-						"position": {
-							"x": 0.12606200575828552,
-							"y": -0.011234999634325504,
-							"z": -0.0020119999535381794
-						}
+						"position": { "x": 0.12606200575828552, "y": -0.011234999634325504, "z": -0.0020119999535381794 }
 					}
 				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "b3bcf542a709116d",
-					"postInit": true
-				}
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "b3bcf542a709116d", "postInit": true }
 			}
 		},
 		"554bc8f4adcc1dbb": {
@@ -1953,20 +1396,12 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": { "x": 0, "y": 0, "z": 0 },
-						"position": {
-							"x": -1.290655973207322e-7,
-							"y": 2.171457902377938e-9,
-							"z": 0
-						}
+						"position": { "x": -1.290655973207322e-7, "y": 2.171457902377938e-9, "z": 0 }
 					}
 				},
 				"m_bCollisionGroup0": { "type": "bool", "value": true },
 				"m_bEnabled": { "type": "bool", "value": true },
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "b1df40cae6b5b7da",
-					"postInit": true
-				}
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "b1df40cae6b5b7da", "postInit": true }
 			}
 		},
 		"15a197590553696": {
@@ -1980,9 +1415,7 @@
 			"name": "Shoes_Derby_CapToe_SquareTip",
 			"factory": "0033E9BBFCA7B067",
 			"blueprint": "0002D822B863CAA8",
-			"properties": {
-				"Diffuse_Color_01_Value": { "type": "SColorRGB", "value": "#363636" }
-			}
+			"properties": { "Diffuse_Color_01_Value": { "type": "SColorRGB", "value": "#363636" } }
 		},
 		"5bfe6c561ddf8c": {
 			"parent": "196c032594a3655",
@@ -1994,22 +1427,12 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": { "x": 0, "y": 0, "z": 0 },
-						"position": {
-							"x": -0.0258102398365736,
-							"y": -0.8888880014419556,
-							"z": 0
-						}
+						"position": { "x": -0.0258102398365736, "y": -0.8888880014419556, "z": 0 }
 					}
 				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "196c032594a3655"
-				}
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "196c032594a3655" }
 			},
-			"exposedInterfaces": {
-				"ZClothColliderGroupAspect": "65411237e356aa96",
-				"ZBodyPartEntity": "65411237e356aa96"
-			}
+			"exposedInterfaces": { "ZClothColliderGroupAspect": "65411237e356aa96", "ZBodyPartEntity": "65411237e356aa96" }
 		},
 		"8fc3c07e0f6fbfa1": {
 			"parent": "b3bcf542a709116d",
@@ -2022,17 +1445,10 @@
 				"m_fRadius": { "type": "float32", "value": 0.07000000029802322 },
 				"m_mTransform": {
 					"type": "SMatrix43",
-					"value": {
-						"rotation": { "x": 0, "y": 0, "z": 0 },
-						"position": { "x": 0, "y": 0, "z": 0 }
-					}
+					"value": { "rotation": { "x": 0, "y": 0, "z": 0 }, "position": { "x": 0, "y": 0, "z": 0 } }
 				},
 				"m_bEnabled": { "type": "bool", "value": true },
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "b3bcf542a709116d",
-					"postInit": true
-				}
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "b3bcf542a709116d", "postInit": true }
 			}
 		},
 		"124735e8fee0defd": {
@@ -2048,18 +1464,10 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": { "x": 0, "y": 0.019767042409995977, "z": 0 },
-						"position": {
-							"x": 0.12600800395011902,
-							"y": -0.011082000099122524,
-							"z": -0.008000999689102173
-						}
+						"position": { "x": 0.12600800395011902, "y": -0.011082000099122524, "z": -0.008000999689102173 }
 					}
 				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "b3bcf542a709116d",
-					"postInit": true
-				}
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "b3bcf542a709116d", "postInit": true }
 			}
 		},
 		"c29f8b1cbc77de7": {
@@ -2080,17 +1488,10 @@
 				"m_fRadius": { "type": "float32", "value": 0.07000000029802322 },
 				"m_mTransform": {
 					"type": "SMatrix43",
-					"value": {
-						"rotation": { "x": 0, "y": 0, "z": 0 },
-						"position": { "x": 0, "y": 0, "z": 0 }
-					}
+					"value": { "rotation": { "x": 0, "y": 0, "z": 0 }, "position": { "x": 0, "y": 0, "z": 0 } }
 				},
 				"m_bEnabled": { "type": "bool", "value": true },
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "b3bcf542a709116d",
-					"postInit": true
-				}
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "b3bcf542a709116d", "postInit": true }
 			}
 		},
 		"bf192506493cd4a": {
@@ -2116,20 +1517,12 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": { "x": 0, "y": 0, "z": 0 },
-						"position": {
-							"x": -1.290655973207322e-7,
-							"y": 2.171457902377938e-9,
-							"z": 0
-						}
+						"position": { "x": -1.290655973207322e-7, "y": 2.171457902377938e-9, "z": 0 }
 					}
 				},
 				"m_bCollisionGroup0": { "type": "bool", "value": true },
 				"m_bEnabled": { "type": "bool", "value": true },
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "b3bcf542a709116d",
-					"postInit": true
-				}
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "b3bcf542a709116d", "postInit": true }
 			}
 		},
 		"3e1a748e5fa5aa8a": {
@@ -2149,11 +1542,7 @@
 					}
 				},
 				"m_bEnabled": { "type": "bool", "value": true },
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "b3bcf542a709116d",
-					"postInit": true
-				}
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "b3bcf542a709116d", "postInit": true }
 			}
 		},
 		"9921bf1ceb5fe1ba": {
@@ -2166,26 +1555,13 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": { "x": 0, "y": 0, "z": -16.901776954238162 },
-						"position": {
-							"x": 4.113232135772705,
-							"y": -8.824055671691895,
-							"z": -0.443340003490448
-						}
+						"position": { "x": 4.113232135772705, "y": -8.824055671691895, "z": -0.443340003490448 }
 					}
 				},
-				"Clients": {
-					"type": "TArray<SEntityTemplateReference>",
-					"value": ["5bfe6c561ddf8c"]
-				},
-				"Diffuse_Color_01_Value_op": {
-					"type": "IRenderMaterialEntity.EModifierOperation",
-					"value": "eReplace"
-				},
+				"Clients": { "type": "TArray<SEntityTemplateReference>", "value": ["5bfe6c561ddf8c"] },
+				"Diffuse_Color_01_Value_op": { "type": "IRenderMaterialEntity.EModifierOperation", "value": "eReplace" },
 				"Diffuse_Color_01_Value": { "type": "SColorRGB", "value": "#292929" },
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "5bfe6c561ddf8c"
-				}
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "5bfe6c561ddf8c" }
 			}
 		},
 		"cc67a1fe8fa5e937": {
@@ -2201,19 +1577,11 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": { "x": 0, "y": 0, "z": 0 },
-						"position": {
-							"x": -0.022530000656843185,
-							"y": 0.014897000044584274,
-							"z": -0.035301998257637024
-						}
+						"position": { "x": -0.022530000656843185, "y": 0.014897000044584274, "z": -0.035301998257637024 }
 					}
 				},
 				"m_bEnabled": { "type": "bool", "value": true },
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "b3bcf542a709116d",
-					"postInit": true
-				}
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "b3bcf542a709116d", "postInit": true }
 			}
 		},
 		"37acceb08323921e": {
@@ -2232,11 +1600,7 @@
 						"16c9cd9c12988ee5"
 					]
 				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "b3bcf542a709116d",
-					"postInit": true
-				}
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "b3bcf542a709116d", "postInit": true }
 			}
 		},
 		"b3bcf542a709116d": {
@@ -2247,125 +1611,41 @@
 			"properties": {
 				"m_mTransform": {
 					"type": "SMatrix43",
-					"value": {
-						"rotation": { "x": 0, "y": 0, "z": 0 },
-						"position": { "x": 0, "y": 0, "z": 0 }
-					}
+					"value": { "rotation": { "x": 0, "y": 0, "z": 0 }, "position": { "x": 0, "y": 0, "z": 0 } }
 				},
 				"m_linkedEntity": { "type": "SEntityTemplateReference", "value": null },
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "f2344cba471b86d4"
-				}
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "f2344cba471b86d4" }
 			},
 			"propertyAliases": {
 				"m_linkedEntity": [
-					{
-						"originalProperty": "m_linkedEntity",
-						"originalEntity": "124735e8fee0defd"
-					},
-					{
-						"originalProperty": "m_linkedEntity",
-						"originalEntity": "14ba091f159b8183"
-					},
-					{
-						"originalProperty": "m_linkedEntity",
-						"originalEntity": "63f23b79c07b9fdd"
-					},
-					{
-						"originalProperty": "m_linkedEntity",
-						"originalEntity": "6c1ae3c01b4cbe62"
-					},
-					{
-						"originalProperty": "m_linkedEntity",
-						"originalEntity": "557e18153490346e"
-					},
-					{
-						"originalProperty": "m_linkedEntity",
-						"originalEntity": "b0d7db670f71c1f"
-					},
-					{
-						"originalProperty": "m_linkedEntity",
-						"originalEntity": "7575e2b7766d5f0f"
-					},
-					{
-						"originalProperty": "m_linkedEntity",
-						"originalEntity": "39d221133d5ff54e"
-					},
-					{
-						"originalProperty": "m_linkedEntity",
-						"originalEntity": "cc67a1fe8fa5e937"
-					},
-					{
-						"originalProperty": "m_linkedEntity",
-						"originalEntity": "2d8af0adc9c8f7a0"
-					},
-					{
-						"originalProperty": "m_linkedEntity",
-						"originalEntity": "ba4557537e073fa8"
-					},
-					{
-						"originalProperty": "m_linkedEntity",
-						"originalEntity": "c07d82add09fa5ff"
-					},
-					{
-						"originalProperty": "m_linkedEntity",
-						"originalEntity": "21672384c03633d6"
-					},
-					{
-						"originalProperty": "m_linkedEntity",
-						"originalEntity": "bb19428c20a048da"
-					},
-					{
-						"originalProperty": "m_linkedEntity",
-						"originalEntity": "850369ed91e98260"
-					},
-					{
-						"originalProperty": "m_linkedEntity",
-						"originalEntity": "c1d8c0b59fbf58c"
-					},
-					{
-						"originalProperty": "m_linkedEntity",
-						"originalEntity": "a12a785ecfa29741"
-					},
-					{
-						"originalProperty": "m_linkedEntity",
-						"originalEntity": "fc6547e0ef7d89ea"
-					},
-					{
-						"originalProperty": "m_linkedEntity",
-						"originalEntity": "aef86ab2249d144c"
-					},
-					{
-						"originalProperty": "m_linkedEntity",
-						"originalEntity": "e18d1f2efa1b40c4"
-					},
-					{
-						"originalProperty": "m_linkedEntity",
-						"originalEntity": "8fc3c07e0f6fbfa1"
-					},
-					{
-						"originalProperty": "m_linkedEntity",
-						"originalEntity": "6fcebd24157fcbb2"
-					},
-					{
-						"originalProperty": "m_linkedEntity",
-						"originalEntity": "e024ff9b6155a80f"
-					},
-					{
-						"originalProperty": "m_linkedEntity",
-						"originalEntity": "f9b97494cc332005"
-					},
-					{
-						"originalProperty": "m_linkedEntity",
-						"originalEntity": "3e1a748e5fa5aa8a"
-					}
+					{ "originalProperty": "m_linkedEntity", "originalEntity": "124735e8fee0defd" },
+					{ "originalProperty": "m_linkedEntity", "originalEntity": "14ba091f159b8183" },
+					{ "originalProperty": "m_linkedEntity", "originalEntity": "63f23b79c07b9fdd" },
+					{ "originalProperty": "m_linkedEntity", "originalEntity": "6c1ae3c01b4cbe62" },
+					{ "originalProperty": "m_linkedEntity", "originalEntity": "557e18153490346e" },
+					{ "originalProperty": "m_linkedEntity", "originalEntity": "b0d7db670f71c1f" },
+					{ "originalProperty": "m_linkedEntity", "originalEntity": "7575e2b7766d5f0f" },
+					{ "originalProperty": "m_linkedEntity", "originalEntity": "39d221133d5ff54e" },
+					{ "originalProperty": "m_linkedEntity", "originalEntity": "cc67a1fe8fa5e937" },
+					{ "originalProperty": "m_linkedEntity", "originalEntity": "2d8af0adc9c8f7a0" },
+					{ "originalProperty": "m_linkedEntity", "originalEntity": "ba4557537e073fa8" },
+					{ "originalProperty": "m_linkedEntity", "originalEntity": "c07d82add09fa5ff" },
+					{ "originalProperty": "m_linkedEntity", "originalEntity": "21672384c03633d6" },
+					{ "originalProperty": "m_linkedEntity", "originalEntity": "bb19428c20a048da" },
+					{ "originalProperty": "m_linkedEntity", "originalEntity": "850369ed91e98260" },
+					{ "originalProperty": "m_linkedEntity", "originalEntity": "c1d8c0b59fbf58c" },
+					{ "originalProperty": "m_linkedEntity", "originalEntity": "a12a785ecfa29741" },
+					{ "originalProperty": "m_linkedEntity", "originalEntity": "fc6547e0ef7d89ea" },
+					{ "originalProperty": "m_linkedEntity", "originalEntity": "aef86ab2249d144c" },
+					{ "originalProperty": "m_linkedEntity", "originalEntity": "e18d1f2efa1b40c4" },
+					{ "originalProperty": "m_linkedEntity", "originalEntity": "8fc3c07e0f6fbfa1" },
+					{ "originalProperty": "m_linkedEntity", "originalEntity": "6fcebd24157fcbb2" },
+					{ "originalProperty": "m_linkedEntity", "originalEntity": "e024ff9b6155a80f" },
+					{ "originalProperty": "m_linkedEntity", "originalEntity": "f9b97494cc332005" },
+					{ "originalProperty": "m_linkedEntity", "originalEntity": "3e1a748e5fa5aa8a" }
 				]
 			},
-			"exposedInterfaces": {
-				"ZClothCollider": "37acceb08323921e",
-				"ZClothColliderGroup": "37acceb08323921e"
-			}
+			"exposedInterfaces": { "ZClothCollider": "37acceb08323921e", "ZClothColliderGroup": "37acceb08323921e" }
 		},
 		"af3dced80267133c": {
 			"parent": "b1df40cae6b5b7da",
@@ -2398,11 +1678,7 @@
 					],
 					"postInit": true
 				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "b1df40cae6b5b7da",
-					"postInit": true
-				}
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "b1df40cae6b5b7da", "postInit": true }
 			}
 		},
 		"12b4bcb4568c488b": {
@@ -2422,11 +1698,7 @@
 					}
 				},
 				"m_bEnabled": { "type": "bool", "value": true },
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "b1df40cae6b5b7da",
-					"postInit": true
-				}
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "b1df40cae6b5b7da", "postInit": true }
 			}
 		},
 		"760754e7876ec96c": {
@@ -2442,19 +1714,11 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": { "x": 0, "y": 0, "z": 0 },
-						"position": {
-							"x": -0.023358000442385674,
-							"y": 0.010861000046133995,
-							"z": 0.049173999577760696
-						}
+						"position": { "x": -0.023358000442385674, "y": 0.010861000046133995, "z": 0.049173999577760696 }
 					}
 				},
 				"m_bEnabled": { "type": "bool", "value": true },
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "b1df40cae6b5b7da",
-					"postInit": true
-				}
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "b1df40cae6b5b7da", "postInit": true }
 			}
 		},
 		"b1df40cae6b5b7da": {
@@ -2465,125 +1729,41 @@
 			"properties": {
 				"m_mTransform": {
 					"type": "SMatrix43",
-					"value": {
-						"rotation": { "x": 0, "y": 0, "z": 0 },
-						"position": { "x": 0, "y": 0, "z": 0 }
-					}
+					"value": { "rotation": { "x": 0, "y": 0, "z": 0 }, "position": { "x": 0, "y": 0, "z": 0 } }
 				},
 				"m_linkedEntity": { "type": "SEntityTemplateReference", "value": null },
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "5bfe6c561ddf8c"
-				}
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "5bfe6c561ddf8c" }
 			},
 			"propertyAliases": {
 				"m_linkedEntity": [
-					{
-						"originalProperty": "m_linkedEntity",
-						"originalEntity": "12e724d523608e2c"
-					},
-					{
-						"originalProperty": "m_linkedEntity",
-						"originalEntity": "b81a374489a81707"
-					},
-					{
-						"originalProperty": "m_linkedEntity",
-						"originalEntity": "7ff7fa6169e03f3e"
-					},
-					{
-						"originalProperty": "m_linkedEntity",
-						"originalEntity": "bfb5483bbc9cf48"
-					},
-					{
-						"originalProperty": "m_linkedEntity",
-						"originalEntity": "4bcf04739e64aefd"
-					},
-					{
-						"originalProperty": "m_linkedEntity",
-						"originalEntity": "55f7e0485725958b"
-					},
-					{
-						"originalProperty": "m_linkedEntity",
-						"originalEntity": "babeb72030d42306"
-					},
-					{
-						"originalProperty": "m_linkedEntity",
-						"originalEntity": "a8d9121ad7a9e3f8"
-					},
-					{
-						"originalProperty": "m_linkedEntity",
-						"originalEntity": "123a333a59af29d0"
-					},
-					{
-						"originalProperty": "m_linkedEntity",
-						"originalEntity": "1e46e38ba3851127"
-					},
-					{
-						"originalProperty": "m_linkedEntity",
-						"originalEntity": "bd2f717188cfb9b9"
-					},
-					{
-						"originalProperty": "m_linkedEntity",
-						"originalEntity": "760754e7876ec96c"
-					},
-					{
-						"originalProperty": "m_linkedEntity",
-						"originalEntity": "ad3893d8d2cfabd"
-					},
-					{
-						"originalProperty": "m_linkedEntity",
-						"originalEntity": "6b8cc460b540a5f7"
-					},
-					{
-						"originalProperty": "m_linkedEntity",
-						"originalEntity": "16fc4e88f0e7cd30"
-					},
-					{
-						"originalProperty": "m_linkedEntity",
-						"originalEntity": "841ff328e554aca1"
-					},
-					{
-						"originalProperty": "m_linkedEntity",
-						"originalEntity": "c5e2f59931160e6"
-					},
-					{
-						"originalProperty": "m_linkedEntity",
-						"originalEntity": "de0320da207f0996"
-					},
-					{
-						"originalProperty": "m_linkedEntity",
-						"originalEntity": "b86e54b63c762823"
-					},
-					{
-						"originalProperty": "m_linkedEntity",
-						"originalEntity": "39ebecda44197c54"
-					},
-					{
-						"originalProperty": "m_linkedEntity",
-						"originalEntity": "87ca7d333567d763"
-					},
-					{
-						"originalProperty": "m_linkedEntity",
-						"originalEntity": "d442d20e17ef6d9c"
-					},
-					{
-						"originalProperty": "m_linkedEntity",
-						"originalEntity": "3235a2272a33d02b"
-					},
-					{
-						"originalProperty": "m_linkedEntity",
-						"originalEntity": "12b4bcb4568c488b"
-					},
-					{
-						"originalProperty": "m_linkedEntity",
-						"originalEntity": "d49e5adbdeab0c8e"
-					}
+					{ "originalProperty": "m_linkedEntity", "originalEntity": "12e724d523608e2c" },
+					{ "originalProperty": "m_linkedEntity", "originalEntity": "b81a374489a81707" },
+					{ "originalProperty": "m_linkedEntity", "originalEntity": "7ff7fa6169e03f3e" },
+					{ "originalProperty": "m_linkedEntity", "originalEntity": "bfb5483bbc9cf48" },
+					{ "originalProperty": "m_linkedEntity", "originalEntity": "4bcf04739e64aefd" },
+					{ "originalProperty": "m_linkedEntity", "originalEntity": "55f7e0485725958b" },
+					{ "originalProperty": "m_linkedEntity", "originalEntity": "babeb72030d42306" },
+					{ "originalProperty": "m_linkedEntity", "originalEntity": "a8d9121ad7a9e3f8" },
+					{ "originalProperty": "m_linkedEntity", "originalEntity": "123a333a59af29d0" },
+					{ "originalProperty": "m_linkedEntity", "originalEntity": "1e46e38ba3851127" },
+					{ "originalProperty": "m_linkedEntity", "originalEntity": "bd2f717188cfb9b9" },
+					{ "originalProperty": "m_linkedEntity", "originalEntity": "760754e7876ec96c" },
+					{ "originalProperty": "m_linkedEntity", "originalEntity": "ad3893d8d2cfabd" },
+					{ "originalProperty": "m_linkedEntity", "originalEntity": "6b8cc460b540a5f7" },
+					{ "originalProperty": "m_linkedEntity", "originalEntity": "16fc4e88f0e7cd30" },
+					{ "originalProperty": "m_linkedEntity", "originalEntity": "841ff328e554aca1" },
+					{ "originalProperty": "m_linkedEntity", "originalEntity": "c5e2f59931160e6" },
+					{ "originalProperty": "m_linkedEntity", "originalEntity": "de0320da207f0996" },
+					{ "originalProperty": "m_linkedEntity", "originalEntity": "b86e54b63c762823" },
+					{ "originalProperty": "m_linkedEntity", "originalEntity": "39ebecda44197c54" },
+					{ "originalProperty": "m_linkedEntity", "originalEntity": "87ca7d333567d763" },
+					{ "originalProperty": "m_linkedEntity", "originalEntity": "d442d20e17ef6d9c" },
+					{ "originalProperty": "m_linkedEntity", "originalEntity": "3235a2272a33d02b" },
+					{ "originalProperty": "m_linkedEntity", "originalEntity": "12b4bcb4568c488b" },
+					{ "originalProperty": "m_linkedEntity", "originalEntity": "d49e5adbdeab0c8e" }
 				]
 			},
-			"exposedInterfaces": {
-				"ZClothCollider": "6809bbf886974610",
-				"ZClothColliderGroup": "6809bbf886974610"
-			}
+			"exposedInterfaces": { "ZClothCollider": "6809bbf886974610", "ZClothColliderGroup": "6809bbf886974610" }
 		}
 	},
 	"propertyOverrides": [],

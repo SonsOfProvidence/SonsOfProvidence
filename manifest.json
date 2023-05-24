@@ -185,6 +185,12 @@
 			"comment": "CHARSET_Cinematic_Unique_LucasGrey_Parachute_M",
 			"portFromChunk1": true,
 			"toChunk": 0
+		},
+		{
+			"runtimeID": "005A906529E9B54F",
+			"comment": "CHARSET_Bulldog_Guard_MansionGuard_M",
+			"portFromChunk1": true,
+			"toChunk": 4
 		}
 	],
 	"packagedefinition": [
@@ -259,6 +265,10 @@
 			"path": "[assembly:/_pro/scenes/users/notex/outfit_showcase.entity].entitytemplate"
 		}
 	],
+	"localisedLines": {
+		"005CCC76031E18DE": "UI_TOKEN_OUTFIT_LUCAS_GREY_PONCHO_NAME",
+		"00776E88A1776384": "UI_TOKEN_OUTFIT_LUCAS_GREY_PONCHO_DESC"
+	},
 	"localisation": {
 		"english": {
 			"UI_SONS_OF_PROVIDENCE": "Sons of Providence",
@@ -287,9 +297,8 @@
 			"UI_BERLIN_TITLE": "Isolating Madame Carlisle",
 			"DESC_HOK_TEST": "I am Lucas Grey.\r\rMy target is Haru Takahashi.\r\rThe Nabazov Virus rages.\r\rI shall prepare.  ",
 			"UI_HOKKAIDO_TITLE": "Hokkaido Test Mission",
-			"UI_TOKEN_OUTFIT_LUCAS_GREY_PONCHO_NAME": "Poncho",
-			"UI_TOKEN_OUTFIT_LUCAS_GREY_PONCHO_DESCRIPTION": "A rain proof poncho for maritime infiltration.",
-			"UI_TOKEN_OUTFIT_LUCAS_GREY_PONCHO": "Rain Poncho",
+			"UI_TOKEN_OUTFIT_LUCAS_GREY_PONCHO_NAME": "Rain Poncho",
+			"UI_TOKEN_OUTFIT_LUCAS_GREY_PONCHO_DESC": "A rain proof poncho for maritime infiltration.",
 			"ui_starting_location_mumbai_ether_lab_default_name": "Roof of Ether Headquarters, Johannesburg, South Africa",
 			"ui_starting_location_mumbai_ether_lab_desc": "I have landed on the roof of Ether Headquarters",
 			"ui_starting_location_dartmoor_institute_default_name": "The Institute for Human Betterment, Brasov, Romania",

@@ -32,12 +32,12 @@
 		"ioiString": "[assembly:/sonsofprovidence/scene_tower.entity].pc_entityblueprint"
 	},
 	{
-		"hash": "00E71CE2EB2C372A",
-		"ioiString": "[assembly:/_pro/scenes/users/notex/outfit_showcase.entity].pc_entitytemplate"
+		"hash": "00CE2AA7A5261502",
+		"ioiString": "[assembly:/sonsofprovidence/tower/tower_outfits.brick].pc_entitytype"
 	},
 	{
-		"hash": "0043EDC991441D46",
-		"ioiString": "[assembly:/_pro/scenes/users/notex/outfit_showcase.entity].pc_entityblueprint"
+		"hash": "005E103AA21441A0",
+		"ioiString": "[assembly:/sonsofprovidence/tower/tower_outfits.brick].pc_entityblueprint"
 	},
 	{
 		"hash": "00581D13D5849A2A",
@@ -94,6 +94,22 @@
 	{
 		"hash": "00BC4937360BF300",
 		"ioiString": "[assembly:/sonsofprovidence/shared/outfit_lucasgrey_poncho_heroa_v0.entitytemplate].pc_entityblueprint"
+	},
+	{
+		"hash": "00BC69D4CB9C962B",
+		"ioiString": "[assembly:/sonsofprovidence/shared/charset_lucasgrey_bald.entitytemplate].pc_entitytype"
+	},
+	{
+		"hash": "0038CDD98977C4EB",
+		"ioiString": "[assembly:/sonsofprovidence/shared/charset_lucasgrey_bald.entitytemplate].pc_entityblueprint"
+	},
+	{
+		"hash": "004D052D5A3A1F42",
+		"ioiString": "[assembly:/sonsofprovidence/shared/outfit_lucasgrey_bald_heroa_v0.entitytemplate].pc_entitytype"
+	},
+	{
+		"hash": "004D052D5A3A1F42",
+		"ioiString": "[assembly:/sonsofprovidence/shared/outfit_lucasgrey_bald_heroa_v0.entitytemplate].pc_entityblueprint"
 	},
 	{
 		"hash": "002B265B3512B2F9",

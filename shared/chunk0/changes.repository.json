@@ -61,14 +61,26 @@
 	},
 	"4ddb6c12-97fc-49f9-acc4-1ac7b5cc7d6d": {
 		"Category": "",
-		"CommonName": "$loc char_sonsofprovidence_hero_poncho_m",
-		"Description": "$loc char_sonsofprovidence_hero_poncho_m_description",
+		"CommonName": "UI_TOKEN_OUTFIT_LUCAS_GREY_PONCHO",
+		"Description": "UI_TOKEN_OUTFIT_LUCAS_GREY_PONCHO_DESC",
 		"HeroDisguiseAvailable": true,
 		"ID_": "4ddb6c12-97fc-49f9-acc4-1ac7b5cc7d6d",
 		"Image": "images/dbierek/outfit_lucas_grey_poncho.jpg",
 		"ImageTransparent": "images/dbierek/outfit_lucas_grey_poncho.png",
 		"IsHitmanSuit": true,
-		"Name_": "$loc char_sonsofprovidence_hero_poncho_m_name",
+		"Name_": "UI_TOKEN_OUTFIT_LUCAS_GREY_PONCHO_NAME",
+		"TokenID": ""
+	},
+	"e715bdb4-31d8-4db9-bed9-345d9f690735": {
+		"Category": "",
+		"CommonName": "UI_TOKEN_OUTFIT_LUCAS_GREY_BALD",
+		"Description": "UI_TOKEN_OUTFIT_LUCAS_GREY_BALD_DESCRIPTION",
+		"HeroDisguiseAvailable": true,
+		"ID_": "e715bdb4-31d8-4db9-bed9-345d9f690735",
+		"Image": "images/dbierek/outfit_lucas_grey_bald.jpg",
+		"ImageTransparent": "images/dbierek/outfit_lucas_grey_bald.jpg",
+		"IsHitmanSuit": true,
+		"Name_": "UI_TOKEN_OUTFIT_LUCAS_GREY_BALD_NAME",
 		"TokenID": ""
 	},
 	"d3959196-6be0-43ea-b6e7-aafa70824746": {

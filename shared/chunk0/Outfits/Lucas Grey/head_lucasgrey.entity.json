@@ -13,41 +13,21 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": { "x": 0, "y": 0, "z": -21.207094145324707 },
-						"position": {
-							"x": 0.2475470006465912,
-							"y": 1.7092779874801636,
-							"z": 0.32432499527931213
-						}
+						"position": { "x": 0.2475470006465912, "y": 1.7092779874801636, "z": 0.32432499527931213 }
 					}
 				},
-				"ConstantColorRGB_01_Value_op": {
-					"type": "IRenderMaterialEntity.EModifierOperation",
-					"value": "eReplace"
-				},
-				"ConstantColorRGB_01_Value": {
-					"type": "SColorRGB",
-					"value": "#b8c3cc"
-				},
+				"ConstantColorRGB_01_Value_op": { "type": "IRenderMaterialEntity.EModifierOperation", "value": "eReplace" },
+				"ConstantColorRGB_01_Value": { "type": "SColorRGB", "value": "#b8c3cc" },
 				"Texture2DNormal_01_enab": { "type": "bool", "value": true },
 				"Texture2D_01_enab": { "type": "bool", "value": true },
 				"Texture2D_03_enab": { "type": "bool", "value": true },
-				"Texture2D_03": {
-					"type": "ZRuntimeResourceID",
-					"value": { "resource": "00751F249D042475", "flag": "5F" }
-				},
-				"Texture2D_01": {
-					"type": "ZRuntimeResourceID",
-					"value": { "resource": "0091FBA017372507", "flag": "5F" }
-				},
+				"Texture2D_03": { "type": "ZRuntimeResourceID", "value": { "resource": "00751F249D042475", "flag": "5F" } },
+				"Texture2D_01": { "type": "ZRuntimeResourceID", "value": { "resource": "0091FBA017372507", "flag": "5F" } },
 				"Texture2DNormal_01": {
 					"type": "ZRuntimeResourceID",
 					"value": { "resource": "009FE4BCDE2966EC", "flag": "5F" }
 				},
-				"Clients": {
-					"type": "TArray<SEntityTemplateReference>",
-					"value": ["e62e6760cc0b954b"],
-					"postInit": true
-				}
+				"Clients": { "type": "TArray<SEntityTemplateReference>", "value": ["e62e6760cc0b954b"], "postInit": true }
 			}
 		},
 		"c4b1477d24a3eb05": {
@@ -60,55 +40,23 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": { "x": 0, "y": 0, "z": -21.207094145324707 },
-						"position": {
-							"x": 0.2475470006465912,
-							"y": 1.7092779874801636,
-							"z": 0.32432499527931213
-						}
+						"position": { "x": 0.2475470006465912, "y": 1.7092779874801636, "z": 0.32432499527931213 }
 					}
 				},
-				"EyeShader_01_IrisHueShift_op": {
-					"type": "IRenderMaterialEntity.EModifierOperation",
-					"value": "eReplace"
-				},
-				"EyeShader_01_IrisHueShift": {
-					"type": "float32",
-					"value": -0.27000001072883606
-				},
+				"EyeShader_01_IrisHueShift_op": { "type": "IRenderMaterialEntity.EModifierOperation", "value": "eReplace" },
+				"EyeShader_01_IrisHueShift": { "type": "float32", "value": -0.27000001072883606 },
 				"Texture2D_01_enab": { "type": "bool", "value": true },
-				"Texture2D_01": {
-					"type": "ZRuntimeResourceID",
-					"value": { "resource": "00CBCFA54D1BFD2A", "flag": "5F" }
-				},
+				"Texture2D_01": { "type": "ZRuntimeResourceID", "value": { "resource": "00CBCFA54D1BFD2A", "flag": "5F" } },
 				"EyeShader_01_IrisBrightness_op": {
 					"type": "IRenderMaterialEntity.EModifierOperation",
 					"value": "eReplace"
 				},
-				"EyeShader_01_IrisBrightness": {
-					"type": "float32",
-					"value": 1.4500000476837158
-				},
-				"EyeShader_01_PupilSize_op": {
-					"type": "IRenderMaterialEntity.EModifierOperation",
-					"value": "eReplace"
-				},
-				"EyeShader_01_PupilSize": {
-					"type": "float32",
-					"value": 0.10000000149011612
-				},
-				"EyeShader_01_Albedo_op": {
-					"type": "IRenderMaterialEntity.EModifierOperation",
-					"value": "eReplace"
-				},
-				"EyeShader_01_Albedo": {
-					"type": "float32",
-					"value": 0.6000000238418579
-				},
-				"Clients": {
-					"type": "TArray<SEntityTemplateReference>",
-					"value": ["e62e6760cc0b954b"],
-					"postInit": true
-				}
+				"EyeShader_01_IrisBrightness": { "type": "float32", "value": 1.4500000476837158 },
+				"EyeShader_01_PupilSize_op": { "type": "IRenderMaterialEntity.EModifierOperation", "value": "eReplace" },
+				"EyeShader_01_PupilSize": { "type": "float32", "value": 0.10000000149011612 },
+				"EyeShader_01_Albedo_op": { "type": "IRenderMaterialEntity.EModifierOperation", "value": "eReplace" },
+				"EyeShader_01_Albedo": { "type": "float32", "value": 0.6000000238418579 },
+				"Clients": { "type": "TArray<SEntityTemplateReference>", "value": ["e62e6760cc0b954b"], "postInit": true }
 			}
 		},
 		"2d5dd2b9841d18a": {
@@ -119,21 +67,11 @@
 			"properties": {
 				"m_mTransform": {
 					"type": "SMatrix43",
-					"value": {
-						"rotation": { "x": 0, "y": 0, "z": 0 },
-						"position": { "x": 0, "y": 0, "z": 0 }
-					}
+					"value": { "rotation": { "x": 0, "y": 0, "z": 0 }, "position": { "x": 0, "y": 0, "z": 0 } }
 				},
-				"Clients": {
-					"type": "TArray<SEntityTemplateReference>",
-					"value": ["e62e6760cc0b954b"],
-					"postInit": true
-				},
+				"Clients": { "type": "TArray<SEntityTemplateReference>", "value": ["e62e6760cc0b954b"], "postInit": true },
 				"Texture2D_01_enab": { "type": "bool", "value": true },
-				"Texture2D_01": {
-					"type": "ZRuntimeResourceID",
-					"value": { "resource": "00949A3A50C3A8BC", "flag": "5F" }
-				}
+				"Texture2D_01": { "type": "ZRuntimeResourceID", "value": { "resource": "00949A3A50C3A8BC", "flag": "5F" } }
 			}
 		},
 		"9d2a3f8fba76ce8b": {
@@ -157,14 +95,8 @@
 					"type": "ZRuntimeResourceID",
 					"value": { "resource": "00755E72B1886EE3", "flag": "5F" }
 				},
-				"CharacterLinkedEntity2": {
-					"type": "TArray<SEntityTemplateReference>",
-					"value": []
-				},
-				"CharacterLinkedEntity": {
-					"type": "SEntityTemplateReference",
-					"value": null
-				}
+				"CharacterLinkedEntity2": { "type": "TArray<SEntityTemplateReference>", "value": [] },
+				"CharacterLinkedEntity": { "type": "SEntityTemplateReference", "value": null }
 			}
 		},
 		"5acedc9f788e51e3": {
@@ -177,34 +109,14 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": { "x": 0, "y": 0, "z": -21.207094145324707 },
-						"position": {
-							"x": 0.2475470006465912,
-							"y": 1.7092779874801636,
-							"z": 0.32432499527931213
-						}
+						"position": { "x": 0.2475470006465912, "y": 1.7092779874801636, "z": 0.32432499527931213 }
 					}
 				},
-				"ConstantVector1D_01_Value_op": {
-					"type": "IRenderMaterialEntity.EModifierOperation",
-					"value": "eReplace"
-				},
-				"ConstantVector1D_01_Value": {
-					"type": "float32",
-					"value": 0.5400000214576721
-				},
-				"ConstantColorRGB_02_Value_op": {
-					"type": "IRenderMaterialEntity.EModifierOperation",
-					"value": "eReplace"
-				},
-				"ConstantColorRGB_02_Value": {
-					"type": "SColorRGB",
-					"value": "#ffffff"
-				},
-				"Clients": {
-					"type": "TArray<SEntityTemplateReference>",
-					"value": ["e62e6760cc0b954b"],
-					"postInit": true
-				}
+				"ConstantVector1D_01_Value_op": { "type": "IRenderMaterialEntity.EModifierOperation", "value": "eReplace" },
+				"ConstantVector1D_01_Value": { "type": "float32", "value": 0.5400000214576721 },
+				"ConstantColorRGB_02_Value_op": { "type": "IRenderMaterialEntity.EModifierOperation", "value": "eReplace" },
+				"ConstantColorRGB_02_Value": { "type": "SColorRGB", "value": "#ffffff" },
+				"Clients": { "type": "TArray<SEntityTemplateReference>", "value": ["e62e6760cc0b954b"], "postInit": true }
 			}
 		},
 		"ea0c52983a6d3db4": {
@@ -217,10 +129,7 @@
 					"type": "ZRuntimeResourceID",
 					"value": { "resource": "009B5962B1FCAA8D", "flag": "5F" }
 				},
-				"m_ClothColliders": {
-					"type": "TArray<SEntityTemplateReference>",
-					"value": []
-				}
+				"m_ClothColliders": { "type": "TArray<SEntityTemplateReference>", "value": [] }
 			}
 		},
 		"e62e6760cc0b954b": {
@@ -230,40 +139,16 @@
 			"blueprint": "[modules:/zentity.class].pc_entityblueprint",
 			"propertyAliases": {
 				"CharacterLinkedEntity2": [
-					{
-						"originalProperty": "CharacterLinkedEntity2",
-						"originalEntity": "9d2a3f8fba76ce8b"
-					}
+					{ "originalProperty": "CharacterLinkedEntity2", "originalEntity": "9d2a3f8fba76ce8b" }
 				],
 				"CharacterLinkedEntity": [
-					{
-						"originalProperty": "CharacterLinkedEntity",
-						"originalEntity": "9d2a3f8fba76ce8b"
-					}
+					{ "originalProperty": "CharacterLinkedEntity", "originalEntity": "9d2a3f8fba76ce8b" }
 				],
-				"Texture2D_03": [
-					{
-						"originalProperty": "Texture2D_03",
-						"originalEntity": "97490e60b83789d4"
-					}
-				],
-				"Texture2D_01_1": [
-					{
-						"originalProperty": "Texture2D_01",
-						"originalEntity": "97490e60b83789d4"
-					}
-				],
-				"Texture2DNormal_01": [
-					{
-						"originalProperty": "Texture2DNormal_01",
-						"originalEntity": "97490e60b83789d4"
-					}
-				]
+				"Texture2D_03": [{ "originalProperty": "Texture2D_03", "originalEntity": "97490e60b83789d4" }],
+				"Texture2D_01_1": [{ "originalProperty": "Texture2D_01", "originalEntity": "97490e60b83789d4" }],
+				"Texture2DNormal_01": [{ "originalProperty": "Texture2DNormal_01", "originalEntity": "97490e60b83789d4" }]
 			},
-			"exposedInterfaces": {
-				"ZClothColliderGroupAspect": "ea0c52983a6d3db4",
-				"ZBodyPartEntity": "ea0c52983a6d3db4"
-			}
+			"exposedInterfaces": { "ZClothColliderGroupAspect": "ea0c52983a6d3db4", "ZBodyPartEntity": "ea0c52983a6d3db4" }
 		}
 	},
 	"propertyOverrides": [],
