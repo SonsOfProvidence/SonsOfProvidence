@@ -37,7 +37,7 @@
 	},
 	"6244bf6d-18c1-4629-a691-d7845a87ef07": {
 		"ID_": "6244bf6d-18c1-4629-a691-d7845a87ef07",
-		"Image": "images/dbierek/berlin.jpg",
+		"Image": "images/dbierek/berlin_tower_start.jpg",
 		"Name_LOC": "ui_starting_location_berlin_road_default_name",
 		"Description": "ui_starting_location_berlin_road_desc"
 	},
@@ -74,7 +74,7 @@
 	"e715bdb4-31d8-4db9-bed9-345d9f690735": {
 		"Category": "",
 		"CommonName": "UI_TOKEN_OUTFIT_LUCAS_GREY_BALD",
-		"Description": "UI_TOKEN_OUTFIT_LUCAS_GREY_BALD_DESCRIPTION",
+		"Description": "UI_TOKEN_OUTFIT_LUCAS_GREY_BALD_DESC",
 		"HeroDisguiseAvailable": true,
 		"ID_": "e715bdb4-31d8-4db9-bed9-345d9f690735",
 		"Image": "images/dbierek/outfit_lucas_grey_bald.jpg",
@@ -127,16 +127,16 @@
 		"OutfitVariationIndex": 0.0,
 		"Tile": "images/dbierek/sapienza_target.jpg"
 	},
-	"5a176a60-01ae-4df7-8efa-233a7ad1bcfe": {
+	"be51939f-1a3d-4f60-bc1c-5c1e1d726da2": {
 		"CharacterSetIndex": 0.0,
 		"Description": "Communications Director",
 		"Description_LOC": "actor_description",
-		"ID_": "5a176a60-01ae-4df7-8efa-233a7ad1bcfe",
-		"Image": "images/dbierek/berlin.jpg",
+		"ID_": "be51939f-1a3d-4f60-bc1c-5c1e1d726da2",
+		"Image": "images/dbierek/berlin_target.jpg",
 		"Name": "Communications Director",
-		"Outfit": "b40a74a0-91a2-490d-8806-3ccfc852c82b",
+		"Outfit": "c3349736-91d1-48e3-bc62-fc16a7d8d6f1",
 		"OutfitVariationIndex": 0.0,
-		"Tile": "images/dbierek/berlin.jpg"
+		"Tile": "images/dbierek/berlin_target.jpg"
 	},
 	"743F058F-56A0-420F-8B5E-46DABABACA37": {
 		"Name": "Ben Bern"

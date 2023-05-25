@@ -232,7 +232,7 @@
 				"m_pParentOutfit": {
 					"type": "SEntityTemplateReference",
 					"value": {
-						"ref": "6736fcbbd3e73209",
+						"ref": "958ef354a73d986e",
 						"externalScene": "[assembly:/_pro/scenes/bricks/globaldata.brick].pc_entitytype"
 					}
 				},

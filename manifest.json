@@ -267,7 +267,9 @@
 	],
 	"localisedLines": {
 		"005CCC76031E18DE": "UI_TOKEN_OUTFIT_LUCAS_GREY_PONCHO_NAME",
-		"00776E88A1776384": "UI_TOKEN_OUTFIT_LUCAS_GREY_PONCHO_DESC"
+		"00776E88A1776384": "UI_TOKEN_OUTFIT_LUCAS_GREY_PONCHO_DESC",
+		"003121C47E69C366": "UI_TOKEN_OUTFIT_LUCAS_GREY_BALD_NAME",
+		"00A12E5B52CD0D41": "UI_TOKEN_OUTFIT_LUCAS_GREY_BALD_DESC"
 	},
 	"localisation": {
 		"english": {
@@ -293,12 +295,14 @@
 			"UI_MUMBAI_TARGET_BRIEFING": "Ether Scientist",
 			"DESC_SGAIL": "47 has eliminated the Washington sisters and stashed the Kill Switch. I need to retrieve it and capture the Constant.",
 			"UI_SGAIL_TITLE": "Capturing the Constant",
-			"DESC_BERLIN": "I need to capture the communications center for Madame Carlisle's estate house to help 47 eliminate Madame Carlisle and capture information about the Constant.",
+			"UI_BERLIN_DESC": "I need to capture the communications center for Madame Carlisle's estate house to help 47 eliminate Madame Carlisle and capture information about the Constant.",
 			"UI_BERLIN_TITLE": "Isolating Madame Carlisle",
 			"DESC_HOK_TEST": "I am Lucas Grey.\r\rMy target is Haru Takahashi.\r\rThe Nabazov Virus rages.\r\rI shall prepare.  ",
 			"UI_HOKKAIDO_TITLE": "Hokkaido Test Mission",
 			"UI_TOKEN_OUTFIT_LUCAS_GREY_PONCHO_NAME": "Rain Poncho",
 			"UI_TOKEN_OUTFIT_LUCAS_GREY_PONCHO_DESC": "A rain proof poncho for maritime infiltration.",
+			"UI_TOKEN_OUTFIT_LUCAS_GREY_BALD_NAME": "Tactical Infiltration Suit",
+			"UI_TOKEN_OUTFIT_LUCAS_GREY_BALD_DESC": "A tactical infiltration suit designed to be low profile.",
 			"ui_starting_location_mumbai_ether_lab_default_name": "Roof of Ether Headquarters, Johannesburg, South Africa",
 			"ui_starting_location_mumbai_ether_lab_desc": "I have landed on the roof of Ether Headquarters",
 			"ui_starting_location_dartmoor_institute_default_name": "The Institute for Human Betterment, Brasov, Romania",

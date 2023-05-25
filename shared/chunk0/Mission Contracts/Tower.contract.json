@@ -1,7 +1,42 @@
 {
 	"Data": {
 		"EnableSaving": true,
-		"Objectives": [],
+		"Objectives": [
+			{
+				"Id": "6726232b-1926-4ed2-8b92-0e2c4bcd7384",
+				"Category": "primary",
+				"ObjectiveType": "setpiece",
+				"DisplayAsKillObjective": true,
+				"ForceShowOnLoadingScreen": true,
+				"IsHidden": false,
+				"BriefingName": "$($repository be51939f-1a3d-4f60-bc1c-5c1e1d726da2).Name",
+				"Image": "images/dbierek/berlin_target.jpg",
+				"HUDTemplate": {
+					"display": "Eliminate the Communications Director"
+				},
+				"BriefingText": "Eliminate the Communications Director",
+				"Type": "statemachine",
+				"Definition": {
+					"Scope": "session",
+					"Context": {
+						"KilledActors": [],
+						"Targets": ["be51939f-1a3d-4f60-bc1c-5c1e1d726da2"]
+					},
+					"States": {
+						"Start": {
+							"Kill": [
+								{
+									"Condition": {
+										"$eq": ["$Value.RepositoryId", "be51939f-1a3d-4f60-bc1c-5c1e1d726da2"]
+									},
+									"Transition": "Success"
+								}
+							]
+						}
+					}
+				}
+			}
+		],
 		"GameDifficulties": [
 			{
 				"Difficulty": "easy",
@@ -26,10 +61,10 @@
 		"Id": "712b1b97-009d-46cf-919d-e7b0144d6d92",
 		"IsPublished": true,
 		"Title": "UI_BERLIN_TITLE",
-		"Description": "DESC_BERLIN",
+		"Description": "UI_BERLIN_DESC",
 		"CodeName_Hint": "Berlin",
 		"ScenePath": "assembly:/sonsofprovidence/scene_tower.entity",
-		"TileImage": "images/dbierek/berlin.jpg",
+		"TileImage": "images/dbierek/berlin_tower_start.jpg",
 		"Location": "LOCATION_EDGY_FOX",
 		"LastUpdate": "2023-03-31T05:48:00.000Z",
 		"CreationTimestamp": "2023-03-31T05:48:00.000Z",
