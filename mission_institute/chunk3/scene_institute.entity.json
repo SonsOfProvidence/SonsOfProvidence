@@ -1266,6 +1266,29 @@
 					"value": { "resource": "004F040B5D41A40F", "flag": "5F" }
 				}
 			}
+		},
+		"feed1dbf9cc61488": {
+			"parent": "abcd4b7b3e7bd675",
+			"name": "Destructible Wall",
+			"factory": "[modules:/zentity.class].pc_entitytype",
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
+		},
+		"feed2aa2a7e5dd0c": {
+			"parent": "feed1dbf9cc61488",
+			"name": "Setpiece_Italy_Unique_Destructible_Wall_A",
+			"factory": "[assembly:/_pro/design/setpieces/unique/setpiece_italy_unique.template?/setpiece_italy_unique_destructible_wall_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/setpieces/unique/setpiece_italy_unique.template?/setpiece_italy_unique_destructible_wall_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": -89.99994270422063 },
+						"position": { "x": -8.964874267578125, "y": 2.351372003555298, "z": 1.4001970291137695 }
+					}
+				}
+			},
+			"events": { "WallDestroyed": { "TransmitEvent": [] } },
+			"subsets": { "AudioEmitters": ["fffffffffffffffe"] }
 		}
 	},
 	"propertyOverrides": [

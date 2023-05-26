@@ -200,64 +200,6 @@
 			"factory": "00490047D1342813",
 			"blueprint": "00089B3EB98783A1"
 		},
-		"feedcbc93756ebca": {
-			"parent": "fffffffffffffffe",
-			"name": "Cinematic_Bulldog_Mercenary",
-			"factory": "[modules:/zglobaloutfitkit.class].pc_entitytype",
-			"blueprint": "[modules:/zglobaloutfitkit.class].pc_entityblueprint",
-			"properties": {
-				"m_DamageMultipliers": {
-					"type": "SBodyPartDamageMultipliers",
-					"value": {
-						"m_fHeadDamageMultiplier": 3,
-						"m_fFaceDamageMultiplier": 3,
-						"m_fArmDamageMultiplier": 1,
-						"m_fLArmDamageScalar": 0,
-						"m_fRArmDamageScalar": 0,
-						"m_fHandDamageMultiplier": 0.5,
-						"m_fLHandDamageScalar": 0,
-						"m_fRHandDamageScalar": 0,
-						"m_fLegDamageMultiplier": 0.6000000238418579,
-						"m_fLLegDamageScalar": 0,
-						"m_fRLegDamageScalar": 0,
-						"m_fTorsoDamageMultiplier": 1,
-						"m_bApplyLeftRightScalars": false
-					}
-				},
-				"m_eActorType": { "type": "EActorType", "value": "eAT_Civilian" },
-				"m_eActorCCClass": { "type": "EActorCCPreset", "value": "ACCP_CivilianeMale" },
-				"m_bHeroDisguiseAvailable": { "type": "bool", "value": false },
-				"m_eSoundFootwearType": { "type": "EHM5SoundFootwearType", "value": "EFWT_LEATHER" },
-				"m_sId": { "type": "ZGuid", "value": "d5883f9b-11af-445e-a80a-036ff424970f" },
-				"m_pParentOutfit": {
-					"type": "SEntityTemplateReference",
-					"value": {
-						"ref": "958ef354a73d986e",
-						"externalScene": "[assembly:/_pro/scenes/bricks/globaldata.brick].pc_entitytype"
-					}
-				},
-				"m_sCommonName": { "type": "ZString", "value": "Cinematic_Bulldog_Mercenary" },
-				"m_sTitle": { "type": "ZString", "value": "Bulldog_Mercenary" },
-				"m_eOutfitAICategory": { "type": "EOutfitAICategory", "value": "OAC_Undefined" },
-				"m_rNameTextResource": { "type": "ZRuntimeResourceID", "value": null },
-				"m_rDescriptionTextResource": { "type": "ZRuntimeResourceID", "value": null },
-				"m_rDefaultVoiceVariations": {
-					"type": "TArray<EActorVoiceVariation>",
-					"value": ["eAVV_YACHTCREW01", "eAVV_YACHTCREW02", "eAVV_YACHTCREW03", "eAVV_YACHTCREW04"]
-				},
-				"m_aCharSets": {
-					"type": "TArray<SEntityTemplateReference>",
-					"value": ["feed3445125e1f2b"],
-					"postInit": true
-				}
-			}
-		},
-		"feed3445125e1f2b": {
-			"parent": "feedcbc93756ebca",
-			"name": "CHARSET_Cinematic_Mercenary_M",
-			"factory": "003C51A51A0EDC97",
-			"blueprint": "005F8488059FD4B1"
-		},
 		"feed89a95fc2881d": {
 			"parent": "feed1d8f3a151446",
 			"name": "Cinematic_LucasGrey_Jacket",
@@ -482,7 +424,7 @@
 				"m_eActorCCClass": { "type": "EActorCCPreset", "value": "ACCP_GuardMaleElite" },
 				"m_bWeaponsAllowed": { "type": "bool", "value": true },
 				"m_bHeroDisguiseAvailable": { "type": "bool", "value": false },
-				"m_eSoundFootwearType": { "type": "EHM5SoundFootwearType", "value": "EFWT_BAREFOOT" },
+				"m_eSoundFootwearType": { "type": "EHM5SoundFootwearType", "value": "EFWT_LEATHER" },
 				"m_aCharSets": { "type": "TArray<SEntityTemplateReference>", "value": ["feedb104993a27a0"] },
 				"m_eOutfitAICategory": { "type": "EOutfitAICategory", "value": "OAC_Soldier" },
 				"m_AvailableWeaponKeys": {
@@ -548,6 +490,136 @@
 			"blueprint": "[assembly:/_pro/design/gamecore/keywords/keywordsound.template?/keywordentity_foley_outfit_guard.entitytemplate].pc_entityblueprint",
 			"properties": { "m_aHolders": { "type": "TArray<SEntityTemplateReference>", "value": [], "postInit": true } },
 			"factory": "[assembly:/_pro/design/gamecore/keywords/keywordsound.template?/keywordentity_foley_outfit_guard.entitytemplate].pc_entitytype"
+		},
+		"feedaffcbee48ade": {
+			"parent": "fffffffffffffffe",
+			"name": "Cinematic_Bulldog_Mercenary",
+			"factory": "[modules:/zglobaloutfitkit.class].pc_entitytype",
+			"blueprint": "[modules:/zglobaloutfitkit.class].pc_entityblueprint",
+			"properties": {
+				"m_DamageMultipliers": {
+					"type": "SBodyPartDamageMultipliers",
+					"value": {
+						"m_fHeadDamageMultiplier": 3,
+						"m_fFaceDamageMultiplier": 3,
+						"m_fArmDamageMultiplier": 1,
+						"m_fLArmDamageScalar": 0,
+						"m_fRArmDamageScalar": 0,
+						"m_fHandDamageMultiplier": 0.5,
+						"m_fLHandDamageScalar": 0,
+						"m_fRHandDamageScalar": 0,
+						"m_fLegDamageMultiplier": 0.6000000238418579,
+						"m_fLLegDamageScalar": 0,
+						"m_fRLegDamageScalar": 0,
+						"m_fTorsoDamageMultiplier": 1,
+						"m_bApplyLeftRightScalars": false
+					}
+				},
+				"m_eActorCCClass": { "type": "EActorCCPreset", "value": "ACCP_GuardMaleElite" },
+				"m_bWeaponsAllowed": { "type": "bool", "value": true },
+				"m_bHeroDisguiseAvailable": { "type": "bool", "value": false },
+				"m_eSoundFootwearType": { "type": "EHM5SoundFootwearType", "value": "EFWT_LEATHER" },
+				"m_sId": { "type": "ZGuid", "value": "d5883f9b-11af-445e-a80a-036ff424970f" },
+				"m_rDefaultVoiceVariations": { "type": "TArray<EActorVoiceVariation>", "value": ["eAVV_CIVMALE08"] },
+				"m_pParentOutfit": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "958ef354a73d986e",
+						"externalScene": "[assembly:/_pro/scenes/bricks/globaldata.brick].pc_entitytype"
+					}
+				},
+				"m_sCommonName": { "type": "ZString", "value": "Cinematic_Bulldog_Mercenary" },
+				"m_sTitle": { "type": "ZString", "value": "Bulldog_Mercenary" },
+				"m_eOutfitType": { "type": "EOutfitType", "value": "eOT_Guard" },
+				"m_eActorRank": { "type": "EActorRank", "value": "AR_Elite" },
+				"m_eOutfitAICategory": { "type": "EOutfitAICategory", "value": "OAC_Soldier" },
+				"m_AvailableWeaponKeys": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["feed15d41fbe1d9d", "feed4ec32db98ba6"]
+				},
+				"m_rNameTextResource": { "type": "ZRuntimeResourceID", "value": null },
+				"m_rDescriptionTextResource": { "type": "ZRuntimeResourceID", "value": null },
+				"m_aCharSets": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["feedb3e4c946cd62"],
+					"postInit": true
+				}
+			}
+		},
+		"feed01df216f8028": {
+			"parent": "feedaffcbee48ade",
+			"name": "ItemKey__Grenade_ Flash 1",
+			"factory": "[modules:/zitemrepositorykeyentity.class].pc_entitytype",
+			"blueprint": "[modules:/zitemrepositorykeyentity.class].pc_entityblueprint",
+			"properties": { "m_RepositoryId": { "type": "ZGuid", "value": "de3b92ee-864d-491e-9595-b110e8a8aae0" } }
+		},
+		"feed1fc03242d6d3": {
+			"parent": "feedaffcbee48ade",
+			"name": "ItemKey__AR_ _NPC_ Fusil G1_4_C",
+			"factory": "[modules:/zitemrepositorykeyentity.class].pc_entitytype",
+			"blueprint": "[modules:/zitemrepositorykeyentity.class].pc_entityblueprint",
+			"properties": { "m_RepositoryId": { "type": "ZGuid", "value": "506e4cc9-43e0-41bc-b85e-d14779f313b7" } }
+		},
+		"feed7a9c0affa543": {
+			"parent": "feedaffcbee48ade",
+			"name": "ItemKey__SMG_ _NPC_ HX_10",
+			"factory": "[modules:/zitemrepositorykeyentity.class].pc_entitytype",
+			"blueprint": "[modules:/zitemrepositorykeyentity.class].pc_entityblueprint",
+			"properties": { "m_RepositoryId": { "type": "ZGuid", "value": "4abe19e7-fea7-4892-8ccf-6b7d05895b3f" } }
+		},
+		"feed3a3f2d773c85": {
+			"parent": "feedaffcbee48ade",
+			"name": "Keyword_Prof_Class_Guard_Light",
+			"factory": "003F8A8A859AE133",
+			"blueprint": "0059DEB85AA5AFED",
+			"properties": {
+				"m_aHolders": { "type": "TArray<SEntityTemplateReference>", "value": ["feedaffcbee48ade"], "postInit": true }
+			}
+		},
+		"feed3b9a47896327": {
+			"parent": "feedaffcbee48ade",
+			"name": "Keyword_Prof_Class_Default",
+			"factory": "007A51A2AFEC0D1A",
+			"blueprint": "00B0282A41C1CF2E",
+			"properties": {
+				"m_aHolders": { "type": "TArray<SEntityTemplateReference>", "value": ["feedaffcbee48ade"], "postInit": true }
+			}
+		},
+		"feedfea8a9a48d53": {
+			"parent": "feedaffcbee48ade",
+			"name": "KeywordEntity_FOLEY_OUTFIT_GUARD",
+			"factory": "[assembly:/_pro/design/gamecore/keywords/keywordsound.template?/keywordentity_foley_outfit_guard.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/gamecore/keywords/keywordsound.template?/keywordentity_foley_outfit_guard.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_rHolder": { "type": "SEntityTemplateReference", "value": "feedaffcbee48ade", "postInit": true }
+			}
+		},
+		"feed18a29c0ed93f": {
+			"parent": "feedaffcbee48ade",
+			"name": "ItemKey__Pistol__NPC_ Bartoli 75R",
+			"factory": "[modules:/zitemrepositorykeyentity.class].pc_entitytype",
+			"blueprint": "[modules:/zitemrepositorykeyentity.class].pc_entityblueprint",
+			"properties": { "m_RepositoryId": { "type": "ZGuid", "value": "55ed7196-2303-4af6-9fa3-45b691134561" } }
+		},
+		"feed49839029883f": {
+			"parent": "feedaffcbee48ade",
+			"name": "ItemKey__Shotgun_ _NPC_ Tactical Bartoli 12G",
+			"factory": "[modules:/zitemrepositorykeyentity.class].pc_entitytype",
+			"blueprint": "[modules:/zitemrepositorykeyentity.class].pc_entityblueprint",
+			"properties": { "m_RepositoryId": { "type": "ZGuid", "value": "901a3b51-51a0-4236-bdf2-23d20696b358" } }
+		},
+		"feedb3e4c946cd62": {
+			"parent": "feedaffcbee48ade",
+			"name": "CHARSET_Bulldog_Guard_MansionGuard_M",
+			"factory": "[assembly:/_pro/characters/templates/bulldog/char_bulldog_guards.template?/charset_bulldog_guard_mansionguard_m.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/characters/templates/bulldog/char_bulldog_guards.template?/charset_bulldog_guard_mansionguard_m.entitytemplate].pc_entityblueprint"
+		},
+		"feed19be79e57f86": {
+			"parent": "feedaffcbee48ade",
+			"name": "Keyword_Prof_Class_Guard_Heavy",
+			"factory": "00364659808ED13C",
+			"blueprint": "003A7D4D8810414B",
+			"properties": { "m_aHolders": { "type": "TArray<SEntityTemplateReference>", "value": ["feedaffcbee48ade"] } }
 		}
 	},
 	"propertyOverrides": [{ "entities": [], "properties": {} }],

@@ -165,12 +165,6 @@
 			"factory": "[modules:/zentity.class].pc_entitytype",
 			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
 		},
-		"abcd0b045d13d43f": {
-			"parent": "abcd85cba5ab5afa",
-			"name": "000_Outside",
-			"factory": "[modules:/zentity.class].pc_entitytype",
-			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
-		},
 		"abcdfa9777639270": {
 			"parent": "abcd5e509cf0ca65",
 			"name": "Agency Pickups",
@@ -615,8 +609,8 @@
 					"type": "ZCurve",
 					"value": {
 						"data": [
-							[0, -228, 0, 0, 0, 0, 1, -228],
-							[1, -229, 0, 0, 0, 0, 0, -229]
+							[0, -224, 0, 0, 0, 0, 1, -224],
+							[1, -225, 0, 0, 0, 0, 0, -225]
 						]
 					}
 				},
@@ -633,8 +627,8 @@
 					"type": "ZCurve",
 					"value": {
 						"data": [
-							[0, 17, 0, 0, 0, 0, -1, 17],
-							[1, 18, 0, 0, 0, 0, 0, 18]
+							[0, 17, 0, 0, 0, 0, -1, 20],
+							[1, 18, 0, 0, 0, 0, 0, 21]
 						]
 					}
 				},
@@ -659,7 +653,7 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": { "x": -95.84222530161608, "y": -0.000004268868231257969, "z": -29.575634351503993 },
-						"position": { "x": 1.4695015, "y": -228.28436, "z": 17.14069 }
+						"position": { "x": 1.4695015, "y": -224.28436, "z": 20.14069 }
 					}
 				},
 				"m_bExportScreenshot": { "type": "bool", "value": true },
@@ -683,7 +677,7 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": { "x": -95.84222530161608, "y": -0.000004268868231257969, "z": -29.575634351503993 },
-						"position": { "x": 1.4695015, "y": -228.28436, "z": 17.14069 }
+						"position": { "x": 1.4695015, "y": -224.28436, "z": 20.14069 }
 					}
 				},
 				"m_fFovYDeg": { "type": "float32", "value": 40 },
@@ -700,7 +694,7 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": { "x": -95.84222530161608, "y": -0.000004268868231257969, "z": -29.575634351503993 },
-						"position": { "x": 1.4695015, "y": -228.28436, "z": 17.14069 }
+						"position": { "x": 1.4695015, "y": -224.28436, "z": 20.14069 }
 					}
 				},
 				"m_bForce": { "type": "bool", "value": true },
@@ -828,28 +822,6 @@
 			"factory": "[modules:/zentity.class].pc_entitytype",
 			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
 		},
-		"feedb00e933832c8": {
-			"parent": "feedcc749d9a6272",
-			"name": "SetPiece_Italy_Unique_DoorBell",
-			"factory": "[assembly:/_pro/design/setpieces/unique/setpiece_italy_unique.template?/setpiece_italy_unique_doorbell.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/design/setpieces/unique/setpiece_italy_unique.template?/setpiece_italy_unique_doorbell.entitytemplate].pc_entityblueprint",
-			"properties": {
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": { "x": 0, "y": 0, "z": 177.17215642840932 },
-						"position": { "x": -50.753483, "y": -138.25447, "z": 23.338625 }
-					}
-				},
-				"SoundEnabled": { "type": "bool", "value": false },
-				"m_bUseOnlyOnce": { "type": "bool", "value": false },
-				"m_bIsOn": { "type": "bool", "value": false },
-				"m_eidParent": { "type": "SEntityTemplateReference", "value": "fffffffffffffffe" },
-				"m_bVisible": { "type": "bool", "value": false }
-			},
-			"events": { "Completed": { "SetTrue": [] }, "OnTurnOn": { "DoorBell_Ring": [] } },
-			"subsets": { "AudioEmitters": ["fffffffffffffffe"] }
-		},
 		"feed8711a844ab6a": {
 			"parent": "abcde92f2c09c134",
 			"name": "CHAR_Communications_Director",
@@ -860,13 +832,14 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": { "x": 0, "y": 0, "z": 130.32229064702608 },
-						"position": { "x": -50.31539, "y": -138.24876, "z": 25.033373 }
+						"position": { "x": -51.31539, "y": -138.24876, "z": 25.033373 }
 					}
 				},
 				"RepositoryId": { "type": "ZGuid", "value": "be51939f-1a3d-4f60-bc1c-5c1e1d726da2" },
 				"m_OutfitRepositoryID": { "type": "ZGuid", "value": "c3349736-91d1-48e3-bc62-fc16a7d8d6f1" },
 				"m_nOutfitVariation": { "type": "int32", "value": 0 },
 				"m_nOutfitCharset": { "type": "int32", "value": 0 },
+				"m_aEnforcedOutfits": { "type": "TArray<SEntityTemplateReference>", "value": ["feed3702279e968e"] },
 				"m_sActorName": { "type": "ZString", "value": "Communications Director" },
 				"m_eRequiredVoiceVariation": { "type": "EActorVoiceVariation", "value": "eAVV_CIVMALE09" },
 				"m_eidParent": { "type": "SEntityTemplateReference", "value": "fffffffffffffffe", "postInit": true }
@@ -875,7 +848,7 @@
 		},
 		"feed14e65885d29b": {
 			"parent": "abcde92f2c09c134",
-			"name": "CHAR_Cicada_Mercenary",
+			"name": "CHAR_Bulldog_Mercenary_Biker",
 			"factory": "[assembly:/templates/gameplay/ai2/actors.template?/npcactor.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/templates/gameplay/ai2/actors.template?/npcactor.entitytemplate].pc_entityblueprint",
 			"properties": {
@@ -887,11 +860,11 @@
 					}
 				},
 				"RepositoryId": { "type": "ZGuid", "value": "fd22d870-16e5-4d6e-8b49-765575e030bc" },
-				"m_OutfitRepositoryID": { "type": "ZGuid", "value": "95918f14-fa9f-4315-be95-bf4b9efe6ee6" },
-				"m_nOutfitVariation": { "type": "int32", "value": 3 },
-				"m_nWeaponIndex": { "type": "int32", "value": 4 },
-				"m_bWeaponUnholstered": { "type": "bool", "value": false },
-				"m_sActorName": { "type": "ZString", "value": "Cicada Mercenary" },
+				"m_OutfitRepositoryID": { "type": "ZGuid", "value": "d5883f9b-11af-445e-a80a-036ff424970f" },
+				"m_nOutfitVariation": { "type": "int32", "value": 0 },
+				"m_nWeaponIndex": { "type": "int32", "value": 0 },
+				"m_bWeaponUnholstered": { "type": "bool", "value": true },
+				"m_sActorName": { "type": "ZString", "value": "Bulldog Mercenary" },
 				"m_eRequiredVoiceVariation": { "type": "EActorVoiceVariation", "value": "eAVV_FOX_THUG_M05" },
 				"m_eidParent": { "type": "SEntityTemplateReference", "value": "fffffffffffffffe", "postInit": true }
 			},
@@ -913,9 +886,10 @@
 				"RepositoryId": { "type": "ZGuid", "value": "4f252bcb-7e56-4021-a790-13a822d707c9" },
 				"m_OutfitRepositoryID": { "type": "ZGuid", "value": "d5883f9b-11af-445e-a80a-036ff424970f" },
 				"m_nOutfitVariation": { "type": "int32", "value": 0 },
+				"m_nWeaponIndex": { "type": "int32", "value": 0 },
 				"m_nOutfitCharset": { "type": "int32", "value": 0 },
 				"m_sActorName": { "type": "ZString", "value": "Bulldog Mercenary" },
-				"m_eRequiredVoiceVariation": { "type": "EActorVoiceVariation", "value": "eAVV_CIVMALE09" },
+				"m_eRequiredVoiceVariation": { "type": "EActorVoiceVariation", "value": "eAVV_FOX_THUG_M05" },
 				"m_eidParent": { "type": "SEntityTemplateReference", "value": "fffffffffffffffe", "postInit": true }
 			},
 			"subsets": { "AudioEmitters": ["fffffffffffffffe"], "Replicable": ["fffffffffffffffe"] }
@@ -960,6 +934,15 @@
 				"m_OutfitRepositoryID": { "type": "ZGuid", "value": "c3349736-91d1-48e3-bc62-fc16a7d8d6f1" },
 				"m_nOutfitVariation": { "type": "int32", "value": 0 },
 				"m_nOutfitCharset": { "type": "int32", "value": 0 },
+				"m_aEnforcedOutfits": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						{
+							"ref": "dd9b4e88665f8d63",
+							"externalScene": "[assembly:/_pro/scenes/missions/edgy/mission_fox/scenario_fox.brick].pc_entitytype"
+						}
+					]
+				},
 				"m_sActorName": { "type": "ZString", "value": "Communications Director" },
 				"m_eRequiredVoiceVariation": { "type": "EActorVoiceVariation", "value": "eAVV_CIVMALE09" },
 				"m_eidParent": { "type": "SEntityTemplateReference", "value": "fffffffffffffffe", "postInit": true }
@@ -1021,8 +1004,8 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": 0, "y": 0, "z": 0 },
-						"position": { "x": -53.294556, "y": -145.94595, "z": 25.31643 }
+						"rotation": { "x": 0, "y": 0, "z": 1.851817536359959 },
+						"position": { "x": -49.38395, "y": -138.43584, "z": 23.338625 }
 					}
 				},
 				"RepositoryId": { "type": "ZGuid", "value": "8257e9eb-1131-4700-8c1c-778e20521dc0" },
@@ -1057,6 +1040,129 @@
 				"m_eidParent": { "type": "SEntityTemplateReference", "value": "fffffffffffffffe", "postInit": true }
 			},
 			"subsets": { "AudioEmitters": ["fffffffffffffffe"], "Replicable": ["fffffffffffffffe"] }
+		},
+		"feeddd0c613366f3": {
+			"parent": "feedcc749d9a6272",
+			"name": "Setpiece_Dugong_General_Antenna",
+			"factory": "[assembly:/_pro/design/setpieces/unique/setpiece_dugong_unique.template?/setpiece_dugong_general_antenna.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/setpieces/unique/setpiece_dugong_unique.template?/setpiece_dugong_general_antenna.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": -90 },
+						"position": { "x": -50.042245, "y": -139.82619, "z": 23 }
+					}
+				},
+				"m_sId": { "type": "ZGuid", "value": "bc718e52-f805-42af-aaa6-712332dc601e" },
+				"m_eRoomBehaviour": { "type": "ZSpatialEntity.ERoomBehaviour", "value": "ROOM_DYNAMIC" },
+				"SFX_Loop": { "type": "ZRuntimeResourceID", "value": null },
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "feed74c0b3590702", "postInit": true }
+			},
+			"events": { "Sabotaged": { "SetTrue": [] }, "OnBroken": { "SetTrue": [] } },
+			"subsets": { "AudioEmitters": ["fffffffffffffffe"] }
+		},
+		"feed3ec6714bf526": {
+			"parent": "feedcc749d9a6272",
+			"name": "table_bangkok_basement_b01_01",
+			"factory": "002231CAE591880F",
+			"blueprint": "002355C8A841756A",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": 0 },
+						"position": { "x": -49.442245, "y": -139.82619, "z": 23 }
+					}
+				},
+				"m_bVisible": { "type": "bool", "value": true },
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "feed74c0b3590702", "postInit": true }
+			}
+		},
+		"feed74c0b3590702": {
+			"parent": "abcd85cba5ab5afa",
+			"name": "000_Outside",
+			"factory": "[modules:/zroomentity.class].pc_entitytype",
+			"blueprint": "[modules:/zroomentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": { "rotation": { "x": 0, "y": 0, "z": 0 }, "position": { "x": 0, "y": 0, "z": 0 } }
+				},
+				"m_vRoomMin": {
+					"type": "SVector3",
+					"value": { "x": -1423.0799560546875, "y": -939.6430053710938, "z": -72.94290161132812 }
+				},
+				"m_vRoomMax": { "type": "SVector3", "value": { "x": 367.87701416015625, "y": 2118.219970703125, "z": 200 } },
+				"m_bGlobalLightOverrideEnable": { "type": "bool", "value": true },
+				"m_bOutside": { "type": "bool", "value": true },
+				"m_bCSMRoom": { "type": "bool", "value": false },
+				"m_bContainsCrowd": { "type": "bool", "value": true },
+				"m_fGlobalLightOverrideFrontIntensity": { "type": "float32", "value": 2 },
+				"m_fGlobalLightOverrideBackIntensity": { "type": "float32", "value": 0 },
+				"m_GlobalLightOverrideFrontColor": { "type": "SColorRGB", "value": "#c4e7ff" },
+				"m_bOutsideMaster": { "type": "bool", "value": true },
+				"m_vGlobalLightOverrideDirection": {
+					"type": "SVector3",
+					"value": { "x": 1, "y": -1.6799999475479126, "z": 1.850000023841858 }
+				},
+				"m_fMiddleGrayMultiplier": { "type": "float32", "value": 1 },
+				"m_Clients": { "type": "TArray<SEntityTemplateReference>", "value": [] },
+				"m_PostfilterParametersID": { "type": "int32", "value": 1 },
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "fffffffffffffffe" }
+			},
+			"subsets": { "Rooms": ["fffffffffffffffe"] }
+		},
+		"feed78e18a798b19": {
+			"parent": "abcd5e509cf0ca65",
+			"name": "Disguise Rules",
+			"factory": "[modules:/zentity.class].pc_entitytype",
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
+		},
+		"feed3702279e968e": {
+			"parent": "feeddea0295d6f24",
+			"name": "Prof_Agent47",
+			"factory": "[assembly:/_pro/design/actor/profession.template?/prof_agent47.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_agent47.entitytemplate].pc_entityblueprint"
+		},
+		"feed2bee9cc0f128": {
+			"parent": "feeddea0295d6f24",
+			"name": "HeroKeywordProxy",
+			"factory": "[modules:/zherokeywordproxyentity.class].pc_entitytype",
+			"blueprint": "[modules:/zherokeywordproxyentity.class].pc_entityblueprint"
+		},
+		"feeddea0295d6f24": {
+			"parent": "feed78e18a798b19",
+			"name": "Professions",
+			"factory": "[modules:/zentity.class].pc_entitytype",
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
+		},
+		"feed3546c1174e15": {
+			"parent": "feedcc749d9a6272",
+			"name": "ValueBool_Set",
+			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_set.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_set.entitytemplate].pc_entityblueprint",
+			"properties": { "m_rValueEntity": { "type": "SEntityTemplateReference", "value": "feed6c6678e47499" } }
+		},
+		"feedf9ffc1630f82": {
+			"parent": "abcdc5ec6784516a",
+			"name": "Antenna",
+			"factory": "[modules:/zentity.class].pc_entitytype",
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
+		},
+		"feed6c6678e47499": {
+			"parent": "feedf9ffc1630f82",
+			"name": "Comms antenna is broken",
+			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entityblueprint",
+			"events": { "OnTrue": { "SetTrue": ["feed67dacbd13fa5"] } }
+		},
+		"feed67dacbd13fa5": {
+			"parent": "feedf9ffc1630f82",
+			"name": "State_Set",
+			"factory": "[assembly:/_pro/design/logic.template?/state_set.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/logic.template?/state_set.entitytemplate].pc_entityblueprint",
+			"properties": {}
 		}
 	},
 	"propertyOverrides": [],

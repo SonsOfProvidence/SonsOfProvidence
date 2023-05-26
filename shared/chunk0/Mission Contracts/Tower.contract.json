@@ -35,6 +35,34 @@
 						}
 					}
 				}
+			},
+			{
+				"Id": "659cd403-0ce7-4937-92f5-4d70cccca54a",
+				"ObjectiveType": "setpiece",
+				"ForceShowOnLoadingScreen": true,
+				"Image": "images/contracts/octopus/Contract_Octopus_Virus_ObjectiveTile.jpg",
+				"BriefingName": "$loc UI_CONTRACT_OCTOPUS_VIRUS_BRIEFING_NAME",
+				"LongBriefingText": "$loc UI_CONTRACT_OCTOPUS_VIRUS_BRIEFING_DESC",
+				"Category": "primary",
+				"HUDTemplate": {
+					"display": "$loc UI_CONTRACT_OCTOPUS_OBJ_2"
+				},
+				"BriefingText": "$loc UI_CONTRACT_OCTOPUS_OBJ_2",
+				"Type": "statemachine",
+				"Definition": {
+					"Context": {
+						"Targets": ["bc718e52-f805-42af-aaa6-712332dc601e"]
+					},
+					"States": {
+						"Start": {
+							"VirusDestroyed": [
+								{
+									"Transition": "Success"
+								}
+							]
+						}
+					}
+				}
 			}
 		],
 		"GameDifficulties": [
