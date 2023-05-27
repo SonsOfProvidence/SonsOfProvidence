@@ -839,7 +839,6 @@
 				"m_OutfitRepositoryID": { "type": "ZGuid", "value": "c3349736-91d1-48e3-bc62-fc16a7d8d6f1" },
 				"m_nOutfitVariation": { "type": "int32", "value": 0 },
 				"m_nOutfitCharset": { "type": "int32", "value": 0 },
-				"m_aEnforcedOutfits": { "type": "TArray<SEntityTemplateReference>", "value": ["feed3702279e968e"] },
 				"m_sActorName": { "type": "ZString", "value": "Communications Director" },
 				"m_eRequiredVoiceVariation": { "type": "EActorVoiceVariation", "value": "eAVV_CIVMALE09" },
 				"m_eidParent": { "type": "SEntityTemplateReference", "value": "fffffffffffffffe", "postInit": true }
@@ -1112,30 +1111,6 @@
 				"m_eidParent": { "type": "SEntityTemplateReference", "value": "fffffffffffffffe" }
 			},
 			"subsets": { "Rooms": ["fffffffffffffffe"] }
-		},
-		"feed78e18a798b19": {
-			"parent": "abcd5e509cf0ca65",
-			"name": "Disguise Rules",
-			"factory": "[modules:/zentity.class].pc_entitytype",
-			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
-		},
-		"feed3702279e968e": {
-			"parent": "feeddea0295d6f24",
-			"name": "Prof_Agent47",
-			"factory": "[assembly:/_pro/design/actor/profession.template?/prof_agent47.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_agent47.entitytemplate].pc_entityblueprint"
-		},
-		"feed2bee9cc0f128": {
-			"parent": "feeddea0295d6f24",
-			"name": "HeroKeywordProxy",
-			"factory": "[modules:/zherokeywordproxyentity.class].pc_entitytype",
-			"blueprint": "[modules:/zherokeywordproxyentity.class].pc_entityblueprint"
-		},
-		"feeddea0295d6f24": {
-			"parent": "feed78e18a798b19",
-			"name": "Professions",
-			"factory": "[modules:/zentity.class].pc_entitytype",
-			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
 		},
 		"feed3546c1174e15": {
 			"parent": "feedcc749d9a6272",
