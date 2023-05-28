@@ -81,7 +81,11 @@
 					"factory": "[assembly:/_pro/design/actor/profession.template?/prof_agent47.entitytemplate].pc_entitytype",
 					"blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_agent47.entitytemplate].pc_entityblueprint",
 					"properties": {
-						"m_aHolders": { "type": "TArray<SEntityTemplateReference>", "value": [], "postInit": true }
+						"m_aHolders": {
+							"type": "TArray<SEntityTemplateReference>",
+							"value": ["feed816a43a595e0"],
+							"postInit": true
+						}
 					}
 				}
 			]
@@ -94,7 +98,9 @@
 					"name": "Prof_LucasGrey",
 					"factory": "[assembly:/_pro/design/actor/profession.template?/prof_lucasgrey.entitytemplate].pc_entitytype",
 					"blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_lucasgrey.entitytemplate].pc_entityblueprint",
-					"properties": { "m_aHolders": { "type": "TArray<SEntityTemplateReference>", "value": [] } }
+					"properties": {
+						"m_aHolders": { "type": "TArray<SEntityTemplateReference>", "value": ["feed816a43a595e0"] }
+					}
 				}
 			]
 		},
@@ -182,7 +188,11 @@
 					"factory": "[assembly:/_pro/design/actor/profession.template?/prof_agent47.entitytemplate].pc_entitytype",
 					"blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_agent47.entitytemplate].pc_entityblueprint",
 					"properties": {
-						"m_aHolders": { "type": "TArray<SEntityTemplateReference>", "value": [], "postInit": true }
+						"m_aHolders": {
+							"type": "TArray<SEntityTemplateReference>",
+							"value": ["feed6beca3e88287"],
+							"postInit": true
+						}
 					}
 				}
 			]
@@ -195,7 +205,9 @@
 					"name": "Prof_LucasGrey",
 					"factory": "[assembly:/_pro/design/actor/profession.template?/prof_lucasgrey.entitytemplate].pc_entitytype",
 					"blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_lucasgrey.entitytemplate].pc_entityblueprint",
-					"properties": { "m_aHolders": { "type": "TArray<SEntityTemplateReference>", "value": [] } }
+					"properties": {
+						"m_aHolders": { "type": "TArray<SEntityTemplateReference>", "value": ["feed6beca3e88287"] }
+					}
 				}
 			]
 		},

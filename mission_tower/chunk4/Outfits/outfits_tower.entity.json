@@ -165,6 +165,15 @@
 			"factory": "00364659808ED13C",
 			"blueprint": "003A7D4D8810414B",
 			"properties": { "m_aHolders": { "type": "TArray<SEntityTemplateReference>", "value": ["feedf595d5df06a0"] } }
+		},
+		"feede3e99e66ac00": {
+			"parent": "feedf595d5df06a0",
+			"name": "Prof_Edgy_Guard_Security",
+			"factory": "[assembly:/_pro/design/actor/profession.template?/prof_edgy_guard_security.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_edgy_guard_security.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_aHolders": { "type": "TArray<SEntityTemplateReference>", "value": ["feedf595d5df06a0"], "postInit": true }
+			}
 		}
 	},
 	"propertyOverrides": [],

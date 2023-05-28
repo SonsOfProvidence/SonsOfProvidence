@@ -855,7 +855,7 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": { "x": 0, "y": 0, "z": -163.6363470784665 },
-						"position": { "x": -6.932901, "y": -220.82405, "z": 15.918704 }
+						"position": { "x": 26.932901, "y": -220.82405, "z": 15.918704 }
 					}
 				},
 				"RepositoryId": { "type": "ZGuid", "value": "fd22d870-16e5-4d6e-8b49-765575e030bc" },
@@ -879,7 +879,7 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": { "x": 0, "y": 0, "z": -163.6363470784665 },
-						"position": { "x": -6.932901, "y": -223.82405, "z": 15.918704 }
+						"position": { "x": 26.932901, "y": -223.82405, "z": 15.918704 }
 					}
 				},
 				"RepositoryId": { "type": "ZGuid", "value": "4f252bcb-7e56-4021-a790-13a822d707c9" },
@@ -910,6 +910,15 @@
 				"m_OutfitRepositoryID": { "type": "ZGuid", "value": "c3349736-91d1-48e3-bc62-fc16a7d8d6f1" },
 				"m_nOutfitVariation": { "type": "int32", "value": 0 },
 				"m_nOutfitCharset": { "type": "int32", "value": 0 },
+				"m_aEnforcedOutfits": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						{
+							"ref": "dd9b4e88665f8d63",
+							"externalScene": "[assembly:/_pro/scenes/missions/edgy/mission_fox/scenario_fox.brick].pc_entitytype"
+						}
+					]
+				},
 				"m_sActorName": { "type": "ZString", "value": "Communications Director" },
 				"m_eRequiredVoiceVariation": { "type": "EActorVoiceVariation", "value": "eAVV_CIVMALE09" },
 				"m_eidParent": { "type": "SEntityTemplateReference", "value": "fffffffffffffffe", "postInit": true }
@@ -965,6 +974,15 @@
 				"m_OutfitRepositoryID": { "type": "ZGuid", "value": "c3349736-91d1-48e3-bc62-fc16a7d8d6f1" },
 				"m_nOutfitVariation": { "type": "int32", "value": 0 },
 				"m_nOutfitCharset": { "type": "int32", "value": 0 },
+				"m_aEnforcedOutfits": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						{
+							"ref": "dd9b4e88665f8d63",
+							"externalScene": "[assembly:/_pro/scenes/missions/edgy/mission_fox/scenario_fox.brick].pc_entitytype"
+						}
+					]
+				},
 				"m_sActorName": { "type": "ZString", "value": "Communications Director" },
 				"m_eRequiredVoiceVariation": { "type": "EActorVoiceVariation", "value": "eAVV_CIVMALE09" },
 				"m_eidParent": { "type": "SEntityTemplateReference", "value": "fffffffffffffffe", "postInit": true }
@@ -988,6 +1006,15 @@
 				"m_OutfitRepositoryID": { "type": "ZGuid", "value": "c3349736-91d1-48e3-bc62-fc16a7d8d6f1" },
 				"m_nOutfitVariation": { "type": "int32", "value": 0 },
 				"m_nOutfitCharset": { "type": "int32", "value": 0 },
+				"m_aEnforcedOutfits": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						{
+							"ref": "dd9b4e88665f8d63",
+							"externalScene": "[assembly:/_pro/scenes/missions/edgy/mission_fox/scenario_fox.brick].pc_entitytype"
+						}
+					]
+				},
 				"m_sActorName": { "type": "ZString", "value": "Communications Director" },
 				"m_eRequiredVoiceVariation": { "type": "EActorVoiceVariation", "value": "eAVV_CIVMALE09" },
 				"m_eidParent": { "type": "SEntityTemplateReference", "value": "fffffffffffffffe", "postInit": true }
@@ -1011,6 +1038,15 @@
 				"m_OutfitRepositoryID": { "type": "ZGuid", "value": "c3349736-91d1-48e3-bc62-fc16a7d8d6f1" },
 				"m_nOutfitVariation": { "type": "int32", "value": 0 },
 				"m_nOutfitCharset": { "type": "int32", "value": 0 },
+				"m_aEnforcedOutfits": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						{
+							"ref": "dd9b4e88665f8d63",
+							"externalScene": "[assembly:/_pro/scenes/missions/edgy/mission_fox/scenario_fox.brick].pc_entitytype"
+						}
+					]
+				},
 				"m_sActorName": { "type": "ZString", "value": "Communications Director" },
 				"m_eRequiredVoiceVariation": { "type": "EActorVoiceVariation", "value": "eAVV_CIVMALE09" },
 				"m_eidParent": { "type": "SEntityTemplateReference", "value": "fffffffffffffffe", "postInit": true }
@@ -1034,6 +1070,15 @@
 				"m_OutfitRepositoryID": { "type": "ZGuid", "value": "c3349736-91d1-48e3-bc62-fc16a7d8d6f1" },
 				"m_nOutfitVariation": { "type": "int32", "value": 0 },
 				"m_nOutfitCharset": { "type": "int32", "value": 0 },
+				"m_aEnforcedOutfits": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						{
+							"ref": "dd9b4e88665f8d63",
+							"externalScene": "[assembly:/_pro/scenes/missions/edgy/mission_fox/scenario_fox.brick].pc_entitytype"
+						}
+					]
+				},
 				"m_sActorName": { "type": "ZString", "value": "Communications Director" },
 				"m_eRequiredVoiceVariation": { "type": "EActorVoiceVariation", "value": "eAVV_CIVMALE09" },
 				"m_eidParent": { "type": "SEntityTemplateReference", "value": "fffffffffffffffe", "postInit": true }
@@ -1138,10 +1183,120 @@
 			"factory": "[assembly:/_pro/design/logic.template?/state_set.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/design/logic.template?/state_set.entitytemplate].pc_entityblueprint",
 			"properties": {}
+		},
+		"feed3394dc1ee0b7": {
+			"parent": "abcd5e509cf0ca65",
+			"name": "Disguise Rules",
+			"factory": "[modules:/zentity.class].pc_entitytype",
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
+		},
+		"feedd165208c8c53": {
+			"parent": "feed3394dc1ee0b7",
+			"name": "Tower Guards Hostile",
+			"factory": "[modules:/ztrespassingruleentity.class].pc_entitytype",
+			"blueprint": "[modules:/ztrespassingruleentity.class].pc_entityblueprint",
+			"properties": {
+				"m_bDeepTrespassing": { "type": "bool", "value": true },
+				"m_Zones": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						{
+							"externalScene": "[assembly:/_pro/scenes/missions/edgy/mission_fox/scenario_fox.brick].pc_entitytype",
+							"ref": "b79be4d3f0a8c898"
+						}
+					],
+					"postInit": true
+				},
+				"m_AllowedProfessions": { "type": "TArray<SEntityTemplateReference>", "value": [], "postInit": true },
+				"m_KeeperProfessions": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						{
+							"externalScene": "[assembly:/_pro/scenes/missions/edgy/mission_fox/scenario_fox.brick].pc_entitytype",
+							"ref": "8e07386f57254ada"
+						}
+					],
+					"postInit": true
+				}
+			}
 		}
 	},
-	"propertyOverrides": [],
-	"overrideDeletes": [],
+	"propertyOverrides": [
+		{
+			"entities": [
+				{
+					"ref": "9d1e831fa867a9c9",
+					"externalScene": "[assembly:/_pro/scenes/missions/edgy/mission_fox/scenario_fox.brick].pc_entitytype"
+				}
+			],
+			"properties": { "m_bIsLocked": { "type": "bool", "value": false } }
+		},
+		{
+			"entities": [
+				{
+					"ref": "b79be4d3f0a8c898",
+					"externalScene": "[assembly:/_pro/scenes/missions/edgy/mission_fox/scenario_fox.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_vGlobalSize": {
+					"type": "SVector3",
+					"value": { "x": 55.73219966888428, "y": 55.656700134277344, "z": 24.816699981689453 }
+				}
+			}
+		},
+		{
+			"entities": [
+				{
+					"ref": "eda721b21a0ca17d",
+					"externalScene": "[assembly:/_pro/scenes/missions/edgy/mission_fox/scenario_fox.brick].pc_entitytype"
+				}
+			],
+			"properties": { "m_bEnabled": { "type": "bool", "value": true } }
+		},
+		{
+			"entities": [
+				{
+					"ref": "1fffa22bbc41ada6",
+					"externalScene": "[assembly:/_pro/scenes/missions/edgy/mission_fox/scenario_fox.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_bDeepTrespassing": { "type": "bool", "value": true },
+				"m_KeeperProfessions": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						{
+							"ref": "8e07386f57254ada",
+							"externalScene": "[assembly:/_pro/scenes/missions/edgy/mission_fox/scenario_fox.brick].pc_entitytype"
+						}
+					]
+				}
+			}
+		}
+	],
+	"overrideDeletes": [
+		{
+			"ref": "70f840eb756f39fe",
+			"externalScene": "[assembly:/_pro/scenes/missions/edgy/mission_fox/scenario_fox.brick].pc_entitytype"
+		},
+		{
+			"ref": "b31e13a1e238bef8",
+			"externalScene": "[assembly:/_pro/scenes/missions/edgy/mission_fox/scenario_fox.brick].pc_entitytype"
+		},
+		{
+			"ref": "da003a61bd675efc",
+			"externalScene": "[assembly:/_pro/scenes/missions/edgy/mission_fox/scenario_fox.brick].pc_entitytype"
+		},
+		{
+			"ref": "5693c87961c3028f",
+			"externalScene": "[assembly:/_pro/scenes/missions/edgy/mission_fox/scenario_fox.brick].pc_entitytype"
+		},
+		{
+			"ref": "aaefc82bf0870014",
+			"externalScene": "[assembly:/_pro/scenes/missions/edgy/mission_fox/scenario_fox.brick].pc_entitytype"
+		}
+	],
 	"pinConnectionOverrides": [],
 	"pinConnectionOverrideDeletes": [],
 	"externalScenes": [
