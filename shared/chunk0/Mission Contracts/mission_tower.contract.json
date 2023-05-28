@@ -40,14 +40,14 @@
 				"Id": "659cd403-0ce7-4937-92f5-4d70cccca54a",
 				"ObjectiveType": "setpiece",
 				"ForceShowOnLoadingScreen": true,
-				"Image": "images/contracts/octopus/Contract_Octopus_Virus_ObjectiveTile.jpg",
-				"BriefingName": "$loc UI_CONTRACT_OCTOPUS_VIRUS_BRIEFING_NAME",
-				"LongBriefingText": "$loc UI_CONTRACT_OCTOPUS_VIRUS_BRIEFING_DESC",
+				"Image": "images/dbierek/berlin_tower_start.jpg",
+				"BriefingName": "Disable the communications equipment",
+				"LongBriefingText": "Disable the communications equipment",
 				"Category": "primary",
 				"HUDTemplate": {
-					"display": "$loc UI_CONTRACT_OCTOPUS_OBJ_2"
+					"display": "Disable the communications equipment"
 				},
-				"BriefingText": "$loc UI_CONTRACT_OCTOPUS_OBJ_2",
+				"BriefingText": "Disable the communications equipment",
 				"Type": "statemachine",
 				"Definition": {
 					"Context": {
@@ -55,7 +55,7 @@
 					},
 					"States": {
 						"Start": {
-							"VirusDestroyed": [
+							"AntennaBroken": [
 								{
 									"Transition": "Success"
 								}
@@ -81,6 +81,7 @@
 		],
 		"Bricks": [],
 		"Entrances": ["6244bf6d-18c1-4629-a691-d7845a87ef07"],
+		"Exits": ["dae42094-3b60-49ee-afa3-c4e9c463fb9e"],
 		"DevOnlyBricks": [],
 		"GameChangers": [],
 		"GameChangerReferences": []
