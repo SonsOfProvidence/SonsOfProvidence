@@ -209,6 +209,12 @@
 			"comment": "setpiece_italy_unique_virussecuritycabinet",
 			"portFromChunk1": true,
 			"toChunk": 0
+		},
+		{
+			"runtimeID": "00F950FC18B9C8EE",
+			"comment": "exit_area_crowd",
+			"portFromChunk1": true,
+			"toChunk": 0
 		}
 	],
 	"packagedefinition": [

@@ -1223,22 +1223,22 @@
 		"feedcb937c417216": {
 			"parent": "feede385ab960afb",
 			"name": "Exit Forest",
-			"factory": "[assembly:/_pro/design/levelflow.template?/exit_pushbutton.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/design/levelflow.template?/exit_pushbutton.entitytemplate].pc_entityblueprint",
+			"factory": "[assembly:/_pro/design/levelflow.template?/exit_area_crowd.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/levelflow.template?/exit_area_crowd.entitytemplate].pc_entityblueprint",
 			"properties": {
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
 						"rotation": { "x": 0, "y": 0, "z": -5.0625361301201055 },
-						"position": { "x": -81.87168, "y": -104.4533, "z": 12.794956 }
+						"position": { "x": -92.87168, "y": -115.4533, "z": 10 }
 					}
 				},
 				"m_sId": { "type": "ZGuid", "value": "dae42094-3b60-49ee-afa3-c4e9c463fb9e" },
-				"Manual_Exit_Trigger_Needed": { "type": "bool", "value": false },
-				"name_metricvalue": { "type": "ZString", "value": "Exit_fox_ExitName" },
-				"m_aEnableConditions": { "type": "TArray<SEntityTemplateReference>", "value": ["feed63d1854e2a59"] },
+				"SoftExitVolumeBoxSize": { "type": "SVector3", "value": { "x": 10, "y": 20, "z": 3 } },
+				"HardExitVolumeBoxSize": { "type": "SVector3", "value": { "x": 10, "y": 10, "z": 3 } },
 				"m_eidParent": { "type": "SEntityTemplateReference", "value": "fffffffffffffffe" }
-			}
+			},
+			"events": { "ExitActivated": { "StartExitSequence": ["feedad3cc66e371f"] } }
 		},
 		"feede385ab960afb": {
 			"parent": "abcd56b67c5c3bc1",
@@ -1262,8 +1262,10 @@
 			"name": "Exit_forest",
 			"factory": "[modules:/zentity.class].pc_entitytype",
 			"blueprint": "[modules:/zentity.class].pc_entityblueprint",
-			"events": { "ExitSequenceOver": { "Trigger": ["feedcb937c417216"] } },
-			"inputCopying": { "StartExitSequence": { "Play": ["feed7a43eb2480e0"] } }
+			"events": {
+				"ExitSequenceOver": { "Manual_Exit_Trigger": ["feedcb937c417216"], "Trigger": ["feedcb937c417216"] }
+			},
+			"inputCopying": { "StartExitSequence": { "Play": ["feedb60ce9e9d597"] } }
 		},
 		"feedb60ce9e9d597": {
 			"parent": "feedad3cc66e371f",
@@ -1271,7 +1273,7 @@
 			"factory": "0012CA8E07AD1E25",
 			"blueprint": "0066D5348B4B7FFC",
 			"properties": { "m_aSequences": { "type": "TArray<SEntityTemplateReference>", "value": ["feed7a43eb2480e0"] } },
-			"outputCopying": { "OnStop": { "ExitSequenceOver": ["feedad3cc66e371f"] } }
+			"outputCopying": { "OnStop": { "ExitSequenceOver": ["feedcb937c417216"] } }
 		},
 		"feed7a43eb2480e0": {
 			"parent": "feedad3cc66e371f",
@@ -2077,6 +2079,10 @@
 		},
 		{
 			"ref": "aaefc82bf0870014",
+			"externalScene": "[assembly:/_pro/scenes/missions/edgy/mission_fox/scenario_fox.brick].pc_entitytype"
+		},
+		{
+			"ref": "43873df3909cb2d",
 			"externalScene": "[assembly:/_pro/scenes/missions/edgy/mission_fox/scenario_fox.brick].pc_entitytype"
 		}
 	],
