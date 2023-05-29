@@ -1958,12 +1958,12 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": { "x": 0, "y": 0, "z": -5.0625361301201055 },
-						"position": { "x": -94.87168, "y": -110.4533, "z": 10.294956 }
+						"position": { "x": -94.87168, "y": -110.4533, "z": 6.794956 }
 					}
 				},
 				"m_vGlobalSize": {
 					"type": "SVector3",
-					"value": { "x": 10.285640001296997, "y": 10.67671012878418, "z": 1.301419973373413 }
+					"value": { "x": 10.285640001296997, "y": 10.67671012878418, "z": 5.301419973373413 }
 				},
 				"m_eidParent": { "type": "SEntityTemplateReference", "value": "fffffffffffffffe", "postInit": true }
 			}
