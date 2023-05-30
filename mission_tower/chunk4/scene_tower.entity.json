@@ -845,7 +845,7 @@
 				"m_nOutfitVariation": { "type": "int32", "value": 0 },
 				"m_nWeaponIndex": { "type": "int32", "value": 0 },
 				"m_bWeaponUnholstered": { "type": "bool", "value": true },
-				"m_sActorName": { "type": "ZString", "value": "Bulldog Mercenary" },
+				"m_sActorName": { "type": "ZString", "value": "2kpr" },
 				"m_eRequiredVoiceVariation": { "type": "EActorVoiceVariation", "value": "eAVV_FOX_THUG_M05" },
 				"m_eidParent": { "type": "SEntityTemplateReference", "value": "fffffffffffffffe", "postInit": true }
 			},
@@ -869,7 +869,7 @@
 				"m_nOutfitVariation": { "type": "int32", "value": 0 },
 				"m_nWeaponIndex": { "type": "int32", "value": 0 },
 				"m_nOutfitCharset": { "type": "int32", "value": 0 },
-				"m_sActorName": { "type": "ZString", "value": "Bulldog Mercenary" },
+				"m_sActorName": { "type": "ZString", "value": "Invalid" },
 				"m_eRequiredVoiceVariation": { "type": "EActorVoiceVariation", "value": "eAVV_FOX_THUG_M05" },
 				"m_eidParent": { "type": "SEntityTemplateReference", "value": "fffffffffffffffe", "postInit": true }
 			},
@@ -890,7 +890,7 @@
 				},
 				"RepositoryId": { "type": "ZGuid", "value": "345a7d18-4cdf-4900-87f6-78598a84117f" },
 				"m_OutfitRepositoryID": { "type": "ZGuid", "value": "c3349736-91d1-48e3-bc62-fc16a7d8d6f1" },
-				"m_nOutfitVariation": { "type": "int32", "value": 0 },
+				"m_nOutfitVariation": { "type": "int32", "value": 5 },
 				"m_nOutfitCharset": { "type": "int32", "value": 0 },
 				"m_aEnforcedOutfits": {
 					"type": "TArray<SEntityTemplateReference>",
@@ -901,7 +901,7 @@
 						}
 					]
 				},
-				"m_sActorName": { "type": "ZString", "value": "Communications Director" },
+				"m_sActorName": { "type": "ZString", "value": "Anthony Fuller" },
 				"m_eRequiredVoiceVariation": { "type": "EActorVoiceVariation", "value": "eAVV_CIVMALE09" },
 				"m_eidParent": { "type": "SEntityTemplateReference", "value": "fffffffffffffffe", "postInit": true }
 			},
@@ -922,7 +922,7 @@
 				},
 				"RepositoryId": { "type": "ZGuid", "value": "33eed45e-5725-4d43-b4b2-3feb7f3723b9" },
 				"m_OutfitRepositoryID": { "type": "ZGuid", "value": "c3349736-91d1-48e3-bc62-fc16a7d8d6f1" },
-				"m_nOutfitVariation": { "type": "int32", "value": 0 },
+				"m_nOutfitVariation": { "type": "int32", "value": 4 },
 				"m_nOutfitCharset": { "type": "int32", "value": 0 },
 				"m_aEnforcedOutfits": {
 					"type": "TArray<SEntityTemplateReference>",
@@ -933,7 +933,7 @@
 						}
 					]
 				},
-				"m_sActorName": { "type": "ZString", "value": "Communications Director" },
+				"m_sActorName": { "type": "ZString", "value": "Kercyx" },
 				"m_eRequiredVoiceVariation": { "type": "EActorVoiceVariation", "value": "eAVV_CIVMALE09" },
 				"m_eidParent": { "type": "SEntityTemplateReference", "value": "fffffffffffffffe", "postInit": true }
 			},
@@ -954,7 +954,7 @@
 				},
 				"RepositoryId": { "type": "ZGuid", "value": "9bc3e9d6-a917-47c5-aff0-f929999b6d92" },
 				"m_OutfitRepositoryID": { "type": "ZGuid", "value": "c3349736-91d1-48e3-bc62-fc16a7d8d6f1" },
-				"m_nOutfitVariation": { "type": "int32", "value": 0 },
+				"m_nOutfitVariation": { "type": "int32", "value": 3 },
 				"m_nOutfitCharset": { "type": "int32", "value": 0 },
 				"m_aEnforcedOutfits": {
 					"type": "TArray<SEntityTemplateReference>",
@@ -965,7 +965,7 @@
 						}
 					]
 				},
-				"m_sActorName": { "type": "ZString", "value": "Communications Director" },
+				"m_sActorName": { "type": "ZString", "value": "Kevin Rudd" },
 				"m_eRequiredVoiceVariation": { "type": "EActorVoiceVariation", "value": "eAVV_CIVMALE09" },
 				"m_eidParent": { "type": "SEntityTemplateReference", "value": "fffffffffffffffe", "postInit": true }
 			},
@@ -986,7 +986,7 @@
 				},
 				"RepositoryId": { "type": "ZGuid", "value": "bc153d09-43d6-4df8-a6b7-e050b39e536c" },
 				"m_OutfitRepositoryID": { "type": "ZGuid", "value": "c3349736-91d1-48e3-bc62-fc16a7d8d6f1" },
-				"m_nOutfitVariation": { "type": "int32", "value": 0 },
+				"m_nOutfitVariation": { "type": "int32", "value": 2 },
 				"m_nOutfitCharset": { "type": "int32", "value": 0 },
 				"m_aEnforcedOutfits": {
 					"type": "TArray<SEntityTemplateReference>",
@@ -997,7 +997,7 @@
 						}
 					]
 				},
-				"m_sActorName": { "type": "ZString", "value": "Communications Director" },
+				"m_sActorName": { "type": "ZString", "value": "Clements" },
 				"m_eRequiredVoiceVariation": { "type": "EActorVoiceVariation", "value": "eAVV_CIVMALE09" },
 				"m_eidParent": { "type": "SEntityTemplateReference", "value": "fffffffffffffffe", "postInit": true }
 			},
@@ -1018,7 +1018,7 @@
 				},
 				"RepositoryId": { "type": "ZGuid", "value": "8257e9eb-1131-4700-8c1c-778e20521dc0" },
 				"m_OutfitRepositoryID": { "type": "ZGuid", "value": "c3349736-91d1-48e3-bc62-fc16a7d8d6f1" },
-				"m_nOutfitVariation": { "type": "int32", "value": 0 },
+				"m_nOutfitVariation": { "type": "int32", "value": 6 },
 				"m_nOutfitCharset": { "type": "int32", "value": 0 },
 				"m_aEnforcedOutfits": {
 					"type": "TArray<SEntityTemplateReference>",
@@ -1029,7 +1029,7 @@
 						}
 					]
 				},
-				"m_sActorName": { "type": "ZString", "value": "Communications Director" },
+				"m_sActorName": { "type": "ZString", "value": "Notex" },
 				"m_eRequiredVoiceVariation": { "type": "EActorVoiceVariation", "value": "eAVV_CIVMALE09" },
 				"m_eidParent": { "type": "SEntityTemplateReference", "value": "fffffffffffffffe", "postInit": true }
 			},
@@ -1050,7 +1050,7 @@
 				},
 				"RepositoryId": { "type": "ZGuid", "value": "e9539029-8fd7-455f-afb9-5d2acfc023f1" },
 				"m_OutfitRepositoryID": { "type": "ZGuid", "value": "c3349736-91d1-48e3-bc62-fc16a7d8d6f1" },
-				"m_nOutfitVariation": { "type": "int32", "value": 0 },
+				"m_nOutfitVariation": { "type": "int32", "value": 1 },
 				"m_nOutfitCharset": { "type": "int32", "value": 0 },
 				"m_aEnforcedOutfits": {
 					"type": "TArray<SEntityTemplateReference>",
@@ -1061,7 +1061,12 @@
 						}
 					]
 				},
-				"m_sActorName": { "type": "ZString", "value": "Communications Director" },
+				"m_InventoryItemKeys": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["feedb35e79f67df0"],
+					"postInit": true
+				},
+				"m_sActorName": { "type": "ZString", "value": "David Bateson" },
 				"m_eRequiredVoiceVariation": { "type": "EActorVoiceVariation", "value": "eAVV_CIVMALE09" },
 				"m_eidParent": { "type": "SEntityTemplateReference", "value": "fffffffffffffffe", "postInit": true }
 			},
@@ -2469,6 +2474,13 @@
 					}
 				}
 			}
+		},
+		"feedb35e79f67df0": {
+			"parent": "feed7b5dfbe09787",
+			"name": "ItemKey_Fox_Key_Snipertower",
+			"factory": "[modules:/zitemrepositorykeyentity.class].pc_entitytype",
+			"blueprint": "[modules:/zitemrepositorykeyentity.class].pc_entityblueprint",
+			"properties": { "m_RepositoryId": { "type": "ZGuid", "value": "de030128-b3f3-4a20-91ce-4bc3592fdb86" } }
 		}
 	},
 	"propertyOverrides": [
