@@ -215,6 +215,18 @@
 			"comment": "exit_area_crowd",
 			"portFromChunk1": true,
 			"toChunk": 0
+		},
+		{
+			"runtimeID": "00BBF4FC7135EB75",
+			"comment": "motorcycle_bulldog_a",
+			"portFromChunk1": true,
+			"toChunk": 4
+		},
+		{
+			"runtimeID": "000787BF00DC1EF1",
+			"comment": "play_haptics_bulldog_exitmoment_grey",
+			"portFromChunk1": true,
+			"toChunk": 4
 		}
 	],
 	"packagedefinition": [
