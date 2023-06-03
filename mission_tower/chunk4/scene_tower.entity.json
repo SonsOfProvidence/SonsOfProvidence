@@ -2563,35 +2563,12 @@
 				"m_bTerminateOnDone": { "type": "bool", "value": true }
 			}
 		},
-		"feed00d01d38bbf4": {
-			"parent": "feed833f773ed1dc",
-			"name": "play_haptics_bulldog_exitmoment_grey",
-			"factory": "[modules:/zaudioevententity.class].pc_entitytype",
-			"blueprint": "[modules:/zaudioevententity.class].pc_entityblueprint",
-			"properties": {
-				"m_pMainEvent": { "type": "ZRuntimeResourceID", "value": { "resource": "000787BF00DC1EF1", "flag": "5F" } },
-				"m_pEmitter": { "type": "SEntityTemplateReference", "value": "feed40ce885a69e1" }
-			}
-		},
 		"feed1519df1cdc6c": {
-			"parent": "feed833f773ed1dc",
+			"parent": "feed191cd2beb229",
 			"name": "VBB_GreyLineTriggered",
 			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entityblueprint",
-			"events": { "OnTrue": { "Send": ["feed00d01d38bbf4"] } }
-		},
-		"feed833f773ed1dc": {
-			"parent": "abcd9e495f49a0c6",
-			"name": "Mercenaries Arrival",
-			"factory": "[modules:/zentity.class].pc_entitytype",
-			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
-		},
-		"feed40ce885a69e1": {
-			"parent": "feed833f773ed1dc",
-			"name": "2DAE_Haptics",
-			"factory": "[assembly:/templates/sound/wwise/soundentities.template?/2daudioemitter.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/templates/sound/wwise/soundentities.template?/2daudioemitter.entitytemplate].pc_entityblueprint",
-			"subsets": { "AudioEmitters": ["fffffffffffffffe"] }
+			"events": { "OnTrue": { "Trigger": ["feedbf8ac502da46"] } }
 		},
 		"feedf3f0970251fe": {
 			"parent": "feeda9d5d5731003",
@@ -2611,11 +2588,31 @@
 			}
 		},
 		"feed42909ab44504": {
-			"parent": "feed833f773ed1dc",
+			"parent": "feed191cd2beb229",
 			"name": "VBS_GreyLineTriggered",
 			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_set.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_set.entitytemplate].pc_entityblueprint",
 			"properties": { "m_rValueEntity": { "type": "SEntityTemplateReference", "value": "feed1519df1cdc6c" } }
+		},
+		"feed191cd2beb229": {
+			"parent": "abcd9e495f49a0c6",
+			"name": "Grey Call 47",
+			"factory": "[modules:/zentity.class].pc_entitytype",
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
+		},
+		"feedbf8ac502da46": {
+			"parent": "feed191cd2beb229",
+			"name": "Approaching exit",
+			"factory": "[assembly:/_pro/design/gamecore/intel.template?/dianaspeak.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/gamecore/intel.template?/dianaspeak.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_pHandlerSpeak": {
+					"type": "ZRuntimeResourceID",
+					"value": { "resource": "00EC395364158864", "flag": "5F" }
+				},
+				"m_eMaxTension": { "type": "EIntelTensionLevel", "value": "eITL_Undefined" },
+				"m_bPlayDuringStoryDrama": { "type": "bool", "value": true }
+			}
 		}
 	},
 	"propertyOverrides": [
