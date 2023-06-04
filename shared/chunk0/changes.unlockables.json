@@ -130,7 +130,7 @@
 		"Properties": {
 			"Location": "LOCATION_ANCESTRAL_BULLDOG",
 			"RepositoryId": "9c111405-637e-46b7-a051-279039c533ac",
-			"Equip": ["TOKEN_OUTFIT_LUCAS_GREY"],
+			"Equip": ["TOKEN_OUTFIT_LUCAS_GREY_BALD"],
 			"UnlockOrder": 3
 		},
 		"Rarity": null
@@ -151,7 +151,7 @@
 		"Properties": {
 			"Location": "LOCATION_EDGY_FOX",
 			"RepositoryId": "6244bf6d-18c1-4629-a691-d7845a87ef07",
-			"Equip": ["TOKEN_OUTFIT_LUCAS_GREY_PONCHO"],
+			"Equip": ["TOKEN_OUTFIT_LUCAS_GREY_JACKET"],
 			"UnlockOrder": 3
 		},
 		"Rarity": null
@@ -172,7 +172,7 @@
 		"Properties": {
 			"Location": "LOCATION_CAGED_FALCON",
 			"RepositoryId": "fb75a371-8a8a-46ca-4747-123447478db6",
-			"Equip": ["TOKEN_OUTFIT_LUCAS_GREY"],
+			"Equip": ["TOKEN_OUTFIT_LUCAS_GREY_JACKET"],
 			"UnlockOrder": 3
 		},
 		"Rarity": null
@@ -193,7 +193,7 @@
 		"Properties": {
 			"Location": "LOCATION_COASTALTOWN",
 			"RepositoryId": "1021798e-cec1-4747-ba33-69b7d53da888",
-			"Equip": ["TOKEN_OUTFIT_LUCAS_GREY"],
+			"Equip": ["TOKEN_OUTFIT_LUCAS_GREY_JACKET"],
 			"UnlockOrder": 3
 		},
 		"Rarity": null
@@ -235,7 +235,7 @@
 		"Properties": {
 			"Location": "LOCATION_MARRAKECH",
 			"RepositoryId": "fb75a371-8a8a-46ca-4747-320e16018db6",
-			"Equip": ["TOKEN_OUTFIT_LUCAS_GREY"],
+			"Equip": ["TOKEN_OUTFIT_LUCAS_GREY_JACKET_JACKET"],
 			"UnlockOrder": 3
 		},
 		"Rarity": null
@@ -256,7 +256,7 @@
 		"Properties": {
 			"Location": "LOCATION_GREEDY_RACCOON",
 			"RepositoryId": "8e2bdc62-905d-43c1-8d91-3dceb8506a77",
-			"Equip": ["TOKEN_OUTFIT_LUCAS_GREY"],
+			"Equip": ["TOKEN_OUTFIT_LUCAS_GREY_JACKET"],
 			"UnlockOrder": 3
 		},
 		"Rarity": null
