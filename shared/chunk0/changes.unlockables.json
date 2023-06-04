@@ -107,7 +107,7 @@
 		"Properties": {
 			"Location": "LOCATION_ANCESTRAL_BULLDOG",
 			"RepositoryId": "9c111405-637e-46b7-a051-279039c533ac",
-			"Equip": ["TOKEN_OUTFIT_LUCAS_GREY_JACKET"],
+			"Equip": ["TOKEN_OUTFIT_LUCAS_GREY_BALD"],
 			"UnlockOrder": 3
 		},
 		"Rarity": null

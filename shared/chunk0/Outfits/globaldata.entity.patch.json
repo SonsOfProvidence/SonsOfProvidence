@@ -28,16 +28,7 @@
 						},
 						"m_bHeroDisguiseAvailable": { "type": "bool", "value": true },
 						"m_bIsHitmanSuit": { "type": "bool", "value": true },
-						"m_eOutfitType": { "type": "EOutfitType", "value": "eOT_LucasGrey" },
-						"m_bWeaponsAllowed": { "type": "bool", "value": false },
-						"m_nArmorRating": { "type": "int32", "value": 0 },
-						"m_eActorCCClass": { "type": "EActorCCPreset", "value": "ACCP_CivilianeMale" },
-						"m_aCharSets": { "type": "TArray<SEntityTemplateReference>", "value": ["feed2f1a15dbfe26"] },
-						"m_pParentOutfit": {
-							"type": "SEntityTemplateReference",
-							"value": "6736fcbbd3e73209",
-							"postInit": true
-						}
+						"m_aCharSets": { "type": "TArray<SEntityTemplateReference>", "value": ["feed2f1a15dbfe26"] }
 					}
 				}
 			]
