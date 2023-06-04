@@ -90,7 +90,7 @@
 		"HeroDisguiseAvailable": true,
 		"ID_": "e715bdb4-31d8-4db9-bed9-345d9f690735",
 		"Image": "images/dbierek/outfit_lucas_grey_bald.jpg",
-		"ImageTransparent": "images/dbierek/outfit_lucas_grey_bald.jpg",
+		"ImageTransparent": "",
 		"IsHitmanSuit": true,
 		"Name_": "UI_TOKEN_OUTFIT_LUCAS_GREY_BALD_NAME",
 		"TokenID": ""

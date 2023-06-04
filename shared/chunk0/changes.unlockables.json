@@ -91,29 +91,6 @@
 		"Rarity": "common",
 		"IsDroppable": false
 	},
-	"TOKEN_OUTFIT_LUCAS_GREY_BODY_ARMOR": {
-		"Id": "TOKEN_OUTFIT_LUCAS_GREY_BODY_ARMOR",
-		"Guid": "d003ad50-bf63-43ee-a03b-08c09363490f",
-		"Type": "disguise",
-		"Subtype": "disguise",
-		"ImageId": "",
-		"RMTPrice": 99,
-		"GamePrice": 99,
-		"IsPurchasable": false,
-		"IsPublished": true,
-		"Capabilities": [],
-		"Qualities": {},
-		"Properties": {
-			"Quality": 1,
-			"Rarity": "common",
-			"LoadoutSlot": "disguise",
-			"RepositoryId": "fb243c4d-66e1-4a4b-8c08-edea898a39c0",
-			"OrderIndex": 640,
-			"AllowUpSync": true
-		},
-		"Rarity": "common",
-		"IsDroppable": false
-	},
 	"STARTING_LOCATION_DARTMOOR_OUTSIDE": {
 		"Id": "STARTING_LOCATION_DARTMOOR_OUTSIDE",
 		"Guid": "179474a4-727a-1111-b354-c9fff4e8bff2",

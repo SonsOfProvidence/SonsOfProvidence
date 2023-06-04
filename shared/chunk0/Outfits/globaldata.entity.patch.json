@@ -20,17 +20,11 @@
 						"m_eOutfitAICategory": { "type": "EOutfitAICategory", "value": "OAC_Fallback" },
 						"m_rNameTextResource": {
 							"type": "ZRuntimeResourceID",
-							"value": {
-								"resource": "[assembly:/localization/hitman6/conversations/ui/pro/online/repository/outfits_hero_s2.sweetmenutext?/char_sheep_hero_startingoutfit_m_pro109553_name_08022e2c-4954-4b63-b632-3ac50d018292.sweetline].pc_sweetline",
-								"flag": "5F"
-							}
+							"value": { "resource": "003121C47E69C366", "flag": "5F" }
 						},
 						"m_rDescriptionTextResource": {
 							"type": "ZRuntimeResourceID",
-							"value": {
-								"resource": "[assembly:/localization/hitman6/conversations/ui/pro/online/repository/outfits_hero_s2.sweetmenutext?/char_sheep_hero_startingoutfit_m_pro109553_description_08022e2c-4954-4b63-b632-3ac50d018292.sweetline].pc_sweetline",
-								"flag": "5F"
-							}
+							"value": { "resource": "00A12E5B52CD0D41", "flag": "5F" }
 						},
 						"m_bHeroDisguiseAvailable": { "type": "bool", "value": true },
 						"m_bIsHitmanSuit": { "type": "bool", "value": true },
@@ -56,9 +50,7 @@
 					"name": "Keyword_Prof_Class_Default",
 					"factory": "007A51A2AFEC0D1A",
 					"blueprint": "00B0282A41C1CF2E",
-					"properties": {
-						"m_aHolders": { "type": "TArray<SEntityTemplateReference>", "value": ["feed816a43a595e0"] }
-					}
+					"properties": { "m_aHolders": { "type": "TArray<SEntityTemplateReference>", "value": [] } }
 				}
 			]
 		},
@@ -70,7 +62,7 @@
 					"name": "KeywordEntity_FOLEY_SUIT47",
 					"factory": "[assembly:/_pro/design/gamecore/keywords/keywordsound.template?/keywordentity_foley_outfit_suit47.entitytemplate].pc_entitytype",
 					"blueprint": "[assembly:/_pro/design/gamecore/keywords/keywordsound.template?/keywordentity_foley_outfit_suit47.entitytemplate].pc_entityblueprint",
-					"properties": { "m_rHolder": { "type": "SEntityTemplateReference", "value": "feed816a43a595e0" } }
+					"properties": {}
 				}
 			]
 		},
@@ -165,9 +157,7 @@
 					"name": "Keyword_Prof_Class_Default",
 					"factory": "007A51A2AFEC0D1A",
 					"blueprint": "00B0282A41C1CF2E",
-					"properties": {
-						"m_aHolders": { "type": "TArray<SEntityTemplateReference>", "value": ["feed6beca3e88287"] }
-					}
+					"properties": { "m_aHolders": { "type": "TArray<SEntityTemplateReference>", "value": [] } }
 				}
 			]
 		},
@@ -179,7 +169,7 @@
 					"name": "KeywordEntity_FOLEY_SUIT47",
 					"factory": "[assembly:/_pro/design/gamecore/keywords/keywordsound.template?/keywordentity_foley_outfit_suit47.entitytemplate].pc_entitytype",
 					"blueprint": "[assembly:/_pro/design/gamecore/keywords/keywordsound.template?/keywordentity_foley_outfit_suit47.entitytemplate].pc_entityblueprint",
-					"properties": { "m_rHolder": { "type": "SEntityTemplateReference", "value": "feed6beca3e88287" } }
+					"properties": {}
 				}
 			]
 		},

@@ -32,14 +32,14 @@
 		},
 		{
 			"name": "Carpark",
-			"tooltip": "Mission 4: Get the second key ",
+			"tooltip": "Mission 4: Get the second key",
 			"type": "checkbox",
 			"enabledByDefault": true,
 			"contentFolders": ["mission_carpark"]
 		},
 		{
 			"name": "Bank",
-			"tooltip": "Mission 6: Raid the Archive",
+			"tooltip": "Mission 5: Raid the Archive",
 			"type": "checkbox",
 			"enabledByDefault": true,
 			"contentFolders": ["mission_bank"]
@@ -79,12 +79,9 @@
 		},
 		{
 			"runtimeID": "009B5962B1FCAA8C",
-			"comment": "Lucas Grey's head mesh"
-		},
-		{
-			"runtimeID": "0019481567B9D3B4",
-			"comment": "Lucas Grey Outfit from Romania",
-			"toChunk": 3
+			"comment": "Lucas Grey's head mesh",
+			"toChunk": 0,
+			"portFromChunk1": true
 		},
 		{
 			"runtimeID": "008ABB81A585E529",
@@ -211,12 +208,6 @@
 			"toChunk": 0
 		},
 		{
-			"runtimeID": "00F950FC18B9C8EE",
-			"comment": "exit_area_crowd",
-			"portFromChunk1": true,
-			"toChunk": 0
-		},
-		{
 			"runtimeID": "00BBF4FC7135EB75",
 			"comment": "motorcycle_bulldog_a",
 			"portFromChunk1": true,
@@ -227,6 +218,12 @@
 			"comment": "m02_bulldog_exitmoment_grey_002",
 			"portFromChunk1": true,
 			"toChunk": 4
+		},
+		{
+			"runtimeID": "0019481567B9D3B4",
+			"comment": "outfit_nightmare_lucasgrey_m_actor_v0",
+			"portFromChunk1": true,
+			"toChunk": 0
 		}
 	],
 	"packagedefinition": [
@@ -299,8 +296,8 @@
 	"localisedLines": {
 		"005CCC76031E18DE": "UI_TOKEN_OUTFIT_LUCAS_GREY_PONCHO_NAME",
 		"00776E88A1776384": "UI_TOKEN_OUTFIT_LUCAS_GREY_PONCHO_DESC",
-		"00A4F9E312E93D85 ": "UI_TOKEN_OUTFIT_LUCAS_GREY_JACKET_NAME",
-		"0014694A666AE87A ": "UI_TOKEN_OUTFIT_LUCAS_GREY_JACKET_DESC",
+		"00A4F9E312E93D85": "UI_TOKEN_OUTFIT_LUCAS_GREY_JACKET_NAME",
+		"0014694A666AE87A": "UI_TOKEN_OUTFIT_LUCAS_GREY_JACKET_DESC",
 		"003121C47E69C366": "UI_TOKEN_OUTFIT_LUCAS_GREY_BALD_NAME",
 		"00A12E5B52CD0D41": "UI_TOKEN_OUTFIT_LUCAS_GREY_BALD_DESC"
 	},

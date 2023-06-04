@@ -112,6 +112,14 @@
 		"ioiString": "[assembly:/sonsofprovidence/shared/outfit_lucasgrey_bald_heroa_v0.entitytemplate].pc_entityblueprint"
 	},
 	{
+		"hash": "00470AAC2850EAC5",
+		"ioiString": "[assembly:/sonsofprovidence/shared/outfit_lucasgrey_bald_head.entitytemplate].pc_entitytype"
+	},
+	{
+		"hash": "00E6F4732D6D60E1",
+		"ioiString": "[assembly:/sonsofprovidence/shared/outfit_lucasgrey_bald_head.entitytemplate].pc_entityblueprint"
+	},
+	{
 		"hash": "006E993D116F5661",
 		"ioiString": "[assembly:/sonsofprovidence/shared/charset_lucasgrey_jacket.entitytemplate].pc_entitytype"
 	},

@@ -609,8 +609,8 @@
 		"2dd700e41d8179d8": {
 			"parent": "196c032594a3655",
 			"name": "Head_LucasGrey",
-			"factory": "00FA41C25F90B53E",
-			"blueprint": "00D98E235D0B78A4",
+			"factory": "00470AAC2850EAC5",
+			"blueprint": "00E6F4732D6D60E1",
 			"properties": {
 				"Texture2D_01_1": {
 					"type": "ZRuntimeResourceID",
@@ -876,7 +876,7 @@
 		},
 		"196c032594a3655": {
 			"parent": null,
-			"name": "OUTFIT_Nightmare_LucasGrey_M_Actor_v0",
+			"name": "OUTFIT_LucasGrey_Bald_M_Actor_v0",
 			"factory": "00A9AD805B92ED71",
 			"blueprint": "00B1F416EEE92077",
 			"properties": {
@@ -891,7 +891,7 @@
 				},
 				"m_pBonesAndCollisionResource": {
 					"type": "ZRuntimeResourceID",
-					"value": { "resource": "0067DBFCD08097C8", "flag": "5F" }
+					"value": { "resource": "0017416135CF879C", "flag": "5F" }
 				},
 				"m_aBodyParts": {
 					"type": "TArray<SEntityTemplateReference>",
@@ -1017,23 +1017,6 @@
 				},
 				"m_bEnabled": { "type": "bool", "value": true },
 				"m_eidParent": { "type": "SEntityTemplateReference", "value": "b3bcf542a709116d", "postInit": true }
-			}
-		},
-		"8b78782b31e99435": {
-			"parent": "196c032594a3655",
-			"name": "Head_LucasGrey_Cinematic",
-			"factory": "00E10D113CBBE443",
-			"blueprint": "0057F9F25AAF7573",
-			"properties": {
-				"Texture2D_01_1": {
-					"type": "ZRuntimeResourceID",
-					"value": { "resource": "008A8F18C0AE21E6", "flag": "5F" }
-				},
-				"Texture2DNormal_01": {
-					"type": "ZRuntimeResourceID",
-					"value": { "resource": "001C97C69649EABD", "flag": "5F" }
-				},
-				"Texture2D_03": { "type": "ZRuntimeResourceID", "value": { "resource": "005BDAE2964EAC24", "flag": "5F" } }
 			}
 		},
 		"21672384c03633d6": {

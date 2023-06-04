@@ -398,99 +398,6 @@
 			"factory": "[modules:/zentity.class].pc_entitytype",
 			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
 		},
-		"feedab9e1e1c204b": {
-			"parent": "feed1d8f3a151446",
-			"name": "Lucas Grey Bald",
-			"blueprint": "[modules:/zglobaloutfitkit.class].pc_entityblueprint",
-			"properties": {
-				"m_DamageMultipliers": {
-					"type": "SBodyPartDamageMultipliers",
-					"value": {
-						"m_fHeadDamageMultiplier": 3,
-						"m_fFaceDamageMultiplier": 3,
-						"m_fArmDamageMultiplier": 1,
-						"m_fLArmDamageScalar": 0,
-						"m_fRArmDamageScalar": 0,
-						"m_fHandDamageMultiplier": 0.5,
-						"m_fLHandDamageScalar": 0,
-						"m_fRHandDamageScalar": 0,
-						"m_fLegDamageMultiplier": 0.6000000238418579,
-						"m_fLLegDamageScalar": 0,
-						"m_fRLegDamageScalar": 0,
-						"m_fTorsoDamageMultiplier": 1,
-						"m_bApplyLeftRightScalars": false
-					}
-				},
-				"m_eActorCCClass": { "type": "EActorCCPreset", "value": "ACCP_GuardMaleElite" },
-				"m_bWeaponsAllowed": { "type": "bool", "value": true },
-				"m_bHeroDisguiseAvailable": { "type": "bool", "value": false },
-				"m_eSoundFootwearType": { "type": "EHM5SoundFootwearType", "value": "EFWT_LEATHER" },
-				"m_aCharSets": { "type": "TArray<SEntityTemplateReference>", "value": ["feedb104993a27a0"] },
-				"m_eOutfitAICategory": { "type": "EOutfitAICategory", "value": "OAC_Soldier" },
-				"m_AvailableWeaponKeys": {
-					"type": "TArray<SEntityTemplateReference>",
-					"value": ["feed15d41fbe1d9d", "feed4ec32db98ba6"]
-				},
-				"m_rDefaultVoiceVariations": { "type": "TArray<EActorVoiceVariation>", "value": ["eAVV_CIVMALE08"] },
-				"m_eOutfitType": { "type": "EOutfitType", "value": "eOT_Guard" },
-				"m_eActorRank": { "type": "EActorRank", "value": "AR_Elite" },
-				"m_sId": { "type": "ZGuid", "value": "e715bdb4-31d8-4db9-bed9-345d9f690735" },
-				"m_sCommonName": { "type": "ZString", "value": "Agent 47" },
-				"m_sTitle": { "type": "ZString", "value": "Agent 47" },
-				"m_rNameTextResource": {
-					"type": "ZRuntimeResourceID",
-					"value": "[assembly:/localization/hitman6/conversations/ui/pro/online/repository/outfits_npcs_sapienza.sweetmenutext?/outfits_sapienza_worker_nakedguy_m_hpa1370_name_d3bdbcfe-8e46-4774-a642-17daa98a7f69.sweetline].pc_sweetline"
-				},
-				"m_rDescriptionTextResource": {
-					"type": "ZRuntimeResourceID",
-					"value": "[assembly:/localization/hitman6/conversations/ui/pro/online/repository/outfits_npcs_sapienza.sweetmenutext?/outfits_sapienza_worker_nakedguy_m_hpa1370_description_d3bdbcfe-8e46-4774-a642-17daa98a7f69.sweetline].pc_sweetline"
-				}
-			},
-			"factory": "[modules:/zglobaloutfitkit.class].pc_entitytype"
-		},
-		"feedb104993a27a0": {
-			"parent": "feedab9e1e1c204b",
-			"name": "CHARSET_Lucas_Grey_Bald",
-			"blueprint": "0038CDD98977C4EB",
-			"factory": "00BC69D4CB9C962B"
-		},
-		"feedd3930e1f6554": {
-			"parent": "feedab9e1e1c204b",
-			"name": "Keyword_Prof_Class_Default",
-			"blueprint": "00B0282A41C1CF2E",
-			"properties": {
-				"m_aHolders": { "type": "TArray<SEntityTemplateReference>", "value": ["feedab9e1e1c204b"], "postInit": true }
-			},
-			"factory": "007A51A2AFEC0D1A"
-		},
-		"feed15d41fbe1d9d": {
-			"parent": "feedab9e1e1c204b",
-			"name": "ItemKey_Hackl9R NPC",
-			"blueprint": "[modules:/zitemrepositorykeyentity.class].pc_entityblueprint",
-			"properties": { "m_RepositoryId": { "type": "ZGuid", "value": "1cae7d71-55c8-401a-9dfb-cd0909c4f6ee" } },
-			"factory": "[modules:/zitemrepositorykeyentity.class].pc_entitytype"
-		},
-		"feed01e6223d62f0": {
-			"parent": "feedab9e1e1c204b",
-			"name": "Keyword_Prof_Class_Guard_Heavy",
-			"blueprint": "003A7D4D8810414B",
-			"properties": { "m_aHolders": { "type": "TArray<SEntityTemplateReference>", "value": [] } },
-			"factory": "00364659808ED13C"
-		},
-		"feed4ec32db98ba6": {
-			"parent": "feedab9e1e1c204b",
-			"name": "ItemKey_Shotgun02 NPC",
-			"blueprint": "[modules:/zitemrepositorykeyentity.class].pc_entityblueprint",
-			"properties": { "m_RepositoryId": { "type": "ZGuid", "value": "7f31d897-a62f-448c-be0d-79d565e2faa7" } },
-			"factory": "[modules:/zitemrepositorykeyentity.class].pc_entitytype"
-		},
-		"feeda474ce2cad1b": {
-			"parent": "feedab9e1e1c204b",
-			"name": "KeywordEntity_FOLEY_OUTFIT_GUARD",
-			"blueprint": "[assembly:/_pro/design/gamecore/keywords/keywordsound.template?/keywordentity_foley_outfit_guard.entitytemplate].pc_entityblueprint",
-			"properties": { "m_aHolders": { "type": "TArray<SEntityTemplateReference>", "value": [], "postInit": true } },
-			"factory": "[assembly:/_pro/design/gamecore/keywords/keywordsound.template?/keywordentity_foley_outfit_guard.entitytemplate].pc_entitytype"
-		},
 		"feedaffcbee48ade": {
 			"parent": "fffffffffffffffe",
 			"name": "Cinematic_Bulldog_Mercenary",
@@ -533,10 +440,7 @@
 				"m_eOutfitType": { "type": "EOutfitType", "value": "eOT_Guard" },
 				"m_eActorRank": { "type": "EActorRank", "value": "AR_Elite" },
 				"m_eOutfitAICategory": { "type": "EOutfitAICategory", "value": "OAC_Soldier" },
-				"m_AvailableWeaponKeys": {
-					"type": "TArray<SEntityTemplateReference>",
-					"value": ["feed15d41fbe1d9d", "feed4ec32db98ba6"]
-				},
+				"m_AvailableWeaponKeys": { "type": "TArray<SEntityTemplateReference>", "value": [] },
 				"m_rNameTextResource": { "type": "ZRuntimeResourceID", "value": null },
 				"m_rDescriptionTextResource": { "type": "ZRuntimeResourceID", "value": null },
 				"m_aCharSets": {
@@ -553,7 +457,7 @@
 			"blueprint": "005F8488059FD4B1"
 		}
 	},
-	"propertyOverrides": [{ "entities": [], "properties": {} }],
+	"propertyOverrides": [],
 	"overrideDeletes": [],
 	"pinConnectionOverrides": [],
 	"pinConnectionOverrideDeletes": [],
