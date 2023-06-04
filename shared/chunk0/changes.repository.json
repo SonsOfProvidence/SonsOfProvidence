@@ -83,6 +83,18 @@
 		"Name_": "UI_TOKEN_OUTFIT_LUCAS_GREY_JACKET_NAME",
 		"TokenID": ""
 	},
+	"09f01bf4-dde5-482c-8a67-bfcb5d34f46d": {
+		"Category": "",
+		"CommonName": "UI_TOKEN_OUTFIT_LUCAS_GREY_SNIPER",
+		"Description": "UI_TOKEN_OUTFIT_LUCAS_GREY_SNIPER_DESC",
+		"HeroDisguiseAvailable": true,
+		"ID_": "09f01bf4-dde5-482c-8a67-bfcb5d34f46d",
+		"Image": "images/dbierek/outfit_lucas_grey_sniper.jpg",
+		"ImageTransparent": "",
+		"IsHitmanSuit": true,
+		"Name_": "UI_TOKEN_OUTFIT_LUCAS_GREY_SNIPER_NAME",
+		"TokenID": ""
+	},
 	"e715bdb4-31d8-4db9-bed9-345d9f690735": {
 		"Category": "",
 		"CommonName": "UI_TOKEN_OUTFIT_LUCAS_GREY_BALD",
