@@ -56,7 +56,9 @@
 					"name": "Keyword_Prof_Class_Default",
 					"factory": "007A51A2AFEC0D1A",
 					"blueprint": "00B0282A41C1CF2E",
-					"properties": { "m_aHolders": { "type": "TArray<SEntityTemplateReference>", "value": [] } }
+					"properties": {
+						"m_aHolders": { "type": "TArray<SEntityTemplateReference>", "value": ["feed816a43a595e0"] }
+					}
 				}
 			]
 		},
@@ -68,7 +70,7 @@
 					"name": "KeywordEntity_FOLEY_SUIT47",
 					"factory": "[assembly:/_pro/design/gamecore/keywords/keywordsound.template?/keywordentity_foley_outfit_suit47.entitytemplate].pc_entitytype",
 					"blueprint": "[assembly:/_pro/design/gamecore/keywords/keywordsound.template?/keywordentity_foley_outfit_suit47.entitytemplate].pc_entityblueprint",
-					"properties": {}
+					"properties": { "m_rHolder": { "type": "SEntityTemplateReference", "value": "feed816a43a595e0" } }
 				}
 			]
 		},
@@ -120,24 +122,24 @@
 				"feed6beca3e88287",
 				{
 					"parent": "ba8ea9278df2079",
-					"name": "Lucas Grey Hero Poncho",
+					"name": "Lucas Grey Hero Jacket",
 					"factory": "[modules:/zglobaloutfitkit.class].pc_entitytype",
 					"blueprint": "[modules:/zglobaloutfitkit.class].pc_entityblueprint",
 					"properties": {
 						"m_eActorType": { "type": "EActorType", "value": "eAT_Hitman" },
 						"m_eSoundFootwearType": { "type": "EHM5SoundFootwearType", "value": "EFWT_LEATHER" },
-						"m_sId": { "type": "ZGuid", "value": "4ddb6c12-97fc-49f9-acc4-1ac7b5cc7d6d" },
+						"m_sId": { "type": "ZGuid", "value": "052f992d-4962-4691-ad11-ae612e6db848" },
 						"m_bCanCallForHelp": { "type": "bool", "value": true },
-						"m_sCommonName": { "type": "ZString", "value": "Lucas Grey Hero Poncho" },
-						"m_sTitle": { "type": "ZString", "value": "Lucas Grey Hero Poncho" },
+						"m_sCommonName": { "type": "ZString", "value": "Lucas Grey Hero Jacket" },
+						"m_sTitle": { "type": "ZString", "value": "Lucas Grey Hero Jacket" },
 						"m_eOutfitAICategory": { "type": "EOutfitAICategory", "value": "OAC_Fallback" },
 						"m_rNameTextResource": {
 							"type": "ZRuntimeResourceID",
-							"value": { "resource": "005CCC76031E18DE", "flag": "5F" }
+							"value": { "resource": "00A4F9E312E93D85", "flag": "5F" }
 						},
 						"m_rDescriptionTextResource": {
 							"type": "ZRuntimeResourceID",
-							"value": { "resource": "00776E88A1776384", "flag": "5F" }
+							"value": { "resource": "0014694A666AE87A", "flag": "5F" }
 						},
 						"m_bHeroDisguiseAvailable": { "type": "bool", "value": true },
 						"m_bIsHitmanSuit": { "type": "bool", "value": true },
@@ -163,7 +165,9 @@
 					"name": "Keyword_Prof_Class_Default",
 					"factory": "007A51A2AFEC0D1A",
 					"blueprint": "00B0282A41C1CF2E",
-					"properties": { "m_aHolders": { "type": "TArray<SEntityTemplateReference>", "value": [] } }
+					"properties": {
+						"m_aHolders": { "type": "TArray<SEntityTemplateReference>", "value": ["feed6beca3e88287"] }
+					}
 				}
 			]
 		},
@@ -175,7 +179,7 @@
 					"name": "KeywordEntity_FOLEY_SUIT47",
 					"factory": "[assembly:/_pro/design/gamecore/keywords/keywordsound.template?/keywordentity_foley_outfit_suit47.entitytemplate].pc_entitytype",
 					"blueprint": "[assembly:/_pro/design/gamecore/keywords/keywordsound.template?/keywordentity_foley_outfit_suit47.entitytemplate].pc_entityblueprint",
-					"properties": {}
+					"properties": { "m_rHolder": { "type": "SEntityTemplateReference", "value": "feed6beca3e88287" } }
 				}
 			]
 		},
@@ -216,6 +220,113 @@
 				"feedb5e29f4b6869",
 				{
 					"parent": "feed6beca3e88287",
+					"name": "charset_lucasgrey_jacket",
+					"factory": "[assembly:/sonsofprovidence/shared/charset_lucasgrey_jacket.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/sonsofprovidence/shared/charset_lucasgrey_jacket.entitytemplate].pc_entityblueprint"
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"feed6a2be85a6d31",
+				{
+					"parent": "ba8ea9278df2079",
+					"name": "Lucas Grey Hero Poncho",
+					"factory": "[modules:/zglobaloutfitkit.class].pc_entitytype",
+					"blueprint": "[modules:/zglobaloutfitkit.class].pc_entityblueprint",
+					"properties": {
+						"m_eActorType": { "type": "EActorType", "value": "eAT_Hitman" },
+						"m_eSoundFootwearType": { "type": "EHM5SoundFootwearType", "value": "EFWT_LEATHER" },
+						"m_sId": { "type": "ZGuid", "value": "4ddb6c12-97fc-49f9-acc4-1ac7b5cc7d6d" },
+						"m_bCanCallForHelp": { "type": "bool", "value": true },
+						"m_sCommonName": { "type": "ZString", "value": "Lucas Grey Hero Poncho" },
+						"m_sTitle": { "type": "ZString", "value": "Lucas Grey Hero Poncho" },
+						"m_eOutfitAICategory": { "type": "EOutfitAICategory", "value": "OAC_Fallback" },
+						"m_rNameTextResource": {
+							"type": "ZRuntimeResourceID",
+							"value": { "resource": "005CCC76031E18DE", "flag": "5F" }
+						},
+						"m_rDescriptionTextResource": {
+							"type": "ZRuntimeResourceID",
+							"value": { "resource": "00776E88A1776384", "flag": "5F" }
+						},
+						"m_bHeroDisguiseAvailable": { "type": "bool", "value": true },
+						"m_bIsHitmanSuit": { "type": "bool", "value": true },
+						"m_eOutfitType": { "type": "EOutfitType", "value": "eOT_LucasGrey" },
+						"m_bWeaponsAllowed": { "type": "bool", "value": false },
+						"m_nArmorRating": { "type": "int32", "value": 0 },
+						"m_eActorCCClass": { "type": "EActorCCPreset", "value": "ACCP_CivilianeMale" },
+						"m_aCharSets": { "type": "TArray<SEntityTemplateReference>", "value": ["feedda7bd9e12120"] },
+						"m_pParentOutfit": {
+							"type": "SEntityTemplateReference",
+							"value": "6736fcbbd3e73209",
+							"postInit": true
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"feed496e0531fcc1",
+				{
+					"parent": "feed6a2be85a6d31",
+					"name": "Keyword_Prof_Class_Default",
+					"factory": "007A51A2AFEC0D1A",
+					"blueprint": "00B0282A41C1CF2E",
+					"properties": { "m_aHolders": { "type": "TArray<SEntityTemplateReference>", "value": [] } }
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"feed7873ae2b84ce",
+				{
+					"parent": "feed6a2be85a6d31",
+					"name": "KeywordEntity_FOLEY_SUIT47",
+					"factory": "[assembly:/_pro/design/gamecore/keywords/keywordsound.template?/keywordentity_foley_outfit_suit47.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/design/gamecore/keywords/keywordsound.template?/keywordentity_foley_outfit_suit47.entitytemplate].pc_entityblueprint",
+					"properties": {}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"feeda87669548429",
+				{
+					"parent": "feed6a2be85a6d31",
+					"name": "Prof_Agent47",
+					"factory": "[assembly:/_pro/design/actor/profession.template?/prof_agent47.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_agent47.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"m_aHolders": {
+							"type": "TArray<SEntityTemplateReference>",
+							"value": ["feed6a2be85a6d31"],
+							"postInit": true
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"feed081a07efbd40",
+				{
+					"parent": "feed6a2be85a6d31",
+					"name": "Prof_LucasGrey",
+					"factory": "[assembly:/_pro/design/actor/profession.template?/prof_lucasgrey.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_lucasgrey.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"m_aHolders": { "type": "TArray<SEntityTemplateReference>", "value": ["feed6a2be85a6d31"] }
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"feedda7bd9e12120",
+				{
+					"parent": "feed6a2be85a6d31",
 					"name": "charset_lucasgrey_poncho",
 					"factory": "[assembly:/sonsofprovidence/shared/charset_lucasgrey_poncho.entitytemplate].pc_entitytype",
 					"blueprint": "[assembly:/sonsofprovidence/shared/charset_lucasgrey_poncho.entitytemplate].pc_entityblueprint"

@@ -71,6 +71,18 @@
 		"Name_": "UI_TOKEN_OUTFIT_LUCAS_GREY_PONCHO_NAME",
 		"TokenID": ""
 	},
+	"052f992d-4962-4691-ad11-ae612e6db848": {
+		"Category": "",
+		"CommonName": "UI_TOKEN_OUTFIT_LUCAS_GREY_JACKET",
+		"Description": "UI_TOKEN_OUTFIT_LUCAS_GREY_JACKET_DESC",
+		"HeroDisguiseAvailable": true,
+		"ID_": "052f992d-4962-4691-ad11-ae612e6db848",
+		"Image": "images/dbierek/outfit_lucas_grey_jacket.jpg",
+		"ImageTransparent": "",
+		"IsHitmanSuit": true,
+		"Name_": "UI_TOKEN_OUTFIT_LUCAS_GREY_JACKET_NAME",
+		"TokenID": ""
+	},
 	"e715bdb4-31d8-4db9-bed9-345d9f690735": {
 		"Category": "",
 		"CommonName": "UI_TOKEN_OUTFIT_LUCAS_GREY_BALD",

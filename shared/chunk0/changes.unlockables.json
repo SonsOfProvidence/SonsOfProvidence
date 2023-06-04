@@ -45,6 +45,29 @@
 		"Rarity": "common",
 		"IsDroppable": false
 	},
+	"TOKEN_OUTFIT_LUCAS_GREY_JACKET": {
+		"Id": "TOKEN_OUTFIT_LUCAS_GREY_JACKET",
+		"Guid": "2d9b323b-7607-4038-a4e0-3b602e67abf3",
+		"Type": "disguise",
+		"Subtype": "disguise",
+		"ImageId": "",
+		"RMTPrice": 99,
+		"GamePrice": 99,
+		"IsPurchasable": false,
+		"IsPublished": true,
+		"Capabilities": [],
+		"Qualities": {},
+		"Properties": {
+			"Quality": 1,
+			"Rarity": "common",
+			"LoadoutSlot": "disguise",
+			"RepositoryId": "052f992d-4962-4691-ad11-ae612e6db848",
+			"OrderIndex": 640,
+			"AllowUpSync": true
+		},
+		"Rarity": "common",
+		"IsDroppable": false
+	},
 	"TOKEN_OUTFIT_LUCAS_GREY_BALD": {
 		"Id": "TOKEN_OUTFIT_LUCAS_GREY_BALD",
 		"Guid": "d7b0a8d8-bb42-4fda-93fa-4d4ee7c4e4e9",
@@ -85,29 +108,6 @@
 			"Rarity": "common",
 			"LoadoutSlot": "disguise",
 			"RepositoryId": "fb243c4d-66e1-4a4b-8c08-edea898a39c0",
-			"OrderIndex": 640,
-			"AllowUpSync": true
-		},
-		"Rarity": "common",
-		"IsDroppable": false
-	},
-	"TOKEN_OUTFIT_LUCAS_GREY_JACKET": {
-		"Id": "TOKEN_OUTFIT_LUCAS_GREY_JACKET",
-		"Guid": "c99a1c88f9a10d95-33c9-411b-b879-9f43",
-		"Type": "disguise",
-		"Subtype": "disguise",
-		"ImageId": "",
-		"RMTPrice": 99,
-		"GamePrice": 99,
-		"IsPurchasable": false,
-		"IsPublished": true,
-		"Capabilities": [],
-		"Qualities": {},
-		"Properties": {
-			"Quality": 1,
-			"Rarity": "common",
-			"LoadoutSlot": "disguise",
-			"RepositoryId": "9a8fe7a5-abbd-4e12-b798-58b2c6960df1",
 			"OrderIndex": 640,
 			"AllowUpSync": true
 		},
@@ -265,6 +265,7 @@
 		"Properties": {
 			"Unlocks": [
 				"TOKEN_OUTFIT_LUCAS_GREY",
+				"TOKEN_OUTFIT_LUCAS_GREY_JACKET",
 				"TOKEN_OUTFIT_LUCAS_GREY_PONCHO",
 				"TOKEN_OUTFIT_LUCAS_GREY_BALD",
 				"STARTING_LOCATION_MARRAKESH_COURTYARD",
