@@ -202,7 +202,7 @@
 			"runtimeID": "0037FB3CDE0CF25E",
 			"comment": "setpiece_italy_unique_destructible_wall_a",
 			"portFromChunk1": true,
-			"toChunk": 0
+			"toChunk": 3
 		},
 		{
 			"runtimeID": "0022AFDA627C0EDF",

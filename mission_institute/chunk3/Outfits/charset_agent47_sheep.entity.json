@@ -68,10 +68,7 @@
 			"parent": "1840b730d8fc8cb8",
 			"name": "Var0",
 			"factory": "[modules:/zoutfitvariation.class].pc_entitytype",
-			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint",
-			"properties": {
-				"m_Outfit": { "type": "ZRuntimeResourceID", "value": { "resource": "00295990C5103987", "flag": "9F" } }
-			}
+			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint"
 		}
 	},
 	"propertyOverrides": [],

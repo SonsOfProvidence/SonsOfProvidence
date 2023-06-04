@@ -29,19 +29,13 @@
 		},
 		"abcd85cba5ab5afa": {
 			"parent": "abcd6b299c3d3e26",
-			"name": "Envionment",
+			"name": "Environment",
 			"blueprint": "[modules:/zentity.class].pc_entityblueprint",
 			"factory": "[modules:/zentity.class].pc_entitytype"
 		},
 		"abcd5e509cf0ca65": {
 			"parent": "abcd6b299c3d3e26",
 			"name": "Gameplay",
-			"blueprint": "[modules:/zentity.class].pc_entityblueprint",
-			"factory": "[modules:/zentity.class].pc_entitytype"
-		},
-		"abcdb8a050d68c57": {
-			"parent": "abcd6b299c3d3e26",
-			"name": "Maps",
 			"blueprint": "[modules:/zentity.class].pc_entityblueprint",
 			"factory": "[modules:/zentity.class].pc_entitytype"
 		},
@@ -1224,69 +1218,40 @@
 			"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entityblueprint",
 			"properties": { "m_bValue": { "type": "bool", "value": true } }
 		},
-		"feed6de0592e523a": {
-			"parent": "abcdb8a050d68c57",
-			"name": "Institute",
-			"factory": "0034422566C6A53C",
-			"blueprint": "001D6533FC03CC1B",
-			"properties": {
-				"m_pMetaDataResource": {
-					"type": "ZRuntimeResourceID",
-					"value": { "resource": "004F040B5D41A40F", "flag": "5F" }
-				}
-			}
-		},
-		"feed1dbf9cc61488": {
-			"parent": "abcd4b7b3e7bd675",
-			"name": "Destructible Wall",
-			"factory": "[modules:/zentity.class].pc_entitytype",
-			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
-		},
 		"feed2aa2a7e5dd0c": {
-			"parent": "feed1dbf9cc61488",
+			"parent": "feed98b9682a63dd",
 			"name": "Setpiece_Italy_Unique_Destructible_Wall_A",
 			"factory": "[assembly:/_pro/design/setpieces/unique/setpiece_italy_unique.template?/setpiece_italy_unique_destructible_wall_a.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/design/setpieces/unique/setpiece_italy_unique.template?/setpiece_italy_unique_destructible_wall_a.entitytemplate].pc_entityblueprint",
 			"properties": {
 				"m_mTransform": {
 					"type": "SMatrix43",
-					"value": { "rotation": { "x": 0, "y": 0, "z": 0 }, "position": { "x": 150, "y": -130, "z": 2 } }
-				}
-			},
-			"m_eRoomBehaviour": { "type": "ZSpatialEntity.ERoomBehaviour", "value": "ROOM_STATIC_OUTSIDE_CLIENT" },
-			"m_bVisible": { "type": "bool", "value": true },
-			"m_bRemovePhysics": { "type": "bool", "value": false },
-			"m_eidParent": {
-				"type": "SEntityTemplateReference",
-				"value": {
-					"ref": "aff994cc4a72c41f",
-					"externalScene": "[assembly:/_pro/scenes/missions/ancestral/scenario_bulldog.brick].pc_entitytype"
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": 127.7860911440386 },
+						"position": { "x": 90.71891, "y": -125.389915, "z": 1.3821566 }
+					}
+				},
+				"SoundGate_Enabled": { "type": "bool", "value": true },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"externalScene": "[assembly:/_pro/scenes/missions/ancestral/scenario_bulldog.brick].pc_entitytype",
+						"ref": "aff994cc4a72c41f"
+					},
+					"postInit": true
 				}
 			},
 			"events": { "WallDestroyed": { "TransmitEvent": [] } },
 			"subsets": { "AudioEmitters": ["fffffffffffffffe"] }
+		},
+		"feed98b9682a63dd": {
+			"parent": "abcd5e509cf0ca65",
+			"name": "Setpieces",
+			"factory": "[modules:/zentity.class].pc_entitytype",
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
 		}
 	},
-	"propertyOverrides": [
-		{
-			"entities": [
-				{
-					"ref": "87d826a814078bff",
-					"externalScene": "[assembly:/_pro/scenes/missions/ancestral/scenario_bulldog.brick].pc_entitytype"
-				}
-			],
-			"properties": { "m_InitialOutfitId": { "type": "ZGuid", "value": "d3bdbcfe-4747-4774-a642-17daa98a4747" } }
-		},
-		{
-			"entities": [
-				{
-					"ref": "aaae70db265926d9",
-					"externalScene": "[assembly:/_pro/scenes/missions/ancestral/scenario_bulldog.brick].pc_entitytype"
-				}
-			],
-			"properties": { "m_bDefaultHeroSpawn": { "type": "bool", "value": false } }
-		}
-	],
+	"propertyOverrides": [],
 	"overrideDeletes": [],
 	"pinConnectionOverrides": [],
 	"pinConnectionOverrideDeletes": [],

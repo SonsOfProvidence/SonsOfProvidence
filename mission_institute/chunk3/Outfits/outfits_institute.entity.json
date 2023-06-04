@@ -45,7 +45,7 @@
 				"m_pParentOutfit": {
 					"type": "SEntityTemplateReference",
 					"value": {
-						"ref": "958ef354a73d986e",
+						"ref": "1357f3657950d38e",
 						"externalScene": "[assembly:/_pro/scenes/bricks/globaldata.brick].pc_entitytype"
 					}
 				},
