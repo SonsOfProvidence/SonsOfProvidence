@@ -1,27 +1,4 @@
 {
-	"TOKEN_OUTFIT_LUCAS_GREY": {
-		"Id": "TOKEN_OUTFIT_LUCAS_GREY",
-		"Guid": "24ee9983-473b-432b-a1d2-d7f5cff07eec",
-		"Type": "disguise",
-		"Subtype": "disguise",
-		"ImageId": "",
-		"RMTPrice": 99,
-		"GamePrice": 99,
-		"IsPurchasable": false,
-		"IsPublished": true,
-		"Capabilities": [],
-		"Qualities": {},
-		"Properties": {
-			"Quality": 1,
-			"Rarity": "common",
-			"LoadoutSlot": "disguise",
-			"RepositoryId": "b40a74a0-91a2-490d-8806-3ccfc852c82b",
-			"OrderIndex": 640,
-			"AllowUpSync": true
-		},
-		"Rarity": "common",
-		"IsDroppable": false
-	},
 	"TOKEN_OUTFIT_LUCAS_GREY_PONCHO": {
 		"Id": "TOKEN_OUTFIT_LUCAS_GREY_PONCHO",
 		"Guid": "2d9b323b-7607-4038-a4e0-3b602e67abf3",
@@ -62,6 +39,29 @@
 			"Rarity": "common",
 			"LoadoutSlot": "disguise",
 			"RepositoryId": "052f992d-4962-4691-ad11-ae612e6db848",
+			"OrderIndex": 640,
+			"AllowUpSync": true
+		},
+		"Rarity": "common",
+		"IsDroppable": false
+	},
+	"TOKEN_OUTFIT_LUCAS_GREY_RELAXED": {
+		"Id": "TOKEN_OUTFIT_LUCAS_GREY_RELAXED",
+		"Guid": "c0e75d24-b4d1-451e-a643-c23c33150d8c",
+		"Type": "disguise",
+		"Subtype": "disguise",
+		"ImageId": "",
+		"RMTPrice": 99,
+		"GamePrice": 99,
+		"IsPurchasable": false,
+		"IsPublished": true,
+		"Capabilities": [],
+		"Qualities": {},
+		"Properties": {
+			"Quality": 1,
+			"Rarity": "common",
+			"LoadoutSlot": "disguise",
+			"RepositoryId": "2e0a37b5-9955-48e4-b42a-4a789f4b6fbf",
 			"OrderIndex": 640,
 			"AllowUpSync": true
 		},
@@ -214,7 +214,7 @@
 		"Properties": {
 			"Location": "LOCATION_GOLDEN_GECKO",
 			"RepositoryId": "fb75a371-8a8a-46ca-4747-123416018db6",
-			"Equip": ["TOKEN_OUTFIT_LUCAS_GREY"],
+			"Equip": ["TOKEN_OUTFIT_LUCAS_GREY_RELAXED"],
 			"UnlockOrder": 3
 		},
 		"Rarity": null
@@ -264,11 +264,11 @@
 	"PACKAGE_STARTING_PACKAGE": {
 		"Properties": {
 			"Unlocks": [
-				"TOKEN_OUTFIT_LUCAS_GREY",
 				"TOKEN_OUTFIT_LUCAS_GREY_JACKET",
 				"TOKEN_OUTFIT_LUCAS_GREY_PONCHO",
 				"TOKEN_OUTFIT_LUCAS_GREY_SNIPER",
 				"TOKEN_OUTFIT_LUCAS_GREY_BALD",
+				"TOKEN_OUTFIT_LUCAS_GREY_RELAXED",
 				"STARTING_LOCATION_MARRAKESH_COURTYARD",
 				"STARTING_LOCATION_SAPIENZA_APARTMENT",
 				"STARTING_LOCATION_AIRPLANE_SEAT",

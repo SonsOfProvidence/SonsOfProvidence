@@ -112,6 +112,22 @@
 		"ioiString": "[assembly:/sonsofprovidence/shared/outfit_lucasgrey_sniper_heroa_v0.entitytemplate].pc_entityblueprint"
 	},
 	{
+		"hash": "007BC232200763A3",
+		"ioiString": "[assembly:/sonsofprovidence/shared/charset_lucasgrey_relaxed.entitytemplate].pc_entitytype"
+	},
+	{
+		"hash": "009AC3B3785A6201",
+		"ioiString": "[assembly:/sonsofprovidence/shared/charset_lucasgrey_relaxed.entitytemplate].pc_entityblueprint"
+	},
+	{
+		"hash": "0004A8858EF171D1",
+		"ioiString": "[assembly:/sonsofprovidence/shared/outfit_lucasgrey_relaxed_heroa_v0.entitytemplate].pc_entitytype"
+	},
+	{
+		"hash": "00E9316609B84805",
+		"ioiString": "[assembly:/sonsofprovidence/shared/outfit_lucasgrey_relaxed_heroa_v0.entitytemplate].pc_entityblueprint"
+	},
+	{
 		"hash": "00BC69D4CB9C962B",
 		"ioiString": "[assembly:/sonsofprovidence/shared/charset_lucasgrey_bald.entitytemplate].pc_entitytype"
 	},

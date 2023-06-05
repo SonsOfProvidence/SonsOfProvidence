@@ -1,0 +1,78 @@
+{
+	"tempHash": "007BC232200763A3",
+	"tbluHash": "009AC3B3785A6201",
+	"rootEntity": "81e40bdc0d2a140a",
+	"entities": {
+		"f117966d34ecaecf": {
+			"parent": "b0df03c1b623494e",
+			"name": "Var0",
+			"factory": "[modules:/zoutfitvariation.class].pc_entitytype",
+			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint"
+		},
+		"b0df03c1b623494e": {
+			"parent": "81e40bdc0d2a140a",
+			"name": "Nude",
+			"factory": "[modules:/zcharsetcharactertype.class].pc_entitytype",
+			"blueprint": "[modules:/zcharsetcharactertype.class].pc_entityblueprint",
+			"properties": { "m_aVariations": { "type": "TArray<SEntityTemplateReference>", "value": ["f117966d34ecaecf"] } }
+		},
+		"631fea7bb7a42375": {
+			"parent": "a7b97d59e59aa36c",
+			"name": "0",
+			"factory": "[modules:/zoutfitvariation.class].pc_entitytype",
+			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint"
+		},
+		"81e40bdc0d2a140a": {
+			"parent": null,
+			"name": "CHARSET_Cinematic_LucasGrey_NoArmBand",
+			"factory": "004470A9E6A7722D",
+			"blueprint": "00E21A11EC782D9E",
+			"properties": {
+				"m_aCharacters": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["a7b97d59e59aa36c", "b0df03c1b623494e", "231dd020e7953ba0"],
+					"postInit": true
+				}
+			}
+		},
+		"231dd020e7953ba0": {
+			"parent": "81e40bdc0d2a140a",
+			"name": "HeroA",
+			"factory": "[modules:/zcharsetcharactertype.class].pc_entitytype",
+			"blueprint": "[modules:/zcharsetcharactertype.class].pc_entityblueprint",
+			"properties": {
+				"m_aVariations": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["a547446636213b68"],
+					"postInit": true
+				}
+			}
+		},
+		"a547446636213b68": {
+			"parent": "231dd020e7953ba0",
+			"name": "Var0",
+			"factory": "[modules:/zoutfitvariation.class].pc_entitytype",
+			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint",
+			"properties": {
+				"m_Outfit": { "type": "ZRuntimeResourceID", "value": { "resource": "0004A8858EF171D1", "flag": "9F" } }
+			}
+		},
+		"a7b97d59e59aa36c": {
+			"parent": "81e40bdc0d2a140a",
+			"name": "Actor",
+			"factory": "[modules:/zcharsetcharactertype.class].pc_entitytype",
+			"blueprint": "[modules:/zcharsetcharactertype.class].pc_entityblueprint",
+			"properties": { "m_aVariations": { "type": "TArray<SEntityTemplateReference>", "value": ["631fea7bb7a42375"] } }
+		}
+	},
+	"propertyOverrides": [],
+	"overrideDeletes": [],
+	"pinConnectionOverrides": [],
+	"pinConnectionOverrideDeletes": [],
+	"externalScenes": [],
+	"subType": "template",
+	"quickEntityVersion": 3.1,
+	"extraFactoryDependencies": [],
+	"extraBlueprintDependencies": [],
+	"comments": []
+}

@@ -300,6 +300,8 @@
 		"00A563D4816B9BCB": "UI_TOKEN_OUTFIT_LUCAS_GREY_SNIPER_DESC",
 		"00A4F9E312E93D85": "UI_TOKEN_OUTFIT_LUCAS_GREY_JACKET_NAME",
 		"0014694A666AE87A": "UI_TOKEN_OUTFIT_LUCAS_GREY_JACKET_DESC",
+		"00153E8EFEAC13C1": "UI_TOKEN_OUTFIT_LUCAS_GREY_RELAXED_NAME",
+		"00271C5114820996": "UI_TOKEN_OUTFIT_LUCAS_GREY_RELAXED_DESC",
 		"003121C47E69C366": "UI_TOKEN_OUTFIT_LUCAS_GREY_BALD_NAME",
 		"00A12E5B52CD0D41": "UI_TOKEN_OUTFIT_LUCAS_GREY_BALD_DESC"
 	},
@@ -335,6 +337,8 @@
 			"UI_TOKEN_OUTFIT_LUCAS_GREY_SNIPER_DESC": "Field outfit with elbow guard for easy mobility and precision sniping.",
 			"UI_TOKEN_OUTFIT_LUCAS_GREY_JACKET_NAME": "Duster",
 			"UI_TOKEN_OUTFIT_LUCAS_GREY_JACKET_DESC": "A jacket for keeping clothes clean.",
+			"UI_TOKEN_OUTFIT_LUCAS_GREY_RELAXED_NAME": "Relaxed fit",
+			"UI_TOKEN_OUTFIT_LUCAS_GREY_RELAXED_DESC": "Casual outfit with smart pants and a tee-shirt.",
 			"UI_TOKEN_OUTFIT_LUCAS_GREY_BALD_NAME": "Tactical Infiltration Suit",
 			"UI_TOKEN_OUTFIT_LUCAS_GREY_BALD_DESC": "A tactical infiltration suit designed to be low profile.",
 			"ui_starting_location_mumbai_ether_lab_default_name": "Roof of Ether Headquarters, Johannesburg, South Africa",
