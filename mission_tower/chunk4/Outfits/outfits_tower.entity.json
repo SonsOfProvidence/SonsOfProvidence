@@ -33,7 +33,7 @@
 						"m_bApplyLeftRightScalars": false
 					}
 				},
-				"m_bHeroDisguiseAvailable": { "type": "bool", "value": true },
+				"m_bHeroDisguiseAvailable": { "type": "bool", "value": false },
 				"m_bWeaponsAllowed": { "type": "bool", "value": true },
 				"m_eSoundFootwearType": { "type": "EHM5SoundFootwearType", "value": "EFWT_BOOTS" },
 				"m_sId": { "type": "ZGuid", "value": "c3349736-91d1-48e3-bc62-fc16a7d8d6f1" },

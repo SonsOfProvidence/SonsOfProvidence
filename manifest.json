@@ -224,6 +224,12 @@
 			"comment": "outfit_nightmare_lucasgrey_m_actor_v0",
 			"portFromChunk1": true,
 			"toChunk": 0
+		},
+		{
+			"runtimeID": "0089E3B67A163BB8",
+			"comment": "prof_edgy_guard_security",
+			"portFromChunk1": true,
+			"toChunk": 0
 		}
 	],
 	"packagedefinition": [

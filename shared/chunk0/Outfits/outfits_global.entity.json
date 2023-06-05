@@ -398,7 +398,7 @@
 			"factory": "[modules:/zentity.class].pc_entitytype",
 			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
 		},
-		"feedaffcbee48ade": {
+		"feed89698b603122": {
 			"parent": "fffffffffffffffe",
 			"name": "Cinematic_Bulldog_Mercenary",
 			"factory": "[modules:/zglobaloutfitkit.class].pc_entitytype",
@@ -422,39 +422,147 @@
 						"m_bApplyLeftRightScalars": false
 					}
 				},
-				"m_eActorCCClass": { "type": "EActorCCPreset", "value": "ACCP_GuardMaleElite" },
-				"m_bWeaponsAllowed": { "type": "bool", "value": true },
 				"m_bHeroDisguiseAvailable": { "type": "bool", "value": false },
-				"m_eSoundFootwearType": { "type": "EHM5SoundFootwearType", "value": "EFWT_LEATHER" },
+				"m_bWeaponsAllowed": { "type": "bool", "value": true },
+				"m_eSoundFootwearType": { "type": "EHM5SoundFootwearType", "value": "EFWT_BOOTS" },
 				"m_sId": { "type": "ZGuid", "value": "d5883f9b-11af-445e-a80a-036ff424970f" },
-				"m_rDefaultVoiceVariations": { "type": "TArray<EActorVoiceVariation>", "value": ["eAVV_CIVMALE08"] },
+				"m_aAnimationSets": { "type": "TArray<SEntityTemplateReference>", "value": [] },
+				"m_AvailableWeaponKeys": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["feedfb5e614e16d4", "feedf4bfb8d9e5ec", "feed7ae946fad36d", "feedd630ad859816"]
+				},
+				"m_sCommonName": { "type": "ZString", "value": "Ancestral_Guard_MansionGuard_M_PRO176217" },
+				"m_sTitle": { "type": "ZString", "value": "Mansion Guard" },
+				"m_eOutfitAICategory": { "type": "EOutfitAICategory", "value": "OAC_Queensgrd" },
+				"m_rNameTextResource": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/localization/hitman6/conversations/ui/pro/online/repository/outfits_npcs_ancestral.sweetmenutext?/ancestral_guard_mansionguard_m_name_c3349736-91d1-48e3-bc62-fc16a7d8d6f1.sweetline].pc_sweetline",
+						"flag": "5F"
+					}
+				},
+				"m_rDescriptionTextResource": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/localization/hitman6/conversations/ui/pro/online/repository/outfits_npcs_ancestral.sweetmenutext?/ancestral_guard_mansionguard_m_description_c3349736-91d1-48e3-bc62-fc16a7d8d6f1.sweetline].pc_sweetline",
+						"flag": "5F"
+					}
+				},
+				"m_rDefaultVoiceVariations": {
+					"type": "TArray<EActorVoiceVariation>",
+					"value": [
+						"eAVV_BDYGRD04",
+						"eAVV_BDYGRD05",
+						"eAVV_BDYGRD06",
+						"eAVV_BDYGRD07",
+						"eAVV_SPECOPS01",
+						"eAVV_SPECOPS02"
+					]
+				},
+				"m_eOutfitType": { "type": "EOutfitType", "value": "eOT_Guard" },
+				"m_AvailableGrenadeKeys": { "type": "TArray<SEntityTemplateReference>", "value": ["feede05b87b795cb"] },
+				"m_aCharSets": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["feedd9581fcc9344"],
+					"postInit": true
+				},
+				"m_aWeaponsAllowedExceptionKeywords": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [],
+					"postInit": true
+				},
 				"m_pParentOutfit": {
 					"type": "SEntityTemplateReference",
 					"value": {
-						"ref": "958ef354a73d986e",
+						"ref": "1357f3657950d38e",
 						"externalScene": "[assembly:/_pro/scenes/bricks/globaldata.brick].pc_entitytype"
 					}
-				},
-				"m_sCommonName": { "type": "ZString", "value": "Cinematic_Bulldog_Mercenary" },
-				"m_sTitle": { "type": "ZString", "value": "Bulldog_Mercenary" },
-				"m_eOutfitType": { "type": "EOutfitType", "value": "eOT_Guard" },
-				"m_eActorRank": { "type": "EActorRank", "value": "AR_Elite" },
-				"m_eOutfitAICategory": { "type": "EOutfitAICategory", "value": "OAC_Soldier" },
-				"m_AvailableWeaponKeys": { "type": "TArray<SEntityTemplateReference>", "value": [] },
-				"m_rNameTextResource": { "type": "ZRuntimeResourceID", "value": null },
-				"m_rDescriptionTextResource": { "type": "ZRuntimeResourceID", "value": null },
-				"m_aCharSets": {
-					"type": "TArray<SEntityTemplateReference>",
-					"value": ["feed3445125e1f2b"],
-					"postInit": true
 				}
 			}
 		},
-		"feed3445125e1f2b": {
-			"parent": "feedaffcbee48ade",
+		"feede05b87b795cb": {
+			"parent": "feed89698b603122",
+			"name": "ItemKey__Grenade_ Flash 1",
+			"factory": "[modules:/zitemrepositorykeyentity.class].pc_entitytype",
+			"blueprint": "[modules:/zitemrepositorykeyentity.class].pc_entityblueprint",
+			"properties": { "m_RepositoryId": { "type": "ZGuid", "value": "de3b92ee-864d-491e-9595-b110e8a8aae0" } }
+		},
+		"feedd630ad859816": {
+			"parent": "feed89698b603122",
+			"name": "ItemKey__AR_ _NPC_ Fusil G1_4_C",
+			"factory": "[modules:/zitemrepositorykeyentity.class].pc_entitytype",
+			"blueprint": "[modules:/zitemrepositorykeyentity.class].pc_entityblueprint",
+			"properties": { "m_RepositoryId": { "type": "ZGuid", "value": "506e4cc9-43e0-41bc-b85e-d14779f313b7" } }
+		},
+		"feedf4bfb8d9e5ec": {
+			"parent": "feed89698b603122",
+			"name": "ItemKey__SMG_ _NPC_ HX_10",
+			"factory": "[modules:/zitemrepositorykeyentity.class].pc_entitytype",
+			"blueprint": "[modules:/zitemrepositorykeyentity.class].pc_entityblueprint",
+			"properties": { "m_RepositoryId": { "type": "ZGuid", "value": "4abe19e7-fea7-4892-8ccf-6b7d05895b3f" } }
+		},
+		"feede42c60b8d1f5": {
+			"parent": "feed89698b603122",
+			"name": "Keyword_Prof_Class_Guard_Light",
+			"factory": "003F8A8A859AE133",
+			"blueprint": "0059DEB85AA5AFED",
+			"properties": {
+				"m_aHolders": { "type": "TArray<SEntityTemplateReference>", "value": ["feed89698b603122"], "postInit": true }
+			}
+		},
+		"feed1a54973ef9aa": {
+			"parent": "feed89698b603122",
+			"name": "Keyword_Prof_Class_Default",
+			"factory": "007A51A2AFEC0D1A",
+			"blueprint": "00B0282A41C1CF2E",
+			"properties": {
+				"m_aHolders": { "type": "TArray<SEntityTemplateReference>", "value": ["feed89698b603122"], "postInit": true }
+			}
+		},
+		"feedf1b06f4fdb5a": {
+			"parent": "feed89698b603122",
+			"name": "KeywordEntity_FOLEY_OUTFIT_GUARD",
+			"factory": "[assembly:/_pro/design/gamecore/keywords/keywordsound.template?/keywordentity_foley_outfit_guard.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/gamecore/keywords/keywordsound.template?/keywordentity_foley_outfit_guard.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_rHolder": { "type": "SEntityTemplateReference", "value": "feed89698b603122", "postInit": true }
+			}
+		},
+		"feedfb5e614e16d4": {
+			"parent": "feed89698b603122",
+			"name": "ItemKey__Pistol__NPC_ Bartoli 75R",
+			"factory": "[modules:/zitemrepositorykeyentity.class].pc_entitytype",
+			"blueprint": "[modules:/zitemrepositorykeyentity.class].pc_entityblueprint",
+			"properties": { "m_RepositoryId": { "type": "ZGuid", "value": "55ed7196-2303-4af6-9fa3-45b691134561" } }
+		},
+		"feed7ae946fad36d": {
+			"parent": "feed89698b603122",
+			"name": "ItemKey__Shotgun_ _NPC_ Tactical Bartoli 12G",
+			"factory": "[modules:/zitemrepositorykeyentity.class].pc_entitytype",
+			"blueprint": "[modules:/zitemrepositorykeyentity.class].pc_entityblueprint",
+			"properties": { "m_RepositoryId": { "type": "ZGuid", "value": "901a3b51-51a0-4236-bdf2-23d20696b358" } }
+		},
+		"feedd9581fcc9344": {
+			"parent": "feed89698b603122",
 			"name": "CHARSET_Cinematic_Mercenary_M",
 			"factory": "003C51A51A0EDC97",
 			"blueprint": "005F8488059FD4B1"
+		},
+		"feed56d422094258": {
+			"parent": "feed89698b603122",
+			"name": "Keyword_Prof_Class_Guard_Heavy",
+			"factory": "00364659808ED13C",
+			"blueprint": "003A7D4D8810414B",
+			"properties": { "m_aHolders": { "type": "TArray<SEntityTemplateReference>", "value": ["feed89698b603122"] } }
+		},
+		"feed5edb980b9726": {
+			"parent": "feed89698b603122",
+			"name": "Prof_Edgy_Guard_Security",
+			"factory": "[assembly:/_pro/design/actor/profession.template?/prof_edgy_guard_security.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_edgy_guard_security.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_aHolders": { "type": "TArray<SEntityTemplateReference>", "value": ["feed89698b603122"], "postInit": true }
+			}
 		}
 	},
 	"propertyOverrides": [],
