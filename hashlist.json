@@ -200,6 +200,30 @@
 		"ioiString": "[assembly:/sonsofprovidence/etherhq/etherhq_outfits.brick].pc_entityblueprint"
 	},
 	{
+		"hash": "004380168AB009CA",
+		"ioiString": "[assembly:/sonsofprovidence/objects/party_balloons.entity].pc_entitytype"
+	},
+	{
+		"hash": "005C725C7B059670",
+		"ioiString": "[assembly:/sonsofprovidence/objects/party_balloons.entity].pc_entityblueprint"
+	},
+	{
+		"hash": "00A27C6A847EDFC3",
+		"ioiString": "[assembly:/sonsofprovidence/objects/airplane.entity].pc_entitytype"
+	},
+	{
+		"hash": "00B737D5E1989486",
+		"ioiString": "[assembly:/sonsofprovidence/objects/airplane.entity].pc_entityblueprint"
+	},
+	{
+		"hash": "000F83981CA13201",
+		"ioiString": "[assembly:/_pro/environment/templates/custom/statue_of_liberty_a.template?/statue_of_liberty_a.entitytemplate].pc_entitytype"
+	},
+	{
+		"hash": "0044DFB2593628D0",
+		"ioiString": "[assembly:/_pro/environment/templates/custom/statue_of_liberty_a.template?/statue_of_liberty_a.entitytemplate].pc_entityblueprint"
+	},
+	{
 		"hash": "00C6FB0D282EB377",
 		"ioiString": "[assembly:/sonsofprovidence/airplane/airplane_a.wl2?/airplane_a.prim].pc_entitytype"
 	},

@@ -230,6 +230,12 @@
 			"comment": "prof_edgy_guard_security",
 			"portFromChunk1": true,
 			"toChunk": 0
+		},
+		{
+			"runtimeID": "004FBD18DCCC8BF3",
+			"comment": "exterminator_van_bug_gigantic",
+			"portFromChunk1": true,
+			"toChunk": 26
 		}
 	],
 	"packagedefinition": [
