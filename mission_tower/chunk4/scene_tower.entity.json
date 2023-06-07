@@ -573,8 +573,8 @@
 					"type": "ZCurve",
 					"value": {
 						"data": [
-							[0, -7, 0, 0, 0, 0, -1, -7],
-							[1, -10, 0, 0, 0, 0, 0, -10]
+							[0, -16, 0, 0, 0, 0, -1, -16],
+							[1, -17, 0, 0, 0, 0, 0, -17]
 						]
 					}
 				},
@@ -582,8 +582,8 @@
 					"type": "ZCurve",
 					"value": {
 						"data": [
-							[0, 6.5, 0, 0, 0, 0, 1, 6.5],
-							[1, 0.5, 0, 0, 0, 0, 0, 0.5]
+							[0, -83.9984130859375, 0, 0, 0, 0, -0.959228515625, -83.9984130859375],
+							[1, -84.9576416015625, 0, 0, 0, 0, 0, -84.9576416015625]
 						]
 					}
 				},
@@ -591,8 +591,8 @@
 					"type": "ZCurve",
 					"value": {
 						"data": [
-							[0, -221, 0, 0, 0, 0, 1, -221],
-							[1, -224, 0, 0, 0, 0, 0, -224]
+							[0, -232, 0, 0, 0, 0, 1, -232],
+							[1, -231, 0, 0, 0, 0, 0, -231]
 						]
 					}
 				},
@@ -609,8 +609,8 @@
 					"type": "ZCurve",
 					"value": {
 						"data": [
-							[0, 16, 0, 0, 0, 0, -1, 16],
-							[1, 18, 0, 0, 0, 0, 0, 18]
+							[0, 18, 0, 0, 0, 0, -1, 18],
+							[1, 17, 0, 0, 0, 0, 0, 17]
 						]
 					}
 				},
@@ -618,8 +618,8 @@
 					"type": "ZCurve",
 					"value": {
 						"data": [
-							[0, 4, 0, 0, 0, 0, 0, 4],
-							[1, 5, 0, 0, 0, 0, 0, 5]
+							[0, 3.192537307739258, 0, 0, 0, 0, -0.19366097450256348, 3.192537307739258],
+							[1, 2.9988763332366943, 0, 0, 0, 0, 0, 2.9988763332366943]
 						]
 					}
 				}
@@ -2574,7 +2574,8 @@
 			"events": {
 				"OnTrue": {
 					"SetTrue": ["feed42909ab44504"],
-					"Enable": ["feed16a0aa147cf1", "feed74fb5ef379e7", "feed3e3a608616a7", "feedd0615d442b7e"]
+					"Enable": ["feed16a0aa147cf1", "feed74fb5ef379e7", "feed3e3a608616a7", "feedd0615d442b7e"],
+					"Set": ["feed1c85f93241f8", "feedbe4459f64ba1", "feede18a1801303c", "feedf20c0f2c28f9"]
 				}
 			}
 		},
@@ -2700,7 +2701,7 @@
 				"RepositoryId": { "type": "ZGuid", "value": "4f252bcb-7e56-4021-a790-13a822d707c9" },
 				"m_OutfitRepositoryID": { "type": "ZGuid", "value": "d5883f9b-11af-445e-a80a-036ff424970f" },
 				"m_nOutfitVariation": { "type": "int32", "value": 0 },
-				"m_nWeaponIndex": { "type": "int32", "value": 1 },
+				"m_nWeaponIndex": { "type": "int32", "value": 2 },
 				"m_bStartEnabled": { "type": "bool", "value": false },
 				"m_aEnforcedOutfits": {
 					"type": "TArray<SEntityTemplateReference>",
@@ -2777,16 +2778,17 @@
 			"blueprint": "[assembly:/_pro/design/actor/dramasystem2.template?/drama2situation.entitytemplate].pc_entityblueprint",
 			"properties": {
 				"m_aRoles": { "type": "TArray<SEntityTemplateReference>", "value": ["feed379a3420d1a6"] },
+				"m_nPriority": { "type": "int32", "value": 100 },
 				"m_bTerminateOnDone": { "type": "bool", "value": false }
 			}
 		},
 		"feedd0ab026906c2": {
 			"parent": "feedb419c6fdcb21",
 			"name": "DramaSituation2Proxy",
-			"blueprint": "00900EB78F2E0F5E",
+			"factory": "[assembly:/_pro/design/actor/dramasystem2.template?/dramasituationproxy.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/dramasystem2.template?/dramasituationproxy.entitytemplate].pc_entityblueprint",
 			"properties": { "m_rOriginalDrama": { "type": "SEntityTemplateReference", "value": "feedb419c6fdcb21" } },
-			"events": { "OnStart": { "Start": ["feed6b1d6915e146"] } },
-			"factory": "000C288A323918F9"
+			"events": { "OnStart": { "Start": ["feed6b1d6915e146"], "Set": ["feed1f42ca50e458"] } }
 		},
 		"feed379a3420d1a6": {
 			"parent": "feedb419c6fdcb21",
@@ -2840,75 +2842,6 @@
 				"m_eidParent": { "type": "SEntityTemplateReference", "value": "fffffffffffffffe", "postInit": true }
 			}
 		},
-		"feed10a76387fc1f": {
-			"parent": "feed23dfe340325b",
-			"name": "DramaSituation Assault top of tower",
-			"factory": "[assembly:/_pro/design/actor/dramasystem2.template?/drama2situation.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/design/actor/dramasystem2.template?/drama2situation.entitytemplate].pc_entityblueprint",
-			"properties": {
-				"m_aRoles": { "type": "TArray<SEntityTemplateReference>", "value": ["feed5e034ad6650b"] },
-				"m_bTerminateOnDone": { "type": "bool", "value": false }
-			}
-		},
-		"feed3704d5981e39": {
-			"parent": "feed10a76387fc1f",
-			"name": "DramaSituation2Proxy",
-			"blueprint": "00900EB78F2E0F5E",
-			"properties": { "m_rOriginalDrama": { "type": "SEntityTemplateReference", "value": "feed10a76387fc1f" } },
-			"events": { "OnStart": { "Start": ["feedca524584eae5"] } },
-			"factory": "000C288A323918F9"
-		},
-		"feed5e034ad6650b": {
-			"parent": "feed10a76387fc1f",
-			"name": "Tower Guard Role",
-			"factory": "[assembly:/_pro/design/actor/dramasystem2.template?/role.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/design/actor/dramasystem2.template?/role.entitytemplate].pc_entityblueprint",
-			"properties": {
-				"m_rActorProvider": { "type": "SEntityTemplateReference", "value": "feed23dfe340325b", "postInit": true }
-			}
-		},
-		"feedca524584eae5": {
-			"parent": "feed10a76387fc1f",
-			"name": "Act_MR_Stand_Basic Tower Perimeter",
-			"factory": "00251CC86224019D",
-			"blueprint": "005C75C0C3B1863A",
-			"properties": {
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": { "x": 0, "y": 0, "z": 94 },
-						"position": { "x": -53.82911, "y": -133.09976, "z": 9.523506 }
-					}
-				},
-				"m_AlignRotation": { "type": "ZActBehaviorEntity.ERotationAlignment", "value": "RA_LOOSE" },
-				"m_fActTimeout": { "type": "float32", "value": 3 },
-				"m_bUseConversationHelper": { "type": "bool", "value": true },
-				"m_MovementType": { "type": "ZActBehaviorEntity.EMovementType", "value": "MT_WALK" },
-				"m_eidParent": { "type": "SEntityTemplateReference", "value": "fffffffffffffffe", "postInit": true }
-			},
-			"events": { "OnActTimeout": { "Start": ["feed258b4630f98b"] } }
-		},
-		"feed258b4630f98b": {
-			"parent": "feed10a76387fc1f",
-			"name": "Act_MR_Stand_Basic Tower Top Floor",
-			"factory": "00251CC86224019D",
-			"blueprint": "005C75C0C3B1863A",
-			"properties": {
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": { "x": 0, "y": 0, "z": 130.32229064702608 },
-						"position": { "x": -51.31539, "y": -137.54876, "z": 25.033373 }
-					}
-				},
-				"m_AlignRotation": { "type": "ZActBehaviorEntity.ERotationAlignment", "value": "RA_EXACT" },
-				"m_fActTimeout": { "type": "float32", "value": 5 },
-				"m_bUseConversationHelper": { "type": "bool", "value": true },
-				"m_MovementType": { "type": "ZActBehaviorEntity.EMovementType", "value": "MT_WALK" },
-				"m_ePerceptionSensitivity": { "type": "EActorPerceptionSensitivity", "value": "APS_COMBAT" },
-				"m_eidParent": { "type": "SEntityTemplateReference", "value": "fffffffffffffffe", "postInit": true }
-			}
-		},
 		"feedab09ad1d11ea": {
 			"parent": "feede33e8c9f6447",
 			"name": "DramaSituation Assault top of tower",
@@ -2916,16 +2849,17 @@
 			"blueprint": "[assembly:/_pro/design/actor/dramasystem2.template?/drama2situation.entitytemplate].pc_entityblueprint",
 			"properties": {
 				"m_aRoles": { "type": "TArray<SEntityTemplateReference>", "value": ["feedd7cfe58fd2e0"] },
+				"m_nPriority": { "type": "int32", "value": 100 },
 				"m_bTerminateOnDone": { "type": "bool", "value": false }
 			}
 		},
 		"feed2083faed58fb": {
 			"parent": "feedab09ad1d11ea",
 			"name": "DramaSituation2Proxy",
-			"blueprint": "00900EB78F2E0F5E",
+			"factory": "[assembly:/_pro/design/actor/dramasystem2.template?/dramasituationproxy.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/dramasystem2.template?/dramasituationproxy.entitytemplate].pc_entityblueprint",
 			"properties": { "m_rOriginalDrama": { "type": "SEntityTemplateReference", "value": "feedab09ad1d11ea" } },
-			"events": { "OnStart": { "Start": ["feed4b91a7a13f4e"] } },
-			"factory": "000C288A323918F9"
+			"events": { "OnStart": { "Start": ["feed4b91a7a13f4e"], "Set": ["feeded9cea83610f"] } }
 		},
 		"feedd7cfe58fd2e0": {
 			"parent": "feedab09ad1d11ea",
@@ -2987,16 +2921,17 @@
 			"blueprint": "[assembly:/_pro/design/actor/dramasystem2.template?/drama2situation.entitytemplate].pc_entityblueprint",
 			"properties": {
 				"m_aRoles": { "type": "TArray<SEntityTemplateReference>", "value": ["feed8277f4af2d09"] },
+				"m_nPriority": { "type": "int32", "value": 100 },
 				"m_bTerminateOnDone": { "type": "bool", "value": false }
 			}
 		},
 		"feeda4ee527c9c36": {
 			"parent": "feedec01a7fa827b",
 			"name": "DramaSituation2Proxy",
-			"blueprint": "00900EB78F2E0F5E",
+			"factory": "[assembly:/_pro/design/actor/dramasystem2.template?/dramasituationproxy.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/dramasystem2.template?/dramasituationproxy.entitytemplate].pc_entityblueprint",
 			"properties": { "m_rOriginalDrama": { "type": "SEntityTemplateReference", "value": "feedec01a7fa827b" } },
-			"events": { "OnStart": { "Start": ["feedc86dc9c5da50"] } },
-			"factory": "000C288A323918F9"
+			"events": { "OnStart": { "Start": ["feedc86dc9c5da50"], "Set": ["feed99bfda38e138"] } }
 		},
 		"feed8277f4af2d09": {
 			"parent": "feedec01a7fa827b",
@@ -3044,6 +2979,162 @@
 				},
 				"m_AlignRotation": { "type": "ZActBehaviorEntity.ERotationAlignment", "value": "RA_EXACT" },
 				"m_fActTimeout": { "type": "float32", "value": 20 },
+				"m_bUseConversationHelper": { "type": "bool", "value": true },
+				"m_MovementType": { "type": "ZActBehaviorEntity.EMovementType", "value": "MT_WALK" },
+				"m_ePerceptionSensitivity": { "type": "EActorPerceptionSensitivity", "value": "APS_COMBAT" },
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "fffffffffffffffe", "postInit": true }
+			}
+		},
+		"feed1c85f93241f8": {
+			"parent": "feedfd06e89d7d71",
+			"name": "AIModifierRole Make Mercenary Ignore Bodies during assault",
+			"factory": "[modules:/zaimodifieractor.class].pc_entitytype",
+			"blueprint": "[modules:/zaimodifieractor.class].pc_entityblueprint",
+			"properties": {
+				"m_bIgnoreAccidents": { "type": "bool", "value": true },
+				"m_bIgnoreDeadBodies": { "type": "bool", "value": true },
+				"m_bIgnoreWeapons": { "type": "bool", "value": true },
+				"m_bIgnoreDistractions": { "type": "bool", "value": true },
+				"m_bDisableDeadBodySensor": { "type": "bool", "value": true },
+				"m_pActor": { "type": "SEntityTemplateReference", "value": "feedfd06e89d7d71", "postInit": true }
+			}
+		},
+		"feedbe4459f64ba1": {
+			"parent": "feed86795901ce10",
+			"name": "AIModifierRole Make Mercenary 2 Ignore Bodies during assault",
+			"factory": "[modules:/zaimodifieractor.class].pc_entitytype",
+			"blueprint": "[modules:/zaimodifieractor.class].pc_entityblueprint",
+			"properties": {
+				"m_bIgnoreAccidents": { "type": "bool", "value": true },
+				"m_bIgnoreDeadBodies": { "type": "bool", "value": true },
+				"m_bIgnoreWeapons": { "type": "bool", "value": true },
+				"m_bIgnoreDistractions": { "type": "bool", "value": true },
+				"m_bDisableDeadBodySensor": { "type": "bool", "value": true },
+				"m_pActor": { "type": "SEntityTemplateReference", "value": "feed86795901ce10", "postInit": true }
+			}
+		},
+		"feede18a1801303c": {
+			"parent": "feede33e8c9f6447",
+			"name": "AIModifierRole Make Mercenary 3 Ignore Bodies during assault",
+			"factory": "[modules:/zaimodifieractor.class].pc_entitytype",
+			"blueprint": "[modules:/zaimodifieractor.class].pc_entityblueprint",
+			"properties": {
+				"m_bIgnoreAccidents": { "type": "bool", "value": true },
+				"m_bIgnoreDeadBodies": { "type": "bool", "value": true },
+				"m_bIgnoreWeapons": { "type": "bool", "value": true },
+				"m_bIgnoreDistractions": { "type": "bool", "value": true },
+				"m_bDisableDeadBodySensor": { "type": "bool", "value": true },
+				"m_pActor": { "type": "SEntityTemplateReference", "value": "feede33e8c9f6447", "postInit": true }
+			}
+		},
+		"feedf20c0f2c28f9": {
+			"parent": "feeda22ca36b4458",
+			"name": "AIModifierRole Make Mercenary 4 Ignore Bodies during assault",
+			"factory": "[modules:/zaimodifieractor.class].pc_entitytype",
+			"blueprint": "[modules:/zaimodifieractor.class].pc_entityblueprint",
+			"properties": {
+				"m_bIgnoreAccidents": { "type": "bool", "value": true },
+				"m_bIgnoreDeadBodies": { "type": "bool", "value": true },
+				"m_bIgnoreWeapons": { "type": "bool", "value": true },
+				"m_bIgnoreDistractions": { "type": "bool", "value": true },
+				"m_bDisableDeadBodySensor": { "type": "bool", "value": true },
+				"m_pActor": { "type": "SEntityTemplateReference", "value": "feeda22ca36b4458", "postInit": true }
+			}
+		},
+		"feed1f42ca50e458": {
+			"parent": "feedfd06e89d7d71",
+			"name": "VRI_BodyGuard_Jogger",
+			"factory": "[assembly:/_pro/design/actor/animvariation.template?/vri_bodyguard_jogger.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/animvariation.template?/vri_bodyguard_jogger.entitytemplate].pc_entityblueprint",
+			"properties": { "m_rActor": { "type": "SEntityTemplateReference", "value": "feed379a3420d1a6" } }
+		},
+		"feed99bfda38e138": {
+			"parent": "feed86795901ce10",
+			"name": "VRI_BodyGuard_Jogger",
+			"factory": "[assembly:/_pro/design/actor/animvariation.template?/vri_bodyguard_jogger.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/animvariation.template?/vri_bodyguard_jogger.entitytemplate].pc_entityblueprint",
+			"properties": { "m_rActor": { "type": "SEntityTemplateReference", "value": "feed8277f4af2d09" } }
+		},
+		"feeded9cea83610f": {
+			"parent": "feede33e8c9f6447",
+			"name": "VRI_BodyGuard_Jogger",
+			"factory": "[assembly:/_pro/design/actor/animvariation.template?/vri_bodyguard_jogger.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/animvariation.template?/vri_bodyguard_jogger.entitytemplate].pc_entityblueprint",
+			"properties": { "m_rActor": { "type": "SEntityTemplateReference", "value": "feedd7cfe58fd2e0" } }
+		},
+		"feed5dee65d58696": {
+			"parent": "feeda22ca36b4458",
+			"name": "VRI_BodyGuard_Jogger",
+			"factory": "[assembly:/_pro/design/actor/animvariation.template?/vri_bodyguard_jogger.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/animvariation.template?/vri_bodyguard_jogger.entitytemplate].pc_entityblueprint",
+			"properties": { "m_rActor": { "type": "SEntityTemplateReference", "value": "feed05422152be74" } }
+		},
+		"feed93db1252caba": {
+			"parent": "feeda22ca36b4458",
+			"name": "DramaSituation Assault top of tower",
+			"factory": "[assembly:/_pro/design/actor/dramasystem2.template?/drama2situation.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/dramasystem2.template?/drama2situation.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_aRoles": { "type": "TArray<SEntityTemplateReference>", "value": ["feed05422152be74"] },
+				"m_nPriority": { "type": "int32", "value": 100 },
+				"m_bTerminateOnDone": { "type": "bool", "value": false }
+			}
+		},
+		"feed4e5feefc5c13": {
+			"parent": "feed93db1252caba",
+			"name": "DramaSituation2Proxy",
+			"factory": "[assembly:/_pro/design/actor/dramasystem2.template?/dramasituationproxy.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/dramasystem2.template?/dramasituationproxy.entitytemplate].pc_entityblueprint",
+			"properties": { "m_rOriginalDrama": { "type": "SEntityTemplateReference", "value": "feed93db1252caba" } },
+			"events": { "OnStart": { "Start": ["feedb40f2dc82b5d"], "Set": ["feed5dee65d58696"] } }
+		},
+		"feed05422152be74": {
+			"parent": "feed93db1252caba",
+			"name": "Mecenary 4 Role",
+			"factory": "[assembly:/_pro/design/actor/dramasystem2.template?/role.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/dramasystem2.template?/role.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_rActorProvider": { "type": "SEntityTemplateReference", "value": "feedd0615d442b7e", "postInit": true }
+			}
+		},
+		"feedb40f2dc82b5d": {
+			"parent": "feed93db1252caba",
+			"name": "Act_MR_Stand_Basic Tower Perimeter",
+			"factory": "00251CC86224019D",
+			"blueprint": "005C75C0C3B1863A",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": -70 },
+						"position": { "x": -45.249535, "y": -150.89037, "z": 9.308646 }
+					}
+				},
+				"m_AlignRotation": { "type": "ZActBehaviorEntity.ERotationAlignment", "value": "RA_LOOSE" },
+				"m_fActTimeout": { "type": "float32", "value": 0.1 },
+				"m_bUseConversationHelper": { "type": "bool", "value": true },
+				"m_MovementType": { "type": "ZActBehaviorEntity.EMovementType", "value": "MT_WALK" },
+				"m_ePerceptionSensitivity": { "type": "EActorPerceptionSensitivity", "value": "APS_COMBAT" },
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "fffffffffffffffe", "postInit": true }
+			},
+			"events": { "OnActTimeout": { "Start": ["feededbb6a4c7f6c"] } }
+		},
+		"feededbb6a4c7f6c": {
+			"parent": "feed93db1252caba",
+			"name": "Act_MR_Stand_Basic Tower Top Floor",
+			"factory": "00251CC86224019D",
+			"blueprint": "005C75C0C3B1863A",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": 130.32229064702608 },
+						"position": { "x": -51.91539, "y": -137.94876, "z": 25.033373 }
+					}
+				},
+				"m_AlignRotation": { "type": "ZActBehaviorEntity.ERotationAlignment", "value": "RA_EXACT" },
+				"m_fActTimeout": { "type": "float32", "value": 60 },
+				"m_bHolsterDuringAct": { "type": "bool", "value": false },
 				"m_bUseConversationHelper": { "type": "bool", "value": true },
 				"m_MovementType": { "type": "ZActBehaviorEntity.EMovementType", "value": "MT_WALK" },
 				"m_ePerceptionSensitivity": { "type": "EActorPerceptionSensitivity", "value": "APS_COMBAT" },
