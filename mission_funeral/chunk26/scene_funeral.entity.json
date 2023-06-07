@@ -1487,7 +1487,111 @@
 					}
 				}
 			},
-			"events": { "OnShot": { "MakeVisible": ["feed1e60188c7b58"] } }
+			"events": { "OnShot": { "MakeVisible": ["feed1e60188c7b58", "feedc0ef007919e6"] } }
+		},
+		"feedc0ef007919e6": {
+			"parent": "feed59387e307178",
+			"name": "Vintor_Root",
+			"factory": "[modules:/zcompositeentity.class].pc_entitytype",
+			"blueprint": "[modules:/zcompositeentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": 0 },
+						"position": { "x": -103.4699, "y": 119.64075, "z": 20 }
+					}
+				},
+				"m_bVisible": { "type": "bool", "value": false },
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "a3abfc17113fa981",
+						"externalScene": "[assembly:/_pro/scenes/missions/coastaltown/location.brick].pc_entitytype"
+					}
+				}
+			}
+		},
+		"feed3a511c7f0c09": {
+			"parent": "feedc0ef007919e6",
+			"name": "hokkaido_vintor_a_arm_b",
+			"factory": "[assembly:/_pro/environment/geometry/levels/hokkaido/hokkaido_vintor_a.wl2?/hokkaido_vintor_a_arm_b.prim].pc_entitytype",
+			"blueprint": "[assembly:/templates/geometrytemplatenocoll.template?/geomentity01.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0025017246492532153, "y": -9.999875623703865, "z": -0.02827443650863029 },
+						"position": { "x": -11.100669860839844, "y": 1.474735975265503, "z": 14.926899909973145 }
+					}
+				},
+				"m_eRoomBehaviour": { "type": "ZSpatialEntity.ERoomBehaviour", "value": "ROOM_DYNAMIC" },
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "feed7f5353a8a644", "postInit": true }
+			}
+		},
+		"feed8c6c02334264": {
+			"parent": "feedc0ef007919e6",
+			"name": "hokkaido_vintor_a_arm_a",
+			"factory": "[assembly:/_pro/environment/geometry/levels/hokkaido/hokkaido_vintor_a.wl2?/hokkaido_vintor_a_arm_a.prim].pc_entitytype",
+			"blueprint": "[assembly:/templates/geometrytemplatenocoll.template?/geomentity01.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 9.999984807060024, "z": 9.07751245672201e-7 },
+						"position": { "x": -11.100669860839844, "y": -2.7998158931732178, "z": 14.926899909973145 }
+					}
+				},
+				"m_eRoomBehaviour": { "type": "ZSpatialEntity.ERoomBehaviour", "value": "ROOM_DYNAMIC" },
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "feed7f5353a8a644", "postInit": true }
+			}
+		},
+		"feed7f5353a8a644": {
+			"parent": "feedc0ef007919e6",
+			"name": "hokkaido_vintor_a",
+			"factory": "[assembly:/_pro/environment/geometry/levels/hokkaido/hokkaido_vintor_a.wl2?/hokkaido_vintor_a.prim].pc_entitytype",
+			"blueprint": "[assembly:/templates/geometrytemplatenocoll.template?/geomentity01.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": 2.758425103030316e-7 },
+						"position": { "x": 0.000002523240937080118, "y": -0.000053691659559262916, "z": 0 }
+					}
+				},
+				"m_bVisible": { "type": "bool", "value": true },
+				"m_eRoomBehaviour": { "type": "ZSpatialEntity.ERoomBehaviour", "value": "ROOM_DYNAMIC" },
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "feedc0ef007919e6" }
+			}
+		},
+		"feed79e4940fb596": {
+			"parent": "feed7f5353a8a644",
+			"name": "fx_basic_blinkinglight_additive",
+			"factory": "[assembly:/_pro/effects/materials/basic/fx_basic_blinkinglight_additive.mi].pc_entitytype",
+			"blueprint": "[assembly:/_pro/effects/materials/basic/fx_basic_blinkinglight_additive.mi].pc_entityblueprint",
+			"properties": {
+				"Override": { "type": "bool", "value": false },
+				"ConstantVector1D_05_Value_op": { "type": "IRenderMaterialEntity.EModifierOperation", "value": "eReplace" },
+				"ConstantVector1D_05_Value": { "type": "float32", "value": 0 },
+				"ConstantColorRGB_01_Value_op": { "type": "IRenderMaterialEntity.EModifierOperation", "value": "eReplace" },
+				"ConstantColorRGB_01_Value": { "type": "SColorRGB", "value": "#ff0000" },
+				"ConstantVector1D_02_Value_op": { "type": "IRenderMaterialEntity.EModifierOperation", "value": "eReplace" },
+				"ConstantVector1D_02_Value": { "type": "float32", "value": 20 },
+				"Texture2D_01_enab": { "type": "bool", "value": true },
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 7.874345220605408, "y": 1.562994619109216, "z": 121.65438877375635 },
+						"position": { "x": -92.41676330566406, "y": 16.534000396728516, "z": 107.31510162353516 }
+					}
+				},
+				"ConstantVector1D_04_Value_op": { "type": "IRenderMaterialEntity.EModifierOperation", "value": "eReplace" },
+				"ConstantVector1D_04_Value": { "type": "float32", "value": 0 },
+				"Lerp_01_s_op": { "type": "IRenderMaterialEntity.EModifierOperation", "value": "eReplace" },
+				"Lerp_01_s": { "type": "float32", "value": 0 },
+				"Clients": { "type": "TArray<SEntityTemplateReference>", "value": ["feed7f5353a8a644"], "postInit": true },
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "feed7f5353a8a644", "postInit": true }
+			}
 		}
 	},
 	"propertyOverrides": [

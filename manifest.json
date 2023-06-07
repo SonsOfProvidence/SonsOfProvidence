@@ -236,6 +236,30 @@
 			"comment": "exterminator_van_bug_gigantic",
 			"portFromChunk1": true,
 			"toChunk": 26
+		},
+		{
+			"runtimeID": "0086B246B5B72C6E",
+			"comment": "hokkaido_vintor_a",
+			"portFromChunk1": true,
+			"toChunk": 26
+		},
+		{
+			"runtimeID": "0064D20AD7367B1C",
+			"comment": "hokkaido_vintor_a_arm_a",
+			"portFromChunk1": true,
+			"toChunk": 26
+		},
+		{
+			"runtimeID": "00136DC16652B24A",
+			"comment": "hokkaido_vintor_a_arm_b",
+			"portFromChunk1": true,
+			"toChunk": 26
+		},
+		{
+			"runtimeID": "00B00C76AF104F31",
+			"comment": "fx_basic_blinkinglight_additive",
+			"portFromChunk1": true,
+			"toChunk": 26
 		}
 	],
 	"packagedefinition": [
