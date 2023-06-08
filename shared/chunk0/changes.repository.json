@@ -37,7 +37,7 @@
 	},
 	"6244bf6d-18c1-4629-a691-d7845a87ef07": {
 		"ID_": "6244bf6d-18c1-4629-a691-d7845a87ef07",
-		"Image": "images/dbierek/berlin_tower_start.jpg",
+		"Image": "images/dbierek/berlin_tile.jpg",
 		"Name_LOC": "ui_starting_location_berlin_road_default_name",
 		"Description": "ui_starting_location_berlin_road_desc"
 	},
