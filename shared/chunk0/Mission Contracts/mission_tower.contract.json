@@ -94,7 +94,7 @@
 		"CodeName_Hint": "Berlin",
 		"ScenePath": "assembly:/sonsofprovidence/scene_tower.entity",
 		"TileImage": "images/dbierek/berlin_tile.jpg",
-		"Location": "LOCATION_EDGY_FOX",
+		"Location": "LOCATION_DARTMOOR_FIELD_HQ",
 		"LastUpdate": "2023-03-31T05:48:00.000Z",
 		"CreationTimestamp": "2023-03-31T05:48:00.000Z",
 		"CreatorUserId": "00000000-0000-0000-0000-000000000000",

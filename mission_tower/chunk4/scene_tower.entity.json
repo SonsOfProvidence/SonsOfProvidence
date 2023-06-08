@@ -3043,30 +3043,30 @@
 		},
 		"feed1f42ca50e458": {
 			"parent": "feedfd06e89d7d71",
-			"name": "VRI_BodyGuard_Jogger",
-			"factory": "[assembly:/_pro/design/actor/animvariation.template?/vri_bodyguard_jogger.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/design/actor/animvariation.template?/vri_bodyguard_jogger.entitytemplate].pc_entityblueprint",
+			"name": "VRI_BodyGuard_Pistol_Armed_Jog",
+			"factory": "[assembly:/_pro/design/actor/animvariation.template?/vri_bodyguard_pistol_armed_jog.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/animvariation.template?/vri_bodyguard_pistol_armed_jog.entitytemplate].pc_entityblueprint",
 			"properties": { "m_rActor": { "type": "SEntityTemplateReference", "value": "feed379a3420d1a6" } }
 		},
 		"feed99bfda38e138": {
 			"parent": "feed86795901ce10",
-			"name": "VRI_BodyGuard_Jogger",
-			"factory": "[assembly:/_pro/design/actor/animvariation.template?/vri_bodyguard_jogger.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/design/actor/animvariation.template?/vri_bodyguard_jogger.entitytemplate].pc_entityblueprint",
+			"name": "VRI_BodyGuard_Pistol_Armed_Jog",
+			"factory": "[assembly:/_pro/design/actor/animvariation.template?/vri_bodyguard_pistol_armed_jog.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/animvariation.template?/vri_bodyguard_pistol_armed_jog.entitytemplate].pc_entityblueprint",
 			"properties": { "m_rActor": { "type": "SEntityTemplateReference", "value": "feed8277f4af2d09" } }
 		},
 		"feeded9cea83610f": {
 			"parent": "feede33e8c9f6447",
-			"name": "VRI_BodyGuard_Jogger",
-			"factory": "[assembly:/_pro/design/actor/animvariation.template?/vri_bodyguard_jogger.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/design/actor/animvariation.template?/vri_bodyguard_jogger.entitytemplate].pc_entityblueprint",
+			"name": "VRI_BodyGuard_Pistol_Armed_Jog",
+			"factory": "[assembly:/_pro/design/actor/animvariation.template?/vri_bodyguard_pistol_armed_jog.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/animvariation.template?/vri_bodyguard_pistol_armed_jog.entitytemplate].pc_entityblueprint",
 			"properties": { "m_rActor": { "type": "SEntityTemplateReference", "value": "feedd7cfe58fd2e0" } }
 		},
 		"feed5dee65d58696": {
 			"parent": "feeda22ca36b4458",
-			"name": "VRI_BodyGuard_Jogger",
-			"factory": "[assembly:/_pro/design/actor/animvariation.template?/vri_bodyguard_jogger.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/design/actor/animvariation.template?/vri_bodyguard_jogger.entitytemplate].pc_entityblueprint",
+			"name": "VRI_BodyGuard_Pistol_Armed_Jog",
+			"factory": "[assembly:/_pro/design/actor/animvariation.template?/vri_bodyguard_pistol_armed_jog.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/animvariation.template?/vri_bodyguard_pistol_armed_jog.entitytemplate].pc_entityblueprint",
 			"properties": { "m_rActor": { "type": "SEntityTemplateReference", "value": "feed05422152be74" } }
 		},
 		"feed93db1252caba": {
