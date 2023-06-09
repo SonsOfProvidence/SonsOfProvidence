@@ -10,7 +10,7 @@
 				"ForceShowOnLoadingScreen": true,
 				"IsHidden": false,
 				"BriefingName": "$($repository d3959196-6be0-43ea-b6e7-aafa70822045).Name",
-				"Image": "images/dbierek/sapienza_target.jpg",
+				"Image": "images/sop/sapienza_target.jpg",
 				"HUDTemplate": {
 					"display": "Eliminate Thomas Cross"
 				},
@@ -64,7 +64,7 @@
 		"Description": "DESC_SAPIENZA",
 		"CodeName_Hint": "Sapienza",
 		"ScenePath": "assembly:/sonsofprovidence/scene_funeral.entity",
-		"TileImage": "images/dbierek/sapienza.jpg",
+		"TileImage": "images/sop/sapienza.jpg",
 		"Location": "LOCATION_COASTALTOWN",
 		"LastUpdate": "2023-03-31T05:48:00.000Z",
 		"CreationTimestamp": "2023-03-31T05:48:00.000Z",

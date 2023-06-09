@@ -11,7 +11,7 @@
 				"HUDTemplate": {
 					"display": "Eliminate Nicholai Kamarov"
 				},
-				"Image": "images/dbierek/dbierek_tile.jpg",
+				"Image": "images/sop/dbierek_tile.jpg",
 				"SuccessEvent": {
 					"EventName": "Kill",
 					"EventValues": {
@@ -55,11 +55,11 @@
 		"TileImage": [
 			{
 				"Mode": "singleplayer",
-				"Image": "images/dbierek/siberia.jpg"
+				"Image": "images/sop/siberia.jpg"
 			},
 			{
 				"Mode": "multiplayer",
-				"Image": "images/dbierek/siberia.jpg"
+				"Image": "images/sop/siberia.jpg"
 			}
 		],
 		"Location": "LOCATION_CAGED_FALCON",

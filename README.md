@@ -10,7 +10,7 @@ Here is a Google Sheet with a tasklist: https://docs.google.com/spreadsheets/d/1
 
 ## Mod description:
 
-This mod is a new campaign that follows Lucas Grey throughout his journey in the World of Assassination Trilogy, beginning with his escape from The Institute, through his untimely demise in Dartmoor. It is broken up into multiple missions, each based on a situation described or shown in the original trilogy. Each mission will be played in one of the destinations in the original trilogy, but occasionally the location will be repurposed to take place in a different setting’s location.
+This mod is a new campaign that follows Lucas Grey throughout his journey in the World of Assassination Trilogy, beginning with his and 47's assault on The Institute for Human Betterment, through the assault on Providence, and on the Partners. It is broken up into multiple missions, each based on a situation described or shown in the original trilogy. Each mission will be played in one of the destinations in the original trilogy, but occasionally the location will be repurposed to take place in a different setting’s location.
 
 Note: The mod is still a work in progress. It is planned to be an offline mode mod, so it may not work properly in online mode.
 
@@ -50,7 +50,7 @@ Thanks to everyone at the Glacier 2 Modding discord including Kevin Rudd, Anthon
 
 The cutscene from the original trilogy, where Subject 6 and Subject 47 are angry after being returned to the Institute after running away and having their would-be rescuers killed, plays, but with Lucas Grey doing a voiceover describing the events in a new way. They begin planning their revenge on Providence, and cut their hands and mark the wall with their handprints in blood. The cutscene then jumps ahead in time to the present, where Subject 6 and Subject 47 fight their way into the Institute and are pinned down. 47 is injured and tells Subject 6 to escape, blowing a hole in the wall through which Subject 6 jumps.
 
-## Mission 1: Escape from the Institute
+## Mission 1: Assault on the Institute
 
 **Setting Location**: The Institute, Romania  
 **Sandbox Destination**: Dartmoor  

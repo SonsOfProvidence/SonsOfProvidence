@@ -10,7 +10,7 @@
 				"ForceShowOnLoadingScreen": true,
 				"IsHidden": false,
 				"BriefingName": "$($repository be51939f-1a3d-4f60-bc1c-5c1e1d726da2).Name",
-				"Image": "images/dbierek/berlin_target.jpg",
+				"Image": "images/sop/berlin_target.jpg",
 				"HUDTemplate": {
 					"display": "Eliminate the Communications Director"
 				},
@@ -40,7 +40,7 @@
 				"Id": "659cd403-0ce7-4937-92f5-4d70cccca54a",
 				"ObjectiveType": "setpiece",
 				"ForceShowOnLoadingScreen": true,
-				"Image": "images/dbierek/berlin_antenna.jpg",
+				"Image": "images/sop/berlin_antenna.jpg",
 				"BriefingName": "Disable the communications equipment",
 				"LongBriefingText": "Disable the communications equipment",
 				"Category": "primary",
@@ -93,7 +93,7 @@
 		"Description": "UI_BERLIN_DESC",
 		"CodeName_Hint": "Berlin",
 		"ScenePath": "assembly:/sonsofprovidence/scene_tower.entity",
-		"TileImage": "images/dbierek/berlin_tile.jpg",
+		"TileImage": "images/sop/berlin_tile.jpg",
 		"Location": "LOCATION_DARTMOOR_FIELD_HQ",
 		"LastUpdate": "2023-03-31T05:48:00.000Z",
 		"CreationTimestamp": "2023-03-31T05:48:00.000Z",
