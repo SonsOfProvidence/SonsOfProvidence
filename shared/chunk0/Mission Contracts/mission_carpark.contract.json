@@ -31,7 +31,7 @@
 		"CodeName_Hint": "Marrakesh",
 		"ScenePath": "assembly:/sonsofprovidence/scene_carpark.entity",
 		"TileImage": "images/sop/marrakesh.jpg",
-		"Location": "LOCATION_MARRAKECH",
+		"Location": "LOCATION_ETHER_HQ_GARAGE",
 		"LastUpdate": "2023-03-31T05:48:00.000Z",
 		"CreationTimestamp": "2023-03-31T05:48:00.000Z",
 		"CreatorUserId": "00000000-0000-0000-0000-000000000000",
