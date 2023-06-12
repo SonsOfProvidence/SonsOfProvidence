@@ -6,7 +6,7 @@
 	"blobsFolders": ["blobs"],
 	"authors": ["Danny Bierek"],
 	"frameworkVersion": "2.15.1",
-	"version": "0.42.0",
+	"version": "0.43.0",
 	"contentFolders": ["shared"],
 	"options": [
 		{
@@ -421,5 +421,5 @@
 			"ui_starting_location_newyork_garage_desc": "I've infiltrated the garage at the Milton-Fitzpatrick Bank."
 		}
 	},
-	"updateCheck": "https://github.com/sop/SonsOfProvidence/releases/latest/download/updates.json"
+	"updateCheck": "https://github.com/dbierek/SonsOfProvidence/releases/latest/download/updates.json"
 }
