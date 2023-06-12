@@ -1,0 +1,90 @@
+{
+	"tempHash": "006E993D116F5661",
+	"tbluHash": "0040E0A5522215F6",
+	"rootEntity": "3630584bb6e3b6a3",
+	"entities": {
+		"3630584bb6e3b6a3": {
+			"parent": null,
+			"name": "CHARSET_Cinematic_LucasGrey_Jacket",
+			"factory": "004470A9E6A7722D",
+			"blueprint": "00E21A11EC782D9E",
+			"properties": {
+				"m_aCharacters": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["244204ce80b0f63d", "319b9785e73eb87f", "b14f3e7deea32965"],
+					"postInit": true
+				}
+			}
+		},
+		"244204ce80b0f63d": {
+			"parent": "3630584bb6e3b6a3",
+			"name": "Actor",
+			"factory": "[modules:/zcharsetcharactertype.class].pc_entitytype",
+			"blueprint": "[modules:/zcharsetcharactertype.class].pc_entityblueprint",
+			"properties": {
+				"m_aVariations": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["97ebe84b692e61cb"],
+					"postInit": true
+				}
+			}
+		},
+		"319b9785e73eb87f": {
+			"parent": "3630584bb6e3b6a3",
+			"name": "Nude",
+			"factory": "[modules:/zcharsetcharactertype.class].pc_entitytype",
+			"blueprint": "[modules:/zcharsetcharactertype.class].pc_entityblueprint",
+			"properties": {
+				"m_aVariations": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["89d799a0d0f92812"],
+					"postInit": true
+				}
+			}
+		},
+		"97ebe84b692e61cb": {
+			"parent": "244204ce80b0f63d",
+			"name": "0",
+			"factory": "[modules:/zoutfitvariation.class].pc_entitytype",
+			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint"
+		},
+		"b14f3e7deea32965": {
+			"parent": "3630584bb6e3b6a3",
+			"name": "HeroA",
+			"factory": "[modules:/zcharsetcharactertype.class].pc_entitytype",
+			"blueprint": "[modules:/zcharsetcharactertype.class].pc_entityblueprint",
+			"properties": {
+				"m_aVariations": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["454e837465081108"],
+					"postInit": true
+				}
+			}
+		},
+		"89d799a0d0f92812": {
+			"parent": "319b9785e73eb87f",
+			"name": "Var0",
+			"factory": "[modules:/zoutfitvariation.class].pc_entitytype",
+			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint"
+		},
+		"454e837465081108": {
+			"parent": "b14f3e7deea32965",
+			"name": "Var0",
+			"factory": "[modules:/zoutfitvariation.class].pc_entitytype",
+			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint",
+			"properties": {
+				"m_Outfit": { "type": "ZRuntimeResourceID", "value": { "resource": "0092301F265DE31C", "flag": "9F" } }
+			}
+		}
+	},
+	"propertyOverrides": [],
+	"overrideDeletes": [],
+	"pinConnectionOverrides": [],
+	"pinConnectionOverrideDeletes": [],
+	"externalScenes": [],
+	"subType": "template",
+	"quickEntityVersion": 3.1,
+	"extraFactoryDependencies": [],
+	"extraBlueprintDependencies": [],
+	"comments": []
+}

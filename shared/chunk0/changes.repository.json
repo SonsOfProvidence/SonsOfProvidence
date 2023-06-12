@@ -1,49 +1,49 @@
 {
 	"37af536b-4747-49ed-986a-9d55f4481ed4": {
 		"ID_": "37af536b-4747-49ed-986a-9d55f4481ed4",
-		"Image": "images/dbierek/mumbai_roof_starting.jpg",
+		"Image": "images/sop/mumbai_roof_starting.jpg",
 		"Name_LOC": "ui_starting_location_mumbai_ether_lab_default_name",
 		"Description": "ui_starting_location_mumbai_ether_lab_desc"
 	},
 	"9c111405-637e-46b7-a051-279039c533ac": {
 		"ID_": "9c111405-637e-46b7-a051-279039c533ac",
-		"Image": "images/dbierek/dartmoor_exterior_start.jpg",
+		"Image": "images/sop/dartmoor_exterior_start.jpg",
 		"Name_LOC": "ui_starting_location_dartmoor_institute_default_name",
 		"Description": "ui_starting_location_dartmoor_institute_desc"
 	},
 	"fb75a371-8a8a-46ca-4747-123447478db6": {
 		"ID_": "fb75a371-8a8a-46ca-4747-123447478db6",
-		"Image": "images/dbierek/moscow_helipad_start.jpg",
+		"Image": "images/sop/moscow_helipad_start.jpg",
 		"Name_LOC": "ui_starting_location_siberia_moscow_default_name",
 		"Description": "ui_starting_location_siberia_moscow_desc"
 	},
 	"fb75a371-8a8a-46ca-4747-123416018db6": {
 		"ID_": "fb75a371-8a8a-46ca-4747-123416018db6",
-		"Image": "images/dbierek/dubai_airplane_start.jpg",
+		"Image": "images/sop/dubai_airplane_start.jpg",
 		"Name_LOC": "ui_starting_location_dubai_airplane_default_name",
 		"Description": "ui_starting_location_dubai_airplane_desc"
 	},
 	"1021798e-cec1-4747-ba33-69b7d53da888": {
 		"ID_": "1021798e-cec1-4747-ba33-69b7d53da888",
-		"Image": "images/dbierek/sapienza_apartment_start.jpg",
+		"Image": "images/sop/sapienza_apartment_start.jpg",
 		"Name_LOC": "ui_starting_location_sapienza_apartment_default_name",
 		"Description": "ui_starting_location_sapienza_apartment_desc"
 	},
 	"fb75a371-8a8a-46ca-4747-320e16018db6": {
 		"ID_": "fb75a371-8a8a-46ca-4747-320e16018db6",
-		"Image": "images/dbierek/marrakesh_courtyard_start.jpg",
+		"Image": "images/sop/marrakesh_courtyard_start.jpg",
 		"Name_LOC": "ui_starting_location_marrakesh_courtyard_default_name",
 		"Description": "ui_starting_location_marrakesh_courtyard_desc"
 	},
 	"6244bf6d-18c1-4629-a691-d7845a87ef07": {
 		"ID_": "6244bf6d-18c1-4629-a691-d7845a87ef07",
-		"Image": "images/dbierek/berlin.jpg",
+		"Image": "images/sop/berlin_tile.jpg",
 		"Name_LOC": "ui_starting_location_berlin_road_default_name",
 		"Description": "ui_starting_location_berlin_road_desc"
 	},
 	"8e2bdc62-905d-43c1-8d91-3dceb8506a77": {
 		"ID_": "8e2bdc62-905d-43c1-8d91-3dceb8506a77",
-		"Image": "images/dbierek/newyork.jpg",
+		"Image": "images/sop/newyork.jpg",
 		"Name_LOC": "ui_starting_location_newyork_garage_default_name",
 		"Description": "ui_starting_location_newyork_garage_desc"
 	},
@@ -59,60 +59,120 @@
 		"Name": "char_gecko_hero_skydivingoutfit_m_ pro179078_name_c4146f27-81a9-42ef-b3c7-87a9d60b4747",
 		"TokenID": ""
 	},
+	"4ddb6c12-97fc-49f9-acc4-1ac7b5cc7d6d": {
+		"Category": "",
+		"CommonName": "UI_TOKEN_OUTFIT_LUCAS_GREY_PONCHO",
+		"Description": "UI_TOKEN_OUTFIT_LUCAS_GREY_PONCHO_DESC",
+		"HeroDisguiseAvailable": true,
+		"ID_": "4ddb6c12-97fc-49f9-acc4-1ac7b5cc7d6d",
+		"Image": "images/outfits/outfit_lucas_grey_poncho.jpg",
+		"ImageTransparent": "images/sop/outfit_lucas_grey_poncho.png",
+		"IsHitmanSuit": true,
+		"Name_": "UI_TOKEN_OUTFIT_LUCAS_GREY_PONCHO_NAME",
+		"TokenID": ""
+	},
+	"052f992d-4962-4691-ad11-ae612e6db848": {
+		"Category": "",
+		"CommonName": "UI_TOKEN_OUTFIT_LUCAS_GREY_JACKET",
+		"Description": "UI_TOKEN_OUTFIT_LUCAS_GREY_JACKET_DESC",
+		"HeroDisguiseAvailable": true,
+		"ID_": "052f992d-4962-4691-ad11-ae612e6db848",
+		"Image": "images/outfits/outfit_lucas_grey_jacket.jpg",
+		"ImageTransparent": "",
+		"IsHitmanSuit": true,
+		"Name_": "UI_TOKEN_OUTFIT_LUCAS_GREY_JACKET_NAME",
+		"TokenID": ""
+	},
+	"09f01bf4-dde5-482c-8a67-bfcb5d34f46d": {
+		"Category": "",
+		"CommonName": "UI_TOKEN_OUTFIT_LUCAS_GREY_SNIPER",
+		"Description": "UI_TOKEN_OUTFIT_LUCAS_GREY_SNIPER_DESC",
+		"HeroDisguiseAvailable": true,
+		"ID_": "09f01bf4-dde5-482c-8a67-bfcb5d34f46d",
+		"Image": "images/outfits/outfit_lucas_grey_sniper.jpg",
+		"ImageTransparent": "",
+		"IsHitmanSuit": true,
+		"Name_": "UI_TOKEN_OUTFIT_LUCAS_GREY_SNIPER_NAME",
+		"TokenID": ""
+	},
+	"2e0a37b5-9955-48e4-b42a-4a789f4b6fbf": {
+		"Category": "",
+		"CommonName": "UI_TOKEN_OUTFIT_LUCAS_GREY_RELAXED",
+		"Description": "UI_TOKEN_OUTFIT_LUCAS_GREY_RELAXED_DESC",
+		"HeroDisguiseAvailable": true,
+		"ID_": "2e0a37b5-9955-48e4-b42a-4a789f4b6fbf",
+		"Image": "images/outfits/outfit_lucas_grey_relaxed.jpg",
+		"ImageTransparent": "",
+		"IsHitmanSuit": true,
+		"Name_": "UI_TOKEN_OUTFIT_LUCAS_GREY_RELAXED_NAME",
+		"TokenID": ""
+	},
+	"e715bdb4-31d8-4db9-bed9-345d9f690735": {
+		"Category": "",
+		"CommonName": "UI_TOKEN_OUTFIT_LUCAS_GREY_BALD",
+		"Description": "UI_TOKEN_OUTFIT_LUCAS_GREY_BALD_DESC",
+		"HeroDisguiseAvailable": true,
+		"ID_": "e715bdb4-31d8-4db9-bed9-345d9f690735",
+		"Image": "images/outfits/outfit_lucas_grey_bald.jpg",
+		"ImageTransparent": "",
+		"IsHitmanSuit": true,
+		"Name_": "UI_TOKEN_OUTFIT_LUCAS_GREY_BALD_NAME",
+		"TokenID": ""
+	},
 	"d3959196-6be0-43ea-b6e7-aafa70824746": {
 		"CharacterSetIndex": 0.0,
 		"Description": "Eugene Cobb",
 		"Description_LOC": "actor_description",
 		"ID_": "d3959196-6be0-43ea-b6e7-aafa70824746",
-		"Image": "images/dbierek/dubai_target.jpg",
+		"Image": "images/sop/dubai_target.jpg",
 		"Name": "Eugene Cobb",
 		"Outfit": "d3bdbcfe-4747-4774-a642-17da478a4747",
 		"OutfitVariationIndex": 0.0,
-		"Tile": "images/dbierek/dubai_target.jpg"
+		"Tile": "images/sop/dubai_target.jpg"
 	},
 	"d3959196-6be0-43ea-b6e7-aafa70824747": {
 		"CharacterSetIndex": 0.0,
 		"Description": "Hajun",
 		"Description_LOC": "actor_description",
 		"ID_": "d3959196-6be0-43ea-b6e7-aafa70824747",
-		"Image": "images/dbierek/marrakesh_target.jpg",
+		"Image": "images/sop/marrakesh_target.jpg",
 		"Name": "Eugene Cobb",
 		"Outfit": "d3bdbcfe-4747-4774-a642-17da478a4747",
 		"OutfitVariationIndex": 0.0,
-		"Tile": "images/dbierek/marrakesh_target.jpg"
+		"Tile": "images/sop/marrakesh_target.jpg"
 	},
 	"d3959196-6be0-43ea-b6e7-aafa70824748": {
 		"CharacterSetIndex": 0.0,
 		"Description": "Nicholai Kamarov",
 		"Description_LOC": "actor_description",
 		"ID_": "d3959196-6be0-43ea-b6e7-aafa70824748",
-		"Image": "images/dbierek/moscow_target.jpg",
+		"Image": "images/sop/moscow_target.jpg",
 		"Name": "Nicholai Kamarov",
 		"Outfit": "d3bdbcfe-4747-4774-a642-17da478a4747",
 		"OutfitVariationIndex": 0.0,
-		"Tile": "images/dbierek/moscow_target.jpg"
+		"Tile": "images/sop/moscow_target.jpg"
 	},
 	"d3959196-6be0-43ea-b6e7-aafa70822045": {
 		"CharacterSetIndex": 0.0,
 		"Description": "Thomas Cross",
 		"Description_LOC": "actor_description",
 		"ID_": "d3959196-6be0-43ea-b6e7-aafa70822045",
-		"Image": "images/dbierek/sapienza_target.jpg",
+		"Image": "images/sop/sapienza_target.jpg",
 		"Name": "Thomas Cross",
 		"Outfit": "d3bdbcfe-4747-4774-a642-17daa98a7f69",
 		"OutfitVariationIndex": 0.0,
-		"Tile": "images/dbierek/sapienza_target.jpg"
+		"Tile": "images/sop/sapienza_target.jpg"
 	},
-	"5a176a60-01ae-4df7-8efa-233a7ad1bcfe": {
+	"be51939f-1a3d-4f60-bc1c-5c1e1d726da2": {
 		"CharacterSetIndex": 0.0,
 		"Description": "Communications Director",
 		"Description_LOC": "actor_description",
-		"ID_": "5a176a60-01ae-4df7-8efa-233a7ad1bcfe",
-		"Image": "images/dbierek/berlin.jpg",
+		"ID_": "be51939f-1a3d-4f60-bc1c-5c1e1d726da2",
+		"Image": "images/sop/berlin_target.jpg",
 		"Name": "Communications Director",
-		"Outfit": "b40a74a0-91a2-490d-8806-3ccfc852c82b",
+		"Outfit": "c3349736-91d1-48e3-bc62-fc16a7d8d6f1",
 		"OutfitVariationIndex": 0.0,
-		"Tile": "images/dbierek/berlin.jpg"
+		"Tile": "images/sop/berlin_target.jpg"
 	},
 	"743F058F-56A0-420F-8B5E-46DABABACA37": {
 		"Name": "Ben Bern"

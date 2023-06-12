@@ -1,0 +1,64 @@
+{
+	"Data": {
+		"EnableSaving": true,
+		"Objectives": [
+			{
+				"Id": "13959196-1be0-13ea-1234-1afa70822323",
+				"Category": "primary",
+				"ObjectiveType": "setpiece",
+				"DisplayAsKillObjective": true,
+				"ForceShowOnLoadingScreen": true,
+				"IsHidden": false,
+				"BriefingName": "$($repository d3959196-6be0-43ea-b6e7-aafa70824746).Name",
+				"Image": "images/sop/dubai_target.jpg",
+				"HUDTemplate": {
+					"display": "Eliminate Eugene Cobb"
+				},
+				"BriefingText": "Eliminate Eugene Cobb",
+				"SuccessEvent": {
+					"EventName": "Kill",
+					"EventValues": {
+						"RepositoryId": "d3959196-6be0-43ea-b6e7-aafa70824746"
+					}
+				}
+			}
+		],
+		"GameDifficulties": [
+			{
+				"Difficulty": "easy",
+				"Bricks": []
+			},
+			{
+				"Difficulty": "normal",
+				"Bricks": []
+			},
+			{
+				"Difficulty": "hard",
+				"Bricks": []
+			}
+		],
+		"Bricks": [],
+		"Entrances": ["fb75a371-8a8a-46ca-4747-123416018db6"],
+		"Exits": ["fc58abee-40e9-41b0-bf17-4747aecfe5d9"],
+		"DevOnlyBricks": [],
+		"GameChangers": [],
+		"GameChangerReferences": []
+	},
+	"Metadata": {
+		"Id": "179563a4-727a-4072-b354-c9fff4e8bff4",
+		"IsPublished": true,
+		"Title": "UI_DUBAI_TITLE",
+		"Description": "DESC_DUBAI",
+		"CodeName_Hint": "Dubai",
+		"ScenePath": "assembly:/sonsofprovidence/scene_airplane.entity",
+		"TileImage": "images/sop/dubai.jpg",
+		"Location": "LOCATION_PACIFIC_OCEAN",
+		"LastUpdate": "2023-03-31T05:48:00.000Z",
+		"CreationTimestamp": "2023-03-31T05:48:00.000Z",
+		"CreatorUserId": "00000000-0000-0000-0000-000000000000",
+		"Type": "mission",
+		"Release": "3.0.0",
+		"Entitlements": ["LOCATION_GOLDEN"]
+	},
+	"UserData": {}
+}

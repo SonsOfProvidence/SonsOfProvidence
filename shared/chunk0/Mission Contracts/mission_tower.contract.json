@@ -1,0 +1,106 @@
+{
+	"Data": {
+		"EnableSaving": true,
+		"Objectives": [
+			{
+				"Id": "6726232b-1926-4ed2-8b92-0e2c4bcd7384",
+				"Category": "primary",
+				"ObjectiveType": "setpiece",
+				"DisplayAsKillObjective": true,
+				"ForceShowOnLoadingScreen": true,
+				"IsHidden": false,
+				"BriefingName": "$($repository be51939f-1a3d-4f60-bc1c-5c1e1d726da2).Name",
+				"Image": "images/sop/berlin_target.jpg",
+				"HUDTemplate": {
+					"display": "Eliminate the Communications Director"
+				},
+				"BriefingText": "Eliminate the Communications Director",
+				"Type": "statemachine",
+				"Definition": {
+					"Scope": "session",
+					"Context": {
+						"KilledActors": [],
+						"Targets": ["be51939f-1a3d-4f60-bc1c-5c1e1d726da2"]
+					},
+					"States": {
+						"Start": {
+							"Kill": [
+								{
+									"Condition": {
+										"$eq": ["$Value.RepositoryId", "be51939f-1a3d-4f60-bc1c-5c1e1d726da2"]
+									},
+									"Transition": "Success"
+								}
+							]
+						}
+					}
+				}
+			},
+			{
+				"Id": "659cd403-0ce7-4937-92f5-4d70cccca54a",
+				"ObjectiveType": "setpiece",
+				"ForceShowOnLoadingScreen": true,
+				"Image": "images/sop/berlin_antenna.jpg",
+				"BriefingName": "Disable the communications equipment",
+				"LongBriefingText": "Disable the communications equipment",
+				"Category": "primary",
+				"HUDTemplate": {
+					"display": "Disable the communications equipment"
+				},
+				"BriefingText": "Disable the communications equipment",
+				"Type": "statemachine",
+				"Definition": {
+					"Context": {
+						"Targets": ["bc718e52-f805-42af-aaa6-712332dc601e"]
+					},
+					"States": {
+						"Start": {
+							"AntennaBroken": [
+								{
+									"Transition": "Success"
+								}
+							]
+						}
+					}
+				}
+			}
+		],
+		"GameDifficulties": [
+			{
+				"Difficulty": "easy",
+				"Bricks": []
+			},
+			{
+				"Difficulty": "normal",
+				"Bricks": []
+			},
+			{
+				"Difficulty": "hard",
+				"Bricks": []
+			}
+		],
+		"Bricks": [],
+		"Entrances": ["6244bf6d-18c1-4629-a691-d7845a87ef07"],
+		"Exits": ["dae42094-3b60-49ee-afa3-c4e9c463fb9e"],
+		"DevOnlyBricks": [],
+		"GameChangers": [],
+		"GameChangerReferences": []
+	},
+	"Metadata": {
+		"Id": "712b1b97-009d-46cf-919d-e7b0144d6d92",
+		"IsPublished": true,
+		"Title": "UI_BERLIN_TITLE",
+		"Description": "UI_BERLIN_DESC",
+		"CodeName_Hint": "Berlin",
+		"ScenePath": "assembly:/sonsofprovidence/scene_tower.entity",
+		"TileImage": "images/sop/berlin_tile.jpg",
+		"Location": "LOCATION_DARTMOOR_FIELD_HQ",
+		"LastUpdate": "2023-03-31T05:48:00.000Z",
+		"CreationTimestamp": "2023-03-31T05:48:00.000Z",
+		"CreatorUserId": "00000000-0000-0000-0000-000000000000",
+		"Type": "mission",
+		"Release": "3.0.0",
+		"Entitlements": ["LOCATION_EDGY"]
+	},
+	"UserData": {}
+}

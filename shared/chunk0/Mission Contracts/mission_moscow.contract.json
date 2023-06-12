@@ -1,0 +1,74 @@
+{
+	"Data": {
+		"EnableSaving": true,
+		"Objectives": [
+			{
+				"Comment": "--- Target Nicholai Kamarov ---",
+				"Id": "648470d6-a127-4b3d-b450-dbe3696f75dc",
+				"Primary": true,
+				"BriefingName": "$($repository d3959196-6be0-43ea-b6e7-aafa70824748).Name",
+				"BriefingText": "Eliminate Nicholai Kamarov",
+				"HUDTemplate": {
+					"display": "Eliminate Nicholai Kamarov"
+				},
+				"Image": "images/sop/dbierek_tile.jpg",
+				"SuccessEvent": {
+					"EventName": "Kill",
+					"EventValues": {
+						"RepositoryId": "d3959196-6be0-43ea-b6e7-aafa70824748"
+					}
+				}
+			}
+		],
+		"GameDifficulties": [
+			{
+				"Difficulty": "easy",
+				"Bricks": []
+			},
+			{
+				"Difficulty": "normal",
+				"Bricks": []
+			},
+			{
+				"Difficulty": "hard",
+				"Bricks": []
+			}
+		],
+		"Bricks": [],
+		"DevOnlyBricks": [],
+		"Entrances": ["fb75a371-8a8a-46ca-4747-123447478db6"],
+		"GameChangers": [],
+		"GameChangerReferences": []
+	},
+	"Metadata": {
+		"Id": "179563a4-727a-4072-b354-c9fff4e8bff3",
+		"IsPublished": true,
+		"Title": "UI_SIBERIA_TITLE",
+		"Description": "DESC_SIBERIA",
+		"CodeName_Hint": "Moscow",
+		"ScenePath": "assembly:/sonsofprovidence/scene_moscow.entity",
+		"DebriefingVideo": "",
+		"GameModes": null,
+		"EngineModes": null,
+		"OpportunitiesDisabled": true,
+		"IsVersus": false,
+		"TileImage": [
+			{
+				"Mode": "singleplayer",
+				"Image": "images/sop/siberia.jpg"
+			},
+			{
+				"Mode": "multiplayer",
+				"Image": "images/sop/siberia.jpg"
+			}
+		],
+		"Location": "LOCATION_MOSCOW",
+		"LastUpdate": "2023-03-31T05:48:00.000Z",
+		"CreationTimestamp": "2023-03-31T05:48:00.000Z",
+		"CreatorUserId": "00000000-0000-0000-0000-000000000000",
+		"Type": "mission",
+		"Release": "3.3.x",
+		"Entitlements": ["H2_LEGACY_EXPANSION"]
+	},
+	"UserData": {}
+}

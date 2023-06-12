@@ -1,0 +1,43 @@
+{
+	"Data": {
+		"EnableSaving": true,
+		"Objectives": [],
+		"GameDifficulties": [
+			{
+				"Difficulty": "easy",
+				"Bricks": []
+			},
+			{
+				"Difficulty": "normal",
+				"Bricks": []
+			},
+			{
+				"Difficulty": "hard",
+				"Bricks": []
+			}
+		],
+		"Bricks": [],
+		"Entrances": ["9c111405-637e-46b7-a051-279039c533ac"],
+		"DevOnlyBricks": [],
+		"GameChangers": [],
+		"GameChangerReferences": []
+	},
+	"Metadata": {
+		"Id": "179563a4-727a-4072-b354-c9fff4e8bff2",
+		"IsPublished": true,
+		"Title": "UI_DARTMOOR_TITLE",
+		"Description": "UI_DARTMOOR_DESC",
+		"CodeName_Hint": "Dartmoor",
+		"ScenePath": "assembly:/sonsofprovidence/scene_institute.entity",
+		"TileImage": "images/locations/location_institute/tile.jpg",
+		"Location": "LOCATION_INSTITUTE",
+		"LastUpdate": "2023-03-31T05:48:00.000Z",
+		"CreationTimestamp": "2023-03-31T05:48:00.000Z",
+		"CreatorUserId": "00000000-0000-0000-0000-000000000000",
+		"Type": "mission",
+		"Release": "2.2.x",
+		"RequiredUnlockable": "ACCESS_HIT_MONGOOSE",
+		"Entitlements": ["LOCATION_ANCESTRAL"]
+	},
+	"UserData": {}
+}

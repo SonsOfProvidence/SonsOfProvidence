@@ -1,0 +1,78 @@
+{
+	"Data": {
+		"EnableSaving": true,
+		"Objectives": [
+			{
+				"Id": "6726232b-1926-4ed2-8b92-0e2c4bcd7384",
+				"Category": "primary",
+				"ObjectiveType": "setpiece",
+				"DisplayAsKillObjective": true,
+				"ForceShowOnLoadingScreen": true,
+				"IsHidden": false,
+				"BriefingName": "$($repository d3959196-6be0-43ea-b6e7-aafa70822045).Name",
+				"Image": "images/sop/sapienza_target.jpg",
+				"HUDTemplate": {
+					"display": "Eliminate Thomas Cross"
+				},
+				"BriefingText": "Eliminate Thomas Cross",
+				"Type": "statemachine",
+				"Definition": {
+					"Scope": "session",
+					"Context": {
+						"KilledActors": [],
+						"Targets": ["d3959196-6be0-43ea-b6e7-aafa70822045"]
+					},
+					"States": {
+						"Start": {
+							"Kill": [
+								{
+									"Condition": {
+										"$eq": ["$Value.RepositoryId", "d3959196-6be0-43ea-b6e7-aafa70822045"]
+									},
+									"Transition": "Success"
+								}
+							]
+						}
+					}
+				}
+			}
+		],
+		"GameDifficulties": [
+			{
+				"Difficulty": "easy",
+				"Bricks": []
+			},
+			{
+				"Difficulty": "normal",
+				"Bricks": []
+			},
+			{
+				"Difficulty": "hard",
+				"Bricks": []
+			}
+		],
+		"Entrances": ["1021798e-cec1-4747-ba33-69b7d53da888"],
+		"Bricks": [],
+		"DevOnlyBricks": [],
+		"GameChangers": [],
+		"GameChangerReferences": []
+	},
+	"Metadata": {
+		"Id": "179563a4-727a-4072-b354-c9fff4e8bff1",
+		"IsPublished": true,
+		"Title": "UI_SAPIENZA_TITLE",
+		"Description": "DESC_SAPIENZA",
+		"CodeName_Hint": "Sapienza",
+		"ScenePath": "assembly:/sonsofprovidence/scene_funeral.entity",
+		"TileImage": "images/sop/sapienza.jpg",
+		"Location": "LOCATION_GREEDY_RACCOON",
+		"LastUpdate": "2023-03-31T05:48:00.000Z",
+		"CreationTimestamp": "2023-03-31T05:48:00.000Z",
+		"CreatorUserId": "00000000-0000-0000-0000-000000000000",
+		"Type": "mission",
+		"Release": "1.1.x",
+		"RequiredUnlockable": "ACCESS_HIT_OCTOPUS",
+		"Entitlements": ["H1_LEGACY_STANDARD"]
+	},
+	"UserData": {}
+}

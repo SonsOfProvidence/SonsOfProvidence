@@ -9,10 +9,7 @@
 			"factory": "[modules:/zoutfitvariation.class].pc_entitytype",
 			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint",
 			"properties": {
-				"m_Outfit": {
-					"type": "ZRuntimeResourceID",
-					"value": { "resource": "006DF1904C5C50F8", "flag": "9F" }
-				}
+				"m_Outfit": { "type": "ZRuntimeResourceID", "value": { "resource": "006DF1904C5C50F8", "flag": "9F" } }
 			}
 		},
 		"de35203e56ae5b4f": {
@@ -65,24 +62,13 @@
 			"name": "Actor",
 			"factory": "[modules:/zcharsetcharactertype.class].pc_entitytype",
 			"blueprint": "[modules:/zcharsetcharactertype.class].pc_entityblueprint",
-			"properties": {
-				"m_aVariations": {
-					"type": "TArray<SEntityTemplateReference>",
-					"value": ["6dfb4930278b881d"]
-				}
-			}
+			"properties": { "m_aVariations": { "type": "TArray<SEntityTemplateReference>", "value": ["6dfb4930278b881d"] } }
 		},
 		"8e66319d9d20f494": {
 			"parent": "1840b730d8fc8cb8",
 			"name": "Var0",
 			"factory": "[modules:/zoutfitvariation.class].pc_entitytype",
-			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint",
-			"properties": {
-				"m_Outfit": {
-					"type": "ZRuntimeResourceID",
-					"value": { "resource": "00295990C5103987", "flag": "9F" }
-				}
-			}
+			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint"
 		}
 	},
 	"propertyOverrides": [],

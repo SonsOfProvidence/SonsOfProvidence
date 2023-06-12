@@ -13,10 +13,7 @@
 					"properties": {
 						"m_pMetaDataResource": {
 							"type": "ZRuntimeResourceID",
-							"value": {
-								"resource": "00D757C1562092CC",
-								"flag": "5F"
-							}
+							"value": { "resource": "00D757C1562092CC", "flag": "5F" }
 						}
 					}
 				}
@@ -33,10 +30,7 @@
 					"properties": {
 						"m_pMetaDataResource": {
 							"type": "ZRuntimeResourceID",
-							"value": {
-								"resource": "0087D3DCE70CFF95",
-								"flag": "5F"
-							}
+							"value": { "resource": "0087D3DCE70CFF95", "flag": "5F" }
 						}
 					}
 				}
