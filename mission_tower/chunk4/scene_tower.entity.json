@@ -2574,7 +2574,18 @@
 			"events": {
 				"OnTrue": {
 					"SetTrue": ["feed42909ab44504"],
-					"Enable": ["feed16a0aa147cf1", "feed74fb5ef379e7", "feed3e3a608616a7", "feedd0615d442b7e"]
+					"Enable": [
+						"feed16a0aa147cf1",
+						"feed74fb5ef379e7",
+						"feed3e3a608616a7",
+						"feedd0615d442b7e",
+						"feed6364c5f8c509",
+						"feed3adc01d4aeb6",
+						"feed8c26fcf8edc3",
+						"feed600d86eaf210",
+						"feedc32121c18abd",
+						"feedeb72fe9b75ce"
+					]
 				}
 			}
 		},
@@ -2743,7 +2754,7 @@
 				"RepositoryId": { "type": "ZGuid", "value": "4f252bcb-7e56-4021-a790-13a822d707c9" },
 				"m_OutfitRepositoryID": { "type": "ZGuid", "value": "d5883f9b-11af-445e-a80a-036ff424970f" },
 				"m_nOutfitVariation": { "type": "int32", "value": 0 },
-				"m_nWeaponIndex": { "type": "int32", "value": 2 },
+				"m_nWeaponIndex": { "type": "int32", "value": 1 },
 				"m_bStartEnabled": { "type": "bool", "value": false },
 				"m_aEnforcedOutfits": {
 					"type": "TArray<SEntityTemplateReference>",
@@ -2899,7 +2910,7 @@
 			"factory": "[assembly:/_pro/design/actor/dramasystem2.template?/role.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/design/actor/dramasystem2.template?/role.entitytemplate].pc_entityblueprint",
 			"properties": {
-				"m_rActorProvider": { "type": "SEntityTemplateReference", "value": "feedd0615d442b7e", "postInit": true }
+				"m_rActorProvider": { "type": "SEntityTemplateReference", "value": "feeda22ca36b4458", "postInit": true }
 			}
 		},
 		"feedf440fe180583": {
@@ -3224,6 +3235,780 @@
 				"m_bIgnoreAccidents": { "type": "bool", "value": true },
 				"m_bIgnoreDeadBodies": { "type": "bool", "value": true },
 				"m_bIgnoreWeapons": { "type": "bool", "value": true }
+			}
+		},
+		"feed69c9ed04276d": {
+			"parent": "feed615638f59b0e",
+			"name": "CHAR_Bulldog_Mercenary_5",
+			"factory": "[assembly:/templates/gameplay/ai2/actors.template?/npcactor.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/templates/gameplay/ai2/actors.template?/npcactor.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": 94 },
+						"position": { "x": -55.82911, "y": -135.09976, "z": 9.523506 }
+					}
+				},
+				"RepositoryId": { "type": "ZGuid", "value": "4f252bcb-7e56-4021-a790-13a822d707c9" },
+				"m_OutfitRepositoryID": { "type": "ZGuid", "value": "d5883f9b-11af-445e-a80a-036ff424970f" },
+				"m_nOutfitVariation": { "type": "int32", "value": 0 },
+				"m_nWeaponIndex": { "type": "int32", "value": 3 },
+				"m_bStartEnabled": { "type": "bool", "value": false },
+				"m_aEnforcedOutfits": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						{
+							"ref": "dd9b4e88665f8d63",
+							"externalScene": "[assembly:/_pro/scenes/missions/edgy/mission_fox/scenario_fox.brick].pc_entitytype"
+						}
+					]
+				},
+				"m_nOutfitCharset": { "type": "int32", "value": 0 },
+				"m_sActorName": { "type": "ZString", "value": "Malen" },
+				"m_eRequiredVoiceVariation": { "type": "EActorVoiceVariation", "value": "eAVV_FOX_THUG_M05" },
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "fffffffffffffffe", "postInit": true }
+			},
+			"subsets": { "AudioEmitters": ["fffffffffffffffe"], "Replicable": ["fffffffffffffffe"] }
+		},
+		"feede895fb074ac7": {
+			"parent": "feed69c9ed04276d",
+			"name": "DramaSituation Assault top of tower",
+			"factory": "[assembly:/_pro/design/actor/dramasystem2.template?/drama2situation.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/dramasystem2.template?/drama2situation.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_aRoles": { "type": "TArray<SEntityTemplateReference>", "value": ["feed91419e20729e"] },
+				"m_nPriority": { "type": "int32", "value": 100 },
+				"m_bTerminateOnDone": { "type": "bool", "value": false }
+			}
+		},
+		"feeda75bf34da4d8": {
+			"parent": "feede895fb074ac7",
+			"name": "DramaSituation2Proxy",
+			"factory": "[assembly:/_pro/design/actor/dramasystem2.template?/dramasituationproxy.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/dramasystem2.template?/dramasituationproxy.entitytemplate].pc_entityblueprint",
+			"properties": { "m_rOriginalDrama": { "type": "SEntityTemplateReference", "value": "feede895fb074ac7" } },
+			"events": { "OnStart": { "Start": ["feed51514b1e96fc"] } }
+		},
+		"feed91419e20729e": {
+			"parent": "feede895fb074ac7",
+			"name": "Mecenary Role",
+			"factory": "[assembly:/_pro/design/actor/dramasystem2.template?/role.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/dramasystem2.template?/role.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_rActorProvider": { "type": "SEntityTemplateReference", "value": "feed69c9ed04276d", "postInit": true }
+			}
+		},
+		"feed51514b1e96fc": {
+			"parent": "feede895fb074ac7",
+			"name": "Act_MR_Stand_Pistol Tower Perimeter",
+			"factory": "[assembly:/_pro/design/actor/acts/mr_guard.template?/act_mr_military_stand_pistol_01.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/acts/mr_guard.template?/act_mr_military_stand_pistol_01.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": { "rotation": { "x": 0, "y": 0, "z": 94 }, "position": { "x": 0, "y": 0, "z": 0 } }
+				},
+				"m_fActTimeout": { "type": "float32", "value": 1 },
+				"UnHolsterOnStart": { "type": "SEntityTemplateReference", "value": "feed5a6c25e0da68" },
+				"m_AlignRotation": { "type": "ZActBehaviorEntity.ERotationAlignment", "value": "RA_NONE" },
+				"m_MovementType": { "type": "ZActBehaviorEntity.EMovementType", "value": "MT_IGNORE_POSITION" },
+				"m_ePerceptionSensitivity": { "type": "EActorPerceptionSensitivity", "value": "APS_COMBAT" },
+				"m_pActor": { "type": "SEntityTemplateReference", "value": "feed91419e20729e", "postInit": true },
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "fffffffffffffffe", "postInit": true }
+			},
+			"events": { "OnActTimeout": { "Start": ["feed214e5d381735"] }, "OnStart": { "Set": ["feed79b3fe6116be"] } }
+		},
+		"feed862874e686b2": {
+			"parent": "feede895fb074ac7",
+			"name": "Act_MR_Stand_Pistol Tower Top Floor",
+			"factory": "[assembly:/_pro/design/actor/acts/mr_guard.template?/act_mr_military_stand_pistol_01.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/acts/mr_guard.template?/act_mr_military_stand_pistol_01.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": 130.32229064702608 },
+						"position": { "x": 0, "y": 0, "z": 0 }
+					}
+				},
+				"m_fActTimeout": { "type": "float32", "value": 1 },
+				"UnHolsterOnStart": { "type": "SEntityTemplateReference", "value": "feed5a6c25e0da68" },
+				"m_AlignRotation": { "type": "ZActBehaviorEntity.ERotationAlignment", "value": "RA_EXACT" },
+				"m_MovementType": { "type": "ZActBehaviorEntity.EMovementType", "value": "MT_IGNORE_POSITION" },
+				"m_ePerceptionSensitivity": { "type": "EActorPerceptionSensitivity", "value": "APS_COMBAT" },
+				"m_pActor": { "type": "SEntityTemplateReference", "value": "feed91419e20729e", "postInit": true },
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "fffffffffffffffe", "postInit": true }
+			},
+			"events": { "OnStart": { "Set": ["feed79b3fe6116be"] } }
+		},
+		"feed5a6c25e0da68": {
+			"parent": "feede895fb074ac7",
+			"name": "Unholster",
+			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool.entitytemplate].pc_entityblueprint",
+			"properties": { "m_bValue": { "type": "bool", "value": true } }
+		},
+		"feed214e5d381735": {
+			"parent": "feede895fb074ac7",
+			"name": "Act_MR_Guard_Pistol_Jog",
+			"factory": "[assembly:/_pro/design/actor/acts/mr_guard.template?/act_mr_guard_pistol_jog.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/acts/mr_guard.template?/act_mr_guard_pistol_jog.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": 88.73451968320197 },
+						"position": { "x": -50.11539, "y": -137.54876, "z": 25.033373 }
+					}
+				},
+				"m_fActTimeout": { "type": "float32", "value": 120 },
+				"m_pActor": { "type": "SEntityTemplateReference", "value": "feed91419e20729e", "postInit": true },
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "fffffffffffffffe", "postInit": true }
+			},
+			"events": { "OnActTimeout": { "Start": ["feed862874e686b2"] }, "OnStart": { "Set": ["feed79b3fe6116be"] } }
+		},
+		"feed79b3fe6116be": {
+			"parent": "feede895fb074ac7",
+			"name": "AIModifierActor",
+			"factory": "[modules:/zaimodifieractor.class].pc_entitytype",
+			"blueprint": "[modules:/zaimodifieractor.class].pc_entityblueprint",
+			"properties": {
+				"m_bIgnoreLockdown": { "type": "bool", "value": true },
+				"m_pActor": { "type": "SEntityTemplateReference", "value": "feed69c9ed04276d" },
+				"m_bIgnoreLowNoise": { "type": "bool", "value": true },
+				"m_bIgnoreSillyHitman": { "type": "bool", "value": true },
+				"m_bIgnoreAnnoyingHitman": { "type": "bool", "value": true },
+				"m_bIgnoreDistractions": { "type": "bool", "value": true },
+				"m_bIgnoreAccidents": { "type": "bool", "value": true },
+				"m_bIgnoreDeadBodies": { "type": "bool", "value": true },
+				"m_bIgnoreWeapons": { "type": "bool", "value": true }
+			}
+		},
+		"feed6364c5f8c509": {
+			"parent": "feedc2279b403c18",
+			"name": "ActorProxy 5",
+			"factory": "[modules:/zactorproxyentity.class].pc_entitytype",
+			"blueprint": "[modules:/zactorproxyentity.class].pc_entityblueprint",
+			"properties": {
+				"m_rActor": { "type": "SEntityTemplateReference", "value": "feed69c9ed04276d", "postInit": true }
+			}
+		},
+		"feedc45f1c702f65": {
+			"parent": "feed615638f59b0e",
+			"name": "CHAR_Bulldog_Mercenary_10",
+			"factory": "[assembly:/templates/gameplay/ai2/actors.template?/npcactor.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/templates/gameplay/ai2/actors.template?/npcactor.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": -48.73087938823724 },
+						"position": { "x": -53.686848, "y": -152.97803, "z": 6.702911 }
+					}
+				},
+				"RepositoryId": { "type": "ZGuid", "value": "4f252bcb-7e56-4021-a790-13a822d707c9" },
+				"m_OutfitRepositoryID": { "type": "ZGuid", "value": "d5883f9b-11af-445e-a80a-036ff424970f" },
+				"m_nOutfitVariation": { "type": "int32", "value": 0 },
+				"m_nWeaponIndex": { "type": "int32", "value": 3 },
+				"m_bStartEnabled": { "type": "bool", "value": false },
+				"m_aEnforcedOutfits": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						{
+							"ref": "dd9b4e88665f8d63",
+							"externalScene": "[assembly:/_pro/scenes/missions/edgy/mission_fox/scenario_fox.brick].pc_entitytype"
+						}
+					]
+				},
+				"m_nOutfitCharset": { "type": "int32", "value": 0 },
+				"m_sActorName": { "type": "ZString", "value": "Malen" },
+				"m_eRequiredVoiceVariation": { "type": "EActorVoiceVariation", "value": "eAVV_FOX_THUG_M05" },
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "fffffffffffffffe", "postInit": true }
+			},
+			"subsets": { "AudioEmitters": ["fffffffffffffffe"], "Replicable": ["fffffffffffffffe"] }
+		},
+		"feede78d9b01ee0e": {
+			"parent": "feedc45f1c702f65",
+			"name": "DramaSituation Assault top of tower",
+			"factory": "[assembly:/_pro/design/actor/dramasystem2.template?/drama2situation.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/dramasystem2.template?/drama2situation.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_aRoles": { "type": "TArray<SEntityTemplateReference>", "value": ["feedb2ba8ad31f3d"] },
+				"m_nPriority": { "type": "int32", "value": 100 },
+				"m_bTerminateOnDone": { "type": "bool", "value": false }
+			}
+		},
+		"feeda05e59a531f8": {
+			"parent": "feede78d9b01ee0e",
+			"name": "DramaSituation2Proxy",
+			"factory": "[assembly:/_pro/design/actor/dramasystem2.template?/dramasituationproxy.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/dramasystem2.template?/dramasituationproxy.entitytemplate].pc_entityblueprint",
+			"properties": { "m_rOriginalDrama": { "type": "SEntityTemplateReference", "value": "feede78d9b01ee0e" } },
+			"events": { "OnStart": { "Start": ["feed0c5b2b30476c"] } }
+		},
+		"feedb2ba8ad31f3d": {
+			"parent": "feede78d9b01ee0e",
+			"name": "Mecenary Role",
+			"factory": "[assembly:/_pro/design/actor/dramasystem2.template?/role.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/dramasystem2.template?/role.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_rActorProvider": { "type": "SEntityTemplateReference", "value": "feedc45f1c702f65", "postInit": true }
+			}
+		},
+		"feed0c5b2b30476c": {
+			"parent": "feede78d9b01ee0e",
+			"name": "Act_MR_Stand_Pistol Tower Perimeter",
+			"factory": "[assembly:/_pro/design/actor/acts/mr_guard.template?/act_mr_military_stand_pistol_01.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/acts/mr_guard.template?/act_mr_military_stand_pistol_01.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": { "rotation": { "x": 0, "y": 0, "z": 94 }, "position": { "x": 0, "y": 0, "z": 0 } }
+				},
+				"m_fActTimeout": { "type": "float32", "value": 1 },
+				"UnHolsterOnStart": { "type": "SEntityTemplateReference", "value": "feed6ee08bdcf3da" },
+				"m_AlignRotation": { "type": "ZActBehaviorEntity.ERotationAlignment", "value": "RA_NONE" },
+				"m_MovementType": { "type": "ZActBehaviorEntity.EMovementType", "value": "MT_IGNORE_POSITION" },
+				"m_ePerceptionSensitivity": { "type": "EActorPerceptionSensitivity", "value": "APS_COMBAT" },
+				"m_pActor": { "type": "SEntityTemplateReference", "value": "feedb2ba8ad31f3d", "postInit": true },
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "fffffffffffffffe", "postInit": true }
+			},
+			"events": { "OnActTimeout": { "Start": [] }, "OnStart": { "Set": ["feedbf131a5c18ef"] } }
+		},
+		"feed6ee08bdcf3da": {
+			"parent": "feede78d9b01ee0e",
+			"name": "Unholster",
+			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool.entitytemplate].pc_entityblueprint",
+			"properties": { "m_bValue": { "type": "bool", "value": true } }
+		},
+		"feedbf131a5c18ef": {
+			"parent": "feede78d9b01ee0e",
+			"name": "AIModifierActor",
+			"factory": "[modules:/zaimodifieractor.class].pc_entitytype",
+			"blueprint": "[modules:/zaimodifieractor.class].pc_entityblueprint",
+			"properties": {
+				"m_bIgnoreLockdown": { "type": "bool", "value": true },
+				"m_pActor": { "type": "SEntityTemplateReference", "value": "feedc45f1c702f65" },
+				"m_bIgnoreLowNoise": { "type": "bool", "value": true },
+				"m_bIgnoreSillyHitman": { "type": "bool", "value": true },
+				"m_bIgnoreAnnoyingHitman": { "type": "bool", "value": true },
+				"m_bIgnoreDistractions": { "type": "bool", "value": true },
+				"m_bIgnoreAccidents": { "type": "bool", "value": true },
+				"m_bIgnoreDeadBodies": { "type": "bool", "value": true },
+				"m_bIgnoreWeapons": { "type": "bool", "value": true }
+			}
+		},
+		"feed54a4ad4f086b": {
+			"parent": "feed615638f59b0e",
+			"name": "CHAR_Bulldog_Mercenary_8",
+			"factory": "[assembly:/templates/gameplay/ai2/actors.template?/npcactor.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/templates/gameplay/ai2/actors.template?/npcactor.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": -48.73087938823724 },
+						"position": { "x": -66.50646, "y": -131.73848, "z": 8.936203 }
+					}
+				},
+				"RepositoryId": { "type": "ZGuid", "value": "4f252bcb-7e56-4021-a790-13a822d707c9" },
+				"m_OutfitRepositoryID": { "type": "ZGuid", "value": "d5883f9b-11af-445e-a80a-036ff424970f" },
+				"m_nOutfitVariation": { "type": "int32", "value": 0 },
+				"m_nWeaponIndex": { "type": "int32", "value": 3 },
+				"m_bStartEnabled": { "type": "bool", "value": false },
+				"m_aEnforcedOutfits": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						{
+							"ref": "dd9b4e88665f8d63",
+							"externalScene": "[assembly:/_pro/scenes/missions/edgy/mission_fox/scenario_fox.brick].pc_entitytype"
+						}
+					]
+				},
+				"m_nOutfitCharset": { "type": "int32", "value": 0 },
+				"m_sActorName": { "type": "ZString", "value": "Malen" },
+				"m_eRequiredVoiceVariation": { "type": "EActorVoiceVariation", "value": "eAVV_FOX_THUG_M05" },
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "fffffffffffffffe", "postInit": true }
+			},
+			"subsets": { "AudioEmitters": ["fffffffffffffffe"], "Replicable": ["fffffffffffffffe"] }
+		},
+		"feed594a5d3eab93": {
+			"parent": "feed54a4ad4f086b",
+			"name": "DramaSituation Assault top of tower",
+			"factory": "[assembly:/_pro/design/actor/dramasystem2.template?/drama2situation.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/dramasystem2.template?/drama2situation.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_aRoles": { "type": "TArray<SEntityTemplateReference>", "value": ["feedca34d19ec7da"] },
+				"m_nPriority": { "type": "int32", "value": 100 },
+				"m_bTerminateOnDone": { "type": "bool", "value": false }
+			}
+		},
+		"feedbe5c957e322d": {
+			"parent": "feed594a5d3eab93",
+			"name": "DramaSituation2Proxy",
+			"factory": "[assembly:/_pro/design/actor/dramasystem2.template?/dramasituationproxy.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/dramasystem2.template?/dramasituationproxy.entitytemplate].pc_entityblueprint",
+			"properties": { "m_rOriginalDrama": { "type": "SEntityTemplateReference", "value": "feed594a5d3eab93" } },
+			"events": { "OnStart": { "Start": ["feedc870b7f95051"] } }
+		},
+		"feedca34d19ec7da": {
+			"parent": "feed594a5d3eab93",
+			"name": "Mecenary Role",
+			"factory": "[assembly:/_pro/design/actor/dramasystem2.template?/role.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/dramasystem2.template?/role.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_rActorProvider": { "type": "SEntityTemplateReference", "value": "feed54a4ad4f086b", "postInit": true }
+			}
+		},
+		"feedc870b7f95051": {
+			"parent": "feed594a5d3eab93",
+			"name": "Act_MR_Stand_Pistol Tower Perimeter",
+			"factory": "[assembly:/_pro/design/actor/acts/mr_guard.template?/act_mr_military_stand_pistol_01.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/acts/mr_guard.template?/act_mr_military_stand_pistol_01.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": { "rotation": { "x": 0, "y": 0, "z": 94 }, "position": { "x": 0, "y": 0, "z": 0 } }
+				},
+				"m_fActTimeout": { "type": "float32", "value": 1 },
+				"UnHolsterOnStart": { "type": "SEntityTemplateReference", "value": "feed596ad8a9fd22" },
+				"m_AlignRotation": { "type": "ZActBehaviorEntity.ERotationAlignment", "value": "RA_NONE" },
+				"m_MovementType": { "type": "ZActBehaviorEntity.EMovementType", "value": "MT_IGNORE_POSITION" },
+				"m_ePerceptionSensitivity": { "type": "EActorPerceptionSensitivity", "value": "APS_COMBAT" },
+				"m_pActor": { "type": "SEntityTemplateReference", "value": "feedca34d19ec7da", "postInit": true },
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "fffffffffffffffe", "postInit": true }
+			},
+			"events": { "OnActTimeout": { "Start": [] }, "OnStart": { "Set": ["feed0e36c23fb884"] } }
+		},
+		"feed596ad8a9fd22": {
+			"parent": "feed594a5d3eab93",
+			"name": "Unholster",
+			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool.entitytemplate].pc_entityblueprint",
+			"properties": { "m_bValue": { "type": "bool", "value": true } }
+		},
+		"feed0e36c23fb884": {
+			"parent": "feed594a5d3eab93",
+			"name": "AIModifierActor",
+			"factory": "[modules:/zaimodifieractor.class].pc_entitytype",
+			"blueprint": "[modules:/zaimodifieractor.class].pc_entityblueprint",
+			"properties": {
+				"m_bIgnoreLockdown": { "type": "bool", "value": true },
+				"m_pActor": { "type": "SEntityTemplateReference", "value": "feed54a4ad4f086b" },
+				"m_bIgnoreLowNoise": { "type": "bool", "value": true },
+				"m_bIgnoreSillyHitman": { "type": "bool", "value": true },
+				"m_bIgnoreAnnoyingHitman": { "type": "bool", "value": true },
+				"m_bIgnoreDistractions": { "type": "bool", "value": true },
+				"m_bIgnoreAccidents": { "type": "bool", "value": true },
+				"m_bIgnoreDeadBodies": { "type": "bool", "value": true },
+				"m_bIgnoreWeapons": { "type": "bool", "value": true }
+			}
+		},
+		"feed157474cf3e6e": {
+			"parent": "feed615638f59b0e",
+			"name": "CHAR_Bulldog_Mercenary_9",
+			"factory": "[assembly:/templates/gameplay/ai2/actors.template?/npcactor.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/templates/gameplay/ai2/actors.template?/npcactor.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": -48.73087938823724 },
+						"position": { "x": -63.38219, "y": -145.0544, "z": 6.7030416 }
+					}
+				},
+				"RepositoryId": { "type": "ZGuid", "value": "4f252bcb-7e56-4021-a790-13a822d707c9" },
+				"m_OutfitRepositoryID": { "type": "ZGuid", "value": "d5883f9b-11af-445e-a80a-036ff424970f" },
+				"m_nOutfitVariation": { "type": "int32", "value": 0 },
+				"m_nWeaponIndex": { "type": "int32", "value": 3 },
+				"m_bStartEnabled": { "type": "bool", "value": false },
+				"m_aEnforcedOutfits": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						{
+							"ref": "dd9b4e88665f8d63",
+							"externalScene": "[assembly:/_pro/scenes/missions/edgy/mission_fox/scenario_fox.brick].pc_entitytype"
+						}
+					]
+				},
+				"m_nOutfitCharset": { "type": "int32", "value": 0 },
+				"m_sActorName": { "type": "ZString", "value": "Malen" },
+				"m_eRequiredVoiceVariation": { "type": "EActorVoiceVariation", "value": "eAVV_FOX_THUG_M05" },
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "fffffffffffffffe", "postInit": true }
+			},
+			"subsets": { "AudioEmitters": ["fffffffffffffffe"], "Replicable": ["fffffffffffffffe"] }
+		},
+		"feedfbc1f609cabd": {
+			"parent": "feed157474cf3e6e",
+			"name": "DramaSituation Assault top of tower",
+			"factory": "[assembly:/_pro/design/actor/dramasystem2.template?/drama2situation.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/dramasystem2.template?/drama2situation.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_aRoles": { "type": "TArray<SEntityTemplateReference>", "value": ["feedd713ca335742"] },
+				"m_nPriority": { "type": "int32", "value": 100 },
+				"m_bTerminateOnDone": { "type": "bool", "value": false }
+			}
+		},
+		"feed0c25de093340": {
+			"parent": "feedfbc1f609cabd",
+			"name": "DramaSituation2Proxy",
+			"factory": "[assembly:/_pro/design/actor/dramasystem2.template?/dramasituationproxy.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/dramasystem2.template?/dramasituationproxy.entitytemplate].pc_entityblueprint",
+			"properties": { "m_rOriginalDrama": { "type": "SEntityTemplateReference", "value": "feedfbc1f609cabd" } },
+			"events": { "OnStart": { "Start": ["feed242a108c56b0"] } }
+		},
+		"feedd713ca335742": {
+			"parent": "feedfbc1f609cabd",
+			"name": "Mecenary Role",
+			"factory": "[assembly:/_pro/design/actor/dramasystem2.template?/role.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/dramasystem2.template?/role.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_rActorProvider": { "type": "SEntityTemplateReference", "value": "feed157474cf3e6e", "postInit": true }
+			}
+		},
+		"feed242a108c56b0": {
+			"parent": "feedfbc1f609cabd",
+			"name": "Act_MR_Stand_Pistol Tower Perimeter",
+			"factory": "[assembly:/_pro/design/actor/acts/mr_guard.template?/act_mr_military_stand_pistol_01.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/acts/mr_guard.template?/act_mr_military_stand_pistol_01.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": { "rotation": { "x": 0, "y": 0, "z": 94 }, "position": { "x": 0, "y": 0, "z": 0 } }
+				},
+				"m_fActTimeout": { "type": "float32", "value": 1 },
+				"UnHolsterOnStart": { "type": "SEntityTemplateReference", "value": "feede6a033dd78db" },
+				"m_AlignRotation": { "type": "ZActBehaviorEntity.ERotationAlignment", "value": "RA_NONE" },
+				"m_MovementType": { "type": "ZActBehaviorEntity.EMovementType", "value": "MT_IGNORE_POSITION" },
+				"m_ePerceptionSensitivity": { "type": "EActorPerceptionSensitivity", "value": "APS_COMBAT" },
+				"m_pActor": { "type": "SEntityTemplateReference", "value": "feedd713ca335742", "postInit": true },
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "fffffffffffffffe", "postInit": true }
+			},
+			"events": { "OnActTimeout": { "Start": [] }, "OnStart": { "Set": ["feed7d5c07d35c7c"] } }
+		},
+		"feede6a033dd78db": {
+			"parent": "feedfbc1f609cabd",
+			"name": "Unholster",
+			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool.entitytemplate].pc_entityblueprint",
+			"properties": { "m_bValue": { "type": "bool", "value": true } }
+		},
+		"feed7d5c07d35c7c": {
+			"parent": "feedfbc1f609cabd",
+			"name": "AIModifierActor",
+			"factory": "[modules:/zaimodifieractor.class].pc_entitytype",
+			"blueprint": "[modules:/zaimodifieractor.class].pc_entityblueprint",
+			"properties": {
+				"m_bIgnoreLockdown": { "type": "bool", "value": true },
+				"m_pActor": { "type": "SEntityTemplateReference", "value": "feed157474cf3e6e" },
+				"m_bIgnoreLowNoise": { "type": "bool", "value": true },
+				"m_bIgnoreSillyHitman": { "type": "bool", "value": true },
+				"m_bIgnoreAnnoyingHitman": { "type": "bool", "value": true },
+				"m_bIgnoreDistractions": { "type": "bool", "value": true },
+				"m_bIgnoreAccidents": { "type": "bool", "value": true },
+				"m_bIgnoreDeadBodies": { "type": "bool", "value": true },
+				"m_bIgnoreWeapons": { "type": "bool", "value": true }
+			}
+		},
+		"feed39ce82c1d85a": {
+			"parent": "feed615638f59b0e",
+			"name": "CHAR_Bulldog_Mercenary_6",
+			"factory": "[assembly:/templates/gameplay/ai2/actors.template?/npcactor.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/templates/gameplay/ai2/actors.template?/npcactor.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": 94 },
+						"position": { "x": -55.82911, "y": -135.09976, "z": 9.523506 }
+					}
+				},
+				"RepositoryId": { "type": "ZGuid", "value": "4f252bcb-7e56-4021-a790-13a822d707c9" },
+				"m_OutfitRepositoryID": { "type": "ZGuid", "value": "d5883f9b-11af-445e-a80a-036ff424970f" },
+				"m_nOutfitVariation": { "type": "int32", "value": 0 },
+				"m_nWeaponIndex": { "type": "int32", "value": 3 },
+				"m_bStartEnabled": { "type": "bool", "value": false },
+				"m_aEnforcedOutfits": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						{
+							"ref": "dd9b4e88665f8d63",
+							"externalScene": "[assembly:/_pro/scenes/missions/edgy/mission_fox/scenario_fox.brick].pc_entitytype"
+						}
+					]
+				},
+				"m_nOutfitCharset": { "type": "int32", "value": 0 },
+				"m_sActorName": { "type": "ZString", "value": "Malen" },
+				"m_eRequiredVoiceVariation": { "type": "EActorVoiceVariation", "value": "eAVV_FOX_THUG_M05" },
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "fffffffffffffffe", "postInit": true }
+			},
+			"subsets": { "AudioEmitters": ["fffffffffffffffe"], "Replicable": ["fffffffffffffffe"] }
+		},
+		"feed103f3e9c942c": {
+			"parent": "feed39ce82c1d85a",
+			"name": "DramaSituation Assault top of tower",
+			"factory": "[assembly:/_pro/design/actor/dramasystem2.template?/drama2situation.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/dramasystem2.template?/drama2situation.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_aRoles": { "type": "TArray<SEntityTemplateReference>", "value": ["feed60e884b80996"] },
+				"m_nPriority": { "type": "int32", "value": 100 },
+				"m_bTerminateOnDone": { "type": "bool", "value": false }
+			}
+		},
+		"feed23179323306e": {
+			"parent": "feed103f3e9c942c",
+			"name": "DramaSituation2Proxy",
+			"factory": "[assembly:/_pro/design/actor/dramasystem2.template?/dramasituationproxy.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/dramasystem2.template?/dramasituationproxy.entitytemplate].pc_entityblueprint",
+			"properties": { "m_rOriginalDrama": { "type": "SEntityTemplateReference", "value": "feed103f3e9c942c" } },
+			"events": { "OnStart": { "Start": ["feed0e02fcfd4563"] } }
+		},
+		"feed60e884b80996": {
+			"parent": "feed103f3e9c942c",
+			"name": "Mecenary Role",
+			"factory": "[assembly:/_pro/design/actor/dramasystem2.template?/role.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/dramasystem2.template?/role.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_rActorProvider": { "type": "SEntityTemplateReference", "value": "feed39ce82c1d85a", "postInit": true }
+			}
+		},
+		"feed0e02fcfd4563": {
+			"parent": "feed103f3e9c942c",
+			"name": "Act_MR_Stand_Pistol Tower Perimeter",
+			"factory": "[assembly:/_pro/design/actor/acts/mr_guard.template?/act_mr_military_stand_pistol_01.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/acts/mr_guard.template?/act_mr_military_stand_pistol_01.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": { "rotation": { "x": 0, "y": 0, "z": 94 }, "position": { "x": 0, "y": 0, "z": 0 } }
+				},
+				"m_fActTimeout": { "type": "float32", "value": 1 },
+				"UnHolsterOnStart": { "type": "SEntityTemplateReference", "value": "feed5ed98ad2d2f4" },
+				"m_AlignRotation": { "type": "ZActBehaviorEntity.ERotationAlignment", "value": "RA_NONE" },
+				"m_MovementType": { "type": "ZActBehaviorEntity.EMovementType", "value": "MT_IGNORE_POSITION" },
+				"m_ePerceptionSensitivity": { "type": "EActorPerceptionSensitivity", "value": "APS_COMBAT" },
+				"m_pActor": { "type": "SEntityTemplateReference", "value": "feed60e884b80996", "postInit": true },
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "fffffffffffffffe", "postInit": true }
+			},
+			"events": { "OnActTimeout": { "Start": ["feede10e32c46970"] }, "OnStart": { "Set": ["feedac5fd8358e64"] } }
+		},
+		"feed6c4d964021ea": {
+			"parent": "feed103f3e9c942c",
+			"name": "Act_MR_Stand_Pistol Tower Top Floor",
+			"factory": "[assembly:/_pro/design/actor/acts/mr_guard.template?/act_mr_military_stand_pistol_01.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/acts/mr_guard.template?/act_mr_military_stand_pistol_01.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": 130.32229064702608 },
+						"position": { "x": 0, "y": 0, "z": 0 }
+					}
+				},
+				"m_fActTimeout": { "type": "float32", "value": 1 },
+				"UnHolsterOnStart": { "type": "SEntityTemplateReference", "value": "feed5ed98ad2d2f4" },
+				"m_AlignRotation": { "type": "ZActBehaviorEntity.ERotationAlignment", "value": "RA_EXACT" },
+				"m_MovementType": { "type": "ZActBehaviorEntity.EMovementType", "value": "MT_IGNORE_POSITION" },
+				"m_ePerceptionSensitivity": { "type": "EActorPerceptionSensitivity", "value": "APS_COMBAT" },
+				"m_pActor": { "type": "SEntityTemplateReference", "value": "feed60e884b80996", "postInit": true },
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "fffffffffffffffe", "postInit": true }
+			},
+			"events": { "OnStart": { "Set": ["feedac5fd8358e64"] } }
+		},
+		"feed5ed98ad2d2f4": {
+			"parent": "feed103f3e9c942c",
+			"name": "Unholster",
+			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool.entitytemplate].pc_entityblueprint",
+			"properties": { "m_bValue": { "type": "bool", "value": true } }
+		},
+		"feede10e32c46970": {
+			"parent": "feed103f3e9c942c",
+			"name": "Act_MR_Guard_Pistol_Jog",
+			"factory": "[assembly:/_pro/design/actor/acts/mr_guard.template?/act_mr_guard_pistol_jog.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/acts/mr_guard.template?/act_mr_guard_pistol_jog.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": 159.24342895150275 },
+						"position": { "x": -46.362976, "y": -142.9882, "z": 23.33862 }
+					}
+				},
+				"m_fActTimeout": { "type": "float32", "value": 120 },
+				"m_pActor": { "type": "SEntityTemplateReference", "value": "feed60e884b80996", "postInit": true },
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "fffffffffffffffe", "postInit": true }
+			},
+			"events": { "OnActTimeout": { "Start": ["feed6c4d964021ea"] }, "OnStart": { "Set": ["feedac5fd8358e64"] } }
+		},
+		"feedac5fd8358e64": {
+			"parent": "feed103f3e9c942c",
+			"name": "AIModifierActor",
+			"factory": "[modules:/zaimodifieractor.class].pc_entitytype",
+			"blueprint": "[modules:/zaimodifieractor.class].pc_entityblueprint",
+			"properties": {
+				"m_bIgnoreLockdown": { "type": "bool", "value": true },
+				"m_pActor": { "type": "SEntityTemplateReference", "value": "feed39ce82c1d85a" },
+				"m_bIgnoreLowNoise": { "type": "bool", "value": true },
+				"m_bIgnoreSillyHitman": { "type": "bool", "value": true },
+				"m_bIgnoreAnnoyingHitman": { "type": "bool", "value": true },
+				"m_bIgnoreDistractions": { "type": "bool", "value": true },
+				"m_bIgnoreAccidents": { "type": "bool", "value": true },
+				"m_bIgnoreDeadBodies": { "type": "bool", "value": true },
+				"m_bIgnoreWeapons": { "type": "bool", "value": true }
+			}
+		},
+		"feed50eb38310a6b": {
+			"parent": "feed615638f59b0e",
+			"name": "CHAR_Bulldog_Mercenary_7",
+			"factory": "[assembly:/templates/gameplay/ai2/actors.template?/npcactor.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/templates/gameplay/ai2/actors.template?/npcactor.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": -48.73087938823724 },
+						"position": { "x": -66.29346, "y": -125.91082, "z": 9.819464 }
+					}
+				},
+				"RepositoryId": { "type": "ZGuid", "value": "4f252bcb-7e56-4021-a790-13a822d707c9" },
+				"m_OutfitRepositoryID": { "type": "ZGuid", "value": "d5883f9b-11af-445e-a80a-036ff424970f" },
+				"m_nOutfitVariation": { "type": "int32", "value": 0 },
+				"m_nWeaponIndex": { "type": "int32", "value": 3 },
+				"m_bStartEnabled": { "type": "bool", "value": false },
+				"m_aEnforcedOutfits": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						{
+							"ref": "dd9b4e88665f8d63",
+							"externalScene": "[assembly:/_pro/scenes/missions/edgy/mission_fox/scenario_fox.brick].pc_entitytype"
+						}
+					]
+				},
+				"m_nOutfitCharset": { "type": "int32", "value": 0 },
+				"m_sActorName": { "type": "ZString", "value": "Malen" },
+				"m_eRequiredVoiceVariation": { "type": "EActorVoiceVariation", "value": "eAVV_FOX_THUG_M05" },
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "fffffffffffffffe", "postInit": true }
+			},
+			"subsets": { "AudioEmitters": ["fffffffffffffffe"], "Replicable": ["fffffffffffffffe"] }
+		},
+		"feed3b75d1a3cf2d": {
+			"parent": "feed50eb38310a6b",
+			"name": "DramaSituation Assault top of tower",
+			"factory": "[assembly:/_pro/design/actor/dramasystem2.template?/drama2situation.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/dramasystem2.template?/drama2situation.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_aRoles": { "type": "TArray<SEntityTemplateReference>", "value": ["feedf8e2d80d1235"] },
+				"m_nPriority": { "type": "int32", "value": 100 },
+				"m_bTerminateOnDone": { "type": "bool", "value": false }
+			}
+		},
+		"feedc297e9a6d96d": {
+			"parent": "feed3b75d1a3cf2d",
+			"name": "DramaSituation2Proxy",
+			"factory": "[assembly:/_pro/design/actor/dramasystem2.template?/dramasituationproxy.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/dramasystem2.template?/dramasituationproxy.entitytemplate].pc_entityblueprint",
+			"properties": { "m_rOriginalDrama": { "type": "SEntityTemplateReference", "value": "feed3b75d1a3cf2d" } },
+			"events": { "OnStart": { "Start": ["feed94ff7a8bb62e"] } }
+		},
+		"feedf8e2d80d1235": {
+			"parent": "feed3b75d1a3cf2d",
+			"name": "Mecenary Role",
+			"factory": "[assembly:/_pro/design/actor/dramasystem2.template?/role.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/dramasystem2.template?/role.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_rActorProvider": { "type": "SEntityTemplateReference", "value": "feed50eb38310a6b", "postInit": true }
+			}
+		},
+		"feed94ff7a8bb62e": {
+			"parent": "feed3b75d1a3cf2d",
+			"name": "Act_MR_Stand_Pistol Tower Perimeter",
+			"factory": "[assembly:/_pro/design/actor/acts/mr_guard.template?/act_mr_military_stand_pistol_01.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/acts/mr_guard.template?/act_mr_military_stand_pistol_01.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": { "rotation": { "x": 0, "y": 0, "z": 94 }, "position": { "x": 0, "y": 0, "z": 0 } }
+				},
+				"m_fActTimeout": { "type": "float32", "value": 1 },
+				"UnHolsterOnStart": { "type": "SEntityTemplateReference", "value": "feed7b4d0fb325df" },
+				"m_AlignRotation": { "type": "ZActBehaviorEntity.ERotationAlignment", "value": "RA_NONE" },
+				"m_MovementType": { "type": "ZActBehaviorEntity.EMovementType", "value": "MT_IGNORE_POSITION" },
+				"m_ePerceptionSensitivity": { "type": "EActorPerceptionSensitivity", "value": "APS_COMBAT" },
+				"m_pActor": { "type": "SEntityTemplateReference", "value": "feedf8e2d80d1235", "postInit": true },
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "fffffffffffffffe", "postInit": true }
+			},
+			"events": { "OnActTimeout": { "Start": [] }, "OnStart": { "Set": ["feed5c5ed9c80112"] } }
+		},
+		"feed7b4d0fb325df": {
+			"parent": "feed3b75d1a3cf2d",
+			"name": "Unholster",
+			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool.entitytemplate].pc_entityblueprint",
+			"properties": { "m_bValue": { "type": "bool", "value": true } }
+		},
+		"feed5c5ed9c80112": {
+			"parent": "feed3b75d1a3cf2d",
+			"name": "AIModifierActor",
+			"factory": "[modules:/zaimodifieractor.class].pc_entitytype",
+			"blueprint": "[modules:/zaimodifieractor.class].pc_entityblueprint",
+			"properties": {
+				"m_bIgnoreLockdown": { "type": "bool", "value": true },
+				"m_pActor": { "type": "SEntityTemplateReference", "value": "feed50eb38310a6b" },
+				"m_bIgnoreLowNoise": { "type": "bool", "value": true },
+				"m_bIgnoreSillyHitman": { "type": "bool", "value": true },
+				"m_bIgnoreAnnoyingHitman": { "type": "bool", "value": true },
+				"m_bIgnoreDistractions": { "type": "bool", "value": true },
+				"m_bIgnoreAccidents": { "type": "bool", "value": true },
+				"m_bIgnoreDeadBodies": { "type": "bool", "value": true },
+				"m_bIgnoreWeapons": { "type": "bool", "value": true }
+			}
+		},
+		"feed600d86eaf210": {
+			"parent": "feedc2279b403c18",
+			"name": "ActorProxy 8",
+			"factory": "[modules:/zactorproxyentity.class].pc_entitytype",
+			"blueprint": "[modules:/zactorproxyentity.class].pc_entityblueprint",
+			"properties": {
+				"m_rActor": { "type": "SEntityTemplateReference", "value": "feed54a4ad4f086b", "postInit": true }
+			}
+		},
+		"feed3adc01d4aeb6": {
+			"parent": "feedc2279b403c18",
+			"name": "ActorProxy 6",
+			"factory": "[modules:/zactorproxyentity.class].pc_entitytype",
+			"blueprint": "[modules:/zactorproxyentity.class].pc_entityblueprint",
+			"properties": {
+				"m_rActor": { "type": "SEntityTemplateReference", "value": "feed39ce82c1d85a", "postInit": true }
+			}
+		},
+		"feedc32121c18abd": {
+			"parent": "feedc2279b403c18",
+			"name": "ActorProxy 9",
+			"factory": "[modules:/zactorproxyentity.class].pc_entitytype",
+			"blueprint": "[modules:/zactorproxyentity.class].pc_entityblueprint",
+			"properties": {
+				"m_rActor": { "type": "SEntityTemplateReference", "value": "feed157474cf3e6e", "postInit": true }
+			}
+		},
+		"feed8c26fcf8edc3": {
+			"parent": "feedc2279b403c18",
+			"name": "ActorProxy 7",
+			"factory": "[modules:/zactorproxyentity.class].pc_entitytype",
+			"blueprint": "[modules:/zactorproxyentity.class].pc_entityblueprint",
+			"properties": {
+				"m_rActor": { "type": "SEntityTemplateReference", "value": "feed50eb38310a6b", "postInit": true }
+			}
+		},
+		"feedeb72fe9b75ce": {
+			"parent": "feedc2279b403c18",
+			"name": "ActorProxy 10",
+			"factory": "[modules:/zactorproxyentity.class].pc_entitytype",
+			"blueprint": "[modules:/zactorproxyentity.class].pc_entityblueprint",
+			"properties": {
+				"m_rActor": { "type": "SEntityTemplateReference", "value": "feedc45f1c702f65", "postInit": true }
 			}
 		}
 	},

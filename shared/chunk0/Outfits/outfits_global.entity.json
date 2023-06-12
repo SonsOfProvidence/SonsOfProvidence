@@ -485,21 +485,21 @@
 			"name": "ItemKey__Grenade_ Flash 1",
 			"factory": "[modules:/zitemrepositorykeyentity.class].pc_entitytype",
 			"blueprint": "[modules:/zitemrepositorykeyentity.class].pc_entityblueprint",
-			"properties": { "m_RepositoryId": { "type": "ZGuid", "value": "de3b92ee-864d-491e-9595-b110e8a8aae0" } }
+			"properties": { "m_RepositoryId": { "type": "ZGuid", "value": "042fae7b-fe9e-4a83-ac7b-5c914a71b2ca" } }
 		},
 		"feedd630ad859816": {
 			"parent": "feed89698b603122",
 			"name": "ItemKey__AR_ _NPC_ Fusil G1_4_C",
 			"factory": "[modules:/zitemrepositorykeyentity.class].pc_entitytype",
 			"blueprint": "[modules:/zitemrepositorykeyentity.class].pc_entityblueprint",
-			"properties": { "m_RepositoryId": { "type": "ZGuid", "value": "506e4cc9-43e0-41bc-b85e-d14779f313b7" } }
+			"properties": { "m_RepositoryId": { "type": "ZGuid", "value": "6b93848c-8f1d-42eb-816f-bab61b56d8a5" } }
 		},
 		"feedf4bfb8d9e5ec": {
 			"parent": "feed89698b603122",
 			"name": "ItemKey__SMG_ _NPC_ HX_10",
 			"factory": "[modules:/zitemrepositorykeyentity.class].pc_entitytype",
 			"blueprint": "[modules:/zitemrepositorykeyentity.class].pc_entityblueprint",
-			"properties": { "m_RepositoryId": { "type": "ZGuid", "value": "4abe19e7-fea7-4892-8ccf-6b7d05895b3f" } }
+			"properties": { "m_RepositoryId": { "type": "ZGuid", "value": "e206ed81-0559-4289-9fec-e6a3e9d4ee7c" } }
 		},
 		"feede42c60b8d1f5": {
 			"parent": "feed89698b603122",
