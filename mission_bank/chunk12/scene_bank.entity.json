@@ -171,12 +171,6 @@
 			"blueprint": "[modules:/zentity.class].pc_entityblueprint",
 			"factory": "[modules:/zentity.class].pc_entitytype"
 		},
-		"abcd0b045d13d43f": {
-			"parent": "abcd85cba5ab5afa",
-			"name": "100_Bank",
-			"blueprint": "[modules:/zentity.class].pc_entityblueprint",
-			"factory": "[modules:/zentity.class].pc_entitytype"
-		},
 		"abcdfa9777639270": {
 			"parent": "abcd5e509cf0ca65",
 			"name": "Agency Pickups",
@@ -830,8 +824,8 @@
 			}
 		},
 		"feeda0e1f43c4fa0": {
-			"parent": "abcd0b045d13d43f",
-			"name": "100_Bank",
+			"parent": "abcd85cba5ab5afa",
+			"name": "100_Cemetery",
 			"factory": "[modules:/zroomentity.class].pc_entitytype",
 			"blueprint": "[modules:/zroomentity.class].pc_entityblueprint",
 			"properties": {
@@ -841,27 +835,39 @@
 				},
 				"m_vRoomMin": {
 					"type": "SVector3",
-					"value": { "x": -8781.51953125, "y": -11566.599609375, "z": -3673.81005859375 }
+					"value": { "x": -348.2919921875, "y": -459.4100036621094, "z": -99.04180145263672 }
 				},
-				"m_vRoomMax": {
-					"type": "SVector3",
-					"value": { "x": 5560.43017578125, "y": 3479.610107421875, "z": 3762.580078125 }
-				},
-				"m_bGlobalLightOverrideEnable": { "type": "bool", "value": false },
+				"m_vRoomMax": { "type": "SVector3", "value": { "x": 386.91900634765625, "y": 297.5169982910156, "z": 200 } },
+				"m_bGlobalLightOverrideEnable": { "type": "bool", "value": true },
 				"m_bOutside": { "type": "bool", "value": true },
-				"m_bCSMRoom": { "type": "bool", "value": false },
+				"m_bCSMRoom": { "type": "bool", "value": true },
 				"m_bContainsCrowd": { "type": "bool", "value": true },
-				"m_fGlobalLightOverrideFrontIntensity": { "type": "float32", "value": 50 },
-				"m_fGlobalLightOverrideBackIntensity": { "type": "float32", "value": 50 },
-				"m_GlobalLightOverrideFrontColor": { "type": "SColorRGB", "value": "#8cbcff" },
-				"m_GlobalLightOverrideBackColor": { "type": "SColorRGB", "value": "#82a8ff" },
-				"m_bOutsideMaster": { "type": "bool", "value": false },
-				"m_vGlobalLightOverrideDirection": { "type": "SVector3", "value": { "x": 0.5, "y": 1, "z": 1 } },
-				"m_bLuminanceOverrideEnable": { "type": "bool", "value": false },
-				"m_Clients": { "type": "TArray<SEntityTemplateReference>", "value": [] },
+				"m_fGlobalLightOverrideFrontIntensity": { "type": "float32", "value": 20 },
+				"m_fGlobalLightOverrideBackIntensity": { "type": "float32", "value": 0 },
+				"m_GlobalLightOverrideBackColor": { "type": "SColorRGB", "value": "#badeff" },
+				"m_GlobalLightOverrideFrontColor": { "type": "SColorRGB", "value": "#c7e6ff" },
+				"m_bOutsideMaster": { "type": "bool", "value": true },
+				"m_fMiddleGrayMultiplier": { "type": "float32", "value": 1 },
+				"m_PostfilterParametersID": { "type": "int32", "value": -1 },
 				"m_eidParent": { "type": "SEntityTemplateReference", "value": "fffffffffffffffe" }
 			},
 			"subsets": { "Rooms": ["fffffffffffffffe"] }
+		},
+		"feed58d5fb0f1e13": {
+			"parent": "feeda0e1f43c4fa0",
+			"name": "raccoon_city_block_a_01",
+			"factory": "[assembly:/_pro/environment/geometry/levels/raccoon/raccoon_city_blocks_a.wl2?/raccoon_city_block_a.prim].pc_entitytype",
+			"blueprint": "[assembly:/templates/geometrytemplatestaticcoll.template?/geomentity01.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": 89.999995674289 },
+						"position": { "x": 38.499977, "y": 183.80594, "z": 4.5084686 }
+					}
+				},
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "feeda0e1f43c4fa0", "postInit": true }
+			}
 		}
 	},
 	"propertyOverrides": [],
@@ -1120,6 +1126,42 @@
 		},
 		{
 			"ref": "1ae3c201e99315f3",
+			"externalScene": "[assembly:/_pro/scenes/missions/greedy/mission_raccoon/scenario_raccoon.brick].pc_entitytype"
+		},
+		{
+			"ref": "70f840eb756f39fe",
+			"externalScene": "[assembly:/_pro/scenes/missions/greedy/mission_raccoon/scenario_raccoon.brick].pc_entitytype"
+		},
+		{
+			"ref": "ccc8f78f289470ed",
+			"externalScene": "[assembly:/_pro/scenes/missions/greedy/mission_raccoon/scenario_raccoon.brick].pc_entitytype"
+		},
+		{
+			"ref": "1be44b2d07741b1e",
+			"externalScene": "[assembly:/_pro/scenes/missions/greedy/mission_raccoon/scenario_raccoon.brick].pc_entitytype"
+		},
+		{
+			"ref": "6d0af729829256ce",
+			"externalScene": "[assembly:/_pro/scenes/missions/greedy/mission_raccoon/scenario_raccoon.brick].pc_entitytype"
+		},
+		{
+			"ref": "d6c282d033625d29",
+			"externalScene": "[assembly:/_pro/scenes/missions/greedy/mission_raccoon/scenario_raccoon.brick].pc_entitytype"
+		},
+		{
+			"ref": "ea21454780bcbe23",
+			"externalScene": "[assembly:/_pro/scenes/missions/greedy/mission_raccoon/scenario_raccoon.brick].pc_entitytype"
+		},
+		{
+			"ref": "a1d26c6218d773fb",
+			"externalScene": "[assembly:/_pro/scenes/missions/greedy/mission_raccoon/scenario_raccoon.brick].pc_entitytype"
+		},
+		{
+			"ref": "28dc2da94f0b9139",
+			"externalScene": "[assembly:/_pro/scenes/missions/greedy/mission_raccoon/scenario_raccoon.brick].pc_entitytype"
+		},
+		{
+			"ref": "daa8c59f72b8c579",
 			"externalScene": "[assembly:/_pro/scenes/missions/greedy/mission_raccoon/scenario_raccoon.brick].pc_entitytype"
 		}
 	],
