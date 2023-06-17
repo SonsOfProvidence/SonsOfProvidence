@@ -1,0 +1,91 @@
+{
+	"tempHash": "00562C638AE2F297",
+	"tbluHash": "0000803C387ADE8F",
+	"rootEntity": "fffffffffffffffe",
+	"entities": {
+		"fffffffffffffffe": {
+			"parent": null,
+			"name": "Scene",
+			"blueprint": "[modules:/zspatialentity.class].pc_entityblueprint",
+			"factory": "[modules:/zspatialentity.class].pc_entitytype"
+		},
+		"feed1a2830b91bcf": {
+			"parent": "fffffffffffffffe",
+			"name": "Thomas Cross",
+			"factory": "[modules:/zglobaloutfitkit.class].pc_entitytype",
+			"blueprint": "[modules:/zglobaloutfitkit.class].pc_entityblueprint",
+			"properties": {
+				"m_DamageMultipliers": {
+					"type": "SBodyPartDamageMultipliers",
+					"value": {
+						"m_fHeadDamageMultiplier": 3,
+						"m_fFaceDamageMultiplier": 3,
+						"m_fArmDamageMultiplier": 1,
+						"m_fLArmDamageScalar": 0,
+						"m_fRArmDamageScalar": 0,
+						"m_fHandDamageMultiplier": 0.5,
+						"m_fLHandDamageScalar": 0,
+						"m_fRHandDamageScalar": 0,
+						"m_fLegDamageMultiplier": 0.6000000238418579,
+						"m_fLLegDamageScalar": 0,
+						"m_fRLegDamageScalar": 0,
+						"m_fTorsoDamageMultiplier": 1,
+						"m_bApplyLeftRightScalars": false
+					}
+				},
+				"m_eActorType": { "type": "EActorType", "value": "eAT_Civilian" },
+				"m_eActorCCClass": { "type": "EActorCCPreset", "value": "ACCP_CivilianeMale" },
+				"m_bHeroDisguiseAvailable": { "type": "bool", "value": false },
+				"m_eSoundFootwearType": { "type": "EHM5SoundFootwearType", "value": "EFWT_LEATHER" },
+				"m_aCharSets": { "type": "TArray<SEntityTemplateReference>", "value": ["feedbaa5f0bc7d19"] },
+				"m_sId": { "type": "ZGuid", "value": "d3bdbcfe-4747-4774-a642-17daa98a7f69" },
+				"m_pParentOutfit": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "6736fcbbd3e73209",
+						"externalScene": "[assembly:/_pro/scenes/bricks/globaldata.brick].pc_entitytype"
+					}
+				},
+				"m_sCommonName": { "type": "ZString", "value": "Thomas Cross" },
+				"m_sTitle": { "type": "ZString", "value": "Thomas Cross" },
+				"m_eOutfitAICategory": { "type": "EOutfitAICategory", "value": "OAC_YachtCrew" },
+				"m_rNameTextResource": { "type": "ZRuntimeResourceID", "value": "005E15D04866982C" },
+				"m_rDescriptionTextResource": { "type": "ZRuntimeResourceID", "value": "003FF8408EDE9C46" }
+			}
+		},
+		"feedbaa5f0bc7d19": {
+			"parent": "feed1a2830b91bcf",
+			"name": "CHARSET_ThomasCross",
+			"blueprint": "00BCD3F0CCFDA5BF",
+			"factory": "0007D9A3A121CFBD"
+		},
+		"feed7672e4d1ccc5": {
+			"parent": "feed1a2830b91bcf",
+			"name": "Keyword_Prof_Class_Default",
+			"blueprint": "00B0282A41C1CF2E",
+			"properties": {
+				"m_aHolders": { "type": "TArray<SEntityTemplateReference>", "value": ["feed1a2830b91bcf"], "postInit": true }
+			},
+			"factory": "007A51A2AFEC0D1A"
+		},
+		"feed54883e04f0d9": {
+			"parent": "feed1a2830b91bcf",
+			"name": "KeywordEntity_FOLEY_OUTFIT_NAKED",
+			"blueprint": "[assembly:/_pro/design/gamecore/keywords/keywordsound.template?/keywordentity_foley_outfit_naked.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_rHolder": { "type": "SEntityTemplateReference", "value": "feed1a2830b91bcf", "postInit": true }
+			},
+			"factory": "[assembly:/_pro/design/gamecore/keywords/keywordsound.template?/keywordentity_foley_outfit_naked.entitytemplate].pc_entitytype"
+		}
+	},
+	"propertyOverrides": [],
+	"overrideDeletes": [],
+	"pinConnectionOverrides": [],
+	"pinConnectionOverrideDeletes": [],
+	"externalScenes": ["[assembly:/_pro/scenes/bricks/globaldata.brick].pc_entitytype"],
+	"subType": "brick",
+	"quickEntityVersion": 3.1,
+	"extraFactoryDependencies": [],
+	"extraBlueprintDependencies": [],
+	"comments": []
+}

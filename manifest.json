@@ -295,8 +295,8 @@
 		},
 		{
 			"type": "entity",
-			"partition": "coastaltown",
-			"path": "[assembly:/sonsofprovidence/outfits_funeral.entity].entitytype"
+			"partition": "greedy",
+			"path": "[assembly:/sonsofprovidence/funeral/funeral_outfits.brick].pc_entitytype"
 		},
 		{
 			"type": "entity",
@@ -339,7 +339,9 @@
 		"00153E8EFEAC13C1": "UI_TOKEN_OUTFIT_LUCAS_GREY_RELAXED_NAME",
 		"00271C5114820996": "UI_TOKEN_OUTFIT_LUCAS_GREY_RELAXED_DESC",
 		"003121C47E69C366": "UI_TOKEN_OUTFIT_LUCAS_GREY_BALD_NAME",
-		"00A12E5B52CD0D41": "UI_TOKEN_OUTFIT_LUCAS_GREY_BALD_DESC"
+		"00A12E5B52CD0D41": "UI_TOKEN_OUTFIT_LUCAS_GREY_BALD_DESC",
+		"005E15D04866982C": "NPC_THOMAS_CROSS_NAME",
+		"003FF8408EDE9C46": "NPC_THOMAS_CROSS_DESC"
 	},
 	"localisation": {
 		"english": {
@@ -418,7 +420,9 @@
 			"ui_location_dartmoor_field_hq_city": "Dartmoor Field HQ",
 			"ui_location_dartmoor_field_hq_title": "Isolating Madame Carlisle",
 			"ui_starting_location_newyork_garage_default_name": "Garage of Milton-Fitzpatrick Bank",
-			"ui_starting_location_newyork_garage_desc": "I've infiltrated the garage at the Milton-Fitzpatrick Bank."
+			"ui_starting_location_newyork_garage_desc": "I've infiltrated the garage at the Milton-Fitzpatrick Bank.",
+			"NPC_THOMAS_CROSS_NAME": "Thomas Cross",
+			"NPC_THOMAS_CROSS_DESC": "Thomas Cross is a reclusive business mogul and president of one of the largest companies in the world. His money could finance the mission to take down Providence."
 		}
 	},
 	"updateCheck": "https://github.com/dbierek/SonsOfProvidence/releases/latest/download/updates.json"
