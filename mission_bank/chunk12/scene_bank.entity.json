@@ -84,8 +84,14 @@
 		"abcdf6bc0632156d": {
 			"parent": "abcd249e5a2a9fca",
 			"name": "AI Reasoning Grid",
-			"blueprint": "[modules:/zentity.class].pc_entityblueprint",
-			"factory": "[modules:/zentity.class].pc_entitytype"
+			"factory": "[modules:/zreasoninggridconfigentity.class].pc_entitytype",
+			"blueprint": "[modules:/zreasoninggridconfigentity.class].pc_entityblueprint",
+			"properties": {
+				"m_pGrid": {
+					"type": "ZRuntimeResourceID",
+					"value": "[assembly:/_pro/scenes/users/notex/scene_test_scene.airg].pc_airg"
+				}
+			}
 		},
 		"abcd79e0852e4364": {
 			"parent": "abcd249e5a2a9fca",
@@ -125,9 +131,15 @@
 		},
 		"abcdeaf23812acfd": {
 			"parent": "abcd249e5a2a9fca",
-			"name": "Pathfinding",
-			"blueprint": "[modules:/zentity.class].pc_entityblueprint",
-			"factory": "[modules:/zentity.class].pc_entitytype"
+			"name": "Pathfinder Configuration",
+			"factory": "[modules:/zpathfinderconfiguration.class].pc_entitytype",
+			"blueprint": "[modules:/zpathfinderconfiguration.class].pc_entityblueprint",
+			"properties": {
+				"m_NavpowerResourceID": {
+					"type": "ZRuntimeResourceID",
+					"value": "[assembly:/_pro/scenes/users/notex/scene_test.navp].pc_navp"
+				}
+			}
 		},
 		"abcda142f2bbcd41": {
 			"parent": "abcd249e5a2a9fca",
@@ -863,7 +875,7 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": { "x": 0, "y": 0, "z": 89.999995674289 },
-						"position": { "x": 38.499977, "y": 183.80594, "z": 5.7641 }
+						"position": { "x": 38.499977, "y": 183.80594, "z": 0 }
 					}
 				},
 				"m_eidParent": { "type": "SEntityTemplateReference", "value": "feeda0e1f43c4fa0", "postInit": true }
@@ -879,7 +891,7 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": { "x": 0, "y": 0, "z": 89.999995674289 },
-						"position": { "x": 38.499977, "y": 183.80594, "z": 5.7641 }
+						"position": { "x": 38.499977, "y": 183.80594, "z": 0 }
 					}
 				},
 				"m_PrimitiveScale": { "type": "SVector3", "value": { "x": 100, "y": 186, "z": 1 } },
@@ -1127,7 +1139,7 @@
 			"properties": {
 				"m_mTransform": {
 					"type": "SMatrix43",
-					"value": { "rotation": { "x": 0, "y": 0, "z": 0 }, "position": { "x": 0, "y": 0, "z": 1.124 } }
+					"value": { "rotation": { "x": 0, "y": 0, "z": 0 }, "position": { "x": 0, "y": 0, "z": -4.6 } }
 				}
 			}
 		}
@@ -1491,6 +1503,50 @@
 		},
 		{
 			"ref": "b666e79fba58c00a",
+			"externalScene": "[assembly:/_pro/scenes/missions/greedy/mission_raccoon/scenario_raccoon.brick].pc_entitytype"
+		},
+		{
+			"ref": "3edda3782fb5b3ba",
+			"externalScene": "[assembly:/_pro/scenes/missions/greedy/mission_raccoon/scenario_raccoon.brick].pc_entitytype"
+		},
+		{
+			"ref": "8c5c1b9a23a571a6",
+			"externalScene": "[assembly:/_pro/scenes/missions/greedy/mission_raccoon/scenario_raccoon.brick].pc_entitytype"
+		},
+		{
+			"ref": "5deed34f7e2d0d3e",
+			"externalScene": "[assembly:/_pro/scenes/missions/greedy/mission_raccoon/scenario_raccoon.brick].pc_entitytype"
+		},
+		{
+			"ref": "ae939b8b3903b311",
+			"externalScene": "[assembly:/_pro/scenes/missions/greedy/mission_raccoon/scenario_raccoon.brick].pc_entitytype"
+		},
+		{
+			"ref": "d5f2459ceee20faa",
+			"externalScene": "[assembly:/_pro/scenes/missions/greedy/mission_raccoon/scenario_raccoon.brick].pc_entitytype"
+		},
+		{
+			"ref": "dc3d2a0a750cfffe",
+			"externalScene": "[assembly:/_pro/scenes/missions/greedy/mission_raccoon/scenario_raccoon.brick].pc_entitytype"
+		},
+		{
+			"ref": "7d0709365e65c934",
+			"externalScene": "[assembly:/_pro/scenes/missions/greedy/mission_raccoon/scenario_raccoon.brick].pc_entitytype"
+		},
+		{
+			"ref": "6a41ed5ee7791a59",
+			"externalScene": "[assembly:/_pro/scenes/missions/greedy/mission_raccoon/scenario_raccoon.brick].pc_entitytype"
+		},
+		{
+			"ref": "59592151182fac8f",
+			"externalScene": "[assembly:/_pro/scenes/missions/greedy/mission_raccoon/scenario_raccoon.brick].pc_entitytype"
+		},
+		{
+			"ref": "6a7863800823e0d9",
+			"externalScene": "[assembly:/_pro/scenes/missions/greedy/mission_raccoon/scenario_raccoon.brick].pc_entitytype"
+		},
+		{
+			"ref": "5b1cf68062c16bf1",
 			"externalScene": "[assembly:/_pro/scenes/missions/greedy/mission_raccoon/scenario_raccoon.brick].pc_entitytype"
 		}
 	],

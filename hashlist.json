@@ -48,6 +48,14 @@
 		"ioiString": "[assembly:/sonsofprovidence/scene_bank.entity].pc_entityblueprint"
 	},
 	{
+		"hash": "007C09F8D5F4B5C8",
+		"ioiString": "[assembly:/_pro/scenes/users/notex/scene_test.navp].pc_navp"
+	},
+	{
+		"hash": "001D7C3E42C14427",
+		"ioiString": "[assembly:/_pro/scenes/users/notex/scene_test_scene.airg].pc_airg"
+	},
+	{
 		"hash": "001A8ED7670AD41C",
 		"ioiString": "[assembly:/sonsofprovidence/airplane/outfits_airplane.brick].pc_entitytype"
 	},
