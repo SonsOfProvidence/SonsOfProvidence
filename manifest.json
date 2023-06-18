@@ -214,6 +214,30 @@
 			"toChunk": 4
 		},
 		{
+			"runtimeID": "0047F6807313DD7C",
+			"comment": "church_outside_a",
+			"portFromChunk1": true,
+			"toChunk": 12
+		},
+		{
+			"runtimeID": "00524C539E6476B4",
+			"comment": "church_outside_b",
+			"portFromChunk1": true,
+			"toChunk": 12
+		},
+		{
+			"runtimeID": "003363E027E3BB80",
+			"comment": "church_outside_c",
+			"portFromChunk1": true,
+			"toChunk": 12
+		},
+		{
+			"runtimeID": "00407C2899B7B97A",
+			"comment": "church_outside_d",
+			"portFromChunk1": true,
+			"toChunk": 12
+		},
+		{
 			"runtimeID": "00EC395364158864",
 			"comment": "m02_bulldog_exitmoment_grey_002",
 			"portFromChunk1": true,
