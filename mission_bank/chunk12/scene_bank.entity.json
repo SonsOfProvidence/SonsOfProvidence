@@ -469,7 +469,7 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": { "x": 0, "y": 0, "z": -176.75080205851123 },
-						"position": { "x": -2.849736, "y": -52.499603, "z": 4.7584686 }
+						"position": { "x": -2.849736, "y": -52.499603, "z": 5.7641 }
 					}
 				},
 				"m_sId": { "type": "ZGuid", "value": "8e2bdc62-905d-43c1-8d91-3dceb8506a77" },
@@ -863,23 +863,93 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": { "x": 0, "y": 0, "z": 89.999995674289 },
-						"position": { "x": 38.499977, "y": 183.80594, "z": 4.5084686 }
+						"position": { "x": 38.499977, "y": 183.80594, "z": 5.7641 }
 					}
 				},
 				"m_eidParent": { "type": "SEntityTemplateReference", "value": "feeda0e1f43c4fa0", "postInit": true }
 			}
 		},
-		"feedf8ca9645fca4": {
+		"feed86bf57604a08": {
+			"parent": "feeda0e1f43c4fa0",
+			"name": "skyscraper_staff_ceiling_floor_zmapped_a_03",
+			"factory": "0065E6850BB157E2",
+			"blueprint": "00B6E9D9DA6DE143",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": 89.999995674289 },
+						"position": { "x": 38.499977, "y": 183.80594, "z": 5.7641 }
+					}
+				},
+				"m_PrimitiveScale": { "type": "SVector3", "value": { "x": 100, "y": 186, "z": 1 } },
+				"m_bVisible": { "type": "bool", "value": false },
+				"m_eRoomBehaviour": { "type": "ZSpatialEntity.ERoomBehaviour", "value": "ROOM_DYNAMIC" },
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "feeda0e1f43c4fa0", "postInit": true }
+			}
+		},
+		"feed607871cdd56e": {
 			"parent": "abcde92f2c09c134",
-			"name": "Thomas Cross",
+			"name": "CHAR_Greedy_Unique_Assistant_M",
 			"factory": "[assembly:/templates/gameplay/ai2/actors.template?/npcactor.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/templates/gameplay/ai2/actors.template?/npcactor.entitytemplate].pc_entityblueprint",
 			"properties": {
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": 0, "y": 0, "z": -176.75080205851123 },
-						"position": { "x": -2.849736, "y": -52.499603, "z": 7.7584686 }
+						"rotation": { "x": 0, "y": 0, "z": -1.9112100866180395 },
+						"position": { "x": -1.9272797, "y": -50.09071, "z": 6.0141 }
+					}
+				},
+				"RepositoryId": { "type": "ZGuid", "value": "2f53c1f6-a17e-4b64-8b71-7c807255efbf" },
+				"m_OutfitRepositoryID": { "type": "ZGuid", "value": "d9d2d3e1-9992-44f9-913b-d71a9b68bf8d" },
+				"m_nOutfitVariation": { "type": "int32", "value": 0 },
+				"m_sActorName": { "type": "ZString", "value": "Tim Weimer" },
+				"m_nOutfitCharset": { "type": "int32", "value": 0 },
+				"m_eRequiredVoiceVariation": { "type": "EActorVoiceVariation", "value": "eAVV_CIVMALE08" },
+				"m_aEnforcedOutfits": { "type": "TArray<SEntityTemplateReference>", "value": [] },
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "fffffffffffffffe", "postInit": true }
+			},
+			"subsets": { "AudioEmitters": ["fffffffffffffffe"], "Replicable": ["fffffffffffffffe"] }
+		},
+		"feedb7fef140cfcf": {
+			"parent": "feed607871cdd56e",
+			"name": "Assistant is Dead",
+			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entityblueprint"
+		},
+		"feedb5a56fe49157": {
+			"parent": "feed607871cdd56e",
+			"name": "Assistant is Conscious",
+			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entityblueprint",
+			"properties": { "m_bValue": { "type": "bool", "value": true } }
+		},
+		"feed9fff218f013d": {
+			"parent": "feed607871cdd56e",
+			"name": "ActorDeath",
+			"factory": "[modules:/zactordeathentity.class].pc_entitytype",
+			"blueprint": "[modules:/zactordeathentity.class].pc_entityblueprint",
+			"properties": {
+				"m_rActor": { "type": "SEntityTemplateReference", "value": "feed607871cdd56e", "postInit": true }
+			},
+			"events": {
+				"OnDead": { "SetTrue": ["feedb7fef140cfcf"], "SetFalse": ["feedb5a56fe49157"] },
+				"OnAlive": { "SetFalse": ["feedb7fef140cfcf"], "SetTrue": ["feedb5a56fe49157"] },
+				"OnPacified": { "SetFalse": ["feedb5a56fe49157"] }
+			}
+		},
+		"feed18dd78787a98": {
+			"parent": "abcde92f2c09c134",
+			"name": "Thomas Cross CHAR_Guest_Male11",
+			"factory": "[assembly:/templates/gameplay/ai2/actors.template?/npcactor.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/templates/gameplay/ai2/actors.template?/npcactor.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": -1.9112100866180395 },
+						"position": { "x": 0, "y": -50, "z": 6.0141 }
 					}
 				},
 				"RepositoryId": { "type": "ZGuid", "value": "d3959196-6be0-43ea-b6e7-aafa70822045" },
@@ -893,74 +963,71 @@
 			},
 			"subsets": { "AudioEmitters": ["fffffffffffffffe"], "Replicable": ["fffffffffffffffe"] }
 		},
-		"feed97ba181d58d5": {
-			"parent": "feedf8ca9645fca4",
-			"name": "DramaSituation Walking to Cemetery",
+		"feed791f6eebdd4b": {
+			"parent": "feed18dd78787a98",
+			"name": "DramaSituation Walking to Church",
 			"blueprint": "00EC88C8E4442C57",
 			"properties": {
-				"m_aRoles": { "type": "TArray<SEntityTemplateReference>", "value": ["feedc76c9a06be7a"] },
+				"m_aRoles": { "type": "TArray<SEntityTemplateReference>", "value": ["feed75b22fe25448"] },
 				"m_bTerminateOnDone": { "type": "bool", "value": false }
 			},
 			"factory": "00C6B73FE00A947C"
 		},
-		"feede5876350344e": {
-			"parent": "feed97ba181d58d5",
+		"feed43261933afc9": {
+			"parent": "feed791f6eebdd4b",
 			"name": "DramaSituation2Proxy",
 			"blueprint": "00900EB78F2E0F5E",
-			"properties": { "m_rOriginalDrama": { "type": "SEntityTemplateReference", "value": "feed97ba181d58d5" } },
-			"events": { "OnStart": { "Start": ["feedafd6bd87aaef"] } },
+			"properties": { "m_rOriginalDrama": { "type": "SEntityTemplateReference", "value": "feed791f6eebdd4b" } },
+			"events": { "OnStart": { "Start": [] } },
 			"factory": "000C288A323918F9"
 		},
-		"feed6004bd0f0998": {
-			"parent": "feed97ba181d58d5",
+		"feed35cb07203c0a": {
+			"parent": "feed791f6eebdd4b",
 			"name": "Act_MR_Guard_Stand_ArmsBack",
 			"factory": "[assembly:/_pro/design/actor/acts/mr_guard.template?/act_mr_guard_stand_armsback.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/design/actor/acts/mr_guard.template?/act_mr_guard_stand_armsback.entitytemplate].pc_entityblueprint",
 			"properties": {
 				"m_mTransform": {
 					"type": "SMatrix43",
-					"value": {
-						"rotation": { "x": 0, "y": 0, "z": -176.75080205851123 },
-						"position": { "x": -1.849736, "y": -51.499603, "z": 4.7584686 }
-					}
+					"value": { "rotation": { "x": 0, "y": 0, "z": 180 }, "position": { "x": -18, "y": 22, "z": 1.34 } }
 				},
 				"m_fActTimeout": { "type": "float32", "value": 5 },
 				"m_eidParent": { "type": "SEntityTemplateReference", "value": "fffffffffffffffe", "postInit": true }
 			},
-			"events": { "OnActTimeout": { "Done": ["feedafd6bd87aaef"] } }
+			"events": { "OnActTimeout": { "Done": ["feed21efa7fda0d7"] } }
 		},
-		"feed04da024e86eb": {
-			"parent": "feed97ba181d58d5",
+		"feede0841cc2f145": {
+			"parent": "feed18dd78787a98",
 			"name": "Thomas Cross Leaning",
 			"factory": "[assembly:/_pro/design/actor/dramasystem2.template?/dramasituation.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/design/actor/dramasystem2.template?/dramasituation.entitytemplate].pc_entityblueprint",
 			"properties": {
-				"m_aRoles": { "type": "TArray<SEntityTemplateReference>", "value": ["feedc76c9a06be7a"] },
+				"m_aRoles": { "type": "TArray<SEntityTemplateReference>", "value": ["feed75b22fe25448"] },
 				"m_bTerminateOnDone": { "type": "bool", "value": false },
 				"m_eExclusionLayer": { "type": "EExclusionLayer", "value": "EL_STORY" },
 				"m_nCooldown": { "type": "float32", "value": 20 }
 			}
 		},
-		"feedc76c9a06be7a": {
-			"parent": "feed97ba181d58d5",
+		"feed75b22fe25448": {
+			"parent": "feed791f6eebdd4b",
 			"name": "Thomas Cross",
 			"factory": "[assembly:/_pro/design/actor/dramasystem2.template?/role.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/design/actor/dramasystem2.template?/role.entitytemplate].pc_entityblueprint",
 			"properties": {
-				"m_rActorProvider": { "type": "SEntityTemplateReference", "value": "feedf8ca9645fca4", "postInit": true }
+				"m_rActorProvider": { "type": "SEntityTemplateReference", "value": "feed18dd78787a98", "postInit": true }
 			}
 		},
-		"feedafd6bd87aaef": {
-			"parent": "feed97ba181d58d5",
-			"name": "Act_MR_Stand_Basic Sidewalk",
+		"feed21efa7fda0d7": {
+			"parent": "feed791f6eebdd4b",
+			"name": "Act_MR_Stand_Basic Helicopter",
 			"factory": "00251CC86224019D",
 			"blueprint": "005C75C0C3B1863A",
 			"properties": {
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": 0, "y": 0, "z": -176.75080205851123 },
-						"position": { "x": -6.849736, "y": -56.499603, "z": 4.7584686 }
+						"rotation": { "x": 0, "y": 0, "z": -3.859046208886626 },
+						"position": { "x": -18, "y": 22, "z": 1.34 }
 					}
 				},
 				"m_AlignRotation": { "type": "ZActBehaviorEntity.ERotationAlignment", "value": "RA_LOOSE" },
@@ -969,19 +1036,19 @@
 				"m_MovementType": { "type": "ZActBehaviorEntity.EMovementType", "value": "MT_WALK" },
 				"m_eidParent": { "type": "SEntityTemplateReference", "value": "fffffffffffffffe", "postInit": true }
 			},
-			"events": { "OnActTimeout": { "Start": ["feedefb5e0477b0f"] } }
+			"events": { "OnActTimeout": { "Start": ["feed104473684061"] } }
 		},
-		"feedefb5e0477b0f": {
-			"parent": "feed97ba181d58d5",
-			"name": "Act_MR_Stand_Basic Cemetery",
+		"feed104473684061": {
+			"parent": "feed791f6eebdd4b",
+			"name": "Act_MR_Stand_Basic Church",
 			"factory": "00251CC86224019D",
 			"blueprint": "005C75C0C3B1863A",
 			"properties": {
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": 0, "y": 0, "z": -176.75080205851123 },
-						"position": { "x": -10.849736, "y": -50.499603, "z": 4.7584686 }
+						"rotation": { "x": -82.9997894354563, "y": -0.00006830189170012751, "z": -49.71457689288082 },
+						"position": { "x": -48.260143, "y": 76.25902, "z": 6.4982657 }
 					}
 				},
 				"m_AlignRotation": { "type": "ZActBehaviorEntity.ERotationAlignment", "value": "RA_EXACT" },
@@ -990,19 +1057,19 @@
 				"m_MovementType": { "type": "ZActBehaviorEntity.EMovementType", "value": "MT_WALK" },
 				"m_eidParent": { "type": "SEntityTemplateReference", "value": "fffffffffffffffe", "postInit": true }
 			},
-			"events": { "OnActTimeout": { "Start": ["feed8fbd8b454591"] } }
+			"events": { "OnActTimeout": { "Start": ["feed910ddf09789b"] } }
 		},
-		"feed8fbd8b454591": {
-			"parent": "feed97ba181d58d5",
-			"name": "Act_MR_Stand_Basic Limosine",
+		"feed910ddf09789b": {
+			"parent": "feed791f6eebdd4b",
+			"name": "Act_MR_Stand_Basic Beach",
 			"factory": "00251CC86224019D",
 			"blueprint": "005C75C0C3B1863A",
 			"properties": {
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": 0, "y": 0, "z": -176.75080205851123 },
-						"position": { "x": -5.849736, "y": -52.499603, "z": 4.7584686 }
+						"rotation": { "x": 0, "y": 0, "z": 132 },
+						"position": { "x": -68.82368, "y": 124.761314, "z": 0.9946904 }
 					}
 				},
 				"m_AlignRotation": { "type": "ZActBehaviorEntity.ERotationAlignment", "value": "RA_LOOSE" },
@@ -1011,38 +1078,35 @@
 				"m_MovementType": { "type": "ZActBehaviorEntity.EMovementType", "value": "MT_WALK" },
 				"m_eidParent": { "type": "SEntityTemplateReference", "value": "fffffffffffffffe", "postInit": true }
 			},
-			"events": { "OnActTimeout": { "Done": ["feedafd6bd87aaef"] } }
+			"events": { "OnActTimeout": { "Done": ["feed21efa7fda0d7"] } }
 		},
-		"feeda2d970ca8673": {
-			"parent": "feed04da024e86eb",
+		"feed7631b83aaf7f": {
+			"parent": "feede0841cc2f145",
 			"name": "Act_MR_Stand_Rail_Lean",
 			"factory": "00D032FB7FF302DE",
 			"blueprint": "00CFE6FCED1A00B7",
 			"properties": {
 				"m_mTransform": {
 					"type": "SMatrix43",
-					"value": {
-						"rotation": { "x": 0, "y": 0, "z": -176.75080205851123 },
-						"position": { "x": -1.849736, "y": -50.499603, "z": 4.7584686 }
-					}
+					"value": { "rotation": { "x": 0, "y": 0, "z": 180 }, "position": { "x": -18, "y": 22, "z": 1.34 } }
 				},
 				"m_fActTimeout": { "type": "float32", "value": 60 },
 				"ShouldFallCondition": { "type": "TArray<SEntityTemplateReference>", "value": [] },
-				"m_pActor": { "type": "SEntityTemplateReference", "value": "feedc76c9a06be7a", "postInit": true },
+				"m_pActor": { "type": "SEntityTemplateReference", "value": "feed75b22fe25448", "postInit": true },
 				"m_eidParent": { "type": "SEntityTemplateReference", "value": "fffffffffffffffe", "postInit": true }
 			},
-			"events": { "OnActTimeout": { "Done": ["feedcc5170fec6c9"] } }
+			"events": { "OnActTimeout": { "Done": ["feed9f0b2dfa537e"] } }
 		},
-		"feedcc5170fec6c9": {
-			"parent": "feed04da024e86eb",
+		"feed9f0b2dfa537e": {
+			"parent": "feede0841cc2f145",
 			"name": "DramaSituation2Proxy",
 			"factory": "[assembly:/_pro/design/actor/dramasystem2.template?/dramasituationproxy.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/design/actor/dramasystem2.template?/dramasituationproxy.entitytemplate].pc_entityblueprint",
-			"properties": { "m_rOriginalDrama": { "type": "SEntityTemplateReference", "value": "feed04da024e86eb" } },
-			"events": { "OnStart": { "Start": ["feeda2d970ca8673"] } }
+			"properties": { "m_rOriginalDrama": { "type": "SEntityTemplateReference", "value": "feede0841cc2f145" } },
+			"events": { "OnStart": { "Start": [] } }
 		},
-		"feed1f924ae70416": {
-			"parent": "feed04da024e86eb",
+		"feeda87d7610c10c": {
+			"parent": "feede0841cc2f145",
 			"name": "ActorProviderWaypoint",
 			"factory": "[modules:/zactorproviderapproach.class].pc_entitytype",
 			"blueprint": "[modules:/zactorproviderapproach.class].pc_entityblueprint",
@@ -1052,7 +1116,22 @@
 			}
 		}
 	},
-	"propertyOverrides": [],
+	"propertyOverrides": [
+		{
+			"entities": [
+				{
+					"ref": "630f9164460de833",
+					"externalScene": "[assembly:/_pro/scenes/missions/greedy/mission_raccoon/scenario_raccoon.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": { "rotation": { "x": 0, "y": 0, "z": 0 }, "position": { "x": 0, "y": 0, "z": 1.124 } }
+				}
+			}
+		}
+	],
 	"overrideDeletes": [
 		{
 			"ref": "f8634fc06b2fcf7b",
@@ -1383,7 +1462,35 @@
 			"externalScene": "[assembly:/_pro/scenes/missions/greedy/mission_raccoon/scenario_raccoon.brick].pc_entitytype"
 		},
 		{
-			"ref": "3edda3782fb5b3ba",
+			"ref": "dd71bc1ed2b49beb",
+			"externalScene": "[assembly:/_pro/scenes/missions/greedy/mission_raccoon/scenario_raccoon.brick].pc_entitytype"
+		},
+		{
+			"ref": "d661e942a7664c6b",
+			"externalScene": "[assembly:/_pro/scenes/missions/greedy/mission_raccoon/scenario_raccoon.brick].pc_entitytype"
+		},
+		{
+			"ref": "b5d8a9757a78c5b9",
+			"externalScene": "[assembly:/_pro/scenes/missions/greedy/mission_raccoon/scenario_raccoon.brick].pc_entitytype"
+		},
+		{
+			"ref": "c90828a770efb185",
+			"externalScene": "[assembly:/_pro/scenes/missions/greedy/mission_raccoon/scenario_raccoon.brick].pc_entitytype"
+		},
+		{
+			"ref": "8fc5034affcd9a6f",
+			"externalScene": "[assembly:/_pro/scenes/missions/greedy/mission_raccoon/scenario_raccoon.brick].pc_entitytype"
+		},
+		{
+			"ref": "5ea658ea71ed4312",
+			"externalScene": "[assembly:/_pro/scenes/missions/greedy/mission_raccoon/scenario_raccoon.brick].pc_entitytype"
+		},
+		{
+			"ref": "7e20a1e0f0cda701",
+			"externalScene": "[assembly:/_pro/scenes/missions/greedy/mission_raccoon/scenario_raccoon.brick].pc_entitytype"
+		},
+		{
+			"ref": "b666e79fba58c00a",
 			"externalScene": "[assembly:/_pro/scenes/missions/greedy/mission_raccoon/scenario_raccoon.brick].pc_entitytype"
 		}
 	],
