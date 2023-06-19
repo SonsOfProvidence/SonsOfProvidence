@@ -1190,6 +1190,183 @@
 				},
 				"m_eidParent": { "type": "SEntityTemplateReference", "value": "feeda0e1f43c4fa0", "postInit": true }
 			}
+		},
+		"feeddb2a98c07c50": {
+			"parent": "feed4ecb070f7e82",
+			"name": "Church_Outside_Steeple_A",
+			"factory": "[assembly:/_pro/environment/geometry/levels/coastal_town_italy/church_a.wl2?/church_outside_steeple_a.prim].pc_entitytype",
+			"blueprint": "[assembly:/templates/geometrytemplatestaticcoll.template?/geomentity01.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": { "rotation": { "x": 0, "y": 0, "z": 0 }, "position": { "x": 0, "y": 0, "z": 22 } }
+				},
+				"m_fLODScale": { "type": "float32", "value": 1 },
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "feed4ecb070f7e82", "postInit": true }
+			}
+		},
+		"feedcc3c6770d3c5": {
+			"parent": "feeddb2a98c07c50",
+			"name": "Church_Windows_Steeple_A_00_02",
+			"factory": "[assembly:/_pro/environment/templates/architecture/windows/church_italy_a.template?/church_windows_steeple_a_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/architecture/windows/church_italy_a.template?/church_windows_steeple_a_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": -44.99995894776256 },
+						"position": { "x": 1.2824939489364624, "y": -0.9372100234031677, "z": 2.0722010135650635 }
+					}
+				},
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "feeddb2a98c07c50", "postInit": true }
+			}
+		},
+		"feed5fb8b453a791": {
+			"parent": "feeddb2a98c07c50",
+			"name": "Church_Windows_Steeple_A_00",
+			"factory": "[assembly:/_pro/environment/templates/architecture/windows/church_italy_a.template?/church_windows_steeple_a_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/architecture/windows/church_italy_a.template?/church_windows_steeple_a_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": -89.99994270422063 },
+						"position": { "x": 1.8150559663772583, "y": 0.34841200709342957, "z": 2.0722010135650635 }
+					}
+				},
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "feeddb2a98c07c50", "postInit": true }
+			}
+		},
+		"feeda945202c8c48": {
+			"parent": "feeddb2a98c07c50",
+			"name": "Church_Windows_Steeple_A_00_01",
+			"factory": "[assembly:/_pro/environment/templates/architecture/windows/church_italy_a.template?/church_windows_steeple_a_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/architecture/windows/church_italy_a.template?/church_windows_steeple_a_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": 89.99988540844126 },
+						"position": { "x": -1.8212430477142334, "y": 0.3484799861907959, "z": 2.0722010135650635 }
+					}
+				},
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "feeddb2a98c07c50", "postInit": true }
+			}
+		},
+		"feed8c1b5bb8705e": {
+			"parent": "feeddb2a98c07c50",
+			"name": "Church_Windows_Steeple_A_00_05",
+			"factory": "[assembly:/_pro/environment/templates/architecture/windows/church_italy_a.template?/church_windows_steeple_a_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/architecture/windows/church_italy_a.template?/church_windows_steeple_a_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": -180 },
+						"position": { "x": -0.0031049998942762613, "y": 2.1666259765625, "z": 2.0722010135650635 }
+					}
+				},
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "feeddb2a98c07c50", "postInit": true }
+			}
+		},
+		"feed84a527bf06ee": {
+			"parent": "feeddb2a98c07c50",
+			"name": "Church_Windows_Steeple_A_00_07",
+			"factory": "[assembly:/_pro/environment/templates/architecture/windows/church_italy_a.template?/church_windows_steeple_a_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/architecture/windows/church_italy_a.template?/church_windows_steeple_a_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": -135.00012315671233 },
+						"position": { "x": 1.2824779748916626, "y": 1.634032964706421, "z": 2.0722010135650635 }
+					}
+				},
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "feeddb2a98c07c50", "postInit": true }
+			}
+		},
+		"feed25e29c454237": {
+			"parent": "feeddb2a98c07c50",
+			"name": "Church_Windows_Steeple_A_00_03",
+			"factory": "[assembly:/_pro/environment/templates/architecture/windows/church_italy_a.template?/church_windows_steeple_a_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/architecture/windows/church_italy_a.template?/church_windows_steeple_a_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": 134.99995894776256 },
+						"position": { "x": -1.2887500524520874, "y": 1.6341209411621094, "z": 2.0722010135650635 }
+					}
+				},
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "feeddb2a98c07c50" }
+			}
+		},
+		"feed4f7fa64af6d2": {
+			"parent": "feeddb2a98c07c50",
+			"name": "Church_Windows_Steeple_A_00_04",
+			"factory": "[assembly:/_pro/environment/templates/architecture/windows/church_italy_a.template?/church_windows_steeple_a_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/architecture/windows/church_italy_a.template?/church_windows_steeple_a_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": 0 },
+						"position": { "x": -0.003203999949619174, "y": -1.469704031944275, "z": 2.0722010135650635 }
+					}
+				},
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "feeddb2a98c07c50" }
+			}
+		},
+		"feedfa7ff506400a": {
+			"parent": "feeddb2a98c07c50",
+			"name": "Church_Deco_Italy_A_00",
+			"factory": "[assembly:/_pro/environment/templates/architecture/decorative/church_deco_italy_a.template?/church_deco_italy_a_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/architecture/decorative/church_deco_italy_a.template?/church_deco_italy_a_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": 0 },
+						"position": { "x": -0.00890399981290102, "y": 0.29048898816108704, "z": 7.3665080070495605 }
+					}
+				},
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "feeddb2a98c07c50" }
+			}
+		},
+		"feed79253d8a72d5": {
+			"parent": "feeddb2a98c07c50",
+			"name": "Church_Windows_Steeple_A_00_06",
+			"factory": "[assembly:/_pro/environment/templates/architecture/windows/church_italy_a.template?/church_windows_steeple_a_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/architecture/windows/church_italy_a.template?/church_windows_steeple_a_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": 44.999917895583934 },
+						"position": { "x": -1.2889020442962646, "y": -0.9372329711914062, "z": 2.0722010135650635 }
+					}
+				},
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "feeddb2a98c07c50" }
+			}
+		},
+		"feede61b8060b269": {
+			"parent": "feeddb2a98c07c50",
+			"name": "tiles_slate_a",
+			"factory": "[assembly:/_pro/environment/materials/generic/roof/tiles_slate_a.mi].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/materials/generic/roof/tiles_slate_a.mi].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": { "rotation": { "x": 0, "y": 0, "z": 0 }, "position": { "x": 0, "y": 0, "z": 0 } }
+				},
+				"Clients": { "type": "TArray<SEntityTemplateReference>", "value": ["feeddb2a98c07c50"] },
+				"ConstantVector1D_09_Value_op": { "type": "IRenderMaterialEntity.EModifierOperation", "value": "eReplace" },
+				"ConstantVector1D_09_Value": { "type": "float32", "value": 2 },
+				"ConstantVector1D_04_Value_op": { "type": "IRenderMaterialEntity.EModifierOperation", "value": "eReplace" },
+				"ConstantVector1D_05_Value_op": { "type": "IRenderMaterialEntity.EModifierOperation", "value": "eReplace" },
+				"ConstantVector1D_05_Value": { "type": "float32", "value": 1 },
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "feeddb2a98c07c50" }
+			}
 		}
 	},
 	"propertyOverrides": [
