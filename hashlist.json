@@ -216,6 +216,14 @@
 		"ioiString": "[assembly:/sonsofprovidence/objects/party_balloons.entity].pc_entityblueprint"
 	},
 	{
+		"hash": "00E1F885EC425545",
+		"ioiString": "[assembly:/sonsofprovidence/objects/sapienza_church.entity].pc_entitytype"
+	},
+	{
+		"hash": "0072360E9E0950C6",
+		"ioiString": "[assembly:/sonsofprovidence/objects/sapienza_church.entity].pc_entityblueprint"
+	},
+	{
 		"hash": "00A27C6A847EDFC3",
 		"ioiString": "[assembly:/sonsofprovidence/objects/airplane.entity].pc_entitytype"
 	},
