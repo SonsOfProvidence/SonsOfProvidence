@@ -480,8 +480,8 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": 0, "y": 0, "z": -90.50143401220548 },
-						"position": { "x": -16.333097, "y": -43.09558, "z": 24.683222 }
+						"rotation": { "x": 0, "y": 0, "z": 90 },
+						"position": { "x": 27.761856, "y": -25.935616, "z": 0.25000003 }
 					}
 				},
 				"m_sId": { "type": "ZGuid", "value": "8e2bdc62-905d-43c1-8d91-3dceb8506a77" },
@@ -909,8 +909,8 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": 0, "y": 0, "z": -1.9112100866180395 },
-						"position": { "x": -1.9272797, "y": -50.09071, "z": 6.0141 }
+						"rotation": { "x": 0, "y": 0, "z": 90 },
+						"position": { "x": 25.761856, "y": -29.935616, "z": 0.25000003 }
 					}
 				},
 				"RepositoryId": { "type": "ZGuid", "value": "2f53c1f6-a17e-4b64-8b71-7c807255efbf" },
@@ -953,7 +953,7 @@
 		},
 		"feed18dd78787a98": {
 			"parent": "abcde92f2c09c134",
-			"name": "Thomas Cross CHAR_Guest_Male11",
+			"name": "CHAR Thomas Cross",
 			"factory": "[assembly:/templates/gameplay/ai2/actors.template?/npcactor.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/templates/gameplay/ai2/actors.template?/npcactor.entitytemplate].pc_entityblueprint",
 			"properties": {
@@ -1109,6 +1109,64 @@
 				"m_eidParent": { "type": "SEntityTemplateReference", "value": "fffffffffffffffe" }
 			},
 			"subsets": { "Rooms": ["fffffffffffffffe"] }
+		},
+		"feedc048020b2704": {
+			"parent": "feeda0e1f43c4fa0",
+			"name": "backdrop_bangkok_skyscraper_a_00 Further apartments",
+			"factory": "00DC8C22652B256B",
+			"blueprint": "[assembly:/templates/geometrytemplatenocoll.template?/geomentity01.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": 0 },
+						"position": { "x": -11.316743, "y": 88.99057, "z": 0.15845728 }
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": { "x": 0.949999988079071, "y": 0.949999988079071, "z": 0.949999988079071 }
+				},
+				"m_bRaytracingVisible": { "type": "bool", "value": false },
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "feeda0e1f43c4fa0", "postInit": true }
+			}
+		},
+		"feed82721141bb2a": {
+			"parent": "feeda0e1f43c4fa0",
+			"name": "backdrop_bangkok_skyscraper_a_00 Closest adjacent apartments",
+			"factory": "00DC8C22652B256B",
+			"blueprint": "[assembly:/templates/geometrytemplatenocoll.template?/geomentity01.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": 0 },
+						"position": { "x": -11.316743, "y": 52.468727, "z": 0.15845728 }
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": { "x": 0.949999988079071, "y": 0.949999988079071, "z": 0.949999988079071 }
+				},
+				"m_bRaytracingVisible": { "type": "bool", "value": false },
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "feeda0e1f43c4fa0", "postInit": true }
+			}
+		},
+		"feed267e6b59a52d": {
+			"parent": "feeda0e1f43c4fa0",
+			"name": "Mansion_Garden_A_grass",
+			"factory": "[assembly:/_pro/environment/geometry/levels/coastal_town_italy/mansion_a.wl2?/mansion_garden_a_grass.prim].pc_entitytype",
+			"blueprint": "[assembly:/templates/geometrytemplatestaticcoll.template?/geomentity01.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": 90 },
+						"position": { "x": -36.06886, "y": -32.731533, "z": 0.42945474 }
+					}
+				},
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "feeda0e1f43c4fa0", "postInit": true }
+			}
 		}
 	},
 	"propertyOverrides": [
