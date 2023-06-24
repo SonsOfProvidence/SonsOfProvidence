@@ -1024,22 +1024,6 @@
 				"m_eidParent": { "type": "SEntityTemplateReference", "value": "608667b61ebf10f2", "postInit": true }
 			}
 		},
-		"59e8f81cc215d76b": {
-			"parent": "ed422578e92d368d",
-			"name": "Gravel_Dirt_Ground_A_00_03",
-			"factory": "[assembly:/_pro/environment/templates/props/trash/gravel_dirt_ground_a.template?/gravel_dirt_ground_a_00.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/environment/templates/props/trash/gravel_dirt_ground_a.template?/gravel_dirt_ground_a_00.entitytemplate].pc_entityblueprint",
-			"properties": {
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": { "x": 0, "y": 0.7063602562407603, "z": 44.99975851683541 },
-						"position": { "x": -109.03160095214844, "y": 124.04389953613281, "z": -9.61802864074707 }
-					}
-				},
-				"m_eidParent": { "type": "SEntityTemplateReference", "value": "a3abfc17113fa981", "postInit": true }
-			}
-		},
 		"6fb185264110df22": {
 			"parent": "ad7a2320a39e153",
 			"name": "Pot_Ceramic_Simple_SizeA_D_00_14",
@@ -1155,22 +1139,6 @@
 				"m_eidParent": { "type": "SEntityTemplateReference", "value": "a3abfc17113fa981", "postInit": true }
 			},
 			"subsets": { "AudioEmitters": ["fffffffffffffffe"] }
-		},
-		"f7e6788ff3b5f983": {
-			"parent": "b429f3c392bdcef2",
-			"name": "Palace_Fence_Metal_A_00_03",
-			"factory": "[assembly:/_pro/environment/templates/architecture/fences/wall_fences_a.template?/wall_fence_metal_black_1m75_a_00.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/environment/templates/architecture/fences/wall_fences_a.template?/wall_fence_metal_black_1m75_a_00.entitytemplate].pc_entityblueprint",
-			"properties": {
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": { "x": 12.640136006718082, "y": -0.5951420501079743, "z": 44.71876239887375 },
-						"position": { "x": -58.98413848876953, "y": 132.28179931640625, "z": -9.022382736206055 }
-					}
-				},
-				"m_eidParent": { "type": "SEntityTemplateReference", "value": "a3abfc17113fa981", "postInit": true }
-			}
 		},
 		"3593ce074ec5384e": {
 			"parent": "c73d509c573b1152",
@@ -1838,23 +1806,6 @@
 				"Clients": { "type": "TArray<SEntityTemplateReference>", "value": ["23f3ac1e7cfd6c18"], "postInit": true },
 				"m_eidParent": { "type": "SEntityTemplateReference", "value": "23f3ac1e7cfd6c18", "postInit": true }
 			}
-		},
-		"921019fe153d887b": {
-			"parent": "294325006a1b006a",
-			"name": "Tree_Cypress_B_09",
-			"factory": "[assembly:/_pro/environment/templates/foliage/trees_cypress_a.template?/tree_cypress_b.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/environment/templates/foliage/trees_cypress_a.template?/tree_cypress_b.entitytemplate].pc_entityblueprint",
-			"properties": {
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": { "x": 0, "y": 0, "z": 0 },
-						"position": { "x": -131.9423065185547, "y": 150.72439575195312, "z": -11.522049903869629 }
-					}
-				},
-				"m_eidParent": { "type": "SEntityTemplateReference", "value": "a3abfc17113fa981", "postInit": true }
-			},
-			"subsets": { "AudioEmitters": ["fffffffffffffffe"] }
 		},
 		"31fc2a0a9f1a3e19": {
 			"parent": "d8e2aa9b1b67dad6",
@@ -3788,26 +3739,6 @@
 				"m_eidParent": { "type": "SEntityTemplateReference", "value": "feed19fe3ed7bb2b", "postInit": true }
 			},
 			"subsets": { "Gates": ["fffffffffffffffe"] }
-		},
-		"a56eca7bb11af6b3": {
-			"parent": "4de1f636d3ebec7f",
-			"name": "base_male_body",
-			"factory": "[assembly:/_pro/characters/assets/_base/pro_male_regular/materials/base_male_body.mi].pc_entitytype",
-			"blueprint": "[assembly:/_pro/characters/assets/_base/pro_male_regular/materials/base_male_body.mi].pc_entityblueprint",
-			"properties": {
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": { "rotation": { "x": 0, "y": 0, "z": 0 }, "position": { "x": 0, "y": 0, "z": 0 } }
-				},
-				"ConstantColorRGB_01_Value_op": { "type": "IRenderMaterialEntity.EModifierOperation", "value": "eReplace" },
-				"ConstantColorRGB_01_Value": { "type": "SColorRGB", "value": "#9ec0ff" },
-				"ConstantVector1D_01_Value_op": { "type": "IRenderMaterialEntity.EModifierOperation", "value": "eReplace" },
-				"ConstantVector1D_01_Value": { "type": "float32", "value": 1.1299999952316284 },
-				"ConstantVector1D_06_Value_op": { "type": "IRenderMaterialEntity.EModifierOperation", "value": "eReplace" },
-				"ConstantVector1D_06_Value": { "type": "float32", "value": 2 },
-				"Clients": { "type": "TArray<SEntityTemplateReference>", "value": ["4de1f636d3ebec7f"], "postInit": true },
-				"m_eidParent": { "type": "SEntityTemplateReference", "value": "4de1f636d3ebec7f", "postInit": true }
-			}
 		},
 		"181baa0db6842d78": {
 			"parent": "cfa47ae0b74f173b",
@@ -5765,22 +5696,6 @@
 				"m_eidParent": { "type": "SEntityTemplateReference", "value": "a3abfc17113fa981", "postInit": true }
 			}
 		},
-		"6f16332c35063729": {
-			"parent": "294325006a1b006a",
-			"name": "Bush_Topiary_A_L250_H100_A10",
-			"factory": "[assembly:/_pro/environment/templates/props/plants/plants_garden_a.template?/bush_topiary_a_l250_h100_a.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/environment/templates/props/plants/plants_garden_a.template?/bush_topiary_a_l250_h100_a.entitytemplate].pc_entityblueprint",
-			"properties": {
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": { "x": 4.104257528608644, "y": 1.856364165911988, "z": 39.312665303961204 },
-						"position": { "x": -119.44129943847656, "y": 133.68380737304688, "z": -9.973726272583008 }
-					}
-				},
-				"m_eidParent": { "type": "SEntityTemplateReference", "value": "a3abfc17113fa981", "postInit": true }
-			}
-		},
 		"a5281676311d4df4": {
 			"parent": "564e9d1404bacca3",
 			"name": "Gate_000_509_n00",
@@ -5883,22 +5798,6 @@
 			"name": "TypeA",
 			"factory": "[modules:/zentity.class].pc_entitytype",
 			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
-		},
-		"644ea1c197deaad4": {
-			"parent": "294325006a1b006a",
-			"name": "Bush_Topiary_A_L250_H100_A09",
-			"factory": "[assembly:/_pro/environment/templates/props/plants/plants_garden_a.template?/bush_topiary_a_l250_h100_a.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/environment/templates/props/plants/plants_garden_a.template?/bush_topiary_a_l250_h100_a.entitytemplate].pc_entityblueprint",
-			"properties": {
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": { "x": 4.104257528608644, "y": 1.856364165911988, "z": 39.312665303961204 },
-						"position": { "x": -117.88169860839844, "y": 132.39959716796875, "z": -9.984230995178223 }
-					}
-				},
-				"m_eidParent": { "type": "SEntityTemplateReference", "value": "a3abfc17113fa981", "postInit": true }
-			}
 		},
 		"ca696e17dd1df383": {
 			"parent": "d8e2aa9b1b67dad6",
@@ -6239,22 +6138,6 @@
 				"ConstantVector1D_13_Value": { "type": "float32", "value": 0.25999999046325684 },
 				"Clients": { "type": "TArray<SEntityTemplateReference>", "value": ["3ae65c7b572b9862"], "postInit": true },
 				"m_eidParent": { "type": "SEntityTemplateReference", "value": "3ae65c7b572b9862", "postInit": true }
-			}
-		},
-		"46d246825ba3b7ca": {
-			"parent": "ed422578e92d368d",
-			"name": "Gravel_Dirt_Ground_B_00_04",
-			"factory": "[assembly:/_pro/environment/templates/props/trash/gravel_dirt_ground_a.template?/gravel_dirt_ground_b_00.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/environment/templates/props/trash/gravel_dirt_ground_a.template?/gravel_dirt_ground_b_00.entitytemplate].pc_entityblueprint",
-			"properties": {
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": { "x": -3.7784168270020353, "y": -0.05099325062508785, "z": -43.31584740568156 },
-						"position": { "x": -58.274261474609375, "y": 131.5500030517578, "z": -9.070817947387695 }
-					}
-				},
-				"m_eidParent": { "type": "SEntityTemplateReference", "value": "a3abfc17113fa981", "postInit": true }
 			}
 		},
 		"4dbdccb3e3aec7ae": {
@@ -8256,28 +8139,6 @@
 				"m_eidParent": { "type": "SEntityTemplateReference", "value": "1cf4f8c910824077", "postInit": true }
 			}
 		},
-		"8158105767dafd1e": {
-			"parent": "ec1d39c85e125a78",
-			"name": "SetPiece_Italy_Unique_Morgue_Corpse",
-			"factory": "[assembly:/_pro/design/setpieces/unique/setpiece_italy_unique.template?/setpiece_italy_unique_morgue_corpse.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/design/setpieces/unique/setpiece_italy_unique.template?/setpiece_italy_unique_morgue_corpse.entitytemplate].pc_entityblueprint",
-			"properties": {
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": { "x": 0, "y": 0, "z": 89.99988540844126 },
-						"position": { "x": -2.566193103790283, "y": -5.607409954071045, "z": 9.999999974752427e-7 }
-					}
-				},
-				"m_aUIHighlightGeom": {
-					"type": "TArray<SEntityTemplateReference>",
-					"value": ["4cfeed9f378ff113"],
-					"postInit": true
-				},
-				"m_eidParent": { "type": "SEntityTemplateReference", "value": "1cf4f8c910824077", "postInit": true }
-			},
-			"events": { "Disguisetaken": { "MakeInvisible": ["4cfeed9f378ff113"], "MakeVisible": ["4de1f636d3ebec7f"] } }
-		},
 		"3db277f13d9fe14b": {
 			"parent": "dc7d4582107e5362",
 			"name": "Pillar_Italy_Church_Outside_A_00_33",
@@ -8349,22 +8210,6 @@
 					}
 				},
 				"m_eidParent": { "type": "SEntityTemplateReference", "value": "32cc9c928df7d7e6", "postInit": true }
-			}
-		},
-		"442e614fd3d76c1b": {
-			"parent": "ed422578e92d368d",
-			"name": "Gravel_Dirt_Ground_E_00_06",
-			"factory": "[assembly:/_pro/environment/templates/props/trash/gravel_dirt_ground_a.template?/gravel_dirt_ground_e_00.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/environment/templates/props/trash/gravel_dirt_ground_a.template?/gravel_dirt_ground_e_00.entitytemplate].pc_entityblueprint",
-			"properties": {
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": { "x": 4.1112548951081545, "y": -0.7642337379820683, "z": -122.1186572995374 },
-						"position": { "x": -59.714969635009766, "y": 132.0189971923828, "z": -9.09791088104248 }
-					}
-				},
-				"m_eidParent": { "type": "SEntityTemplateReference", "value": "a3abfc17113fa981", "postInit": true }
 			}
 		},
 		"22e88c61d584a8b0": {
@@ -9623,22 +9468,6 @@
 				"m_fDiffusePower": { "type": "float32", "value": 0.800000011920929 },
 				"m_bEnableLightFade": { "type": "bool", "value": true },
 				"m_eidParent": { "type": "SEntityTemplateReference", "value": "11e6feefe581698", "postInit": true }
-			}
-		},
-		"95d8dc6270e226fe": {
-			"parent": "dc7d4582107e5362",
-			"name": "Pillar_Italy_Church_Outside_Gate_Door_A_00",
-			"factory": "[assembly:/_pro/environment/templates/architecture/pillars/pillars_italy_a.template?/pillar_italy_church_outside_gate_door_a_00.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/environment/templates/architecture/pillars/pillars_italy_a.template?/pillar_italy_church_outside_gate_door_a_00.entitytemplate].pc_entityblueprint",
-			"properties": {
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": { "x": 0, "y": 0, "z": -4.999784590267437 },
-						"position": { "x": -76.65731048583984, "y": 124.58719635009766, "z": -8.970111846923828 }
-					}
-				},
-				"m_eidParent": { "type": "SEntityTemplateReference", "value": "a3abfc17113fa981", "postInit": true }
 			}
 		},
 		"5e56c27b2939bf4e": {
@@ -11125,24 +10954,6 @@
 				"m_eidParent": { "type": "SEntityTemplateReference", "value": "608667b61ebf10f2", "postInit": true }
 			}
 		},
-		"4de1f636d3ebec7f": {
-			"parent": "ec1d39c85e125a78",
-			"name": "church_morgue_deadscientist_noclothes_a_00",
-			"factory": "[assembly:/templates/aspectdummy.aspect]([assembly:/_pro/environment/geometry/levels/coastal_town_italy/church_morgue_deadscientist_a.wl2?/church_morgue_deadscientist_noclothes_a_00.prim].entitytype,[modules:/zvisibilitysaveaspect.class].entitytype).pc_entitytype",
-			"blueprint": "[assembly:/templates/aspectdummy.aspect]([assembly:/templates/geometrytemplatestaticcoll.template?/geomentity01.entitytemplate].entitytype,[modules:/zvisibilitysaveaspect.class].entitytype).pc_entityblueprint",
-			"properties": {
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": { "x": 0.00005733143805910501, "y": -2.020783000921884, "z": -90 },
-						"position": { "x": -3.6304659843444824, "y": -6.307765960693359, "z": 0.042941998690366745 }
-					}
-				},
-				"m_bVisible": { "type": "bool", "value": false },
-				"m_eRoomBehaviour": { "type": "ZSpatialEntity.ERoomBehaviour", "value": "ROOM_STATIC" },
-				"m_eidParent": { "type": "SEntityTemplateReference", "value": "1cf4f8c910824077", "postInit": true }
-			}
-		},
 		"15ece9c6747de071": {
 			"parent": "c0ad5ee31bbcacf2",
 			"name": "StaticDecal_Dirt_Facade_LeakB_00",
@@ -11700,22 +11511,6 @@
 				"m_eidParent": { "type": "SEntityTemplateReference", "value": "f9b2107da5bfed64", "postInit": true }
 			},
 			"subsets": { "AudioEmitters": ["fffffffffffffffe"] }
-		},
-		"82cce4412113d92f": {
-			"parent": "d8e2aa9b1b67dad6",
-			"name": "Rock_Collection_A_Set_A20",
-			"factory": "[assembly:/_pro/environment/templates/props/rocks/rocks_sandstone_a.template?/rock_collection_a_set_a.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/environment/templates/props/rocks/rocks_sandstone_a.template?/rock_collection_a_set_a.entitytemplate].pc_entityblueprint",
-			"properties": {
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": { "x": 1.049380164437638, "y": 0.20002004522084005, "z": -158.41997335931399 },
-						"position": { "x": -99.13542938232422, "y": 158.8072967529297, "z": -9.039402961730957 }
-					}
-				},
-				"m_eidParent": { "type": "SEntityTemplateReference", "value": "a3abfc17113fa981", "postInit": true }
-			}
 		},
 		"c11ffb404e803c83": {
 			"parent": "19406513503664ea",
@@ -16097,22 +15892,6 @@
 			},
 			"subsets": { "AudioEmitters": ["fffffffffffffffe"] }
 		},
-		"812a6f50ba3360d2": {
-			"parent": "d8e2aa9b1b67dad6",
-			"name": "Rock_Collection_A_Set_A18",
-			"factory": "[assembly:/_pro/environment/templates/props/rocks/rocks_sandstone_a.template?/rock_collection_a_set_a.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/environment/templates/props/rocks/rocks_sandstone_a.template?/rock_collection_a_set_a.entitytemplate].pc_entityblueprint",
-			"properties": {
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": { "x": 1.066635059686794, "y": -0.2797763087797482, "z": -29.392105956188818 },
-						"position": { "x": -78.04950714111328, "y": 151.54930114746094, "z": -9.050336837768555 }
-					}
-				},
-				"m_eidParent": { "type": "SEntityTemplateReference", "value": "a3abfc17113fa981", "postInit": true }
-			}
-		},
 		"1c71a671bb50fbea": {
 			"parent": "ad7a2320a39e153",
 			"name": "Pot_Ceramic_Big_Round_A_00_02",
@@ -18484,22 +18263,6 @@
 			},
 			"subsets": { "Gates": ["fffffffffffffffe"] }
 		},
-		"5dbe1d9375c535ae": {
-			"parent": "d8e2aa9b1b67dad6",
-			"name": "Rock_Collection_A_Set_B22",
-			"factory": "[assembly:/_pro/environment/templates/props/rocks/rocks_sandstone_a.template?/rock_collection_a_set_b.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/environment/templates/props/rocks/rocks_sandstone_a.template?/rock_collection_a_set_b.entitytemplate].pc_entityblueprint",
-			"properties": {
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": { "x": 1.0987713918704596, "y": 0.00034377477387099455, "z": -45.0002073870224 },
-						"position": { "x": -86.66797637939453, "y": 165.18460083007812, "z": -8.949989318847656 }
-					}
-				},
-				"m_eidParent": { "type": "SEntityTemplateReference", "value": "a3abfc17113fa981", "postInit": true }
-			}
-		},
 		"b0dfa46c540f39c6": {
 			"parent": "dd0e8d3f4de0ec13",
 			"name": "StaticDecal_Dirt_Facade_LeakA_11",
@@ -19682,23 +19445,6 @@
 				},
 				"m_rParentArea": { "type": "SEntityTemplateReference", "value": "320c92c95b05806e", "postInit": true }
 			}
-		},
-		"af87c8292aac8220": {
-			"parent": "ad7a2320a39e153",
-			"name": "Plant_Bush_Dense_Potted_Square_A_V2_0007",
-			"factory": "[assembly:/_pro/environment/templates/props/plants/plants_potplants_b.template?/plant_bush_dense_potted_round_decorative_a_v1_00.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/environment/templates/props/plants/plants_potplants_b.template?/plant_bush_dense_potted_round_decorative_a_v1_00.entitytemplate].pc_entityblueprint",
-			"properties": {
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": { "x": 0, "y": 0, "z": 54.99997934538706 },
-						"position": { "x": -76.61282348632812, "y": 124.04309844970703, "z": -8.929315567016602 }
-					}
-				},
-				"m_eidParent": { "type": "SEntityTemplateReference", "value": "a3abfc17113fa981", "postInit": true }
-			},
-			"subsets": { "AudioEmitters": ["fffffffffffffffe"] }
 		},
 		"ca3ada6e8d773601": {
 			"parent": "a7ce4503f0fd03ee",
@@ -20926,22 +20672,6 @@
 				"m_eidParent": { "type": "SEntityTemplateReference", "value": "cad050a21f0921f0", "postInit": true }
 			}
 		},
-		"2c09a34e2f78dde7": {
-			"parent": "ed422578e92d368d",
-			"name": "Gravel_Dirt_Ground_B_00",
-			"factory": "[assembly:/_pro/environment/templates/props/trash/gravel_dirt_ground_a.template?/gravel_dirt_ground_b_00.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/environment/templates/props/trash/gravel_dirt_ground_a.template?/gravel_dirt_ground_b_00.entitytemplate].pc_entityblueprint",
-			"properties": {
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": { "x": -0.0006876827979275138, "y": 1.1282843868221066, "z": 44.99973093204623 },
-						"position": { "x": -107.30239868164062, "y": 122.26110076904297, "z": -9.489518165588379 }
-					}
-				},
-				"m_eidParent": { "type": "SEntityTemplateReference", "value": "a3abfc17113fa981", "postInit": true }
-			}
-		},
 		"ff2bc6fbf92e0426": {
 			"parent": "5b805a88bfa967e5",
 			"name": "Church_Candle_Altar_A07",
@@ -22021,22 +21751,6 @@
 				"m_eidParent": { "type": "SEntityTemplateReference", "value": "2347e2faf749d101", "postInit": true }
 			}
 		},
-		"f692843a08b9e512": {
-			"parent": "ed422578e92d368d",
-			"name": "Gravel_Dirt_Ground_B_00_02",
-			"factory": "[assembly:/_pro/environment/templates/props/trash/gravel_dirt_ground_a.template?/gravel_dirt_ground_b_00.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/environment/templates/props/trash/gravel_dirt_ground_a.template?/gravel_dirt_ground_b_00.entitytemplate].pc_entityblueprint",
-			"properties": {
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": { "x": 3.7838707344343163, "y": 0.0028074934685730036, "z": 136.6853991474952 },
-						"position": { "x": -58.800559997558594, "y": 130.70680236816406, "z": -9.064288139343262 }
-					}
-				},
-				"m_eidParent": { "type": "SEntityTemplateReference", "value": "a3abfc17113fa981", "postInit": true }
-			}
-		},
 		"699b3d1c3b56e1e6": {
 			"parent": "36be6915782f52b1",
 			"name": "Church_Bible_A_0001",
@@ -22754,22 +22468,6 @@
 				"m_fDiffusePower": { "type": "float32", "value": 0.699999988079071 },
 				"m_bEnableLightFade": { "type": "bool", "value": true },
 				"m_eidParent": { "type": "SEntityTemplateReference", "value": "245e7699d29d1db3" }
-			}
-		},
-		"e900726a19b6679d": {
-			"parent": "d8e2aa9b1b67dad6",
-			"name": "Rock_Collection_A_Set_B25",
-			"factory": "[assembly:/_pro/environment/templates/props/rocks/rocks_sandstone_a.template?/rock_collection_a_set_b.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/environment/templates/props/rocks/rocks_sandstone_a.template?/rock_collection_a_set_b.entitytemplate].pc_entityblueprint",
-			"properties": {
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": { "x": 1.0407777558824698, "y": -0.0035523383173203145, "z": -0.38864026841156435 },
-						"position": { "x": -78.96025085449219, "y": 152.6959991455078, "z": -8.948701858520508 }
-					}
-				},
-				"m_eidParent": { "type": "SEntityTemplateReference", "value": "a3abfc17113fa981", "postInit": true }
 			}
 		},
 		"247ee494d37b91a2": {
@@ -25634,22 +25332,6 @@
 				"m_eidParent": { "type": "SEntityTemplateReference", "value": "7d19a913dcdf6f3", "postInit": true }
 			}
 		},
-		"ecacc9979e0308ce": {
-			"parent": "b429f3c392bdcef2",
-			"name": "Palace_Fence_Metal_A_00_04",
-			"factory": "[assembly:/_pro/environment/templates/architecture/fences/wall_fences_a.template?/wall_fence_metal_black_3m_a_00.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/environment/templates/architecture/fences/wall_fences_a.template?/wall_fence_metal_black_3m_a_00.entitytemplate].pc_entityblueprint",
-			"properties": {
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": { "x": -0.0004017703481814555, "y": 3.3824152341272593, "z": 44.91024327264501 },
-						"position": { "x": -54.31521987915039, "y": 128.1638946533203, "z": -6.130555152893066 }
-					}
-				},
-				"m_eidParent": { "type": "SEntityTemplateReference", "value": "a3abfc17113fa981", "postInit": true }
-			}
-		},
 		"f0ed6e5ac37a5755": {
 			"parent": "51a255bcba5a631c",
 			"name": "stairs_stones_weathered_italy_a",
@@ -26342,22 +26024,6 @@
 					}
 				},
 				"m_eidParent": { "type": "SEntityTemplateReference", "value": "66cf173c27c7982", "postInit": true }
-			}
-		},
-		"4073456b8abf262d": {
-			"parent": "294325006a1b006a",
-			"name": "Bush_Topiary_A_L250_H100_A07",
-			"factory": "[assembly:/_pro/environment/templates/props/plants/plants_garden_a.template?/bush_topiary_a_l250_h100_a.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/environment/templates/props/plants/plants_garden_a.template?/bush_topiary_a_l250_h100_a.entitytemplate].pc_entityblueprint",
-			"properties": {
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": { "x": 4.104257528608644, "y": 1.856364165911988, "z": 39.312665303961204 },
-						"position": { "x": -114.67449951171875, "y": 129.81289672851562, "z": -9.871301651000977 }
-					}
-				},
-				"m_eidParent": { "type": "SEntityTemplateReference", "value": "a3abfc17113fa981", "postInit": true }
 			}
 		},
 		"742a2afa8efea378": {
@@ -37441,22 +37107,6 @@
 				"m_eidParent": { "type": "SEntityTemplateReference", "value": "245e7699d29d1db3" }
 			}
 		},
-		"e6e0556474f5859f": {
-			"parent": "ed422578e92d368d",
-			"name": "Gravel_Dirt_Ground_B_00_03",
-			"factory": "[assembly:/_pro/environment/templates/props/trash/gravel_dirt_ground_a.template?/gravel_dirt_ground_b_00.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/environment/templates/props/trash/gravel_dirt_ground_a.template?/gravel_dirt_ground_b_00.entitytemplate].pc_entityblueprint",
-			"properties": {
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": { "x": -0.19248021365680268, "y": 8.442862576635402, "z": -132.3948793282072 },
-						"position": { "x": -56.14569091796875, "y": 129.79100036621094, "z": -9.27783489227295 }
-					}
-				},
-				"m_eidParent": { "type": "SEntityTemplateReference", "value": "a3abfc17113fa981", "postInit": true }
-			}
-		},
 		"726229ab088fd46d": {
 			"parent": "e29fe582ca6eb734",
 			"name": "RawMeat_G_00_04",
@@ -41520,23 +41170,6 @@
 				"DiffusePower": { "type": "float32", "value": 1 },
 				"GlowPower": { "type": "float32", "value": 50 },
 				"m_eidParent": { "type": "SEntityTemplateReference", "value": "2347e2faf749d101", "postInit": true }
-			},
-			"subsets": { "AudioEmitters": ["fffffffffffffffe"] }
-		},
-		"1fcdde902ba3220b": {
-			"parent": "ad7a2320a39e153",
-			"name": "Plant_Bush_Dense_Potted_Square_A_V2_0008",
-			"factory": "[assembly:/_pro/environment/templates/props/plants/plants_potplants_b.template?/plant_bush_dense_potted_round_decorative_a_v1_00.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/environment/templates/props/plants/plants_potplants_b.template?/plant_bush_dense_potted_round_decorative_a_v1_00.entitytemplate].pc_entityblueprint",
-			"properties": {
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": { "x": 0, "y": 0, "z": 54.99997934538706 },
-						"position": { "x": -77.85035705566406, "y": 122.86239624023438, "z": -8.970113754272461 }
-					}
-				},
-				"m_eidParent": { "type": "SEntityTemplateReference", "value": "a3abfc17113fa981", "postInit": true }
 			},
 			"subsets": { "AudioEmitters": ["fffffffffffffffe"] }
 		},
@@ -47130,23 +46763,6 @@
 				"m_bVisible": { "type": "bool", "value": true },
 				"m_eidParent": { "type": "SEntityTemplateReference", "value": "fe425f3a49d99994" }
 			}
-		},
-		"6cc4825d3a9daede": {
-			"parent": "294325006a1b006a",
-			"name": "Tree_Cypress_B_02",
-			"factory": "[assembly:/_pro/environment/templates/foliage/trees_cypress_a.template?/tree_cypress_b.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/environment/templates/foliage/trees_cypress_a.template?/tree_cypress_b.entitytemplate].pc_entityblueprint",
-			"properties": {
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": { "x": 0, "y": 0, "z": -43.748739674287286 },
-						"position": { "x": -127.08599853515625, "y": 158.36309814453125, "z": -11.5635404586792 }
-					}
-				},
-				"m_eidParent": { "type": "SEntityTemplateReference", "value": "a3abfc17113fa981", "postInit": true }
-			},
-			"subsets": { "AudioEmitters": ["fffffffffffffffe"] }
 		},
 		"ae5c02beae229682": {
 			"parent": "294325006a1b006a",
@@ -53802,23 +53418,6 @@
 				"m_eidParent": { "type": "SEntityTemplateReference", "value": "a3abfc17113fa981", "postInit": true }
 			}
 		},
-		"ec71ab85f9cbde4b": {
-			"parent": "294325006a1b006a",
-			"name": "Tree_Cypress_B_04",
-			"factory": "[assembly:/_pro/environment/templates/foliage/trees_cypress_a.template?/tree_cypress_b.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/environment/templates/foliage/trees_cypress_a.template?/tree_cypress_b.entitytemplate].pc_entityblueprint",
-			"properties": {
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": { "x": 0, "y": 0, "z": -43.748739674287286 },
-						"position": { "x": -129.74220275878906, "y": 156.15609741210938, "z": -11.5635404586792 }
-					}
-				},
-				"m_eidParent": { "type": "SEntityTemplateReference", "value": "a3abfc17113fa981", "postInit": true }
-			},
-			"subsets": { "AudioEmitters": ["fffffffffffffffe"] }
-		},
 		"bbb40a3197ffa6a0": {
 			"parent": "ad7a2320a39e153",
 			"name": "Plant_Bush_Dense_Potted_Square_A_V2_00_01",
@@ -54496,22 +54095,6 @@
 			"factory": "[modules:/zentity.class].pc_entitytype",
 			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
 		},
-		"870edc0a71da833c": {
-			"parent": "d8e2aa9b1b67dad6",
-			"name": "Rock_Collection_A_Set_A17",
-			"factory": "[assembly:/_pro/environment/templates/props/rocks/rocks_sandstone_a.template?/rock_collection_a_set_a.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/environment/templates/props/rocks/rocks_sandstone_a.template?/rock_collection_a_set_a.entitytemplate].pc_entityblueprint",
-			"properties": {
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": { "x": 1.1258794881718073, "y": -0.10920585227508572, "z": 168.92268752640558 },
-						"position": { "x": -80.0560302734375, "y": 157.71690368652344, "z": -8.994836807250977 }
-					}
-				},
-				"m_eidParent": { "type": "SEntityTemplateReference", "value": "a3abfc17113fa981", "postInit": true }
-			}
-		},
 		"56c00fc72583f322": {
 			"parent": "faa901cb6d8f7f4c",
 			"name": "Spiderweb_A_00_41",
@@ -54749,22 +54332,6 @@
 					"value": { "x": 1.5590399503707886, "y": 5.841249942779541, "z": 3.5678799152374268 }
 				},
 				"m_eidParent": { "type": "SEntityTemplateReference", "value": "245e7699d29d1db3" }
-			}
-		},
-		"a3c371a4f94d63ac": {
-			"parent": "d8e2aa9b1b67dad6",
-			"name": "Rock_Collection_A_Set_B24",
-			"factory": "[assembly:/_pro/environment/templates/props/rocks/rocks_sandstone_a.template?/rock_collection_a_set_b.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/environment/templates/props/rocks/rocks_sandstone_a.template?/rock_collection_a_set_b.entitytemplate].pc_entityblueprint",
-			"properties": {
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": { "x": 1.0987713918704596, "y": 0.00034377477387099455, "z": -45.0002073870224 },
-						"position": { "x": -81.04915618896484, "y": 158.63600158691406, "z": -8.990585327148438 }
-					}
-				},
-				"m_eidParent": { "type": "SEntityTemplateReference", "value": "a3abfc17113fa981", "postInit": true }
 			}
 		},
 		"d10377eb85cf2902": {
@@ -57216,22 +56783,6 @@
 				"m_eidParent": { "type": "SEntityTemplateReference", "value": "2347e2faf749d101", "postInit": true }
 			}
 		},
-		"f2f3c9d0cdf77a40": {
-			"parent": "294325006a1b006a",
-			"name": "Bush_Topiary_A_L250_H100_A06",
-			"factory": "[assembly:/_pro/environment/templates/props/plants/plants_garden_a.template?/bush_topiary_a_l250_h100_a.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/environment/templates/props/plants/plants_garden_a.template?/bush_topiary_a_l250_h100_a.entitytemplate].pc_entityblueprint",
-			"properties": {
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": { "x": 4.1060872615695905, "y": 1.852179606256247, "z": 39.31281744184857 },
-						"position": { "x": -113.06400299072266, "y": 128.52099609375, "z": -9.731639862060547 }
-					}
-				},
-				"m_eidParent": { "type": "SEntityTemplateReference", "value": "a3abfc17113fa981", "postInit": true }
-			}
-		},
 		"7cb06f6bad3dcc2e": {
 			"parent": "e600b8e02d233542",
 			"name": "Chandelier_Rustic_Italy_Small_A_LongChain",
@@ -58903,22 +58454,6 @@
 					}
 				},
 				"m_eidParent": { "type": "SEntityTemplateReference", "value": "245e7699d29d1db3" }
-			}
-		},
-		"cc5e2f491fa59e64": {
-			"parent": "294325006a1b006a",
-			"name": "Bush_Topiary_A_L250_H100_A08",
-			"factory": "[assembly:/_pro/environment/templates/props/plants/plants_garden_a.template?/bush_topiary_a_l250_h100_a.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/environment/templates/props/plants/plants_garden_a.template?/bush_topiary_a_l250_h100_a.entitytemplate].pc_entityblueprint",
-			"properties": {
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": { "x": 4.104257528608644, "y": 1.856364165911988, "z": 39.312665303961204 },
-						"position": { "x": -116.25279998779297, "y": 131.07350158691406, "z": -9.832113265991211 }
-					}
-				},
-				"m_eidParent": { "type": "SEntityTemplateReference", "value": "a3abfc17113fa981", "postInit": true }
 			}
 		},
 		"9166a69dcab7ab4d": {
@@ -61213,22 +60748,6 @@
 				"m_eidParent": { "type": "SEntityTemplateReference", "value": "2347e2faf749d101", "postInit": true }
 			}
 		},
-		"e70ee33026ac9738": {
-			"parent": "b429f3c392bdcef2",
-			"name": "Palace_Fence_Metal_A_00_02",
-			"factory": "[assembly:/_pro/environment/templates/architecture/fences/wall_fences_a.template?/wall_fence_metal_black_3m_a_00.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/environment/templates/architecture/fences/wall_fences_a.template?/wall_fence_metal_black_3m_a_00.entitytemplate].pc_entityblueprint",
-			"properties": {
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": { "x": 0.0005158740446761215, "y": 1.6423225197956723, "z": 44.910287657204464 },
-						"position": { "x": -52.210899353027344, "y": 126.06610107421875, "z": -5.999917984008789 }
-					}
-				},
-				"m_eidParent": { "type": "SEntityTemplateReference", "value": "a3abfc17113fa981", "postInit": true }
-			}
-		},
 		"7ebf999c5d77f332": {
 			"parent": "dc7d4582107e5362",
 			"name": "Pillar_Italy_Church_Outside_A_00_10",
@@ -61730,22 +61249,6 @@
 				"m_fAlpha": { "type": "float32", "value": 100 },
 				"m_fCullingAngle": { "type": "float32", "value": 15 },
 				"m_nZBias": { "type": "uint8", "value": 1 },
-				"m_eidParent": { "type": "SEntityTemplateReference", "value": "a3abfc17113fa981", "postInit": true }
-			}
-		},
-		"ad5673f79f177c26": {
-			"parent": "294325006a1b006a",
-			"name": "Bush_Topiary_A_L250_H100_A11",
-			"factory": "[assembly:/_pro/environment/templates/props/plants/plants_garden_a.template?/bush_topiary_a_l250_h100_a.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/environment/templates/props/plants/plants_garden_a.template?/bush_topiary_a_l250_h100_a.entitytemplate].pc_entityblueprint",
-			"properties": {
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": { "x": 4.105557230754945, "y": -2.537255905799964, "z": 39.62787827790642 },
-						"position": { "x": -121.0447998046875, "y": 135.0063934326172, "z": -9.938028335571289 }
-					}
-				},
 				"m_eidParent": { "type": "SEntityTemplateReference", "value": "a3abfc17113fa981", "postInit": true }
 			}
 		},
@@ -63805,22 +63308,6 @@
 					"value": {
 						"rotation": { "x": 0, "y": 0, "z": -40.00023782284193 },
 						"position": { "x": -125.89469909667969, "y": 158.08670043945312, "z": -11.773039817810059 }
-					}
-				},
-				"m_eidParent": { "type": "SEntityTemplateReference", "value": "a3abfc17113fa981", "postInit": true }
-			}
-		},
-		"bfcda3b462e3ac08": {
-			"parent": "294325006a1b006a",
-			"name": "Bush_Topiary_A_L250_H100_A05",
-			"factory": "[assembly:/_pro/environment/templates/props/plants/plants_garden_a.template?/bush_topiary_a_l250_h100_a.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/environment/templates/props/plants/plants_garden_a.template?/bush_topiary_a_l250_h100_a.entitytemplate].pc_entityblueprint",
-			"properties": {
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": { "x": 3.98685225039445, "y": 2.096692062070546, "z": 42.743407015989916 },
-						"position": { "x": -111.4552993774414, "y": 127.13739776611328, "z": -9.659282684326172 }
 					}
 				},
 				"m_eidParent": { "type": "SEntityTemplateReference", "value": "a3abfc17113fa981", "postInit": true }
@@ -66437,22 +65924,6 @@
 				"m_fAlpha": { "type": "float32", "value": 100 },
 				"m_fCullingAngle": { "type": "float32", "value": 15 },
 				"m_nZBias": { "type": "uint8", "value": 2 },
-				"m_eidParent": { "type": "SEntityTemplateReference", "value": "a3abfc17113fa981", "postInit": true }
-			}
-		},
-		"62bce4e31597e3b2": {
-			"parent": "ed422578e92d368d",
-			"name": "Gravel_Dirt_Ground_A_00_02",
-			"factory": "[assembly:/_pro/environment/templates/props/trash/gravel_dirt_ground_a.template?/gravel_dirt_ground_a_00.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/environment/templates/props/trash/gravel_dirt_ground_a.template?/gravel_dirt_ground_a_00.entitytemplate].pc_entityblueprint",
-			"properties": {
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": { "x": 0, "y": 0.706532092348359, "z": 44.99975851637916 },
-						"position": { "x": -107.98829650878906, "y": 123.00129699707031, "z": -9.599854469299316 }
-					}
-				},
 				"m_eidParent": { "type": "SEntityTemplateReference", "value": "a3abfc17113fa981", "postInit": true }
 			}
 		},
@@ -79174,22 +78645,6 @@
 				"m_eidParent": { "type": "SEntityTemplateReference", "value": "a3abfc17113fa981" }
 			}
 		},
-		"2411a70a3eae431d": {
-			"parent": "d8e2aa9b1b67dad6",
-			"name": "Rock_Collection_A_Set_A19",
-			"factory": "[assembly:/_pro/environment/templates/props/rocks/rocks_sandstone_a.template?/rock_collection_a_set_a.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/environment/templates/props/rocks/rocks_sandstone_a.template?/rock_collection_a_set_a.entitytemplate].pc_entityblueprint",
-			"properties": {
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": { "x": 1.0656038673858894, "y": -0.2794900119105383, "z": -29.392121171624982 },
-						"position": { "x": -65.50174713134766, "y": 140.01589965820312, "z": -8.942107200622559 }
-					}
-				},
-				"m_eidParent": { "type": "SEntityTemplateReference", "value": "a3abfc17113fa981" }
-			}
-		},
 		"8643bc60415eac9f": {
 			"parent": "f58431d540461e3e",
 			"name": "StaticDecal_Dirt_Facade_LeakB_03",
@@ -79272,29 +78727,6 @@
 					}
 				},
 				"m_eidParent": { "type": "SEntityTemplateReference", "value": "a3abfc17113fa981" }
-			}
-		},
-		"b671aa77bf8d2be3": {
-			"parent": "4de1f636d3ebec7f",
-			"name": "base_male_head",
-			"factory": "[assembly:/_pro/characters/assets/_base/pro_male_regular/materials/base_male_head.mi].pc_entitytype",
-			"blueprint": "[assembly:/_pro/characters/assets/_base/pro_male_regular/materials/base_male_head.mi].pc_entityblueprint",
-			"properties": {
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": { "x": 0.04452556888263132, "y": 2.020292759658498, "z": -1.2644302525697186 },
-						"position": { "x": 0.0564081184566021, "y": 0.009861228987574577, "z": -0.031147360801696777 }
-					}
-				},
-				"Clients": { "type": "TArray<SEntityTemplateReference>", "value": ["4de1f636d3ebec7f"] },
-				"ConstantVector1D_01_Value_op": { "type": "IRenderMaterialEntity.EModifierOperation", "value": "eReplace" },
-				"ConstantVector1D_01_Value": { "type": "float32", "value": 1.1299999952316284 },
-				"ConstantColorRGB_01_Value_op": { "type": "IRenderMaterialEntity.EModifierOperation", "value": "eReplace" },
-				"ConstantColorRGB_01_Value": { "type": "SColorRGB", "value": "#9ec0ff" },
-				"ConstantVector1D_06_Value_op": { "type": "IRenderMaterialEntity.EModifierOperation", "value": "eReplace" },
-				"ConstantVector1D_06_Value": { "type": "float32", "value": 2 },
-				"m_eidParent": { "type": "SEntityTemplateReference", "value": "4de1f636d3ebec7f" }
 			}
 		},
 		"fa6a1206094e23c0": {
@@ -80960,22 +80392,6 @@
 				"m_eidParent": { "type": "SEntityTemplateReference", "value": "57fdeb1e38f93998" }
 			}
 		},
-		"67105be92f0c5091": {
-			"parent": "d8e2aa9b1b67dad6",
-			"name": "Rock_Collection_A_Set_B21",
-			"factory": "[assembly:/_pro/environment/templates/props/rocks/rocks_sandstone_a.template?/rock_collection_a_set_b.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/environment/templates/props/rocks/rocks_sandstone_a.template?/rock_collection_a_set_b.entitytemplate].pc_entityblueprint",
-			"properties": {
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": { "x": 1.0987713918704596, "y": 0.0006302537346821068, "z": -45.00021204811231 },
-						"position": { "x": -89.586181640625, "y": 167.38600158691406, "z": -8.963605880737305 }
-					}
-				},
-				"m_eidParent": { "type": "SEntityTemplateReference", "value": "a3abfc17113fa981" }
-			}
-		},
 		"52a5a065df5f4814": {
 			"parent": "36be6915782f52b1",
 			"name": "Door_AppartmentDoor_A_Frame_NoDoor01",
@@ -81820,22 +81236,6 @@
 				"m_eidParent": { "type": "SEntityTemplateReference", "value": "a3abfc17113fa981" }
 			}
 		},
-		"5db838644a30879a": {
-			"parent": "d8e2aa9b1b67dad6",
-			"name": "Rock_Collection_A_Set_B23",
-			"factory": "[assembly:/_pro/environment/templates/props/rocks/rocks_sandstone_a.template?/rock_collection_a_set_b.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/environment/templates/props/rocks/rocks_sandstone_a.template?/rock_collection_a_set_b.entitytemplate].pc_entityblueprint",
-			"properties": {
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": { "x": 1.0987713918704596, "y": 0.00034377477387099455, "z": -45.0002073870224 },
-						"position": { "x": -94.34336853027344, "y": 163.12680053710938, "z": -8.955720901489258 }
-					}
-				},
-				"m_eidParent": { "type": "SEntityTemplateReference", "value": "a3abfc17113fa981" }
-			}
-		},
 		"10b8afd0ce5f20b1": {
 			"parent": "c67bb3ae9a3b91f8",
 			"name": "Church_Prayer_Candle_Stand05",
@@ -81924,23 +81324,6 @@
 				"m_eidParent": { "type": "SEntityTemplateReference", "value": "1cf4f8c910824077", "postInit": true }
 			}
 		},
-		"20c91188f95cf13a": {
-			"parent": "dc7d4582107e5362",
-			"name": "Pillar_Italy_Church_Outside_Gate_Door_B_00",
-			"factory": "[assembly:/_pro/environment/templates/architecture/pillars/pillars_italy_a.template?/pillar_italy_church_outside_gate_door_b_00.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/environment/templates/architecture/pillars/pillars_italy_a.template?/pillar_italy_church_outside_gate_door_b_00.entitytemplate].pc_entityblueprint",
-			"properties": {
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": { "x": 0, "y": 0, "z": -130.0001141730952 },
-						"position": { "x": -74.8502426147461, "y": 126.44339752197266, "z": -8.970111846923828 }
-					}
-				},
-				"m_fLODOffset": { "type": "float32", "value": 10 },
-				"m_eidParent": { "type": "SEntityTemplateReference", "value": "a3abfc17113fa981" }
-			}
-		},
 		"9efbf96d0cf4e9b2": {
 			"parent": "2eebf4dd97fa3f82",
 			"name": "StaticDecal_Concrete_decay_A_TypeB_04",
@@ -81973,22 +81356,6 @@
 				"m_fAlpha": { "type": "float32", "value": 100 },
 				"m_fCullingAngle": { "type": "float32", "value": 15 },
 				"m_nZBias": { "type": "uint8", "value": 1 },
-				"m_eidParent": { "type": "SEntityTemplateReference", "value": "a3abfc17113fa981" }
-			}
-		},
-		"2f40069b6e4e73ad": {
-			"parent": "b429f3c392bdcef2",
-			"name": "Palace_Fence_Metal_A_00_01",
-			"factory": "[assembly:/_pro/environment/templates/architecture/fences/wall_fences_a.template?/wall_fence_metal_black_3m_a_00.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/environment/templates/architecture/fences/wall_fences_a.template?/wall_fence_metal_black_3m_a_00.entitytemplate].pc_entityblueprint",
-			"properties": {
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": { "x": 0, "y": 0, "z": -44.999876843287666 },
-						"position": { "x": -60.2074089050293, "y": 129.39450073242188, "z": -6.307419776916504 }
-					}
-				},
 				"m_eidParent": { "type": "SEntityTemplateReference", "value": "a3abfc17113fa981" }
 			}
 		},
