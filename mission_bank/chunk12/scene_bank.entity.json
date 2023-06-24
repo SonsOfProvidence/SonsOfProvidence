@@ -1152,20 +1152,825 @@
 				"m_eidParent": { "type": "SEntityTemplateReference", "value": "feeda0e1f43c4fa0", "postInit": true }
 			}
 		},
-		"feed267e6b59a52d": {
-			"parent": "feeda0e1f43c4fa0",
-			"name": "Mansion_Garden_A_grass",
-			"factory": "[assembly:/_pro/environment/geometry/levels/coastal_town_italy/mansion_a.wl2?/mansion_garden_a_grass.prim].pc_entitytype",
-			"blueprint": "[assembly:/templates/geometrytemplatestaticcoll.template?/geomentity01.entitytemplate].pc_entityblueprint",
+		"feed1d428d2ef3b5": {
+			"parent": "feedf423258ea224",
+			"name": "suburban_ground_grass_16x16_y1",
+			"factory": "[assembly:/_pro/environment/templates/kits/suburban_house/suburban_ground_a.template?/suburban_ground_grass_16x16_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/suburban_house/suburban_ground_a.template?/suburban_ground_grass_16x16_a.entitytemplate].pc_entityblueprint",
 			"properties": {
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": 0, "y": 0, "z": 90 },
-						"position": { "x": -36.06886, "y": -32.731533, "z": 0.42945474 }
+						"rotation": { "x": 0, "y": 0, "z": 89.999995674289 },
+						"position": { "x": -46.473557, "y": -65.179214, "z": 0.2522441 }
 					}
 				},
-				"m_eidParent": { "type": "SEntityTemplateReference", "value": "feeda0e1f43c4fa0", "postInit": true }
+				"PFObstacle_Enabled": { "type": "bool", "value": false },
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "feedf423258ea224", "postInit": true }
+			}
+		},
+		"feedf423258ea224": {
+			"parent": "feed1ba0c7c287aa",
+			"name": "Grass X3",
+			"factory": "[modules:/zroomentity.class].pc_entitytype",
+			"blueprint": "[modules:/zroomentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": { "rotation": { "x": 0, "y": 0, "z": 0 }, "position": { "x": 32, "y": 0, "z": 0 } }
+				},
+				"m_vRoomMin": { "type": "SVector3", "value": { "x": -100, "y": -100, "z": -100 } },
+				"m_vRoomMax": { "type": "SVector3", "value": { "x": 100, "y": 100, "z": 100 } },
+				"m_bGlobalLightOverrideEnable": { "type": "bool", "value": true },
+				"m_bOutside": { "type": "bool", "value": true },
+				"m_bCSMRoom": { "type": "bool", "value": true },
+				"m_bContainsCrowd": { "type": "bool", "value": true },
+				"m_fGlobalLightOverrideFrontIntensity": { "type": "float32", "value": 20 },
+				"m_fGlobalLightOverrideBackIntensity": { "type": "float32", "value": 0 },
+				"m_GlobalLightOverrideBackColor": { "type": "SColorRGB", "value": "#badeff" },
+				"m_GlobalLightOverrideFrontColor": { "type": "SColorRGB", "value": "#c7e6ff" },
+				"m_bOutsideMaster": { "type": "bool", "value": true },
+				"m_fMiddleGrayMultiplier": { "type": "float32", "value": 1 },
+				"m_PostfilterParametersID": { "type": "int32", "value": -1 },
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "fffffffffffffffe" }
+			},
+			"subsets": { "Rooms": ["fffffffffffffffe"] }
+		},
+		"feed571d02242cd1": {
+			"parent": "feedf423258ea224",
+			"name": "suburban_ground_grass_16x16_y4",
+			"factory": "[assembly:/_pro/environment/templates/kits/suburban_house/suburban_ground_a.template?/suburban_ground_grass_16x16_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/suburban_house/suburban_ground_a.template?/suburban_ground_grass_16x16_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": 89.999995674289 },
+						"position": { "x": -46.473557, "y": -17.179214, "z": 0.2522441 }
+					}
+				},
+				"PFObstacle_Enabled": { "type": "bool", "value": false },
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "feedf423258ea224", "postInit": true }
+			}
+		},
+		"feed6060eb97f5f6": {
+			"parent": "feedf423258ea224",
+			"name": "suburban_ground_grass_16x16_y5",
+			"factory": "[assembly:/_pro/environment/templates/kits/suburban_house/suburban_ground_a.template?/suburban_ground_grass_16x16_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/suburban_house/suburban_ground_a.template?/suburban_ground_grass_16x16_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": 89.999995674289 },
+						"position": { "x": -46.473557, "y": -1.179214, "z": 0.2522441 }
+					}
+				},
+				"PFObstacle_Enabled": { "type": "bool", "value": false },
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "feedf423258ea224", "postInit": true }
+			}
+		},
+		"feed4c37599afac5": {
+			"parent": "feedf423258ea224",
+			"name": "suburban_ground_grass_16x16_y3",
+			"factory": "[assembly:/_pro/environment/templates/kits/suburban_house/suburban_ground_a.template?/suburban_ground_grass_16x16_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/suburban_house/suburban_ground_a.template?/suburban_ground_grass_16x16_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": 89.999995674289 },
+						"position": { "x": -46.473557, "y": -33.179214, "z": 0.2522441 }
+					}
+				},
+				"PFObstacle_Enabled": { "type": "bool", "value": false },
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "feedf423258ea224", "postInit": true }
+			}
+		},
+		"feedb3b0fe669d5f": {
+			"parent": "feedf423258ea224",
+			"name": "suburban_ground_grass_16x16_y8",
+			"factory": "[assembly:/_pro/environment/templates/kits/suburban_house/suburban_ground_a.template?/suburban_ground_grass_16x16_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/suburban_house/suburban_ground_a.template?/suburban_ground_grass_16x16_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": 89.999995674289 },
+						"position": { "x": -46.473557, "y": 46.820786, "z": 0.2522441 }
+					}
+				},
+				"PFObstacle_Enabled": { "type": "bool", "value": false },
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "feedf423258ea224", "postInit": true }
+			}
+		},
+		"feed48486a5106d3": {
+			"parent": "feedf423258ea224",
+			"name": "suburban_ground_grass_16x16_y6",
+			"factory": "[assembly:/_pro/environment/templates/kits/suburban_house/suburban_ground_a.template?/suburban_ground_grass_16x16_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/suburban_house/suburban_ground_a.template?/suburban_ground_grass_16x16_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": 89.999995674289 },
+						"position": { "x": -46.473557, "y": 14.820786, "z": 0.2522441 }
+					}
+				},
+				"PFObstacle_Enabled": { "type": "bool", "value": false },
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "feedf423258ea224", "postInit": true }
+			}
+		},
+		"feed0d0340c26314": {
+			"parent": "feedf423258ea224",
+			"name": "suburban_ground_grass_16x16_y2",
+			"factory": "[assembly:/_pro/environment/templates/kits/suburban_house/suburban_ground_a.template?/suburban_ground_grass_16x16_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/suburban_house/suburban_ground_a.template?/suburban_ground_grass_16x16_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": 89.999995674289 },
+						"position": { "x": -46.473557, "y": -49.179214, "z": 0.2522441 }
+					}
+				},
+				"PFObstacle_Enabled": { "type": "bool", "value": false },
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "feedf423258ea224", "postInit": true }
+			}
+		},
+		"feedaa4778e792d8": {
+			"parent": "feedf423258ea224",
+			"name": "suburban_ground_grass_16x16_y7",
+			"factory": "[assembly:/_pro/environment/templates/kits/suburban_house/suburban_ground_a.template?/suburban_ground_grass_16x16_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/suburban_house/suburban_ground_a.template?/suburban_ground_grass_16x16_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": 89.999995674289 },
+						"position": { "x": -46.473557, "y": 30.820786, "z": 0.2522441 }
+					}
+				},
+				"PFObstacle_Enabled": { "type": "bool", "value": false },
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "feedf423258ea224", "postInit": true }
+			}
+		},
+		"feed1ba0c7c287aa": {
+			"parent": "feeda0e1f43c4fa0",
+			"name": "Grass",
+			"factory": "[modules:/zentity.class].pc_entitytype",
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
+		},
+		"feeda4ad1d6bb5c8": {
+			"parent": "feed1ba0c7c287aa",
+			"name": "Grass X2",
+			"factory": "[modules:/zroomentity.class].pc_entitytype",
+			"blueprint": "[modules:/zroomentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": { "rotation": { "x": 0, "y": 0, "z": 0 }, "position": { "x": 16, "y": 0, "z": 0 } }
+				},
+				"m_vRoomMin": { "type": "SVector3", "value": { "x": -100, "y": -100, "z": -100 } },
+				"m_vRoomMax": { "type": "SVector3", "value": { "x": 100, "y": 100, "z": 100 } },
+				"m_bGlobalLightOverrideEnable": { "type": "bool", "value": true },
+				"m_bOutside": { "type": "bool", "value": true },
+				"m_bCSMRoom": { "type": "bool", "value": true },
+				"m_bContainsCrowd": { "type": "bool", "value": true },
+				"m_fGlobalLightOverrideFrontIntensity": { "type": "float32", "value": 20 },
+				"m_fGlobalLightOverrideBackIntensity": { "type": "float32", "value": 0 },
+				"m_GlobalLightOverrideBackColor": { "type": "SColorRGB", "value": "#badeff" },
+				"m_GlobalLightOverrideFrontColor": { "type": "SColorRGB", "value": "#c7e6ff" },
+				"m_bOutsideMaster": { "type": "bool", "value": true },
+				"m_fMiddleGrayMultiplier": { "type": "float32", "value": 1 },
+				"m_PostfilterParametersID": { "type": "int32", "value": -1 },
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "fffffffffffffffe" }
+			},
+			"subsets": { "Rooms": ["fffffffffffffffe"] }
+		},
+		"feed6a208a48ac88": {
+			"parent": "feeda4ad1d6bb5c8",
+			"name": "suburban_ground_grass_16x16_y1",
+			"factory": "[assembly:/_pro/environment/templates/kits/suburban_house/suburban_ground_a.template?/suburban_ground_grass_16x16_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/suburban_house/suburban_ground_a.template?/suburban_ground_grass_16x16_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": 89.999995674289 },
+						"position": { "x": -46.473557, "y": -65.179214, "z": 0.2522441 }
+					}
+				},
+				"PFObstacle_Enabled": { "type": "bool", "value": false },
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "feeda4ad1d6bb5c8", "postInit": true }
+			}
+		},
+		"feed46d8b5f1f19f": {
+			"parent": "feeda4ad1d6bb5c8",
+			"name": "suburban_ground_grass_16x16_y4",
+			"factory": "[assembly:/_pro/environment/templates/kits/suburban_house/suburban_ground_a.template?/suburban_ground_grass_16x16_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/suburban_house/suburban_ground_a.template?/suburban_ground_grass_16x16_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": 89.999995674289 },
+						"position": { "x": -46.473557, "y": -17.179214, "z": 0.2522441 }
+					}
+				},
+				"PFObstacle_Enabled": { "type": "bool", "value": false },
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "feeda4ad1d6bb5c8", "postInit": true }
+			}
+		},
+		"feed7947e4c24f50": {
+			"parent": "feeda4ad1d6bb5c8",
+			"name": "suburban_ground_grass_16x16_y5",
+			"factory": "[assembly:/_pro/environment/templates/kits/suburban_house/suburban_ground_a.template?/suburban_ground_grass_16x16_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/suburban_house/suburban_ground_a.template?/suburban_ground_grass_16x16_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": 89.999995674289 },
+						"position": { "x": -46.473557, "y": -1.179214, "z": 0.2522441 }
+					}
+				},
+				"PFObstacle_Enabled": { "type": "bool", "value": false },
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "feeda4ad1d6bb5c8", "postInit": true }
+			}
+		},
+		"feed05b62f671b8e": {
+			"parent": "feeda4ad1d6bb5c8",
+			"name": "suburban_ground_grass_16x16_y3",
+			"factory": "[assembly:/_pro/environment/templates/kits/suburban_house/suburban_ground_a.template?/suburban_ground_grass_16x16_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/suburban_house/suburban_ground_a.template?/suburban_ground_grass_16x16_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": 89.999995674289 },
+						"position": { "x": -46.473557, "y": -33.179214, "z": 0.2522441 }
+					}
+				},
+				"PFObstacle_Enabled": { "type": "bool", "value": false },
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "feeda4ad1d6bb5c8", "postInit": true }
+			}
+		},
+		"feed288c6f123377": {
+			"parent": "feeda4ad1d6bb5c8",
+			"name": "suburban_ground_grass_16x16_y8",
+			"factory": "[assembly:/_pro/environment/templates/kits/suburban_house/suburban_ground_a.template?/suburban_ground_grass_16x16_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/suburban_house/suburban_ground_a.template?/suburban_ground_grass_16x16_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": 89.999995674289 },
+						"position": { "x": -46.473557, "y": 46.820786, "z": 0.2522441 }
+					}
+				},
+				"PFObstacle_Enabled": { "type": "bool", "value": false },
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "feeda4ad1d6bb5c8", "postInit": true }
+			}
+		},
+		"feeddf4348fc19cb": {
+			"parent": "feeda4ad1d6bb5c8",
+			"name": "suburban_ground_grass_16x16_y6",
+			"factory": "[assembly:/_pro/environment/templates/kits/suburban_house/suburban_ground_a.template?/suburban_ground_grass_16x16_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/suburban_house/suburban_ground_a.template?/suburban_ground_grass_16x16_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": 89.999995674289 },
+						"position": { "x": -46.473557, "y": 14.820786, "z": 0.2522441 }
+					}
+				},
+				"PFObstacle_Enabled": { "type": "bool", "value": false },
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "feeda4ad1d6bb5c8", "postInit": true }
+			}
+		},
+		"feed8e3726a449db": {
+			"parent": "feeda4ad1d6bb5c8",
+			"name": "suburban_ground_grass_16x16_y2",
+			"factory": "[assembly:/_pro/environment/templates/kits/suburban_house/suburban_ground_a.template?/suburban_ground_grass_16x16_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/suburban_house/suburban_ground_a.template?/suburban_ground_grass_16x16_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": 89.999995674289 },
+						"position": { "x": -46.473557, "y": -49.179214, "z": 0.2522441 }
+					}
+				},
+				"PFObstacle_Enabled": { "type": "bool", "value": false },
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "feeda4ad1d6bb5c8", "postInit": true }
+			}
+		},
+		"feedbeef8a135252": {
+			"parent": "feeda4ad1d6bb5c8",
+			"name": "suburban_ground_grass_16x16_y7",
+			"factory": "[assembly:/_pro/environment/templates/kits/suburban_house/suburban_ground_a.template?/suburban_ground_grass_16x16_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/suburban_house/suburban_ground_a.template?/suburban_ground_grass_16x16_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": 89.999995674289 },
+						"position": { "x": -46.473557, "y": 30.820786, "z": 0.2522441 }
+					}
+				},
+				"PFObstacle_Enabled": { "type": "bool", "value": false },
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "feeda4ad1d6bb5c8", "postInit": true }
+			}
+		},
+		"feed9acaec8fdafd": {
+			"parent": "feed1ba0c7c287aa",
+			"name": "Grass X",
+			"factory": "[modules:/zroomentity.class].pc_entitytype",
+			"blueprint": "[modules:/zroomentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": { "rotation": { "x": 0, "y": 0, "z": 0 }, "position": { "x": 0, "y": 0, "z": 0 } }
+				},
+				"m_vRoomMin": { "type": "SVector3", "value": { "x": -100, "y": -100, "z": -100 } },
+				"m_vRoomMax": { "type": "SVector3", "value": { "x": 100, "y": 100, "z": 100 } },
+				"m_bGlobalLightOverrideEnable": { "type": "bool", "value": true },
+				"m_bOutside": { "type": "bool", "value": true },
+				"m_bCSMRoom": { "type": "bool", "value": true },
+				"m_bContainsCrowd": { "type": "bool", "value": true },
+				"m_fGlobalLightOverrideFrontIntensity": { "type": "float32", "value": 20 },
+				"m_fGlobalLightOverrideBackIntensity": { "type": "float32", "value": 0 },
+				"m_GlobalLightOverrideBackColor": { "type": "SColorRGB", "value": "#badeff" },
+				"m_GlobalLightOverrideFrontColor": { "type": "SColorRGB", "value": "#c7e6ff" },
+				"m_bOutsideMaster": { "type": "bool", "value": true },
+				"m_fMiddleGrayMultiplier": { "type": "float32", "value": 1 },
+				"m_PostfilterParametersID": { "type": "int32", "value": -1 },
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "fffffffffffffffe" }
+			},
+			"subsets": { "Rooms": ["fffffffffffffffe"] }
+		},
+		"feed4eb43df8e410": {
+			"parent": "feed9acaec8fdafd",
+			"name": "suburban_ground_grass_16x16_y1",
+			"factory": "[assembly:/_pro/environment/templates/kits/suburban_house/suburban_ground_a.template?/suburban_ground_grass_16x16_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/suburban_house/suburban_ground_a.template?/suburban_ground_grass_16x16_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": 89.999995674289 },
+						"position": { "x": -46.473557, "y": -65.179214, "z": 0.2522441 }
+					}
+				},
+				"PFObstacle_Enabled": { "type": "bool", "value": false },
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "feed9acaec8fdafd", "postInit": true }
+			}
+		},
+		"feed19f253a291a0": {
+			"parent": "feed9acaec8fdafd",
+			"name": "suburban_ground_grass_16x16_y4",
+			"factory": "[assembly:/_pro/environment/templates/kits/suburban_house/suburban_ground_a.template?/suburban_ground_grass_16x16_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/suburban_house/suburban_ground_a.template?/suburban_ground_grass_16x16_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": 89.999995674289 },
+						"position": { "x": -46.473557, "y": -17.179214, "z": 0.2522441 }
+					}
+				},
+				"PFObstacle_Enabled": { "type": "bool", "value": false },
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "feed9acaec8fdafd", "postInit": true }
+			}
+		},
+		"feed30ceee319146": {
+			"parent": "feed9acaec8fdafd",
+			"name": "suburban_ground_grass_16x16_y5",
+			"factory": "[assembly:/_pro/environment/templates/kits/suburban_house/suburban_ground_a.template?/suburban_ground_grass_16x16_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/suburban_house/suburban_ground_a.template?/suburban_ground_grass_16x16_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": 89.999995674289 },
+						"position": { "x": -46.473557, "y": -1.179214, "z": 0.2522441 }
+					}
+				},
+				"PFObstacle_Enabled": { "type": "bool", "value": false },
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "feed9acaec8fdafd", "postInit": true }
+			}
+		},
+		"feedac8cc5818a4f": {
+			"parent": "feed9acaec8fdafd",
+			"name": "suburban_ground_grass_16x16_y3",
+			"factory": "[assembly:/_pro/environment/templates/kits/suburban_house/suburban_ground_a.template?/suburban_ground_grass_16x16_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/suburban_house/suburban_ground_a.template?/suburban_ground_grass_16x16_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": 89.999995674289 },
+						"position": { "x": -46.473557, "y": -33.179214, "z": 0.2522441 }
+					}
+				},
+				"PFObstacle_Enabled": { "type": "bool", "value": false },
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "feed9acaec8fdafd", "postInit": true }
+			}
+		},
+		"feed8a62a054e003": {
+			"parent": "feed9acaec8fdafd",
+			"name": "suburban_ground_grass_16x16_y8",
+			"factory": "[assembly:/_pro/environment/templates/kits/suburban_house/suburban_ground_a.template?/suburban_ground_grass_16x16_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/suburban_house/suburban_ground_a.template?/suburban_ground_grass_16x16_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": 89.999995674289 },
+						"position": { "x": -46.473557, "y": 46.820786, "z": 0.2522441 }
+					}
+				},
+				"PFObstacle_Enabled": { "type": "bool", "value": false },
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "feed9acaec8fdafd", "postInit": true }
+			}
+		},
+		"feedcb51ee743bea": {
+			"parent": "feed9acaec8fdafd",
+			"name": "suburban_ground_grass_16x16_y6",
+			"factory": "[assembly:/_pro/environment/templates/kits/suburban_house/suburban_ground_a.template?/suburban_ground_grass_16x16_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/suburban_house/suburban_ground_a.template?/suburban_ground_grass_16x16_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": 89.999995674289 },
+						"position": { "x": -46.473557, "y": 14.820786, "z": 0.2522441 }
+					}
+				},
+				"PFObstacle_Enabled": { "type": "bool", "value": false },
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "feed9acaec8fdafd", "postInit": true }
+			}
+		},
+		"feedcb63ee2fa760": {
+			"parent": "feed9acaec8fdafd",
+			"name": "suburban_ground_grass_16x16_y2",
+			"factory": "[assembly:/_pro/environment/templates/kits/suburban_house/suburban_ground_a.template?/suburban_ground_grass_16x16_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/suburban_house/suburban_ground_a.template?/suburban_ground_grass_16x16_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": 89.999995674289 },
+						"position": { "x": -46.473557, "y": -49.179214, "z": 0.2522441 }
+					}
+				},
+				"PFObstacle_Enabled": { "type": "bool", "value": false },
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "feed9acaec8fdafd", "postInit": true }
+			}
+		},
+		"feedfc37bd53835f": {
+			"parent": "feed9acaec8fdafd",
+			"name": "suburban_ground_grass_16x16_y7",
+			"factory": "[assembly:/_pro/environment/templates/kits/suburban_house/suburban_ground_a.template?/suburban_ground_grass_16x16_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/suburban_house/suburban_ground_a.template?/suburban_ground_grass_16x16_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": 89.999995674289 },
+						"position": { "x": -46.473557, "y": 30.820786, "z": 0.2522441 }
+					}
+				},
+				"PFObstacle_Enabled": { "type": "bool", "value": false },
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "feed9acaec8fdafd", "postInit": true }
+			}
+		},
+		"feede18dcd883057": {
+			"parent": "feed1ba0c7c287aa",
+			"name": "Grass X4",
+			"factory": "[modules:/zroomentity.class].pc_entitytype",
+			"blueprint": "[modules:/zroomentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": { "rotation": { "x": 0, "y": 0, "z": 0 }, "position": { "x": 48, "y": 0, "z": 0 } }
+				},
+				"m_vRoomMin": { "type": "SVector3", "value": { "x": -100, "y": -100, "z": -100 } },
+				"m_vRoomMax": { "type": "SVector3", "value": { "x": 100, "y": 100, "z": 100 } },
+				"m_bGlobalLightOverrideEnable": { "type": "bool", "value": true },
+				"m_bOutside": { "type": "bool", "value": true },
+				"m_bCSMRoom": { "type": "bool", "value": true },
+				"m_bContainsCrowd": { "type": "bool", "value": true },
+				"m_fGlobalLightOverrideFrontIntensity": { "type": "float32", "value": 20 },
+				"m_fGlobalLightOverrideBackIntensity": { "type": "float32", "value": 0 },
+				"m_GlobalLightOverrideBackColor": { "type": "SColorRGB", "value": "#badeff" },
+				"m_GlobalLightOverrideFrontColor": { "type": "SColorRGB", "value": "#c7e6ff" },
+				"m_bOutsideMaster": { "type": "bool", "value": true },
+				"m_fMiddleGrayMultiplier": { "type": "float32", "value": 1 },
+				"m_PostfilterParametersID": { "type": "int32", "value": -1 },
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "fffffffffffffffe" }
+			},
+			"subsets": { "Rooms": ["fffffffffffffffe"] }
+		},
+		"feed38671ab4a7c5": {
+			"parent": "feede18dcd883057",
+			"name": "suburban_ground_grass_16x16_y1",
+			"factory": "[assembly:/_pro/environment/templates/kits/suburban_house/suburban_ground_a.template?/suburban_ground_grass_16x16_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/suburban_house/suburban_ground_a.template?/suburban_ground_grass_16x16_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": 89.999995674289 },
+						"position": { "x": -46.473557, "y": -65.179214, "z": 0.2522441 }
+					}
+				},
+				"PFObstacle_Enabled": { "type": "bool", "value": false },
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "feede18dcd883057", "postInit": true }
+			}
+		},
+		"feedca6ef750894d": {
+			"parent": "feede18dcd883057",
+			"name": "suburban_ground_grass_16x16_y4",
+			"factory": "[assembly:/_pro/environment/templates/kits/suburban_house/suburban_ground_a.template?/suburban_ground_grass_16x16_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/suburban_house/suburban_ground_a.template?/suburban_ground_grass_16x16_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": 89.999995674289 },
+						"position": { "x": -46.473557, "y": -17.179214, "z": 0.2522441 }
+					}
+				},
+				"PFObstacle_Enabled": { "type": "bool", "value": false },
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "feede18dcd883057", "postInit": true }
+			}
+		},
+		"feedb9dbdcd754b4": {
+			"parent": "feede18dcd883057",
+			"name": "suburban_ground_grass_16x16_y5",
+			"factory": "[assembly:/_pro/environment/templates/kits/suburban_house/suburban_ground_a.template?/suburban_ground_grass_16x16_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/suburban_house/suburban_ground_a.template?/suburban_ground_grass_16x16_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": 89.999995674289 },
+						"position": { "x": -46.473557, "y": -1.179214, "z": 0.2522441 }
+					}
+				},
+				"PFObstacle_Enabled": { "type": "bool", "value": false },
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "feede18dcd883057", "postInit": true }
+			}
+		},
+		"feedd141981cc001": {
+			"parent": "feede18dcd883057",
+			"name": "suburban_ground_grass_16x16_y3",
+			"factory": "[assembly:/_pro/environment/templates/kits/suburban_house/suburban_ground_a.template?/suburban_ground_grass_16x16_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/suburban_house/suburban_ground_a.template?/suburban_ground_grass_16x16_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": 89.999995674289 },
+						"position": { "x": -46.473557, "y": -33.179214, "z": 0.2522441 }
+					}
+				},
+				"PFObstacle_Enabled": { "type": "bool", "value": false },
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "feede18dcd883057", "postInit": true }
+			}
+		},
+		"feedae15dcafbfcb": {
+			"parent": "feede18dcd883057",
+			"name": "suburban_ground_grass_16x16_y8",
+			"factory": "[assembly:/_pro/environment/templates/kits/suburban_house/suburban_ground_a.template?/suburban_ground_grass_16x16_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/suburban_house/suburban_ground_a.template?/suburban_ground_grass_16x16_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": 89.999995674289 },
+						"position": { "x": -46.473557, "y": 46.820786, "z": 0.2522441 }
+					}
+				},
+				"PFObstacle_Enabled": { "type": "bool", "value": false },
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "feede18dcd883057", "postInit": true }
+			}
+		},
+		"feed257c2bb1214e": {
+			"parent": "feede18dcd883057",
+			"name": "suburban_ground_grass_16x16_y6",
+			"factory": "[assembly:/_pro/environment/templates/kits/suburban_house/suburban_ground_a.template?/suburban_ground_grass_16x16_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/suburban_house/suburban_ground_a.template?/suburban_ground_grass_16x16_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": 89.999995674289 },
+						"position": { "x": -46.473557, "y": 14.820786, "z": 0.2522441 }
+					}
+				},
+				"PFObstacle_Enabled": { "type": "bool", "value": false },
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "feede18dcd883057", "postInit": true }
+			}
+		},
+		"feedcf5af0152285": {
+			"parent": "feede18dcd883057",
+			"name": "suburban_ground_grass_16x16_y2",
+			"factory": "[assembly:/_pro/environment/templates/kits/suburban_house/suburban_ground_a.template?/suburban_ground_grass_16x16_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/suburban_house/suburban_ground_a.template?/suburban_ground_grass_16x16_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": 89.999995674289 },
+						"position": { "x": -46.473557, "y": -49.179214, "z": 0.2522441 }
+					}
+				},
+				"PFObstacle_Enabled": { "type": "bool", "value": false },
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "feede18dcd883057", "postInit": true }
+			}
+		},
+		"feedfc4d1a2f583a": {
+			"parent": "feede18dcd883057",
+			"name": "suburban_ground_grass_16x16_y7",
+			"factory": "[assembly:/_pro/environment/templates/kits/suburban_house/suburban_ground_a.template?/suburban_ground_grass_16x16_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/suburban_house/suburban_ground_a.template?/suburban_ground_grass_16x16_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": 89.999995674289 },
+						"position": { "x": -46.473557, "y": 30.820786, "z": 0.2522441 }
+					}
+				},
+				"PFObstacle_Enabled": { "type": "bool", "value": false },
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "feede18dcd883057", "postInit": true }
+			}
+		},
+		"feed0ba07ead7b4a": {
+			"parent": "feed1ba0c7c287aa",
+			"name": "Grass X5",
+			"factory": "[modules:/zroomentity.class].pc_entitytype",
+			"blueprint": "[modules:/zroomentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": { "rotation": { "x": 0, "y": 0, "z": 0 }, "position": { "x": 54, "y": 0, "z": 0 } }
+				},
+				"m_vRoomMin": { "type": "SVector3", "value": { "x": -100, "y": -100, "z": -100 } },
+				"m_vRoomMax": { "type": "SVector3", "value": { "x": 100, "y": 100, "z": 100 } },
+				"m_bGlobalLightOverrideEnable": { "type": "bool", "value": true },
+				"m_bOutside": { "type": "bool", "value": true },
+				"m_bCSMRoom": { "type": "bool", "value": true },
+				"m_bContainsCrowd": { "type": "bool", "value": true },
+				"m_fGlobalLightOverrideFrontIntensity": { "type": "float32", "value": 20 },
+				"m_fGlobalLightOverrideBackIntensity": { "type": "float32", "value": 0 },
+				"m_GlobalLightOverrideBackColor": { "type": "SColorRGB", "value": "#badeff" },
+				"m_GlobalLightOverrideFrontColor": { "type": "SColorRGB", "value": "#c7e6ff" },
+				"m_bOutsideMaster": { "type": "bool", "value": true },
+				"m_fMiddleGrayMultiplier": { "type": "float32", "value": 1 },
+				"m_PostfilterParametersID": { "type": "int32", "value": -1 },
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "fffffffffffffffe" }
+			},
+			"subsets": { "Rooms": ["fffffffffffffffe"] }
+		},
+		"feed2ef4ae261485": {
+			"parent": "feed0ba07ead7b4a",
+			"name": "suburban_ground_grass_16x16_y1",
+			"factory": "[assembly:/_pro/environment/templates/kits/suburban_house/suburban_ground_a.template?/suburban_ground_grass_16x16_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/suburban_house/suburban_ground_a.template?/suburban_ground_grass_16x16_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": 89.999995674289 },
+						"position": { "x": -46.473557, "y": -65.179214, "z": 0.2522441 }
+					}
+				},
+				"PFObstacle_Enabled": { "type": "bool", "value": false },
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "feed0ba07ead7b4a", "postInit": true }
+			}
+		},
+		"feedca89200ac1e1": {
+			"parent": "feed0ba07ead7b4a",
+			"name": "suburban_ground_grass_16x16_y4",
+			"factory": "[assembly:/_pro/environment/templates/kits/suburban_house/suburban_ground_a.template?/suburban_ground_grass_16x16_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/suburban_house/suburban_ground_a.template?/suburban_ground_grass_16x16_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": 89.999995674289 },
+						"position": { "x": -46.473557, "y": -17.179214, "z": 0.2522441 }
+					}
+				},
+				"PFObstacle_Enabled": { "type": "bool", "value": false },
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "feed0ba07ead7b4a", "postInit": true }
+			}
+		},
+		"feedf40de5b9a623": {
+			"parent": "feed0ba07ead7b4a",
+			"name": "suburban_ground_grass_16x16_y5",
+			"factory": "[assembly:/_pro/environment/templates/kits/suburban_house/suburban_ground_a.template?/suburban_ground_grass_16x16_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/suburban_house/suburban_ground_a.template?/suburban_ground_grass_16x16_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": 89.999995674289 },
+						"position": { "x": -46.473557, "y": -1.179214, "z": 0.2522441 }
+					}
+				},
+				"PFObstacle_Enabled": { "type": "bool", "value": false },
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "feed0ba07ead7b4a", "postInit": true }
+			}
+		},
+		"feedd6c69300b060": {
+			"parent": "feed0ba07ead7b4a",
+			"name": "suburban_ground_grass_16x16_y3",
+			"factory": "[assembly:/_pro/environment/templates/kits/suburban_house/suburban_ground_a.template?/suburban_ground_grass_16x16_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/suburban_house/suburban_ground_a.template?/suburban_ground_grass_16x16_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": 89.999995674289 },
+						"position": { "x": -46.473557, "y": -33.179214, "z": 0.2522441 }
+					}
+				},
+				"PFObstacle_Enabled": { "type": "bool", "value": false },
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "feed0ba07ead7b4a", "postInit": true }
+			}
+		},
+		"feed52ce3dc4cfef": {
+			"parent": "feed0ba07ead7b4a",
+			"name": "suburban_ground_grass_16x16_y8",
+			"factory": "[assembly:/_pro/environment/templates/kits/suburban_house/suburban_ground_a.template?/suburban_ground_grass_16x16_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/suburban_house/suburban_ground_a.template?/suburban_ground_grass_16x16_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": 89.999995674289 },
+						"position": { "x": -46.473557, "y": 46.820786, "z": 0.2522441 }
+					}
+				},
+				"PFObstacle_Enabled": { "type": "bool", "value": false },
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "feed0ba07ead7b4a", "postInit": true }
+			}
+		},
+		"feed05efc4a1c4b7": {
+			"parent": "feed0ba07ead7b4a",
+			"name": "suburban_ground_grass_16x16_y6",
+			"factory": "[assembly:/_pro/environment/templates/kits/suburban_house/suburban_ground_a.template?/suburban_ground_grass_16x16_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/suburban_house/suburban_ground_a.template?/suburban_ground_grass_16x16_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": 89.999995674289 },
+						"position": { "x": -46.473557, "y": 14.820786, "z": 0.2522441 }
+					}
+				},
+				"PFObstacle_Enabled": { "type": "bool", "value": false },
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "feed0ba07ead7b4a", "postInit": true }
+			}
+		},
+		"feedaf776ffeba49": {
+			"parent": "feed0ba07ead7b4a",
+			"name": "suburban_ground_grass_16x16_y2",
+			"factory": "[assembly:/_pro/environment/templates/kits/suburban_house/suburban_ground_a.template?/suburban_ground_grass_16x16_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/suburban_house/suburban_ground_a.template?/suburban_ground_grass_16x16_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": 89.999995674289 },
+						"position": { "x": -46.473557, "y": -49.179214, "z": 0.2522441 }
+					}
+				},
+				"PFObstacle_Enabled": { "type": "bool", "value": false },
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "feed0ba07ead7b4a", "postInit": true }
+			}
+		},
+		"feed1f936bed2d81": {
+			"parent": "feed0ba07ead7b4a",
+			"name": "suburban_ground_grass_16x16_y7",
+			"factory": "[assembly:/_pro/environment/templates/kits/suburban_house/suburban_ground_a.template?/suburban_ground_grass_16x16_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/suburban_house/suburban_ground_a.template?/suburban_ground_grass_16x16_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": 89.999995674289 },
+						"position": { "x": -46.473557, "y": 30.820786, "z": 0.2522441 }
+					}
+				},
+				"PFObstacle_Enabled": { "type": "bool", "value": false },
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "feed0ba07ead7b4a", "postInit": true }
 			}
 		}
 	},

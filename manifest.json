@@ -214,14 +214,14 @@
 			"toChunk": 4
 		},
 		{
-			"runtimeID": "0072360E9E0950C6",
-			"comment": "church",
+			"runtimeID": "009F97195F2C0DD5",
+			"comment": "suburban_ground_grass_16x16",
 			"portFromChunk1": true,
 			"toChunk": 12
 		},
 		{
-			"runtimeID": "005FC2E83BD9A687",
-			"comment": "Mansion_Garden_A_grass",
+			"runtimeID": "0072360E9E0950C6",
+			"comment": "church",
 			"portFromChunk1": true,
 			"toChunk": 12
 		},
