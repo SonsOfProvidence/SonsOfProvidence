@@ -4052,6 +4052,48 @@
 			"comment": "fx_basic_blinkinglight_additive",
 			"portFromChunk1": true,
 			"toChunk": 26
+		},
+		{
+			"runtimeID": "0071FC7841E342CB",
+			"comment": "door_palace_garden_a_padlock_01",
+			"portFromChunk1": true,
+			"toChunk": 12
+		},
+		{
+			"runtimeID": "00190DF7A9281150",
+			"comment": "palace_fence_tall_b_00",
+			"portFromChunk1": true,
+			"toChunk": 12
+		},
+		{
+			"runtimeID": "0034981776055A31",
+			"comment": "palace_fence_tall_c_00",
+			"portFromChunk1": true,
+			"toChunk": 12
+		},
+		{
+			"runtimeID": "00C3040E8629C47A",
+			"comment": "palace_fence_pillar_b_00",
+			"portFromChunk1": true,
+			"toChunk": 12
+		},
+		{
+			"runtimeID": "0030CA4F278FC824",
+			"comment": "palace_fence_tall_spiked_a_00",
+			"portFromChunk1": true,
+			"toChunk": 12
+		},
+		{
+			"runtimeID": "00BFE67B71849222",
+			"comment": "palace_fence_tall_spiked_c_00",
+			"portFromChunk1": true,
+			"toChunk": 12
+		},
+		{
+			"runtimeID": "004F00EA7B1E27CF",
+			"comment": "lamp_palace_street_a_00",
+			"portFromChunk1": true,
+			"toChunk": 12
 		}
 	],
 	"packagedefinition": [

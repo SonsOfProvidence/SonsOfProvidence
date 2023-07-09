@@ -866,7 +866,7 @@
 			"subsets": { "Rooms": ["fffffffffffffffe"] }
 		},
 		"feed58d5fb0f1e13": {
-			"parent": "feeda0e1f43c4fa0",
+			"parent": "abcd85cba5ab5afa",
 			"name": "raccoon_city_block_a_02",
 			"factory": "[assembly:/_pro/environment/geometry/levels/raccoon/raccoon_city_blocks_a.wl2?/raccoon_city_block_a.prim].pc_entitytype",
 			"blueprint": "[assembly:/templates/geometrytemplatestaticcoll.template?/geomentity01.entitytemplate].pc_entityblueprint",
@@ -1111,8 +1111,8 @@
 			"subsets": { "Rooms": ["fffffffffffffffe"] }
 		},
 		"feedc048020b2704": {
-			"parent": "feeda0e1f43c4fa0",
-			"name": "backdrop_bangkok_skyscraper_a_00 Further apartments",
+			"parent": "feed8c563d582634",
+			"name": "backdrop_bangkok_skyscraper_a_00 Further Northern apartments",
 			"factory": "00DC8C22652B256B",
 			"blueprint": "[assembly:/templates/geometrytemplatenocoll.template?/geomentity01.entitytemplate].pc_entityblueprint",
 			"properties": {
@@ -1121,27 +1121,6 @@
 					"value": {
 						"rotation": { "x": 0, "y": 0, "z": 0 },
 						"position": { "x": -11.316743, "y": 88.99057, "z": 0.15845728 }
-					}
-				},
-				"m_PrimitiveScale": {
-					"type": "SVector3",
-					"value": { "x": 0.949999988079071, "y": 0.949999988079071, "z": 0.949999988079071 }
-				},
-				"m_bRaytracingVisible": { "type": "bool", "value": false },
-				"m_eidParent": { "type": "SEntityTemplateReference", "value": "feeda0e1f43c4fa0", "postInit": true }
-			}
-		},
-		"feed82721141bb2a": {
-			"parent": "feeda0e1f43c4fa0",
-			"name": "backdrop_bangkok_skyscraper_a_00 Closest adjacent apartments",
-			"factory": "00DC8C22652B256B",
-			"blueprint": "[assembly:/templates/geometrytemplatenocoll.template?/geomentity01.entitytemplate].pc_entityblueprint",
-			"properties": {
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": { "x": 0, "y": 0, "z": 0 },
-						"position": { "x": -11.316743, "y": 52.468727, "z": 0.15845728 }
 					}
 				},
 				"m_PrimitiveScale": {
@@ -1691,23 +1670,6 @@
 				"m_eidParent": { "type": "SEntityTemplateReference", "value": "feede18dcd883057", "postInit": true }
 			}
 		},
-		"feedca6ef750894d": {
-			"parent": "feede18dcd883057",
-			"name": "suburban_ground_grass_16x16_y4",
-			"factory": "[assembly:/_pro/environment/templates/kits/suburban_house/suburban_ground_a.template?/suburban_ground_grass_16x16_a.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/environment/templates/kits/suburban_house/suburban_ground_a.template?/suburban_ground_grass_16x16_a.entitytemplate].pc_entityblueprint",
-			"properties": {
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": { "x": 0, "y": 0, "z": 89.999995674289 },
-						"position": { "x": -46.473557, "y": -17.179214, "z": 0.2522441 }
-					}
-				},
-				"PFObstacle_Enabled": { "type": "bool", "value": false },
-				"m_eidParent": { "type": "SEntityTemplateReference", "value": "feede18dcd883057", "postInit": true }
-			}
-		},
 		"feedb9dbdcd754b4": {
 			"parent": "feede18dcd883057",
 			"name": "suburban_ground_grass_16x16_y5",
@@ -1719,23 +1681,6 @@
 					"value": {
 						"rotation": { "x": 0, "y": 0, "z": 89.999995674289 },
 						"position": { "x": -46.473557, "y": -1.179214, "z": 0.2522441 }
-					}
-				},
-				"PFObstacle_Enabled": { "type": "bool", "value": false },
-				"m_eidParent": { "type": "SEntityTemplateReference", "value": "feede18dcd883057", "postInit": true }
-			}
-		},
-		"feedd141981cc001": {
-			"parent": "feede18dcd883057",
-			"name": "suburban_ground_grass_16x16_y3",
-			"factory": "[assembly:/_pro/environment/templates/kits/suburban_house/suburban_ground_a.template?/suburban_ground_grass_16x16_a.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/environment/templates/kits/suburban_house/suburban_ground_a.template?/suburban_ground_grass_16x16_a.entitytemplate].pc_entityblueprint",
-			"properties": {
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": { "x": 0, "y": 0, "z": 89.999995674289 },
-						"position": { "x": -46.473557, "y": -33.179214, "z": 0.2522441 }
 					}
 				},
 				"PFObstacle_Enabled": { "type": "bool", "value": false },
@@ -1776,23 +1721,6 @@
 				"m_eidParent": { "type": "SEntityTemplateReference", "value": "feede18dcd883057", "postInit": true }
 			}
 		},
-		"feedcf5af0152285": {
-			"parent": "feede18dcd883057",
-			"name": "suburban_ground_grass_16x16_y2",
-			"factory": "[assembly:/_pro/environment/templates/kits/suburban_house/suburban_ground_a.template?/suburban_ground_grass_16x16_a.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/environment/templates/kits/suburban_house/suburban_ground_a.template?/suburban_ground_grass_16x16_a.entitytemplate].pc_entityblueprint",
-			"properties": {
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": { "x": 0, "y": 0, "z": 89.999995674289 },
-						"position": { "x": -46.473557, "y": -49.179214, "z": 0.2522441 }
-					}
-				},
-				"PFObstacle_Enabled": { "type": "bool", "value": false },
-				"m_eidParent": { "type": "SEntityTemplateReference", "value": "feede18dcd883057", "postInit": true }
-			}
-		},
 		"feedfc4d1a2f583a": {
 			"parent": "feede18dcd883057",
 			"name": "suburban_ground_grass_16x16_y7",
@@ -1810,15 +1738,49 @@
 				"m_eidParent": { "type": "SEntityTemplateReference", "value": "feede18dcd883057", "postInit": true }
 			}
 		},
-		"feed0ba07ead7b4a": {
-			"parent": "feed1ba0c7c287aa",
-			"name": "Grass X5",
+		"feedbd6ac199517f": {
+			"parent": "feed8c563d582634",
+			"name": "backdrop_bangkok_skyscraper_c_00_01",
+			"factory": "[assembly:/_pro/environment/templates/backdrop/buildings/backdrop_buildings_bangkok_a.template?/backdrop_bangkok_skyscraper_c_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/backdrop/buildings/backdrop_buildings_bangkok_a.template?/backdrop_bangkok_skyscraper_c_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": 89.999995674289 },
+						"position": { "x": -95.856575, "y": -17.239424, "z": 0.15852022 }
+					}
+				},
+				"m_PrimitiveScale": { "type": "SVector3", "value": { "x": 1, "y": 1, "z": 1 } },
+				"m_bRaytracingVisible": { "type": "bool", "value": false },
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "feeda0e1f43c4fa0", "postInit": true }
+			}
+		},
+		"feed11f1fb71b3bb": {
+			"parent": "feed8c563d582634",
+			"name": "raccoon_city_block_a_01",
+			"factory": "[assembly:/_pro/environment/geometry/levels/raccoon/raccoon_city_blocks_a.wl2?/raccoon_city_block_a.prim].pc_entitytype",
+			"blueprint": "[assembly:/templates/geometrytemplatestaticcoll.template?/geomentity01.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": 89.999995674289 },
+						"position": { "x": 38.499977, "y": 183.80594, "z": 0 }
+					}
+				},
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "feeda0e1f43c4fa0", "postInit": true }
+			}
+		},
+		"feed8c563d582634": {
+			"parent": "abcd85cba5ab5afa",
+			"name": "300_Streets",
 			"factory": "[modules:/zroomentity.class].pc_entitytype",
 			"blueprint": "[modules:/zroomentity.class].pc_entityblueprint",
 			"properties": {
 				"m_mTransform": {
 					"type": "SMatrix43",
-					"value": { "rotation": { "x": 0, "y": 0, "z": 0 }, "position": { "x": 54, "y": 0, "z": 0 } }
+					"value": { "rotation": { "x": 0, "y": 0, "z": 0 }, "position": { "x": 0, "y": 0, "z": 0 } }
 				},
 				"m_vRoomMin": { "type": "SVector3", "value": { "x": -100, "y": -100, "z": -100 } },
 				"m_vRoomMax": { "type": "SVector3", "value": { "x": 100, "y": 100, "z": 100 } },
@@ -1837,174 +1799,475 @@
 			},
 			"subsets": { "Rooms": ["fffffffffffffffe"] }
 		},
-		"feed2ef4ae261485": {
-			"parent": "feed0ba07ead7b4a",
-			"name": "suburban_ground_grass_16x16_y1",
-			"factory": "[assembly:/_pro/environment/templates/kits/suburban_house/suburban_ground_a.template?/suburban_ground_grass_16x16_a.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/environment/templates/kits/suburban_house/suburban_ground_a.template?/suburban_ground_grass_16x16_a.entitytemplate].pc_entityblueprint",
+		"feed742cc163fd3e": {
+			"parent": "feed8c563d582634",
+			"name": "Door_Palace_Garden_A_00",
+			"factory": "[assembly:/_pro/environment/templates/architecture/doors/doors.template?/door_palace_garden_a_padlock_01.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/architecture/doors/doors.template?/door_palace_garden_a_padlock_01.entitytemplate].pc_entityblueprint",
 			"properties": {
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
 						"rotation": { "x": 0, "y": 0, "z": 89.999995674289 },
-						"position": { "x": -46.473557, "y": -65.179214, "z": 0.2522441 }
+						"position": { "x": 23.566296, "y": -44.23394, "z": 0.25000003 }
 					}
 				},
-				"PFObstacle_Enabled": { "type": "bool", "value": false },
-				"m_eidParent": { "type": "SEntityTemplateReference", "value": "feed0ba07ead7b4a", "postInit": true }
+				"m_bIsLocked": { "type": "bool", "value": true },
+				"m_bPathfindingObstacleEnabled": { "type": "bool", "value": true },
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "feed8c563d582634", "postInit": true }
+			},
+			"subsets": { "AudioEmitters": ["fffffffffffffffe"] }
+		},
+		"feed7041543c894a": {
+			"parent": "feed8c563d582634",
+			"name": "Palace_Fence_Tall_B_00",
+			"factory": "[assembly:/_pro/environment/templates/props/street_props/fences_palace.template?/palace_fence_tall_b_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/street_props/fences_palace.template?/palace_fence_tall_b_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": 90 },
+						"position": { "x": 25.761856, "y": -20, "z": 0.25000003 }
+					}
+				},
+				"m_eGlowType": { "type": "ERenderGlowTypes", "value": "ERENDERGLOWTYPE_TRAVERSAL" },
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "feed8c563d582634", "postInit": true }
 			}
 		},
-		"feedca89200ac1e1": {
-			"parent": "feed0ba07ead7b4a",
-			"name": "suburban_ground_grass_16x16_y4",
-			"factory": "[assembly:/_pro/environment/templates/kits/suburban_house/suburban_ground_a.template?/suburban_ground_grass_16x16_a.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/environment/templates/kits/suburban_house/suburban_ground_a.template?/suburban_ground_grass_16x16_a.entitytemplate].pc_entityblueprint",
+		"feed73e64d2dea28": {
+			"parent": "feed7041543c894a",
+			"name": "Ivy_Roots_A07",
+			"factory": "[assembly:/_pro/environment/templates/foliage/ivy_b.template?/ivy_roots_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/foliage/ivy_b.template?/ivy_roots_a.entitytemplate].pc_entityblueprint",
 			"properties": {
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": 0, "y": 0, "z": 89.999995674289 },
-						"position": { "x": -46.473557, "y": -17.179214, "z": 0.2522441 }
+						"rotation": { "x": 0, "y": 69.99998603943718, "z": 0 },
+						"position": { "x": -0.17328999936580658, "y": -0.1646450012922287, "z": 1.9389300346374512 }
 					}
 				},
-				"PFObstacle_Enabled": { "type": "bool", "value": false },
-				"m_eidParent": { "type": "SEntityTemplateReference", "value": "feed0ba07ead7b4a", "postInit": true }
+				"m_bCastShadows": { "type": "bool", "value": true },
+				"m_bPCCastShadows": { "type": "bool", "value": false },
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "feed7041543c894a", "postInit": true }
 			}
 		},
-		"feedf40de5b9a623": {
-			"parent": "feed0ba07ead7b4a",
-			"name": "suburban_ground_grass_16x16_y5",
-			"factory": "[assembly:/_pro/environment/templates/kits/suburban_house/suburban_ground_a.template?/suburban_ground_grass_16x16_a.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/environment/templates/kits/suburban_house/suburban_ground_a.template?/suburban_ground_grass_16x16_a.entitytemplate].pc_entityblueprint",
+		"feedce9ec95ec4f3": {
+			"parent": "feed73e64d2dea28",
+			"name": "Ivy_Roots_A01",
+			"factory": "[assembly:/_pro/environment/templates/foliage/ivy_b.template?/ivy_roots_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/foliage/ivy_b.template?/ivy_roots_a.entitytemplate].pc_entityblueprint",
 			"properties": {
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": 0, "y": 0, "z": 89.999995674289 },
-						"position": { "x": -46.473557, "y": -1.179214, "z": 0.2522441 }
+						"rotation": { "x": 0, "y": -39.99995268971647, "z": 0 },
+						"position": { "x": -1.2989089488983154, "y": 9.999999974752427e-7, "z": -0.6083580255508423 }
 					}
 				},
-				"PFObstacle_Enabled": { "type": "bool", "value": false },
-				"m_eidParent": { "type": "SEntityTemplateReference", "value": "feed0ba07ead7b4a", "postInit": true }
+				"m_bCastShadows": { "type": "bool", "value": true },
+				"m_bPCCastShadows": { "type": "bool", "value": false },
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "feed73e64d2dea28" }
 			}
 		},
-		"feedd6c69300b060": {
-			"parent": "feed0ba07ead7b4a",
-			"name": "suburban_ground_grass_16x16_y3",
-			"factory": "[assembly:/_pro/environment/templates/kits/suburban_house/suburban_ground_a.template?/suburban_ground_grass_16x16_a.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/environment/templates/kits/suburban_house/suburban_ground_a.template?/suburban_ground_grass_16x16_a.entitytemplate].pc_entityblueprint",
+		"feed74859000e97b": {
+			"parent": "feed73e64d2dea28",
+			"name": "Ivy_Roots_A02",
+			"factory": "[assembly:/_pro/environment/templates/foliage/ivy_b.template?/ivy_roots_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/foliage/ivy_b.template?/ivy_roots_a.entitytemplate].pc_entityblueprint",
 			"properties": {
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": 0, "y": 0, "z": 89.999995674289 },
-						"position": { "x": -46.473557, "y": -33.179214, "z": 0.2522441 }
+						"rotation": { "x": -180, "y": -80.00016022948797, "z": -180 },
+						"position": { "x": -0.9854810237884521, "y": 9.999999974752427e-7, "z": -0.739986002445221 }
 					}
 				},
-				"PFObstacle_Enabled": { "type": "bool", "value": false },
-				"m_eidParent": { "type": "SEntityTemplateReference", "value": "feed0ba07ead7b4a", "postInit": true }
+				"m_bCastShadows": { "type": "bool", "value": true },
+				"m_bPCCastShadows": { "type": "bool", "value": false },
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "feed73e64d2dea28" }
 			}
 		},
-		"feed52ce3dc4cfef": {
-			"parent": "feed0ba07ead7b4a",
-			"name": "suburban_ground_grass_16x16_y8",
-			"factory": "[assembly:/_pro/environment/templates/kits/suburban_house/suburban_ground_a.template?/suburban_ground_grass_16x16_a.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/environment/templates/kits/suburban_house/suburban_ground_a.template?/suburban_ground_grass_16x16_a.entitytemplate].pc_entityblueprint",
+		"feede0bf87c006d1": {
+			"parent": "feed73e64d2dea28",
+			"name": "Ivy_Roots_A03",
+			"factory": "[assembly:/_pro/environment/templates/foliage/ivy_b.template?/ivy_roots_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/foliage/ivy_b.template?/ivy_roots_a.entitytemplate].pc_entityblueprint",
 			"properties": {
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": 0, "y": 0, "z": 89.999995674289 },
-						"position": { "x": -46.473557, "y": 46.820786, "z": 0.2522441 }
+						"rotation": { "x": 0, "y": 2.714314396008462, "z": 0 },
+						"position": { "x": -0.9955800175666809, "y": 0.0000019999999949504854, "z": -0.27360600233078003 }
 					}
 				},
-				"PFObstacle_Enabled": { "type": "bool", "value": false },
-				"m_eidParent": { "type": "SEntityTemplateReference", "value": "feed0ba07ead7b4a", "postInit": true }
+				"m_bCastShadows": { "type": "bool", "value": true },
+				"m_bPCCastShadows": { "type": "bool", "value": false },
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "feed73e64d2dea28" }
 			}
 		},
-		"feed05efc4a1c4b7": {
-			"parent": "feed0ba07ead7b4a",
-			"name": "suburban_ground_grass_16x16_y6",
-			"factory": "[assembly:/_pro/environment/templates/kits/suburban_house/suburban_ground_a.template?/suburban_ground_grass_16x16_a.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/environment/templates/kits/suburban_house/suburban_ground_a.template?/suburban_ground_grass_16x16_a.entitytemplate].pc_entityblueprint",
+		"feedc9f4cb024d82": {
+			"parent": "feed73e64d2dea28",
+			"name": "Ivy_Roots_A09",
+			"factory": "[assembly:/_pro/environment/templates/foliage/ivy_b.template?/ivy_roots_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/foliage/ivy_b.template?/ivy_roots_a.entitytemplate].pc_entityblueprint",
 			"properties": {
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": 0, "y": 0, "z": 89.999995674289 },
-						"position": { "x": -46.473557, "y": 14.820786, "z": 0.2522441 }
+						"rotation": { "x": 0, "y": -89.99983794485559, "z": 0 },
+						"position": { "x": 0.41278600692749023, "y": 0.000003000000106112566, "z": -0.9106709957122803 }
 					}
 				},
-				"PFObstacle_Enabled": { "type": "bool", "value": false },
-				"m_eidParent": { "type": "SEntityTemplateReference", "value": "feed0ba07ead7b4a", "postInit": true }
+				"m_bCastShadows": { "type": "bool", "value": true },
+				"m_bPCCastShadows": { "type": "bool", "value": false },
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "feed73e64d2dea28" }
 			}
 		},
-		"feedaf776ffeba49": {
-			"parent": "feed0ba07ead7b4a",
-			"name": "suburban_ground_grass_16x16_y2",
-			"factory": "[assembly:/_pro/environment/templates/kits/suburban_house/suburban_ground_a.template?/suburban_ground_grass_16x16_a.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/environment/templates/kits/suburban_house/suburban_ground_a.template?/suburban_ground_grass_16x16_a.entitytemplate].pc_entityblueprint",
+		"feed6de007756db2": {
+			"parent": "feed8c563d582634",
+			"name": "Palace_Fence_Tall_C_00_01",
+			"factory": "[assembly:/_pro/environment/templates/props/street_props/fences_palace.template?/palace_fence_tall_c_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/street_props/fences_palace.template?/palace_fence_tall_c_00.entitytemplate].pc_entityblueprint",
 			"properties": {
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": 0, "y": 0, "z": 89.999995674289 },
-						"position": { "x": -46.473557, "y": -49.179214, "z": 0.2522441 }
+						"rotation": { "x": 0, "y": 0, "z": 90 },
+						"position": { "x": 25.761856, "y": -15, "z": 0.25000003 }
 					}
 				},
-				"PFObstacle_Enabled": { "type": "bool", "value": false },
-				"m_eidParent": { "type": "SEntityTemplateReference", "value": "feed0ba07ead7b4a", "postInit": true }
+				"m_eGlowType": { "type": "ERenderGlowTypes", "value": "ERENDERGLOWTYPE_TRAVERSAL" },
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "feed8c563d582634", "postInit": true }
 			}
 		},
-		"feed1f936bed2d81": {
-			"parent": "feed0ba07ead7b4a",
-			"name": "suburban_ground_grass_16x16_y7",
-			"factory": "[assembly:/_pro/environment/templates/kits/suburban_house/suburban_ground_a.template?/suburban_ground_grass_16x16_a.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/environment/templates/kits/suburban_house/suburban_ground_a.template?/suburban_ground_grass_16x16_a.entitytemplate].pc_entityblueprint",
+		"feed234f6f940b85": {
+			"parent": "feed8c563d582634",
+			"name": "Palace_Fence_Pillar_B_0050",
+			"factory": "[assembly:/_pro/environment/templates/props/street_props/fences_palace.template?/palace_fence_pillar_b_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/street_props/fences_palace.template?/palace_fence_pillar_b_00.entitytemplate].pc_entityblueprint",
 			"properties": {
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": 0, "y": 0, "z": 89.999995674289 },
-						"position": { "x": -46.473557, "y": 30.820786, "z": 0.2522441 }
+						"rotation": { "x": 0, "y": 0, "z": 90 },
+						"position": { "x": 25.761856, "y": -25, "z": 0.25000003 }
 					}
 				},
-				"PFObstacle_Enabled": { "type": "bool", "value": false },
-				"m_eidParent": { "type": "SEntityTemplateReference", "value": "feed0ba07ead7b4a", "postInit": true }
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "feed8c563d582634", "postInit": true }
 			}
 		},
-		"feedbd6ac199517f": {
-			"parent": "feeda0e1f43c4fa0",
-			"name": "backdrop_bangkok_skyscraper_c_00_01",
-			"factory": "[assembly:/_pro/environment/templates/backdrop/buildings/backdrop_buildings_bangkok_a.template?/backdrop_bangkok_skyscraper_c_00.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/environment/templates/backdrop/buildings/backdrop_buildings_bangkok_a.template?/backdrop_bangkok_skyscraper_c_00.entitytemplate].pc_entityblueprint",
+		"feed45a8b212f9f4": {
+			"parent": "feed234f6f940b85",
+			"name": "Lamp_Palace_Street_A_0002",
+			"factory": "[assembly:/_pro/environment/templates/props/lamps/lamps_outdoor_paris_a.template?/lamp_palace_street_a_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/lamps/lamps_outdoor_paris_a.template?/lamp_palace_street_a_00.entitytemplate].pc_entityblueprint",
 			"properties": {
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": 0, "y": 0, "z": 89.999995674289 },
-						"position": { "x": -95.856575, "y": -17.239424, "z": 0.15852022 }
+						"rotation": { "x": 0, "y": 0, "z": 0 },
+						"position": { "x": 0.046234000474214554, "y": -0.023621000349521637, "z": 4.052554130554199 }
 					}
 				},
-				"m_PrimitiveScale": { "type": "SVector3", "value": { "x": 1, "y": 1, "z": 1 } },
+				"m_vFarAttenuation": { "type": "SVector2", "value": { "x": 3.8632450103759766, "y": 17.6200008392334 } },
+				"DiffusePower": { "type": "float32", "value": 5 },
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "feed234f6f940b85" }
+			},
+			"subsets": { "AudioEmitters": ["fffffffffffffffe"] }
+		},
+		"feedf4ca59e68319": {
+			"parent": "feed8c563d582634",
+			"name": "Palace_Fence_Tall_Spiked_A_00_03",
+			"factory": "[assembly:/_pro/environment/templates/props/street_props/fences_palace.template?/palace_fence_tall_spiked_a_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/street_props/fences_palace.template?/palace_fence_tall_spiked_a_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": 90 },
+						"position": { "x": 23.374588, "y": -49.61713, "z": -1.7298636 }
+					}
+				},
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "feed8c563d582634", "postInit": true }
+			}
+		},
+		"feed161db261a610": {
+			"parent": "feed8c563d582634",
+			"name": "Palace_Fence_Tall_Spiked_C_00_01",
+			"factory": "[assembly:/_pro/environment/templates/props/street_props/fences_palace.template?/palace_fence_tall_spiked_c_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/street_props/fences_palace.template?/palace_fence_tall_spiked_c_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": 90 },
+						"position": { "x": 23.374588, "y": -78.61713, "z": -1.7298636 }
+					}
+				},
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "feed8c563d582634", "postInit": true }
+			}
+		},
+		"feed016919c2e011": {
+			"parent": "feed8c563d582634",
+			"name": "backdrop_bangkok_skyscraper_a_00 Closest Northern apartments",
+			"factory": "00DC8C22652B256B",
+			"blueprint": "[assembly:/templates/geometrytemplatenocoll.template?/geomentity01.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": 0 },
+						"position": { "x": -11.316743, "y": 52.468727, "z": 0.15845728 }
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": { "x": 0.949999988079071, "y": 0.949999988079071, "z": 0.949999988079071 }
+				},
 				"m_bRaytracingVisible": { "type": "bool", "value": false },
 				"m_eidParent": { "type": "SEntityTemplateReference", "value": "feeda0e1f43c4fa0", "postInit": true }
 			}
 		},
-		"feed11f1fb71b3bb": {
-			"parent": "feeda0e1f43c4fa0",
-			"name": "raccoon_city_block_a_01",
-			"factory": "[assembly:/_pro/environment/geometry/levels/raccoon/raccoon_city_blocks_a.wl2?/raccoon_city_block_a.prim].pc_entitytype",
-			"blueprint": "[assembly:/templates/geometrytemplatestaticcoll.template?/geomentity01.entitytemplate].pc_entityblueprint",
+		"feed079a8e2313f9": {
+			"parent": "feed8c563d582634",
+			"name": "Palace_Fence_Tall_Spiked_A_00_02",
+			"factory": "[assembly:/_pro/environment/templates/props/street_props/fences_palace.template?/palace_fence_tall_spiked_a_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/street_props/fences_palace.template?/palace_fence_tall_spiked_a_00.entitytemplate].pc_entityblueprint",
 			"properties": {
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": 0, "y": 0, "z": 89.999995674289 },
-						"position": { "x": 38.499977, "y": 183.80594, "z": 0 }
+						"rotation": { "x": 0, "y": 0, "z": 90 },
+						"position": { "x": -46.611702, "y": -69.74197, "z": -1.73 }
 					}
 				},
-				"m_eidParent": { "type": "SEntityTemplateReference", "value": "feeda0e1f43c4fa0", "postInit": true }
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "feed8c563d582634", "postInit": true }
+			}
+		},
+		"feedf503db84a238": {
+			"parent": "feed8c563d582634",
+			"name": "Palace_Fence_Tall_Spiked_A_00_01",
+			"factory": "[assembly:/_pro/environment/templates/props/street_props/fences_palace.template?/palace_fence_tall_spiked_a_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/street_props/fences_palace.template?/palace_fence_tall_spiked_a_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": 90 },
+						"position": { "x": 23.374588, "y": -57.61713, "z": -1.7298636 }
+					}
+				},
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "feed8c563d582634", "postInit": true }
+			}
+		},
+		"feed2bbd7d017a5e": {
+			"parent": "feed8c563d582634",
+			"name": "Palace_Fence_Tall_Spiked_A_00_04",
+			"factory": "[assembly:/_pro/environment/templates/props/street_props/fences_palace.template?/palace_fence_tall_spiked_a_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/street_props/fences_palace.template?/palace_fence_tall_spiked_a_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": 90 },
+						"position": { "x": 23.374588, "y": -65.61713, "z": -1.7298636 }
+					}
+				},
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "feed8c563d582634", "postInit": true }
+			}
+		},
+		"feededa58c103a1c": {
+			"parent": "feed8c563d582634",
+			"name": "Palace_Fence_Tall_Spiked_A_00_05",
+			"factory": "[assembly:/_pro/environment/templates/props/street_props/fences_palace.template?/palace_fence_tall_spiked_a_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/street_props/fences_palace.template?/palace_fence_tall_spiked_a_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": 90 },
+						"position": { "x": 23.374588, "y": -73.61713, "z": -1.7298636 }
+					}
+				},
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "feed8c563d582634", "postInit": true }
+			}
+		},
+		"feed7310845eb323": {
+			"parent": "feed8c563d582634",
+			"name": "Palace_Fence_Tall_Spiked_C_00_02",
+			"factory": "[assembly:/_pro/environment/templates/props/street_props/fences_palace.template?/palace_fence_tall_spiked_c_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/street_props/fences_palace.template?/palace_fence_tall_spiked_c_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": 90 },
+						"position": { "x": 23.374588, "y": -80.61713, "z": -1.7298636 }
+					}
+				},
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "feed8c563d582634", "postInit": true }
+			}
+		},
+		"feed12e245c87003": {
+			"parent": "feed8c563d582634",
+			"name": "Palace_Fence_Tall_Spiked_A_00_06",
+			"factory": "[assembly:/_pro/environment/templates/props/street_props/fences_palace.template?/palace_fence_tall_spiked_a_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/street_props/fences_palace.template?/palace_fence_tall_spiked_a_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": 90 },
+						"position": { "x": 23.374588, "y": -38.868507, "z": -1.7298636 }
+					}
+				},
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "feed8c563d582634", "postInit": true }
+			}
+		},
+		"feed61dd9fde51be": {
+			"parent": "feed8c563d582634",
+			"name": "Palace_Fence_Tall_Spiked_A_00_13",
+			"factory": "[assembly:/_pro/environment/templates/props/street_props/fences_palace.template?/palace_fence_tall_spiked_a_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/street_props/fences_palace.template?/palace_fence_tall_spiked_a_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": 90 },
+						"position": { "x": 23.374588, "y": 17.131493, "z": -1.7298636 }
+					}
+				},
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "feed8c563d582634", "postInit": true }
+			}
+		},
+		"feeddccc897fd6d6": {
+			"parent": "feed8c563d582634",
+			"name": "Palace_Fence_Tall_Spiked_A_00_15",
+			"factory": "[assembly:/_pro/environment/templates/props/street_props/fences_palace.template?/palace_fence_tall_spiked_a_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/street_props/fences_palace.template?/palace_fence_tall_spiked_a_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": 90 },
+						"position": { "x": 23.374588, "y": 33.131493, "z": -1.7298636 }
+					}
+				},
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "feed8c563d582634", "postInit": true }
+			}
+		},
+		"feedb61db9dd45ce": {
+			"parent": "feed8c563d582634",
+			"name": "Palace_Fence_Tall_Spiked_A_00_12",
+			"factory": "[assembly:/_pro/environment/templates/props/street_props/fences_palace.template?/palace_fence_tall_spiked_a_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/street_props/fences_palace.template?/palace_fence_tall_spiked_a_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": 90 },
+						"position": { "x": 23.374588, "y": 9.131493, "z": -1.7298636 }
+					}
+				},
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "feed8c563d582634", "postInit": true }
+			}
+		},
+		"feed738606871816": {
+			"parent": "feed8c563d582634",
+			"name": "Palace_Fence_Tall_Spiked_A_00_11",
+			"factory": "[assembly:/_pro/environment/templates/props/street_props/fences_palace.template?/palace_fence_tall_spiked_a_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/street_props/fences_palace.template?/palace_fence_tall_spiked_a_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": 90 },
+						"position": { "x": 23.374588, "y": 1.131493, "z": -1.7298636 }
+					}
+				},
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "feed8c563d582634", "postInit": true }
+			}
+		},
+		"feed61e2b923dcfa": {
+			"parent": "feed8c563d582634",
+			"name": "Palace_Fence_Tall_Spiked_A_00_09",
+			"factory": "[assembly:/_pro/environment/templates/props/street_props/fences_palace.template?/palace_fence_tall_spiked_a_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/street_props/fences_palace.template?/palace_fence_tall_spiked_a_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": 90 },
+						"position": { "x": 23.374588, "y": -14.868507, "z": -1.7298636 }
+					}
+				},
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "feed8c563d582634", "postInit": true }
+			}
+		},
+		"feedd3d811a0c297": {
+			"parent": "feed8c563d582634",
+			"name": "Palace_Fence_Tall_Spiked_A_00_14",
+			"factory": "[assembly:/_pro/environment/templates/props/street_props/fences_palace.template?/palace_fence_tall_spiked_a_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/street_props/fences_palace.template?/palace_fence_tall_spiked_a_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": 90 },
+						"position": { "x": 23.374588, "y": 25.131493, "z": -1.7298636 }
+					}
+				},
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "feed8c563d582634", "postInit": true }
+			}
+		},
+		"feededf23ccd7b92": {
+			"parent": "feed8c563d582634",
+			"name": "Palace_Fence_Tall_Spiked_A_00_07",
+			"factory": "[assembly:/_pro/environment/templates/props/street_props/fences_palace.template?/palace_fence_tall_spiked_a_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/street_props/fences_palace.template?/palace_fence_tall_spiked_a_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": 90 },
+						"position": { "x": 23.374588, "y": -30.868507, "z": -1.7298636 }
+					}
+				},
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "feed8c563d582634", "postInit": true }
+			}
+		},
+		"feed56ad23eb5d4e": {
+			"parent": "feed8c563d582634",
+			"name": "Palace_Fence_Tall_Spiked_A_00_08",
+			"factory": "[assembly:/_pro/environment/templates/props/street_props/fences_palace.template?/palace_fence_tall_spiked_a_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/street_props/fences_palace.template?/palace_fence_tall_spiked_a_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": 90 },
+						"position": { "x": 23.374588, "y": -22.868507, "z": -1.7298636 }
+					}
+				},
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "feed8c563d582634", "postInit": true }
+			}
+		},
+		"feed702094df1437": {
+			"parent": "feed8c563d582634",
+			"name": "Palace_Fence_Tall_Spiked_A_00_10",
+			"factory": "[assembly:/_pro/environment/templates/props/street_props/fences_palace.template?/palace_fence_tall_spiked_a_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/street_props/fences_palace.template?/palace_fence_tall_spiked_a_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": 90 },
+						"position": { "x": 23.374588, "y": -6.868507, "z": -1.7298636 }
+					}
+				},
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "feed8c563d582634", "postInit": true }
 			}
 		}
 	},
@@ -2070,7 +2333,7 @@
 			"externalScene": "[assembly:/_pro/scenes/missions/greedy/mission_raccoon/scenario_raccoon.brick].pc_entitytype"
 		},
 		{
-			"ref": "96fb8afbd18b711",
+			"ref": "096fb8afbd18b711",
 			"externalScene": "[assembly:/_pro/scenes/missions/greedy/mission_raccoon/scenario_raccoon.brick].pc_entitytype"
 		},
 		{
@@ -2094,7 +2357,7 @@
 			"externalScene": "[assembly:/_pro/scenes/missions/greedy/mission_raccoon/scenario_raccoon.brick].pc_entitytype"
 		},
 		{
-			"ref": "80b61e43b9f55cf",
+			"ref": "080b61e43b9f55cf",
 			"externalScene": "[assembly:/_pro/scenes/missions/greedy/mission_raccoon/scenario_raccoon.brick].pc_entitytype"
 		},
 		{
@@ -2162,7 +2425,7 @@
 			"externalScene": "[assembly:/_pro/scenes/missions/greedy/mission_raccoon/scenario_raccoon.brick].pc_entitytype"
 		},
 		{
-			"ref": "32973b874a4269d",
+			"ref": "032973b874a4269d",
 			"externalScene": "[assembly:/_pro/scenes/missions/greedy/mission_raccoon/scenario_raccoon.brick].pc_entitytype"
 		},
 		{
@@ -2318,7 +2581,7 @@
 			"externalScene": "[assembly:/_pro/scenes/missions/greedy/mission_raccoon/scenario_raccoon.brick].pc_entitytype"
 		},
 		{
-			"ref": "8d8e33b95d57677",
+			"ref": "08d8e33b95d57677",
 			"externalScene": "[assembly:/_pro/scenes/missions/greedy/mission_raccoon/scenario_raccoon.brick].pc_entitytype"
 		},
 		{
@@ -2334,7 +2597,7 @@
 			"externalScene": "[assembly:/_pro/scenes/missions/greedy/mission_raccoon/scenario_raccoon.brick].pc_entitytype"
 		},
 		{
-			"ref": "43873df3909cb2d",
+			"ref": "043873df3909cb2d",
 			"externalScene": "[assembly:/_pro/scenes/missions/greedy/mission_raccoon/scenario_raccoon.brick].pc_entitytype"
 		},
 		{
