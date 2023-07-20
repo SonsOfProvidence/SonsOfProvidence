@@ -10,7 +10,7 @@
 				"ForceShowOnLoadingScreen": true,
 				"IsHidden": false,
 				"BriefingName": "$($repository d3959196-6be0-43ea-b6e7-aafa70822045).Name",
-				"Image": "images/sop/sapienza_target.jpg",
+				"Image": "images/sop/funeral_target.jpg",
 				"HUDTemplate": {
 					"display": "Eliminate Thomas Cross"
 				},
@@ -60,19 +60,18 @@
 	"Metadata": {
 		"Id": "c89b2816-7c75-4449-baf5-3ada6f6c7616",
 		"IsPublished": true,
-		"Title": "UI_SAPIENZA_TITLE",
-		"Description": "DESC_SAPIENZA",
-		"CodeName_Hint": "Sapienza",
+		"Title": "UI_FUNERAL_TITLE",
+		"Description": "UI_FUNERAL_DESC",
+		"CodeName_Hint": "New York",
 		"ScenePath": "assembly:/sonsofprovidence/scene_funeral.entity",
-		"TileImage": "images/sop/sapienza.jpg",
+		"TileImage": "images/sop/funeral.jpg",
 		"Location": "LOCATION_GREEDY_RACCOON",
-		"LastUpdate": "2023-03-31T05:48:00.000Z",
-		"CreationTimestamp": "2023-03-31T05:48:00.000Z",
-		"CreatorUserId": "00000000-0000-0000-0000-000000000000",
+		"LastUpdate": "2023-07-19T17:01:00.000Z",
+		"CreationTimestamp": "2023-07-19T17:01:00.000Z",
+		"CreatorUserId": "a38f1dce-a7af-4a3c-a47a-5a94db8c0ed9",
 		"Type": "mission",
-		"Release": "1.1.x",
-		"RequiredUnlockable": "ACCESS_HIT_OCTOPUS",
-		"Entitlements": ["H1_LEGACY_STANDARD"]
+		"Release": "3.0.0",
+		"Entitlements": ["H2_LEGACY_EXPANSION"]
 	},
 	"UserData": {}
 }

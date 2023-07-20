@@ -4119,7 +4119,7 @@
 		},
 		{
 			"type": "entity",
-			"partition": "coastaltown",
+			"partition": "greedy",
 			"path": "[assembly:/sonsofprovidence/scene_funeral.entity].entitytemplate"
 		},
 		{
@@ -4197,8 +4197,8 @@
 			"UI_MARRAKESH_TITLE": "The Keys to the Kingdom",
 			"UI_NEWYORK_DESC": "Heading to the Providence Archive at the Milton-Fitzpatrick bank in New York City with both Providence Archive keys, I plan to leave with all of Providence's secrets.",
 			"UI_NEWYORK_TITLE": "Know Thy Enemy",
-			"UI_SAPIENZA_DESC": "After learning that Thomas Cross, CEO of Cross Holdings, is an operative of Providence, and tasking 47 to take out his son, Jordan, I'm travelling to New York City to capture Thomas Cross at his son's funeral.",
-			"UI_SAPIENZA_TITLE": "The Mogul's Bankroll",
+			"UI_FUNERAL_DESC": "After learning that Thomas Cross, CEO of Cross Holdings, is an operative of Providence, and tasking 47 to take out his son, Jordan, I'm travelling to New York City to capture Thomas Cross at his son's funeral.",
+			"UI_FUNERAL_TITLE": "The Mogul's Bankroll",
 			"UI_COLORADO_DESC": "I am conferring with my militia lieutenants to ensure that our plans are going smoothly.",
 			"UI_COLORADO_TITLE": "The Phantom of Colorado",
 			"UI_MUMBAI_DESC": "47 is taking out some of my best lieutenants. I need to retrieve the memory wiping antidote from Ether Headquarters in Johannesburg and convince him to remember.",
@@ -4251,8 +4251,8 @@
 			"ui_location_moscow_title": "Collateral Damage",
 			"ui_starting_location_marrakesh_courtyard_default_name": "Outside Ether Headquarters",
 			"ui_starting_location_marrakesh_courtyard_desc": "I've made my way to Johannesburg, and have positioned myself near Ether's Headquarters building.",
-			"ui_starting_location_sapienza_apartment_default_name": "Hotel Room",
-			"ui_starting_location_sapienza_apartment_desc": "I've rented a room overlooking the courtyard helipad near the church.",
+			"ui_starting_location_funeral_church_tower_default_name": "Church Tower",
+			"ui_starting_location_funeral_church_tower_desc": "I've made my way to the top of the church bell tower to take watch over the street.",
 			"ui_starting_location_berlin_road_default_name": "Near Communications Tower",
 			"ui_starting_location_berlin_road_desc": "I've made my way to the communications tower for Madame Carlisle's security detail.",
 			"ui_location_dartmoor_field_hq_country": "Dartmoor",

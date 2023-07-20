@@ -25,9 +25,9 @@
 	},
 	"1021798e-cec1-4747-ba33-69b7d53da888": {
 		"ID_": "1021798e-cec1-4747-ba33-69b7d53da888",
-		"Image": "images/sop/sapienza_apartment_start.jpg",
-		"Name_LOC": "ui_starting_location_sapienza_apartment_default_name",
-		"Description": "ui_starting_location_sapienza_apartment_desc"
+		"Image": "images/sop/funeral_church_tower_start.jpg",
+		"Name_LOC": "ui_starting_location_funeral_church_tower_default_name",
+		"Description": "ui_starting_location_funeral_church_tower_desc"
 	},
 	"fb75a371-8a8a-46ca-4747-320e16018db6": {
 		"ID_": "fb75a371-8a8a-46ca-4747-320e16018db6",
@@ -157,11 +157,11 @@
 		"Description": "Thomas Cross",
 		"Description_LOC": "actor_description",
 		"ID_": "d3959196-6be0-43ea-b6e7-aafa70822045",
-		"Image": "images/sop/sapienza_target.jpg",
+		"Image": "images/sop/funeral_target.jpg",
 		"Name": "Thomas Cross",
 		"Outfit": "d3bdbcfe-4747-4774-a642-17daa98a7f69",
 		"OutfitVariationIndex": 0.0,
-		"Tile": "images/sop/sapienza_target.jpg"
+		"Tile": "images/sop/funeral_target.jpg"
 	},
 	"be51939f-1a3d-4f60-bc1c-5c1e1d726da2": {
 		"CharacterSetIndex": 0.0,

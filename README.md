@@ -29,6 +29,7 @@ Notex - RPKG, HM3CustomMaps (https://github.com/Notexe/HM3CustomMaps), Statue of
 OrfeasZ - ZHM Mod  
 Anthony Fuller - Tony Tools  
 printable_models - Statue of Liberty model from https://free3d.com/3d-model/statue-of-liberty-v1--175955.html  
+Marius D - Hillbrow tower model from https://3dwarehouse.sketchup.com/model/6989dc8fd931e8972105fea661183cbd/Hillbrow-Tower
 Thanks to everyone at the Glacier 2 Modding discord including Kevin Rudd, Anthony Fuller, Invalid, Notex, Sieni, Atampy26, kercyx, 2kpr, volvomodus, HMBM47, and NoFaTe.
 
 ## To Do List:

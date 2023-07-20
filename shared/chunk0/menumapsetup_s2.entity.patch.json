@@ -2,6 +2,39 @@
 	"tempHash": "0045E7CBA87680F0",
 	"tbluHash": "00EAEC4D64DAED21",
 	"patch": [
+		{ "RemoveEntityByID": "a754e7c85bddddd" },
+		{ "RemoveEntityByID": "cb1a8cedc6ad37f" },
+		{
+			"AddEntity": [
+				"0a754e7c85bddddd",
+				{
+					"parent": "fef80c8ec3caf936",
+					"name": "Mumbai",
+					"factory": "[modules:/zentity.class].pc_entitytype",
+					"blueprint": "[modules:/zentity.class].pc_entityblueprint"
+				}
+			]
+		},
+		{ "SubEntityOperation": ["2969aaf0df338bd3", { "SetParent": "0a754e7c85bddddd" }] },
+		{ "SubEntityOperation": ["1b9ac8fc164e3dc5", { "SetParent": "0a754e7c85bddddd" }] },
+		{
+			"AddEntity": [
+				"0cb1a8cedc6ad37f",
+				{
+					"parent": "e5c544e08a80da34",
+					"name": "scene_gartersnake",
+					"factory": "[assembly:/templates/ui/mapexportentities.template?/menumap.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/templates/ui/mapexportentities.template?/menumap.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"m_pMetaDataResource": {
+							"type": "ZRuntimeResourceID",
+							"value": { "resource": "009B0E835621C511", "flag": "5F" }
+						}
+					}
+				}
+			]
+		},
+		{ "SubEntityOperation": ["be289d5f014d1ea0", { "SetParent": "0a754e7c85bddddd" }] },
 		{
 			"AddEntity": [
 				"feed6198bf9fb7b4",
@@ -31,6 +64,23 @@
 						"m_pMetaDataResource": {
 							"type": "ZRuntimeResourceID",
 							"value": { "resource": "004D36DBA84266E6", "flag": "5F" }
+						}
+					}
+				}
+			]
+		},
+		{
+			"AddEntity": [
+				"feed8931c5f751b0",
+				{
+					"parent": "6761b747b628794a",
+					"name": "scene_Funeral",
+					"factory": "[assembly:/templates/ui/mapexportentities.template?/menumap.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/templates/ui/mapexportentities.template?/menumap.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"m_pMetaDataResource": {
+							"type": "ZRuntimeResourceID",
+							"value": { "resource": "0087D3DCE70CFF95", "flag": "5F" }
 						}
 					}
 				}

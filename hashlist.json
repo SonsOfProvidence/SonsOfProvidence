@@ -48,12 +48,20 @@
 		"ioiString": "[assembly:/sonsofprovidence/scene_bank.entity].pc_entityblueprint"
 	},
 	{
-		"hash": "007C09F8D5F4B5C8",
-		"ioiString": "[assembly:/_pro/scenes/users/notex/scene_test.navp].pc_navp"
+		"hash": "0070D45DCD0ED715",
+		"ioiString": "[assembly:/sonsofprovidence/scene_ether_lab.entity].pc_entitytemplate"
 	},
 	{
-		"hash": "001D7C3E42C14427",
-		"ioiString": "[assembly:/_pro/scenes/users/notex/scene_test_scene.airg].pc_airg"
+		"hash": "00B5FF7BFFB53DC1",
+		"ioiString": "[assembly:/sonsofprovidence/scene_ether_lab.entity].pc_entityblueprint"
+	},
+	{
+		"hash": "00EB41CDD051D592",
+		"ioiString": "[assembly:/sonsofprovidence/scene_funeral.navp].pc_navp"
+	},
+	{
+		"hash": "000309A243749154",
+		"ioiString": "[assembly:/sonsofprovidence/scene_funeral.airg].pc_airg"
 	},
 	{
 		"hash": "001A8ED7670AD41C",
