@@ -2285,15 +2285,6 @@
 					"value": { "rotation": { "x": 0, "y": 0, "z": 0 }, "position": { "x": 0, "y": 0, "z": -4.6 } }
 				}
 			}
-		},
-		{
-			"entities": [
-				{
-					"ref": "d82ece8104b77433",
-					"externalScene": "[assembly:/_pro/scenes/missions/greedy/mission_raccoon/scenario_raccoon.brick].pc_entitytype"
-				}
-			],
-			"properties": { "m_bDefaultHeroSpawn": { "type": "bool", "value": false } }
 		}
 	],
 	"overrideDeletes": [
