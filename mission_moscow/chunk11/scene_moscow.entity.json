@@ -477,7 +477,7 @@
 						"position": { "x": -193.73587, "y": 1.2423859, "z": 17.475763 }
 					}
 				},
-				"m_sId": { "type": "ZGuid", "value": "fb75a371-8a8a-46ca-4747-123447478db6" },
+				"m_sId": { "type": "ZGuid", "value": "a8f370ef-5936-49c6-8c30-8bf3b9ca1930" },
 				"m_bDefaultHeroSpawn": { "type": "bool", "value": true },
 				"m_eidParent": { "type": "SEntityTemplateReference", "value": "fffffffffffffffe", "postInit": true }
 			},

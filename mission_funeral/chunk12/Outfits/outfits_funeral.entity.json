@@ -38,7 +38,7 @@
 				"m_bHeroDisguiseAvailable": { "type": "bool", "value": false },
 				"m_eSoundFootwearType": { "type": "EHM5SoundFootwearType", "value": "EFWT_LEATHER" },
 				"m_aCharSets": { "type": "TArray<SEntityTemplateReference>", "value": ["feedbaa5f0bc7d19"] },
-				"m_sId": { "type": "ZGuid", "value": "d3bdbcfe-4747-4774-a642-17daa98a7f69" },
+				"m_sId": { "type": "ZGuid", "value": "c236ee00-cd6e-405c-839a-3c1400bada8e" },
 				"m_pParentOutfit": {
 					"type": "SEntityTemplateReference",
 					"value": {

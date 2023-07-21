@@ -51,14 +51,14 @@
 				"Bricks": []
 			}
 		],
-		"Entrances": ["1021798e-cec1-4747-ba33-69b7d53da888"],
+		"Entrances": ["85f15667-d276-4082-ab33-7c7cc0e04c73"],
 		"Bricks": [],
 		"DevOnlyBricks": [],
 		"GameChangers": [],
 		"GameChangerReferences": []
 	},
 	"Metadata": {
-		"Id": "c89b2816-7c75-4449-baf5-3ada6f6c7616",
+		"Id": "08cbef4e-285b-4f6e-a40b-866bf7d51a42",
 		"IsPublished": true,
 		"Title": "UI_FUNERAL_TITLE",
 		"Description": "UI_FUNERAL_DESC",

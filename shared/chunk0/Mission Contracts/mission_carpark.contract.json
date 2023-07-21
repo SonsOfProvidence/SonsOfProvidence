@@ -17,17 +17,17 @@
 			}
 		],
 		"Bricks": [],
-		"Entrances": ["fb75a371-8a8a-46ca-4747-320e16018db6"],
-		"Exits": ["fb75a371-8a8a-46ca-4747-320e16018db5"],
+		"Entrances": ["b50d3e8f-f921-4733-bdeb-61454782a0c7"],
+		"Exits": ["f4647d75-c97f-413b-bfe0-dfa6a81dad7f"],
 		"DevOnlyBricks": [],
 		"GameChangers": [],
 		"GameChangerReferences": []
 	},
 	"Metadata": {
-		"Id": "179563a4-727a-4072-b354-c9fff4e8bff5",
+		"Id": "edd9995f-bde2-44e3-bce2-de337a688adb",
 		"IsPublished": true,
 		"Title": "UI_MARRAKESH_TITLE",
-		"Description": "DESC_MARRAKESH",
+		"Description": "UI_MARRAKESH_DESC",
 		"CodeName_Hint": "Marrakesh",
 		"ScenePath": "assembly:/sonsofprovidence/scene_carpark.entity",
 		"TileImage": "images/sop/marrakesh.jpg",

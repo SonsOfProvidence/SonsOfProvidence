@@ -150,7 +150,7 @@
 		"Qualities": {},
 		"Properties": {
 			"Location": "LOCATION_CAGED_FALCON",
-			"RepositoryId": "fb75a371-8a8a-46ca-4747-123447478db6",
+			"RepositoryId": "a8f370ef-5936-49c6-8c30-8bf3b9ca1930",
 			"Equip": ["TOKEN_OUTFIT_LUCAS_GREY_JACKET"],
 			"UnlockOrder": 3
 		},
@@ -171,7 +171,7 @@
 		"Qualities": {},
 		"Properties": {
 			"Location": "LOCATION_GREEDY_RACCOON",
-			"RepositoryId": "1021798e-cec1-4747-ba33-69b7d53da888",
+			"RepositoryId": "85f15667-d276-4082-ab33-7c7cc0e04c73",
 			"Equip": ["TOKEN_OUTFIT_LUCAS_GREY_JACKET"],
 			"UnlockOrder": 3
 		},
@@ -192,7 +192,7 @@
 		"Qualities": {},
 		"Properties": {
 			"Location": "LOCATION_GOLDEN_GECKO",
-			"RepositoryId": "fb75a371-8a8a-46ca-4747-123416018db6",
+			"RepositoryId": "d7367506-44f3-4c1a-be2d-fce3d723c378",
 			"Equip": ["TOKEN_OUTFIT_LUCAS_GREY_RELAXED"],
 			"UnlockOrder": 3
 		},
@@ -213,7 +213,7 @@
 		"Qualities": {},
 		"Properties": {
 			"Location": "LOCATION_MARRAKECH",
-			"RepositoryId": "fb75a371-8a8a-46ca-4747-320e16018db6",
+			"RepositoryId": "b50d3e8f-f921-4733-bdeb-61454782a0c7",
 			"Equip": ["TOKEN_OUTFIT_LUCAS_GREY_JACKET_JACKET"],
 			"UnlockOrder": 3
 		},

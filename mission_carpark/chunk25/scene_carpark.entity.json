@@ -478,7 +478,7 @@
 						"position": { "x": 67.77303, "y": -27.269623, "z": -0.014872659 }
 					}
 				},
-				"m_sId": { "type": "ZGuid", "value": "fb75a371-8a8a-46ca-4747-320e16018db6" },
+				"m_sId": { "type": "ZGuid", "value": "b50d3e8f-f921-4733-bdeb-61454782a0c7" },
 				"m_bDefaultHeroSpawn": { "type": "bool", "value": true },
 				"m_eidParent": { "type": "SEntityTemplateReference", "value": "fffffffffffffffe", "postInit": true }
 			},
@@ -893,7 +893,7 @@
 						"position": { "x": -11.790379524230957, "y": -141.16090393066406, "z": -3.9998180866241455 }
 					}
 				},
-				"m_sId": { "type": "ZGuid", "value": "fb75a371-8a8a-46ca-4747-320e16018db5" },
+				"m_sId": { "type": "ZGuid", "value": "f4647d75-c97f-413b-bfe0-dfa6a81dad7f" },
 				"Manual_Exit_Trigger_Needed": { "type": "bool", "value": true },
 				"m_eRoomBehaviour": { "type": "ZSpatialEntity.ERoomBehaviour", "value": "ROOM_DYNAMIC" },
 				"m_aUIHighlightGeom": {

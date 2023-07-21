@@ -1,6 +1,6 @@
 {
 	"$schema": "https://raw.githubusercontent.com/atampy25/simple-mod-framework/main/Mod%20Manager/src/lib/manifest-schema.json",
-	"id": "DannyBierek.SonsOfProvidence",
+	"id": "AtomicForce.SonsOfProvidence",
 	"name": "Sons of Providence",
 	"description": "This mod tells a tale of two brothers, and their mission to take them all down.",
 	"blobsFolders": ["blobs"],
@@ -4124,13 +4124,13 @@
 		},
 		{
 			"type": "entity",
-			"partition": "marrakesh",
-			"path": "[assembly:/sonsofprovidence/scene_carpark.entity].entitytemplate"
+			"partition": "greedy",
+			"path": "[assembly:/sonsofprovidence/funeral/funeral_outfits.brick].pc_entitytype"
 		},
 		{
 			"type": "entity",
-			"partition": "greedy",
-			"path": "[assembly:/sonsofprovidence/funeral/funeral_outfits.brick].pc_entitytype"
+			"partition": "marrakesh",
+			"path": "[assembly:/sonsofprovidence/scene_carpark.entity].entitytemplate"
 		},
 		{
 			"type": "entity",

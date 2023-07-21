@@ -526,7 +526,7 @@
 						"position": { "x": -48.60146, "y": 22.852476, "z": 53.9 }
 					}
 				},
-				"m_sId": { "type": "ZGuid", "value": "fb75a371-8a8a-46ca-4747-123416018db6" },
+				"m_sId": { "type": "ZGuid", "value": "d7367506-44f3-4c1a-be2d-fce3d723c378" },
 				"m_bDefaultHeroSpawn": { "type": "bool", "value": true },
 				"m_eidParent": { "type": "SEntityTemplateReference", "value": "fffffffffffffffe", "postInit": true }
 			},
@@ -2570,7 +2570,7 @@
 					}
 				},
 				"RepositoryId": { "type": "ZGuid", "value": "d3959196-6be0-43ea-b6e7-aafa70824746" },
-				"m_OutfitRepositoryID": { "type": "ZGuid", "value": "d3bdbcfe-4747-4774-a642-17da478a4747" },
+				"m_OutfitRepositoryID": { "type": "ZGuid", "value": "aa738f84-152b-48d3-8b61-f6ed4d86413a" },
 				"m_nOutfitVariation": { "type": "int32", "value": 0 },
 				"m_sActorName": { "type": "ZString", "value": "Eugene Cobb" },
 				"m_eRequiredVoiceVariation": { "type": "EActorVoiceVariation", "value": "eAVV_CIVMALECH01" },
@@ -2783,7 +2783,7 @@
 	"externalScenes": [
 		"[assembly:/_pro/scenes/missions/golden/mission_gecko/scenario_gecko.brick].pc_entitytype",
 		"[assembly:/sonsofprovidence/shared/global_outfits.brick].pc_entitytype",
-		"001A8ED7670AD41C"
+		"[assembly:/sonsofprovidence/airplane/outfits_airplane.brick].pc_entitytype"
 	],
 	"subType": "scene",
 	"quickEntityVersion": 3.1,

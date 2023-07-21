@@ -461,7 +461,7 @@
 					}
 				},
 				"RepositoryId": { "type": "ZGuid", "value": "d3959196-6be0-43ea-b6e7-aafa70822047" },
-				"m_OutfitRepositoryID": { "type": "ZGuid", "value": "d3bdbcfe-4747-4774-a642-17daa98a4747" },
+				"m_OutfitRepositoryID": { "type": "ZGuid", "value": "2fb5e55c-345d-46b5-917c-6d8c93bdd69a" },
 				"m_sActorName": { "type": "ZString", "value": "Agent 47" },
 				"m_nOutfitVariation": { "type": "int32", "value": 0 },
 				"m_nOutfitCharset": { "type": "int32", "value": 0 },
@@ -634,7 +634,7 @@
 					}
 				},
 				"RepositoryId": { "type": "ZGuid", "value": "d3959196-6be0-43ea-b6e7-aafa70822047" },
-				"m_OutfitRepositoryID": { "type": "ZGuid", "value": "d3bdbcfe-4747-4774-a642-17daa98a4747" },
+				"m_OutfitRepositoryID": { "type": "ZGuid", "value": "2fb5e55c-345d-46b5-917c-6d8c93bdd69a" },
 				"m_sActorName": { "type": "ZString", "value": "Agent 47" },
 				"m_nOutfitVariation": { "type": "int32", "value": 0 },
 				"m_nOutfitCharset": { "type": "int32", "value": 0 },

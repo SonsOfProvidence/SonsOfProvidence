@@ -484,7 +484,7 @@
 						"position": { "x": 27.761856, "y": -25.935616, "z": 0.25000003 }
 					}
 				},
-				"m_sId": { "type": "ZGuid", "value": "1021798e-cec1-4747-ba33-69b7d53da888" },
+				"m_sId": { "type": "ZGuid", "value": "85f15667-d276-4082-ab33-7c7cc0e04c73" },
 				"m_bDefaultHeroSpawn": { "type": "bool", "value": true },
 				"m_eidParent": { "type": "SEntityTemplateReference", "value": "fffffffffffffffe", "postInit": true }
 			},
@@ -965,7 +965,7 @@
 					}
 				},
 				"RepositoryId": { "type": "ZGuid", "value": "d3959196-6be0-43ea-b6e7-aafa70822045" },
-				"m_OutfitRepositoryID": { "type": "ZGuid", "value": "d3bdbcfe-4747-4774-a642-17daa98a7f69" },
+				"m_OutfitRepositoryID": { "type": "ZGuid", "value": "c236ee00-cd6e-405c-839a-3c1400bada8e" },
 				"m_sActorName": { "type": "ZString", "value": "Thomas Cross" },
 				"m_nOutfitVariation": { "type": "int32", "value": 0 },
 				"m_nOutfitCharset": { "type": "int32", "value": 0 },
@@ -2969,8 +2969,7 @@
 	"pinConnectionOverrideDeletes": [],
 	"externalScenes": [
 		"[assembly:/_pro/scenes/missions/greedy/mission_raccoon/scenario_raccoon.brick].pc_entitytype",
-		"[assembly:/sonsofprovidence/funeral/funeral_outfits.brick].pc_entitytype",
-		"[assembly:/sonsofprovidence/objects/sapienza_church.entity].pc_entitytype"
+		"[assembly:/sonsofprovidence/funeral/funeral_outfits.brick].pc_entitytype"
 	],
 	"subType": "scene",
 	"quickEntityVersion": 3.1,
