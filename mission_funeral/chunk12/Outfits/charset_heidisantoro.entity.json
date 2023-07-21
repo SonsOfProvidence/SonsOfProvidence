@@ -1,0 +1,128 @@
+{
+	"tempHash": "00785EF93132731F",
+	"tbluHash": "0089A72093F0234C",
+	"rootEntity": "18f76afc9624b487",
+	"entities": {
+		"044c8627f0a5e126": {
+			"parent": "18f76afc9624b487",
+			"name": "Actor",
+			"factory": "[modules:/zcharsetcharactertype.class].pc_entitytype",
+			"blueprint": "[modules:/zcharsetcharactertype.class].pc_entityblueprint",
+			"properties": {
+				"m_aVariations": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["bacbb568d06a0fdf"],
+					"postInit": true
+				}
+			}
+		},
+		"8ca3dbfbeb5f150c": {
+			"parent": "18f76afc9624b487",
+			"name": "HeroA",
+			"factory": "[modules:/zcharsetcharactertype.class].pc_entitytype",
+			"blueprint": "[modules:/zcharsetcharactertype.class].pc_entityblueprint",
+			"properties": {
+				"m_aVariations": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["a2041b8afa11dc84"],
+					"postInit": true
+				}
+			}
+		},
+		"fbe766abaee51ae2": {
+			"parent": "77ecdc80a1029be6",
+			"name": "Var0",
+			"factory": "[modules:/zoutfitvariation.class].pc_entitytype",
+			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint"
+		},
+		"77ecdc80a1029be6": {
+			"parent": "18f76afc9624b487",
+			"name": "HeroC",
+			"factory": "[modules:/zcharsetcharactertype.class].pc_entitytype",
+			"blueprint": "[modules:/zcharsetcharactertype.class].pc_entityblueprint",
+			"properties": { "m_aVariations": { "type": "TArray<SEntityTemplateReference>", "value": ["fbe766abaee51ae2"] } }
+		},
+		"a2041b8afa11dc84": {
+			"parent": "8ca3dbfbeb5f150c",
+			"name": "Var0",
+			"factory": "[modules:/zoutfitvariation.class].pc_entitytype",
+			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint"
+		},
+		"f1fe11aef51cae32": {
+			"parent": "18f76afc9624b487",
+			"name": "Nude",
+			"factory": "[modules:/zcharsetcharactertype.class].pc_entitytype",
+			"blueprint": "[modules:/zcharsetcharactertype.class].pc_entityblueprint",
+			"properties": {
+				"m_aVariations": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["eec5a71be151185d"],
+					"postInit": true
+				}
+			}
+		},
+		"eec5a71be151185d": {
+			"parent": "f1fe11aef51cae32",
+			"name": "Var0",
+			"factory": "[modules:/zoutfitvariation.class].pc_entitytype",
+			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint"
+		},
+		"d855a4aa06484d5a": {
+			"parent": "1923e2b33509c05e",
+			"name": "Var0",
+			"factory": "[modules:/zoutfitvariation.class].pc_entitytype",
+			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint"
+		},
+		"bacbb568d06a0fdf": {
+			"parent": "044c8627f0a5e126",
+			"name": "0",
+			"factory": "[modules:/zoutfitvariation.class].pc_entitytype",
+			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint",
+			"properties": {
+				"m_Outfit": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/characters/templates/bangkok/char_bangkok_unique.template?/outfit_heidisantoro_actor_v0.entitytemplate].pc_entitytemplate",
+						"flag": "9F"
+					}
+				}
+			}
+		},
+		"18f76afc9624b487": {
+			"parent": null,
+			"name": "CHARSET_HeidiSantoro",
+			"factory": "[modules:/zoutfitvariationcollection.class].pc_entitytype",
+			"blueprint": "[modules:/zoutfitvariationcollection.class].pc_entityblueprint",
+			"properties": {
+				"m_aCharacters": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						"044c8627f0a5e126",
+						"f1fe11aef51cae32",
+						"8ca3dbfbeb5f150c",
+						"1923e2b33509c05e",
+						"77ecdc80a1029be6"
+					],
+					"postInit": true
+				}
+			}
+		},
+		"1923e2b33509c05e": {
+			"parent": "18f76afc9624b487",
+			"name": "HeroB",
+			"factory": "[modules:/zcharsetcharactertype.class].pc_entitytype",
+			"blueprint": "[modules:/zcharsetcharactertype.class].pc_entityblueprint",
+			"properties": { "m_aVariations": { "type": "TArray<SEntityTemplateReference>", "value": ["d855a4aa06484d5a"] } }
+		}
+	},
+	"propertyOverrides": [],
+	"overrideDeletes": [],
+	"pinConnectionOverrides": [],
+	"pinConnectionOverrideDeletes": [],
+	"externalScenes": [],
+	"subType": "template",
+	"quickEntityVersion": 3.1,
+	"extraFactoryDependencies": [],
+	"extraBlueprintDependencies": [],
+	"comments": []
+}

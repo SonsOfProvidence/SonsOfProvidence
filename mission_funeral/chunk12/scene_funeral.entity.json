@@ -1827,8 +1827,8 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": 0, "y": 0, "z": 90 },
-						"position": { "x": 25.761856, "y": -20, "z": 0.25000003 }
+						"rotation": { "x": 0, "y": 0, "z": 179.70658008221258 },
+						"position": { "x": 19.684568, "y": 37.40085, "z": 0.25000003 }
 					}
 				},
 				"m_eGlowType": { "type": "ERenderGlowTypes", "value": "ERENDERGLOWTYPE_TRAVERSAL" },
@@ -1925,23 +1925,6 @@
 				"m_eidParent": { "type": "SEntityTemplateReference", "value": "feed73e64d2dea28" }
 			}
 		},
-		"feed6de007756db2": {
-			"parent": "feed8c563d582634",
-			"name": "Palace_Fence_Tall_C_00_01",
-			"factory": "[assembly:/_pro/environment/templates/props/street_props/fences_palace.template?/palace_fence_tall_c_00.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/environment/templates/props/street_props/fences_palace.template?/palace_fence_tall_c_00.entitytemplate].pc_entityblueprint",
-			"properties": {
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": { "x": 0, "y": 0, "z": 90 },
-						"position": { "x": 25.761856, "y": -15, "z": 0.25000003 }
-					}
-				},
-				"m_eGlowType": { "type": "ERenderGlowTypes", "value": "ERENDERGLOWTYPE_TRAVERSAL" },
-				"m_eidParent": { "type": "SEntityTemplateReference", "value": "feed8c563d582634", "postInit": true }
-			}
-		},
 		"feed234f6f940b85": {
 			"parent": "feed8c563d582634",
 			"name": "Palace_Fence_Pillar_B_0050",
@@ -1978,7 +1961,7 @@
 			"subsets": { "AudioEmitters": ["fffffffffffffffe"] }
 		},
 		"feedf4ca59e68319": {
-			"parent": "feed8c563d582634",
+			"parent": "feed20be5e2de10d",
 			"name": "Palace_Fence_Tall_Spiked_A_00_03",
 			"factory": "[assembly:/_pro/environment/templates/props/street_props/fences_palace.template?/palace_fence_tall_spiked_a_00.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/environment/templates/props/street_props/fences_palace.template?/palace_fence_tall_spiked_a_00.entitytemplate].pc_entityblueprint",
@@ -2031,7 +2014,7 @@
 			}
 		},
 		"feed079a8e2313f9": {
-			"parent": "feed8c563d582634",
+			"parent": "feed20be5e2de10d",
 			"name": "Palace_Fence_Tall_Spiked_A_00_02",
 			"factory": "[assembly:/_pro/environment/templates/props/street_props/fences_palace.template?/palace_fence_tall_spiked_a_00.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/environment/templates/props/street_props/fences_palace.template?/palace_fence_tall_spiked_a_00.entitytemplate].pc_entityblueprint",
@@ -2047,7 +2030,7 @@
 			}
 		},
 		"feedf503db84a238": {
-			"parent": "feed8c563d582634",
+			"parent": "feed20be5e2de10d",
 			"name": "Palace_Fence_Tall_Spiked_A_00_01",
 			"factory": "[assembly:/_pro/environment/templates/props/street_props/fences_palace.template?/palace_fence_tall_spiked_a_00.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/environment/templates/props/street_props/fences_palace.template?/palace_fence_tall_spiked_a_00.entitytemplate].pc_entityblueprint",
@@ -2063,7 +2046,7 @@
 			}
 		},
 		"feed2bbd7d017a5e": {
-			"parent": "feed8c563d582634",
+			"parent": "feed20be5e2de10d",
 			"name": "Palace_Fence_Tall_Spiked_A_00_04",
 			"factory": "[assembly:/_pro/environment/templates/props/street_props/fences_palace.template?/palace_fence_tall_spiked_a_00.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/environment/templates/props/street_props/fences_palace.template?/palace_fence_tall_spiked_a_00.entitytemplate].pc_entityblueprint",
@@ -2079,7 +2062,7 @@
 			}
 		},
 		"feededa58c103a1c": {
-			"parent": "feed8c563d582634",
+			"parent": "feed20be5e2de10d",
 			"name": "Palace_Fence_Tall_Spiked_A_00_05",
 			"factory": "[assembly:/_pro/environment/templates/props/street_props/fences_palace.template?/palace_fence_tall_spiked_a_00.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/environment/templates/props/street_props/fences_palace.template?/palace_fence_tall_spiked_a_00.entitytemplate].pc_entityblueprint",
@@ -2111,7 +2094,7 @@
 			}
 		},
 		"feed12e245c87003": {
-			"parent": "feed8c563d582634",
+			"parent": "feed20be5e2de10d",
 			"name": "Palace_Fence_Tall_Spiked_A_00_06",
 			"factory": "[assembly:/_pro/environment/templates/props/street_props/fences_palace.template?/palace_fence_tall_spiked_a_00.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/environment/templates/props/street_props/fences_palace.template?/palace_fence_tall_spiked_a_00.entitytemplate].pc_entityblueprint",
@@ -2127,7 +2110,7 @@
 			}
 		},
 		"feed61dd9fde51be": {
-			"parent": "feed8c563d582634",
+			"parent": "feed20be5e2de10d",
 			"name": "Palace_Fence_Tall_Spiked_A_00_13",
 			"factory": "[assembly:/_pro/environment/templates/props/street_props/fences_palace.template?/palace_fence_tall_spiked_a_00.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/environment/templates/props/street_props/fences_palace.template?/palace_fence_tall_spiked_a_00.entitytemplate].pc_entityblueprint",
@@ -2143,7 +2126,7 @@
 			}
 		},
 		"feeddccc897fd6d6": {
-			"parent": "feed8c563d582634",
+			"parent": "feed20be5e2de10d",
 			"name": "Palace_Fence_Tall_Spiked_A_00_15",
 			"factory": "[assembly:/_pro/environment/templates/props/street_props/fences_palace.template?/palace_fence_tall_spiked_a_00.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/environment/templates/props/street_props/fences_palace.template?/palace_fence_tall_spiked_a_00.entitytemplate].pc_entityblueprint",
@@ -2159,7 +2142,7 @@
 			}
 		},
 		"feedb61db9dd45ce": {
-			"parent": "feed8c563d582634",
+			"parent": "feed20be5e2de10d",
 			"name": "Palace_Fence_Tall_Spiked_A_00_12",
 			"factory": "[assembly:/_pro/environment/templates/props/street_props/fences_palace.template?/palace_fence_tall_spiked_a_00.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/environment/templates/props/street_props/fences_palace.template?/palace_fence_tall_spiked_a_00.entitytemplate].pc_entityblueprint",
@@ -2175,7 +2158,7 @@
 			}
 		},
 		"feed738606871816": {
-			"parent": "feed8c563d582634",
+			"parent": "feed20be5e2de10d",
 			"name": "Palace_Fence_Tall_Spiked_A_00_11",
 			"factory": "[assembly:/_pro/environment/templates/props/street_props/fences_palace.template?/palace_fence_tall_spiked_a_00.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/environment/templates/props/street_props/fences_palace.template?/palace_fence_tall_spiked_a_00.entitytemplate].pc_entityblueprint",
@@ -2191,7 +2174,7 @@
 			}
 		},
 		"feed61e2b923dcfa": {
-			"parent": "feed8c563d582634",
+			"parent": "feed20be5e2de10d",
 			"name": "Palace_Fence_Tall_Spiked_A_00_09",
 			"factory": "[assembly:/_pro/environment/templates/props/street_props/fences_palace.template?/palace_fence_tall_spiked_a_00.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/environment/templates/props/street_props/fences_palace.template?/palace_fence_tall_spiked_a_00.entitytemplate].pc_entityblueprint",
@@ -2207,7 +2190,7 @@
 			}
 		},
 		"feedd3d811a0c297": {
-			"parent": "feed8c563d582634",
+			"parent": "feed20be5e2de10d",
 			"name": "Palace_Fence_Tall_Spiked_A_00_14",
 			"factory": "[assembly:/_pro/environment/templates/props/street_props/fences_palace.template?/palace_fence_tall_spiked_a_00.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/environment/templates/props/street_props/fences_palace.template?/palace_fence_tall_spiked_a_00.entitytemplate].pc_entityblueprint",
@@ -2223,7 +2206,7 @@
 			}
 		},
 		"feededf23ccd7b92": {
-			"parent": "feed8c563d582634",
+			"parent": "feed20be5e2de10d",
 			"name": "Palace_Fence_Tall_Spiked_A_00_07",
 			"factory": "[assembly:/_pro/environment/templates/props/street_props/fences_palace.template?/palace_fence_tall_spiked_a_00.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/environment/templates/props/street_props/fences_palace.template?/palace_fence_tall_spiked_a_00.entitytemplate].pc_entityblueprint",
@@ -2239,7 +2222,7 @@
 			}
 		},
 		"feed56ad23eb5d4e": {
-			"parent": "feed8c563d582634",
+			"parent": "feed20be5e2de10d",
 			"name": "Palace_Fence_Tall_Spiked_A_00_08",
 			"factory": "[assembly:/_pro/environment/templates/props/street_props/fences_palace.template?/palace_fence_tall_spiked_a_00.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/environment/templates/props/street_props/fences_palace.template?/palace_fence_tall_spiked_a_00.entitytemplate].pc_entityblueprint",
@@ -2255,7 +2238,7 @@
 			}
 		},
 		"feed702094df1437": {
-			"parent": "feed8c563d582634",
+			"parent": "feed20be5e2de10d",
 			"name": "Palace_Fence_Tall_Spiked_A_00_10",
 			"factory": "[assembly:/_pro/environment/templates/props/street_props/fences_palace.template?/palace_fence_tall_spiked_a_00.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/environment/templates/props/street_props/fences_palace.template?/palace_fence_tall_spiked_a_00.entitytemplate].pc_entityblueprint",
@@ -2269,6 +2252,459 @@
 				},
 				"m_eidParent": { "type": "SEntityTemplateReference", "value": "feed8c563d582634", "postInit": true }
 			}
+		},
+		"feedd1fa5e553554": {
+			"parent": "abcde92f2c09c134",
+			"name": "CHAR_Greedy_Worker_HighSecurity_M_",
+			"factory": "[assembly:/templates/gameplay/ai2/actors.template?/npcactor.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/templates/gameplay/ai2/actors.template?/npcactor.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": -146.6222882764541 },
+						"position": { "x": 2.153556, "y": -41.883286, "z": 1.6925391 }
+					}
+				},
+				"RepositoryId": { "type": "ZGuid", "value": "1a1049a8-62fe-4b91-ad84-0ba68e8e8663" },
+				"m_OutfitRepositoryID": { "type": "ZGuid", "value": "513c0da0-1cb0-4029-85c9-ad9e9522818d" },
+				"m_nOutfitVariation": { "type": "int32", "value": 1 },
+				"m_sActorName": { "type": "ZString", "value": "Jayson Lefler" },
+				"m_nOutfitCharset": { "type": "int32", "value": 0 },
+				"m_eRequiredVoiceVariation": { "type": "EActorVoiceVariation", "value": "eAVV_Undefined" },
+				"m_eActorGroup": { "type": "EActorGroup", "value": "eAG_Group_B" },
+				"m_aEnforcedOutfits": { "type": "TArray<SEntityTemplateReference>", "value": [], "postInit": true },
+				"m_InventoryItemKeys": { "type": "TArray<SEntityTemplateReference>", "value": [], "postInit": true },
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "fffffffffffffffe", "postInit": true }
+			},
+			"subsets": { "AudioEmitters": ["fffffffffffffffe"], "Replicable": ["fffffffffffffffe"] }
+		},
+		"feed9b29bf5c4d4c": {
+			"parent": "abcde92f2c09c134",
+			"name": "CHAR_Greedy_Worker_LowSecurity_M_",
+			"factory": "[assembly:/templates/gameplay/ai2/actors.template?/npcactor.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/templates/gameplay/ai2/actors.template?/npcactor.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": 87.91024620767426 },
+						"position": { "x": 6.153556, "y": -39.883286, "z": 1.6925391 }
+					}
+				},
+				"RepositoryId": { "type": "ZGuid", "value": "5b76b821-b4d5-42e7-a3ce-52bb5775614a" },
+				"m_OutfitRepositoryID": { "type": "ZGuid", "value": "ee38c686-f447-4a0d-bc5f-3822550db095" },
+				"m_nOutfitVariation": { "type": "int32", "value": 9 },
+				"m_sActorName": { "type": "ZString", "value": "Marty Allmon" },
+				"m_nOutfitCharset": { "type": "int32", "value": 0 },
+				"m_eRequiredVoiceVariation": { "type": "EActorVoiceVariation", "value": "eAVV_JOB_BANKGRD07" },
+				"m_eActorGroup": { "type": "EActorGroup", "value": "eAG_Group_B" },
+				"m_aEnforcedOutfits": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["feed3f771bfddf74", "feeddad0590423af", "feed58a78a957e9a"],
+					"postInit": true
+				},
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "fffffffffffffffe", "postInit": true }
+			},
+			"subsets": { "AudioEmitters": ["fffffffffffffffe"], "Replicable": ["fffffffffffffffe"] }
+		},
+		"feed3f771bfddf74": {
+			"parent": "feed9b29bf5c4d4c",
+			"name": "Prof_Greedy_Unique_FiredBanker",
+			"factory": "[assembly:/_pro/design/actor/profession.template?/prof_greedy_unique_firedbanker.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_greedy_unique_firedbanker.entitytemplate].pc_entityblueprint"
+		},
+		"feeddad0590423af": {
+			"parent": "feed9b29bf5c4d4c",
+			"name": "Prof_Greedy_Worker_Teller",
+			"factory": "[assembly:/_pro/design/actor/profession.template?/prof_greedy_worker_teller.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_greedy_worker_teller.entitytemplate].pc_entityblueprint"
+		},
+		"feed58a78a957e9a": {
+			"parent": "feed9b29bf5c4d4c",
+			"name": "Prof_Greedy_Guard_LowSecurity",
+			"factory": "[assembly:/_pro/design/actor/profession.template?/prof_greedy_guard_lowsecurity.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_greedy_guard_lowsecurity.entitytemplate].pc_entityblueprint"
+		},
+		"feede3c3e69b5f74": {
+			"parent": "abcde92f2c09c134",
+			"name": "CHAR Jordan Cross",
+			"factory": "[assembly:/templates/gameplay/ai2/actors.template?/npcactor.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/templates/gameplay/ai2/actors.template?/npcactor.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": -70.00001437163758 },
+						"position": { "x": 6.153556, "y": -43.883286, "z": 1.6925391 }
+					}
+				},
+				"m_sActorName": { "type": "ZString", "value": "Jordan Cross" },
+				"RepositoryId": { "type": "ZGuid", "value": "ee3f55b8-12f8-4245-8ef2-3022b4f6f120" },
+				"m_OutfitRepositoryID": { "type": "ZGuid", "value": "7a30b06c-5b4d-443d-ae05-46ad980aab71" },
+				"m_nOutfitCharset": { "type": "int32", "value": 0 },
+				"m_nOutfitVariation": { "type": "int32", "value": 3 },
+				"m_eRequiredVoiceVariation": { "type": "EActorVoiceVariation", "value": "eAVV_CROSS" },
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "fffffffffffffffe", "postInit": true }
+			},
+			"subsets": { "AudioEmitters": ["fffffffffffffffe"], "Replicable": ["fffffffffffffffe"] }
+		},
+		"feed0b77dd6c73f7": {
+			"parent": "abcde92f2c09c134",
+			"name": "CHAR Heidi Santoro",
+			"factory": "[assembly:/templates/gameplay/ai2/actors.template?/npcactor.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/templates/gameplay/ai2/actors.template?/npcactor.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": -59.99998760187227 },
+						"position": { "x": 4.153556, "y": -43.883286, "z": 1.6925391 }
+					}
+				},
+				"m_sActorName": { "type": "ZString", "value": "Heidi Santoro" },
+				"RepositoryId": { "type": "ZGuid", "value": "12f5175e-ce79-41c2-8db3-87b5aa691580" },
+				"m_OutfitRepositoryID": { "type": "ZGuid", "value": "35951003-1ac4-4394-ac5f-abbf7073bbb3" },
+				"m_nOutfitVariation": { "type": "int32", "value": 0 },
+				"m_eRequiredVoiceVariation": { "type": "EActorVoiceVariation", "value": "eAVV_CIVFEM05" },
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "fffffffffffffffe", "postInit": true }
+			},
+			"subsets": { "AudioEmitters": ["fffffffffffffffe"], "Replicable": ["fffffffffffffffe"] }
+		},
+		"feedee1cd09c2f9a": {
+			"parent": "abcde92f2c09c134",
+			"name": "CHAR_Dexy_Barat",
+			"factory": "[assembly:/templates/gameplay/ai2/actors.template?/npcactor.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/templates/gameplay/ai2/actors.template?/npcactor.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": 111.1011801384419 },
+						"position": { "x": 8.153556, "y": -43.883286, "z": 1.6925391 }
+					}
+				},
+				"m_sActorName": { "type": "ZString", "value": "Dexy Barat" },
+				"RepositoryId": { "type": "ZGuid", "value": "cb1cd30b-cdad-4b41-8036-568dad9ce1ba" },
+				"m_OutfitRepositoryID": { "type": "ZGuid", "value": "77d1ffbe-cb4f-49b2-96ea-906a2a74b08a" },
+				"m_nOutfitVariation": { "type": "int32", "value": 0 },
+				"m_InventoryItemKeys": { "type": "TArray<SEntityTemplateReference>", "value": [] },
+				"m_aEnforcedOutfits": { "type": "TArray<SEntityTemplateReference>", "value": [] },
+				"m_eRequiredVoiceVariation": { "type": "EActorVoiceVariation", "value": "eAVV_CIVFEM03" },
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "fffffffffffffffe", "postInit": true }
+			},
+			"subsets": { "AudioEmitters": ["fffffffffffffffe"], "Replicable": ["fffffffffffffffe"] }
+		},
+		"feed1c00a0cad810": {
+			"parent": "abcd39183d0ff63d",
+			"name": "ItemKey_Tool_Crowbar",
+			"factory": "[modules:/zitemrepositorykeyentity.class].pc_entitytype",
+			"blueprint": "[modules:/zitemrepositorykeyentity.class].pc_entityblueprint",
+			"properties": { "m_RepositoryId": { "type": "ZGuid", "value": "01ed6d15-e26e-4362-b1a6-363684a7d0fd" } }
+		},
+		"feed3478cbc1cd97": {
+			"parent": "abcd39183d0ff63d",
+			"name": "ItemSpawner Crowbar",
+			"factory": "[modules:/zitemspawner.class].pc_entitytype",
+			"blueprint": "[modules:/zitemspawner.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": 90 },
+						"position": { "x": 25.761856, "y": -20, "z": 0.25000003 }
+					}
+				},
+				"m_bUsePlacementAttach": { "type": "bool", "value": false },
+				"m_bSpawnOnStart": { "type": "bool", "value": true },
+				"m_eRoomBehaviour": { "type": "ZSpatialEntity.ERoomBehaviour", "value": "ROOM_STATIC" },
+				"m_rMainItemKey": { "type": "SEntityTemplateReference", "value": "feed1c00a0cad810" },
+				"m_bVisible": { "type": "bool", "value": true },
+				"m_bIsPrivate": { "type": "bool", "value": false },
+				"m_bVisibleInBoxReflection": { "type": "bool", "value": true },
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "fffffffffffffffe" }
+			},
+			"events": { "Item": { "SetItem": ["feed1c00a0cad810"] } }
+		},
+		"feed01d9b0cc5391": {
+			"parent": "feed8c563d582634",
+			"name": "Palace_Fence_Tall_C_00_01",
+			"factory": "[assembly:/_pro/environment/templates/props/street_props/fences_palace.template?/palace_fence_tall_c_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/street_props/fences_palace.template?/palace_fence_tall_c_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": 0.48778761789083386 },
+						"position": { "x": 22.658447, "y": 37.3054, "z": 0.25000003 }
+					}
+				},
+				"m_eGlowType": { "type": "ERenderGlowTypes", "value": "ERENDERGLOWTYPE_TRAVERSAL" },
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "feed8c563d582634", "postInit": true }
+			}
+		},
+		"feed365f23cc8900": {
+			"parent": "feed8c563d582634",
+			"name": "Palace_Fence_Tall_B_00_2",
+			"factory": "[assembly:/_pro/environment/templates/props/street_props/fences_palace.template?/palace_fence_tall_b_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/street_props/fences_palace.template?/palace_fence_tall_b_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": -92.16846462255215 },
+						"position": { "x": 17.903772, "y": 39.579388, "z": 0.25000003 }
+					}
+				},
+				"m_eGlowType": { "type": "ERenderGlowTypes", "value": "ERENDERGLOWTYPE_TRAVERSAL" },
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "feed8c563d582634", "postInit": true }
+			}
+		},
+		"feedf4405ab27e3a": {
+			"parent": "feed365f23cc8900",
+			"name": "Ivy_Roots_A07",
+			"factory": "[assembly:/_pro/environment/templates/foliage/ivy_b.template?/ivy_roots_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/foliage/ivy_b.template?/ivy_roots_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 69.99998603943718, "z": 0 },
+						"position": { "x": -0.17328999936580658, "y": -0.1646450012922287, "z": 1.9389300346374512 }
+					}
+				},
+				"m_bCastShadows": { "type": "bool", "value": true },
+				"m_bPCCastShadows": { "type": "bool", "value": false },
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "feed365f23cc8900", "postInit": true }
+			}
+		},
+		"feed7806b2f20f03": {
+			"parent": "feedf4405ab27e3a",
+			"name": "Ivy_Roots_A01",
+			"factory": "[assembly:/_pro/environment/templates/foliage/ivy_b.template?/ivy_roots_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/foliage/ivy_b.template?/ivy_roots_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": -39.99995268971647, "z": 0 },
+						"position": { "x": -1.2989089488983154, "y": 9.999999974752427e-7, "z": -0.6083580255508423 }
+					}
+				},
+				"m_bCastShadows": { "type": "bool", "value": true },
+				"m_bPCCastShadows": { "type": "bool", "value": false },
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "feedf4405ab27e3a" }
+			}
+		},
+		"feedf55fed7691ab": {
+			"parent": "feedf4405ab27e3a",
+			"name": "Ivy_Roots_A02",
+			"factory": "[assembly:/_pro/environment/templates/foliage/ivy_b.template?/ivy_roots_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/foliage/ivy_b.template?/ivy_roots_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -180, "y": -80.00016022948797, "z": -180 },
+						"position": { "x": -0.9854810237884521, "y": 9.999999974752427e-7, "z": -0.739986002445221 }
+					}
+				},
+				"m_bCastShadows": { "type": "bool", "value": true },
+				"m_bPCCastShadows": { "type": "bool", "value": false },
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "feedf4405ab27e3a" }
+			}
+		},
+		"feed3dd8deea3327": {
+			"parent": "feedf4405ab27e3a",
+			"name": "Ivy_Roots_A03",
+			"factory": "[assembly:/_pro/environment/templates/foliage/ivy_b.template?/ivy_roots_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/foliage/ivy_b.template?/ivy_roots_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 2.714314396008462, "z": 0 },
+						"position": { "x": -0.9955800175666809, "y": 0.0000019999999949504854, "z": -0.27360600233078003 }
+					}
+				},
+				"m_bCastShadows": { "type": "bool", "value": true },
+				"m_bPCCastShadows": { "type": "bool", "value": false },
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "feedf4405ab27e3a" }
+			}
+		},
+		"feedd6e915e61cef": {
+			"parent": "feedf4405ab27e3a",
+			"name": "Ivy_Roots_A09",
+			"factory": "[assembly:/_pro/environment/templates/foliage/ivy_b.template?/ivy_roots_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/foliage/ivy_b.template?/ivy_roots_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": -89.99983794485559, "z": 0 },
+						"position": { "x": 0.41278600692749023, "y": 0.000003000000106112566, "z": -0.9106709957122803 }
+					}
+				},
+				"m_bCastShadows": { "type": "bool", "value": true },
+				"m_bPCCastShadows": { "type": "bool", "value": false },
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "feedf4405ab27e3a" }
+			}
+		},
+		"feed698d2f123311": {
+			"parent": "feedc233b563d470",
+			"name": "Palace_Fence_Tall_Spiked_A_00_16",
+			"factory": "[assembly:/_pro/environment/templates/props/street_props/fences_palace.template?/palace_fence_tall_spiked_a_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/street_props/fences_palace.template?/palace_fence_tall_spiked_a_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": 180 },
+						"position": { "x": 19.197954, "y": -81.418304, "z": -1.7299676 }
+					}
+				},
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "feed8c563d582634", "postInit": true }
+			}
+		},
+		"feedbca4b1a17a73": {
+			"parent": "feedc233b563d470",
+			"name": "Palace_Fence_Tall_Spiked_A_00_17",
+			"factory": "[assembly:/_pro/environment/templates/props/street_props/fences_palace.template?/palace_fence_tall_spiked_a_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/street_props/fences_palace.template?/palace_fence_tall_spiked_a_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": 180 },
+						"position": { "x": 11.197954, "y": -81.418304, "z": -1.7299676 }
+					}
+				},
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "feed8c563d582634", "postInit": true }
+			}
+		},
+		"feed655fbdef90ba": {
+			"parent": "feedc233b563d470",
+			"name": "Palace_Fence_Tall_Spiked_A_00_18",
+			"factory": "[assembly:/_pro/environment/templates/props/street_props/fences_palace.template?/palace_fence_tall_spiked_a_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/street_props/fences_palace.template?/palace_fence_tall_spiked_a_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": 180 },
+						"position": { "x": 3.197954, "y": -81.418304, "z": -1.7299676 }
+					}
+				},
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "feed8c563d582634", "postInit": true }
+			}
+		},
+		"feed4db3f7c8b10b": {
+			"parent": "feedc233b563d470",
+			"name": "Palace_Fence_Tall_Spiked_A_00_19",
+			"factory": "[assembly:/_pro/environment/templates/props/street_props/fences_palace.template?/palace_fence_tall_spiked_a_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/street_props/fences_palace.template?/palace_fence_tall_spiked_a_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": 180 },
+						"position": { "x": -4.802046, "y": -81.418304, "z": -1.7299676 }
+					}
+				},
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "feed8c563d582634", "postInit": true }
+			}
+		},
+		"feedc233b563d470": {
+			"parent": "feed8c563d582634",
+			"name": "Fences 180",
+			"blueprint": "[modules:/zspatialentity.class].pc_entityblueprint",
+			"factory": "[modules:/zspatialentity.class].pc_entitytype"
+		},
+		"feed7f2af1c1b3a5": {
+			"parent": "feedc233b563d470",
+			"name": "Palace_Fence_Tall_Spiked_A_00_20",
+			"factory": "[assembly:/_pro/environment/templates/props/street_props/fences_palace.template?/palace_fence_tall_spiked_a_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/street_props/fences_palace.template?/palace_fence_tall_spiked_a_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": 180 },
+						"position": { "x": -12.802046, "y": -81.418304, "z": -1.7299676 }
+					}
+				},
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "feed8c563d582634", "postInit": true }
+			}
+		},
+		"feed4092c80e0201": {
+			"parent": "feedc233b563d470",
+			"name": "Palace_Fence_Tall_Spiked_A_00_21",
+			"factory": "[assembly:/_pro/environment/templates/props/street_props/fences_palace.template?/palace_fence_tall_spiked_a_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/street_props/fences_palace.template?/palace_fence_tall_spiked_a_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": 180 },
+						"position": { "x": -20.802046, "y": -81.418304, "z": -1.7299676 }
+					}
+				},
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "feed8c563d582634", "postInit": true }
+			}
+		},
+		"feed4fd129c8df8c": {
+			"parent": "feedc233b563d470",
+			"name": "Palace_Fence_Tall_Spiked_A_00_22",
+			"factory": "[assembly:/_pro/environment/templates/props/street_props/fences_palace.template?/palace_fence_tall_spiked_a_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/street_props/fences_palace.template?/palace_fence_tall_spiked_a_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": 180 },
+						"position": { "x": -28.802046, "y": -81.418304, "z": -1.7299676 }
+					}
+				},
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "feed8c563d582634", "postInit": true }
+			}
+		},
+		"feed7e16d363e1c1": {
+			"parent": "feedc233b563d470",
+			"name": "Palace_Fence_Tall_Spiked_A_00_23",
+			"factory": "[assembly:/_pro/environment/templates/props/street_props/fences_palace.template?/palace_fence_tall_spiked_a_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/street_props/fences_palace.template?/palace_fence_tall_spiked_a_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": 180 },
+						"position": { "x": -34.802046, "y": -81.418304, "z": -1.7299676 }
+					}
+				},
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "feed8c563d582634", "postInit": true }
+			}
+		},
+		"feedfa64673036ac": {
+			"parent": "feedc233b563d470",
+			"name": "Palace_Fence_Tall_Spiked_A_00_23",
+			"factory": "[assembly:/_pro/environment/templates/props/street_props/fences_palace.template?/palace_fence_tall_spiked_a_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/street_props/fences_palace.template?/palace_fence_tall_spiked_a_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": 180 },
+						"position": { "x": -42.802046, "y": -81.418304, "z": -1.7299676 }
+					}
+				},
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "feed8c563d582634", "postInit": true }
+			}
+		},
+		"feed20be5e2de10d": {
+			"parent": "feed8c563d582634",
+			"name": "Fences 90",
+			"blueprint": "[modules:/zspatialentity.class].pc_entityblueprint",
+			"factory": "[modules:/zspatialentity.class].pc_entitytype"
 		}
 	},
 	"propertyOverrides": [
