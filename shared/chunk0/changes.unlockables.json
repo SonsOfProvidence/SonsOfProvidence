@@ -158,7 +158,7 @@
 	},
 	"STARTING_LOCATION_FUNERAL_CHURCH_TOWER": {
 		"Id": "STARTING_LOCATION_FUNERAL_CHURCH_TOWER",
-		"Guid": "fb75a371-1234-46ca-4213-320e16012345",
+		"Guid": "63c9e974-a44c-4188-a4b1-64d2a2f6ac18",
 		"Type": "access",
 		"Subtype": "startinglocation",
 		"ImageId": null,
@@ -179,7 +179,7 @@
 	},
 	"STARTING_LOCATION_AIRPLANE_SEAT": {
 		"Id": "STARTING_LOCATION_AIRPLANE_SEAT",
-		"Guid": "fb75a371-1234-46ca-4213-314e16012345",
+		"Guid": "4755861c-8cff-49de-a4af-3a2e73e25eec",
 		"Type": "access",
 		"Subtype": "startinglocation",
 		"ImageId": null,
@@ -200,7 +200,7 @@
 	},
 	"STARTING_LOCATION_MARRAKESH_COURTYARD": {
 		"Id": "STARTING_LOCATION_MARRAKESH_COURTYARD",
-		"Guid": "fb75a371-8a8a-46ca-4213-320e16012345",
+		"Guid": "24125352-9e78-4caa-bcd7-301e17349e92",
 		"Type": "access",
 		"Subtype": "startinglocation",
 		"ImageId": null,

@@ -88560,7 +88560,7 @@
 				"m_PostfilterParametersID": { "type": "int32", "value": 0 },
 				"m_fMiddleGrayMultiplier": { "type": "float32", "value": 1 },
 				"m_bOutsideMaster": { "type": "bool", "value": true },
-				"m_eidParent": { "type": "SEntityTemplateReference", "value": "feed19fe3ed7bb2b" }
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "fffffffffffffffe" }
 			},
 			"subsets": { "Rooms": ["fffffffffffffffe"] }
 		},

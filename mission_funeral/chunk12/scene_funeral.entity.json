@@ -89,7 +89,7 @@
 			"properties": {
 				"m_pGrid": {
 					"type": "ZRuntimeResourceID",
-					"value": "[assembly:/_pro/scenes/users/notex/scene_test_scene.airg].pc_airg"
+					"value": "[assembly:/sonsofprovidence/scene_funeral.airg].pc_airg"
 				}
 			}
 		},
@@ -137,7 +137,7 @@
 			"properties": {
 				"m_NavpowerResourceID": {
 					"type": "ZRuntimeResourceID",
-					"value": "[assembly:/_pro/scenes/users/notex/scene_test.navp].pc_navp"
+					"value": "[assembly:/sonsofprovidence/scene_funeral.navp].pc_navp"
 				}
 			}
 		},
@@ -572,7 +572,7 @@
 			"factory": "[modules:/zsequenceentity.class].pc_entitytype",
 			"blueprint": "[modules:/zsequenceentity.class].pc_entityblueprint",
 			"properties": {
-				"m_duration": { "type": "ZGameTime", "value": { "m_nTicks": 947183 } },
+				"m_duration": { "type": "ZGameTime", "value": { "m_nTicks": 94718 } },
 				"m_startTime": { "type": "ZGameTime", "value": { "m_nTicks": 1486 } },
 				"m_bLetterbox": { "type": "bool", "value": true },
 				"m_eLetterBoxAspect": { "type": "ZSequenceEntity.ELetterBoxAspect", "value": "LETTERBOXASPECT_CINEMASCOPE" },
@@ -2969,7 +2969,8 @@
 	"pinConnectionOverrideDeletes": [],
 	"externalScenes": [
 		"[assembly:/_pro/scenes/missions/greedy/mission_raccoon/scenario_raccoon.brick].pc_entitytype",
-		"[assembly:/sonsofprovidence/funeral/funeral_outfits.brick].pc_entitytype"
+		"[assembly:/sonsofprovidence/funeral/funeral_outfits.brick].pc_entitytype",
+		"[assembly:/sonsofprovidence/objects/sapienza_church.entity].pc_entitytype"
 	],
 	"subType": "scene",
 	"quickEntityVersion": 3.1,
