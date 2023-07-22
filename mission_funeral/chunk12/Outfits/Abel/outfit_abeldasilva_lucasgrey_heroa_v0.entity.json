@@ -1,0 +1,445 @@
+{
+	"tempHash": "00BE29F42FDE5730",
+	"tbluHash": "0041D0590D652EAB",
+	"rootEntity": "95aefd50dde742f0",
+	"entities": {
+		"dfc0555f991e5bc4": {
+			"parent": "95aefd50dde742f0",
+			"name": "Mesh_Armband01",
+			"factory": "[modules:/zbodypartentity.class].pc_entitytype",
+			"blueprint": "[modules:/zbodypartentity.class].pc_entityblueprint",
+			"properties": {
+				"m_pMeshResource": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/characters/assets/individuals/bangkok/abeldasilva/geometry/male_reg_abeldasilva_01.wl2?/armbands_01.weightedprim](bodypart).pc_weightedprim",
+						"flag": "5F"
+					}
+				}
+			}
+		},
+		"6b6035eddd11c96d": {
+			"parent": "95aefd50dde742f0",
+			"name": "Mesh_Hands",
+			"factory": "[modules:/zbodypartentity.class].pc_entitytype",
+			"blueprint": "[modules:/zbodypartentity.class].pc_entityblueprint",
+			"properties": {
+				"m_pMeshResource": {
+					"type": "ZRuntimeResourceID",
+					"value": { "resource": "003C7B738AF821F9", "flag": "5F" }
+				}
+			}
+		},
+		"58ca20344a80911a": {
+			"parent": "95aefd50dde742f0",
+			"name": "Mesh_Bag",
+			"factory": "[modules:/zbodypartentity.class].pc_entitytype",
+			"blueprint": "[modules:/zbodypartentity.class].pc_entityblueprint",
+			"properties": {
+				"m_pMeshResource": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/characters/assets/individuals/italy/private_investigator/geometry/male_reg_investigator.wl2?/bag.weightedprim](bodypart).pc_weightedprim",
+						"flag": "5F"
+					}
+				}
+			}
+		},
+		"c170457569c8c3e8": {
+			"parent": "95aefd50dde742f0",
+			"name": "Mesh_Watch",
+			"factory": "[modules:/zbodypartentity.class].pc_entitytype",
+			"blueprint": "[modules:/zbodypartentity.class].pc_entityblueprint",
+			"properties": {
+				"m_pMeshResource": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/characters/assets/civilians/formal_01/geometry/male_reg_civ_formal_03.wl2?/watch.weightedprim](bodypart).pc_weightedprim",
+						"flag": "5F"
+					}
+				}
+			}
+		},
+		"6e628fb68c5bb0e2": {
+			"parent": "95aefd50dde742f0",
+			"name": "Mesh_Legs",
+			"factory": "[modules:/zbodypartentity.class].pc_entitytype",
+			"blueprint": "[modules:/zbodypartentity.class].pc_entityblueprint",
+			"properties": {
+				"m_pMeshResource": {
+					"type": "ZRuntimeResourceID",
+					"value": { "resource": "00ED30A41D256AA4", "flag": "5F" }
+				}
+			}
+		},
+		"a0a8a274a08a40ee": {
+			"parent": "95aefd50dde742f0",
+			"name": "Mesh_Glasses",
+			"factory": "[modules:/zbodypartentity.class].pc_entitytype",
+			"blueprint": "[modules:/zbodypartentity.class].pc_entityblueprint",
+			"properties": {
+				"m_pMeshResource": {
+					"type": "ZRuntimeResourceID",
+					"value": { "resource": "008E18DFC5DB43AC", "flag": "5F" }
+				},
+				"m_IsHiddenInVR": { "type": "bool", "value": true }
+			}
+		},
+		"07322cf1880ddd14": {
+			"parent": "95aefd50dde742f0",
+			"name": "Mesh_Armband02",
+			"factory": "[modules:/zbodypartentity.class].pc_entitytype",
+			"blueprint": "[modules:/zbodypartentity.class].pc_entityblueprint",
+			"properties": {
+				"m_pMeshResource": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/characters/assets/individuals/bangkok/abeldasilva/geometry/male_reg_abeldasilva_01.wl2?/armbands_02.weightedprim](bodypart).pc_weightedprim",
+						"flag": "5F"
+					}
+				}
+			}
+		},
+		"be7b9be35a78179f": {
+			"parent": "95aefd50dde742f0",
+			"name": "NPC_Standard_Collider",
+			"factory": "00B308F61A901BA0",
+			"blueprint": "000E2A97CF82CA66",
+			"properties": {
+				"Thigh_Top_R_Radius": { "type": "float32", "value": 0.15199999511241913 },
+				"Thigh_Mid_R_Radius": { "type": "float32", "value": 0.15000000596046448 },
+				"Thigh_Top_L_Radius": { "type": "float32", "value": 0.15199999511241913 },
+				"Thigh_Mid_L_Radius": { "type": "float32", "value": 0.15000000596046448 },
+				"Thigh_Top_R_Position": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": 0 },
+						"position": { "x": 0, "y": 0.009999999776482582, "z": -0.05000000074505806 }
+					}
+				},
+				"Thigh_Top_L_Position": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": 0 },
+						"position": { "x": 0.0010000000474974513, "y": 0.009999999776482582, "z": 0.03999999910593033 }
+					}
+				},
+				"Knee_L_Radius": { "type": "float32", "value": 0.10000000149011612 },
+				"Knee_R_Radius": { "type": "float32", "value": 0.10000000149011612 },
+				"Thigh_Mid_L_Position": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": 0 },
+						"position": { "x": 0.061000000685453415, "y": 0, "z": 0.019999999552965164 }
+					}
+				},
+				"Thigh_Mid_R_Position": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": 0 },
+						"position": { "x": 0.061000000685453415, "y": -0.004000000189989805, "z": -0.019999999552965164 }
+					}
+				},
+				"Elbow_R_Enabled": { "type": "bool", "value": false },
+				"Elbow_L_Enabled": { "type": "bool", "value": false },
+				"Hand_L_Enabled": { "type": "bool", "value": false },
+				"Hand_R_Enabled": { "type": "bool", "value": false },
+				"m_linkedEntity": { "type": "SEntityTemplateReference", "value": "95aefd50dde742f0", "postInit": true },
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "95aefd50dde742f0", "postInit": true }
+			}
+		},
+		"cd999374f8bbd8c5": {
+			"parent": "95aefd50dde742f0",
+			"name": "Mesh_Eyes",
+			"factory": "[modules:/zbodypartentity.class].pc_entitytype",
+			"blueprint": "[modules:/zbodypartentity.class].pc_entityblueprint",
+			"properties": {
+				"m_pMeshResource": {
+					"type": "ZRuntimeResourceID",
+					"value": { "resource": "00461B04C05EF329", "flag": "5F" }
+				},
+				"m_IsHiddenInVR": { "type": "bool", "value": true }
+			}
+		},
+		"74f20041d02192e4": {
+			"parent": "95aefd50dde742f0",
+			"name": "Mesh_Hat",
+			"factory": "[modules:/zbodypartentity.class].pc_entitytype",
+			"blueprint": "[modules:/zbodypartentity.class].pc_entityblueprint",
+			"properties": {
+				"m_pMeshResource": {
+					"type": "ZRuntimeResourceID",
+					"value": { "resource": "00EBD6FA04F8B2C3", "flag": "5F" }
+				},
+				"m_IsHiddenInVR": { "type": "bool", "value": true }
+			}
+		},
+		"0bceaba33c9e10cb": {
+			"parent": "95aefd50dde742f0",
+			"name": "thief_frame_01",
+			"factory": "[assembly:/_pro/characters/assets/individuals/greenland/thief/materials/thief_frame_01.mi].pc_entitytype",
+			"blueprint": "[assembly:/_pro/characters/assets/individuals/greenland/thief/materials/thief_frame_01.mi].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": 0 },
+						"position": { "x": 0, "y": -1.5474380254745483, "z": 0 }
+					}
+				},
+				"ConstantVector1D_03_Value_op": { "type": "IRenderMaterialEntity.EModifierOperation", "value": "eReplace" },
+				"ConstantVector1D_03_Value": { "type": "float32", "value": 0.47999998927116394 },
+				"Texture2D_03_enab": { "type": "bool", "value": true },
+				"Texture2D_03": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/characters/assets/individuals/greenland/thief/textures/thief_glasses_01.texture?/specular_b.tex](ascolormap).pc_tex",
+						"flag": "5F"
+					}
+				},
+				"ConstantVector1D_05_Value_op": { "type": "IRenderMaterialEntity.EModifierOperation", "value": "eReplace" },
+				"ConstantVector1D_05_Value": { "type": "float32", "value": 0.8600000143051147 },
+				"Texture2D_01_enab": { "type": "bool", "value": true },
+				"Clients": { "type": "TArray<SEntityTemplateReference>", "value": ["95aefd50dde742f0"], "postInit": true },
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "95aefd50dde742f0", "postInit": true }
+			}
+		},
+		"ffd78df84d3c27e0": {
+			"parent": "95aefd50dde742f0",
+			"name": "thief_glasses_01",
+			"factory": "[assembly:/_pro/characters/assets/individuals/greenland/thief/materials/thief_glasses_01.mi].pc_entitytype",
+			"blueprint": "[assembly:/_pro/characters/assets/individuals/greenland/thief/materials/thief_glasses_01.mi].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": 0 },
+						"position": { "x": 0, "y": -1.5474380254745483, "z": 0 }
+					}
+				},
+				"Diffuse_Tint_Value": { "type": "SColorRGB", "value": "#3d6078" },
+				"Diffuse_Tint_Value_op": { "type": "IRenderMaterialEntity.EModifierOperation", "value": "eReplace" },
+				"Texture2D_01_enab": { "type": "bool", "value": false },
+				"ConstantVector1D_01_Value_op": { "type": "IRenderMaterialEntity.EModifierOperation", "value": "eReplace" },
+				"ConstantVector1D_01_Value": { "type": "float32", "value": 0 },
+				"Clients": { "type": "TArray<SEntityTemplateReference>", "value": ["95aefd50dde742f0"], "postInit": true },
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "95aefd50dde742f0", "postInit": true }
+			}
+		},
+		"cb1e44ee8dea4a45": {
+			"parent": "95aefd50dde742f0",
+			"name": "Mesh_Pant",
+			"factory": "[modules:/zbodypartentity.class].pc_entitytype",
+			"blueprint": "[modules:/zbodypartentity.class].pc_entityblueprint",
+			"properties": {
+				"m_pMeshResource": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/characters/assets/individuals/bangkok/abeldasilva/geometry/male_reg_abeldasilva_01.wl2?/pant_01.weightedprim](bodypart).pc_weightedprim",
+						"flag": "5F"
+					}
+				}
+			}
+		},
+		"a007098616db542b": {
+			"parent": "95aefd50dde742f0",
+			"name": "Abel_Da_Silva_head",
+			"factory": "[assembly:/_pro/characters/assets/_genericparts/fashionmodels/materials/male_reg_fashionmodel_02_head_01.mi].pc_entitytype",
+			"blueprint": "[assembly:/_pro/characters/assets/_genericparts/fashionmodels/materials/male_reg_fashionmodel_02_head_01.mi].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": { "rotation": { "x": 0, "y": 0, "z": 0 }, "position": { "x": 0, "y": 0, "z": 0 } }
+				},
+				"Clients": { "type": "TArray<SEntityTemplateReference>", "value": ["95aefd50dde742f0"], "postInit": true },
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "95aefd50dde742f0", "postInit": true }
+			}
+		},
+		"17ed2f163a4bbb3b": {
+			"parent": "95aefd50dde742f0",
+			"name": "Mesh_Shirt",
+			"factory": "[modules:/zbodypartentity.class].pc_entitytype",
+			"blueprint": "[modules:/zbodypartentity.class].pc_entityblueprint",
+			"properties": {
+				"m_pMeshResource": {
+					"type": "ZRuntimeResourceID",
+					"value": { "resource": "00A2532E0DFA69A5", "flag": "5F" }
+				}
+			}
+		},
+		"b7d5391de41210d8": {
+			"parent": "95aefd50dde742f0",
+			"name": "base_male_body",
+			"factory": "[assembly:/_pro/characters/assets/_base/pro_male_regular/materials/base_male_body.mi].pc_entitytype",
+			"blueprint": "[assembly:/_pro/characters/assets/_base/pro_male_regular/materials/base_male_body.mi].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": { "rotation": { "x": 0, "y": 0, "z": 0 }, "position": { "x": 0, "y": 0, "z": 0 } }
+				},
+				"Texture2D_01_enab": { "type": "bool", "value": true },
+				"Texture2D_03_enab": { "type": "bool", "value": true },
+				"Texture2D_03": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/characters/assets/individuals/bangkok/abeldasilva/textures/male_regular_abeldasilva_01_body.texture?/specular_a.tex](ascolormap).pc_tex",
+						"flag": "5F"
+					}
+				},
+				"Texture2D_01": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/characters/assets/individuals/bangkok/abeldasilva/textures/male_regular_abeldasilva_01_body.texture?/diffuse_a.tex](ascolormap).pc_tex",
+						"flag": "5F"
+					}
+				},
+				"Clients": { "type": "TArray<SEntityTemplateReference>", "value": ["95aefd50dde742f0"], "postInit": true },
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "95aefd50dde742f0", "postInit": true }
+			}
+		},
+		"b8a0338217800738": {
+			"parent": "95aefd50dde742f0",
+			"name": "Mesh_Shoes",
+			"factory": "[modules:/zbodypartentity.class].pc_entitytype",
+			"blueprint": "[modules:/zbodypartentity.class].pc_entityblueprint",
+			"properties": {
+				"m_pMeshResource": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/characters/assets/individuals/bangkok/abeldasilva/geometry/male_reg_abeldasilva_01.wl2?/shoes_01.weightedprim](bodypart).pc_weightedprim",
+						"flag": "5F"
+					}
+				}
+			}
+		},
+		"95aefd50dde742f0": {
+			"parent": null,
+			"name": "OUTFIT_AbelDaSilva_LucasGrey_HeroA_v0",
+			"factory": "[assembly:/templates/aspectdummy.aspect]([modules:/zlinkedproxyentity.class].entitytype,[modules:/zclothcharacterentity.class].entitytype).pc_entitytype",
+			"blueprint": "[assembly:/templates/aspectdummy.aspect]([modules:/zlinkedproxyentity.class].entitytype,[modules:/zclothcharacterentity.class].entitytype).pc_entityblueprint",
+			"properties": {
+				"m_ResourceID": { "type": "ZRuntimeResourceID", "value": null },
+				"m_fLODScale": { "type": "float32", "value": 1 },
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": 0 },
+						"position": { "x": -2.0677220821380615, "y": 0.9540110230445862, "z": 0 }
+					}
+				},
+				"m_pBonesAndCollisionResource": {
+					"type": "ZRuntimeResourceID",
+					"value": { "resource": "003AAB3D2C739F59", "flag": "5F" }
+				},
+				"m_aBodyParts": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						"74f20041d02192e4",
+						"17ed2f163a4bbb3b",
+						"b8a0338217800738",
+						"cb1e44ee8dea4a45",
+						"6b6035eddd11c96d",
+						"a0a8a274a08a40ee",
+						"dfc0555f991e5bc4",
+						"07322cf1880ddd14",
+						"c170457569c8c3e8",
+						"cd999374f8bbd8c5",
+						"58ca20344a80911a",
+						"6e628fb68c5bb0e2"
+					]
+				},
+				"m_bUsePerVertexStiffness": { "type": "bool", "value": false },
+				"m_bGlobalCollidersEnabled": { "type": "bool", "value": false },
+				"m_fWindConstant": { "type": "float32", "value": 0 },
+				"m_vGravity": { "type": "SVector3", "value": { "x": 0, "y": 0, "z": -10 } },
+				"m_bUseSkinningNegNormalConstrains": { "type": "bool", "value": true },
+				"m_bUseSkinningPosNormalConstrains": { "type": "bool", "value": false },
+				"m_fDamping": { "type": "float32", "value": 0.15000000596046448 },
+				"m_bUsePerVertexDamping": { "type": "bool", "value": false },
+				"m_bEnableAngularVelocityScale": { "type": "bool", "value": true },
+				"m_fFrequency": { "type": "float32", "value": 60 },
+				"m_nIterations": { "type": "uint32", "value": 2 }
+			}
+		},
+		"feed60240effeba2": {
+			"parent": "95aefd50dde742f0",
+			"name": "Part_Head",
+			"factory": "[modules:/zbodypartentity.class].pc_entitytype",
+			"blueprint": "[modules:/zbodypartentity.class].pc_entityblueprint",
+			"properties": {
+				"m_pMeshResource": {
+					"type": "ZRuntimeResourceID",
+					"value": { "resource": "00FFA54477391810", "flag": "5F" }
+				}
+			}
+		}
+	},
+	"propertyOverrides": [],
+	"overrideDeletes": [],
+	"pinConnectionOverrides": [],
+	"pinConnectionOverrideDeletes": [],
+	"externalScenes": [],
+	"subType": "template",
+	"quickEntityVersion": 3.1,
+	"extraFactoryDependencies": [
+		{
+			"resource": "[assembly:/_pro/characters/assets/individuals/greenland/thief/textures/thief_glasses_01.texture?/normal_a.tex](asnormalmap).pc_tex",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/characters/assets/individuals/greenland/thief/textures/thief_glasses_01.texture?/diffuse_a.tex](ascolormap).pc_tex",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/characters/assets/_genericparts/fashionmodels/textures/male_reg_fashionmodel_02_head_01.texture?/normal_a.tex](asnormalmap).pc_tex",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/characters/assets/_genericparts/skin/textures/skin_detail.texture?/normal_a.tex](asnormalmap).pc_tex",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/characters/assets/_base/pro_male_regular/textures/base_male_head.texture?/translucency_a.tex](ascolormap).pc_tex",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/characters/assets/_genericparts/fashionmodels/textures/male_reg_fashionmodel_02_head_01.texture?/specular_a.tex](ascolormap).pc_tex",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/characters/assets/_genericparts/fashionmodels/textures/male_reg_fashionmodel_02_head_01.texture?/diffuse_a.tex](ascolormap).pc_tex",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/characters/assets/_genericparts/skin/textures/skin_detail.texture?/variance_a.tex](ascolormap).pc_tex",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/characters/assets/_base/pro_male_regular/textures/base_male_body.texture?/normal_a.tex](asnormalmap).pc_tex",
+			"flag": "5F"
+		},
+		{ "resource": "00F3654BB38A68EC", "flag": "5F" },
+		{
+			"resource": "[assembly:/_pro/environment/textures/constants/color_black.texture?/diffuse_a.tex](ascolormap).pc_tex",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/environment/textures/detailmaps/default.texture?/detail_a.tex](ascompoundnormal).pc_tex",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/characters/assets/individuals/italy/priest/textures/male_priest_01_glasses_01.texture?/diffuse_a.tex](ascolormap).pc_tex",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/characters/assets/individuals/italy/priest/textures/male_priest_01_glasses_01.texture?/specular_a.tex](ascolormap).pc_tex",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/characters/assets/individuals/italy/priest/textures/male_priest_01_glasses_01.texture?/normal_a.tex](asnormalmap).pc_tex",
+			"flag": "5F"
+		}
+	],
+	"extraBlueprintDependencies": [],
+	"comments": []
+}

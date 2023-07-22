@@ -11,7 +11,7 @@
 		},
 		"abcd6b299c3d3e26": {
 			"parent": "fffffffffffffffe",
-			"name": "Scenario_Carpark",
+			"name": "Scenario_Bank",
 			"blueprint": "[modules:/zentity.class].pc_entityblueprint",
 			"factory": "[modules:/zentity.class].pc_entitytype"
 		},
@@ -29,7 +29,7 @@
 		},
 		"abcd85cba5ab5afa": {
 			"parent": "abcd6b299c3d3e26",
-			"name": "Envionment",
+			"name": "Environment",
 			"blueprint": "[modules:/zentity.class].pc_entityblueprint",
 			"factory": "[modules:/zentity.class].pc_entitytype"
 		},
@@ -864,17 +864,7 @@
 			"subsets": { "Rooms": ["fffffffffffffffe"] }
 		}
 	},
-	"propertyOverrides": [
-		{
-			"entities": [
-				{
-					"ref": "d82ece8104b77433",
-					"externalScene": "[assembly:/_pro/scenes/missions/greedy/mission_raccoon/scenario_raccoon.brick].pc_entitytype"
-				}
-			],
-			"properties": { "m_bDefaultHeroSpawn": { "type": "bool", "value": false } }
-		}
-	],
+	"propertyOverrides": [],
 	"overrideDeletes": [],
 	"pinConnectionOverrides": [],
 	"pinConnectionOverrideDeletes": [],

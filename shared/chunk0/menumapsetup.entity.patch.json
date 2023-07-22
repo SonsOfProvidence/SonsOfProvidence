@@ -18,23 +18,6 @@
 					}
 				}
 			]
-		},
-		{
-			"AddEntity": [
-				"feed9bf06819a8f2",
-				{
-					"parent": "f0854459c3fac2c5",
-					"name": "_scene_funeral",
-					"factory": "[assembly:/templates/ui/mapexportentities.template?/menumap.entitytemplate].pc_entitytype",
-					"blueprint": "[assembly:/templates/ui/mapexportentities.template?/menumap.entitytemplate].pc_entityblueprint",
-					"properties": {
-						"m_pMetaDataResource": {
-							"type": "ZRuntimeResourceID",
-							"value": { "resource": "0087D3DCE70CFF95", "flag": "5F" }
-						}
-					}
-				}
-			]
 		}
 	],
 	"patchVersion": 6

@@ -1,0 +1,127 @@
+{
+	"tempHash": "0054CD101901F831",
+	"tbluHash": "003D16BECCA4510B",
+	"rootEntity": "5a8237e0fdc45971",
+	"entities": {
+		"091a38636cc47436": {
+			"parent": "5a8237e0fdc45971",
+			"name": "HeroA",
+			"factory": "[modules:/zcharsetcharactertype.class].pc_entitytype",
+			"blueprint": "[modules:/zcharsetcharactertype.class].pc_entityblueprint",
+			"properties": {
+				"m_aVariations": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["e3b186553cd9ac94"],
+					"postInit": true
+				}
+			}
+		},
+		"db675bffa9b9775d": {
+			"parent": "5a8237e0fdc45971",
+			"name": "HeroB",
+			"factory": "[modules:/zcharsetcharactertype.class].pc_entitytype",
+			"blueprint": "[modules:/zcharsetcharactertype.class].pc_entityblueprint",
+			"properties": {
+				"m_aVariations": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["37642a798be0adf6"],
+					"postInit": true
+				}
+			}
+		},
+		"d45c5119a983c0a1": {
+			"parent": "7fa15bd668183e9b",
+			"name": "Var0",
+			"factory": "[modules:/zoutfitvariation.class].pc_entitytype",
+			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint"
+		},
+		"547bd4dc39a24003": {
+			"parent": "2035477bc373c3e7",
+			"name": "Var0",
+			"factory": "[modules:/zoutfitvariation.class].pc_entitytype",
+			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint"
+		},
+		"2035477bc373c3e7": {
+			"parent": "5a8237e0fdc45971",
+			"name": "HeroC",
+			"factory": "[modules:/zcharsetcharactertype.class].pc_entitytype",
+			"blueprint": "[modules:/zcharsetcharactertype.class].pc_entityblueprint",
+			"properties": { "m_aVariations": { "type": "TArray<SEntityTemplateReference>", "value": ["547bd4dc39a24003"] } }
+		},
+		"b7caf392e74ef6f3": {
+			"parent": "5a8237e0fdc45971",
+			"name": "Actor",
+			"factory": "[modules:/zcharsetcharactertype.class].pc_entitytype",
+			"blueprint": "[modules:/zcharsetcharactertype.class].pc_entityblueprint",
+			"properties": {
+				"m_aVariations": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["c536d29c74f1c282"],
+					"postInit": true
+				}
+			}
+		},
+		"7fa15bd668183e9b": {
+			"parent": "5a8237e0fdc45971",
+			"name": "Nude",
+			"factory": "[modules:/zcharsetcharactertype.class].pc_entitytype",
+			"blueprint": "[modules:/zcharsetcharactertype.class].pc_entityblueprint",
+			"properties": { "m_aVariations": { "type": "TArray<SEntityTemplateReference>", "value": ["d45c5119a983c0a1"] } }
+		},
+		"5a8237e0fdc45971": {
+			"parent": null,
+			"name": "CHARSET_DexyBarat",
+			"factory": "[modules:/zoutfitvariationcollection.class].pc_entitytype",
+			"blueprint": "[modules:/zoutfitvariationcollection.class].pc_entityblueprint",
+			"properties": {
+				"m_aCharacters": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						"b7caf392e74ef6f3",
+						"7fa15bd668183e9b",
+						"091a38636cc47436",
+						"db675bffa9b9775d",
+						"2035477bc373c3e7"
+					]
+				}
+			}
+		},
+		"e3b186553cd9ac94": {
+			"parent": "091a38636cc47436",
+			"name": "Var0",
+			"factory": "[modules:/zoutfitvariation.class].pc_entitytype",
+			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint"
+		},
+		"37642a798be0adf6": {
+			"parent": "db675bffa9b9775d",
+			"name": "Var0",
+			"factory": "[modules:/zoutfitvariation.class].pc_entitytype",
+			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint"
+		},
+		"c536d29c74f1c282": {
+			"parent": "b7caf392e74ef6f3",
+			"name": "0",
+			"factory": "[modules:/zoutfitvariation.class].pc_entitytype",
+			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint",
+			"properties": {
+				"m_Outfit": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/characters/templates/bangkok/char_bangkok_unique.template?/outfit_dexybarat_actor_v0.entitytemplate].pc_entitytemplate",
+						"flag": "9F"
+					}
+				}
+			}
+		}
+	},
+	"propertyOverrides": [],
+	"overrideDeletes": [],
+	"pinConnectionOverrides": [],
+	"pinConnectionOverrideDeletes": [],
+	"externalScenes": [],
+	"subType": "template",
+	"quickEntityVersion": 3.1,
+	"extraFactoryDependencies": [],
+	"extraBlueprintDependencies": [],
+	"comments": []
+}

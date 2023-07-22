@@ -1,6 +1,6 @@
 {
-	"37af536b-4747-49ed-986a-9d55f4481ed4": {
-		"ID_": "37af536b-4747-49ed-986a-9d55f4481ed4",
+	"4a3b5ee8-7e8f-4129-8cc4-cec800d69ed7": {
+		"ID_": "4a3b5ee8-7e8f-4129-8cc4-cec800d69ed7",
 		"Image": "images/sop/mumbai_roof_starting.jpg",
 		"Name_LOC": "ui_starting_location_mumbai_ether_lab_default_name",
 		"Description": "ui_starting_location_mumbai_ether_lab_desc"
@@ -11,26 +11,26 @@
 		"Name_LOC": "ui_starting_location_dartmoor_institute_default_name",
 		"Description": "ui_starting_location_dartmoor_institute_desc"
 	},
-	"fb75a371-8a8a-46ca-4747-123447478db6": {
-		"ID_": "fb75a371-8a8a-46ca-4747-123447478db6",
+	"a8f370ef-5936-49c6-8c30-8bf3b9ca1930": {
+		"ID_": "a8f370ef-5936-49c6-8c30-8bf3b9ca1930",
 		"Image": "images/sop/moscow_helipad_start.jpg",
 		"Name_LOC": "ui_starting_location_siberia_moscow_default_name",
 		"Description": "ui_starting_location_siberia_moscow_desc"
 	},
-	"fb75a371-8a8a-46ca-4747-123416018db6": {
-		"ID_": "fb75a371-8a8a-46ca-4747-123416018db6",
+	"d7367506-44f3-4c1a-be2d-fce3d723c378": {
+		"ID_": "d7367506-44f3-4c1a-be2d-fce3d723c378",
 		"Image": "images/sop/dubai_airplane_start.jpg",
 		"Name_LOC": "ui_starting_location_dubai_airplane_default_name",
 		"Description": "ui_starting_location_dubai_airplane_desc"
 	},
-	"1021798e-cec1-4747-ba33-69b7d53da888": {
-		"ID_": "1021798e-cec1-4747-ba33-69b7d53da888",
-		"Image": "images/sop/sapienza_apartment_start.jpg",
-		"Name_LOC": "ui_starting_location_sapienza_apartment_default_name",
-		"Description": "ui_starting_location_sapienza_apartment_desc"
+	"85f15667-d276-4082-ab33-7c7cc0e04c73": {
+		"ID_": "85f15667-d276-4082-ab33-7c7cc0e04c73",
+		"Image": "images/sop/funeral_church_tower_start.jpg",
+		"Name_LOC": "ui_starting_location_funeral_church_tower_default_name",
+		"Description": "ui_starting_location_funeral_church_tower_desc"
 	},
-	"fb75a371-8a8a-46ca-4747-320e16018db6": {
-		"ID_": "fb75a371-8a8a-46ca-4747-320e16018db6",
+	"b50d3e8f-f921-4733-bdeb-61454782a0c7": {
+		"ID_": "b50d3e8f-f921-4733-bdeb-61454782a0c7",
 		"Image": "images/sop/marrakesh_courtyard_start.jpg",
 		"Name_LOC": "ui_starting_location_marrakesh_courtyard_default_name",
 		"Description": "ui_starting_location_marrakesh_courtyard_desc"
@@ -47,16 +47,16 @@
 		"Name_LOC": "ui_starting_location_newyork_garage_default_name",
 		"Description": "ui_starting_location_newyork_garage_desc"
 	},
-	"c4146f27-81a9-42ef-b3c7-87a9d60b4747": {
+	"4ba8606f-f662-4be1-8f92-772937075b2d": {
 		"Category": "",
 		"CommonName": "CHAR_Gecko_Hero_SkydivingOutfit_M_ PRO179078",
-		"Description": "char_gecko_hero_skydivingoutfit_m_ pro179078_description_c4146f27-81a9-42ef-b3c7-87a9d60b4747",
+		"Description": "char_gecko_hero_skydivingoutfit_m_ pro179078_description_4ba8606f-f662-4be1-8f92-772937075b2d",
 		"HeroDisguiseAvailable": true,
-		"ID_": "c4146f27-81a9-42ef-b3c7-87a9d60b4747",
+		"ID_": "4ba8606f-f662-4be1-8f92-772937075b2d",
 		"Image": "images/unlockables_override/47_Outfits_Gecko_Skydiving.jpg",
 		"ImageTransparent": "",
 		"IsHitmanSuit": true,
-		"Name": "char_gecko_hero_skydivingoutfit_m_ pro179078_name_c4146f27-81a9-42ef-b3c7-87a9d60b4747",
+		"Name": "char_gecko_hero_skydivingoutfit_m_ pro179078_name_4ba8606f-f662-4be1-8f92-772937075b2d",
 		"TokenID": ""
 	},
 	"4ddb6c12-97fc-49f9-acc4-1ac7b5cc7d6d": {
@@ -126,18 +126,18 @@
 		"ID_": "d3959196-6be0-43ea-b6e7-aafa70824746",
 		"Image": "images/sop/dubai_target.jpg",
 		"Name": "Eugene Cobb",
-		"Outfit": "d3bdbcfe-4747-4774-a642-17da478a4747",
+		"Outfit": "aa738f84-152b-48d3-8b61-f6ed4d86413a",
 		"OutfitVariationIndex": 0.0,
 		"Tile": "images/sop/dubai_target.jpg"
 	},
-	"d3959196-6be0-43ea-b6e7-aafa70824747": {
+	"82e59306-250e-43d5-a4d9-731d9700add9": {
 		"CharacterSetIndex": 0.0,
 		"Description": "Hajun",
 		"Description_LOC": "actor_description",
-		"ID_": "d3959196-6be0-43ea-b6e7-aafa70824747",
+		"ID_": "82e59306-250e-43d5-a4d9-731d9700add9",
 		"Image": "images/sop/marrakesh_target.jpg",
-		"Name": "Eugene Cobb",
-		"Outfit": "d3bdbcfe-4747-4774-a642-17da478a4747",
+		"Name": "Hajun",
+		"Outfit": "c987eafa-df02-4d4d-bb64-89eb4509ced1",
 		"OutfitVariationIndex": 0.0,
 		"Tile": "images/sop/marrakesh_target.jpg"
 	},
@@ -148,7 +148,7 @@
 		"ID_": "d3959196-6be0-43ea-b6e7-aafa70824748",
 		"Image": "images/sop/moscow_target.jpg",
 		"Name": "Nicholai Kamarov",
-		"Outfit": "d3bdbcfe-4747-4774-a642-17da478a4747",
+		"Outfit": "a1a59656-21d7-4fe6-ac5b-23ed037770af",
 		"OutfitVariationIndex": 0.0,
 		"Tile": "images/sop/moscow_target.jpg"
 	},
@@ -157,11 +157,11 @@
 		"Description": "Thomas Cross",
 		"Description_LOC": "actor_description",
 		"ID_": "d3959196-6be0-43ea-b6e7-aafa70822045",
-		"Image": "images/sop/sapienza_target.jpg",
+		"Image": "images/sop/funeral_target.jpg",
 		"Name": "Thomas Cross",
-		"Outfit": "d3bdbcfe-4747-4774-a642-17daa98a7f69",
+		"Outfit": "c236ee00-cd6e-405c-839a-3c1400bada8e",
 		"OutfitVariationIndex": 0.0,
-		"Tile": "images/sop/sapienza_target.jpg"
+		"Tile": "images/sop/funeral_target.jpg"
 	},
 	"be51939f-1a3d-4f60-bc1c-5c1e1d726da2": {
 		"CharacterSetIndex": 0.0,

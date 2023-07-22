@@ -3,7 +3,7 @@
   "actors": [],
   "entrances": [
     {
-      "id": "fb75a371-8a8a-46ca-4747-123447478db6",
+      "id": "a8f370ef-5936-49c6-8c30-8bf3b9ca1930",
       "isDefaultSpawn": true,
       "isPreferredSpawn": true,
       "WorldTransform": "-0.596219, -0.802822, 0, 0.802822, -0.596219, 0, 0, 0, 1, -193.73587, 1.2423859, 17.475763"
@@ -11,7 +11,7 @@
   ],
   "Exits": [
     {
-      "id": "fc58abee-40e9-41b0-bf17-4747aecfe5d9",
+      "id": "bdad390a-ca46-4ef6-b711-18ab9f788d98",
       "WorldTransform": "-0.596219, -0.802822, 0, 0.802822, -0.596219, 0, 0, 0, 1, -195.73587, 3.2423859, 17.475763",
       "RequireKey": false
     }

@@ -394,7 +394,7 @@
 		},
 		"feed1d8f3a151446": {
 			"parent": "fffffffffffffffe",
-			"name": "Lucas Grey Outfits",
+			"name": "Lucas Grey as NPC Outfits",
 			"factory": "[modules:/zentity.class].pc_entitytype",
 			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
 		},

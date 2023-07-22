@@ -52,7 +52,7 @@
 				"m_rDefaultVoiceVariations": { "type": "TArray<EActorVoiceVariation>", "value": ["eAVV_CIVMALE08"] },
 				"m_eOutfitType": { "type": "EOutfitType", "value": "eOT_Guard" },
 				"m_eActorRank": { "type": "EActorRank", "value": "AR_Elite" },
-				"m_sId": { "type": "ZGuid", "value": "d3bdbcfe-4747-4774-a642-17daa98a4747" },
+				"m_sId": { "type": "ZGuid", "value": "2fb5e55c-345d-46b5-917c-6d8c93bdd69a" },
 				"m_sCommonName": { "type": "ZString", "value": "Agent 47" },
 				"m_sTitle": { "type": "ZString", "value": "Agent 47" },
 				"m_rNameTextResource": {

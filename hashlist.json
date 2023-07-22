@@ -48,6 +48,22 @@
 		"ioiString": "[assembly:/sonsofprovidence/scene_bank.entity].pc_entityblueprint"
 	},
 	{
+		"hash": "0070D45DCD0ED715",
+		"ioiString": "[assembly:/sonsofprovidence/scene_ether_lab.entity].pc_entitytemplate"
+	},
+	{
+		"hash": "00B5FF7BFFB53DC1",
+		"ioiString": "[assembly:/sonsofprovidence/scene_ether_lab.entity].pc_entityblueprint"
+	},
+	{
+		"hash": "00EB41CDD051D592",
+		"ioiString": "[assembly:/sonsofprovidence/scene_funeral.navp].pc_navp"
+	},
+	{
+		"hash": "000309A243749154",
+		"ioiString": "[assembly:/sonsofprovidence/scene_funeral.airg].pc_airg"
+	},
+	{
 		"hash": "001A8ED7670AD41C",
 		"ioiString": "[assembly:/sonsofprovidence/airplane/outfits_airplane.brick].pc_entitytype"
 	},
@@ -128,6 +144,14 @@
 		"ioiString": "[assembly:/sonsofprovidence/shared/outfit_lucasgrey_relaxed_heroa_v0.entitytemplate].pc_entityblueprint"
 	},
 	{
+		"hash": "00BE29F42FDE5730",
+		"ioiString": "[assembly:/sonsofprovidence/shared/outfit_abeldasilva_lucasgrey_heroa_v0.entitytemplate].pc_entitytype"
+	},
+	{
+		"hash": "0041D0590D652EAB",
+		"ioiString": "[assembly:/sonsofprovidence/shared/outfit_abeldasilva_lucasgrey_heroa_v0.entitytemplate].pc_entityblueprint"
+	},
+	{
 		"hash": "00BC69D4CB9C962B",
 		"ioiString": "[assembly:/sonsofprovidence/shared/charset_lucasgrey_bald.entitytemplate].pc_entitytype"
 	},
@@ -206,6 +230,14 @@
 	{
 		"hash": "005C725C7B059670",
 		"ioiString": "[assembly:/sonsofprovidence/objects/party_balloons.entity].pc_entityblueprint"
+	},
+	{
+		"hash": "00E1F885EC425545",
+		"ioiString": "[assembly:/sonsofprovidence/objects/sapienza_church.entity].pc_entitytype"
+	},
+	{
+		"hash": "0072360E9E0950C6",
+		"ioiString": "[assembly:/sonsofprovidence/objects/sapienza_church.entity].pc_entityblueprint"
 	},
 	{
 		"hash": "00A27C6A847EDFC3",

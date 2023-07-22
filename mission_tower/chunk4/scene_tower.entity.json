@@ -786,7 +786,7 @@
 			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
 		},
 		"feedaefd28a6cbba": {
-			"parent": "feed88616d82fc28",
+			"parent": "abcd39183d0ff63d",
 			"name": "ItemKey_Tool_Crowbar",
 			"factory": "[modules:/zitemrepositorykeyentity.class].pc_entitytype",
 			"blueprint": "[modules:/zitemrepositorykeyentity.class].pc_entityblueprint",
@@ -4105,7 +4105,7 @@
 			"externalScene": "[assembly:/_pro/scenes/missions/edgy/mission_fox/scenario_fox.brick].pc_entitytype"
 		},
 		{
-			"ref": "43873df3909cb2d",
+			"ref": "043873df3909cb2d",
 			"externalScene": "[assembly:/_pro/scenes/missions/edgy/mission_fox/scenario_fox.brick].pc_entitytype"
 		},
 		{

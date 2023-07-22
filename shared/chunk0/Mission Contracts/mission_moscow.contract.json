@@ -36,15 +36,15 @@
 		],
 		"Bricks": [],
 		"DevOnlyBricks": [],
-		"Entrances": ["fb75a371-8a8a-46ca-4747-123447478db6"],
+		"Entrances": ["a8f370ef-5936-49c6-8c30-8bf3b9ca1930"],
 		"GameChangers": [],
 		"GameChangerReferences": []
 	},
 	"Metadata": {
-		"Id": "179563a4-727a-4072-b354-c9fff4e8bff3",
+		"Id": "8e378829-4500-4eb6-a690-881854075140",
 		"IsPublished": true,
 		"Title": "UI_SIBERIA_TITLE",
-		"Description": "DESC_SIBERIA",
+		"Description": "UI_SIBERIA_DESC",
 		"CodeName_Hint": "Moscow",
 		"ScenePath": "assembly:/sonsofprovidence/scene_moscow.entity",
 		"DebriefingVideo": "",
@@ -65,7 +65,7 @@
 		"Location": "LOCATION_MOSCOW",
 		"LastUpdate": "2023-03-31T05:48:00.000Z",
 		"CreationTimestamp": "2023-03-31T05:48:00.000Z",
-		"CreatorUserId": "00000000-0000-0000-0000-000000000000",
+		"CreatorUserId": "a38f1dce-a7af-4a3c-a47a-5a94db8c0ed9",
 		"Type": "mission",
 		"Release": "3.3.x",
 		"Entitlements": ["H2_LEGACY_EXPANSION"]

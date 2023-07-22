@@ -1,0 +1,84 @@
+{
+	"tempHash": "0067A816F5941B70",
+	"tbluHash": "008517EA9F4D1A3F",
+	"rootEntity": "c817ac1f4fb24817",
+	"entities": {
+		"e54fcb03a7548fa2": {
+			"parent": "c817ac1f4fb24817",
+			"name": "Mesh_Body",
+			"factory": "[modules:/zbodypartentity.class].pc_entitytype",
+			"blueprint": "[modules:/zbodypartentity.class].pc_entityblueprint",
+			"properties": {
+				"m_pMeshResource": {
+					"type": "ZRuntimeResourceID",
+					"value": { "resource": "001706CDDEFDA9CC", "flag": "5F" }
+				}
+			}
+		},
+		"c817ac1f4fb24817": {
+			"parent": null,
+			"name": "OUTFIT_AbelDaSilva_Nude_v0",
+			"factory": "[assembly:/templates/characters/genericnudes.template?/nude_white.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/templates/characters/genericnudes.template?/nude_white.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": 0 },
+						"position": { "x": -2.1033380031585693, "y": -0.018011000007390976, "z": 0 }
+					}
+				},
+				"Face_Diffuse_Override": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/characters/assets/guards/bodyguards_01/textures/bodyguard_head_01.texture?/diffuse_a.tex](ascolormap).pc_tex",
+						"flag": "5F"
+					}
+				},
+				"Normal_01": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/characters/assets/guards/bodyguards_01/textures/bodyguard_head_01.texture?/normal_a.tex](asnormalmap).pc_tex",
+						"flag": "5F"
+					}
+				},
+				"m_pBonesAndCollisionResource": {
+					"type": "ZRuntimeResourceID",
+					"value": { "resource": "003AAB3D2C739F59", "flag": "5F" }
+				},
+				"m_ResourceID": { "type": "ZRuntimeResourceID", "value": null },
+				"m_aBodyParts": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["e54fcb03a7548fa2", "f2c69474ab355c62"],
+					"postInit": true
+				}
+			}
+		},
+		"f2c69474ab355c62": {
+			"parent": "c817ac1f4fb24817",
+			"name": "Mesh_Head",
+			"factory": "[modules:/zbodypartentity.class].pc_entitytype",
+			"blueprint": "[modules:/zbodypartentity.class].pc_entityblueprint",
+			"properties": {
+				"m_pMeshResource": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/characters/assets/individuals/bangkok/abeldasilva/geometry/male_reg_abeldasilva_01.wl2?/head.weightedprim](bodypart).pc_weightedprim",
+						"flag": "5F"
+					}
+				},
+				"m_IsHiddenInVR": { "type": "bool", "value": true }
+			}
+		}
+	},
+	"propertyOverrides": [],
+	"overrideDeletes": [],
+	"pinConnectionOverrides": [],
+	"pinConnectionOverrideDeletes": [],
+	"externalScenes": [],
+	"subType": "template",
+	"quickEntityVersion": 3.1,
+	"extraFactoryDependencies": [],
+	"extraBlueprintDependencies": [],
+	"comments": []
+}

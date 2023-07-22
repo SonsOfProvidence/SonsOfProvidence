@@ -150,15 +150,15 @@
 		"Qualities": {},
 		"Properties": {
 			"Location": "LOCATION_CAGED_FALCON",
-			"RepositoryId": "fb75a371-8a8a-46ca-4747-123447478db6",
+			"RepositoryId": "a8f370ef-5936-49c6-8c30-8bf3b9ca1930",
 			"Equip": ["TOKEN_OUTFIT_LUCAS_GREY_JACKET"],
 			"UnlockOrder": 3
 		},
 		"Rarity": null
 	},
-	"STARTING_LOCATION_SAPIENZA_APARTMENT": {
-		"Id": "STARTING_LOCATION_SAPIENZA_APARTMENT",
-		"Guid": "fb75a371-1234-46ca-4213-320e16012345",
+	"STARTING_LOCATION_FUNERAL_CHURCH_TOWER": {
+		"Id": "STARTING_LOCATION_FUNERAL_CHURCH_TOWER",
+		"Guid": "63c9e974-a44c-4188-a4b1-64d2a2f6ac18",
 		"Type": "access",
 		"Subtype": "startinglocation",
 		"ImageId": null,
@@ -170,8 +170,8 @@
 		"Capabilities": [],
 		"Qualities": {},
 		"Properties": {
-			"Location": "LOCATION_COASTALTOWN",
-			"RepositoryId": "1021798e-cec1-4747-ba33-69b7d53da888",
+			"Location": "LOCATION_GREEDY_RACCOON",
+			"RepositoryId": "85f15667-d276-4082-ab33-7c7cc0e04c73",
 			"Equip": ["TOKEN_OUTFIT_LUCAS_GREY_JACKET"],
 			"UnlockOrder": 3
 		},
@@ -179,7 +179,7 @@
 	},
 	"STARTING_LOCATION_AIRPLANE_SEAT": {
 		"Id": "STARTING_LOCATION_AIRPLANE_SEAT",
-		"Guid": "fb75a371-1234-46ca-4213-314e16012345",
+		"Guid": "4755861c-8cff-49de-a4af-3a2e73e25eec",
 		"Type": "access",
 		"Subtype": "startinglocation",
 		"ImageId": null,
@@ -192,7 +192,7 @@
 		"Qualities": {},
 		"Properties": {
 			"Location": "LOCATION_GOLDEN_GECKO",
-			"RepositoryId": "fb75a371-8a8a-46ca-4747-123416018db6",
+			"RepositoryId": "d7367506-44f3-4c1a-be2d-fce3d723c378",
 			"Equip": ["TOKEN_OUTFIT_LUCAS_GREY_RELAXED"],
 			"UnlockOrder": 3
 		},
@@ -200,7 +200,7 @@
 	},
 	"STARTING_LOCATION_MARRAKESH_COURTYARD": {
 		"Id": "STARTING_LOCATION_MARRAKESH_COURTYARD",
-		"Guid": "fb75a371-8a8a-46ca-4213-320e16012345",
+		"Guid": "24125352-9e78-4caa-bcd7-301e17349e92",
 		"Type": "access",
 		"Subtype": "startinglocation",
 		"ImageId": null,
@@ -213,7 +213,7 @@
 		"Qualities": {},
 		"Properties": {
 			"Location": "LOCATION_MARRAKECH",
-			"RepositoryId": "fb75a371-8a8a-46ca-4747-320e16018db6",
+			"RepositoryId": "b50d3e8f-f921-4733-bdeb-61454782a0c7",
 			"Equip": ["TOKEN_OUTFIT_LUCAS_GREY_JACKET_JACKET"],
 			"UnlockOrder": 3
 		},
@@ -559,7 +559,7 @@
 				"TOKEN_OUTFIT_LUCAS_GREY_BALD",
 				"TOKEN_OUTFIT_LUCAS_GREY_RELAXED",
 				"STARTING_LOCATION_MARRAKESH_COURTYARD",
-				"STARTING_LOCATION_SAPIENZA_APARTMENT",
+				"STARTING_LOCATION_FUNERAL_CHURCH_TOWER",
 				"STARTING_LOCATION_AIRPLANE_SEAT",
 				"STARTING_LOCATION_MOSCOW_OUTSIDE",
 				"STARTING_LOCATION_DARTMOOR_OUTSIDE",

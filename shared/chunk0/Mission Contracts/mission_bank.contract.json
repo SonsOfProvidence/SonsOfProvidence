@@ -23,10 +23,10 @@
 		"GameChangerReferences": []
 	},
 	"Metadata": {
-		"Id": "eb4c2ed8-eebc-4fed-804f-d822a8c55428",
+		"Id": "a4ef561e-e82e-47da-8994-93c6c3268f79",
 		"IsPublished": true,
 		"Title": "UI_NEWYORK_TITLE",
-		"Description": "DESC_NEWYORK",
+		"Description": "UI_NEWYORK_DESC",
 		"CodeName_Hint": "New York",
 		"ScenePath": "assembly:/sonsofprovidence/scene_bank.entity",
 		"TileImage": "images/sop/newyork.jpg",
