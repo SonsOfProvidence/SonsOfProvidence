@@ -14,7 +14,7 @@
 				"ConstantVector1D_01_Value": { "type": "float32", "value": 0.5 }
 			}
 		},
-		"fb09ed5d86645b9": {
+		"0fb09ed5d86645b9": {
 			"parent": "28fe8e4984645d09",
 			"name": "Part_Head",
 			"factory": "[modules:/zbodypartentity.class].pc_entitytype",
@@ -26,7 +26,7 @@
 				}
 			}
 		},
-		"3cf0c42129d7093": {
+		"03cf0c42129d7093": {
 			"parent": "28fe8e4984645d09",
 			"name": "Mesh_Tshirt",
 			"factory": "[modules:/zbodypartentity.class].pc_entitytype",
@@ -85,19 +85,19 @@
 				"m_aBodyParts": {
 					"type": "TArray<SEntityTemplateReference>",
 					"value": [
-						"3cf0c42129d7093",
+						"03cf0c42129d7093",
 						"1d86dfe4d7b3f6ba",
 						"d1069ebb8ee5e31b",
-						"f00627aa29f42a3",
+						"0f00627aa29f42a3",
 						"9d39b0d51927b446",
 						"70325865510aa441",
-						"fb09ed5d86645b9"
+						"0fb09ed5d86645b9"
 					],
 					"postInit": true
 				}
 			}
 		},
-		"f00627aa29f42a3": {
+		"0f00627aa29f42a3": {
 			"parent": "28fe8e4984645d09",
 			"name": "Shoes_Derby_CapToe_SquareTip",
 			"factory": "0033E9BBFCA7B067",

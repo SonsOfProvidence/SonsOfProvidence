@@ -25,7 +25,7 @@
 				"m_Outfit": {
 					"type": "ZRuntimeResourceID",
 					"value": {
-						"resource": "[assembly:/_pro/characters/templates/bangkok/char_bangkok_unique.template?/outfit_abeldasilva_heroa_v0.entitytemplate].pc_entitytemplate",
+						"resource": "[assembly:/sonsofprovidence/shared/outfit_abeldasilva_lucasgrey_heroa_v0.entitytemplate].pc_entitytype",
 						"flag": "9F"
 					}
 				}

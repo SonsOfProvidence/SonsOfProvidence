@@ -144,6 +144,14 @@
 		"ioiString": "[assembly:/sonsofprovidence/shared/outfit_lucasgrey_relaxed_heroa_v0.entitytemplate].pc_entityblueprint"
 	},
 	{
+		"hash": "00BE29F42FDE5730",
+		"ioiString": "[assembly:/sonsofprovidence/shared/outfit_abeldasilva_lucasgrey_heroa_v0.entitytemplate].pc_entitytype"
+	},
+	{
+		"hash": "0041D0590D652EAB",
+		"ioiString": "[assembly:/sonsofprovidence/shared/outfit_abeldasilva_lucasgrey_heroa_v0.entitytemplate].pc_entityblueprint"
+	},
+	{
 		"hash": "00BC69D4CB9C962B",
 		"ioiString": "[assembly:/sonsofprovidence/shared/charset_lucasgrey_bald.entitytemplate].pc_entitytype"
 	},
