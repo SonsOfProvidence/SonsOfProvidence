@@ -1933,8 +1933,8 @@
 		"feedf53229501400": {
 			"parent": "abcdd4bc4082f9c3",
 			"name": "Airplane_A",
-			"factory": "000F83981CA13201",
-			"blueprint": "0044DFB2593628D0",
+			"factory": "[assembly:/sonsofprovidence/objects/airplane.entity].pc_entitytype",
+			"blueprint": "[assembly:/sonsofprovidence/objects/airplane.entity].pc_entityblueprint",
 			"properties": {
 				"m_mTransform": {
 					"type": "SMatrix43",
