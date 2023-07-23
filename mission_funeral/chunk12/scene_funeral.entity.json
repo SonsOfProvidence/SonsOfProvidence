@@ -993,24 +993,6 @@
 			"events": { "OnStart": { "Start": ["feed21efa7fda0d7"] } },
 			"factory": "000C288A323918F9"
 		},
-		"feed35cb07203c0a": {
-			"parent": "feed791f6eebdd4b",
-			"name": "Act_MR_Guard_Stand_ArmsBack",
-			"factory": "[assembly:/_pro/design/actor/acts/mr_guard.template?/act_mr_guard_stand_armsback.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/design/actor/acts/mr_guard.template?/act_mr_guard_stand_armsback.entitytemplate].pc_entityblueprint",
-			"properties": {
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": { "x": 0, "y": 0, "z": 90 },
-						"position": { "x": -36.06886, "y": -32.731533, "z": 0.42945474 }
-					}
-				},
-				"m_fActTimeout": { "type": "float32", "value": 5 },
-				"m_eidParent": { "type": "SEntityTemplateReference", "value": "fffffffffffffffe", "postInit": true }
-			},
-			"events": { "OnActTimeout": { "Done": ["feed104473684061"] } }
-		},
 		"feed75b22fe25448": {
 			"parent": "feed791f6eebdd4b",
 			"name": "Thomas Cross",
@@ -1055,33 +1037,12 @@
 					}
 				},
 				"m_AlignRotation": { "type": "ZActBehaviorEntity.ERotationAlignment", "value": "RA_EXACT" },
-				"m_fActTimeout": { "type": "float32", "value": 5 },
+				"m_fActTimeout": { "type": "float32", "value": 20 },
 				"m_bUseConversationHelper": { "type": "bool", "value": true },
 				"m_MovementType": { "type": "ZActBehaviorEntity.EMovementType", "value": "MT_WALK" },
 				"m_eidParent": { "type": "SEntityTemplateReference", "value": "fffffffffffffffe", "postInit": true }
 			},
-			"events": { "OnActTimeout": { "Start": ["feed910ddf09789b"] } }
-		},
-		"feed910ddf09789b": {
-			"parent": "feed791f6eebdd4b",
-			"name": "Act_MR_Stand_Basic Grave site",
-			"factory": "00251CC86224019D",
-			"blueprint": "005C75C0C3B1863A",
-			"properties": {
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": { "x": 0, "y": 0, "z": 90 },
-						"position": { "x": -36.06886, "y": -32.731533, "z": 0.42945474 }
-					}
-				},
-				"m_AlignRotation": { "type": "ZActBehaviorEntity.ERotationAlignment", "value": "RA_LOOSE" },
-				"m_fActTimeout": { "type": "float32", "value": 5 },
-				"m_bUseConversationHelper": { "type": "bool", "value": true },
-				"m_MovementType": { "type": "ZActBehaviorEntity.EMovementType", "value": "MT_WALK" },
-				"m_eidParent": { "type": "SEntityTemplateReference", "value": "fffffffffffffffe", "postInit": true }
-			},
-			"events": { "OnActTimeout": { "Done": ["feed35cb07203c0a"] } }
+			"events": { "OnActTimeout": { "Start": ["feedd2aa9885ba37"] } }
 		},
 		"feed155478e29bd7": {
 			"parent": "abcd85cba5ab5afa",
@@ -1156,7 +1117,7 @@
 			"properties": {
 				"m_mTransform": {
 					"type": "SMatrix43",
-					"value": { "rotation": { "x": 0, "y": 0, "z": 0 }, "position": { "x": 32, "y": 0, "z": 0 } }
+					"value": { "rotation": { "x": 0, "y": 0, "z": 0 }, "position": { "x": 32, "y": 0, "z": 0.4623809 } }
 				},
 				"m_vRoomMin": { "type": "SVector3", "value": { "x": -100, "y": -100, "z": -100 } },
 				"m_vRoomMax": { "type": "SVector3", "value": { "x": 100, "y": 100, "z": 100 } },
@@ -1176,20 +1137,20 @@
 			"subsets": { "Rooms": ["fffffffffffffffe"] }
 		},
 		"feed571d02242cd1": {
-			"parent": "feedf423258ea224",
-			"name": "suburban_ground_grass_16x16_y4",
+			"parent": "feed1ba0c7c287aa",
+			"name": "suburban_ground_grass_16x16_yramp",
 			"factory": "[assembly:/_pro/environment/templates/kits/suburban_house/suburban_ground_a.template?/suburban_ground_grass_16x16_a.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/environment/templates/kits/suburban_house/suburban_ground_a.template?/suburban_ground_grass_16x16_a.entitytemplate].pc_entityblueprint",
 			"properties": {
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": 0, "y": 0, "z": 89.999995674289 },
-						"position": { "x": -46.473557, "y": -17.179214, "z": 0.2522441 }
+						"rotation": { "x": 2.0525177359223177, "y": -0.004042191328178171, "z": 90.00039182526086 },
+						"position": { "x": -1.3168411, "y": -17.626741, "z": 0.80542475 }
 					}
 				},
 				"PFObstacle_Enabled": { "type": "bool", "value": false },
-				"m_eidParent": { "type": "SEntityTemplateReference", "value": "feedf423258ea224", "postInit": true }
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "feeda0e1f43c4fa0", "postInit": true }
 			}
 		},
 		"feed6060eb97f5f6": {
@@ -1308,7 +1269,7 @@
 			"properties": {
 				"m_mTransform": {
 					"type": "SMatrix43",
-					"value": { "rotation": { "x": 0, "y": 0, "z": 0 }, "position": { "x": 16, "y": 0, "z": 0 } }
+					"value": { "rotation": { "x": 0, "y": 0, "z": 0 }, "position": { "x": 16, "y": 0, "z": 0.4623809 } }
 				},
 				"m_vRoomMin": { "type": "SVector3", "value": { "x": -100, "y": -100, "z": -100 } },
 				"m_vRoomMax": { "type": "SVector3", "value": { "x": 100, "y": 100, "z": 100 } },
@@ -1471,7 +1432,7 @@
 			"properties": {
 				"m_mTransform": {
 					"type": "SMatrix43",
-					"value": { "rotation": { "x": 0, "y": 0, "z": 0 }, "position": { "x": 0, "y": 0, "z": 0 } }
+					"value": { "rotation": { "x": 0, "y": 0, "z": 0 }, "position": { "x": 0, "y": 0, "z": 0.4623809 } }
 				},
 				"m_vRoomMin": { "type": "SVector3", "value": { "x": -100, "y": -100, "z": -100 } },
 				"m_vRoomMax": { "type": "SVector3", "value": { "x": 100, "y": 100, "z": 100 } },
@@ -1634,7 +1595,7 @@
 			"properties": {
 				"m_mTransform": {
 					"type": "SMatrix43",
-					"value": { "rotation": { "x": 0, "y": 0, "z": 0 }, "position": { "x": 48, "y": 0, "z": 0 } }
+					"value": { "rotation": { "x": 0, "y": 0, "z": 0 }, "position": { "x": 48, "y": 0, "z": 0.4623809 } }
 				},
 				"m_vRoomMin": { "type": "SVector3", "value": { "x": -100, "y": -100, "z": -100 } },
 				"m_vRoomMax": { "type": "SVector3", "value": { "x": 100, "y": 100, "z": 100 } },
@@ -1662,7 +1623,7 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": 0, "y": 0, "z": 89.999995674289 },
+						"rotation": { "x": 3.3, "y": 0, "z": 89.999995674289 },
 						"position": { "x": -46.473557, "y": -65.179214, "z": 0.2522441 }
 					}
 				},
@@ -1679,7 +1640,7 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": 0, "y": 0, "z": 89.999995674289 },
+						"rotation": { "x": 3.3, "y": 0, "z": 89.999995674289 },
 						"position": { "x": -46.473557, "y": -1.179214, "z": 0.2522441 }
 					}
 				},
@@ -1696,7 +1657,7 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": 0, "y": 0, "z": 89.999995674289 },
+						"rotation": { "x": 3.3, "y": 0, "z": 89.999995674289 },
 						"position": { "x": -46.473557, "y": 46.820786, "z": 0.2522441 }
 					}
 				},
@@ -1713,7 +1674,7 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": 0, "y": 0, "z": 89.999995674289 },
+						"rotation": { "x": 3.3, "y": 0, "z": 89.999995674289 },
 						"position": { "x": -46.473557, "y": 14.820786, "z": 0.2522441 }
 					}
 				},
@@ -1730,7 +1691,7 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": 0, "y": 0, "z": 89.999995674289 },
+						"rotation": { "x": 3.3, "y": 0, "z": 89.999995674289 },
 						"position": { "x": -46.473557, "y": 30.820786, "z": 0.2522441 }
 					}
 				},
@@ -2295,7 +2256,7 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": { "x": 0, "y": 0, "z": -59.99998760187227 },
-						"position": { "x": 4.153556, "y": -43.883286, "z": 1.6925391 }
+						"position": { "x": 3.153556, "y": -43.883286, "z": 1.6925391 }
 					}
 				},
 				"m_sActorName": { "type": "ZString", "value": "Heidi Santoro" },
@@ -2389,7 +2350,7 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": { "x": 0, "y": 0, "z": -92.16846462255215 },
-						"position": { "x": 17.903772, "y": 19.579388, "z": 0.25000003 }
+						"position": { "x": 17.903772, "y": 19.518576, "z": 0.25000003 }
 					}
 				},
 				"m_eGlowType": { "type": "ERenderGlowTypes", "value": "ERENDERGLOWTYPE_TRAVERSAL" },
@@ -3050,6 +3011,176 @@
 				},
 				"m_eidParent": { "type": "SEntityTemplateReference", "value": "feed8c563d582634", "postInit": true }
 			}
+		},
+		"feedae92c687ab41": {
+			"parent": "abcde92f2c09c134",
+			"name": "CHAR_Abel_Da_Silva_Drummer",
+			"factory": "[assembly:/templates/gameplay/ai2/actors.template?/npcactor.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/templates/gameplay/ai2/actors.template?/npcactor.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": 49.956940208993714 },
+						"position": { "x": 7.153556, "y": -45.883286, "z": 1.6925391 }
+					}
+				},
+				"m_sActorName": { "type": "ZString", "value": "Abel De Silva" },
+				"RepositoryId": { "type": "ZGuid", "value": "0b06a237-7e19-46ec-bfa8-2cb6826dface" },
+				"m_OutfitRepositoryID": { "type": "ZGuid", "value": "f17c737e-9947-4fff-a443-65b381839d00" },
+				"m_nOutfitVariation": { "type": "int32", "value": 0 },
+				"m_InventoryItemKeys": { "type": "TArray<SEntityTemplateReference>", "value": [] },
+				"m_aEnforcedOutfits": { "type": "TArray<SEntityTemplateReference>", "value": [] },
+				"m_eRequiredVoiceVariation": { "type": "EActorVoiceVariation", "value": "eAVV_CIVMALE06" },
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "fffffffffffffffe", "postInit": true }
+			},
+			"subsets": { "AudioEmitters": ["fffffffffffffffe"], "Replicable": ["fffffffffffffffe"] }
+		},
+		"feed1ccba2cbf95a": {
+			"parent": "feedf18129f98dc7",
+			"name": "act_mr_stand_smoke Sidewalk",
+			"factory": "[assembly:/_pro/design/actor/acts/mr.template?/act_mr_stand_smoke.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/acts/mr.template?/act_mr_stand_smoke.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": -98.9058383519336 },
+						"position": { "x": 24.974901, "y": 16.807224, "z": 0.24999996 }
+					}
+				},
+				"m_fActTimeout": { "type": "float32", "value": 15 },
+				"m_pActor": { "type": "SEntityTemplateReference", "value": "feed58874af193c1", "postInit": true },
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "fffffffffffffffe", "postInit": true }
+			},
+			"events": { "OnActTimeout": { "Done": ["feed8a51fbd4e84b"] } },
+			"subsets": { "Replicable": ["fffffffffffffffe"] }
+		},
+		"feedaf1c43e26d95": {
+			"parent": "abcd4b7b3e7bd675",
+			"name": "SetPiece_Container_Body_MetalDumpster02",
+			"factory": "[assembly:/_pro/design/setpieces/setpieces_containers.template?/setpiece_container_body_metaldumpster.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/setpieces/setpieces_containers.template?/setpiece_container_body_metaldumpster.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": 0 },
+						"position": { "x": 20.969435, "y": 18.22128, "z": 0.25000003 }
+					}
+				},
+				"m_sId": { "type": "ZGuid", "value": "e8d83dba-987e-48b6-ae85-564769d70081" },
+				"m_eRoomBehaviour": { "type": "ZSpatialEntity.ERoomBehaviour", "value": "ROOM_DYNAMIC" },
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "fffffffffffffffe", "postInit": true }
+			},
+			"subsets": { "AudioEmitters": ["fffffffffffffffe"] }
+		},
+		"feedf18129f98dc7": {
+			"parent": "feedae92c687ab41",
+			"name": "DramaSituation Church to Sidewalk Smoke loop",
+			"blueprint": "00EC88C8E4442C57",
+			"properties": {
+				"m_aRoles": { "type": "TArray<SEntityTemplateReference>", "value": ["feed58874af193c1"] },
+				"m_bTerminateOnDone": { "type": "bool", "value": false }
+			},
+			"factory": "00C6B73FE00A947C"
+		},
+		"feed918970efb296": {
+			"parent": "feedf18129f98dc7",
+			"name": "DramaSituation2Proxy",
+			"blueprint": "00900EB78F2E0F5E",
+			"properties": { "m_rOriginalDrama": { "type": "SEntityTemplateReference", "value": "feedf18129f98dc7" } },
+			"events": { "OnStart": { "Start": ["feed8a51fbd4e84b"] } },
+			"factory": "000C288A323918F9"
+		},
+		"feed58874af193c1": {
+			"parent": "feedf18129f98dc7",
+			"name": "Abel Da Silva Role",
+			"factory": "[assembly:/_pro/design/actor/dramasystem2.template?/role.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/dramasystem2.template?/role.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_rActorProvider": { "type": "SEntityTemplateReference", "value": "feedae92c687ab41", "postInit": true }
+			}
+		},
+		"feed8a51fbd4e84b": {
+			"parent": "feedf18129f98dc7",
+			"name": "Act_MR_Stand_Basic Church",
+			"factory": "00251CC86224019D",
+			"blueprint": "005C75C0C3B1863A",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": 90 },
+						"position": { "x": 4.153556, "y": -43.883286, "z": 1.6925391 }
+					}
+				},
+				"m_AlignRotation": { "type": "ZActBehaviorEntity.ERotationAlignment", "value": "RA_EXACT" },
+				"m_fActTimeout": { "type": "float32", "value": 5 },
+				"m_bUseConversationHelper": { "type": "bool", "value": true },
+				"m_MovementType": { "type": "ZActBehaviorEntity.EMovementType", "value": "MT_WALK" },
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "fffffffffffffffe", "postInit": true }
+			},
+			"events": { "OnActTimeout": { "Done": ["feed11123c5fa00f"] } }
+		},
+		"feedd2aa9885ba37": {
+			"parent": "feed791f6eebdd4b",
+			"name": "Act_MR_Stand_Basic Cemetary",
+			"factory": "00251CC86224019D",
+			"blueprint": "005C75C0C3B1863A",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0.8423892683699165, "y": -81.40897007586862, "z": 148.8502169594395 },
+						"position": { "x": -29.650215, "y": -34.00792, "z": 0.83563566 }
+					}
+				},
+				"m_AlignRotation": { "type": "ZActBehaviorEntity.ERotationAlignment", "value": "RA_EXACT" },
+				"m_fActTimeout": { "type": "float32", "value": 20 },
+				"m_bUseConversationHelper": { "type": "bool", "value": true },
+				"m_MovementType": { "type": "ZActBehaviorEntity.EMovementType", "value": "MT_WALK" },
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "fffffffffffffffe", "postInit": true }
+			},
+			"events": { "OnActTimeout": { "Start": ["feed104473684061"] } }
+		},
+		"feed5d4b015bb24a": {
+			"parent": "feedf423258ea224",
+			"name": "suburban_ground_grass_16x16_y4",
+			"factory": "[assembly:/_pro/environment/templates/kits/suburban_house/suburban_ground_a.template?/suburban_ground_grass_16x16_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/suburban_house/suburban_ground_a.template?/suburban_ground_grass_16x16_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": 89.999995674289 },
+						"position": { "x": -46.473557, "y": -17.179214, "z": 0.2522441 }
+					}
+				},
+				"PFObstacle_Enabled": { "type": "bool", "value": false },
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "feedf423258ea224", "postInit": true }
+			}
+		},
+		"feed11123c5fa00f": {
+			"parent": "feedf18129f98dc7",
+			"name": "Act_MR_Stand_Basic Sidewalk",
+			"factory": "00251CC86224019D",
+			"blueprint": "005C75C0C3B1863A",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": 0, "y": 0, "z": 90 },
+						"position": { "x": 4.153556, "y": -43.883286, "z": 1.6925391 }
+					}
+				},
+				"m_AlignRotation": { "type": "ZActBehaviorEntity.ERotationAlignment", "value": "RA_EXACT" },
+				"m_fActTimeout": { "type": "float32", "value": 1 },
+				"m_bUseConversationHelper": { "type": "bool", "value": true },
+				"m_MovementType": { "type": "ZActBehaviorEntity.EMovementType", "value": "MT_WALK" },
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "fffffffffffffffe", "postInit": true }
+			},
+			"events": { "OnActTimeout": { "Start": ["feed1ccba2cbf95a"] } }
 		}
 	},
 	"propertyOverrides": [

@@ -86,25 +86,25 @@
 		{
 			"runtimeID": "00A0133A0879666C",
 			"comment": "outfit_jordancross_actor_v0",
-			"toChunk": 12,
+			"toChunk": 0,
 			"portFromChunk1": true
 		},
 		{
 			"runtimeID": "00C54CDFF2EF099C",
 			"comment": "outfit_abeldasilva_actor_v0",
-			"toChunk": 12,
+			"toChunk": 0,
 			"portFromChunk1": true
 		},
 		{
 			"runtimeID": "00E129CD292E6957",
 			"comment": "outfit_dexybarat_actor_v0",
-			"toChunk": 12,
+			"toChunk": 0,
 			"portFromChunk1": true
 		},
 		{
 			"runtimeID": "0008831652B669CE",
 			"comment": "outfit_heidisantoro_actor_v0",
-			"toChunk": 12,
+			"toChunk": 0,
 			"portFromChunk1": true
 		},
 		{
