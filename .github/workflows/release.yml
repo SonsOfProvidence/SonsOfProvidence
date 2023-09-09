@@ -20,25 +20,19 @@ jobs:
                   ref: "main"
                   fetch-depth: 0
 
-            - name: Create package.json
-              run: |
-                  echo "{\"name\": \"smf-mod\",\"version\":\"0.0.0\",\"description\":\"An SMF mod.\",\"private\":true}" > package.json
-
             - name: Set up Node.js
               uses: actions/setup-node@v3
               with:
                   node-version: 18
 
-            - name: Install semantic release plugin
+            - name: Install dependencies
               run: |
-                  npm install --save-dev semantic-release-export-data conventional-changelog-conventionalcommits
-
+                  npm install
             - name: Create .releaserc
               env:
                   REPO_URL: ${{ format('https://github.com/{0}.git', github.repository) }}
               run: |
                   echo "{\"branches\":[\"main\"],\"plugins\":[[\"@semantic-release/commit-analyzer\",{\"preset\":\"conventionalcommits\",\"releaseRules\":[{\"type\":\"enhancement\",\"release\":\"minor\"}]}], \"semantic-release-export-data\"],\"repositoryUrl\":\"$REPO_URL\",\"tagFormat\":\"\${version}\"}" > .releaserc
-
             - name: Get first commit
               id: firstCommit
               run: echo "FIRST_COMMIT=$(git rev-list --date-order main | tail -1)" >> $GITHUB_OUTPUT
@@ -62,6 +56,13 @@ jobs:
               env:
                   GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
+            - name: Get latest framework version
+              id: latestFramework
+              uses: pozetroninc/github-action-get-latest-release@v0.7.0
+              with:
+                repository: atampy25/simple-mod-framework
+                token: ${{ secrets.GITHUB_TOKEN }}
+
             - name: Update manifest.json version
               if: ${{ steps.newVersion.outputs.new-release-version }}
               uses: jossef/action-set-json-field@v2
@@ -70,6 +71,14 @@ jobs:
                   field: "version"
                   value: ${{ steps.newVersion.outputs.new-release-version }}
 
+            - name: Update manifest.json frameworkVersion
+              if: ${{ steps.newVersion.outputs.new-release-version }}
+              uses: jossef/action-set-json-field@v2
+              with:
+                  file: "manifest.json"
+                  field: "frameworkVersion"
+                  value: ${{ steps.latestFramework.outputs.release }}
+
             - name: Update manifest.json updateCheck
               if: ${{ steps.newVersion.outputs.new-release-version }}
               uses: jossef/action-set-json-field@v2
@@ -77,6 +86,58 @@ jobs:
                   file: "manifest.json"
                   field: "updateCheck"
                   value: ${{ format('https://github.com/{0}/releases/latest/download/updates.json', github.repository) }}
+
+            - name: Get mod ID
+              if: ${{ steps.newVersion.outputs.new-release-version }}
+              id: modID
+              uses: notiz-dev/github-action-json-property@release
+              with:
+                path: "manifest.json"
+                prop_path: "id"
+
+            - name: Get mod name
+              if: ${{ steps.newVersion.outputs.new-release-version }}
+              id: modName
+              uses: notiz-dev/github-action-json-property@release
+              with:
+                path: "manifest.json"
+                prop_path: "name"
+
+            - name: Get mod description
+              if: ${{ steps.newVersion.outputs.new-release-version }}
+              id: modDesc
+              uses: notiz-dev/github-action-json-property@release
+              with:
+                path: "manifest.json"
+                prop_path: "description"
+
+            - name: Get mod authors
+              if: ${{ steps.newVersion.outputs.new-release-version }}
+              id: modAuthors
+              uses: notiz-dev/github-action-json-property@release
+              with:
+                path: "manifest.json"
+                prop_path: "authors"
+
+            - name: Read README.md
+              if: ${{ steps.newVersion.outputs.new-release-version }}
+              id: readme
+              uses: juliangruber/read-file-action@v1.1.6
+              with:
+                path: README.md
+
+            - name: Auto-generate README
+              if: ${{ steps.newVersion.outputs.new-release-version && (contains(steps.readme.outputs.content, 'Simple Mod Framework mod template') || contains(steps.readme.outputs.content, 'This README was automatically generated from the mod''s manifest.')) }}
+              uses: DamianReeves/write-file-action@v1.2
+              with:
+                path: README.md
+                contents: |
+                  # ${{ steps.modName.outputs.prop }}
+                  ${{ steps.modDesc.outputs.prop }}
+                  [Install](https://hitman-resources.netlify.app/smf-install-link/${{ format('https://github.com/{0}/releases/latest/download/mod.framework.zip', github.repository) }}) | [Download](${{ format('https://github.com/{0}/releases/latest/download/mod.framework.zip', github.repository) }})
+                  ---
+                  `${{ steps.modID.outputs.prop }}` v${{ steps.newVersion.outputs.new-release-version }}, by ${{ join(fromJSON(steps.modAuthors.outputs.prop), ', ') }}. This README was automatically generated from the mod's manifest.
+                write-mode: overwrite
 
             - name: Format
               if: ${{ steps.newVersion.outputs.new-release-version }}
@@ -102,14 +163,6 @@ jobs:
                   config_file: .github/tag-changelog-config.js
                   exclude_types: other,docs,chore,build,amend,refactor
 
-            - name: Get mod ID
-              if: ${{ steps.newVersion.outputs.new-release-version }}
-              id: modID
-              uses: notiz-dev/github-action-json-property@release
-              with:
-                  path: "manifest.json"
-                  prop_path: "id"
-
             - name: Copy files
               if: ${{ steps.newVersion.outputs.new-release-version }}
               env:
@@ -119,7 +172,6 @@ jobs:
                   for file in *;do test "$file" != "$TARGETDIR" && cp -r "$file" "$TARGETDIR/";done
                   rm -rf "$TARGETDIR/node_modules"
                   rm "$TARGETDIR/package.json" "$TARGETDIR/package-lock.json" "$TARGETDIR/README.md"
-
             - name: Create ZIP
               if: ${{ steps.newVersion.outputs.new-release-version }}
               uses: TheDoctor0/zip-release@4fb9e4ff72847dd3d1c111cf63834e353ed7cb3d
@@ -141,7 +193,7 @@ jobs:
               uses: softprops/action-gh-release@v1
               with:
                   name: ${{ steps.newVersion.outputs.new-release-version }}
-                  body: ${{ steps.changelog.outputs.changes }}
+                  body: "[Install](https://hitman-resources.netlify.app/smf-install-link/${{ format('https://github.com/{0}/releases/download/{1}/mod.framework.zip', github.repository, steps.newVersion.outputs.new-release-version) }}) | [Download](${{ format('https://github.com/{0}/releases/download/{1}/mod.framework.zip', github.repository, steps.newVersion.outputs.new-release-version) }})\n\n${{ steps.changelog.outputs.changes }}"
                   tag_name: ${{ steps.newVersion.outputs.new-release-version }}
                   repository: ${{ github.repository }}
                   files: |

@@ -2,7 +2,7 @@ module.exports = {
 	types: [
 		{ types: ["feat", "feature"], label: "New Features" },
 		{ types: ["fix", "bugfix"], label: "Bug Fixes" },
-		{ types: ["improvements", "enhancement"], label: "Improvements" },
+		{ types: ["improvement", "improvements", "enhancement"], label: "Improvements" },
 		{ types: ["perf"], label: "Performance Improvements" },
 		{ types: ["build", "ci"], label: "Build System" },
 		{ types: ["refactor"], label: "Refactors" },

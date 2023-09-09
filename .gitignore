@@ -1,7 +1,6 @@
-package.json
 package-lock.json
 .releaserc
 node_modules
-/ModScript.bat
-/.idea/
-/thumbs_funeral_ny.dat
+ModScript.bat
+.idea/
+thumbs_funeral_ny.dat
