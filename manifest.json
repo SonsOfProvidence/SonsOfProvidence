@@ -5,8 +5,8 @@
 	"description": "This mod tells a tale of two brothers, and their mission to take them all down.",
 	"blobsFolders": ["blobs"],
 	"authors": ["Danny Bierek"],
-	"frameworkVersion": "2.15.1",
-	"version": "0.46.2",
+	"frameworkVersion": "2.32.1",
+	"version": "0.46.3",
 	"contentFolders": ["shared"],
 	"options": [
 		{

@@ -60,8 +60,8 @@ jobs:
               id: latestFramework
               uses: pozetroninc/github-action-get-latest-release@v0.7.0
               with:
-                repository: atampy25/simple-mod-framework
-                token: ${{ secrets.GITHUB_TOKEN }}
+                  repository: atampy25/simple-mod-framework
+                  token: ${{ secrets.GITHUB_TOKEN }}
 
             - name: Update manifest.json version
               if: ${{ steps.newVersion.outputs.new-release-version }}
@@ -92,52 +92,52 @@ jobs:
               id: modID
               uses: notiz-dev/github-action-json-property@release
               with:
-                path: "manifest.json"
-                prop_path: "id"
+                  path: "manifest.json"
+                  prop_path: "id"
 
             - name: Get mod name
               if: ${{ steps.newVersion.outputs.new-release-version }}
               id: modName
               uses: notiz-dev/github-action-json-property@release
               with:
-                path: "manifest.json"
-                prop_path: "name"
+                  path: "manifest.json"
+                  prop_path: "name"
 
             - name: Get mod description
               if: ${{ steps.newVersion.outputs.new-release-version }}
               id: modDesc
               uses: notiz-dev/github-action-json-property@release
               with:
-                path: "manifest.json"
-                prop_path: "description"
+                  path: "manifest.json"
+                  prop_path: "description"
 
             - name: Get mod authors
               if: ${{ steps.newVersion.outputs.new-release-version }}
               id: modAuthors
               uses: notiz-dev/github-action-json-property@release
               with:
-                path: "manifest.json"
-                prop_path: "authors"
+                  path: "manifest.json"
+                  prop_path: "authors"
 
             - name: Read README.md
               if: ${{ steps.newVersion.outputs.new-release-version }}
               id: readme
               uses: juliangruber/read-file-action@v1.1.6
               with:
-                path: README.md
+                  path: README.md
 
             - name: Auto-generate README
               if: ${{ steps.newVersion.outputs.new-release-version && (contains(steps.readme.outputs.content, 'Simple Mod Framework mod template') || contains(steps.readme.outputs.content, 'This README was automatically generated from the mod''s manifest.')) }}
               uses: DamianReeves/write-file-action@v1.2
               with:
-                path: README.md
-                contents: |
-                  # ${{ steps.modName.outputs.prop }}
-                  ${{ steps.modDesc.outputs.prop }}
-                  [Install](https://hitman-resources.netlify.app/smf-install-link/${{ format('https://github.com/{0}/releases/latest/download/mod.framework.zip', github.repository) }}) | [Download](${{ format('https://github.com/{0}/releases/latest/download/mod.framework.zip', github.repository) }})
-                  ---
-                  `${{ steps.modID.outputs.prop }}` v${{ steps.newVersion.outputs.new-release-version }}, by ${{ join(fromJSON(steps.modAuthors.outputs.prop), ', ') }}. This README was automatically generated from the mod's manifest.
-                write-mode: overwrite
+                  path: README.md
+                  contents: |
+                      # ${{ steps.modName.outputs.prop }}
+                      ${{ steps.modDesc.outputs.prop }}
+                      [Install](https://hitman-resources.netlify.app/smf-install-link/${{ format('https://github.com/{0}/releases/latest/download/mod.framework.zip', github.repository) }}) | [Download](${{ format('https://github.com/{0}/releases/latest/download/mod.framework.zip', github.repository) }})
+                      ---
+                      `${{ steps.modID.outputs.prop }}` v${{ steps.newVersion.outputs.new-release-version }}, by ${{ join(fromJSON(steps.modAuthors.outputs.prop), ', ') }}. This README was automatically generated from the mod's manifest.
+                  write-mode: overwrite
 
             - name: Format
               if: ${{ steps.newVersion.outputs.new-release-version }}
