@@ -2,5 +2,6 @@ package-lock.json
 .releaserc
 node_modules
 ModScript.bat
+Prettify.bat
 .idea/
 thumbs_funeral_ny.dat
