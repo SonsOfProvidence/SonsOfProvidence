@@ -6,7 +6,7 @@ permissions:
 on:
     push:
         branches:
-            - main
+            - release
 
 jobs:
     build:
@@ -17,7 +17,7 @@ jobs:
             - uses: actions/checkout@v2
               with:
                   token: ${{ secrets.SONSOFPROVIDENCERELEASETOKEN }}
-                  ref: "main"
+                  ref: "release"
                   fetch-depth: 0
 
             - name: Set up Node.js
@@ -32,10 +32,10 @@ jobs:
               env:
                   REPO_URL: ${{ format('https://github.com/{0}.git', github.repository) }}
               run: |
-                  echo "{\"branches\":[\"main\"],\"plugins\":[[\"@semantic-release/commit-analyzer\",{\"preset\":\"conventionalcommits\",\"releaseRules\":[{\"type\":\"enhancement\",\"release\":\"minor\"}]}], \"semantic-release-export-data\"],\"repositoryUrl\":\"$REPO_URL\",\"tagFormat\":\"\${version}\"}" > .releaserc
+                  echo "{\"branches\":[\"release\"],\"plugins\":[[\"@semantic-release/commit-analyzer\",{\"preset\":\"conventionalcommits\",\"releaseRules\":[{\"type\":\"enhancement\",\"release\":\"minor\"}]}], \"semantic-release-export-data\"],\"repositoryUrl\":\"$REPO_URL\",\"tagFormat\":\"\${version}\"}" > .releaserc
             - name: Get first commit
               id: firstCommit
-              run: echo "FIRST_COMMIT=$(git rev-list --date-order main | tail -1)" >> $GITHUB_OUTPUT
+              run: echo "FIRST_COMMIT=$(git rev-list --date-order release | tail -1)" >> $GITHUB_OUTPUT
 
             - uses: mukunku/tag-exists-action@v1.2.0
               id: checkTag
@@ -52,7 +52,7 @@ jobs:
 
             - name: Get new version
               id: newVersion
-              run: npx --yes semantic-release --branches main --dry-run
+              run: npx --yes semantic-release --branches release --dry-run
               env:
                   GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
