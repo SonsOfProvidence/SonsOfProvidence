@@ -1,1 +1,34 @@
-{"Data":{"EnableSaving":true,"Objectives":[],"GameDifficulties":[{"Difficulty":"easy","Bricks":[]},{"Difficulty":"normal","Bricks":[]},{"Difficulty":"hard","Bricks":[]}],"Bricks":[],"DevOnlyBricks":[],"Entrances":["8e2bdc62-905d-43c1-8d91-3dceb8506a77"],"GameChangers":[],"GameChangerReferences":[]},"Metadata":{"Id":"a4ef561e-e82e-47da-8994-93c6c3268f79","IsPublished":true,"Title":"UI_NEWYORK_TITLE","Description":"UI_NEWYORK_DESC","CodeName_Hint":"New York","ScenePath":"assembly:/sonsofprovidence/scene_bank.entity","TileImage":"images/sop/newyork.jpg","Location":"LOCATION_GREEDY_RACCOON","LastUpdate":"2023-03-31T05:48:00.000Z","CreationTimestamp":"2023-03-31T05:48:00.000Z","CreatorUserId":"a38f1dce-a7af-4a3c-a47a-5a94db8c0ed9","Type":"mission","Release":"3.0.0","Entitlements":["H2_LEGACY_EXPANSION"]},"UserData":{},"SMF":{"destinations":{"addToDestinations":true,"peacockIntegration":true,"narrativeContext":"Mission"}}}
+{
+	"Data": {
+		"EnableSaving": true,
+		"Objectives": [],
+		"GameDifficulties": [
+			{ "Difficulty": "easy", "Bricks": [] },
+			{ "Difficulty": "normal", "Bricks": [] },
+			{ "Difficulty": "hard", "Bricks": [] }
+		],
+		"Bricks": [],
+		"DevOnlyBricks": [],
+		"Entrances": ["8e2bdc62-905d-43c1-8d91-3dceb8506a77"],
+		"GameChangers": [],
+		"GameChangerReferences": []
+	},
+	"Metadata": {
+		"Id": "a4ef561e-e82e-47da-8994-93c6c3268f79",
+		"IsPublished": true,
+		"Title": "UI_NEWYORK_TITLE",
+		"Description": "UI_NEWYORK_DESC",
+		"CodeName_Hint": "New York",
+		"ScenePath": "assembly:/sonsofprovidence/scene_bank.entity",
+		"TileImage": "images/sop/newyork.jpg",
+		"Location": "LOCATION_GREEDY_RACCOON",
+		"LastUpdate": "2023-03-31T05:48:00.000Z",
+		"CreationTimestamp": "2023-03-31T05:48:00.000Z",
+		"CreatorUserId": "a38f1dce-a7af-4a3c-a47a-5a94db8c0ed9",
+		"Type": "mission",
+		"Release": "3.0.0",
+		"Entitlements": ["H2_LEGACY_EXPANSION"]
+	},
+	"UserData": {},
+	"SMF": { "destinations": { "addToDestinations": true, "peacockIntegration": true, "narrativeContext": "Mission" } }
+}

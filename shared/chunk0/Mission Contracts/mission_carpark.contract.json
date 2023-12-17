@@ -1,1 +1,37 @@
-{"Data":{"EnableSaving":true,"Objectives":[],"GameDifficulties":[{"Difficulty":"easy","Bricks":[]},{"Difficulty":"normal","Bricks":[]},{"Difficulty":"hard","Bricks":[]}],"Bricks":[],"Entrances":["b50d3e8f-f921-4733-bdeb-61454782a0c7"],"Exits":["f4647d75-c97f-413b-bfe0-dfa6a81dad7f"],"DevOnlyBricks":[],"GameChangers":[],"GameChangerReferences":[]},"Metadata":{"Id":"edd9995f-bde2-44e3-bce2-de337a688adb","IsPublished":true,"Title":"UI_MARRAKESH_TITLE","Description":"UI_MARRAKESH_DESC","CodeName_Hint":"Marrakesh","ScenePath":"assembly:/sonsofprovidence/scene_carpark.entity","TileImage":"images/sop/marrakesh.jpg","Location":"LOCATION_ETHER_HQ_GARAGE","LastUpdate":"2023-03-31T05:48:00.000Z","CreationTimestamp":"2023-03-31T05:48:00.000Z","CreatorUserId":"a38f1dce-a7af-4a3c-a47a-5a94db8c0ed9","IsLocked":false,"Type":"mission","Release":"1.2.x","RequiredUnlockable":"ACCESS_HIT_SPIDER","Entitlements":["H1_LEGACY_STANDARD"]},"UserData":{},"SMF":{"destinations":{"addToDestinations":true,"peacockIntegration":true,"narrativeContext":"Mission"}}}
+{
+	"Data": {
+		"EnableSaving": true,
+		"Objectives": [],
+		"GameDifficulties": [
+			{ "Difficulty": "easy", "Bricks": [] },
+			{ "Difficulty": "normal", "Bricks": [] },
+			{ "Difficulty": "hard", "Bricks": [] }
+		],
+		"Bricks": [],
+		"Entrances": ["b50d3e8f-f921-4733-bdeb-61454782a0c7"],
+		"Exits": ["f4647d75-c97f-413b-bfe0-dfa6a81dad7f"],
+		"DevOnlyBricks": [],
+		"GameChangers": [],
+		"GameChangerReferences": []
+	},
+	"Metadata": {
+		"Id": "edd9995f-bde2-44e3-bce2-de337a688adb",
+		"IsPublished": true,
+		"Title": "UI_MARRAKESH_TITLE",
+		"Description": "UI_MARRAKESH_DESC",
+		"CodeName_Hint": "Marrakesh",
+		"ScenePath": "assembly:/sonsofprovidence/scene_carpark.entity",
+		"TileImage": "images/sop/marrakesh.jpg",
+		"Location": "LOCATION_ETHER_HQ_GARAGE",
+		"LastUpdate": "2023-03-31T05:48:00.000Z",
+		"CreationTimestamp": "2023-03-31T05:48:00.000Z",
+		"CreatorUserId": "a38f1dce-a7af-4a3c-a47a-5a94db8c0ed9",
+		"IsLocked": false,
+		"Type": "mission",
+		"Release": "1.2.x",
+		"RequiredUnlockable": "ACCESS_HIT_SPIDER",
+		"Entitlements": ["H1_LEGACY_STANDARD"]
+	},
+	"UserData": {},
+	"SMF": { "destinations": { "addToDestinations": true, "peacockIntegration": true, "narrativeContext": "Mission" } }
+}

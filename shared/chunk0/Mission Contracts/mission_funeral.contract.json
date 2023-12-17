@@ -1,1 +1,62 @@
-{"Data":{"EnableSaving":true,"Objectives":[{"Id":"6726232b-1926-4ed2-8b92-0e2c4bcd7384","Category":"primary","ObjectiveType":"setpiece","DisplayAsKillObjective":true,"ForceShowOnLoadingScreen":true,"IsHidden":false,"BriefingName":"$($repository d3959196-6be0-43ea-b6e7-aafa70822045).Name","Image":"images/sop/funeral_target.jpg","HUDTemplate":{"display":"Eliminate Thomas Cross"},"BriefingText":"Eliminate Thomas Cross","Type":"statemachine","Definition":{"Scope":"session","Context":{"KilledActors":[],"Targets":["d3959196-6be0-43ea-b6e7-aafa70822045"]},"States":{"Start":{"Kill":[{"Condition":{"$eq":["$Value.RepositoryId","d3959196-6be0-43ea-b6e7-aafa70822045"]},"Transition":"Success"}]}}}}],"GameDifficulties":[{"Difficulty":"easy","Bricks":[]},{"Difficulty":"normal","Bricks":[]},{"Difficulty":"hard","Bricks":[]}],"Entrances":["85f15667-d276-4082-ab33-7c7cc0e04c73"],"Bricks":[],"DevOnlyBricks":[],"GameChangers":[],"GameChangerReferences":[]},"Metadata":{"Id":"08cbef4e-285b-4f6e-a40b-866bf7d51a42","IsPublished":true,"Title":"UI_FUNERAL_TITLE","Description":"UI_FUNERAL_DESC","CodeName_Hint":"New York","ScenePath":"assembly:/sonsofprovidence/scene_funeral.entity","TileImage":"images/sop/funeral.jpg","Location":"LOCATION_GREEDY_RACCOON","LastUpdate":"2023-07-19T17:01:00.000Z","CreationTimestamp":"2023-07-19T17:01:00.000Z","CreatorUserId":"a38f1dce-a7af-4a3c-a47a-5a94db8c0ed9","Type":"mission","Release":"3.0.0","Entitlements":["H2_LEGACY_EXPANSION"]},"UserData":{},"SMF":{"destinations":{"addToDestinations":true,"peacockIntegration":true,"narrativeContext":"Mission"}}}
+{
+	"Data": {
+		"EnableSaving": true,
+		"Objectives": [
+			{
+				"Id": "6726232b-1926-4ed2-8b92-0e2c4bcd7384",
+				"Category": "primary",
+				"ObjectiveType": "setpiece",
+				"DisplayAsKillObjective": true,
+				"ForceShowOnLoadingScreen": true,
+				"IsHidden": false,
+				"BriefingName": "$($repository d3959196-6be0-43ea-b6e7-aafa70822045).Name",
+				"Image": "images/sop/funeral_target.jpg",
+				"HUDTemplate": { "display": "Eliminate Thomas Cross" },
+				"BriefingText": "Eliminate Thomas Cross",
+				"Type": "statemachine",
+				"Definition": {
+					"Scope": "session",
+					"Context": { "KilledActors": [], "Targets": ["d3959196-6be0-43ea-b6e7-aafa70822045"] },
+					"States": {
+						"Start": {
+							"Kill": [
+								{
+									"Condition": { "$eq": ["$Value.RepositoryId", "d3959196-6be0-43ea-b6e7-aafa70822045"] },
+									"Transition": "Success"
+								}
+							]
+						}
+					}
+				}
+			}
+		],
+		"GameDifficulties": [
+			{ "Difficulty": "easy", "Bricks": [] },
+			{ "Difficulty": "normal", "Bricks": [] },
+			{ "Difficulty": "hard", "Bricks": [] }
+		],
+		"Entrances": ["85f15667-d276-4082-ab33-7c7cc0e04c73"],
+		"Bricks": [],
+		"DevOnlyBricks": [],
+		"GameChangers": [],
+		"GameChangerReferences": []
+	},
+	"Metadata": {
+		"Id": "08cbef4e-285b-4f6e-a40b-866bf7d51a42",
+		"IsPublished": true,
+		"Title": "UI_FUNERAL_TITLE",
+		"Description": "UI_FUNERAL_DESC",
+		"CodeName_Hint": "New York",
+		"ScenePath": "assembly:/sonsofprovidence/scene_funeral.entity",
+		"TileImage": "images/sop/funeral.jpg",
+		"Location": "LOCATION_GREEDY_RACCOON",
+		"LastUpdate": "2023-07-19T17:01:00.000Z",
+		"CreationTimestamp": "2023-07-19T17:01:00.000Z",
+		"CreatorUserId": "a38f1dce-a7af-4a3c-a47a-5a94db8c0ed9",
+		"Type": "mission",
+		"Release": "3.0.0",
+		"Entitlements": ["H2_LEGACY_EXPANSION"]
+	},
+	"UserData": {},
+	"SMF": { "destinations": { "addToDestinations": true, "peacockIntegration": true, "narrativeContext": "Mission" } }
+}
