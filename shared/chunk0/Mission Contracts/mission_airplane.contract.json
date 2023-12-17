@@ -11,31 +11,18 @@
 				"IsHidden": false,
 				"BriefingName": "$($repository d3959196-6be0-43ea-b6e7-aafa70824746).Name",
 				"Image": "images/sop/dubai_target.jpg",
-				"HUDTemplate": {
-					"display": "Eliminate Eugene Cobb"
-				},
+				"HUDTemplate": { "display": "Eliminate Eugene Cobb" },
 				"BriefingText": "Eliminate Eugene Cobb",
 				"SuccessEvent": {
 					"EventName": "Kill",
-					"EventValues": {
-						"RepositoryId": "d3959196-6be0-43ea-b6e7-aafa70824746"
-					}
+					"EventValues": { "RepositoryId": "d3959196-6be0-43ea-b6e7-aafa70824746" }
 				}
 			}
 		],
 		"GameDifficulties": [
-			{
-				"Difficulty": "easy",
-				"Bricks": []
-			},
-			{
-				"Difficulty": "normal",
-				"Bricks": []
-			},
-			{
-				"Difficulty": "hard",
-				"Bricks": []
-			}
+			{ "Difficulty": "easy", "Bricks": [] },
+			{ "Difficulty": "normal", "Bricks": [] },
+			{ "Difficulty": "hard", "Bricks": [] }
 		],
 		"Bricks": [],
 		"Entrances": ["d7367506-44f3-4c1a-be2d-fce3d723c378"],
@@ -60,5 +47,6 @@
 		"Release": "3.0.0",
 		"Entitlements": ["LOCATION_GOLDEN"]
 	},
-	"UserData": {}
+	"UserData": {},
+	"SMF": { "destinations": { "addToDestinations": true, "peacockIntegration": true, "narrativeContext": "Mission" } }
 }

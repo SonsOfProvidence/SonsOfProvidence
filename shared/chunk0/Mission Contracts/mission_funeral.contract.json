@@ -11,24 +11,17 @@
 				"IsHidden": false,
 				"BriefingName": "$($repository d3959196-6be0-43ea-b6e7-aafa70822045).Name",
 				"Image": "images/sop/funeral_target.jpg",
-				"HUDTemplate": {
-					"display": "Eliminate Thomas Cross"
-				},
+				"HUDTemplate": { "display": "Eliminate Thomas Cross" },
 				"BriefingText": "Eliminate Thomas Cross",
 				"Type": "statemachine",
 				"Definition": {
 					"Scope": "session",
-					"Context": {
-						"KilledActors": [],
-						"Targets": ["d3959196-6be0-43ea-b6e7-aafa70822045"]
-					},
+					"Context": { "KilledActors": [], "Targets": ["d3959196-6be0-43ea-b6e7-aafa70822045"] },
 					"States": {
 						"Start": {
 							"Kill": [
 								{
-									"Condition": {
-										"$eq": ["$Value.RepositoryId", "d3959196-6be0-43ea-b6e7-aafa70822045"]
-									},
+									"Condition": { "$eq": ["$Value.RepositoryId", "d3959196-6be0-43ea-b6e7-aafa70822045"] },
 									"Transition": "Success"
 								}
 							]
@@ -38,18 +31,9 @@
 			}
 		],
 		"GameDifficulties": [
-			{
-				"Difficulty": "easy",
-				"Bricks": []
-			},
-			{
-				"Difficulty": "normal",
-				"Bricks": []
-			},
-			{
-				"Difficulty": "hard",
-				"Bricks": []
-			}
+			{ "Difficulty": "easy", "Bricks": [] },
+			{ "Difficulty": "normal", "Bricks": [] },
+			{ "Difficulty": "hard", "Bricks": [] }
 		],
 		"Entrances": ["85f15667-d276-4082-ab33-7c7cc0e04c73"],
 		"Bricks": [],
@@ -73,5 +57,6 @@
 		"Release": "3.0.0",
 		"Entitlements": ["H2_LEGACY_EXPANSION"]
 	},
-	"UserData": {}
+	"UserData": {},
+	"SMF": { "destinations": { "addToDestinations": true, "peacockIntegration": true, "narrativeContext": "Mission" } }
 }

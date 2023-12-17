@@ -8,31 +8,18 @@
 				"Primary": true,
 				"BriefingName": "$($repository d3959196-6be0-43ea-b6e7-aafa70824748).Name",
 				"BriefingText": "Eliminate Nicholai Kamarov",
-				"HUDTemplate": {
-					"display": "Eliminate Nicholai Kamarov"
-				},
+				"HUDTemplate": { "display": "Eliminate Nicholai Kamarov" },
 				"Image": "images/sop/dbierek_tile.jpg",
 				"SuccessEvent": {
 					"EventName": "Kill",
-					"EventValues": {
-						"RepositoryId": "d3959196-6be0-43ea-b6e7-aafa70824748"
-					}
+					"EventValues": { "RepositoryId": "d3959196-6be0-43ea-b6e7-aafa70824748" }
 				}
 			}
 		],
 		"GameDifficulties": [
-			{
-				"Difficulty": "easy",
-				"Bricks": []
-			},
-			{
-				"Difficulty": "normal",
-				"Bricks": []
-			},
-			{
-				"Difficulty": "hard",
-				"Bricks": []
-			}
+			{ "Difficulty": "easy", "Bricks": [] },
+			{ "Difficulty": "normal", "Bricks": [] },
+			{ "Difficulty": "hard", "Bricks": [] }
 		],
 		"Bricks": [],
 		"DevOnlyBricks": [],
@@ -53,14 +40,8 @@
 		"OpportunitiesDisabled": true,
 		"IsVersus": false,
 		"TileImage": [
-			{
-				"Mode": "singleplayer",
-				"Image": "images/sop/siberia.jpg"
-			},
-			{
-				"Mode": "multiplayer",
-				"Image": "images/sop/siberia.jpg"
-			}
+			{ "Mode": "singleplayer", "Image": "images/sop/siberia.jpg" },
+			{ "Mode": "multiplayer", "Image": "images/sop/siberia.jpg" }
 		],
 		"Location": "LOCATION_MOSCOW",
 		"LastUpdate": "2023-03-31T05:48:00.000Z",
@@ -70,5 +51,6 @@
 		"Release": "3.3.x",
 		"Entitlements": ["H2_LEGACY_EXPANSION"]
 	},
-	"UserData": {}
+	"UserData": {},
+	"SMF": { "destinations": { "addToDestinations": true, "peacockIntegration": true, "narrativeContext": "Mission" } }
 }

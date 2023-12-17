@@ -3,18 +3,9 @@
 		"EnableSaving": true,
 		"Objectives": [],
 		"GameDifficulties": [
-			{
-				"Difficulty": "easy",
-				"Bricks": []
-			},
-			{
-				"Difficulty": "normal",
-				"Bricks": []
-			},
-			{
-				"Difficulty": "hard",
-				"Bricks": []
-			}
+			{ "Difficulty": "easy", "Bricks": [] },
+			{ "Difficulty": "normal", "Bricks": [] },
+			{ "Difficulty": "hard", "Bricks": [] }
 		],
 		"Bricks": [],
 		"Entrances": ["9c111405-637e-46b7-a051-279039c533ac"],
@@ -39,5 +30,6 @@
 		"RequiredUnlockable": "ACCESS_HIT_MONGOOSE",
 		"Entitlements": ["LOCATION_ANCESTRAL"]
 	},
-	"UserData": {}
+	"UserData": {},
+	"SMF": { "destinations": { "addToDestinations": true, "peacockIntegration": true, "narrativeContext": "Mission" } }
 }

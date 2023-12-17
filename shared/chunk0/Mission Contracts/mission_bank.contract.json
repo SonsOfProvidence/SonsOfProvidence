@@ -3,18 +3,9 @@
 		"EnableSaving": true,
 		"Objectives": [],
 		"GameDifficulties": [
-			{
-				"Difficulty": "easy",
-				"Bricks": []
-			},
-			{
-				"Difficulty": "normal",
-				"Bricks": []
-			},
-			{
-				"Difficulty": "hard",
-				"Bricks": []
-			}
+			{ "Difficulty": "easy", "Bricks": [] },
+			{ "Difficulty": "normal", "Bricks": [] },
+			{ "Difficulty": "hard", "Bricks": [] }
 		],
 		"Bricks": [],
 		"DevOnlyBricks": [],
@@ -38,5 +29,6 @@
 		"Release": "3.0.0",
 		"Entitlements": ["H2_LEGACY_EXPANSION"]
 	},
-	"UserData": {}
+	"UserData": {},
+	"SMF": { "destinations": { "addToDestinations": true, "peacockIntegration": true, "narrativeContext": "Mission" } }
 }
