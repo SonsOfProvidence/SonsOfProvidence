@@ -473,13 +473,31 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": 0, "y": 0, "z": 98.72819879199992 },
-						"position": { "x": -193.73587, "y": 1.2423859, "z": 17.475763 }
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 98.72819879199992
+						},
+						"position": {
+							"x": -193.73587,
+							"y": 1.2423859,
+							"z": 17.475763
+						}
 					}
 				},
-				"m_sId": { "type": "ZGuid", "value": "a8f370ef-5936-49c6-8c30-8bf3b9ca1930" },
-				"m_bDefaultHeroSpawn": { "type": "bool", "value": true },
-				"m_eidParent": { "type": "SEntityTemplateReference", "value": "fffffffffffffffe", "postInit": true }
+				"m_sId": {
+					"type": "ZGuid",
+					"value": "a8f370ef-5936-49c6-8c30-8bf3b9ca1930"
+				},
+				"m_bDefaultHeroSpawn": {
+					"type": "bool",
+					"value": true
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fffffffffffffffe",
+					"postInit": true
+				}
 			},
 			"factory": "[assembly:/_pro/design/levelflow.template?/herospawn.entitytemplate].pc_entitytype"
 		}
@@ -492,7 +510,12 @@
 					"externalScene": "[assembly:/_pro/scenes/missions/caged/mission_falcon/singleplayer_falcon.brick].pc_entitytype"
 				}
 			],
-			"properties": { "m_bDefaultHeroSpawn": { "type": "bool", "value": false } }
+			"properties": {
+				"m_bDefaultHeroSpawn": {
+					"type": "bool",
+					"value": false
+				}
+			}
 		},
 		{
 			"entities": [
@@ -501,7 +524,12 @@
 					"externalScene": "[assembly:/_pro/scenes/missions/caged/mission_falcon/singleplayer_falcon.brick].pc_entitytype"
 				}
 			],
-			"properties": { "m_InitialOutfitId": { "type": "ZGuid", "value": "b40a74a0-91a2-490d-8806-3ccfc852c82b" } }
+			"properties": {
+				"m_InitialOutfitId": {
+					"type": "ZGuid",
+					"value": "b40a74a0-91a2-490d-8806-3ccfc852c82b"
+				}
+			}
 		},
 		{
 			"entities": [
@@ -510,7 +538,12 @@
 					"externalScene": "[assembly:/_pro/scenes/missions/caged/mission_falcon/singleplayer_falcon.brick].pc_entitytype"
 				}
 			],
-			"properties": { "m_bStandUp": { "type": "bool", "value": true } }
+			"properties": {
+				"m_bStandUp": {
+					"type": "bool",
+					"value": true
+				}
+			}
 		},
 		{
 			"entities": [
@@ -519,7 +552,12 @@
 					"externalScene": "[assembly:/_pro/scenes/missions/caged/mission_falcon/singleplayer_falcon.brick].pc_entitytype"
 				}
 			],
-			"properties": { "m_bRun": { "type": "bool", "value": true } }
+			"properties": {
+				"m_bRun": {
+					"type": "bool",
+					"value": true
+				}
+			}
 		},
 		{
 			"entities": [
@@ -528,7 +566,12 @@
 					"externalScene": "[assembly:/_pro/scenes/missions/caged/mission_falcon/singleplayer_falcon.brick].pc_entitytype"
 				}
 			],
-			"properties": { "m_bMovementAllowed": { "type": "bool", "value": true } }
+			"properties": {
+				"m_bMovementAllowed": {
+					"type": "bool",
+					"value": true
+				}
+			}
 		},
 		{
 			"entities": [
@@ -537,7 +580,12 @@
 					"externalScene": "[assembly:/_pro/scenes/missions/caged/mission_falcon/singleplayer_falcon.brick].pc_entitytype"
 				}
 			],
-			"properties": { "m_bFastWalk": { "type": "bool", "value": true } }
+			"properties": {
+				"m_bFastWalk": {
+					"type": "bool",
+					"value": true
+				}
+			}
 		},
 		{
 			"entities": [
@@ -546,7 +594,12 @@
 					"externalScene": "[assembly:/_pro/scenes/missions/caged/mission_falcon/singleplayer_falcon.brick].pc_entitytype"
 				}
 			],
-			"properties": { "m_bSneak": { "type": "bool", "value": true } }
+			"properties": {
+				"m_bSneak": {
+					"type": "bool",
+					"value": true
+				}
+			}
 		},
 		{
 			"entities": [
@@ -555,7 +608,12 @@
 					"externalScene": "[assembly:/_pro/scenes/missions/caged/mission_falcon/singleplayer_falcon.brick].pc_entitytype"
 				}
 			],
-			"properties": { "m_bDropItem": { "type": "bool", "value": true } }
+			"properties": {
+				"m_bDropItem": {
+					"type": "bool",
+					"value": true
+				}
+			}
 		},
 		{
 			"entities": [
@@ -564,7 +622,12 @@
 					"externalScene": "[assembly:/_pro/scenes/missions/caged/mission_falcon/singleplayer_falcon.brick].pc_entitytype"
 				}
 			],
-			"properties": { "m_bCanHolsterItems": { "type": "bool", "value": true } }
+			"properties": {
+				"m_bCanHolsterItems": {
+					"type": "bool",
+					"value": true
+				}
+			}
 		},
 		{
 			"entities": [
@@ -573,7 +636,12 @@
 					"externalScene": "[assembly:/_pro/scenes/missions/caged/mission_falcon/singleplayer_falcon.brick].pc_entitytype"
 				}
 			],
-			"properties": { "m_bThrowItem": { "type": "bool", "value": true } }
+			"properties": {
+				"m_bThrowItem": {
+					"type": "bool",
+					"value": true
+				}
+			}
 		},
 		{
 			"entities": [
@@ -582,7 +650,12 @@
 					"externalScene": "[assembly:/_pro/scenes/missions/caged/mission_falcon/singleplayer_falcon.brick].pc_entitytype"
 				}
 			],
-			"properties": { "m_bPlaceItem": { "type": "bool", "value": true } }
+			"properties": {
+				"m_bPlaceItem": {
+					"type": "bool",
+					"value": true
+				}
+			}
 		},
 		{
 			"entities": [
@@ -591,7 +664,12 @@
 					"externalScene": "[assembly:/_pro/scenes/missions/caged/mission_falcon/singleplayer_falcon.brick].pc_entitytype"
 				}
 			],
-			"properties": { "m_RepositoryId": { "type": "ZGuid", "value": "d5f8e067-5b44-4ddf-91e2-3c29e9222eae" } }
+			"properties": {
+				"m_RepositoryId": {
+					"type": "ZGuid",
+					"value": "d5f8e067-5b44-4ddf-91e2-3c29e9222eae"
+				}
+			}
 		},
 		{
 			"entities": [
@@ -600,7 +678,12 @@
 					"externalScene": "[assembly:/_pro/scenes/missions/caged/mission_falcon/mission_falcon.brick].pc_entitytype"
 				}
 			],
-			"properties": { "RepositoryId": { "type": "ZGuid", "value": "d3959196-6be0-43ea-b6e7-aafa70824748" } }
+			"properties": {
+				"RepositoryId": {
+					"type": "ZGuid",
+					"value": "d3959196-6be0-43ea-b6e7-aafa70824748"
+				}
+			}
 		},
 		{
 			"entities": [
@@ -609,24 +692,64 @@
 					"externalScene": "[assembly:/_pro/scenes/missions/caged/mission_falcon/mission_falcon.brick].pc_entitytype"
 				}
 			],
-			"properties": { "m_sActorName": { "type": "ZString", "value": "Nicholai Kamarov" } }
+			"properties": {
+				"m_sActorName": {
+					"type": "ZString",
+					"value": "Nicholai Kamarov"
+				}
+			}
 		}
 	],
 	"overrideDeletes": [
 		{
 			"ref": "f2e82d44b73e7669",
 			"externalScene": "[assembly:/_pro/scenes/missions/caged/mission_falcon/singleplayer_falcon.brick].pc_entitytype"
+		},
+		{
+			"ref": "557535c95b819a32",
+			"externalScene": "[assembly:/_pro/scenes/missions/caged/mission_falcon/scenario_falcon.brick].pc_entitytype"
+		},
+		{
+			"ref": "d55ba2409bd3bfb0",
+			"externalScene": "[assembly:/_pro/scenes/missions/caged/mission_falcon/scenario_falcon.brick].pc_entitytype"
+		},
+		{
+			"ref": "21e3b895e9e9cd7b",
+			"externalScene": "[assembly:/_pro/scenes/missions/caged/mission_falcon/scenario_falcon.brick].pc_entitytype"
+		},
+		{
+			"ref": "71e4d678c633eef2",
+			"externalScene": "[assembly:/_pro/scenes/missions/caged/mission_falcon/scenario_falcon.brick].pc_entitytype"
+		},
+		{
+			"ref": "7b96dcc65c08a584",
+			"externalScene": "[assembly:/_pro/scenes/missions/caged/mission_falcon/scenario_falcon.brick].pc_entitytype"
+		},
+		{
+			"ref": "5d98d658a06fffdb",
+			"externalScene": "[assembly:/_pro/scenes/missions/caged/mission_falcon/scenario_falcon.brick].pc_entitytype"
 		}
 	],
-	"pinConnectionOverrides": [],
-	"pinConnectionOverrideDeletes": [],
+	"pinConnectionOverrides": [
+
+	],
+	"pinConnectionOverrideDeletes": [
+
+	],
 	"externalScenes": [
 		"[assembly:/_pro/scenes/missions/caged/mission_falcon/singleplayer_falcon.brick].pc_entitytype",
-		"[assembly:/_pro/scenes/missions/caged/mission_falcon/mission_falcon.brick].pc_entitytype"
+		"[assembly:/_pro/scenes/missions/caged/mission_falcon/mission_falcon.brick].pc_entitytype",
+		"[assembly:/_pro/scenes/missions/caged/mission_falcon/scenario_falcon.brick].pc_entitytype"
 	],
 	"subType": "scene",
 	"quickEntityVersion": 3.1,
-	"extraFactoryDependencies": [],
-	"extraBlueprintDependencies": [],
-	"comments": []
+	"extraFactoryDependencies": [
+
+	],
+	"extraBlueprintDependencies": [
+
+	],
+	"comments": [
+
+	]
 }
