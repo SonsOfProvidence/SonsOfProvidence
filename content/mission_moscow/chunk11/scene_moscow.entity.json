@@ -734,12 +734,8 @@
 			"externalScene": "[assembly:/_pro/scenes/missions/caged/mission_falcon/scenario_falcon.brick].pc_entitytype"
 		}
 	],
-	"pinConnectionOverrides": [
-
-	],
-	"pinConnectionOverrideDeletes": [
-
-	],
+	"pinConnectionOverrides": [],
+	"pinConnectionOverrideDeletes": [],
 	"externalScenes": [
 		"[assembly:/_pro/scenes/missions/caged/mission_falcon/singleplayer_falcon.brick].pc_entitytype",
 		"[assembly:/_pro/scenes/missions/caged/mission_falcon/mission_falcon.brick].pc_entitytype",
@@ -747,13 +743,7 @@
 	],
 	"subType": "scene",
 	"quickEntityVersion": 3.1,
-	"extraFactoryDependencies": [
-
-	],
-	"extraBlueprintDependencies": [
-
-	],
-	"comments": [
-
-	]
+	"extraFactoryDependencies": [],
+	"extraBlueprintDependencies": [],
+	"comments": []
 }
