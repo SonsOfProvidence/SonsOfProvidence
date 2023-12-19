@@ -728,6 +728,10 @@
 		{
 			"ref": "5d98d658a06fffdb",
 			"externalScene": "[assembly:/_pro/scenes/missions/caged/mission_falcon/scenario_falcon.brick].pc_entitytype"
+		},
+		{
+			"ref": "024642803c29bb29",
+			"externalScene": "[assembly:/_pro/scenes/missions/caged/mission_falcon/scenario_falcon.brick].pc_entitytype"
 		}
 	],
 	"pinConnectionOverrides": [
