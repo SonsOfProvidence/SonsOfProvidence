@@ -732,6 +732,86 @@
 		{
 			"ref": "024642803c29bb29",
 			"externalScene": "[assembly:/_pro/scenes/missions/caged/mission_falcon/scenario_falcon.brick].pc_entitytype"
+		},
+		{
+			"ref": "20b22e4abb5035be",
+			"externalScene": "[assembly:/_pro/scenes/missions/caged/mission_falcon/scenario_falcon.brick].pc_entitytype"
+		},
+		{
+			"ref": "dddc36657b699989",
+			"externalScene": "[assembly:/_pro/scenes/missions/caged/mission_falcon/scenario_falcon.brick].pc_entitytype"
+		},
+		{
+			"ref": "5c22f755427d1c33",
+			"externalScene": "[assembly:/_pro/scenes/missions/caged/mission_falcon/scenario_falcon.brick].pc_entitytype"
+		},
+		{
+			"ref": "ed02435cb2140743",
+			"externalScene": "[assembly:/_pro/scenes/missions/caged/mission_falcon/scenario_falcon.brick].pc_entitytype"
+		},
+		{
+			"ref": "ab2a7904526bcb40",
+			"externalScene": "[assembly:/_pro/scenes/missions/caged/mission_falcon/scenario_falcon.brick].pc_entitytype"
+		},
+		{
+			"ref": "fcba486cf34c85d7",
+			"externalScene": "[assembly:/_pro/scenes/missions/caged/mission_falcon/scenario_falcon.brick].pc_entitytype"
+		},
+		{
+			"ref": "49798679f79dcfe1",
+			"externalScene": "[assembly:/_pro/scenes/missions/caged/mission_falcon/scenario_falcon.brick].pc_entitytype"
+		},
+		{
+			"ref": "336177654a65b7a2",
+			"externalScene": "[assembly:/_pro/scenes/missions/caged/mission_falcon/scenario_falcon.brick].pc_entitytype"
+		},
+		{
+			"ref": "60404388fba546f1",
+			"externalScene": "[assembly:/_pro/scenes/missions/caged/mission_falcon/scenario_falcon.brick].pc_entitytype"
+		},
+		{
+			"ref": "bfc72f0c02ff04a2",
+			"externalScene": "[assembly:/_pro/scenes/missions/caged/mission_falcon/scenario_falcon.brick].pc_entitytype"
+		},
+		{
+			"ref": "0d296f0bf37d8455",
+			"externalScene": "[assembly:/_pro/scenes/missions/caged/mission_falcon/scenario_falcon.brick].pc_entitytype"
+		},
+		{
+			"ref": "555f5078a14cf221",
+			"externalScene": "[assembly:/_pro/scenes/missions/caged/mission_falcon/scenario_falcon.brick].pc_entitytype"
+		},
+		{
+			"ref": "0045bce3aabcfe6a",
+			"externalScene": "[assembly:/_pro/scenes/missions/caged/mission_falcon/scenario_falcon.brick].pc_entitytype"
+		},
+		{
+			"ref": "936a6dc4be5b0a46",
+			"externalScene": "[assembly:/_pro/scenes/missions/caged/mission_falcon/scenario_falcon.brick].pc_entitytype"
+		},
+		{
+			"ref": "676026f8446a9ad8",
+			"externalScene": "[assembly:/_pro/scenes/missions/caged/mission_falcon/scenario_falcon.brick].pc_entitytype"
+		},
+		{
+			"ref": "70d550adea8f798c",
+			"externalScene": "[assembly:/_pro/scenes/missions/caged/mission_falcon/scenario_falcon.brick].pc_entitytype"
+		},
+		{
+			"ref": "7affd6ad259d9673",
+			"externalScene": "[assembly:/_pro/scenes/missions/caged/mission_falcon/scenario_falcon.brick].pc_entitytype"
+		},
+		{
+			"ref": "b589b3d842a4f403",
+			"externalScene": "[assembly:/_pro/scenes/missions/caged/mission_falcon/scenario_falcon.brick].pc_entitytype"
+		},
+		{
+			"ref": "7ce4b74cb42a67ea",
+			"externalScene": "[assembly:/_pro/scenes/missions/caged/mission_falcon/scenario_falcon.brick].pc_entitytype"
+		},
+		{
+			"ref": "d801caad35a03d3c",
+			"externalScene": "[assembly:/_pro/scenes/missions/caged/mission_falcon/scenario_falcon.brick].pc_entitytype"
 		}
 	],
 	"pinConnectionOverrides": [],
