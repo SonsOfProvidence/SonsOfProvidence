@@ -1,5 +1,4 @@
 {
 	"$schema": "https://raw.githubusercontent.com/atampy25/quickentity-editor-next/main/src/lib/project-schema.json",
-	"customPaths": [],
-	"treeViewState": { "002B265B3512B2F9": { "expandedNodes": ["fffffffffffffffe", "abcd6b299c3d3e26"] } }
+	"customPaths": []
 }
