@@ -10780,6 +10780,31 @@
 					"value": "Nicholai Kamarov"
 				}
 			}
+		},
+		{
+			"entities": [
+				{
+					"ref": "e356c5c0e67b32d7",
+					"externalScene": "[assembly:/_pro/scenes/missions/caged/mission_falcon/scenario_falcon.brick].pc_entitytype"
+				}
+			],
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": -1.7453785,
+							"y": -6.513947,
+							"z": 10.955376
+						}
+					}
+				}
+			}
 		}
 	],
 	"overrideDeletes": [
@@ -10837,6 +10862,34 @@
 		},
 		{
 			"ref": "369c90799da8655c",
+			"externalScene": "[assembly:/_pro/scenes/missions/caged/mission_falcon/scenario_falcon.brick].pc_entitytype"
+		},
+		{
+			"ref": "ac68e5f048e5759e",
+			"externalScene": "[assembly:/_pro/scenes/missions/caged/mission_falcon/scenario_falcon.brick].pc_entitytype"
+		},
+		{
+			"ref": "6e0a2a7d91112f5c",
+			"externalScene": "[assembly:/_pro/scenes/missions/caged/mission_falcon/scenario_falcon.brick].pc_entitytype"
+		},
+		{
+			"ref": "b07e0c4cab61391c",
+			"externalScene": "[assembly:/_pro/scenes/missions/caged/mission_falcon/scenario_falcon.brick].pc_entitytype"
+		},
+		{
+			"ref": "1bfc547d5b555b40",
+			"externalScene": "[assembly:/_pro/scenes/missions/caged/mission_falcon/scenario_falcon.brick].pc_entitytype"
+		},
+		{
+			"ref": "513be9114290ebed",
+			"externalScene": "[assembly:/_pro/scenes/missions/caged/mission_falcon/scenario_falcon.brick].pc_entitytype"
+		},
+		{
+			"ref": "8390a2893c4a7bab",
+			"externalScene": "[assembly:/_pro/scenes/missions/caged/mission_falcon/scenario_falcon.brick].pc_entitytype"
+		},
+		{
+			"ref": "bb93891cb8fac926",
 			"externalScene": "[assembly:/_pro/scenes/missions/caged/mission_falcon/scenario_falcon.brick].pc_entitytype"
 		}
 	],
