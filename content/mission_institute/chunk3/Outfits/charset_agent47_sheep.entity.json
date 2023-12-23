@@ -9,7 +9,13 @@
 			"factory": "[modules:/zoutfitvariation.class].pc_entitytype",
 			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint",
 			"properties": {
-				"m_Outfit": { "type": "ZRuntimeResourceID", "value": { "resource": "006DF1904C5C50F8", "flag": "9F" } }
+				"m_Outfit": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "006DF1904C5C50F8",
+						"flag": "9F"
+					}
+				}
 			}
 		},
 		"de35203e56ae5b4f": {
@@ -20,7 +26,11 @@
 			"properties": {
 				"m_aCharacters": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": ["ca6e92690eb1889d", "a62836d8d6640000", "1840b730d8fc8cb8"],
+					"value": [
+						"ca6e92690eb1889d",
+						"a62836d8d6640000",
+						"1840b730d8fc8cb8"
+					],
 					"postInit": true
 				}
 			}
@@ -33,7 +43,9 @@
 			"properties": {
 				"m_aVariations": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": ["8e66319d9d20f494"],
+					"value": [
+						"8e66319d9d20f494"
+					],
 					"postInit": true
 				}
 			}
@@ -46,7 +58,9 @@
 			"properties": {
 				"m_aVariations": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": ["e24aa3af65bc8598"],
+					"value": [
+						"e24aa3af65bc8598"
+					],
 					"postInit": true
 				}
 			}
@@ -62,7 +76,14 @@
 			"name": "Actor",
 			"factory": "[modules:/zcharsetcharactertype.class].pc_entitytype",
 			"blueprint": "[modules:/zcharsetcharactertype.class].pc_entityblueprint",
-			"properties": { "m_aVariations": { "type": "TArray<SEntityTemplateReference>", "value": ["6dfb4930278b881d"] } }
+			"properties": {
+				"m_aVariations": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						"6dfb4930278b881d"
+					]
+				}
+			}
 		},
 		"8e66319d9d20f494": {
 			"parent": "1840b730d8fc8cb8",
@@ -71,14 +92,30 @@
 			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint"
 		}
 	},
-	"propertyOverrides": [],
-	"overrideDeletes": [],
-	"pinConnectionOverrides": [],
-	"pinConnectionOverrideDeletes": [],
-	"externalScenes": [],
+	"propertyOverrides": [
+
+	],
+	"overrideDeletes": [
+
+	],
+	"pinConnectionOverrides": [
+
+	],
+	"pinConnectionOverrideDeletes": [
+
+	],
+	"externalScenes": [
+
+	],
 	"subType": "template",
 	"quickEntityVersion": 3.1,
-	"extraFactoryDependencies": [],
-	"extraBlueprintDependencies": [],
-	"comments": []
+	"extraFactoryDependencies": [
+
+	],
+	"extraBlueprintDependencies": [
+
+	],
+	"comments": [
+
+	]
 }
