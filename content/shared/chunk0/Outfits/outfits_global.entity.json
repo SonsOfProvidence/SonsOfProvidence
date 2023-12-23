@@ -33,12 +33,32 @@
 						"m_bApplyLeftRightScalars": false
 					}
 				},
-				"m_eActorType": { "type": "EActorType", "value": "eAT_Civilian" },
-				"m_eActorCCClass": { "type": "EActorCCPreset", "value": "ACCP_CivilianeMale" },
-				"m_bHeroDisguiseAvailable": { "type": "bool", "value": false },
-				"m_aCharSets": { "type": "TArray<SEntityTemplateReference>", "value": ["feed4867830515a9"] },
-				"m_eSoundFootwearType": { "type": "EHM5SoundFootwearType", "value": "EFWT_LEATHER" },
-				"m_sId": { "type": "ZGuid", "value": "9ab20fc5-af3d-4a77-a30a-8442c058f99e" },
+				"m_eActorType": {
+					"type": "EActorType",
+					"value": "eAT_Civilian"
+				},
+				"m_eActorCCClass": {
+					"type": "EActorCCPreset",
+					"value": "ACCP_CivilianeMale"
+				},
+				"m_bHeroDisguiseAvailable": {
+					"type": "bool",
+					"value": false
+				},
+				"m_aCharSets": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						"feed4867830515a9"
+					]
+				},
+				"m_eSoundFootwearType": {
+					"type": "EHM5SoundFootwearType",
+					"value": "EFWT_LEATHER"
+				},
+				"m_sId": {
+					"type": "ZGuid",
+					"value": "9ab20fc5-af3d-4a77-a30a-8442c058f99e"
+				},
 				"m_pParentOutfit": {
 					"type": "SEntityTemplateReference",
 					"value": {
@@ -46,14 +66,34 @@
 						"externalScene": "[assembly:/_pro/scenes/bricks/globaldata.brick].pc_entitytype"
 					}
 				},
-				"m_sCommonName": { "type": "ZString", "value": "Cinematic_LucasGrey_DesparateTraveler" },
-				"m_sTitle": { "type": "ZString", "value": "Cinematic_LucasGrey_DesparateTraveler" },
-				"m_eOutfitAICategory": { "type": "EOutfitAICategory", "value": "OAC_Undefined" },
-				"m_rNameTextResource": { "type": "ZRuntimeResourceID", "value": null },
-				"m_rDescriptionTextResource": { "type": "ZRuntimeResourceID", "value": null },
+				"m_sCommonName": {
+					"type": "ZString",
+					"value": "Cinematic_LucasGrey_DesparateTraveler"
+				},
+				"m_sTitle": {
+					"type": "ZString",
+					"value": "Cinematic_LucasGrey_DesparateTraveler"
+				},
+				"m_eOutfitAICategory": {
+					"type": "EOutfitAICategory",
+					"value": "OAC_Undefined"
+				},
+				"m_rNameTextResource": {
+					"type": "ZRuntimeResourceID",
+					"value": null
+				},
+				"m_rDescriptionTextResource": {
+					"type": "ZRuntimeResourceID",
+					"value": null
+				},
 				"m_rDefaultVoiceVariations": {
 					"type": "TArray<EActorVoiceVariation>",
-					"value": ["eAVV_YACHTCREW01", "eAVV_YACHTCREW02", "eAVV_YACHTCREW03", "eAVV_YACHTCREW04"]
+					"value": [
+						"eAVV_YACHTCREW01",
+						"eAVV_YACHTCREW02",
+						"eAVV_YACHTCREW03",
+						"eAVV_YACHTCREW04"
+					]
 				}
 			}
 		},
@@ -87,12 +127,32 @@
 						"m_bApplyLeftRightScalars": false
 					}
 				},
-				"m_eActorType": { "type": "EActorType", "value": "eAT_Civilian" },
-				"m_eActorCCClass": { "type": "EActorCCPreset", "value": "ACCP_CivilianFemale" },
-				"m_bHeroDisguiseAvailable": { "type": "bool", "value": false },
-				"m_aCharSets": { "type": "TArray<SEntityTemplateReference>", "value": ["feed71a75a0b5976"] },
-				"m_eSoundFootwearType": { "type": "EHM5SoundFootwearType", "value": "EFWT_SNEAKERS" },
-				"m_sId": { "type": "ZGuid", "value": "0d32164d-33ab-4043-b868-7cb7755ef202" },
+				"m_eActorType": {
+					"type": "EActorType",
+					"value": "eAT_Civilian"
+				},
+				"m_eActorCCClass": {
+					"type": "EActorCCPreset",
+					"value": "ACCP_CivilianFemale"
+				},
+				"m_bHeroDisguiseAvailable": {
+					"type": "bool",
+					"value": false
+				},
+				"m_aCharSets": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						"feed71a75a0b5976"
+					]
+				},
+				"m_eSoundFootwearType": {
+					"type": "EHM5SoundFootwearType",
+					"value": "EFWT_SNEAKERS"
+				},
+				"m_sId": {
+					"type": "ZGuid",
+					"value": "0d32164d-33ab-4043-b868-7cb7755ef202"
+				},
 				"m_pParentOutfit": {
 					"type": "SEntityTemplateReference",
 					"value": {
@@ -100,9 +160,18 @@
 						"externalScene": "[assembly:/_pro/scenes/bricks/globaldata.brick].pc_entitytype"
 					}
 				},
-				"m_sCommonName": { "type": "ZString", "value": "Cinematic_OliviaHall_NoBag" },
-				"m_sTitle": { "type": "ZString", "value": "OliviaHall_NoBag" },
-				"m_eOutfitAICategory": { "type": "EOutfitAICategory", "value": "OAC_YachtCrew" },
+				"m_sCommonName": {
+					"type": "ZString",
+					"value": "Cinematic_OliviaHall_NoBag"
+				},
+				"m_sTitle": {
+					"type": "ZString",
+					"value": "OliviaHall_NoBag"
+				},
+				"m_eOutfitAICategory": {
+					"type": "EOutfitAICategory",
+					"value": "OAC_YachtCrew"
+				},
 				"m_rNameTextResource": {
 					"type": "ZRuntimeResourceID",
 					"value": {
@@ -119,9 +188,17 @@
 				},
 				"m_rDefaultVoiceVariations": {
 					"type": "TArray<EActorVoiceVariation>",
-					"value": ["eAVV_YACHTCREW01", "eAVV_YACHTCREW02", "eAVV_YACHTCREW03", "eAVV_YACHTCREW04"]
+					"value": [
+						"eAVV_YACHTCREW01",
+						"eAVV_YACHTCREW02",
+						"eAVV_YACHTCREW03",
+						"eAVV_YACHTCREW04"
+					]
 				},
-				"m_bIsFemale": { "type": "bool", "value": true }
+				"m_bIsFemale": {
+					"type": "bool",
+					"value": true
+				}
 			}
 		},
 		"feed6d01108cdead": {
@@ -130,7 +207,11 @@
 			"factory": "[assembly:/_pro/design/gamecore/keywords/keywordsound.template?/keywordentity_foley_outfit_bodyguard.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/design/gamecore/keywords/keywordsound.template?/keywordentity_foley_outfit_bodyguard.entitytemplate].pc_entityblueprint",
 			"properties": {
-				"m_rHolder": { "type": "SEntityTemplateReference", "value": "feed5b12a0cdb77b", "postInit": true }
+				"m_rHolder": {
+					"type": "SEntityTemplateReference",
+					"value": "feed5b12a0cdb77b",
+					"postInit": true
+				}
 			}
 		},
 		"feed71a75a0b5976": {
@@ -144,7 +225,14 @@
 			"name": "Keyword_Prof_Class_Default",
 			"factory": "007A51A2AFEC0D1A",
 			"blueprint": "00B0282A41C1CF2E",
-			"properties": { "m_aHolders": { "type": "TArray<SEntityTemplateReference>", "value": ["feed5b12a0cdb77b"] } }
+			"properties": {
+				"m_aHolders": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						"feed5b12a0cdb77b"
+					]
+				}
+			}
 		},
 		"feed2d370ae44d77": {
 			"parent": "feed1d8f3a151446",
@@ -170,12 +258,32 @@
 						"m_bApplyLeftRightScalars": false
 					}
 				},
-				"m_eActorType": { "type": "EActorType", "value": "eAT_Civilian" },
-				"m_eActorCCClass": { "type": "EActorCCPreset", "value": "ACCP_CivilianeMale" },
-				"m_bHeroDisguiseAvailable": { "type": "bool", "value": false },
-				"m_aCharSets": { "type": "TArray<SEntityTemplateReference>", "value": ["feed43ac317e7d6b"] },
-				"m_eSoundFootwearType": { "type": "EHM5SoundFootwearType", "value": "EFWT_LEATHER" },
-				"m_sId": { "type": "ZGuid", "value": "2fb2bfd9-1773-406d-8f51-beec9f363e3a" },
+				"m_eActorType": {
+					"type": "EActorType",
+					"value": "eAT_Civilian"
+				},
+				"m_eActorCCClass": {
+					"type": "EActorCCPreset",
+					"value": "ACCP_CivilianeMale"
+				},
+				"m_bHeroDisguiseAvailable": {
+					"type": "bool",
+					"value": false
+				},
+				"m_aCharSets": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						"feed43ac317e7d6b"
+					]
+				},
+				"m_eSoundFootwearType": {
+					"type": "EHM5SoundFootwearType",
+					"value": "EFWT_LEATHER"
+				},
+				"m_sId": {
+					"type": "ZGuid",
+					"value": "2fb2bfd9-1773-406d-8f51-beec9f363e3a"
+				},
 				"m_pParentOutfit": {
 					"type": "SEntityTemplateReference",
 					"value": {
@@ -183,14 +291,34 @@
 						"externalScene": "[assembly:/_pro/scenes/bricks/globaldata.brick].pc_entitytype"
 					}
 				},
-				"m_sCommonName": { "type": "ZString", "value": "Cinematic_Unique_LucasGrey_Parachute_M" },
-				"m_sTitle": { "type": "ZString", "value": "Cinematic_Unique_LucasGrey_Parachute_M" },
-				"m_eOutfitAICategory": { "type": "EOutfitAICategory", "value": "OAC_Undefined" },
-				"m_rNameTextResource": { "type": "ZRuntimeResourceID", "value": null },
-				"m_rDescriptionTextResource": { "type": "ZRuntimeResourceID", "value": null },
+				"m_sCommonName": {
+					"type": "ZString",
+					"value": "Cinematic_Unique_LucasGrey_Parachute_M"
+				},
+				"m_sTitle": {
+					"type": "ZString",
+					"value": "Cinematic_Unique_LucasGrey_Parachute_M"
+				},
+				"m_eOutfitAICategory": {
+					"type": "EOutfitAICategory",
+					"value": "OAC_Undefined"
+				},
+				"m_rNameTextResource": {
+					"type": "ZRuntimeResourceID",
+					"value": null
+				},
+				"m_rDescriptionTextResource": {
+					"type": "ZRuntimeResourceID",
+					"value": null
+				},
 				"m_rDefaultVoiceVariations": {
 					"type": "TArray<EActorVoiceVariation>",
-					"value": ["eAVV_YACHTCREW01", "eAVV_YACHTCREW02", "eAVV_YACHTCREW03", "eAVV_YACHTCREW04"]
+					"value": [
+						"eAVV_YACHTCREW01",
+						"eAVV_YACHTCREW02",
+						"eAVV_YACHTCREW03",
+						"eAVV_YACHTCREW04"
+					]
 				}
 			}
 		},
@@ -224,12 +352,32 @@
 						"m_bApplyLeftRightScalars": false
 					}
 				},
-				"m_eActorType": { "type": "EActorType", "value": "eAT_Civilian" },
-				"m_eActorCCClass": { "type": "EActorCCPreset", "value": "ACCP_CivilianeMale" },
-				"m_bHeroDisguiseAvailable": { "type": "bool", "value": true },
-				"m_aCharSets": { "type": "TArray<SEntityTemplateReference>", "value": ["feed93a6e1f43c8a"] },
-				"m_eSoundFootwearType": { "type": "EHM5SoundFootwearType", "value": "EFWT_LEATHER" },
-				"m_sId": { "type": "ZGuid", "value": "9a8fe7a5-abbd-4e12-b798-58b2c6960df1" },
+				"m_eActorType": {
+					"type": "EActorType",
+					"value": "eAT_Civilian"
+				},
+				"m_eActorCCClass": {
+					"type": "EActorCCPreset",
+					"value": "ACCP_CivilianeMale"
+				},
+				"m_bHeroDisguiseAvailable": {
+					"type": "bool",
+					"value": true
+				},
+				"m_aCharSets": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						"feed93a6e1f43c8a"
+					]
+				},
+				"m_eSoundFootwearType": {
+					"type": "EHM5SoundFootwearType",
+					"value": "EFWT_LEATHER"
+				},
+				"m_sId": {
+					"type": "ZGuid",
+					"value": "9a8fe7a5-abbd-4e12-b798-58b2c6960df1"
+				},
 				"m_pParentOutfit": {
 					"type": "SEntityTemplateReference",
 					"value": {
@@ -237,9 +385,18 @@
 						"externalScene": "[assembly:/_pro/scenes/bricks/globaldata.brick].pc_entitytype"
 					}
 				},
-				"m_sCommonName": { "type": "ZString", "value": "Cinematic_LucasGrey_Jacket" },
-				"m_sTitle": { "type": "ZString", "value": "LucasGrey_Jacket" },
-				"m_eOutfitAICategory": { "type": "EOutfitAICategory", "value": "OAC_YachtCrew" },
+				"m_sCommonName": {
+					"type": "ZString",
+					"value": "Cinematic_LucasGrey_Jacket"
+				},
+				"m_sTitle": {
+					"type": "ZString",
+					"value": "LucasGrey_Jacket"
+				},
+				"m_eOutfitAICategory": {
+					"type": "EOutfitAICategory",
+					"value": "OAC_YachtCrew"
+				},
 				"m_rNameTextResource": {
 					"type": "ZRuntimeResourceID",
 					"value": {
@@ -256,7 +413,12 @@
 				},
 				"m_rDefaultVoiceVariations": {
 					"type": "TArray<EActorVoiceVariation>",
-					"value": ["eAVV_YACHTCREW01", "eAVV_YACHTCREW02", "eAVV_YACHTCREW03", "eAVV_YACHTCREW04"]
+					"value": [
+						"eAVV_YACHTCREW01",
+						"eAVV_YACHTCREW02",
+						"eAVV_YACHTCREW03",
+						"eAVV_YACHTCREW04"
+					]
 				}
 			}
 		},
@@ -272,7 +434,13 @@
 			"factory": "007A51A2AFEC0D1A",
 			"blueprint": "00B0282A41C1CF2E",
 			"properties": {
-				"m_aHolders": { "type": "TArray<SEntityTemplateReference>", "value": ["feed89a95fc2881d"], "postInit": true }
+				"m_aHolders": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						"feed89a95fc2881d"
+					],
+					"postInit": true
+				}
 			}
 		},
 		"feedb8526f440be2": {
@@ -281,7 +449,11 @@
 			"factory": "[assembly:/_pro/design/gamecore/keywords/keywordsound.template?/keywordentity_foley_outfit_bodyguard.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/design/gamecore/keywords/keywordsound.template?/keywordentity_foley_outfit_bodyguard.entitytemplate].pc_entityblueprint",
 			"properties": {
-				"m_rHolder": { "type": "SEntityTemplateReference", "value": "feed89a95fc2881d", "postInit": true }
+				"m_rHolder": {
+					"type": "SEntityTemplateReference",
+					"value": "feed89a95fc2881d",
+					"postInit": true
+				}
 			}
 		},
 		"feed2a809621bde9": {
@@ -308,12 +480,32 @@
 						"m_bApplyLeftRightScalars": false
 					}
 				},
-				"m_eActorType": { "type": "EActorType", "value": "eAT_Civilian" },
-				"m_eActorCCClass": { "type": "EActorCCPreset", "value": "ACCP_CivilianeMale" },
-				"m_bHeroDisguiseAvailable": { "type": "bool", "value": false },
-				"m_aCharSets": { "type": "TArray<SEntityTemplateReference>", "value": ["feeddfaf39c8ee04"] },
-				"m_eSoundFootwearType": { "type": "EHM5SoundFootwearType", "value": "EFWT_LEATHER" },
-				"m_sId": { "type": "ZGuid", "value": "537f8d38-e64a-48d8-9e83-fdbb0c3ec346" },
+				"m_eActorType": {
+					"type": "EActorType",
+					"value": "eAT_Civilian"
+				},
+				"m_eActorCCClass": {
+					"type": "EActorCCPreset",
+					"value": "ACCP_CivilianeMale"
+				},
+				"m_bHeroDisguiseAvailable": {
+					"type": "bool",
+					"value": false
+				},
+				"m_aCharSets": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						"feeddfaf39c8ee04"
+					]
+				},
+				"m_eSoundFootwearType": {
+					"type": "EHM5SoundFootwearType",
+					"value": "EFWT_LEATHER"
+				},
+				"m_sId": {
+					"type": "ZGuid",
+					"value": "537f8d38-e64a-48d8-9e83-fdbb0c3ec346"
+				},
 				"m_pParentOutfit": {
 					"type": "SEntityTemplateReference",
 					"value": {
@@ -321,14 +513,34 @@
 						"externalScene": "[assembly:/_pro/scenes/bricks/globaldata.brick].pc_entitytype"
 					}
 				},
-				"m_sCommonName": { "type": "ZString", "value": "Cinematic_lucasgrey_noarmband" },
-				"m_sTitle": { "type": "ZString", "value": "Cinematic_lucasgrey_noarmband" },
-				"m_eOutfitAICategory": { "type": "EOutfitAICategory", "value": "OAC_YachtCrew" },
-				"m_rNameTextResource": { "type": "ZRuntimeResourceID", "value": null },
-				"m_rDescriptionTextResource": { "type": "ZRuntimeResourceID", "value": null },
+				"m_sCommonName": {
+					"type": "ZString",
+					"value": "Cinematic_lucasgrey_noarmband"
+				},
+				"m_sTitle": {
+					"type": "ZString",
+					"value": "Cinematic_lucasgrey_noarmband"
+				},
+				"m_eOutfitAICategory": {
+					"type": "EOutfitAICategory",
+					"value": "OAC_YachtCrew"
+				},
+				"m_rNameTextResource": {
+					"type": "ZRuntimeResourceID",
+					"value": null
+				},
+				"m_rDescriptionTextResource": {
+					"type": "ZRuntimeResourceID",
+					"value": null
+				},
 				"m_rDefaultVoiceVariations": {
 					"type": "TArray<EActorVoiceVariation>",
-					"value": ["eAVV_YACHTCREW01", "eAVV_YACHTCREW02", "eAVV_YACHTCREW03", "eAVV_YACHTCREW04"]
+					"value": [
+						"eAVV_YACHTCREW01",
+						"eAVV_YACHTCREW02",
+						"eAVV_YACHTCREW03",
+						"eAVV_YACHTCREW04"
+					]
 				}
 			}
 		},
@@ -362,12 +574,32 @@
 						"m_bApplyLeftRightScalars": false
 					}
 				},
-				"m_eActorType": { "type": "EActorType", "value": "eAT_Civilian" },
-				"m_eActorCCClass": { "type": "EActorCCPreset", "value": "ACCP_CivilianeMale" },
-				"m_bHeroDisguiseAvailable": { "type": "bool", "value": false },
-				"m_aCharSets": { "type": "TArray<SEntityTemplateReference>", "value": ["feed27b7cd27280f"] },
-				"m_eSoundFootwearType": { "type": "EHM5SoundFootwearType", "value": "EFWT_LEATHER" },
-				"m_sId": { "type": "ZGuid", "value": "5496f527-a26e-4be3-a1e5-953a8b4047cf" },
+				"m_eActorType": {
+					"type": "EActorType",
+					"value": "eAT_Civilian"
+				},
+				"m_eActorCCClass": {
+					"type": "EActorCCPreset",
+					"value": "ACCP_CivilianeMale"
+				},
+				"m_bHeroDisguiseAvailable": {
+					"type": "bool",
+					"value": false
+				},
+				"m_aCharSets": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						"feed27b7cd27280f"
+					]
+				},
+				"m_eSoundFootwearType": {
+					"type": "EHM5SoundFootwearType",
+					"value": "EFWT_LEATHER"
+				},
+				"m_sId": {
+					"type": "ZGuid",
+					"value": "5496f527-a26e-4be3-a1e5-953a8b4047cf"
+				},
 				"m_pParentOutfit": {
 					"type": "SEntityTemplateReference",
 					"value": {
@@ -375,14 +607,34 @@
 						"externalScene": "[assembly:/_pro/scenes/bricks/globaldata.brick].pc_entitytype"
 					}
 				},
-				"m_sCommonName": { "type": "ZString", "value": "Cinematic_lucasgrey_poncho" },
-				"m_sTitle": { "type": "ZString", "value": "Cinematic_lucasgrey_poncho" },
-				"m_eOutfitAICategory": { "type": "EOutfitAICategory", "value": "OAC_YachtCrew" },
-				"m_rNameTextResource": { "type": "ZRuntimeResourceID", "value": null },
-				"m_rDescriptionTextResource": { "type": "ZRuntimeResourceID", "value": null },
+				"m_sCommonName": {
+					"type": "ZString",
+					"value": "Cinematic_lucasgrey_poncho"
+				},
+				"m_sTitle": {
+					"type": "ZString",
+					"value": "Cinematic_lucasgrey_poncho"
+				},
+				"m_eOutfitAICategory": {
+					"type": "EOutfitAICategory",
+					"value": "OAC_YachtCrew"
+				},
+				"m_rNameTextResource": {
+					"type": "ZRuntimeResourceID",
+					"value": null
+				},
+				"m_rDescriptionTextResource": {
+					"type": "ZRuntimeResourceID",
+					"value": null
+				},
 				"m_rDefaultVoiceVariations": {
 					"type": "TArray<EActorVoiceVariation>",
-					"value": ["eAVV_YACHTCREW01", "eAVV_YACHTCREW02", "eAVV_YACHTCREW03", "eAVV_YACHTCREW04"]
+					"value": [
+						"eAVV_YACHTCREW01",
+						"eAVV_YACHTCREW02",
+						"eAVV_YACHTCREW03",
+						"eAVV_YACHTCREW04"
+					]
 				}
 			}
 		},
@@ -422,18 +674,49 @@
 						"m_bApplyLeftRightScalars": false
 					}
 				},
-				"m_bHeroDisguiseAvailable": { "type": "bool", "value": false },
-				"m_bWeaponsAllowed": { "type": "bool", "value": true },
-				"m_eSoundFootwearType": { "type": "EHM5SoundFootwearType", "value": "EFWT_BOOTS" },
-				"m_sId": { "type": "ZGuid", "value": "d5883f9b-11af-445e-a80a-036ff424970f" },
-				"m_aAnimationSets": { "type": "TArray<SEntityTemplateReference>", "value": [] },
+				"m_bHeroDisguiseAvailable": {
+					"type": "bool",
+					"value": false
+				},
+				"m_bWeaponsAllowed": {
+					"type": "bool",
+					"value": true
+				},
+				"m_eSoundFootwearType": {
+					"type": "EHM5SoundFootwearType",
+					"value": "EFWT_BOOTS"
+				},
+				"m_sId": {
+					"type": "ZGuid",
+					"value": "d5883f9b-11af-445e-a80a-036ff424970f"
+				},
+				"m_aAnimationSets": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+
+					]
+				},
 				"m_AvailableWeaponKeys": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": ["feedfb5e614e16d4", "feedf4bfb8d9e5ec", "feed7ae946fad36d", "feedd630ad859816"]
+					"value": [
+						"feedfb5e614e16d4",
+						"feedf4bfb8d9e5ec",
+						"feed7ae946fad36d",
+						"feedd630ad859816"
+					]
 				},
-				"m_sCommonName": { "type": "ZString", "value": "Ancestral_Guard_MansionGuard_M_PRO176217" },
-				"m_sTitle": { "type": "ZString", "value": "Mansion Guard" },
-				"m_eOutfitAICategory": { "type": "EOutfitAICategory", "value": "OAC_Queensgrd" },
+				"m_sCommonName": {
+					"type": "ZString",
+					"value": "Ancestral_Guard_MansionGuard_M_PRO176217"
+				},
+				"m_sTitle": {
+					"type": "ZString",
+					"value": "Mansion Guard"
+				},
+				"m_eOutfitAICategory": {
+					"type": "EOutfitAICategory",
+					"value": "OAC_Queensgrd"
+				},
 				"m_rNameTextResource": {
 					"type": "ZRuntimeResourceID",
 					"value": {
@@ -459,16 +742,28 @@
 						"eAVV_SPECOPS02"
 					]
 				},
-				"m_eOutfitType": { "type": "EOutfitType", "value": "eOT_Guard" },
-				"m_AvailableGrenadeKeys": { "type": "TArray<SEntityTemplateReference>", "value": ["feede05b87b795cb"] },
+				"m_eOutfitType": {
+					"type": "EOutfitType",
+					"value": "eOT_Guard"
+				},
+				"m_AvailableGrenadeKeys": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						"feede05b87b795cb"
+					]
+				},
 				"m_aCharSets": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": ["feedd9581fcc9344"],
+					"value": [
+						"feedd9581fcc9344"
+					],
 					"postInit": true
 				},
 				"m_aWeaponsAllowedExceptionKeywords": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [],
+					"value": [
+
+					],
 					"postInit": true
 				},
 				"m_pParentOutfit": {
@@ -485,21 +780,36 @@
 			"name": "ItemKey__Grenade_ Flash 1",
 			"factory": "[modules:/zitemrepositorykeyentity.class].pc_entitytype",
 			"blueprint": "[modules:/zitemrepositorykeyentity.class].pc_entityblueprint",
-			"properties": { "m_RepositoryId": { "type": "ZGuid", "value": "042fae7b-fe9e-4a83-ac7b-5c914a71b2ca" } }
+			"properties": {
+				"m_RepositoryId": {
+					"type": "ZGuid",
+					"value": "042fae7b-fe9e-4a83-ac7b-5c914a71b2ca"
+				}
+			}
 		},
 		"feedd630ad859816": {
 			"parent": "feed89698b603122",
 			"name": "ItemKey__AR_ _NPC_ Fusil G1_4_C",
 			"factory": "[modules:/zitemrepositorykeyentity.class].pc_entitytype",
 			"blueprint": "[modules:/zitemrepositorykeyentity.class].pc_entityblueprint",
-			"properties": { "m_RepositoryId": { "type": "ZGuid", "value": "6b93848c-8f1d-42eb-816f-bab61b56d8a5" } }
+			"properties": {
+				"m_RepositoryId": {
+					"type": "ZGuid",
+					"value": "6b93848c-8f1d-42eb-816f-bab61b56d8a5"
+				}
+			}
 		},
 		"feedf4bfb8d9e5ec": {
 			"parent": "feed89698b603122",
 			"name": "ItemKey__SMG_ _NPC_ HX_10",
 			"factory": "[modules:/zitemrepositorykeyentity.class].pc_entitytype",
 			"blueprint": "[modules:/zitemrepositorykeyentity.class].pc_entityblueprint",
-			"properties": { "m_RepositoryId": { "type": "ZGuid", "value": "e206ed81-0559-4289-9fec-e6a3e9d4ee7c" } }
+			"properties": {
+				"m_RepositoryId": {
+					"type": "ZGuid",
+					"value": "e206ed81-0559-4289-9fec-e6a3e9d4ee7c"
+				}
+			}
 		},
 		"feede42c60b8d1f5": {
 			"parent": "feed89698b603122",
@@ -507,7 +817,13 @@
 			"factory": "003F8A8A859AE133",
 			"blueprint": "0059DEB85AA5AFED",
 			"properties": {
-				"m_aHolders": { "type": "TArray<SEntityTemplateReference>", "value": ["feed89698b603122"], "postInit": true }
+				"m_aHolders": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						"feed89698b603122"
+					],
+					"postInit": true
+				}
 			}
 		},
 		"feed1a54973ef9aa": {
@@ -516,7 +832,13 @@
 			"factory": "007A51A2AFEC0D1A",
 			"blueprint": "00B0282A41C1CF2E",
 			"properties": {
-				"m_aHolders": { "type": "TArray<SEntityTemplateReference>", "value": ["feed89698b603122"], "postInit": true }
+				"m_aHolders": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						"feed89698b603122"
+					],
+					"postInit": true
+				}
 			}
 		},
 		"feedf1b06f4fdb5a": {
@@ -525,7 +847,11 @@
 			"factory": "[assembly:/_pro/design/gamecore/keywords/keywordsound.template?/keywordentity_foley_outfit_guard.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/design/gamecore/keywords/keywordsound.template?/keywordentity_foley_outfit_guard.entitytemplate].pc_entityblueprint",
 			"properties": {
-				"m_rHolder": { "type": "SEntityTemplateReference", "value": "feed89698b603122", "postInit": true }
+				"m_rHolder": {
+					"type": "SEntityTemplateReference",
+					"value": "feed89698b603122",
+					"postInit": true
+				}
 			}
 		},
 		"feedfb5e614e16d4": {
@@ -533,14 +859,24 @@
 			"name": "ItemKey__Pistol__NPC_ Bartoli 75R",
 			"factory": "[modules:/zitemrepositorykeyentity.class].pc_entitytype",
 			"blueprint": "[modules:/zitemrepositorykeyentity.class].pc_entityblueprint",
-			"properties": { "m_RepositoryId": { "type": "ZGuid", "value": "55ed7196-2303-4af6-9fa3-45b691134561" } }
+			"properties": {
+				"m_RepositoryId": {
+					"type": "ZGuid",
+					"value": "55ed7196-2303-4af6-9fa3-45b691134561"
+				}
+			}
 		},
 		"feed7ae946fad36d": {
 			"parent": "feed89698b603122",
 			"name": "ItemKey__Shotgun_ _NPC_ Tactical Bartoli 12G",
 			"factory": "[modules:/zitemrepositorykeyentity.class].pc_entitytype",
 			"blueprint": "[modules:/zitemrepositorykeyentity.class].pc_entityblueprint",
-			"properties": { "m_RepositoryId": { "type": "ZGuid", "value": "901a3b51-51a0-4236-bdf2-23d20696b358" } }
+			"properties": {
+				"m_RepositoryId": {
+					"type": "ZGuid",
+					"value": "901a3b51-51a0-4236-bdf2-23d20696b358"
+				}
+			}
 		},
 		"feedd9581fcc9344": {
 			"parent": "feed89698b603122",
@@ -553,7 +889,14 @@
 			"name": "Keyword_Prof_Class_Guard_Heavy",
 			"factory": "00364659808ED13C",
 			"blueprint": "003A7D4D8810414B",
-			"properties": { "m_aHolders": { "type": "TArray<SEntityTemplateReference>", "value": ["feed89698b603122"] } }
+			"properties": {
+				"m_aHolders": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						"feed89698b603122"
+					]
+				}
+			}
 		},
 		"feed5edb980b9726": {
 			"parent": "feed89698b603122",
@@ -561,18 +904,40 @@
 			"factory": "[assembly:/_pro/design/actor/profession.template?/prof_edgy_guard_security.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_edgy_guard_security.entitytemplate].pc_entityblueprint",
 			"properties": {
-				"m_aHolders": { "type": "TArray<SEntityTemplateReference>", "value": ["feed89698b603122"], "postInit": true }
+				"m_aHolders": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						"feed89698b603122"
+					],
+					"postInit": true
+				}
 			}
 		}
 	},
-	"propertyOverrides": [],
-	"overrideDeletes": [],
-	"pinConnectionOverrides": [],
-	"pinConnectionOverrideDeletes": [],
-	"externalScenes": ["[assembly:/_pro/scenes/bricks/globaldata.brick].pc_entitytype"],
+	"propertyOverrides": [
+
+	],
+	"overrideDeletes": [
+
+	],
+	"pinConnectionOverrides": [
+
+	],
+	"pinConnectionOverrideDeletes": [
+
+	],
+	"externalScenes": [
+		"[assembly:/_pro/scenes/bricks/globaldata.brick].pc_entitytype"
+	],
 	"subType": "brick",
 	"quickEntityVersion": 3.1,
-	"extraFactoryDependencies": [],
-	"extraBlueprintDependencies": [],
-	"comments": []
+	"extraFactoryDependencies": [
+
+	],
+	"extraBlueprintDependencies": [
+
+	],
+	"comments": [
+
+	]
 }

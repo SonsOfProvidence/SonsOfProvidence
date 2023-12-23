@@ -11,7 +11,9 @@
 			"properties": {
 				"m_aVariations": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": ["cad4171ec6c04d1f"],
+					"value": [
+						"cad4171ec6c04d1f"
+					],
 					"postInit": true
 				}
 			}
@@ -21,7 +23,12 @@
 			"name": "0",
 			"factory": "[modules:/zoutfitvariation.class].pc_entitytype",
 			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint",
-			"properties": { "m_Outfit": { "type": "ZRuntimeResourceID", "value": "00A0133A0879666C" } }
+			"properties": {
+				"m_Outfit": {
+					"type": "ZRuntimeResourceID",
+					"value": "00A0133A0879666C"
+				}
+			}
 		},
 		"f7fb9d76f709917b": {
 			"parent": "37658b4063c76fed",
@@ -34,7 +41,12 @@
 			"name": "Var0",
 			"factory": "[modules:/zoutfitvariation.class].pc_entitytype",
 			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint",
-			"properties": { "m_Outfit": { "type": "ZRuntimeResourceID", "value": "00A1791A4083CF77" } }
+			"properties": {
+				"m_Outfit": {
+					"type": "ZRuntimeResourceID",
+					"value": "00A1791A4083CF77"
+				}
+			}
 		},
 		"3180008ffcae0d69": {
 			"parent": "7a0181b27fc911cf",
@@ -44,7 +56,9 @@
 			"properties": {
 				"m_aVariations": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": ["fbc8e0e44eeb140e"],
+					"value": [
+						"fbc8e0e44eeb140e"
+					],
 					"postInit": true
 				}
 			}
@@ -60,7 +74,14 @@
 			"name": "HeroC",
 			"factory": "[modules:/zcharsetcharactertype.class].pc_entitytype",
 			"blueprint": "[modules:/zcharsetcharactertype.class].pc_entityblueprint",
-			"properties": { "m_aVariations": { "type": "TArray<SEntityTemplateReference>", "value": ["f7fb9d76f709917b"] } }
+			"properties": {
+				"m_aVariations": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						"f7fb9d76f709917b"
+					]
+				}
+			}
 		},
 		"7432575d35e30ca9": {
 			"parent": "7a0181b27fc911cf",
@@ -70,7 +91,9 @@
 			"properties": {
 				"m_aVariations": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": ["660bdc0a403d7372"],
+					"value": [
+						"660bdc0a403d7372"
+					],
 					"postInit": true
 				}
 			}
@@ -80,7 +103,14 @@
 			"name": "Actor",
 			"factory": "[modules:/zcharsetcharactertype.class].pc_entitytype",
 			"blueprint": "[modules:/zcharsetcharactertype.class].pc_entityblueprint",
-			"properties": { "m_aVariations": { "type": "TArray<SEntityTemplateReference>", "value": ["1d1f123fde4a99b4"] } }
+			"properties": {
+				"m_aVariations": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						"1d1f123fde4a99b4"
+					]
+				}
+			}
 		},
 		"7a0181b27fc911cf": {
 			"parent": null,
@@ -107,14 +137,30 @@
 			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint"
 		}
 	},
-	"propertyOverrides": [],
-	"overrideDeletes": [],
-	"pinConnectionOverrides": [],
-	"pinConnectionOverrideDeletes": [],
-	"externalScenes": [],
+	"propertyOverrides": [
+
+	],
+	"overrideDeletes": [
+
+	],
+	"pinConnectionOverrides": [
+
+	],
+	"pinConnectionOverrideDeletes": [
+
+	],
+	"externalScenes": [
+
+	],
 	"subType": "template",
 	"quickEntityVersion": 3.1,
-	"extraFactoryDependencies": [],
-	"extraBlueprintDependencies": [],
-	"comments": []
+	"extraFactoryDependencies": [
+
+	],
+	"extraBlueprintDependencies": [
+
+	],
+	"comments": [
+
+	]
 }

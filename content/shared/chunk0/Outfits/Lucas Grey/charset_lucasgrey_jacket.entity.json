@@ -11,7 +11,11 @@
 			"properties": {
 				"m_aCharacters": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": ["244204ce80b0f63d", "319b9785e73eb87f", "b14f3e7deea32965"],
+					"value": [
+						"244204ce80b0f63d",
+						"319b9785e73eb87f",
+						"b14f3e7deea32965"
+					],
 					"postInit": true
 				}
 			}
@@ -24,7 +28,9 @@
 			"properties": {
 				"m_aVariations": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": ["97ebe84b692e61cb"],
+					"value": [
+						"97ebe84b692e61cb"
+					],
 					"postInit": true
 				}
 			}
@@ -37,7 +43,9 @@
 			"properties": {
 				"m_aVariations": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": ["89d799a0d0f92812"],
+					"value": [
+						"89d799a0d0f92812"
+					],
 					"postInit": true
 				}
 			}
@@ -56,7 +64,9 @@
 			"properties": {
 				"m_aVariations": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": ["454e837465081108"],
+					"value": [
+						"454e837465081108"
+					],
 					"postInit": true
 				}
 			}
@@ -73,18 +83,40 @@
 			"factory": "[modules:/zoutfitvariation.class].pc_entitytype",
 			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint",
 			"properties": {
-				"m_Outfit": { "type": "ZRuntimeResourceID", "value": { "resource": "0092301F265DE31C", "flag": "9F" } }
+				"m_Outfit": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "0092301F265DE31C",
+						"flag": "9F"
+					}
+				}
 			}
 		}
 	},
-	"propertyOverrides": [],
-	"overrideDeletes": [],
-	"pinConnectionOverrides": [],
-	"pinConnectionOverrideDeletes": [],
-	"externalScenes": [],
+	"propertyOverrides": [
+
+	],
+	"overrideDeletes": [
+
+	],
+	"pinConnectionOverrides": [
+
+	],
+	"pinConnectionOverrideDeletes": [
+
+	],
+	"externalScenes": [
+
+	],
 	"subType": "template",
 	"quickEntityVersion": 3.1,
-	"extraFactoryDependencies": [],
-	"extraBlueprintDependencies": [],
-	"comments": []
+	"extraFactoryDependencies": [
+
+	],
+	"extraBlueprintDependencies": [
+
+	],
+	"comments": [
+
+	]
 }

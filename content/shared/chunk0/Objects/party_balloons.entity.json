@@ -12,18 +12,57 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": 10.742464273564266, "y": 7.397543634330356, "z": -110.97628855568865 },
-						"position": { "x": 0, "y": 0.006000000052154064, "z": 0.009999999776482582 }
+						"rotation": {
+							"x": 10.742464273564266,
+							"y": 7.397543634330356,
+							"z": -110.97628855568865
+						},
+						"position": {
+							"x": 0,
+							"y": 0.006000000052154064,
+							"z": 0.009999999776482582
+						}
 					}
 				},
-				"m_vGravity": { "type": "SVector3", "value": { "x": 0, "y": 0, "z": -20 } },
-				"m_bCalculateRestPose": { "type": "bool", "value": true },
-				"m_bSimulationEnabled": { "type": "bool", "value": false },
-				"m_bVisible": { "type": "bool", "value": false },
-				"m_bUseSkinningSphereConstrains": { "type": "bool", "value": true },
-				"m_fWindConstant": { "type": "float32", "value": 4 },
-				"m_LocalColliders": { "type": "TArray<SEntityTemplateReference>", "value": [] },
-				"m_eidParent": { "type": "SEntityTemplateReference", "value": "19b1eb0bfd8d5f56", "postInit": true }
+				"m_vGravity": {
+					"type": "SVector3",
+					"value": {
+						"x": 0,
+						"y": 0,
+						"z": -20
+					}
+				},
+				"m_bCalculateRestPose": {
+					"type": "bool",
+					"value": true
+				},
+				"m_bSimulationEnabled": {
+					"type": "bool",
+					"value": false
+				},
+				"m_bVisible": {
+					"type": "bool",
+					"value": false
+				},
+				"m_bUseSkinningSphereConstrains": {
+					"type": "bool",
+					"value": true
+				},
+				"m_fWindConstant": {
+					"type": "float32",
+					"value": 4
+				},
+				"m_LocalColliders": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+
+					]
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "19b1eb0bfd8d5f56",
+					"postInit": true
+				}
 			}
 		},
 		"29f87266d3833308": {
@@ -35,18 +74,57 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -10.233142503173564, "y": -6.2740409146931455, "z": 62.94075422725831 },
-						"position": { "x": 0.010320000350475311, "y": 0.005601999815553427, "z": -0.13899999856948853 }
+						"rotation": {
+							"x": -10.233142503173564,
+							"y": -6.2740409146931455,
+							"z": 62.94075422725831
+						},
+						"position": {
+							"x": 0.010320000350475311,
+							"y": 0.005601999815553427,
+							"z": -0.13899999856948853
+						}
 					}
 				},
-				"m_bSimulationEnabled": { "type": "bool", "value": false },
-				"m_bCalculateRestPose": { "type": "bool", "value": true },
-				"m_bVisible": { "type": "bool", "value": false },
-				"m_vGravity": { "type": "SVector3", "value": { "x": 0, "y": 0, "z": -20 } },
-				"m_bUseSkinningSphereConstrains": { "type": "bool", "value": true },
-				"m_fWindConstant": { "type": "float32", "value": 4 },
-				"m_LocalColliders": { "type": "TArray<SEntityTemplateReference>", "value": [] },
-				"m_eidParent": { "type": "SEntityTemplateReference", "value": "19b1eb0bfd8d5f56", "postInit": true }
+				"m_bSimulationEnabled": {
+					"type": "bool",
+					"value": false
+				},
+				"m_bCalculateRestPose": {
+					"type": "bool",
+					"value": true
+				},
+				"m_bVisible": {
+					"type": "bool",
+					"value": false
+				},
+				"m_vGravity": {
+					"type": "SVector3",
+					"value": {
+						"x": 0,
+						"y": 0,
+						"z": -20
+					}
+				},
+				"m_bUseSkinningSphereConstrains": {
+					"type": "bool",
+					"value": true
+				},
+				"m_fWindConstant": {
+					"type": "float32",
+					"value": 4
+				},
+				"m_LocalColliders": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+
+					]
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "19b1eb0bfd8d5f56",
+					"postInit": true
+				}
 			}
 		},
 		"2dcfa65accfb0fc1": {
@@ -58,18 +136,57 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": 7.674895889851433, "y": 5.864375781795842, "z": -90.30330853442025 },
-						"position": { "x": 0.006231000181287527, "y": 0.011044000275433064, "z": 0 }
+						"rotation": {
+							"x": 7.674895889851433,
+							"y": 5.864375781795842,
+							"z": -90.30330853442025
+						},
+						"position": {
+							"x": 0.006231000181287527,
+							"y": 0.011044000275433064,
+							"z": 0
+						}
 					}
 				},
-				"m_bSimulationEnabled": { "type": "bool", "value": false },
-				"m_vGravity": { "type": "SVector3", "value": { "x": 0, "y": 0, "z": -20 } },
-				"m_bUseSkinningSphereConstrains": { "type": "bool", "value": true },
-				"m_bCalculateRestPose": { "type": "bool", "value": true },
-				"m_bVisible": { "type": "bool", "value": false },
-				"m_fWindConstant": { "type": "float32", "value": 4 },
-				"m_LocalColliders": { "type": "TArray<SEntityTemplateReference>", "value": [] },
-				"m_eidParent": { "type": "SEntityTemplateReference", "value": "19b1eb0bfd8d5f56", "postInit": true }
+				"m_bSimulationEnabled": {
+					"type": "bool",
+					"value": false
+				},
+				"m_vGravity": {
+					"type": "SVector3",
+					"value": {
+						"x": 0,
+						"y": 0,
+						"z": -20
+					}
+				},
+				"m_bUseSkinningSphereConstrains": {
+					"type": "bool",
+					"value": true
+				},
+				"m_bCalculateRestPose": {
+					"type": "bool",
+					"value": true
+				},
+				"m_bVisible": {
+					"type": "bool",
+					"value": false
+				},
+				"m_fWindConstant": {
+					"type": "float32",
+					"value": 4
+				},
+				"m_LocalColliders": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+
+					]
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "19b1eb0bfd8d5f56",
+					"postInit": true
+				}
 			}
 		},
 		"71057a76c7f92dc7": {
@@ -80,9 +197,24 @@
 			"properties": {
 				"m_mTransform": {
 					"type": "SMatrix43",
-					"value": { "rotation": { "x": 0, "y": 0, "z": 0 }, "position": { "x": 0, "y": 0, "z": 0 } }
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						}
+					}
 				},
-				"m_eidParent": { "type": "SEntityTemplateReference", "value": "19b1eb0bfd8d5f56", "postInit": true }
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "19b1eb0bfd8d5f56",
+					"postInit": true
+				}
 			}
 		},
 		"24a3814570da69ed": {
@@ -91,12 +223,22 @@
 			"factory": "[assembly:/_pro/effects/templates/logic/fx_logic_shotactivate.template?/fx_logic_shotactivate.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/effects/templates/logic/fx_logic_shotactivate.template?/fx_logic_shotactivate.entitytemplate].pc_entityblueprint",
 			"properties": {
-				"m_Listener": { "type": "TArray<SEntityTemplateReference>", "value": ["24f1005c8b369176"], "postInit": true }
+				"m_Listener": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						"24f1005c8b369176"
+					],
+					"postInit": true
+				}
 			},
 			"events": {
 				"OnActivate": {
-					"SetTrue": ["feedec9dd937a4e8"],
-					"In": ["12ee1d60b48953dc"],
+					"SetTrue": [
+						"feedec9dd937a4e8"
+					],
+					"In": [
+						"12ee1d60b48953dc"
+					],
 					"Activate": [
 						"9d40379ec58903b7",
 						"7d2bcb760bf5b310",
@@ -122,8 +264,12 @@
 						"2dcfa65accfb0fc1",
 						"9438b8e2e7ce5268"
 					],
-					"MakeInvisible": ["24f1005c8b369176"],
-					"DisableSimulation": ["24f1005c8b369176"]
+					"MakeInvisible": [
+						"24f1005c8b369176"
+					],
+					"DisableSimulation": [
+						"24f1005c8b369176"
+					]
 				}
 			}
 		},
@@ -136,15 +282,31 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": 0, "y": 0, "z": 0 },
-						"position": { "x": -0.05513099953532219, "y": -0.0834830030798912, "z": 0.9901829957962036 }
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": -0.05513099953532219,
+							"y": -0.0834830030798912,
+							"z": 0.9901829957962036
+						}
 					}
 				},
 				"m_vGlobalSize": {
 					"type": "SVector3",
-					"value": { "x": 0.9553200006484985, "y": 1.0061800479888916, "z": 1.9878100156784058 }
+					"value": {
+						"x": 0.9553200006484985,
+						"y": 1.0061800479888916,
+						"z": 1.9878100156784058
+					}
 				},
-				"m_eidParent": { "type": "SEntityTemplateReference", "value": "19b1eb0bfd8d5f56", "postInit": true }
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "19b1eb0bfd8d5f56",
+					"postInit": true
+				}
 			}
 		},
 		"1f79ae3b061befb0": {
@@ -156,15 +318,41 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": 0, "y": 0, "z": 0 },
-						"position": { "x": -0.07355500012636185, "y": 0.01684900000691414, "z": 0 }
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": -0.07355500012636185,
+							"y": 0.01684900000691414,
+							"z": 0
+						}
 					}
 				},
-				"m_AreaBoxes": { "type": "TArray<SEntityTemplateReference>", "value": ["15030b0aeb285893"] },
-				"m_fStrength": { "type": "float32", "value": 0.30000001192092896 },
-				"m_fStrengthAmplitude": { "type": "float32", "value": 0.30000001192092896 },
-				"m_fStrengthFrequency": { "type": "float32", "value": 1 },
-				"m_eidParent": { "type": "SEntityTemplateReference", "value": "19b1eb0bfd8d5f56", "postInit": true }
+				"m_AreaBoxes": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						"15030b0aeb285893"
+					]
+				},
+				"m_fStrength": {
+					"type": "float32",
+					"value": 0.30000001192092896
+				},
+				"m_fStrengthAmplitude": {
+					"type": "float32",
+					"value": 0.30000001192092896
+				},
+				"m_fStrengthFrequency": {
+					"type": "float32",
+					"value": 1
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "19b1eb0bfd8d5f56",
+					"postInit": true
+				}
 			}
 		},
 		"bb9bfbecc65a2393": {
@@ -176,18 +364,57 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -14.39244279412299, "y": 1.567351373721446, "z": 72.96128603768946 },
-						"position": { "x": 0.009337999857962132, "y": 0.012137999758124352, "z": -0.06437499821186066 }
+						"rotation": {
+							"x": -14.39244279412299,
+							"y": 1.567351373721446,
+							"z": 72.96128603768946
+						},
+						"position": {
+							"x": 0.009337999857962132,
+							"y": 0.012137999758124352,
+							"z": -0.06437499821186066
+						}
 					}
 				},
-				"m_bUseSkinningSphereConstrains": { "type": "bool", "value": true },
-				"m_bCalculateRestPose": { "type": "bool", "value": true },
-				"m_bVisible": { "type": "bool", "value": false },
-				"m_bSimulationEnabled": { "type": "bool", "value": false },
-				"m_vGravity": { "type": "SVector3", "value": { "x": 0, "y": 0, "z": -20 } },
-				"m_fWindConstant": { "type": "float32", "value": 4 },
-				"m_LocalColliders": { "type": "TArray<SEntityTemplateReference>", "value": [] },
-				"m_eidParent": { "type": "SEntityTemplateReference", "value": "19b1eb0bfd8d5f56", "postInit": true }
+				"m_bUseSkinningSphereConstrains": {
+					"type": "bool",
+					"value": true
+				},
+				"m_bCalculateRestPose": {
+					"type": "bool",
+					"value": true
+				},
+				"m_bVisible": {
+					"type": "bool",
+					"value": false
+				},
+				"m_bSimulationEnabled": {
+					"type": "bool",
+					"value": false
+				},
+				"m_vGravity": {
+					"type": "SVector3",
+					"value": {
+						"x": 0,
+						"y": 0,
+						"z": -20
+					}
+				},
+				"m_fWindConstant": {
+					"type": "float32",
+					"value": 4
+				},
+				"m_LocalColliders": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+
+					]
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "19b1eb0bfd8d5f56",
+					"postInit": true
+				}
 			}
 		},
 		"d7f940e0a386439f": {
@@ -199,18 +426,57 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": 1.5697795507191163, "y": -4.049484462371647, "z": 0.05548627322163915 },
-						"position": { "x": 0.0004659999976865947, "y": 0.006002999842166901, "z": 0.010250999592244625 }
+						"rotation": {
+							"x": 1.5697795507191163,
+							"y": -4.049484462371647,
+							"z": 0.05548627322163915
+						},
+						"position": {
+							"x": 0.0004659999976865947,
+							"y": 0.006002999842166901,
+							"z": 0.010250999592244625
+						}
 					}
 				},
-				"m_vGravity": { "type": "SVector3", "value": { "x": 0, "y": 0, "z": -20 } },
-				"m_bCalculateRestPose": { "type": "bool", "value": true },
-				"m_bSimulationEnabled": { "type": "bool", "value": false },
-				"m_bVisible": { "type": "bool", "value": false },
-				"m_bUseSkinningSphereConstrains": { "type": "bool", "value": true },
-				"m_fWindConstant": { "type": "float32", "value": 4 },
-				"m_LocalColliders": { "type": "TArray<SEntityTemplateReference>", "value": [] },
-				"m_eidParent": { "type": "SEntityTemplateReference", "value": "19b1eb0bfd8d5f56", "postInit": true }
+				"m_vGravity": {
+					"type": "SVector3",
+					"value": {
+						"x": 0,
+						"y": 0,
+						"z": -20
+					}
+				},
+				"m_bCalculateRestPose": {
+					"type": "bool",
+					"value": true
+				},
+				"m_bSimulationEnabled": {
+					"type": "bool",
+					"value": false
+				},
+				"m_bVisible": {
+					"type": "bool",
+					"value": false
+				},
+				"m_bUseSkinningSphereConstrains": {
+					"type": "bool",
+					"value": true
+				},
+				"m_fWindConstant": {
+					"type": "float32",
+					"value": 4
+				},
+				"m_LocalColliders": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+
+					]
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "19b1eb0bfd8d5f56",
+					"postInit": true
+				}
 			}
 		},
 		"aac32061a23fea02": {
@@ -222,11 +488,23 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": 0, "y": 0, "z": 0 },
-						"position": { "x": -0.19900000095367432, "y": -0.05400000140070915, "z": 0.9909999966621399 }
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": -0.19900000095367432,
+							"y": -0.05400000140070915,
+							"z": 0.9909999966621399
+						}
 					}
 				},
-				"m_eidParent": { "type": "SEntityTemplateReference", "value": "19b1eb0bfd8d5f56", "postInit": true }
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "19b1eb0bfd8d5f56",
+					"postInit": true
+				}
 			}
 		},
 		"99981ae618bebfb8": {
@@ -238,11 +516,23 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": 0, "y": 0, "z": 0 },
-						"position": { "x": 0.013631000183522701, "y": 0.2745400071144104, "z": 1.3723729848861694 }
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": 0.013631000183522701,
+							"y": 0.2745400071144104,
+							"z": 1.3723729848861694
+						}
 					}
 				},
-				"m_eidParent": { "type": "SEntityTemplateReference", "value": "19b1eb0bfd8d5f56", "postInit": true }
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "19b1eb0bfd8d5f56",
+					"postInit": true
+				}
 			}
 		},
 		"7d2bcb760bf5b310": {
@@ -254,11 +544,23 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": 0, "y": 0, "z": 0 },
-						"position": { "x": -0.22205699980258942, "y": -0.0934310033917427, "z": 0.9050300121307373 }
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": -0.22205699980258942,
+							"y": -0.0934310033917427,
+							"z": 0.9050300121307373
+						}
 					}
 				},
-				"m_eidParent": { "type": "SEntityTemplateReference", "value": "19b1eb0bfd8d5f56", "postInit": true }
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "19b1eb0bfd8d5f56",
+					"postInit": true
+				}
 			}
 		},
 		"c14d935ac026b14a": {
@@ -270,11 +572,23 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": 0, "y": 0, "z": 0 },
-						"position": { "x": -0.18581099808216095, "y": -0.05755599960684776, "z": 1.3418420553207397 }
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": -0.18581099808216095,
+							"y": -0.05755599960684776,
+							"z": 1.3418420553207397
+						}
 					}
 				},
-				"m_eidParent": { "type": "SEntityTemplateReference", "value": "19b1eb0bfd8d5f56", "postInit": true }
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "19b1eb0bfd8d5f56",
+					"postInit": true
+				}
 			}
 		},
 		"24f1005c8b369176": {
@@ -286,16 +600,47 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": 0, "y": 0, "z": 0 },
-						"position": { "x": 0.001167000038549304, "y": 0.006643000058829784, "z": 0.015599999576807022 }
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": 0.001167000038549304,
+							"y": 0.006643000058829784,
+							"z": 0.015599999576807022
+						}
 					}
 				},
-				"m_vGravity": { "type": "SVector3", "value": { "x": 0, "y": 0, "z": 1 } },
-				"m_bUseSkinningSphereConstrains": { "type": "bool", "value": true },
-				"m_fShearStiffness": { "type": "float32", "value": 1 },
-				"m_fBendStiffness": { "type": "float32", "value": 1 },
-				"m_fWindConstant": { "type": "float32", "value": 4 },
-				"m_eidParent": { "type": "SEntityTemplateReference", "value": "19b1eb0bfd8d5f56", "postInit": true }
+				"m_vGravity": {
+					"type": "SVector3",
+					"value": {
+						"x": 0,
+						"y": 0,
+						"z": 1
+					}
+				},
+				"m_bUseSkinningSphereConstrains": {
+					"type": "bool",
+					"value": true
+				},
+				"m_fShearStiffness": {
+					"type": "float32",
+					"value": 1
+				},
+				"m_fBendStiffness": {
+					"type": "float32",
+					"value": 1
+				},
+				"m_fWindConstant": {
+					"type": "float32",
+					"value": 4
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "19b1eb0bfd8d5f56",
+					"postInit": true
+				}
 			}
 		},
 		"12ee1d60b48953dc": {
@@ -303,7 +648,12 @@
 			"name": "TimerSimple06",
 			"factory": "[assembly:/_pro/design/logic.template?/timersimple.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/design/logic.template?/timersimple.entitytemplate].pc_entityblueprint",
-			"properties": { "Delay time (ms)": { "type": "int32", "value": 2000 } },
+			"properties": {
+				"Delay time (ms)": {
+					"type": "int32",
+					"value": 2000
+				}
+			},
 			"events": {
 				"Out": {
 					"DisableSimulation": [
@@ -314,7 +664,9 @@
 						"2dcfa65accfb0fc1",
 						"9438b8e2e7ce5268"
 					],
-					"Disable": ["24a3814570da69ed"]
+					"Disable": [
+						"24a3814570da69ed"
+					]
 				}
 			}
 		},
@@ -327,11 +679,23 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": 0, "y": 0, "z": 0 },
-						"position": { "x": -0.1951189935207367, "y": -0.3812609910964966, "z": 0.9504010081291199 }
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": -0.1951189935207367,
+							"y": -0.3812609910964966,
+							"z": 0.9504010081291199
+						}
 					}
 				},
-				"m_eidParent": { "type": "SEntityTemplateReference", "value": "19b1eb0bfd8d5f56", "postInit": true }
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "19b1eb0bfd8d5f56",
+					"postInit": true
+				}
 			}
 		},
 		"9438b8e2e7ce5268": {
@@ -343,18 +707,57 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": 7.69508184662522, "y": 5.832234829837974, "z": 171.26590298334168 },
-						"position": { "x": 0.006231999956071377, "y": 0.011044000275433064, "z": 0 }
+						"rotation": {
+							"x": 7.69508184662522,
+							"y": 5.832234829837974,
+							"z": 171.26590298334168
+						},
+						"position": {
+							"x": 0.006231999956071377,
+							"y": 0.011044000275433064,
+							"z": 0
+						}
 					}
 				},
-				"m_bSimulationEnabled": { "type": "bool", "value": false },
-				"m_vGravity": { "type": "SVector3", "value": { "x": 0, "y": 0, "z": -20 } },
-				"m_bUseSkinningSphereConstrains": { "type": "bool", "value": true },
-				"m_bCalculateRestPose": { "type": "bool", "value": true },
-				"m_bVisible": { "type": "bool", "value": false },
-				"m_fWindConstant": { "type": "float32", "value": 4 },
-				"m_LocalColliders": { "type": "TArray<SEntityTemplateReference>", "value": [] },
-				"m_eidParent": { "type": "SEntityTemplateReference", "value": "19b1eb0bfd8d5f56", "postInit": true }
+				"m_bSimulationEnabled": {
+					"type": "bool",
+					"value": false
+				},
+				"m_vGravity": {
+					"type": "SVector3",
+					"value": {
+						"x": 0,
+						"y": 0,
+						"z": -20
+					}
+				},
+				"m_bUseSkinningSphereConstrains": {
+					"type": "bool",
+					"value": true
+				},
+				"m_bCalculateRestPose": {
+					"type": "bool",
+					"value": true
+				},
+				"m_bVisible": {
+					"type": "bool",
+					"value": false
+				},
+				"m_fWindConstant": {
+					"type": "float32",
+					"value": 4
+				},
+				"m_LocalColliders": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+
+					]
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "19b1eb0bfd8d5f56",
+					"postInit": true
+				}
 			}
 		},
 		"876f139827c49d05": {
@@ -366,11 +769,23 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": 0, "y": 0, "z": 0 },
-						"position": { "x": 0.18199999630451202, "y": -0.11500000208616257, "z": 1.2949999570846558 }
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": 0.18199999630451202,
+							"y": -0.11500000208616257,
+							"z": 1.2949999570846558
+						}
 					}
 				},
-				"m_eidParent": { "type": "SEntityTemplateReference", "value": "19b1eb0bfd8d5f56", "postInit": true }
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "19b1eb0bfd8d5f56",
+					"postInit": true
+				}
 			}
 		},
 		"7bba658f20cc5b9c": {
@@ -382,11 +797,23 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": 0, "y": 0, "z": 0 },
-						"position": { "x": 0.24450400471687317, "y": 0.07858200371265411, "z": 1.3482680320739746 }
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": 0.24450400471687317,
+							"y": 0.07858200371265411,
+							"z": 1.3482680320739746
+						}
 					}
 				},
-				"m_eidParent": { "type": "SEntityTemplateReference", "value": "19b1eb0bfd8d5f56", "postInit": true }
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "19b1eb0bfd8d5f56",
+					"postInit": true
+				}
 			}
 		},
 		"19b1eb0bfd8d5f56": {
@@ -398,23 +825,64 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": 0, "y": 0, "z": 0 },
-						"position": { "x": 7.548083782196045, "y": 6.456730842590332, "z": 0 }
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": 7.548083782196045,
+							"y": 6.456730842590332,
+							"z": 0
+						}
 					}
 				}
 			},
 			"propertyAliases": {
-				"m_bPopped": [{ "originalEntity": "feedd40b23cc8dd7", "originalProperty": "m_bValue" }],
-				"m_LocalColliders": [
-					{ "originalProperty": "m_LocalColliders", "originalEntity": "bb9bfbecc65a2393" },
-					{ "originalProperty": "m_LocalColliders", "originalEntity": "29f87266d3833308" },
-					{ "originalProperty": "m_LocalColliders", "originalEntity": "f12c0d1ca377a22c" },
-					{ "originalProperty": "m_LocalColliders", "originalEntity": "d7f940e0a386439f" },
-					{ "originalProperty": "m_LocalColliders", "originalEntity": "2dcfa65accfb0fc1" },
-					{ "originalProperty": "m_LocalColliders", "originalEntity": "9438b8e2e7ce5268" }
+				"m_bPopped": [
+					{
+						"originalEntity": "feedd40b23cc8dd7",
+						"originalProperty": "m_bValue"
+					}
 				],
-				"m_fStrength": [{ "originalProperty": "m_fStrength", "originalEntity": "1f79ae3b061befb0" }],
-				"m_fWindConstant": [{ "originalProperty": "m_fWindConstant", "originalEntity": "24f1005c8b369176" }]
+				"m_LocalColliders": [
+					{
+						"originalProperty": "m_LocalColliders",
+						"originalEntity": "bb9bfbecc65a2393"
+					},
+					{
+						"originalProperty": "m_LocalColliders",
+						"originalEntity": "29f87266d3833308"
+					},
+					{
+						"originalProperty": "m_LocalColliders",
+						"originalEntity": "f12c0d1ca377a22c"
+					},
+					{
+						"originalProperty": "m_LocalColliders",
+						"originalEntity": "d7f940e0a386439f"
+					},
+					{
+						"originalProperty": "m_LocalColliders",
+						"originalEntity": "2dcfa65accfb0fc1"
+					},
+					{
+						"originalProperty": "m_LocalColliders",
+						"originalEntity": "9438b8e2e7ce5268"
+					}
+				],
+				"m_fStrength": [
+					{
+						"originalProperty": "m_fStrength",
+						"originalEntity": "1f79ae3b061befb0"
+					}
+				],
+				"m_fWindConstant": [
+					{
+						"originalProperty": "m_fWindConstant",
+						"originalEntity": "24f1005c8b369176"
+					}
+				]
 			}
 		},
 		"feedd40b23cc8dd7": {
@@ -422,7 +890,12 @@
 			"name": "VB_BalloonBroken",
 			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entityblueprint",
-			"properties": { "m_bValue": { "type": "bool", "value": false } }
+			"properties": {
+				"m_bValue": {
+					"type": "bool",
+					"value": false
+				}
+			}
 		},
 		"feedec9dd937a4e8": {
 			"parent": "19b1eb0bfd8d5f56",
@@ -430,28 +903,74 @@
 			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_set.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_set.entitytemplate].pc_entityblueprint",
 			"properties": {
-				"m_aValueEntities": { "type": "TArray<SEntityTemplateReference>", "value": ["feedd40b23cc8dd7"] }
+				"m_aValueEntities": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						"feedd40b23cc8dd7"
+					]
+				}
 			}
 		}
 	},
-	"propertyOverrides": [],
-	"overrideDeletes": [],
-	"pinConnectionOverrides": [],
-	"pinConnectionOverrideDeletes": [],
-	"externalScenes": [],
+	"propertyOverrides": [
+
+	],
+	"overrideDeletes": [
+
+	],
+	"pinConnectionOverrides": [
+
+	],
+	"pinConnectionOverrideDeletes": [
+
+	],
+	"externalScenes": [
+
+	],
 	"subType": "template",
 	"quickEntityVersion": 3.1,
 	"extraFactoryDependencies": [
-		{ "resource": "00F039C9E63F8A31", "flag": "5F" },
-		{ "resource": "00D9B5A2C85CF413", "flag": "5F" },
-		{ "resource": "[assembly:/geometry/g2/gizmos.wl2?/gizmo_trigger_01.prim].pc_prim", "flag": "5F" },
-		{ "resource": "[assembly:/geometry/g2/gizmos.wl2?/gizmo_wind_01.prim].pc_prim", "flag": "5F" },
-		{ "resource": "005749B4454A68E2", "flag": "5F" },
-		{ "resource": "0061EE9D6DA6E62A", "flag": "5F" },
-		{ "resource": "0043B1033050D0D2", "flag": "5F" },
-		{ "resource": "00A8628855793A9F", "flag": "5F" },
-		{ "resource": "00BFD566094735F8", "flag": "5F" }
+		{
+			"resource": "00F039C9E63F8A31",
+			"flag": "5F"
+		},
+		{
+			"resource": "00D9B5A2C85CF413",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/geometry/g2/gizmos.wl2?/gizmo_trigger_01.prim].pc_prim",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/geometry/g2/gizmos.wl2?/gizmo_wind_01.prim].pc_prim",
+			"flag": "5F"
+		},
+		{
+			"resource": "005749B4454A68E2",
+			"flag": "5F"
+		},
+		{
+			"resource": "0061EE9D6DA6E62A",
+			"flag": "5F"
+		},
+		{
+			"resource": "0043B1033050D0D2",
+			"flag": "5F"
+		},
+		{
+			"resource": "00A8628855793A9F",
+			"flag": "5F"
+		},
+		{
+			"resource": "00BFD566094735F8",
+			"flag": "5F"
+		}
 	],
-	"extraBlueprintDependencies": [],
-	"comments": []
+	"extraBlueprintDependencies": [
+
+	],
+	"comments": [
+
+	]
 }
