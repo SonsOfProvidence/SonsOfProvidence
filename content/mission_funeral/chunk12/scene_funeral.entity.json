@@ -6399,6 +6399,76 @@
 			"name": "Geometry",
 			"factory": "[modules:/zentity.class].pc_entitytype",
 			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
+		},
+		"feedfc4bc842bbde": {
+			"parent": "abcd56b67c5c3bc1",
+			"name": "Exit_Area_Sidewalk",
+			"factory": "[assembly:/_pro/design/levelflow.template?/exit_area_crowd.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/levelflow.template?/exit_area_crowd.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 111.88295188814772
+						},
+						"position": {
+							"x": 17.6,
+							"y": 20.657495,
+							"z": 0.24999996
+						}
+					}
+				},
+				"SoftExitVolumeBoxSize": {
+					"type": "SVector3",
+					"value": {
+						"x": 5,
+						"y": 5,
+						"z": 3
+					}
+				},
+				"m_sId": {
+					"type": "ZGuid",
+					"value": "781092b7-5420-4950-84f7-1bc7c7a796c9"
+				},
+				"HardExitVolumeBoxSize": {
+					"type": "SVector3",
+					"value": {
+						"x": 1,
+						"y": 1,
+						"z": 3
+					}
+				},
+				"HardTriggerOffset": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": 0,
+							"y": 7,
+							"z": 0
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fffffffffffffffe",
+					"postInit": true
+				}
+			},
+			"events": {
+				"ExitActivated": {
+					"StartExitSequence": [
+
+					]
+				}
+			}
 		}
 	},
 	"propertyOverrides": [

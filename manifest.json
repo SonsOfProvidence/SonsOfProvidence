@@ -4118,6 +4118,12 @@
 			"comment": "lamp_palace_street_a_00",
 			"portFromChunk1": true,
 			"toChunk": 0
+		},
+		{
+			"runtimeID": "00F950FC18B9C8EE",
+			"comment": "exit_area_crowd",
+			"portFromChunk1": true,
+			"toChunk": 0
 		}
 	],
 	"packagedefinition": [
