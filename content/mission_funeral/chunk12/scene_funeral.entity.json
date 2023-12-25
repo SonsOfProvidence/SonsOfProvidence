@@ -6353,6 +6353,52 @@
 					}
 				}
 			}
+		},
+		"feedc8ab2079ce06": {
+			"parent": "feed22f94d6130e6",
+			"name": "Door_Garden_Left_A_00",
+			"factory": "[assembly:/_pro/environment/geometry/architecture/doors/doors_palace_garden_a.wl2?/door_garden_left_a_00.prim].pc_entitytype",
+			"blueprint": "[assembly:/templates/geometrytemplaterigidbody.template?/geomentity01.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 90
+						},
+						"position": {
+							"x": -18.378716,
+							"y": -40.68096,
+							"z": 1.8837891
+						}
+					}
+				},
+				"m_bRemovePhysics": {
+					"type": "bool",
+					"value": false
+				},
+				"m_bKinematic": {
+					"type": "bool",
+					"value": true
+				},
+				"m_bCastShadows": {
+					"type": "bool",
+					"value": true
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feed155478e29bd7",
+					"postInit": true
+				}
+			}
+		},
+		"feed22f94d6130e6": {
+			"parent": "feed155478e29bd7",
+			"name": "Geometry",
+			"factory": "[modules:/zentity.class].pc_entitytype",
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
 		}
 	},
 	"propertyOverrides": [
