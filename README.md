@@ -25,7 +25,8 @@ Note: The mod is still a work in progress. It is planned to be an offline mode m
 
 Atampy25/6 - SMF & QNE  
 Kevin Rudd's Custom Map Pack - https://www.nexusmods.com/hitman3/mods/38  
-Notex - RPKG, HM3CustomMaps, Statue of Liberty prims and materials - https://github.com/Notexe/HM3CustomMaps  
+Notex - RPKG, HM3CustomMaps, Statue of Liberty prims and materials, AI Navigation Grid and Navmesh - https://github.com/Notexe/HM3CustomMaps  
+2kpr - AI Navigation Grid and Navmesh  
 OrfeasZ - ZHM Mod - https://github.com/OrfeasZ/ZHMModSDK  
 Anthony Fuller - Tony Tools - https://github.com/AnthonyFuller/TonyTools  
 printable_models - Statue of Liberty model from https://free3d.com/3d-model/statue-of-liberty-v1--175955.html  
