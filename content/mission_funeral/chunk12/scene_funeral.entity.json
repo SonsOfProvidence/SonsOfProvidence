@@ -7486,6 +7486,234 @@
 					]
 				}
 			}
+		},
+		"feed69c70a2cea72": {
+			"parent": "feed18dd78787a98",
+			"name": "SignalGate_Void",
+			"factory": "[modules:/zsignalgateentity_void.class].pc_entitytype",
+			"blueprint": "[modules:/zsignalgateentity_void.class].pc_entityblueprint",
+			"events": {
+				"Out": {
+					"Disable": [
+						"feed69c70a2cea72"
+					],
+					"In": [
+						"feed7c2c812ab4a8"
+					]
+				}
+			}
+		},
+		"feed7c2c812ab4a8": {
+			"parent": "feed18dd78787a98",
+			"name": "SignalFork_Void",
+			"factory": "[modules:/zsignalforkentity_void.class].pc_entitytype",
+			"blueprint": "[modules:/zsignalforkentity_void.class].pc_entityblueprint",
+			"events": {
+				"Out01": {
+					"Detach": [
+						"feed06d0a59a735b"
+					]
+				},
+				"Out02": {
+					"SpawnItem": [
+						"feed06d0a59a735b"
+					]
+				},
+				"Out03": {
+					"SetTrue": [
+						"feedd1e4a9e8767f"
+					]
+				}
+			}
+		},
+		"feed06d0a59a735b": {
+			"parent": "feed18dd78787a98",
+			"name": "ItemSpawner",
+			"factory": "[modules:/zitemspawner.class].pc_entitytype",
+			"blueprint": "[modules:/zitemspawner.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -11.561521970734796
+						},
+						"position": {
+							"x": 0.05697999894618988,
+							"y": -0.014235000126063824,
+							"z": 1.2776609659194946
+						}
+					}
+				},
+				"m_bSpawnOnStart": {
+					"type": "bool",
+					"value": false
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				},
+				"m_bUsePlacementAttach": {
+					"type": "bool",
+					"value": false
+				},
+				"m_ePhysicsMode": {
+					"type": "ZItemSpawner.EPhysicsMode",
+					"value": "EPM_DYNAMIC"
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feed18dd78787a98"
+				},
+				"m_rMainItemKey": {
+					"type": "SEntityTemplateReference",
+					"value": "feed592c438e321d",
+					"postInit": true
+				}
+			}
+		},
+		"feed592c438e321d": {
+			"parent": "feed18dd78787a98",
+			"name": "ItemKey_Thomas_Cross_Phone",
+			"factory": "[modules:/zitemrepositorykeyentity.class].pc_entitytype",
+			"blueprint": "[modules:/zitemrepositorykeyentity.class].pc_entityblueprint",
+			"properties": {
+				"m_RepositoryId": {
+					"type": "ZGuid",
+					"value": "1518c0c7-7fa1-4d51-a87d-d660e5bfc8f1"
+				}
+			}
+		},
+		"feeda9f25b6371ac": {
+			"parent": "feed18dd78787a98",
+			"name": "ActorDeath",
+			"factory": "[modules:/zactordeathentity.class].pc_entitytype",
+			"blueprint": "[modules:/zactordeathentity.class].pc_entityblueprint",
+			"properties": {
+				"m_rActor": {
+					"type": "SEntityTemplateReference",
+					"value": "feed18dd78787a98"
+				}
+			},
+			"events": {
+				"OnDying": {
+					"In": [
+						"feed69c70a2cea72"
+					]
+				},
+				"OnDead": {
+					"In": [
+						"feed69c70a2cea72"
+					]
+				},
+				"OnPacified": {
+					"In": [
+						"feed69c70a2cea72"
+					]
+				}
+			}
+		},
+		"feed131315cc0b11": {
+			"parent": "abcdc5ec6784516a",
+			"name": "Grey calls for fund transfer",
+			"factory": "[modules:/zentity.class].pc_entitytype",
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint",
+			"events": {
+				"UsedWalkieTalkie": {
+					"SetTrue": [
+						"feed49ad9bd25335"
+					],
+					"In": [
+
+					]
+				}
+			}
+		},
+		"feed89767f381299": {
+			"parent": "feed131315cc0b11",
+			"name": "SignalGate_Void",
+			"factory": "[modules:/zsignalgateentity_void.class].pc_entitytype",
+			"blueprint": "[modules:/zsignalgateentity_void.class].pc_entityblueprint",
+			"events": {
+				"Out": {
+					"In": [
+						"feed4b406f517948"
+					],
+					"Trigger": [
+						"feed5af01da7f845"
+					]
+				}
+			}
+		},
+		"feed258ef2c2f71f": {
+			"parent": "feed131315cc0b11",
+			"name": "EventChannelReceiver_void",
+			"factory": "[assembly:/_pro/design/gamecore/events/eventchannel.template?/eventchannelreceiver_void.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/gamecore/events/eventchannel.template?/eventchannelreceiver_void.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_rChannelToken": {
+					"type": "SEntityTemplateReference",
+					"value": "feed282fa329a6c8",
+					"postInit": true
+				}
+			},
+			"events": {
+				"EventReceived": {
+					"In": [
+						"feed89767f381299"
+					]
+				}
+			}
+		},
+		"feed282fa329a6c8": {
+			"parent": "feed131315cc0b11",
+			"name": "EventToken_Prop_Paris_Phone_Bodyguard_Activated",
+			"factory": "[assembly:/_pro/design/gamecore/events/eventtokens_props.template?/eventtoken_prop_paris_phone_bodyguard_activated.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/gamecore/events/eventtokens_props.template?/eventtoken_prop_paris_phone_bodyguard_activated.entitytemplate].pc_entityblueprint"
+		},
+		"feed4b406f517948": {
+			"parent": "feed131315cc0b11",
+			"name": "TimerSimple",
+			"factory": "[assembly:/_pro/design/logic.template?/timersimple.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/logic.template?/timersimple.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"Delay time (ms)": {
+					"type": "int32",
+					"value": 2000
+				}
+			},
+			"events": {
+				"Out": {
+					"Start": [
+					]
+				}
+			}
+		},
+		"feed49ad9bd25335": {
+			"parent": "feed131315cc0b11",
+			"name": "VB_UsedWalkieTalkie",
+			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entityblueprint"
+		},
+		"feedd1e4a9e8767f": {
+			"parent": "feed18dd78787a98",
+			"name": "Thomas Cross is dead",
+			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entityblueprint"
+		},
+		"feed5af01da7f845": {
+			"parent": "feed131315cc0b11",
+			"name": "ContractsEvent",
+			"factory": "[modules:/zcontractsevententity.class].pc_entitytype",
+			"blueprint": "[modules:/zcontractsevententity.class].pc_entityblueprint",
+			"properties": {
+				"m_sName": {
+					"type": "ZString",
+					"value": "FundsTransferred"
+				}
+			}
 		}
 	},
 	"propertyOverrides": [

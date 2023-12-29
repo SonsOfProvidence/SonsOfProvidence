@@ -176,5 +176,107 @@
 	},
 	"743F058F-56A0-420F-8B5E-46DABABACA37": {
 		"Name": "Ben Bern"
+	},
+	"1518c0c7-7fa1-4d51-a87d-d660e5bfc8f1": {
+		"AIPerceptibleOnRelease": false,
+		"ActionRewardType": "AR_QuestItem",
+		"AdditionalKeywords": [
+			"",
+			"INVENTORY_SIZE_SMALL"
+		],
+		"AmmoItem": "00000000-0000-0000-0000-000000000000",
+		"AppliedModifiers": [
+			"00000000-0000-0000-0000-000000000000"
+		],
+		"CanBeDropped": false,
+		"CanPistolWhip": false,
+		"CarryAnimSetType": "EAST_SUITCASE",
+		"CheatGroup": "eCGNone",
+		"CheatSpawnGroup_Everything": true,
+		"CheatSpawnGroup_Keys": false,
+		"CheatSpawnGroup_Standard": false,
+		"CheatSpawnGroup_Tools": false,
+		"CommonName": "Thomas_Cross_Phone",
+		"CompareItem": "00000000-0000-0000-0000-000000000000",
+		"Description": "ui_prop_questitem_funeral_thomas_cross_phone_title",
+		"DetectShots": false,
+		"DisplayItemCategoryOnlineTraitsIndex": 0.0,
+		"EnablePickUpOnRelease": true,
+		"EnablePickUpOnSpawn": true,
+		"EnablePickUpOnThrowRelease": true,
+		"EquipAbility": "EA_EQUIP_IN_HANDS",
+		"ForbidCloseCombat": false,
+		"GripAnimType": "IGT_Prop_1h_Phone",
+		"HarmlessImpact": false,
+		"HitmanCanConceal": false,
+		"HolsterAbility": "eUndecided",
+		"HudIcon": "44279612171497149",
+		"ID_": "1518c0c7-7fa1-4d51-a87d-d660e5bfc8f1",
+		"Image": "images/unlockables/item_perspective_6cae7694-0a60-4a13-ab3e-63624004185e_0.jpg",
+		"InteractionTimeMultiplier": 1.0,
+		"InventoryCategoryIcon": "QuestItem",
+		"InventoryCategoryName": "",
+		"IsCheckedWhenFrisked": true,
+		"IsCoin": false,
+		"IsExplosive": false,
+		"IsPerceivedAsWeapon": false,
+		"ItemHUDType": "EIHT_None",
+		"ItemHandsCoverAnimLayer": "IH_NONE",
+		"ItemHandsIdle": "IH_ONEHANDED",
+		"ItemHandsUse": "IH_ONEHANDED",
+		"ItemImpactForce": 0.0,
+		"ItemImpactUpkick": 0.0,
+		"ItemSize": "ITEMSIZE_SMALL",
+		"ItemType": "eUnknownItemType",
+		"KillItemCategoryOnlineTraitsIndex": 0.0,
+		"KinematicWhileCarried": false,
+		"LocaKey": "",
+		"MainAnimSetType": "EAST_UNDEFINED",
+		"MeleeDamageBehavior": "EIMDB_Undefined",
+		"ModifierSlot1": [
+			"00000000-0000-0000-0000-000000000000"
+		],
+		"ModifierSlot2": [
+			"00000000-0000-0000-0000-000000000000"
+		],
+		"ModifierSlot3": [
+			"00000000-0000-0000-0000-000000000000"
+		],
+		"ModifierSlot4": [
+			"00000000-0000-0000-0000-000000000000"
+		],
+		"ModifierSlot5": [
+			"00000000-0000-0000-0000-000000000000"
+		],
+		"MugshotIsTransparent": false,
+		"MugshotTransformation": "-4.371139E-08, 1, 0, 4.371139E-08, 1.910685E-15, 1, 1, 4.371139E-08, -4.371139E-08, 0, 0, 0",
+		"Name_LOC": "ui_prop_questitem_funeral_thomas_cross_phone_title",
+		"NeverInvestigateDistractions": false,
+		"OnlineTraits": [
+			"NONE"
+		],
+		"OverrideItemThrowRotation": false,
+		"PlaceableType": "PLACEABLE_NOT",
+		"PlacementOrientToHM": true,
+		"PlacementUseHitNormal": true,
+		"PoisonType": "POISONTYPE_NONE",
+		"RagdollImpactForce": 0.0,
+		"RagdollImpactForceGlobal": 0.0,
+		"RagdollImpactUpkick": 0.0,
+		"RagdollImpactUpkickGlobal": 0.0,
+		"Rarity": "ITEMRARITY_COMMON",
+		"RecognizableByCivilians": true,
+		"ReverseItemThrowRotationDirection": false,
+		"Runtime": "54750696069950130",
+		"SpawnKinematic": false,
+		"Stackable": false,
+		"SupportItem": "00000000-0000-0000-0000-000000000000",
+		"ThrowImpactVisualRadius": 1.4,
+		"ThrowType": "THROW_NONE",
+		"ThrowVelocity": 50.0,
+		"ThrownCollisionLoudness": "eLoudness_Default",
+		"Title": "Phone",
+		"TokenID": "",
+		"UseFakePutDownPhysics": false
 	}
 }

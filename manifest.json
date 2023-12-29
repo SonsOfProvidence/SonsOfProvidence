@@ -4210,7 +4210,9 @@
 		"003121C47E69C366": "UI_TOKEN_OUTFIT_LUCAS_GREY_BALD_NAME",
 		"00A12E5B52CD0D41": "UI_TOKEN_OUTFIT_LUCAS_GREY_BALD_DESC",
 		"005E15D04866982C": "NPC_THOMAS_CROSS_NAME",
-		"003FF8408EDE9C46": "NPC_THOMAS_CROSS_DESC"
+		"003FF8408EDE9C46": "NPC_THOMAS_CROSS_DESC",
+		"00BE4BBA23588F10": "ui_prop_questitem_funeral_thomas_cross_phone_title",
+		"00899B5161E5DC50": "ui_prop_questitem_funeral_thomas_cross_phone_use_title"
 	},
 	"localisation": {
 		"english": {
@@ -4279,6 +4281,8 @@
 			"ui_location_moscow_country": "Russia",
 			"ui_location_moscow_city": "Moscow",
 			"ui_location_moscow_title": "Collateral Damage",
+			"ui_prop_questitem_funeral_thomas_cross_phone_title": "Thomas Cross' Phone",
+			"ui_prop_questitem_funeral_thomas_cross_phone_use_title": "Transfer funds",
 			"ui_starting_location_marrakesh_courtyard_default_name": "Outside Ether Headquarters",
 			"ui_starting_location_marrakesh_courtyard_desc": "I've made my way to Johannesburg, and have positioned myself near Ether's Headquarters building.",
 			"ui_starting_location_funeral_church_tower_default_name": "Church Tower",

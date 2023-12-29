@@ -10,6 +10,7 @@
 				"ForceShowOnLoadingScreen": true,
 				"IsHidden": false,
 				"BriefingName": "$($repository d3959196-6be0-43ea-b6e7-aafa70822045).Name",
+				"LongBriefingText": "Thomas Cross is a wealthy billionaire with a media conglomerate and is under the control of Providence. He needs to be eliminated.",
 				"Image": "images/sop/funeral_target.jpg",
 				"HUDTemplate": { "display": "Eliminate Thomas Cross" },
 				"BriefingText": "Eliminate Thomas Cross",
@@ -27,6 +28,22 @@
 							]
 						}
 					}
+				}
+			},
+			{
+				"Id": "49b4a55c-f1ba-4fc1-a7f2-1032595ce1d7",
+				"ObjectiveType": "setpiece",
+				"ForceShowOnLoadingScreen": true,
+				"Image": "images/sop/funeral_objective.jpg",
+				"BriefingName": "Obtain Thomas Cross' wealth",
+				"LongBriefingText": "I need to take Thomas Cross for everything he's got. I am sure I can convince him to transfer his money to me, but if he should meet his end before that can happen, I can take his phone and Olivia can hack into it.",
+				"Category": "primary",
+				"HUDTemplate": { "display": "Obtain Thomas Cross' wealth" },
+				"BriefingText": "Obtain Thomas Cross' wealth",
+				"Type": "statemachine",
+				"Definition": {
+					"Context": { "Targets": ["dab13504-0dd7-4fc5-8e59-85f005b7d1a4"] },
+					"States": { "Start": { "FundsTransferred": [{ "Transition": "Success" }] } }
 				}
 			}
 		],
