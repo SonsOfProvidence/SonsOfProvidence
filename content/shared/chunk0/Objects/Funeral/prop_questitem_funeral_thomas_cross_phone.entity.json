@@ -1,0 +1,300 @@
+{
+	"tempHash": "00C28377CE746AB2",
+	"tbluHash": "00E29EB5892D2B52",
+	"rootEntity": "feeddff8fd177c46",
+	"entities": {
+		"feeddff8fd177c46": {
+			"parent": null,
+			"name": "Prop_QuestItem_Funeral_Thomas_Cross_Runtime",
+			"factory": "[modules:/zentity.class].pc_entitytype",
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": -8.605293273925781,
+							"y": 0.3865489959716797,
+							"z": 0
+						}
+					}
+				}
+			},
+			"propertyAliases": {
+				"m_eidParent": [
+					{
+						"originalProperty": "m_eidParent",
+						"originalEntity": "feedb3291991e230"
+					}
+				],
+				"m_mTransform": [
+					{
+						"originalProperty": "m_mTransform",
+						"originalEntity": "feedb3291991e230"
+					}
+				]
+			},
+			"exposedInterfaces": {
+				"ZSpatialEntity": "feedb3291991e230",
+				"IItem": "feed52a1c2c78c0b",
+				"ZHM5Item": "feed52a1c2c78c0b",
+				"IItemBase": "feed52a1c2c78c0b",
+				"IDynamicPhysics": "feedb3291991e230",
+				"IPhysicsAccessor": "feedb3291991e230",
+				"ZGeomEntity": "feedb3291991e230"
+			}
+		},
+		"feedb3291991e230": {
+			"parent": "feeddff8fd177c46",
+			"name": "Phone_Helmut_A",
+			"factory": "[assembly:/_pro/items/templates/quest/phone_helmut_a.template?/phone_helmut_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/items/templates/quest/phone_helmut_a.template?/phone_helmut_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": -8.605293273925781,
+							"y": 0.3865489959716797,
+							"z": 0
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": null,
+					"postInit": true
+				}
+			}
+		},
+		"feed09b6492fcb1c": {
+			"parent": "feeddff8fd177c46",
+			"name": "EventToken_Prop_Paris_Phone_Bodyguard_Activated",
+			"factory": "[assembly:/_pro/design/gamecore/events/eventtokens_props.template?/eventtoken_prop_paris_phone_bodyguard_activated.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/gamecore/events/eventtokens_props.template?/eventtoken_prop_paris_phone_bodyguard_activated.entitytemplate].pc_entityblueprint"
+		},
+		"feed1efbafd50a1c": {
+			"parent": "feeddff8fd177c46",
+			"name": "SaveBlocker",
+			"factory": "[modules:/zsaveblockerentity.class].pc_entitytype",
+			"blueprint": "[modules:/zsaveblockerentity.class].pc_entityblueprint"
+		},
+		"feed75a3c95a4e51": {
+			"parent": "feeddff8fd177c46",
+			"name": "Keyword_QUESTITEM_PARIS_PHONE_BODYGUARD",
+			"factory": "[assembly:/_pro/design/gamecore/keywords/keyworditems.template?/keyword_questitem_paris_phone_bodyguard.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/gamecore/keywords/keyworditems.template?/keyword_questitem_paris_phone_bodyguard.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_aHolders": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						"feedb3291991e230"
+					]
+				}
+			}
+		},
+		"feed52a1c2c78c0b": {
+			"parent": "feeddff8fd177c46",
+			"name": "PropHelper_QuestItem_PhoneCall01",
+			"factory": "[assembly:/_pro/design/gamecore/prophelpers.template?/prophelper_questitem_phonecall.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/gamecore/prophelpers.template?/prophelper_questitem_phonecall.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feedb3291991e230"
+				},
+				"m_rGeomentity": {
+					"type": "SEntityTemplateReference",
+					"value": "feedb3291991e230"
+				},
+				"m_PosHandAttach": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "feedb3291991e230",
+						"externalScene": null,
+						"exposedEntity": "HandAttacherSpatial"
+					}
+				},
+				"m_PosPlacementAttach": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "feedb3291991e230",
+						"externalScene": null,
+						"exposedEntity": "PropHelper_Item_Placement"
+					}
+				},
+				"m_rPromptDescriptionTextResource": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "00BE4BBA23588F10",
+						"flag": "5F"
+					}
+				},
+				"m_rPromptTextResource": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "00899B5161E5DC50",
+						"flag": "5F"
+					}
+				},
+				"m_nAnimlayerTime": {
+					"type": "float32",
+					"value": 3
+				}
+			},
+			"events": {
+				"OnEquip": {
+					"PlayPickUpSound": [
+						"feeda770ced14b41"
+					],
+					"TurnOn": [
+						"feedb3291991e230"
+					]
+				},
+				"OnUnEquip": {
+					"PlayUnEquipped_Sound": [
+						"feeda770ced14b41"
+					],
+					"TurnOff": [
+						"feedb3291991e230"
+					]
+				},
+				"Started": {
+					"PlayUseItemSound": [
+						"feeda770ced14b41"
+					],
+					"Enable": [
+						"feed1efbafd50a1c"
+					]
+				},
+				"Completed": {
+					"PlayFinishUseItemSound": [
+						"feeda770ced14b41"
+					],
+					"Disable": [
+						"feed1efbafd50a1c"
+					]
+				}
+			},
+			"subsets": {
+				"Replicable": [
+					"feeddff8fd177c46"
+				]
+			}
+		},
+		"feeda770ced14b41": {
+			"parent": "feeddff8fd177c46",
+			"name": "Sound_PickupItems",
+			"factory": "[assembly:/templates/sound/customsoundtemplates.template?/sound_pickupitems.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/templates/sound/customsoundtemplates.template?/sound_pickupitems.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_rHolder": {
+					"type": "SEntityTemplateReference",
+					"value": "feedb3291991e230"
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feedb3291991e230"
+				},
+				"UseItem_SFX": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "002A2B3969B95ED7",
+						"flag": "5F"
+					}
+				},
+				"Finish_UseItem_SFX": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "005333628C5DC401",
+						"flag": "5F"
+					}
+				},
+				"PropEquipped_Sound": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "00F9ABADFE089CFD",
+						"flag": "5F"
+					}
+				},
+				"PropUnEquipped_Sound": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "00D8004EAC00BD1C",
+						"flag": "5F"
+					}
+				}
+			},
+			"subsets": {
+				"AudioEmitters": [
+					"feeddff8fd177c46"
+				]
+			}
+		},
+		"feed5dcc321204df": {
+			"parent": "feeddff8fd177c46",
+			"name": "keyword_ITEMRULE_LEGAL",
+			"factory": "[assembly:/_pro/design/gamecore/keywords/keyworditems.template?/keyword_itemrule_legal.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/gamecore/keywords/keyworditems.template?/keyword_itemrule_legal.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_aHolders": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						"feedb3291991e230"
+					]
+				}
+			}
+		}
+	},
+	"propertyOverrides": [
+
+	],
+	"overrideDeletes": [
+
+	],
+	"pinConnectionOverrides": [
+
+	],
+	"pinConnectionOverrideDeletes": [
+
+	],
+	"externalScenes": [
+
+	],
+	"subType": "template",
+	"quickEntityVersion": 3.1,
+	"extraFactoryDependencies": [
+
+	],
+	"extraBlueprintDependencies": [
+
+	],
+	"comments": [
+
+	]
+}
