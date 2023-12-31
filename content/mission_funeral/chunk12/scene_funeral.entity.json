@@ -1607,9 +1607,9 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": 90
+							"x": 0.8423892683699165,
+							"y": -81.40897007586862,
+							"z": 148.8502169594395
 						},
 						"position": {
 							"x": -29.650215,
@@ -1698,7 +1698,7 @@
 			"events": {
 				"OnStart": {
 					"Start": [
-						"feed21efa7fda0d7"
+						"feed104473684061"
 					]
 				}
 			},
@@ -1714,57 +1714,6 @@
 					"type": "SEntityTemplateReference",
 					"value": "feed18dd78787a98",
 					"postInit": true
-				}
-			}
-		},
-		"feed21efa7fda0d7": {
-			"parent": "feed791f6eebdd4b",
-			"name": "Act_MR_Stand_Basic Sidewalk",
-			"factory": "00251CC86224019D",
-			"blueprint": "005C75C0C3B1863A",
-			"properties": {
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": 90
-						},
-						"position": {
-							"x": 27.761856,
-							"y": -29.935616,
-							"z": 0.25000003
-						}
-					}
-				},
-				"m_AlignRotation": {
-					"type": "ZActBehaviorEntity.ERotationAlignment",
-					"value": "RA_LOOSE"
-				},
-				"m_fActTimeout": {
-					"type": "float32",
-					"value": 3
-				},
-				"m_bUseConversationHelper": {
-					"type": "bool",
-					"value": true
-				},
-				"m_MovementType": {
-					"type": "ZActBehaviorEntity.EMovementType",
-					"value": "MT_WALK"
-				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "fffffffffffffffe",
-					"postInit": true
-				}
-			},
-			"events": {
-				"OnActTimeout": {
-					"Start": [
-						"feed104473684061"
-					]
 				}
 			}
 		},
