@@ -31,19 +31,37 @@
 				}
 			},
 			{
-				"Id": "49b4a55c-f1ba-4fc1-a7f2-1032595ce1d7",
-				"ObjectiveType": "setpiece",
+				"Id": "341c93cc-05b5-45df-8b32-17ffa44e29ac",
+				"Category": "primary",
+				"ObjectiveType": "custom",
 				"ForceShowOnLoadingScreen": true,
 				"Image": "images/sop/funeral_objective.jpg",
-				"BriefingName": "Obtain Thomas Cross' wealth",
+				"BriefingName": "Obtain Thomas Cross' phone",
+				"BriefingText": "I need to take Thomas Cross for everything he's got.",
 				"LongBriefingText": "I need to take Thomas Cross for everything he's got. I am sure I can convince him to transfer his money to me, but if he should meet his end before that can happen, I can take his phone and Olivia can hack into it.",
-				"Category": "primary",
-				"HUDTemplate": { "display": "Obtain Thomas Cross' wealth" },
-				"BriefingText": "Obtain Thomas Cross' wealth",
+				"HUDTemplate": {
+					"display": "Obtain Thomas Cross' phone"
+				},
 				"Type": "statemachine",
 				"Definition": {
-					"Context": { "Targets": ["dab13504-0dd7-4fc5-8e59-85f005b7d1a4"] },
-					"States": { "Start": { "FundsTransferred": [{ "Transition": "Success" }] } }
+					"Context": {
+						"Targets": [
+							"1518c0c7-7fa1-4d51-a87d-d660e5bfc8f1"
+						]
+					},
+					"States": {
+						"Start": {
+							"ItemPickedUp": {
+								"Condition": {
+									"$eq": [
+										"$Value.RepositoryId",
+										"1518c0c7-7fa1-4d51-a87d-d660e5bfc8f1"
+									]
+								},
+								"Transition": "Success"
+							}
+						}
+					}
 				}
 			}
 		],
