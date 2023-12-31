@@ -350,5 +350,13 @@
 	{
 		"hash": "00C33CBC44349062",
 		"ioiString": "[assembly:/sonsofprovidence/airplane/setpiece_airplane_unique_computer_100cm.entitytemplate].pc_entityblueprint"
+	},
+	{
+		"hash": "00C28377CE746AB2",
+		"ioiString": "[assembly:/sonsofprovidence/funeral/prop_questitem_funeral_thomas_cross_phone.entitytemplate].pc_entitytype"
+	},
+	{
+		"hash": "00E29EB5892D2B52",
+		"ioiString": "[assembly:/sonsofprovidence/funeral/prop_questitem_funeral_thomas_cross_phone.entitytemplate].pc_entityblueprint"
 	}
 ]

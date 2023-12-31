@@ -1642,6 +1642,12 @@
 					"type": "EActorVoiceVariation",
 					"value": "eAVV_CIVMALE02"
 				},
+				"m_InventoryItemKeys": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						"feed7265799410bb"
+					]
+				},
 				"m_bStartEnabled": {
 					"type": "bool",
 					"value": true
@@ -7484,6 +7490,18 @@
 					"StartExitSequence": [
 						"feed6809f1423297"
 					]
+				}
+			}
+		},
+		"feed7265799410bb": {
+			"parent": "feed18dd78787a98",
+			"name": "ItemKey_Phone",
+			"factory": "[modules:/zitemrepositorykeyentity.class].pc_entitytype",
+			"blueprint": "[modules:/zitemrepositorykeyentity.class].pc_entityblueprint",
+			"properties": {
+				"m_RepositoryId": {
+					"type": "ZGuid",
+					"value": "1518c0c7-7fa1-4d51-a87d-d660e5bfc8f1"
 				}
 			}
 		}
