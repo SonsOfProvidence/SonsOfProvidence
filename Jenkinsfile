@@ -10,7 +10,7 @@ pipeline {
                 echo 'Current directory: ' + env.WORKSPACE
                 dir('..') {
                     bat "ren ${env.WORKSPACE} \"Sons of Providence\""
-                    bat "mv \"Sons of Providence\" \"C:\\JenkinsWorkspace\\workspace\\HITMAN 3\\Simple Mod Framework\\"
+                    bat "move \"Sons of Providence\" \"C:\\JenkinsWorkspace\\workspace\\HITMAN 3\\Simple Mod Framework\\"
                 }
                 dir('C:\\JenkinsWorkspace\\workspace\\HITMAN 3\\Simple Mod Framework\\') {
                     bat "Deploy.exe --logLevel verbose --logLevel debug --logLevel info --logLevel warn --logLevel error --useConsoleLogging"
