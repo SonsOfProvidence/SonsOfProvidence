@@ -7,7 +7,7 @@ pipeline {
         stage('Deploy Sons of Providence') {
             steps {
                 dir('C:\\JenkinsWorkspace\\workspace\\') {
-                    bat "ren Sons_Of_Providence_main \"C:\\JenkinsWorkspace\\HITMAN 3\\Simple Mod Framework\\Sons of Providence\""
+                    bat "ren Sons_Of_Providence_main \"C:\\JenkinsWorkspace\\workspace\\HITMAN 3\\Simple Mod Framework\\Sons of Providence\""
                 }
                 dir('C:\\JenkinsWorkspace\\workspace\\HITMAN 3\\Simple Mod Framework\\') {
                     bat "Deploy.exe --logLevel verbose --logLevel debug --logLevel info --logLevel warn --logLevel error --useConsoleLogging"
