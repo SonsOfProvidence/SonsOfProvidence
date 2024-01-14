@@ -8,7 +8,7 @@
 
 This mod is a new campaign that follows Lucas Grey throughout his journey in the World of Assassination Trilogy, beginning with his and 47's assault on The Institute for Human Betterment, through the assault on Providence, and on the Partners. It is broken up into multiple missions, each based on a situation described or shown in the original trilogy. Each mission will be played in one of the destinations in the original trilogy, but occasionally the location will be repurposed to take place in a different setting’s location.
 
-Note: The mod is still a work in progress. It is planned to be an offline mode mod, so it may not work properly in online mode.
+Note: The mod is still a work in progress. It is currently designed to be an offline mode mod, so it is not available in online mode.
 
 ## Installation instructions:
 
