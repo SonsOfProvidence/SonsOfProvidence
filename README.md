@@ -19,8 +19,8 @@ Note: The mod is still a work in progress. It is currently designed to be an off
 
 ### Credits
 
-Atampy25/6 - SMF & QNE  
-Kevin Rudd's Custom Map Pack - https://www.nexusmods.com/hitman3/mods/38  
+Atampy25 - Simple Mod Framework - https://github.com/atampy25/simple-mod-framework, Quickentity Editor - https://github.com/atampy25/quickentity-editor-next  
+Kevin Rudd - Custom Map Pack - https://www.nexusmods.com/hitman3/mods/38  
 Notex - RPKG, HM3CustomMaps, Statue of Liberty prims and materials, AI Navigation Grid and Navmesh - https://github.com/Notexe/HM3CustomMaps  
 2kpr - AI Navigation Grid and Navmesh  
 OrfeasZ - ZHM Mod - https://github.com/OrfeasZ/ZHMModSDK  
