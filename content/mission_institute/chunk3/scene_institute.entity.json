@@ -1517,7 +1517,10 @@
 
 	],
 	"overrideDeletes": [
-
+		{
+			"ref": "0f73a4655467e5e7",
+			"externalScene": "[assembly:/_pro/scenes/missions/ancestral/scenario_bulldog.brick].pc_entitytype"
+		}
 	],
 	"pinConnectionOverrides": [
 
