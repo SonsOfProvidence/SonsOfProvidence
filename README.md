@@ -4,10 +4,6 @@
 
 ### A Hitman 3 Mod about Lucas Grey
 
-Here is a Google doc describing the mod: https://docs.google.com/document/d/1p4J-pR4IhnzVp71J1IrT_--5JewQFazpATbZDWTHmXA/edit#
-
-Screenshots of development: https://drive.google.com/drive/folders/1qDZbWrh8asCa3vEfYIuR9_0DD2S4TjNH?usp=sharing
-
 ## Mod description:
 
 This mod is a new campaign that follows Lucas Grey throughout his journey in the World of Assassination Trilogy, beginning with his and 47's assault on The Institute for Human Betterment, through the assault on Providence, and on the Partners. It is broken up into multiple missions, each based on a situation described or shown in the original trilogy. Each mission will be played in one of the destinations in the original trilogy, but occasionally the location will be repurposed to take place in a different setting’s location.
@@ -30,8 +26,16 @@ Notex - RPKG, HM3CustomMaps, Statue of Liberty prims and materials, AI Navigatio
 OrfeasZ - ZHM Mod - https://github.com/OrfeasZ/ZHMModSDK  
 Anthony Fuller - Tony Tools - https://github.com/AnthonyFuller/TonyTools  
 printable_models - Statue of Liberty model from https://free3d.com/3d-model/statue-of-liberty-v1--175955.html  
-Marius D - Hillbrow tower model from https://3dwarehouse.sketchup.com/model/6989dc8fd931e8972105fea661183cbd/Hillbrow-Tower
+Marius D - Hillbrow tower model from https://3dwarehouse.sketchup.com/model/6989dc8fd931e8972105fea661183cbd/Hillbrow-Tower  
 Thanks to everyone at the Glacier 2 Modding discord including Kevin Rudd, Anthony Fuller, Invalid, Notex, Sieni, Atampy26, kercyx, 2kpr, volvomodus, HMBM47, and NoFaTe. - https://discord.gg/6UDtuYhZP6
+
+### More Info & Media
+
+Here is a Google doc describing the mod: https://docs.google.com/document/d/1p4J-pR4IhnzVp71J1IrT_--5JewQFazpATbZDWTHmXA/edit#  
+Screenshots of development: https://drive.google.com/drive/folders/1qDZbWrh8asCa3vEfYIuR9_0DD2S4TjNH?usp=sharing  
+Update Video for version 0.7: https://www.youtube.com/watch?v=nBDP6n_3Ugg  
+Update Video for version 0.17: https://www.youtube.com/watch?v=pTICV5o_M1E  
+Update Video for version 0.43: https://www.youtube.com/watch?v=Yl8Oi9fGbl4  
 
 # Campaign Mission and Cutscene list:
 
