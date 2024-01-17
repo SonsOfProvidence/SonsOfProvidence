@@ -37,7 +37,7 @@ Update Video for version 0.7: https://www.youtube.com/watch?v=nBDP6n_3Ugg
 Update Video for version 0.17: https://www.youtube.com/watch?v=pTICV5o_M1E  
 Update Video for version 0.43: https://www.youtube.com/watch?v=Yl8Oi9fGbl4  
 
-# Campaign Mission and Cutscene list:
+# Planned Campaign Mission and Cutscene list:
 
 ## Cutscene: Prologue
 
@@ -49,12 +49,6 @@ The cutscene from the original trilogy, where Subject 6 and Subject 47 are angry
 **Sandbox Destination**: Dartmoor  
 **Briefing Cutscene**: Lucas Grey has landed in front of Rubble falls in front of the hole in the wall.  
 **Gameplay**: Gameplay begins with the player playing as Subject 6 (bald, so the normal Agent 47 model can be used), starting in front of the rubble by the window outside of Dartmoor, armed with a Sawed-off shotgun, wearing the tactical wetsuit. Subject 6 must escape to the exit at the entrance of the Dartmoor level. All the areas of Dartmoor besides the path from the front entrance to the exit are blocked off, and all the doors are non-interactable. The only NPCs are mercenaries, armed with automatic rifles, and they are all enforcers for the Tactical Wetsuit disguise. After the level begins, a grenade is detonated inside the mansion, which will alert the guards.
-
-### Changes that will be needed:
-
--   Start Location change
--   Guard Model replacer (Found in Chongqing Noodle Massacre)
--   Intro Cutscene (Found in Chongqing Noodle Massacre)
 
 **New starting location**: In front of the mansion  
 **Have restricted loadout**:
@@ -85,12 +79,6 @@ Grey has a flashback of him and 47 agreeing to take them all down and gets a ste
 **Intro Cutscene**: Grey texts Olivia “Departing now” on his phone while walking with Cobb on the tarmac, and they both board the plane. The plane takes off.  
 **Gameplay**: Gameplay begins with the player playing as Lucas Grey, starting sitting down in a chair. Grey is armed with a Bartoli 75R pistol. There are several other guards present, also sitting. The target, Eugene Cobb is also sitting. The player must eliminate Cobb and the pilots, then collect the archive key, hack the plane’s radar and redirect it to crash into the ocean, grab a parachute, and then exit via the plane door.
 
-**Changes that will be needed**:
-
--   Start Location change
--   Guard Model replacer (Found in Chongqing Noodle Massacre)
--   Intro Cutscene (Found in Chongqing Noodle Massacre)
-
 **New starting location**: In the final train car  
 **Scenery changes**:
 
@@ -115,11 +103,6 @@ Grey begins reminiscing about 47 and studies mysterious deaths and disappearance
 **Sandbox Destination**: Siberia  
 **Intro Cutscene**:  
 **Gameplay**:  
-**Changes that will be needed**:
-
--   Start Location change
--   Guard Model replacer (Found in Chongqing Noodle Massacre)
--   Intro Cutscene (Found in Chongqing Noodle Massacre)
 
 **New starting location**: In front of the mansion  
 **Scenery changes**: Add a cityscape to make it look more like the Red Square in Moscow  
@@ -204,7 +187,7 @@ Lucas Grey learns of Rico’s death. He decides that he should reveal Providence
 ## Mission 8: Ether’s headquarters
 
 **Setting Location**: Ether’s headquarters in Johannesburg, South Africa  
-**Sandbox Destination**: Mumbai skyscraper, at night  
+**Sandbox Destination**: Chongqing skyscraper, at night  
 **Intro Cutscene**: Grey arrives by helicopter landing on the roof of the Ether headquarters with his militia. He enters the elevator  
 **Gameplay**: Lucas Grey exits the elevator and dispatches the guards. He incapacitates the president of Ether without killing him. He plants a bomb on a scientist. He retrieves the Ether memory wipe antidote and leaves via the elevator. The only playable areas are the top few floors of the skyscraper.  
 **Start Location**: The mission starts at the elevator entrance  
