@@ -1,9 +1,9 @@
 {
-	"4a3b5ee8-7e8f-4129-8cc4-cec800d69ed7": {
-		"ID_": "4a3b5ee8-7e8f-4129-8cc4-cec800d69ed7",
-		"Image": "images/sop/mumbai_roof_starting.jpg",
-		"Name_LOC": "ui_starting_location_mumbai_ether_lab_default_name",
-		"Description": "ui_starting_location_mumbai_ether_lab_desc"
+	"6b56aa77-2a5d-4161-a4fd-afeb339d6bd6": {
+		"ID_": "6b56aa77-2a5d-4161-a4fd-afeb339d6bd6",
+		"Image": "images/sop/chongqing_outside_start.jpg",
+		"Name_LOC": "ui_starting_location_chongqing_ether_lab_default_name",
+		"Description": "ui_starting_location_chongqing_ether_lab_desc"
 	},
 	"9c111405-637e-46b7-a051-279039c533ac": {
 		"ID_": "9c111405-637e-46b7-a051-279039c533ac",

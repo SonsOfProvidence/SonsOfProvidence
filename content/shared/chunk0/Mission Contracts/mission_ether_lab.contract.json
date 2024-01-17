@@ -1,0 +1,41 @@
+{
+	"Data": {
+		"Objectives": [],
+		"GameDifficulties": [
+			{
+				"Difficulty": "easy",
+				"Bricks": []
+			},
+			{
+				"Difficulty": "normal",
+				"Bricks": []
+			},
+			{
+				"Difficulty": "hard",
+				"Bricks": [""]
+			}
+		],
+		"Bricks": [],
+		"Entrances": ["6b56aa77-2a5d-4161-a4fd-afeb339d6bd6"],
+		"GameChangers": [],
+		"EngineModesBricks": []
+	},
+	"Metadata": {
+		"Id": "22e94804-b20e-4fd1-a0b1-7a8d76e3de8c",
+		"CodeName_Hint": "Ether_Lab",
+		"CreationTimestamp": "2023-08-27T00:39:00.000Z",
+		"CreatorUserId": "a38f1dce-a7af-4a3c-a47a-5a94db8c0ed9",
+		"TileImage": "images/locations/location_ether_lab/tile.jpg",
+		"Title": "UI_CHONGQING_TITLE",
+		"Description": "UI_CHONGQING_DESC",
+		"IsPublished": true,
+		"LastUpdate": "2023-08-27T00:39:00.000Z",
+		"Location": "LOCATION_ETHER_LAB",
+		"Release": "2.0.x",
+		"ScenePath": "assembly:/sonsofprovidence/scene_ether_lab.entity",
+		"Type": "mission",
+		"Entitlements": ["LOCATION_WET"],
+		"UserData": null
+	},
+	"UserData": {}
+}

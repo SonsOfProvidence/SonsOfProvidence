@@ -1,0 +1,240 @@
+{
+	"tempHash": "00FDBB868EC37448",
+	"tbluHash": "007A50635C1E36B5",
+	"rootEntity": "fffffffffffffffe",
+	"entities": {
+		"fffffffffffffffe": {
+			"parent": null,
+			"name": "Scene",
+			"blueprint": "[modules:/zspatialentity.class].pc_entityblueprint",
+			"factory": "[modules:/zspatialentity.class].pc_entitytype"
+		},
+		"feede5524a94254b": {
+			"parent": "fffffffffffffffe",
+			"name": "Sapienza_Worker_LabTechnician_M_HPA485",
+			"factory": "[modules:/zglobaloutfitkit.class].pc_entitytype",
+			"blueprint": "[modules:/zglobaloutfitkit.class].pc_entityblueprint",
+			"properties": {
+				"m_DamageMultipliers": {
+					"type": "SBodyPartDamageMultipliers",
+					"value": {
+						"m_fHeadDamageMultiplier": 3,
+						"m_fFaceDamageMultiplier": 3,
+						"m_fArmDamageMultiplier": 1,
+						"m_fLArmDamageScalar": 0,
+						"m_fRArmDamageScalar": 0,
+						"m_fHandDamageMultiplier": 0.5,
+						"m_fLHandDamageScalar": 0,
+						"m_fRHandDamageScalar": 0,
+						"m_fLegDamageMultiplier": 0.6000000238418579,
+						"m_fLLegDamageScalar": 0,
+						"m_fRLegDamageScalar": 0,
+						"m_fTorsoDamageMultiplier": 1,
+						"m_bApplyLeftRightScalars": false
+					}
+				},
+				"m_eActorType": { "type": "EActorType", "value": "eAT_Civilian" },
+				"m_eActorCCClass": { "type": "EActorCCPreset", "value": "ACCP_CivilianeMale" },
+				"m_bHeroDisguiseAvailable": { "type": "bool", "value": true },
+				"m_eSoundFootwearType": { "type": "EHM5SoundFootwearType", "value": "EFWT_LEATHER" },
+				"m_sId": { "type": "ZGuid", "value": "2894c92d-b780-412f-a48f-5c5ddf0dafc8" },
+				"m_pParentOutfit": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "6736fcbbd3e73209",
+						"externalScene": "[assembly:/_pro/scenes/bricks/globaldata.brick].pc_entitytype"
+					}
+				},
+				"m_sCommonName": { "type": "ZString", "value": "Sapienza_Worker_LabTechnician_M_HPA485" },
+				"m_sTitle": { "type": "ZString", "value": "Lab Technician" },
+				"m_eOutfitAICategory": { "type": "EOutfitAICategory", "value": "OAC_Scientist" },
+				"m_rNameTextResource": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/localization/hitman6/conversations/ui/pro/online/repository/outfits_npcs_sapienza.sweetmenutext?/outfits_sapienza_worker_labtechnician_m_hpa485_name_2894c92d-b780-412f-a48f-5c5ddf0dafc8.sweetline].pc_sweetline",
+						"flag": "5F"
+					}
+				},
+				"m_rDescriptionTextResource": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/localization/hitman6/conversations/ui/pro/online/repository/outfits_npcs_sapienza.sweetmenutext?/outfits_sapienza_worker_labtechnician_m_hpa485_description_2894c92d-b780-412f-a48f-5c5ddf0dafc8.sweetline].pc_sweetline",
+						"flag": "5F"
+					}
+				},
+				"m_rDefaultVoiceVariations": {
+					"type": "TArray<EActorVoiceVariation>",
+					"value": ["eAVV_SCIENTIST01", "eAVV_SCIENTIST02", "eAVV_SCIENTIST03", "eAVV_SCIENTIST04"]
+				},
+				"m_aCharSets": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["feed16143e94df4e"],
+					"postInit": true
+				}
+			}
+		},
+		"feedadaf52e7f4d1": {
+			"parent": "feede5524a94254b",
+			"name": "Keyword_FOLEY_OUTFIT_WORKER_CLOTH_HEAVY",
+			"factory": "[assembly:/_pro/design/gamecore/keywords/keywordsound.template?/keyword_foley_outfit_worker_cloth_heavy.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/gamecore/keywords/keywordsound.template?/keyword_foley_outfit_worker_cloth_heavy.entitytemplate].pc_entityblueprint",
+			"properties": { "m_aHolders": { "type": "TArray<SEntityTemplateReference>", "value": ["feede5524a94254b"] } }
+		},
+		"feed16143e94df4e": {
+			"parent": "feede5524a94254b",
+			"name": "CHARSET_TechnicianA",
+			"factory": "[assembly:/_pro/characters/templates/workers/lab.template?/charset_techniciana.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/characters/templates/workers/lab.template?/charset_techniciana.entitytemplate].pc_entityblueprint"
+		},
+		"feed3204e2acf6cf": {
+			"parent": "feede5524a94254b",
+			"name": "Keyword_FOLEY_VR_OUTFIT_RUBBERGLOVES",
+			"factory": "[assembly:/_pro/design/gamecore/keywords/keywordsound.template?/keyword_foley_vr_outfit_rubbergloves.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/gamecore/keywords/keywordsound.template?/keyword_foley_vr_outfit_rubbergloves.entitytemplate].pc_entityblueprint",
+			"properties": { "m_rHolder": { "type": "SEntityTemplateReference", "value": "feede5524a94254b" } }
+		},
+		"feed4f26878ab1ec": {
+			"parent": "feede5524a94254b",
+			"name": "Keyword_Prof_Class_Default",
+			"factory": "007A51A2AFEC0D1A",
+			"blueprint": "00B0282A41C1CF2E",
+			"properties": { "m_aHolders": { "type": "TArray<SEntityTemplateReference>", "value": ["feede5524a94254b"] } }
+		},
+		"feeddbd41e622d94": {
+			"parent": "feede5524a94254b",
+			"name": "Keyword_Prof_Class_Worker_Scientist",
+			"factory": "000A0D1C0181E721",
+			"blueprint": "0019C146AD50C6D1",
+			"properties": { "m_aHolders": { "type": "TArray<SEntityTemplateReference>", "value": ["feede5524a94254b"] } }
+		},
+		"feed540348345e20": {
+			"parent": "fffffffffffffffe",
+			"name": "Sapienza_Worker_LabBioSuit_M_HPA487",
+			"factory": "[modules:/zglobaloutfitkit.class].pc_entitytype",
+			"blueprint": "[modules:/zglobaloutfitkit.class].pc_entityblueprint",
+			"properties": {
+				"m_DamageMultipliers": {
+					"type": "SBodyPartDamageMultipliers",
+					"value": {
+						"m_fHeadDamageMultiplier": 3,
+						"m_fFaceDamageMultiplier": 3,
+						"m_fArmDamageMultiplier": 1,
+						"m_fLArmDamageScalar": 0,
+						"m_fRArmDamageScalar": 0,
+						"m_fHandDamageMultiplier": 0.5,
+						"m_fLHandDamageScalar": 0,
+						"m_fRHandDamageScalar": 0,
+						"m_fLegDamageMultiplier": 0.6000000238418579,
+						"m_fLLegDamageScalar": 0,
+						"m_fRLegDamageScalar": 0,
+						"m_fTorsoDamageMultiplier": 1,
+						"m_bApplyLeftRightScalars": false
+					}
+				},
+				"m_eActorType": { "type": "EActorType", "value": "eAT_Civilian" },
+				"m_eActorCCClass": { "type": "EActorCCPreset", "value": "ACCP_CivilianeMale" },
+				"m_bHeroDisguiseAvailable": { "type": "bool", "value": true },
+				"m_eSoundFootwearType": { "type": "EHM5SoundFootwearType", "value": "EFWT_RUBBER_BOOTS" },
+				"m_sId": { "type": "ZGuid", "value": "92c30801-1782-44c5-88a0-d2020d6d4ff5" },
+				"m_pParentOutfit": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "6736fcbbd3e73209",
+						"externalScene": "[assembly:/_pro/scenes/bricks/globaldata.brick].pc_entitytype"
+					}
+				},
+				"m_sCommonName": { "type": "ZString", "value": "Sapienza_Worker_LabBioSuit_M_HPA487" },
+				"m_sTitle": { "type": "ZString", "value": "Biohazard Suit" },
+				"m_eOutfitAICategory": { "type": "EOutfitAICategory", "value": "OAC_Hazmat" },
+				"m_rNameTextResource": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/localization/hitman6/conversations/ui/pro/online/repository/outfits_npcs_sapienza.sweetmenutext?/outfits_sapienza_worker_labbiosuit_m_hpa487_name_92c30801-1782-44c5-88a0-d2020d6d4ff5.sweetline].pc_sweetline",
+						"flag": "5F"
+					}
+				},
+				"m_rDescriptionTextResource": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/localization/hitman6/conversations/ui/pro/online/repository/outfits_npcs_sapienza.sweetmenutext?/outfits_sapienza_worker_labbiosuit_m_hpa487_description_92c30801-1782-44c5-88a0-d2020d6d4ff5.sweetline].pc_sweetline",
+						"flag": "5F"
+					}
+				},
+				"m_rDefaultVoiceVariations": {
+					"type": "TArray<EActorVoiceVariation>",
+					"value": ["eAVV_SCIENTIST01", "eAVV_SCIENTIST02", "eAVV_SCIENTIST03", "eAVV_SCIENTIST04"]
+				},
+				"m_aCharSets": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["feed632801351882"],
+					"postInit": true
+				}
+			}
+		},
+		"feed0490c0635347": {
+			"parent": "feed540348345e20",
+			"name": "Keyword_Prof_Class_Default",
+			"factory": "007A51A2AFEC0D1A",
+			"blueprint": "00B0282A41C1CF2E",
+			"properties": { "m_aHolders": { "type": "TArray<SEntityTemplateReference>", "value": ["feed540348345e20"] } }
+		},
+		"feed081b84831a77": {
+			"parent": "feed540348345e20",
+			"name": "KeywordEntity_DIALOGUE_MUFFLEFILTER_HAZMAT",
+			"factory": "[assembly:/_pro/design/gamecore/keywords/keywordaidialogue.template?/keywordentity_dialogue_mufflefilter_hazmat.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/gamecore/keywords/keywordaidialogue.template?/keywordentity_dialogue_mufflefilter_hazmat.entitytemplate].pc_entityblueprint",
+			"properties": { "m_rHolder": { "type": "SEntityTemplateReference", "value": "feed540348345e20" } }
+		},
+		"feed6150d396c539": {
+			"parent": "feed540348345e20",
+			"name": "Keyword_FOLEY_OUTFIT_LABBIOSUIT",
+			"factory": "[assembly:/_pro/design/gamecore/keywords/keywordsound.template?/keyword_foley_outfit_labbiosuit.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/gamecore/keywords/keywordsound.template?/keyword_foley_outfit_labbiosuit.entitytemplate].pc_entityblueprint",
+			"properties": { "m_rHolder": { "type": "SEntityTemplateReference", "value": "feed540348345e20" } }
+		},
+		"feed1fcc6d4ee936": {
+			"parent": "feed540348345e20",
+			"name": "Keyword_Prof_Class_Worker_Scientist",
+			"factory": "000A0D1C0181E721",
+			"blueprint": "0019C146AD50C6D1",
+			"properties": { "m_aHolders": { "type": "TArray<SEntityTemplateReference>", "value": ["feed540348345e20"] } }
+		},
+		"feedb612890ebbd8": {
+			"parent": "feed540348345e20",
+			"name": "Keyword_MUSIC_OUTFIT_REWARD",
+			"factory": "[assembly:/_pro/design/gamecore/keywords/keywordsound.template?/keyword_music_outfit_reward.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/gamecore/keywords/keywordsound.template?/keyword_music_outfit_reward.entitytemplate].pc_entityblueprint",
+			"properties": { "m_rHolder": { "type": "SEntityTemplateReference", "value": "feed540348345e20" } }
+		},
+		"feed632801351882": {
+			"parent": "feed540348345e20",
+			"name": "CHARSET_Worker_Placeholder_LabBioSuit_Male",
+			"factory": "[assembly:/_pro/characters/templates/workers/lab.template?/charset_biosuita.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/characters/templates/workers/lab.template?/charset_biosuita.entitytemplate].pc_entityblueprint"
+		},
+		"feedd6a569570599": {
+			"parent": "feed540348345e20",
+			"name": "Keyword_FOLEY_VR_OUTFIT_MUFFLE",
+			"factory": "[assembly:/_pro/design/gamecore/keywords/keywordsound.template?/keyword_foley_vr_outfit_muffle.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/gamecore/keywords/keywordsound.template?/keyword_foley_vr_outfit_muffle.entitytemplate].pc_entityblueprint",
+			"properties": { "m_rHolder": { "type": "SEntityTemplateReference", "value": "feed540348345e20" } }
+		},
+		"feed01d6ee37de48": {
+			"parent": "feed540348345e20",
+			"name": "Keyword_FOLEY_VR_OUTFIT_RUBBERGLOVES",
+			"factory": "[assembly:/_pro/design/gamecore/keywords/keywordsound.template?/keyword_foley_vr_outfit_rubbergloves.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/gamecore/keywords/keywordsound.template?/keyword_foley_vr_outfit_rubbergloves.entitytemplate].pc_entityblueprint",
+			"properties": { "m_rHolder": { "type": "SEntityTemplateReference", "value": "feed540348345e20" } }
+		}
+	},
+	"propertyOverrides": [],
+	"overrideDeletes": [],
+	"pinConnectionOverrides": [],
+	"pinConnectionOverrideDeletes": [],
+	"externalScenes": ["[assembly:/_pro/scenes/bricks/globaldata.brick].pc_entitytype"],
+	"subType": "brick",
+	"quickEntityVersion": 3.1,
+	"extraFactoryDependencies": [],
+	"extraBlueprintDependencies": [],
+	"comments": []
+}

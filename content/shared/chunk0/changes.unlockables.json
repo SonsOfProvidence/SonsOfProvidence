@@ -156,6 +156,27 @@
 		},
 		"Rarity": null
 	},
+	"STARTING_LOCATION_CHONGQING_OUTSIDE": {
+		"Id": "STARTING_LOCATION_CHONGQING_OUTSIDE",
+		"Guid": "da45dc62-ee5c-4773-bd42-9252c5dec022",
+		"Type": "access",
+		"Subtype": "startinglocation",
+		"ImageId": null,
+		"RMTPrice": -1,
+		"GamePrice": -1,
+		"IsPurchasable": false,
+		"IsPublished": true,
+		"IsDroppable": false,
+		"Capabilities": [],
+		"Qualities": {},
+		"Properties": {
+			"Location": "LOCATION_WET_RAT",
+			"RepositoryId": "6b56aa77-2a5d-4161-a4fd-afeb339d6bd6",
+			"Equip": ["TOKEN_OUTFIT_LUCAS_GREY_JACKET"],
+			"UnlockOrder": 3
+		},
+		"Rarity": null
+	},
 	"STARTING_LOCATION_FUNERAL_CHURCH_TOWER": {
 		"Id": "STARTING_LOCATION_FUNERAL_CHURCH_TOWER",
 		"Guid": "63c9e974-a44c-4188-a4b1-64d2a2f6ac18",
@@ -501,19 +522,19 @@
 		"Capabilities": [],
 		"Qualities": {},
 		"Properties": {
-			"Icon": "images/locations/location_ether_hq_garage/tile.jpg",
-			"Background": "images/locations/location_ether_hq_garage/background.jpg",
-			"LockedIcon": "images/locations/location_ether_hq_garage/tile.jpg",
+			"Icon": "images/locations/location_ether_lab/tile.jpg",
+			"Background": "images/locations/location_ether_lab/background.jpg",
+			"LockedIcon": "images/locations/location_ether_lab/tile.jpg",
 			"DlcName": "GAME_STORE_METADATA_S3_GAME_TITLE",
 			"IsLocked": false,
 			"UpcomingContent": false,
 			"UpcomingKey": "UI_MENU_LIVETILE_CONTENT_UPCOMING_HEADLINE",
 			"Order": 10,
-			"ProgressionKey": "LOCATION_ANCESTRAL",
+			"ProgressionKey": "LOCATION_WET",
 			"Season": 1,
 			"CreateContractId": "7b68746b-9d29-4aa6-adab-90c21c7b4381",
 			"RequiredResources": [],
-			"Entitlements": ["H2_LEGACY_EXPANSION"]
+			"Entitlements": ["LOCATION_WET"]
 		},
 		"Rarity": null
 	},
@@ -547,6 +568,39 @@
 			"CreateContractId": "7b68746b-9d29-4aa6-adab-90c21c7b4381",
 			"RequiredResources": ["[assembly:/sonsofprovidence/scene_carpark.entity].entitytemplate"],
 			"Entitlements": ["H2_LEGACY_EXPANSION"]
+		},
+		"Rarity": null
+	},
+	"LOCATION_ETHER_LAB": {
+		"Id": "LOCATION_ETHER_LAB",
+		"Guid": "2120ab77-f522-4994-a52b-d20b0937df45",
+		"Type": "location",
+		"Subtype": "sublocation",
+		"ImageId": null,
+		"RMTPrice": -1,
+		"GamePrice": -1,
+		"IsPurchasable": false,
+		"IsPublished": true,
+		"IsDroppable": false,
+		"Capabilities": [],
+		"Qualities": {},
+		"Properties": {
+			"ParentLocation": "LOCATION_PARENT_ETHER_HQ",
+			"Icon": "images/locations/location_ether_lab/tile.jpg",
+			"Background": "images/locations/location_ether_lab/background.jpg",
+			"LockedIcon": "images/locations/location_ether_lab/tile.jpg",
+			"DlcImage": "images/livetile/dlc/tile_hitman3.jpg",
+			"DlcName": "GAME_STORE_METADATA_S3_GAME_TITLE",
+			"IsLocked": false,
+			"UpcomingContent": false,
+			"UpcomingKey": "UI_MENU_LIVETILE_CONTENT_UPCOMING_HEADLINE",
+			"Order": 1,
+			"LimitedLoadout": false,
+			"ProgressionKey": "LOCATION_WET",
+			"Season": 2,
+			"CreateContractId": "7b68746b-9d29-4aa6-adab-90c21c7b4381",
+			"RequiredResources": ["[assembly:/sonsofprovidence/scene_ether_lab.entity].entitytemplate"],
+			"Entitlements": ["LOCATION_WET"]
 		},
 		"Rarity": null
 	},
