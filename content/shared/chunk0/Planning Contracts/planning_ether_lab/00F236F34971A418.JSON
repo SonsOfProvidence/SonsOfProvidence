@@ -1,0 +1,16 @@
+{
+  "scene": "assembly:/sonsofprovidence/scene_ether_lab.entity",
+  "actors": [],
+  "entrances": [
+    {
+      "id": "6b56aa77-2a5d-4161-a4fd-afeb339d6bd6",
+      "isDefaultSpawn": true,
+      "isPreferredSpawn": true,
+      "WorldTransform": "0.212397, -0.977183, 0, 0.977183, 0.212397, 0, 0, 0, 1, 88.30122, -219.1559, 15.91894"
+    }
+  ],
+  "Exits": [
+  ],
+  "AgencyPickups": [
+  ]
+}

@@ -52,6 +52,23 @@
 					}
 				}
 			]
+		},
+		{
+			"AddEntity": [
+				"feeded7365854347",
+				{
+					"parent": "92418064abb1696b",
+					"name": "scene_Ether_Lab",
+					"factory": "[assembly:/templates/ui/mapexportentities.template?/menumap.entitytemplate].pc_entitytype",
+					"blueprint": "[assembly:/templates/ui/mapexportentities.template?/menumap.entitytemplate].pc_entityblueprint",
+					"properties": {
+						"m_pMetaDataResource": {
+							"type": "ZRuntimeResourceID",
+							"value": { "resource": "00F236F34971A418", "flag": "5F" }
+						}
+					}
+				}
+			]
 		}
 	],
 	"patchVersion": 6

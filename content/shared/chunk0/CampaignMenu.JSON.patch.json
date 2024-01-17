@@ -40,6 +40,11 @@
 					},
 					{
 						"Type": "Mission",
+						"Id": "22e94804-b20e-4fd1-a0b1-7a8d76e3de8c",
+						"_comment": "Ether Lab Mission"
+					},
+					{
+						"Type": "Mission",
 						"Id": "08cbef4e-285b-4f6e-a40b-866bf7d51a42",
 						"_comment": "Funeral Mission"
 					},

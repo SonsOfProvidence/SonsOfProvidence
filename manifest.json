@@ -52,6 +52,13 @@
 			"contentFolders": ["content/mission_funeral"]
 		},
 		{
+			"name": "Funeral",
+			"tooltip": "Mission 8: A Desperate Play",
+			"type": "checkbox",
+			"enabledByDefault": true,
+			"contentFolders": ["content/mission_ether_lab"]
+		},
+		{
 			"name": "Tower",
 			"tooltip": "Mission 10: Take down the comms tower",
 			"type": "checkbox",
@@ -212,6 +219,18 @@
 			"comment": "CHARSET_Bulldog_Guard_MansionGuard_M",
 			"portFromChunk1": true,
 			"toChunk": 4
+		},
+		{
+			"runtimeID": "00012A91C8D518E1",
+			"comment": "charset_techniciana",
+			"portFromChunk1": true,
+			"toChunk": 6
+		},
+		{
+			"runtimeID": "00CB19349945DA50",
+			"comment": "charset_biosuita",
+			"portFromChunk1": true,
+			"toChunk": 6
 		},
 		{
 			"runtimeID": "00BFF80555A1086D",
@@ -4120,8 +4139,20 @@
 			"toChunk": 0
 		},
 		{
+			"runtimeID": "000C79E8F2229651",
+			"comment": "virussecuritycabinet_a",
+			"portFromChunk1": true,
+			"toChunk": 0
+		},
+		{
 			"runtimeID": "00F950FC18B9C8EE",
 			"comment": "exit_area_crowd",
+			"portFromChunk1": true,
+			"toChunk": 0
+		},
+		{
+			"runtimeID": "00B74A35D67CF4F6",
+			"comment": "seaplane_big_c",
 			"portFromChunk1": true,
 			"toChunk": 0
 		}
@@ -4189,6 +4220,11 @@
 		},
 		{
 			"type": "entity",
+			"partition": "wet",
+			"path": "[assembly:/sonsofprovidence/scene_ether_lab.entity].entitytemplate"
+		},
+		{
+			"type": "entity",
 			"partition": "edgy",
 			"path": "[assembly:/sonsofprovidence/scene_tower.entity].entitytemplate"
 		},
@@ -4217,6 +4253,8 @@
 		"english": {
 			"UI_SONS_OF_PROVIDENCE": "Sons of Providence",
 			"UI_STORY": "Story",
+			"UI_CHONGQING_DESC": "I am at Ether headquarters to take the memory wiping antidote and deal them a blow.",
+			"UI_CHONGQING_TITLE": "A Desperate Play",
 			"UI_DARTMOOR_DESC": "47 and I have returned to the Institute for Human Betterment and are executing our pact to take them all down.",
 			"UI_DARTMOOR_TITLE": "Assault on the Institute",
 			"UI_DUBAI_DESC": "I've learned that Eugene Cobb is a member of Providence. It's time to begin taking them all down, starting with Eugene Cobb, who holds one of two keys needed to open the Providence archive.",
@@ -4249,8 +4287,8 @@
 			"UI_TOKEN_OUTFIT_LUCAS_GREY_RELAXED_DESC": "Casual outfit with smart pants and a tee-shirt.",
 			"UI_TOKEN_OUTFIT_LUCAS_GREY_BALD_NAME": "Tactical Infiltration Suit",
 			"UI_TOKEN_OUTFIT_LUCAS_GREY_BALD_DESC": "A tactical infiltration suit designed to be low profile.",
-			"ui_starting_location_mumbai_ether_lab_default_name": "Roof of Ether Headquarters",
-			"ui_starting_location_mumbai_ether_lab_desc": "I have landed on the roof of Ether Headquarters",
+			"ui_starting_location_chongqing_ether_lab_default_name": "Top floor of Ether Headquarters",
+			"ui_starting_location_chongqing_ether_lab_desc": "I have made my way to the top floor of Ether Headquarters",
 			"ui_starting_location_dartmoor_institute_default_name": "The Institute for Human Betterment",
 			"ui_starting_location_dartmoor_institute_desc": "47 and I have returned to the Institute for Human Betterment after our last mission, and have made our way to the outer gate.",
 			"ui_starting_location_siberia_moscow_default_name": "FSB Headquarters, Moscow, Russia",
@@ -4264,9 +4302,9 @@
 			"ui_location_institute_title": "Assault on the Institute",
 			"ui_location_parent_ether_hq_country": "South Africa",
 			"ui_location_parent_ether_hq_city": "Johannesburg",
-			"ui_location_ether_hq_roof_country": "South Africa",
-			"ui_location_ether_hq_roof_city": "Johannesburg",
-			"ui_location_ether_hq_roof_title": "A Desperate Play",
+			"ui_location_ether_hq_country": "South Africa",
+			"ui_location_ether_lab_city": "Johannesburg",
+			"ui_location_ether_lab_title": "A Desperate Play",
 			"ui_location_ether_hq_garage_country": "South Africa",
 			"ui_location_ether_hq_garage_city": "Johannesburg",
 			"ui_location_ether_hq_garage_title": "The keys to the kingdom",

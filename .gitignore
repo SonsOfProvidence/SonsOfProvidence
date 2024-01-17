@@ -1,7 +1,8 @@
-package-lock.json
+.idea/
 .releaserc
-node_modules
 ModScript.bat
 Prettify.bat
-.idea/
+node_modules
+package-lock.json
+project.json
 thumbs_funeral_ny.dat
