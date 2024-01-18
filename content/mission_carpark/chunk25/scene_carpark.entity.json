@@ -2828,6 +2828,136 @@
 					}
 				}
 			}
+		},
+		"feedb63a5c37a540": {
+			"parent": "abcd0b045d13d43f",
+			"name": "Fences",
+			"factory": "[modules:/zentity.class].pc_entitytype",
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
+		},
+		"feed8c5ab6e1fa93": {
+			"parent": "feedb63a5c37a540",
+			"name": "arch_city_wall_gate_b Courtyard West side Right",
+			"factory": "[assembly:/_pro/environment/templates/architecture/arches/arches_medina_a.template?/arch_city_wall_gate_b.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/architecture/arches/arches_medina_a.template?/arch_city_wall_gate_b.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -180.00000500895632
+						},
+						"position": {
+							"x": 64.686,
+							"y": -23.745567,
+							"z": 0.06251109
+						}
+					}
+				},
+				"ConstantColorRGB_02_Value": {
+					"type": "SColorRGB",
+					"value": "#71b0bf"
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feeda0e1f43c4fa0"
+				}
+			}
+		},
+		"feedb2e205c7a6cf": {
+			"parent": "feedb63a5c37a540",
+			"name": "arch_city_wall_gate_b Courtyard West Side Left",
+			"factory": "[assembly:/_pro/environment/templates/architecture/arches/arches_medina_a.template?/arch_city_wall_gate_b.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/architecture/arches/arches_medina_a.template?/arch_city_wall_gate_b.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -180.00000500895632
+						},
+						"position": {
+							"x": 67.680855,
+							"y": -23.745567,
+							"z": 0.06251109
+						}
+					}
+				},
+				"ConstantColorRGB_02_Value": {
+					"type": "SColorRGB",
+					"value": "#71b0bf"
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feeda0e1f43c4fa0"
+				}
+			}
+		},
+		"feedfa094b5ff08b": {
+			"parent": "feedb63a5c37a540",
+			"name": "arch_city_wall_gate_b Courtyard East side Left",
+			"factory": "[assembly:/_pro/environment/templates/architecture/arches/arches_medina_a.template?/arch_city_wall_gate_b.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/architecture/arches/arches_medina_a.template?/arch_city_wall_gate_b.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -180.00000500895632
+						},
+						"position": {
+							"x": 59.0016,
+							"y": -47.79943,
+							"z": 0.06250897
+						}
+					}
+				},
+				"ConstantColorRGB_02_Value": {
+					"type": "SColorRGB",
+					"value": "#71b0bf"
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feeda0e1f43c4fa0"
+				}
+			}
+		},
+		"feed6fc6c0309aa4": {
+			"parent": "feedb63a5c37a540",
+			"name": "arch_city_wall_gate_b Courtyard East side Right",
+			"factory": "[assembly:/_pro/environment/templates/architecture/arches/arches_medina_a.template?/arch_city_wall_gate_b.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/architecture/arches/arches_medina_a.template?/arch_city_wall_gate_b.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -180.00000500895632
+						},
+						"position": {
+							"x": 56.009846,
+							"y": -47.79943,
+							"z": 0.06250897
+						}
+					}
+				},
+				"ConstantColorRGB_02_Value": {
+					"type": "SColorRGB",
+					"value": "#71b0bf"
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feeda0e1f43c4fa0"
+				}
+			}
 		}
 	},
 	"propertyOverrides": [
