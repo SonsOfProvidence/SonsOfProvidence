@@ -21,7 +21,7 @@ Note: The mod is still a work in progress. It is currently designed to be an off
 
 Atampy25 - Simple Mod Framework - https://github.com/atampy25/simple-mod-framework, Quickentity Editor - https://github.com/atampy25/quickentity-editor-next  
 Kevin Rudd - Custom Map Pack - https://www.nexusmods.com/hitman3/mods/38  
-Notex - RPKG, HM3CustomMaps, Statue of Liberty prims and materials, AI Navigation Grid and Navmesh - https://github.com/Notexe/HM3CustomMaps  
+Notex - RPKG - https://glaciermodding.org/rpkg/, HM3CustomMaps - https://github.com/Notexe/HM3CustomMaps, h3-custom-scenes - https://github.com/Notexe/h3-custom-scenes, Statue of Liberty prims and materials, AI Navigation Grid and Navmesh  
 2kpr - AI Navigation Grid and Navmesh  
 OrfeasZ - ZHM Mod - https://github.com/OrfeasZ/ZHMModSDK  
 Anthony Fuller - Tony Tools - https://github.com/AnthonyFuller/TonyTools  

@@ -4155,6 +4155,12 @@
 			"comment": "seaplane_big_c",
 			"portFromChunk1": true,
 			"toChunk": 0
+		},
+		{
+			"runtimeID": "00831B9E1275B7C0",
+			"comment": "sky_clear_b",
+			"portFromChunk1": true,
+			"toChunk": 0
 		}
 	],
 	"packagedefinition": [
