@@ -25,8 +25,8 @@
 						},
 						"position": {
 							"x": -0.75,
-							"y": -6,
-							"z": 1
+							"y": 6,
+							"z": 2
 						}
 					}
 				},
@@ -111,8 +111,8 @@
 						},
 						"position": {
 							"x": -0.75,
-							"y": -3,
-							"z": 1
+							"y": 7,
+							"z": 2
 						}
 					}
 				},
@@ -198,7 +198,7 @@
 						"position": {
 							"x": -0.75,
 							"y": 1,
-							"z": 1
+							"z": 2
 						}
 					}
 				},
@@ -284,7 +284,7 @@
 						"position": {
 							"x": -0.75,
 							"y": -2,
-							"z": 1
+							"z": 2
 						}
 					}
 				},
@@ -370,7 +370,7 @@
 						"position": {
 							"x": -0.75,
 							"y": 4,
-							"z": 1
+							"z": 2
 						}
 					}
 				},
@@ -456,7 +456,7 @@
 						"position": {
 							"x": -0.75,
 							"y": -1,
-							"z": 1
+							"z": 2
 						}
 					}
 				},
@@ -542,7 +542,7 @@
 						"position": {
 							"x": -0.75,
 							"y": 0,
-							"z": 1
+							"z": 2
 						}
 					}
 				},
@@ -627,8 +627,8 @@
 						},
 						"position": {
 							"x": -0.75,
-							"y": -4,
-							"z": 1
+							"y": 8,
+							"z": 2
 						}
 					}
 				},
@@ -714,7 +714,7 @@
 						"position": {
 							"x": -0.75,
 							"y": 2,
-							"z": 1
+							"z": 2
 						}
 					}
 				},
@@ -805,8 +805,8 @@
 						},
 						"position": {
 							"x": -0.75,
-							"y": -5,
-							"z": 1
+							"y": 5,
+							"z": 2
 						}
 					}
 				},
@@ -892,7 +892,7 @@
 						"position": {
 							"x": -0.75,
 							"y": 3,
-							"z": 1
+							"z": 2
 						}
 					}
 				},
@@ -983,8 +983,8 @@
 						},
 						"position": {
 							"x": 0.75,
-							"y": -6,
-							"z": 1
+							"y": 6,
+							"z": 2
 						}
 					}
 				},
@@ -1069,8 +1069,8 @@
 						},
 						"position": {
 							"x": 0.75,
-							"y": -3,
-							"z": 1
+							"y": 7,
+							"z": 2
 						}
 					}
 				},
@@ -1156,7 +1156,7 @@
 						"position": {
 							"x": 0.75,
 							"y": 1,
-							"z": 1
+							"z": 2
 						}
 					}
 				},
@@ -1242,7 +1242,7 @@
 						"position": {
 							"x": 0.75,
 							"y": -2,
-							"z": 1
+							"z": 2
 						}
 					}
 				},
@@ -1328,7 +1328,7 @@
 						"position": {
 							"x": 0.75,
 							"y": 4,
-							"z": 1
+							"z": 2
 						}
 					}
 				},
@@ -1414,7 +1414,7 @@
 						"position": {
 							"x": 0.75,
 							"y": -1,
-							"z": 1
+							"z": 2
 						}
 					}
 				},
@@ -1500,7 +1500,7 @@
 						"position": {
 							"x": 0.75,
 							"y": 0,
-							"z": 1
+							"z": 2
 						}
 					}
 				},
@@ -1585,8 +1585,8 @@
 						},
 						"position": {
 							"x": 0.75,
-							"y": -4,
-							"z": 1
+							"y": 8,
+							"z": 2
 						}
 					}
 				},
@@ -1672,7 +1672,7 @@
 						"position": {
 							"x": 0.75,
 							"y": 2,
-							"z": 1
+							"z": 2
 						}
 					}
 				},
@@ -1757,8 +1757,8 @@
 						},
 						"position": {
 							"x": 0.75,
-							"y": -5,
-							"z": 1
+							"y": 5,
+							"z": 2
 						}
 					}
 				},
@@ -1844,7 +1844,7 @@
 						"position": {
 							"x": 0.75,
 							"y": 3,
-							"z": 1
+							"z": 2
 						}
 					}
 				},
@@ -1935,8 +1935,8 @@
 						},
 						"position": {
 							"x": 0,
-							"y": -6,
-							"z": 1
+							"y": 6,
+							"z": 2
 						}
 					}
 				},
@@ -2021,8 +2021,8 @@
 						},
 						"position": {
 							"x": 0,
-							"y": -3,
-							"z": 1
+							"y": 8,
+							"z": 2
 						}
 					}
 				},
@@ -2108,7 +2108,7 @@
 						"position": {
 							"x": 0,
 							"y": 1,
-							"z": 1
+							"z": 2
 						}
 					}
 				},
@@ -2194,7 +2194,7 @@
 						"position": {
 							"x": 0,
 							"y": -2,
-							"z": 1
+							"z": 2
 						}
 					}
 				},
@@ -2280,7 +2280,7 @@
 						"position": {
 							"x": 0,
 							"y": 4,
-							"z": 1
+							"z": 2
 						}
 					}
 				},
@@ -2366,7 +2366,7 @@
 						"position": {
 							"x": 0,
 							"y": -1,
-							"z": 1
+							"z": 2
 						}
 					}
 				},
@@ -2452,7 +2452,7 @@
 						"position": {
 							"x": 0,
 							"y": 0,
-							"z": 1
+							"z": 2
 						}
 					}
 				},
@@ -2537,8 +2537,8 @@
 						},
 						"position": {
 							"x": 0,
-							"y": -4,
-							"z": 1
+							"y": 7,
+							"z": 2
 						}
 					}
 				},
@@ -2624,7 +2624,7 @@
 						"position": {
 							"x": 0,
 							"y": 2,
-							"z": 1
+							"z": 2
 						}
 					}
 				},
@@ -2709,8 +2709,8 @@
 						},
 						"position": {
 							"x": 0,
-							"y": -5,
-							"z": 1
+							"y": 5,
+							"z": 2
 						}
 					}
 				},
@@ -2796,7 +2796,7 @@
 						"position": {
 							"x": 0,
 							"y": 3,
-							"z": 1
+							"z": 2
 						}
 					}
 				},
@@ -2862,84 +2862,6 @@
 					"type": "SEntityTemplateReference",
 					"value": "feed41fa9eed6cf6",
 					"postInit": true
-				}
-			}
-		},
-		"feed2b2bb9fabe12": {
-			"parent": "feed41fa9eed6cf6",
-			"name": "airplane_a_door",
-			"factory": "[assembly:/sonsofprovidence/airplane/airplane_a_door.wl2?/airplane_a_door.prim].pc_entitytype",
-			"blueprint": "[assembly:/templates/geometrytemplatenocoll.template?/geomentity01.entitytemplate].pc_entityblueprint",
-			"properties": {
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": 0
-						},
-						"position": {
-							"x": 0,
-							"y": 0,
-							"z": 0
-						}
-					}
-				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "feed41fa9eed6cf6",
-					"postInit": true
-				}
-			}
-		},
-		"feeda0b32864958c": {
-			"parent": "feed41fa9eed6cf6",
-			"name": "Luxury_Helicopter_A_Door",
-			"factory": "[assembly:/templates/aspectdummy.aspect]([modules:/zlinkedentity.class].entitytype,[assembly:/templates/_viewers/animplayeraspect.template?/anim player aspect.entitytemplate].entitytype,[modules:/zworldmapmarkerentity.class].entitytype).pc_entitytype",
-			"blueprint": "[assembly:/templates/aspectdummy.aspect]([modules:/zlinkedentity.class].entitytype,[assembly:/templates/_viewers/animplayeraspect.template?/anim player aspect.entitytemplate].entitytype,[modules:/zworldmapmarkerentity.class].entitytype).pc_entityblueprint",
-			"properties": {
-				"m_ResourceID": {
-					"type": "ZRuntimeResourceID",
-					"value": {
-						"resource": "0045F3F549247701",
-						"flag": "5F"
-					}
-				},
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": 0
-						},
-						"position": {
-							"x": 20,
-							"y": 0,
-							"z": 0
-						}
-					}
-				},
-				"m_bEnabled": {
-					"type": "bool",
-					"value": true
-				},
-				"m_bVisibleInBoxReflection": {
-					"type": "bool",
-					"value": false
-				},
-				"m_bVisible": {
-					"type": "bool",
-					"value": true
-				},
-				"m_eRoomBehaviour": {
-					"type": "ZSpatialEntity.ERoomBehaviour",
-					"value": "ROOM_STATIC"
-				},
-				"DefaultLightsOff": {
-					"type": "bool",
-					"value": true
 				}
 			}
 		},
