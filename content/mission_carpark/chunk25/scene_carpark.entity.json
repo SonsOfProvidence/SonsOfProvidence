@@ -2996,10 +2996,6 @@
 	],
 	"overrideDeletes": [
 		{
-			"ref": "7d83b0254ad07f4d",
-			"externalScene": "[assembly:/_pro/scenes/missions/marrakesh/npc_mission_spider.brick].pc_entitytype"
-		},
-		{
 			"ref": "bf73228092ce54bd",
 			"externalScene": "[assembly:/_pro/scenes/missions/marrakesh/location.brick].pc_entitytype"
 		},
@@ -3018,10 +3014,6 @@
 		{
 			"ref": "a61070af49549589",
 			"externalScene": "[assembly:/_pro/scenes/missions/marrakesh/location.brick].pc_entitytype"
-		},
-		{
-			"ref": "5bbc05df776c420b",
-			"externalScene": "[assembly:/_pro/scenes/missions/marrakesh/npc_mission_spider.brick].pc_entitytype"
 		},
 		{
 			"ref": "48fc6a7f7485e95d",
@@ -3152,8 +3144,20 @@
 			"externalScene": "[assembly:/_pro/scenes/missions/marrakesh/location.brick].pc_entitytype"
 		},
 		{
-			"ref": "ab2edd2e3b74dc28",
+			"ref": "3b647dbf82bc3074",
+			"externalScene": "[assembly:/_pro/scenes/missions/marrakesh/npc_mission_spider.brick].pc_entitytype"
+		},
+		{
+			"ref": "730c90198a600fc6",
 			"externalScene": "[assembly:/_pro/scenes/missions/marrakesh/location.brick].pc_entitytype"
+		},
+		{
+			"ref": "c15c06a385ee736b",
+			"externalScene": "[assembly:/_pro/scenes/missions/marrakesh/mission_marrakesh_spider.brick].pc_entitytype"
+		},
+		{
+			"ref": "2a933035566ee494",
+			"externalScene": "[assembly:/_pro/scenes/missions/marrakesh/npc_ambient_market_generic.brick].pc_entitytype"
 		}
 	],
 	"pinConnectionOverrides": [
@@ -3165,7 +3169,8 @@
 	"externalScenes": [
 		"[assembly:/_pro/scenes/missions/marrakesh/mission_marrakesh_spider.brick].pc_entitytype",
 		"[assembly:/_pro/scenes/missions/marrakesh/npc_mission_spider.brick].pc_entitytype",
-		"[assembly:/_pro/scenes/missions/marrakesh/location.brick].pc_entitytype"
+		"[assembly:/_pro/scenes/missions/marrakesh/location.brick].pc_entitytype",
+		"[assembly:/_pro/scenes/missions/marrakesh/npc_ambient_market_generic.brick].pc_entitytype"
 	],
 	"subType": "scene",
 	"quickEntityVersion": 3.1,
