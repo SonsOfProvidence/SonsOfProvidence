@@ -4161,6 +4161,12 @@
 			"comment": "sky_clear_b",
 			"portFromChunk1": true,
 			"toChunk": 0
+		},
+		{
+			"runtimeID": "003181B564FA5037",
+			"comment": "act_mr_sit_sweating",
+			"portFromChunk1": true,
+			"toChunk": 0
 		}
 	],
 	"packagedefinition": [
