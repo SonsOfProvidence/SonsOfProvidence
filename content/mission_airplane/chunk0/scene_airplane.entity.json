@@ -6174,6 +6174,262 @@
 					]
 				}
 			}
+		},
+		"feed4e4a02290d8f": {
+			"parent": "abcd85cba5ab5afa",
+			"name": "Ocean",
+			"factory": "[modules:/zentity.class].pc_entitytype",
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
+		},
+		"feed65588116e1bd": {
+			"parent": "feed4e4a02290d8f",
+			"name": "ocean_outerhorizon_a",
+			"factory": "009B69398EF84BB2",
+			"blueprint": "[assembly:/templates/geometrytemplatenocoll.template?/geomentity01.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": -59.7239990234375,
+							"y": -150.81500244140625,
+							"z": -149
+						}
+					}
+				},
+				"m_bCastShadows": {
+					"type": "bool",
+					"value": false
+				},
+				"m_bVisibleInBoxReflection": {
+					"type": "bool",
+					"value": true
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feeda0dde246616a",
+					"postInit": true
+				}
+			}
+		},
+		"feedbf72fa21af72": {
+			"parent": "feed4e4a02290d8f",
+			"name": "ocean_outerhorizon_b",
+			"factory": "009B69398EF84BB2",
+			"blueprint": "[assembly:/templates/geometrytemplatenocoll.template?/geomentity01.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 180
+						},
+						"position": {
+							"x": -59.7239990234375,
+							"y": -150.81500244140625,
+							"z": -149
+						}
+					}
+				},
+				"m_bCastShadows": {
+					"type": "bool",
+					"value": false
+				},
+				"m_bVisibleInBoxReflection": {
+					"type": "bool",
+					"value": true
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feeda0dde246616a",
+					"postInit": true
+				}
+			}
+		},
+		"feedfb2c8d7bd413": {
+			"parent": "feed4e4a02290d8f",
+			"name": "PureWaterMultiGerstner",
+			"factory": "[modules:/zpurewatermultigerstnerentity.class].pc_entitytype",
+			"blueprint": "[modules:/zpurewatermultigerstnerentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": -678.3280029296875,
+							"y": 74.6941909790039,
+							"z": 22.79899024963379
+						}
+					}
+				},
+				"m_fWaterTessellationFactor": {
+					"type": "float32",
+					"value": 16
+				},
+				"m_pCausticsMap": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "003264E6E47B9CD9",
+						"flag": "5F"
+					}
+				},
+				"m_pCausticsDistortionMap": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/effects/textures/misc/fx_noise.texture?/normal_a.tex](asnormalmap).pc_tex",
+						"flag": "5F"
+					}
+				},
+				"m_fLFHorizontalInt": {
+					"type": "float32",
+					"value": 0.10000000149011612
+				},
+				"m_fHFHorizontalInt": {
+					"type": "float32",
+					"value": 0.15000000596046448
+				},
+				"m_fHFVerticalInt": {
+					"type": "float32",
+					"value": 0.15000000596046448
+				},
+				"m_fLFVerticalInt": {
+					"type": "float32",
+					"value": 0.10000000149011612
+				},
+				"m_fHFFreq": {
+					"type": "float32",
+					"value": 6
+				},
+				"m_fHFSpeed": {
+					"type": "float32",
+					"value": -3
+				},
+				"m_fLFFreq": {
+					"type": "float32",
+					"value": 0.30000001192092896
+				},
+				"m_fLFSpeed": {
+					"type": "float32",
+					"value": -1
+				},
+				"m_fDisplaceNormalInt": {
+					"type": "float32",
+					"value": 1
+				},
+				"m_fCausticsGlobalUVScale": {
+					"type": "float32",
+					"value": 0.46000000834465027
+				},
+				"m_fCausticsDistortionScale": {
+					"type": "float32",
+					"value": 0.5099999904632568
+				},
+				"m_fCausticsRotationMagnitude": {
+					"type": "float32",
+					"value": 0.23000000417232513
+				},
+				"m_fCausticsIntensity": {
+					"type": "float32",
+					"value": 1
+				},
+				"m_pDistDepthMap": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "00E2A1C4B3C6F6E7",
+						"flag": "5F"
+					}
+				},
+				"m_fDepthSizeX": {
+					"type": "float32",
+					"value": -450
+				},
+				"m_fDepthSizeY": {
+					"type": "float32",
+					"value": 463
+				},
+				"m_fDepthPosX": {
+					"type": "float32",
+					"value": 1.5
+				},
+				"m_fWaterHeight": {
+					"type": "float32",
+					"value": 0.8999999761581421
+				},
+				"m_bUseSSR": {
+					"type": "bool",
+					"value": true
+				},
+				"m_fDepthPosY": {
+					"type": "float32",
+					"value": 178.5
+				},
+				"m_fWaterTessellationFar": {
+					"type": "float32",
+					"value": 300
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feeda0dde246616a",
+					"postInit": true
+				}
+			}
+		},
+		"feed57e2ab2d853f": {
+			"parent": "feed4e4a02290d8f",
+			"name": "ocean_wpatch_100m_001",
+			"factory": "0029ABB28FBFC6C6",
+			"blueprint": "[assembly:/templates/aspectdummy.aspect]([assembly:/templates/geometrytemplatestaticcoll.template?/geomentity01.entitytemplate].entitytype,[modules:/zpurewateraspect.class].entitytype).pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": 49.303741455078125,
+							"y": 78.38577270507813,
+							"z": 0.9083600044250488
+						}
+					}
+				},
+				"m_bDisableNavmeshExport": {
+					"type": "bool",
+					"value": true
+				},
+				"m_bCastShadows": {
+					"type": "bool",
+					"value": false
+				},
+				"m_bVisibleInBoxReflection": {
+					"type": "bool",
+					"value": true
+				},
+				"WaveFunction": {
+					"type": "SEntityTemplateReference",
+					"value": "feedfb2c8d7bd413",
+					"postInit": true
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feeda0dde246616a",
+					"postInit": true
+				}
+			}
 		}
 	},
 	"propertyOverrides": [

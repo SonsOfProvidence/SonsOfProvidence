@@ -248,14 +248,6 @@
 		"ioiString": "[assembly:/sonsofprovidence/objects/airplane.entity].pc_entityblueprint"
 	},
 	{
-		"hash": "000F83981CA13201",
-		"ioiString": "[assembly:/_pro/environment/templates/custom/statue_of_liberty_a.template?/statue_of_liberty_a.entitytemplate].pc_entitytype"
-	},
-	{
-		"hash": "0044DFB2593628D0",
-		"ioiString": "[assembly:/_pro/environment/templates/custom/statue_of_liberty_a.template?/statue_of_liberty_a.entitytemplate].pc_entityblueprint"
-	},
-	{
 		"hash": "00C6FB0D282EB377",
 		"ioiString": "[assembly:/sonsofprovidence/airplane/airplane_a.wl2?/airplane_a.prim].pc_entitytype"
 	},
@@ -264,28 +256,16 @@
 		"ioiString": "[assembly:/sonsofprovidence/airplane/airplane_a.wl2?/airplane_a.prim].pc_entityblueprint"
 	},
 	{
-		"hash": "008060B84F3C8EE3",
-		"ioiString": "[assembly:/sonsofprovidence/airplane/airplane_a_door.wl2?/airplane_a_door.prim].pc_entitytype"
-	},
-	{
-		"hash": "0080C74FAD65FD30",
-		"ioiString": "[assembly:/sonsofprovidence/airplane/airplane_a_door.wl2?/airplane_a_door.prim].pc_entityblueprint"
-	},
-	{
-		"hash": "000938C906B39983",
-		"ioiString": "[assembly:/sonsofprovidence/airplane/airplane.prim].pc_prim"
-	},
-	{
-		"hash": "0045F3F549247701",
-		"ioiString": "[assembly:/sonsofprovidence/airplane/airplane_door.prim].pc_prim"
-	},
-	{
-		"hash": "0068D79CAE15D985",
-		"ioiString": "[assembly:/sonsofprovidence/airplane/airplane.entitytemplate].pc_entitytype"
-	},
-	{
 		"hash": "009B53984CC700F7",
 		"ioiString": "[assembly:/sonsofprovidence/airplane/airplane.entitytemplate].pc_entityblueprint"
+	},
+	{
+		"hash": "000F83981CA13201",
+		"ioiString": "[assembly:/_pro/environment/templates/custom/statue_of_liberty_a.template?/statue_of_liberty_a.entitytemplate].pc_entitytype"
+	},
+	{
+		"hash": "0044DFB2593628D0",
+		"ioiString": "[assembly:/_pro/environment/templates/custom/statue_of_liberty_a.template?/statue_of_liberty_a.entitytemplate].pc_entityblueprint"
 	},
 	{
 		"hash": "004F040B5D41A40F",
