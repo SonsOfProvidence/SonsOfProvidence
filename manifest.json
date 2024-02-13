@@ -4,7 +4,7 @@
 	"name": "Sons of Providence",
 	"description": "This mod tells a tale of two brothers, and their mission to take them all down.",
 	"blobsFolders": ["content/blobs"],
-	"authors": ["Danny Bierek"],
+	"authors": ["AtomicForce"],
 	"frameworkVersion": "2.32.1",
 	"version": "0.46.4",
 	"contentFolders": ["content/shared"],
@@ -4382,5 +4382,5 @@
 			"NPC_THOMAS_CROSS_DESC": "Thomas Cross is a reclusive business mogul and president of one of the largest companies in the world. His money could finance the mission to take down Providence."
 		}
 	},
-	"updateCheck": "https://github.com/dbierek/SonsOfProvidence/releases/latest/download/updates.json"
+	"updateCheck": "https://github.com/SonsOfProvidence/SonsOfProvidence/releases/latest/download/updates.json"
 }

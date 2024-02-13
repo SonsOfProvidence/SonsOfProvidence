@@ -6387,8 +6387,8 @@
 			}
 		},
 		"feed57e2ab2d853f": {
-			"parent": "feed4e4a02290d8f",
-			"name": "ocean_wpatch_100m_001",
+			"parent": "feedbc67e43ff5ad",
+			"name": "ocean_wpatch_100m_2",
 			"factory": "0029ABB28FBFC6C6",
 			"blueprint": "[assembly:/templates/aspectdummy.aspect]([assembly:/templates/geometrytemplatestaticcoll.template?/geomentity01.entitytemplate].entitytype,[modules:/zpurewateraspect.class].entitytype).pc_entityblueprint",
 			"properties": {
@@ -6401,9 +6401,9 @@
 							"z": 0
 						},
 						"position": {
-							"x": 49.303741455078125,
-							"y": 78.38577270507813,
-							"z": 0.9083600044250488
+							"x": 200,
+							"y": 0,
+							"z": 0
 						}
 					}
 				},
@@ -6426,8 +6426,982 @@
 				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
+					"value": "feedbc67e43ff5ad"
+				}
+			}
+		},
+		"feedeb683ecc2290": {
+			"parent": "feed4e4a02290d8f",
+			"name": "Groups",
+			"factory": "[modules:/zentity.class].pc_entitytype",
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
+		},
+		"feedbc67e43ff5ad": {
+			"parent": "feed965f97656657",
+			"name": "X1",
+			"factory": "[modules:/zcompositeentity.class].pc_entitytype",
+			"blueprint": "[modules:/zcompositeentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": 1000,
+							"y": 0,
+							"z": 0
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feed965f97656657",
+					"postInit": true
+				}
+			}
+		},
+		"feed0a7ce6d8e2e3": {
+			"parent": "feedbc67e43ff5ad",
+			"name": "ocean_wpatch_100m_0",
+			"factory": "0029ABB28FBFC6C6",
+			"blueprint": "[assembly:/templates/aspectdummy.aspect]([assembly:/templates/geometrytemplatestaticcoll.template?/geomentity01.entitytemplate].entitytype,[modules:/zpurewateraspect.class].entitytype).pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						}
+					}
+				},
+				"m_bDisableNavmeshExport": {
+					"type": "bool",
+					"value": true
+				},
+				"m_bCastShadows": {
+					"type": "bool",
+					"value": false
+				},
+				"m_bVisibleInBoxReflection": {
+					"type": "bool",
+					"value": true
+				},
+				"WaveFunction": {
+					"type": "SEntityTemplateReference",
+					"value": "feedfb2c8d7bd413",
+					"postInit": true
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feedbc67e43ff5ad"
+				}
+			}
+		},
+		"feed02937af4e461": {
+			"parent": "feedbc67e43ff5ad",
+			"name": "ocean_wpatch_100m_3",
+			"factory": "0029ABB28FBFC6C6",
+			"blueprint": "[assembly:/templates/aspectdummy.aspect]([assembly:/templates/geometrytemplatestaticcoll.template?/geomentity01.entitytemplate].entitytype,[modules:/zpurewateraspect.class].entitytype).pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": 300,
+							"y": 0,
+							"z": 0
+						}
+					}
+				},
+				"m_bDisableNavmeshExport": {
+					"type": "bool",
+					"value": true
+				},
+				"m_bCastShadows": {
+					"type": "bool",
+					"value": false
+				},
+				"m_bVisibleInBoxReflection": {
+					"type": "bool",
+					"value": true
+				},
+				"WaveFunction": {
+					"type": "SEntityTemplateReference",
+					"value": "feedfb2c8d7bd413",
+					"postInit": true
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feedbc67e43ff5ad"
+				}
+			}
+		},
+		"feedb7c623b4375c": {
+			"parent": "feedbc67e43ff5ad",
+			"name": "ocean_wpatch_100m_5",
+			"factory": "0029ABB28FBFC6C6",
+			"blueprint": "[assembly:/templates/aspectdummy.aspect]([assembly:/templates/geometrytemplatestaticcoll.template?/geomentity01.entitytemplate].entitytype,[modules:/zpurewateraspect.class].entitytype).pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": 500,
+							"y": 0,
+							"z": 0
+						}
+					}
+				},
+				"m_bDisableNavmeshExport": {
+					"type": "bool",
+					"value": true
+				},
+				"m_bCastShadows": {
+					"type": "bool",
+					"value": false
+				},
+				"m_bVisibleInBoxReflection": {
+					"type": "bool",
+					"value": true
+				},
+				"WaveFunction": {
+					"type": "SEntityTemplateReference",
+					"value": "feedfb2c8d7bd413",
+					"postInit": true
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feedbc67e43ff5ad"
+				}
+			}
+		},
+		"feed49aa24a8c032": {
+			"parent": "feedbc67e43ff5ad",
+			"name": "ocean_wpatch_100m_1",
+			"factory": "0029ABB28FBFC6C6",
+			"blueprint": "[assembly:/templates/aspectdummy.aspect]([assembly:/templates/geometrytemplatestaticcoll.template?/geomentity01.entitytemplate].entitytype,[modules:/zpurewateraspect.class].entitytype).pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": 100,
+							"y": 0,
+							"z": 0
+						}
+					}
+				},
+				"m_bDisableNavmeshExport": {
+					"type": "bool",
+					"value": true
+				},
+				"m_bCastShadows": {
+					"type": "bool",
+					"value": false
+				},
+				"m_bVisibleInBoxReflection": {
+					"type": "bool",
+					"value": true
+				},
+				"WaveFunction": {
+					"type": "SEntityTemplateReference",
+					"value": "feedfb2c8d7bd413",
+					"postInit": true
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feedbc67e43ff5ad"
+				}
+			}
+		},
+		"feed7fe91b12b901": {
+			"parent": "feedbc67e43ff5ad",
+			"name": "ocean_wpatch_100m_6",
+			"factory": "0029ABB28FBFC6C6",
+			"blueprint": "[assembly:/templates/aspectdummy.aspect]([assembly:/templates/geometrytemplatestaticcoll.template?/geomentity01.entitytemplate].entitytype,[modules:/zpurewateraspect.class].entitytype).pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": 600,
+							"y": 0,
+							"z": 0
+						}
+					}
+				},
+				"m_bDisableNavmeshExport": {
+					"type": "bool",
+					"value": true
+				},
+				"m_bCastShadows": {
+					"type": "bool",
+					"value": false
+				},
+				"m_bVisibleInBoxReflection": {
+					"type": "bool",
+					"value": true
+				},
+				"WaveFunction": {
+					"type": "SEntityTemplateReference",
+					"value": "feedfb2c8d7bd413",
+					"postInit": true
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feedbc67e43ff5ad"
+				}
+			}
+		},
+		"feed3b715eba272c": {
+			"parent": "feedbc67e43ff5ad",
+			"name": "ocean_wpatch_100m_8",
+			"factory": "0029ABB28FBFC6C6",
+			"blueprint": "[assembly:/templates/aspectdummy.aspect]([assembly:/templates/geometrytemplatestaticcoll.template?/geomentity01.entitytemplate].entitytype,[modules:/zpurewateraspect.class].entitytype).pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": 800,
+							"y": 0,
+							"z": 0
+						}
+					}
+				},
+				"m_bDisableNavmeshExport": {
+					"type": "bool",
+					"value": true
+				},
+				"m_bCastShadows": {
+					"type": "bool",
+					"value": false
+				},
+				"m_bVisibleInBoxReflection": {
+					"type": "bool",
+					"value": true
+				},
+				"WaveFunction": {
+					"type": "SEntityTemplateReference",
+					"value": "feedfb2c8d7bd413",
+					"postInit": true
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feedbc67e43ff5ad"
+				}
+			}
+		},
+		"feedb5961c98f9fc": {
+			"parent": "feedbc67e43ff5ad",
+			"name": "ocean_wpatch_100m_7",
+			"factory": "0029ABB28FBFC6C6",
+			"blueprint": "[assembly:/templates/aspectdummy.aspect]([assembly:/templates/geometrytemplatestaticcoll.template?/geomentity01.entitytemplate].entitytype,[modules:/zpurewateraspect.class].entitytype).pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": 700,
+							"y": 0,
+							"z": 0
+						}
+					}
+				},
+				"m_bDisableNavmeshExport": {
+					"type": "bool",
+					"value": true
+				},
+				"m_bCastShadows": {
+					"type": "bool",
+					"value": false
+				},
+				"m_bVisibleInBoxReflection": {
+					"type": "bool",
+					"value": true
+				},
+				"WaveFunction": {
+					"type": "SEntityTemplateReference",
+					"value": "feedfb2c8d7bd413",
+					"postInit": true
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feedbc67e43ff5ad"
+				}
+			}
+		},
+		"feed3afcaad8bd4f": {
+			"parent": "feedbc67e43ff5ad",
+			"name": "ocean_wpatch_100m_9",
+			"factory": "0029ABB28FBFC6C6",
+			"blueprint": "[assembly:/templates/aspectdummy.aspect]([assembly:/templates/geometrytemplatestaticcoll.template?/geomentity01.entitytemplate].entitytype,[modules:/zpurewateraspect.class].entitytype).pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": 900,
+							"y": 0,
+							"z": 0
+						}
+					}
+				},
+				"m_bDisableNavmeshExport": {
+					"type": "bool",
+					"value": true
+				},
+				"m_bCastShadows": {
+					"type": "bool",
+					"value": false
+				},
+				"m_bVisibleInBoxReflection": {
+					"type": "bool",
+					"value": true
+				},
+				"WaveFunction": {
+					"type": "SEntityTemplateReference",
+					"value": "feedfb2c8d7bd413",
+					"postInit": true
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feedbc67e43ff5ad"
+				}
+			}
+		},
+		"feed0e8f633989d6": {
+			"parent": "feedbc67e43ff5ad",
+			"name": "ocean_wpatch_100m_4",
+			"factory": "0029ABB28FBFC6C6",
+			"blueprint": "[assembly:/templates/aspectdummy.aspect]([assembly:/templates/geometrytemplatestaticcoll.template?/geomentity01.entitytemplate].entitytype,[modules:/zpurewateraspect.class].entitytype).pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": 400,
+							"y": 0,
+							"z": 0
+						}
+					}
+				},
+				"m_bDisableNavmeshExport": {
+					"type": "bool",
+					"value": true
+				},
+				"m_bCastShadows": {
+					"type": "bool",
+					"value": false
+				},
+				"m_bVisibleInBoxReflection": {
+					"type": "bool",
+					"value": true
+				},
+				"WaveFunction": {
+					"type": "SEntityTemplateReference",
+					"value": "feedfb2c8d7bd413",
+					"postInit": true
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feedbc67e43ff5ad"
+				}
+			}
+		},
+		"feed4298b28d8401": {
+			"parent": "feed965f97656657",
+			"name": "X0",
+			"factory": "[modules:/zcompositeentity.class].pc_entitytype",
+			"blueprint": "[modules:/zcompositeentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feed965f97656657",
+					"postInit": true
+				}
+			}
+		},
+		"feede1d0c11653ea": {
+			"parent": "feed4298b28d8401",
+			"name": "ocean_wpatch_100m_2",
+			"factory": "0029ABB28FBFC6C6",
+			"blueprint": "[assembly:/templates/aspectdummy.aspect]([assembly:/templates/geometrytemplatestaticcoll.template?/geomentity01.entitytemplate].entitytype,[modules:/zpurewateraspect.class].entitytype).pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": 200,
+							"y": 0,
+							"z": 0
+						}
+					}
+				},
+				"m_bDisableNavmeshExport": {
+					"type": "bool",
+					"value": true
+				},
+				"m_bCastShadows": {
+					"type": "bool",
+					"value": false
+				},
+				"m_bVisibleInBoxReflection": {
+					"type": "bool",
+					"value": true
+				},
+				"WaveFunction": {
+					"type": "SEntityTemplateReference",
+					"value": "feedfb2c8d7bd413",
+					"postInit": true
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feed4298b28d8401"
+				}
+			}
+		},
+		"feeda0329e2e87e0": {
+			"parent": "feed4298b28d8401",
+			"name": "ocean_wpatch_100m_0",
+			"factory": "0029ABB28FBFC6C6",
+			"blueprint": "[assembly:/templates/aspectdummy.aspect]([assembly:/templates/geometrytemplatestaticcoll.template?/geomentity01.entitytemplate].entitytype,[modules:/zpurewateraspect.class].entitytype).pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						}
+					}
+				},
+				"m_bDisableNavmeshExport": {
+					"type": "bool",
+					"value": true
+				},
+				"m_bCastShadows": {
+					"type": "bool",
+					"value": false
+				},
+				"m_bVisibleInBoxReflection": {
+					"type": "bool",
+					"value": true
+				},
+				"WaveFunction": {
+					"type": "SEntityTemplateReference",
+					"value": "feedfb2c8d7bd413",
+					"postInit": true
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feed4298b28d8401"
+				}
+			}
+		},
+		"feed76d6da251cdd": {
+			"parent": "feed4298b28d8401",
+			"name": "ocean_wpatch_100m_3",
+			"factory": "0029ABB28FBFC6C6",
+			"blueprint": "[assembly:/templates/aspectdummy.aspect]([assembly:/templates/geometrytemplatestaticcoll.template?/geomentity01.entitytemplate].entitytype,[modules:/zpurewateraspect.class].entitytype).pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": 300,
+							"y": 0,
+							"z": 0
+						}
+					}
+				},
+				"m_bDisableNavmeshExport": {
+					"type": "bool",
+					"value": true
+				},
+				"m_bCastShadows": {
+					"type": "bool",
+					"value": false
+				},
+				"m_bVisibleInBoxReflection": {
+					"type": "bool",
+					"value": true
+				},
+				"WaveFunction": {
+					"type": "SEntityTemplateReference",
+					"value": "feedfb2c8d7bd413",
+					"postInit": true
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feed4298b28d8401"
+				}
+			}
+		},
+		"feed81f3dcea54fd": {
+			"parent": "feed4298b28d8401",
+			"name": "ocean_wpatch_100m_5",
+			"factory": "0029ABB28FBFC6C6",
+			"blueprint": "[assembly:/templates/aspectdummy.aspect]([assembly:/templates/geometrytemplatestaticcoll.template?/geomentity01.entitytemplate].entitytype,[modules:/zpurewateraspect.class].entitytype).pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": 500,
+							"y": 0,
+							"z": 0
+						}
+					}
+				},
+				"m_bDisableNavmeshExport": {
+					"type": "bool",
+					"value": true
+				},
+				"m_bCastShadows": {
+					"type": "bool",
+					"value": false
+				},
+				"m_bVisibleInBoxReflection": {
+					"type": "bool",
+					"value": true
+				},
+				"WaveFunction": {
+					"type": "SEntityTemplateReference",
+					"value": "feedfb2c8d7bd413",
+					"postInit": true
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feed4298b28d8401"
+				}
+			}
+		},
+		"feed76bb1bcfff4d": {
+			"parent": "feed4298b28d8401",
+			"name": "ocean_wpatch_100m_1",
+			"factory": "0029ABB28FBFC6C6",
+			"blueprint": "[assembly:/templates/aspectdummy.aspect]([assembly:/templates/geometrytemplatestaticcoll.template?/geomentity01.entitytemplate].entitytype,[modules:/zpurewateraspect.class].entitytype).pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": 100,
+							"y": 0,
+							"z": 0
+						}
+					}
+				},
+				"m_bDisableNavmeshExport": {
+					"type": "bool",
+					"value": true
+				},
+				"m_bCastShadows": {
+					"type": "bool",
+					"value": false
+				},
+				"m_bVisibleInBoxReflection": {
+					"type": "bool",
+					"value": true
+				},
+				"WaveFunction": {
+					"type": "SEntityTemplateReference",
+					"value": "feedfb2c8d7bd413",
+					"postInit": true
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feed4298b28d8401"
+				}
+			}
+		},
+		"feed4adb8f893276": {
+			"parent": "feed4298b28d8401",
+			"name": "ocean_wpatch_100m_6",
+			"factory": "0029ABB28FBFC6C6",
+			"blueprint": "[assembly:/templates/aspectdummy.aspect]([assembly:/templates/geometrytemplatestaticcoll.template?/geomentity01.entitytemplate].entitytype,[modules:/zpurewateraspect.class].entitytype).pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": 600,
+							"y": 0,
+							"z": 0
+						}
+					}
+				},
+				"m_bDisableNavmeshExport": {
+					"type": "bool",
+					"value": true
+				},
+				"m_bCastShadows": {
+					"type": "bool",
+					"value": false
+				},
+				"m_bVisibleInBoxReflection": {
+					"type": "bool",
+					"value": true
+				},
+				"WaveFunction": {
+					"type": "SEntityTemplateReference",
+					"value": "feedfb2c8d7bd413",
+					"postInit": true
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feed4298b28d8401"
+				}
+			}
+		},
+		"feed0b8985b65bea": {
+			"parent": "feed4298b28d8401",
+			"name": "ocean_wpatch_100m_8",
+			"factory": "0029ABB28FBFC6C6",
+			"blueprint": "[assembly:/templates/aspectdummy.aspect]([assembly:/templates/geometrytemplatestaticcoll.template?/geomentity01.entitytemplate].entitytype,[modules:/zpurewateraspect.class].entitytype).pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": 800,
+							"y": 0,
+							"z": 0
+						}
+					}
+				},
+				"m_bDisableNavmeshExport": {
+					"type": "bool",
+					"value": true
+				},
+				"m_bCastShadows": {
+					"type": "bool",
+					"value": false
+				},
+				"m_bVisibleInBoxReflection": {
+					"type": "bool",
+					"value": true
+				},
+				"WaveFunction": {
+					"type": "SEntityTemplateReference",
+					"value": "feedfb2c8d7bd413",
+					"postInit": true
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feed4298b28d8401"
+				}
+			}
+		},
+		"feed3b437bde8ecf": {
+			"parent": "feed4298b28d8401",
+			"name": "ocean_wpatch_100m_7",
+			"factory": "0029ABB28FBFC6C6",
+			"blueprint": "[assembly:/templates/aspectdummy.aspect]([assembly:/templates/geometrytemplatestaticcoll.template?/geomentity01.entitytemplate].entitytype,[modules:/zpurewateraspect.class].entitytype).pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": 700,
+							"y": 0,
+							"z": 0
+						}
+					}
+				},
+				"m_bDisableNavmeshExport": {
+					"type": "bool",
+					"value": true
+				},
+				"m_bCastShadows": {
+					"type": "bool",
+					"value": false
+				},
+				"m_bVisibleInBoxReflection": {
+					"type": "bool",
+					"value": true
+				},
+				"WaveFunction": {
+					"type": "SEntityTemplateReference",
+					"value": "feedfb2c8d7bd413",
+					"postInit": true
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feed4298b28d8401"
+				}
+			}
+		},
+		"feed99b27ccf7bc5": {
+			"parent": "feed4298b28d8401",
+			"name": "ocean_wpatch_100m_9",
+			"factory": "0029ABB28FBFC6C6",
+			"blueprint": "[assembly:/templates/aspectdummy.aspect]([assembly:/templates/geometrytemplatestaticcoll.template?/geomentity01.entitytemplate].entitytype,[modules:/zpurewateraspect.class].entitytype).pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": 900,
+							"y": 0,
+							"z": 0
+						}
+					}
+				},
+				"m_bDisableNavmeshExport": {
+					"type": "bool",
+					"value": true
+				},
+				"m_bCastShadows": {
+					"type": "bool",
+					"value": false
+				},
+				"m_bVisibleInBoxReflection": {
+					"type": "bool",
+					"value": true
+				},
+				"WaveFunction": {
+					"type": "SEntityTemplateReference",
+					"value": "feedfb2c8d7bd413",
+					"postInit": true
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feed4298b28d8401"
+				}
+			}
+		},
+		"feed828d5aa08943": {
+			"parent": "feed4298b28d8401",
+			"name": "ocean_wpatch_100m_4",
+			"factory": "0029ABB28FBFC6C6",
+			"blueprint": "[assembly:/templates/aspectdummy.aspect]([assembly:/templates/geometrytemplatestaticcoll.template?/geomentity01.entitytemplate].entitytype,[modules:/zpurewateraspect.class].entitytype).pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": 400,
+							"y": 0,
+							"z": 0
+						}
+					}
+				},
+				"m_bDisableNavmeshExport": {
+					"type": "bool",
+					"value": true
+				},
+				"m_bCastShadows": {
+					"type": "bool",
+					"value": false
+				},
+				"m_bVisibleInBoxReflection": {
+					"type": "bool",
+					"value": true
+				},
+				"WaveFunction": {
+					"type": "SEntityTemplateReference",
+					"value": "feedfb2c8d7bd413",
+					"postInit": true
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feed4298b28d8401"
+				}
+			}
+		},
+		"feed965f97656657": {
+			"parent": "feedeb683ecc2290",
+			"name": "Y0",
+			"factory": "[modules:/zcompositeentity.class].pc_entitytype",
+			"blueprint": "[modules:/zcompositeentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": -1000,
+							"y": -1000,
+							"z": -100
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
 					"value": "feeda0dde246616a",
 					"postInit": true
+				}
+			}
+		},
+		"feedefdc50dd081a": {
+			"parent": "feed4e4a02290d8f",
+			"name": "ocean_wpatch_100m_0",
+			"factory": "0029ABB28FBFC6C6",
+			"blueprint": "[assembly:/templates/aspectdummy.aspect]([assembly:/templates/geometrytemplatestaticcoll.template?/geomentity01.entitytemplate].entitytype,[modules:/zpurewateraspect.class].entitytype).pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": 0,
+							"y": 0,
+							"z": -200
+						},
+						"scale": {
+							"x": 5000,
+							"y": 5000,
+							"z": 1
+						}
+					}
+				},
+				"m_bDisableNavmeshExport": {
+					"type": "bool",
+					"value": true
+				},
+				"m_bCastShadows": {
+					"type": "bool",
+					"value": false
+				},
+				"m_bVisibleInBoxReflection": {
+					"type": "bool",
+					"value": true
+				},
+				"WaveFunction": {
+					"type": "SEntityTemplateReference",
+					"value": "feedfb2c8d7bd413",
+					"postInit": true
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feeda0dde246616a"
 				}
 			}
 		}
