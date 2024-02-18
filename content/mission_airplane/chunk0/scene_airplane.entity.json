@@ -1170,11 +1170,6 @@
 					]
 				},
 				"Out02": {
-					"GiveOutfit": [
-						"feed335c682384ec"
-					]
-				},
-				"Out03": {
 					"Play": [
 						"feed3b76cfc76c99"
 					]
@@ -5132,7 +5127,7 @@
 			"properties": {
 				"m_fHeightAboveSeaLevel": {
 					"type": "float32",
-					"value": 200
+					"value": 500
 				},
 				"m_fSunIntensityScale": {
 					"type": "float32",
@@ -5185,7 +5180,7 @@
 						"position": {
 							"x": 1.2996870279312134,
 							"y": -8.302420616149902,
-							"z": 0.8191760182380676
+							"z": -650.8191760182380676
 						}
 					}
 				},
@@ -5281,7 +5276,7 @@
 						"position": {
 							"x": 0.7046290040016174,
 							"y": -0.07952500134706497,
-							"z": 67.92433166503906
+							"z": -667.92433166503906
 						}
 					}
 				},
@@ -5316,7 +5311,7 @@
 						"position": {
 							"x": 0,
 							"y": 0,
-							"z": -1.4783589839935303
+							"z": -651.4783589839935303
 						}
 					}
 				},
@@ -5391,7 +5386,7 @@
 						"position": {
 							"x": 0,
 							"y": 0,
-							"z": -0.20878900587558746
+							"z": -650.20878900587558746
 						}
 					}
 				},
@@ -5426,7 +5421,7 @@
 						"position": {
 							"x": 0,
 							"y": 0,
-							"z": 0
+							"z": -650
 						}
 					}
 				},
@@ -6172,6 +6167,48 @@
 					"Start": [
 						"feed156ec636365a"
 					]
+				}
+			}
+		},
+		"feed4e4a02290d8f": {
+			"parent": "abcd85cba5ab5afa",
+			"name": "Ocean",
+			"factory": "[modules:/zentity.class].pc_entitytype",
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
+		},
+		"feed65588116e1bd": {
+			"parent": "feed4e4a02290d8f",
+			"name": "ocean_outerhorizon_tall_a",
+			"factory": "[assembly:/sonsofprovidence/airplane/ocean_outerhorizon_tall_a.prim].pc_entitytype",
+			"blueprint": "[assembly:/templates/geometrytemplatenocoll.template?/geomentity01.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": 0,
+							"y": 0,
+							"z": 600
+						}
+					}
+				},
+				"m_bCastShadows": {
+					"type": "bool",
+					"value": false
+				},
+				"m_bVisibleInBoxReflection": {
+					"type": "bool",
+					"value": true
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feeda0dde246616a",
+					"postInit": true
 				}
 			}
 		}

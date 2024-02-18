@@ -2867,7 +2867,7 @@
 		},
 		"feedd8c79f0215b8": {
 			"parent": "feed41fa9eed6cf6",
-			"name": "airplane_a",
+			"name": "airplane_a_geomentity",
 			"factory": "[assembly:/sonsofprovidence/airplane/airplane_a.wl2?/airplane_a.prim].pc_entitytype",
 			"blueprint": "[assembly:/templates/geometrytemplatenocoll.template?/geomentity01.entitytemplate].pc_entityblueprint",
 			"properties": {

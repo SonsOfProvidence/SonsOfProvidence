@@ -174,9 +174,6 @@
 		"OutfitVariationIndex": 0.0,
 		"Tile": "images/sop/berlin_target.jpg"
 	},
-	"743F058F-56A0-420F-8B5E-46DABABACA37": {
-		"Name": "Ben Bern"
-	},
 	"1518c0c7-7fa1-4d51-a87d-d660e5bfc8f1": {
 		"AIPerceptibleOnRelease": false,
 		"ActionRewardType": "AR_None",

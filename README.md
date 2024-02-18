@@ -12,6 +12,8 @@ Note: The mod is still a work in progress. It is currently designed to be an off
 
 ## Installation instructions:
 
+[Install](https://hitman-resources.netlify.app/smf-install-link/https://github.com/SonsOfProvidence/SonsOfProvidence/releases/latest/download/SonsOfProvidence.zip) | [Download](https://github.com/SonsOfProvidence/SonsOfProvidence/releases/latest/download/SonsOfProvidence.zip)
+
 1. Download a release zip file.
 2. Import it using SMF (Simple Mod Framework: https://github.com/atampy25/simple-mod-framework).
 3. Click Deploy.

@@ -4,7 +4,7 @@
 	"name": "Sons of Providence",
 	"description": "This mod tells a tale of two brothers, and their mission to take them all down.",
 	"blobsFolders": ["content/blobs"],
-	"authors": ["Danny Bierek"],
+	"authors": ["AtomicForce"],
 	"frameworkVersion": "2.32.1",
 	"version": "0.46.4",
 	"contentFolders": ["content/shared"],
@@ -21,7 +21,41 @@
 			"tooltip": "Mission 2: Take out Eugene Cobb",
 			"type": "checkbox",
 			"enabledByDefault": true,
-			"contentFolders": ["content/mission_airplane"]
+			"contentFolders": ["content/mission_airplane"],
+			"dependencies": [
+				{
+					"runtimeID": "009B69398EF84BB2",
+					"comment": "ocean_outerhorizon_a"
+				},
+				{
+					"runtimeID": "005A871FEC886F4F",
+					"comment": "ocean_wpatch_100m aset",
+					"portFromChunk1": true
+				},
+				{
+					"runtimeID": "0029ABB28FBFC6C6",
+					"comment": "ocean_wpatch_100m prim"
+				},
+				{
+					"runtimeID": "00AC0D6273F2E81B",
+					"comment": "zpurewatermultigerstnerentity",
+					"portFromChunk1": true
+				},
+				{
+					"runtimeID": "00E2A1C4B3C6F6E7",
+					"comment": "zpurewatermultigerstnerentity pDistDepthMap"
+				},
+				{
+					"runtimeID": "009E7B156EBC62ED",
+					"comment": "zpurewateraspect",
+					"portFromChunk1": true
+				},
+				{
+					"runtimeID": "00288D8A697D47D4",
+					"comment": "zpurewateraspect",
+					"portFromChunk1": true
+				}
+			]
 		},
 		{
 			"name": "Moscow",
@@ -4348,5 +4382,5 @@
 			"NPC_THOMAS_CROSS_DESC": "Thomas Cross is a reclusive business mogul and president of one of the largest companies in the world. His money could finance the mission to take down Providence."
 		}
 	},
-	"updateCheck": "https://github.com/dbierek/SonsOfProvidence/releases/latest/download/updates.json"
+	"updateCheck": "https://github.com/SonsOfProvidence/SonsOfProvidence/releases/latest/download/updates.json"
 }
