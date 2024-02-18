@@ -260,6 +260,18 @@
 		"ioiString": "[assembly:/sonsofprovidence/airplane/airplane.prim].pc_prim"
 	},
 	{
+		"hash": "00AC4770232E82A6",
+		"ioiString": "[assembly:/sonsofprovidence/airplane/ocean_outerhorizon_tall.prim].pc_prim"
+	},
+	{
+		"hash": "00FC74D6C0B7EC29",
+		"ioiString": "[assembly:/sonsofprovidence/airplane/ocean_outerhorizon_tall_a.prim].pc_entitytype"
+	},
+	{
+		"hash": "00CC091B3F65E258",
+		"ioiString": "[assembly:/sonsofprovidence/airplane/ocean_outerhorizon_tall_a.prim].pc_entityblueprint"
+	},
+	{
 		"hash": "000F83981CA13201",
 		"ioiString": "[assembly:/_pro/environment/templates/custom/statue_of_liberty_a.template?/statue_of_liberty_a.entitytemplate].pc_entitytype"
 	},

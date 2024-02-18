@@ -6183,8 +6183,8 @@
 		},
 		"feed65588116e1bd": {
 			"parent": "feed4e4a02290d8f",
-			"name": "ocean_outerhorizon_a",
-			"factory": "009B69398EF84BB2",
+			"name": "ocean_outerhorizon_tall_a",
+			"factory": "[assembly:/sonsofprovidence/airplane/ocean_outerhorizon_tall_a.prim].pc_entitytype",
 			"blueprint": "[assembly:/templates/geometrytemplatenocoll.template?/geomentity01.entitytemplate].pc_entityblueprint",
 			"properties": {
 				"m_mTransform": {
@@ -6194,42 +6194,6 @@
 							"x": 0,
 							"y": 0,
 							"z": 0
-						},
-						"position": {
-							"x": -59.7239990234375,
-							"y": -150.81500244140625,
-							"z": -149
-						}
-					}
-				},
-				"m_bCastShadows": {
-					"type": "bool",
-					"value": false
-				},
-				"m_bVisibleInBoxReflection": {
-					"type": "bool",
-					"value": true
-				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "feeda0dde246616a",
-					"postInit": true
-				}
-			}
-		},
-		"feedbf72fa21af72": {
-			"parent": "feed4e4a02290d8f",
-			"name": "ocean_outerhorizon_b",
-			"factory": "009B69398EF84BB2",
-			"blueprint": "[assembly:/templates/geometrytemplatenocoll.template?/geomentity01.entitytemplate].pc_entityblueprint",
-			"properties": {
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": 180
 						},
 						"position": {
 							"x": -59.7239990234375,
@@ -7343,8 +7307,8 @@
 							"z": 0
 						},
 						"position": {
-							"x": -1000,
-							"y": -1000,
+							"x": -100,
+							"y": -100,
 							"z": -100
 						}
 					}
@@ -7374,11 +7338,6 @@
 							"x": 0,
 							"y": 0,
 							"z": -200
-						},
-						"scale": {
-							"x": 5000,
-							"y": 5000,
-							"z": 1
 						}
 					}
 				},
