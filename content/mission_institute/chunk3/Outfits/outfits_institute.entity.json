@@ -34,11 +34,11 @@
 				},
 				"m_eActorCCClass": {
 					"type": "EActorCCPreset",
-					"value": "ACCP_GuardMaleElite"
+					"value": "ACCP_CivilianeMale"
 				},
 				"m_bWeaponsAllowed": {
 					"type": "bool",
-					"value": true
+					"value": false
 				},
 				"m_bHeroDisguiseAvailable": {
 					"type": "bool",
@@ -46,7 +46,7 @@
 				},
 				"m_eSoundFootwearType": {
 					"type": "EHM5SoundFootwearType",
-					"value": "EFWT_BAREFOOT"
+					"value": "EFWT_BOOTS"
 				},
 				"m_aCharSets": {
 					"type": "TArray<SEntityTemplateReference>",
@@ -56,35 +56,34 @@
 				},
 				"m_eOutfitAICategory": {
 					"type": "EOutfitAICategory",
-					"value": "OAC_Soldier"
+					"value": "OAC_Civilian"
 				},
 				"m_AvailableWeaponKeys": {
 					"type": "TArray<SEntityTemplateReference>",
 					"value": [
-						"feedea82b8fd3609",
-						"feed48e78d7435bb"
+						"feed57ac92744da3"
 					]
 				},
 				"m_pParentOutfit": {
 					"type": "SEntityTemplateReference",
 					"value": {
-						"ref": "1357f3657950d38e",
+						"ref": "6736fcbbd3e73209",
 						"externalScene": "[assembly:/_pro/scenes/bricks/globaldata.brick].pc_entitytype"
 					}
 				},
 				"m_rDefaultVoiceVariations": {
 					"type": "TArray<EActorVoiceVariation>",
 					"value": [
-						"eAVV_CIVMALE08"
+						"eAVV_Undefined"
 					]
 				},
 				"m_eOutfitType": {
 					"type": "EOutfitType",
-					"value": "eOT_Guard"
+					"value": "eOT_Worker"
 				},
 				"m_eActorRank": {
 					"type": "EActorRank",
-					"value": "AR_Elite"
+					"value": "AR_Default"
 				},
 				"m_sId": {
 					"type": "ZGuid",
@@ -130,44 +129,6 @@
 			},
 			"factory": "007A51A2AFEC0D1A"
 		},
-		"feedea82b8fd3609": {
-			"parent": "feeda3b6bd03594e",
-			"name": "ItemKey_Hackl9R NPC",
-			"blueprint": "[modules:/zitemrepositorykeyentity.class].pc_entityblueprint",
-			"properties": {
-				"m_RepositoryId": {
-					"type": "ZGuid",
-					"value": "1cae7d71-55c8-401a-9dfb-cd0909c4f6ee"
-				}
-			},
-			"factory": "[modules:/zitemrepositorykeyentity.class].pc_entitytype"
-		},
-		"feed4ffc656e9b13": {
-			"parent": "feeda3b6bd03594e",
-			"name": "Keyword_Prof_Class_Guard_Heavy",
-			"blueprint": "003A7D4D8810414B",
-			"properties": {
-				"m_aHolders": {
-					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-
-					]
-				}
-			},
-			"factory": "00364659808ED13C"
-		},
-		"feed48e78d7435bb": {
-			"parent": "feeda3b6bd03594e",
-			"name": "ItemKey_Shotgun02 NPC",
-			"blueprint": "[modules:/zitemrepositorykeyentity.class].pc_entityblueprint",
-			"properties": {
-				"m_RepositoryId": {
-					"type": "ZGuid",
-					"value": "7f31d897-a62f-448c-be0d-79d565e2faa7"
-				}
-			},
-			"factory": "[modules:/zitemrepositorykeyentity.class].pc_entitytype"
-		},
 		"feed91095b321bea": {
 			"parent": "feeda3b6bd03594e",
 			"name": "KeywordEntity_FOLEY_OUTFIT_GUARD",
@@ -176,12 +137,240 @@
 				"m_aHolders": {
 					"type": "TArray<SEntityTemplateReference>",
 					"value": [
-
+						"feeda3b6bd03594e"
 					],
 					"postInit": true
 				}
 			},
 			"factory": "[assembly:/_pro/design/gamecore/keywords/keywordsound.template?/keywordentity_foley_outfit_guard.entitytemplate].pc_entitytype"
+		},
+		"feed9a363b653847": {
+			"parent": "fffffffffffffffe",
+			"name": "Institute_Guard_EliteGuard_M",
+			"factory": "[modules:/zglobaloutfitkit.class].pc_entitytype",
+			"blueprint": "[modules:/zglobaloutfitkit.class].pc_entityblueprint",
+			"properties": {
+				"m_DamageMultipliers": {
+					"type": "SBodyPartDamageMultipliers",
+					"value": {
+						"m_fHeadDamageMultiplier": 3,
+						"m_fFaceDamageMultiplier": 3,
+						"m_fArmDamageMultiplier": 1,
+						"m_fLArmDamageScalar": 0,
+						"m_fRArmDamageScalar": 0,
+						"m_fHandDamageMultiplier": 0.5,
+						"m_fLHandDamageScalar": 0,
+						"m_fRHandDamageScalar": 0,
+						"m_fLegDamageMultiplier": 0.6000000238418579,
+						"m_fLLegDamageScalar": 0,
+						"m_fRLegDamageScalar": 0,
+						"m_fTorsoDamageMultiplier": 1,
+						"m_bApplyLeftRightScalars": false
+					}
+				},
+				"m_bHeroDisguiseAvailable": {
+					"type": "bool",
+					"value": false
+				},
+				"m_bWeaponsAllowed": {
+					"type": "bool",
+					"value": true
+				},
+				"m_eSoundFootwearType": {
+					"type": "EHM5SoundFootwearType",
+					"value": "EFWT_BOOTS"
+				},
+				"m_sId": {
+					"type": "ZGuid",
+					"value": "a407a203-c590-46b1-b2cf-4a49d08ac4d2"
+				},
+				"m_pParentOutfit": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "958ef354a73d986e",
+						"externalScene": "[assembly:/_pro/scenes/bricks/globaldata.brick].pc_entitytype"
+					}
+				},
+				"m_sCommonName": {
+					"type": "ZString",
+					"value": "Trapped_Guard_EliteGuard_M"
+				},
+				"m_sTitle": {
+					"type": "ZString",
+					"value": "Elite Guard"
+				},
+				"m_eOutfitAICategory": {
+					"type": "EOutfitAICategory",
+					"value": "OAC_Soldier"
+				},
+				"m_rNameTextResource": {
+					"type": "ZRuntimeResourceID",
+					"value": "[assembly:/localization/hitman6/conversations/ui/pro/online/repository/outfits_npcs_sapienza.sweetmenutext?/outfits_sapienza_worker_nakedguy_m_hpa1370_name_d3bdbcfe-8e46-4774-a642-17daa98a7f69.sweetline].pc_sweetline"
+				},
+				"m_rDescriptionTextResource": {
+					"type": "ZRuntimeResourceID",
+					"value": "[assembly:/localization/hitman6/conversations/ui/pro/online/repository/outfits_npcs_sapienza.sweetmenutext?/outfits_sapienza_worker_nakedguy_m_hpa1370_description_d3bdbcfe-8e46-4774-a642-17daa98a7f69.sweetline].pc_sweetline"
+				},
+				"m_rDefaultVoiceVariations": {
+					"type": "TArray<EActorVoiceVariation>",
+					"value": [
+						"eAVV_BDYGRD04",
+						"eAVV_BDYGRD05",
+						"eAVV_BDYGRD06",
+						"eAVV_BDYGRD07"
+					]
+				},
+				"m_AvailableGrenadeKeys": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						"feedb2463fdf362b"
+					]
+				},
+				"m_fHitPoints": {
+					"type": "float32",
+					"value": -1
+				},
+				"m_eOutfitType": {
+					"type": "EOutfitType",
+					"value": "eOT_Guard"
+				},
+				"m_aCharSets": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						"feed1b1fd0043bdb"
+					],
+					"postInit": true
+				},
+				"m_AvailableWeaponKeys": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						"feed975d164cc921",
+						"feed5b872a9d48b5",
+						"feed9cc83118832e"
+					],
+					"postInit": true
+				},
+				"m_aWeaponsAllowedExceptionKeywords": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						"feed41dcabcf61a3"
+					],
+					"postInit": true
+				}
+			}
+		},
+		"feedb2463fdf362b": {
+			"parent": "feed9a363b653847",
+			"name": "ItemKey__Grenade_ Flash",
+			"factory": "[modules:/zitemrepositorykeyentity.class].pc_entitytype",
+			"blueprint": "[modules:/zitemrepositorykeyentity.class].pc_entityblueprint",
+			"properties": {
+				"m_RepositoryId": {
+					"type": "ZGuid",
+					"value": "042fae7b-fe9e-4a83-ac7b-5c914a71b2ca"
+				}
+			}
+		},
+		"feed5b872a9d48b5": {
+			"parent": "feed9a363b653847",
+			"name": "ItemKey_ICA Tactical Shotgun _Wolverine_NPC",
+			"factory": "[modules:/zitemrepositorykeyentity.class].pc_entitytype",
+			"blueprint": "[modules:/zitemrepositorykeyentity.class].pc_entityblueprint",
+			"properties": {
+				"m_RepositoryId": {
+					"type": "ZGuid",
+					"value": "4e92b3c5-3358-44aa-8a87-f7f349f46f44"
+				}
+			}
+		},
+		"feed60b4331a0a8e": {
+			"parent": "feed9a363b653847",
+			"name": "Keyword_Prof_Class_Guard_Heavy",
+			"factory": "00364659808ED13C",
+			"blueprint": "003A7D4D8810414B",
+			"properties": {
+				"m_aHolders": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						"feed9a363b653847"
+					],
+					"postInit": true
+				}
+			}
+		},
+		"feed9cc83118832e": {
+			"parent": "feed9a363b653847",
+			"name": "ItemKey__S3_ _SMG_ RAPTOR ICA Standard Wolverine",
+			"factory": "[modules:/zitemrepositorykeyentity.class].pc_entitytype",
+			"blueprint": "[modules:/zitemrepositorykeyentity.class].pc_entityblueprint",
+			"properties": {
+				"m_RepositoryId": {
+					"type": "ZGuid",
+					"value": "a494c3c8-9a41-4398-9542-559e6a5dc1cb"
+				}
+			}
+		},
+		"feed04285018a572": {
+			"parent": "feed9a363b653847",
+			"name": "KeywordEntity_FOLEY_OUTFIT_ARMYVEST",
+			"factory": "[assembly:/_pro/design/gamecore/keywords/keywordsound.template?/keywordentity_foley_outfit_armyvest.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/gamecore/keywords/keywordsound.template?/keywordentity_foley_outfit_armyvest.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_rHolder": {
+					"type": "SEntityTemplateReference",
+					"value": "feed9a363b653847"
+				}
+			}
+		},
+		"feedf5af23ad5db7": {
+			"parent": "feed9a363b653847",
+			"name": "Keyword_Prof_Class_Default",
+			"factory": "007A51A2AFEC0D1A",
+			"blueprint": "00B0282A41C1CF2E",
+			"properties": {
+				"m_aHolders": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						"feed9a363b653847"
+					]
+				}
+			}
+		},
+		"feed41dcabcf61a3": {
+			"parent": "feed9a363b653847",
+			"name": "Keyword_ITEM_SNIPER_RIFLE",
+			"factory": "[assembly:/_pro/design/gamecore/keywords/keyworditems.template?/keyword_item_sniper_rifle.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/gamecore/keywords/keyworditems.template?/keyword_item_sniper_rifle.entitytemplate].pc_entityblueprint"
+		},
+		"feed975d164cc921": {
+			"parent": "feed9a363b653847",
+			"name": "DONT_USE_ON_LEVEL_ItemKey__Pistol_ ICA 19 Wolverine",
+			"factory": "[modules:/zitemrepositorykeyentity.class].pc_entitytype",
+			"blueprint": "[modules:/zitemrepositorykeyentity.class].pc_entityblueprint",
+			"properties": {
+				"m_RepositoryId": {
+					"type": "ZGuid",
+					"value": "c716ebb8-cc0e-4e60-9335-844a0d7e645d"
+				}
+			}
+		},
+		"feed1b1fd0043bdb": {
+			"parent": "feed9a363b653847",
+			"name": "CHARSET_Institute_Guard_ProvidenceGuardElite_M",
+			"factory": "[assembly:/sonsofprovidence/institute/charset_institute_guard_providenceguardelite_m.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/sonsofprovidence/institute/charset_institute_guard_providenceguardelite_m.entitytemplate].pc_entityblueprint"
+		},
+		"feed57ac92744da3": {
+			"parent": "feeda3b6bd03594e",
+			"name": "ItemKey_Hackl9R NPC",
+			"factory": "[modules:/zitemrepositorykeyentity.class].pc_entitytype",
+			"blueprint": "[modules:/zitemrepositorykeyentity.class].pc_entityblueprint",
+			"properties": {
+				"m_RepositoryId": {
+					"type": "ZGuid",
+					"value": "1cae7d71-55c8-401a-9dfb-cd0909c4f6ee"
+				}
+			}
 		}
 	},
 	"propertyOverrides": [

@@ -14,7 +14,14 @@
 			"tooltip": "Mission 1: Assault the Institute for Human Betterment",
 			"type": "checkbox",
 			"enabledByDefault": true,
-			"contentFolders": ["content/mission_institute"]
+			"contentFolders": ["content/mission_institute"],
+			"dependencies": [
+				{
+					"runtimeID": "00ED2A2D1873BCAA",
+					"comment": "outfit_wolverine_guard_providenceguardelite_m_actor_v0",
+					"toChunk": 3
+				}
+			]
 		},
 		{
 			"name": "Airplane",

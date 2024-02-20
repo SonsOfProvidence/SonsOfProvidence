@@ -328,6 +328,22 @@
 		"ioiString": "[assembly:/sonsofprovidence/outfits_institute.brick].pc_entityblueprint"
 	},
 	{
+		"hash": "00D1C25BA934D68F",
+		"ioiString": "[assembly:/sonsofprovidence/institute/outfit_institute_guard_providenceguardelite_m.entitytemplate].pc_entitytype"
+	},
+	{
+		"hash": "00BA351E06815433",
+		"ioiString": "[assembly:/sonsofprovidence/institute/outfit_institute_guard_providenceguardelite_m.entitytemplate].pc_entityblueprint"
+	},
+	{
+		"hash": "00A89EA621807545",
+		"ioiString": "[assembly:/sonsofprovidence/institute/charset_institute_guard_providenceguardelite_m.entitytemplate].pc_entitytype"
+	},
+	{
+		"hash": "00F3CAB8F4916063",
+		"ioiString": "[assembly:/sonsofprovidence/institute/charset_institute_guard_providenceguardelite_m.entitytemplate].pc_entityblueprint"
+	},
+	{
 		"hash": "00D023CAEBCDCC63",
 		"ioiString": "[assembly:/sonsofprovidence/thomascross_hair_diffuse.tex](ascolormap).pc_tex)"
 	},
