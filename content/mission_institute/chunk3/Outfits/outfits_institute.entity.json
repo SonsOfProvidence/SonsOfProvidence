@@ -32,13 +32,35 @@
 						"m_bApplyLeftRightScalars": false
 					}
 				},
+				"m_eActorType": {
+					"type": "EActorType",
+					"value": "eAT_Hitman"
+				},
 				"m_eActorCCClass": {
 					"type": "EActorCCPreset",
 					"value": "ACCP_CivilianeMale"
 				},
+				"m_eOutfitAICategory": {
+					"type": "EOutfitAICategory",
+					"value": "OAC_Civilian"
+				},
+				"m_eOutfitType": {
+					"type": "EOutfitType",
+					"value": "eOT_Worker"
+				},
+				"m_eActorRank": {
+					"type": "EActorRank",
+					"value": "AR_Default"
+				},
 				"m_bWeaponsAllowed": {
 					"type": "bool",
 					"value": false
+				},
+				"m_AvailableWeaponKeys": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						"feed57ac92744da3"
+					]
 				},
 				"m_bHeroDisguiseAvailable": {
 					"type": "bool",
@@ -54,16 +76,6 @@
 						"feed1c32d5e1c54b"
 					]
 				},
-				"m_eOutfitAICategory": {
-					"type": "EOutfitAICategory",
-					"value": "OAC_Civilian"
-				},
-				"m_AvailableWeaponKeys": {
-					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"feed57ac92744da3"
-					]
-				},
 				"m_pParentOutfit": {
 					"type": "SEntityTemplateReference",
 					"value": {
@@ -76,14 +88,6 @@
 					"value": [
 						"eAVV_Undefined"
 					]
-				},
-				"m_eOutfitType": {
-					"type": "EOutfitType",
-					"value": "eOT_Worker"
-				},
-				"m_eActorRank": {
-					"type": "EActorRank",
-					"value": "AR_Default"
 				},
 				"m_sId": {
 					"type": "ZGuid",

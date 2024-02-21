@@ -448,10 +448,10 @@
 			"factory": "[modules:/zentity.class].pc_entitytype"
 		},
 		"feed458e92ce0f7f": {
-			"parent": "abcde92f2c09c134",
-			"name": "Agent 47",
-			"factory": "[assembly:/templates/gameplay/ai2/actors.template?/npcactor.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/templates/gameplay/ai2/actors.template?/npcactor.entitytemplate].pc_entityblueprint",
+			"parent": "feed4e8b1935c261",
+			"name": "CHAR_Agent_47",
+			"factory": "[assembly:/templates/aspectdummy.aspect]([assembly:/templates/gameplay/ai2/actors.template?/npcactor.entitytemplate].entitytype,[modules:/zglowoverrideaspect.class].entitytype,[modules:/zactorexemptionaspect.class].entitytype).pc_entitytype",
+			"blueprint": "[assembly:/templates/aspectdummy.aspect]([assembly:/templates/gameplay/ai2/actors.template?/npcactor.entitytemplate].entitytype,[modules:/zglowoverrideaspect.class].entitytype,[modules:/zactorexemptionaspect.class].entitytype).pc_entityblueprint",
 			"properties": {
 				"m_mTransform": {
 					"type": "SMatrix43",
@@ -488,6 +488,18 @@
 					"type": "int32",
 					"value": 0
 				},
+				"m_eGlowOverride": {
+					"type": "ERenderGlowTypes",
+					"value": "ERENDERGLOWTYPE_CONTRACT_TARGET_SPECIAL"
+				},
+				"m_bExemptFromAttentionHUD": {
+					"type": "bool",
+					"value": true
+				},
+				"m_bExemptFromTagging": {
+					"type": "bool",
+					"value": true
+				},
 				"m_eRequiredVoiceVariation": {
 					"type": "EActorVoiceVariation",
 					"value": "eAVV_CIVMALE02"
@@ -514,7 +526,8 @@
 		"feedba76a33db082": {
 			"parent": "feed458e92ce0f7f",
 			"name": "DramaSituation Walking to Entrance and to Library",
-			"blueprint": "00EC88C8E4442C57",
+			"factory": "[assembly:/_pro/design/actor/dramasystem2.template?/dramasituation.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/dramasystem2.template?/dramasituation.entitytemplate].pc_entityblueprint",
 			"properties": {
 				"m_aRoles": {
 					"type": "TArray<SEntityTemplateReference>",
@@ -526,13 +539,13 @@
 					"type": "bool",
 					"value": false
 				}
-			},
-			"factory": "00C6B73FE00A947C"
+			}
 		},
 		"feed4993eb11155a": {
 			"parent": "feedba76a33db082",
 			"name": "DramaSituation2Proxy",
-			"blueprint": "00900EB78F2E0F5E",
+			"factory": "[assembly:/_pro/design/actor/dramasystem2.template?/dramasituationproxy.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/dramasystem2.template?/dramasituationproxy.entitytemplate].pc_entityblueprint",
 			"properties": {
 				"m_rOriginalDrama": {
 					"type": "SEntityTemplateReference",
@@ -548,12 +561,11 @@
 						"feed881deb61c7aa"
 					]
 				}
-			},
-			"factory": "000C288A323918F9"
+			}
 		},
 		"feed0dd25b1be97d": {
 			"parent": "feedba76a33db082",
-			"name": "Agent 47",
+			"name": "Agent 47 Role",
 			"factory": "[assembly:/_pro/design/actor/dramasystem2.template?/role.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/design/actor/dramasystem2.template?/role.entitytemplate].pc_entityblueprint",
 			"properties": {
@@ -1419,6 +1431,58 @@
 				"Replicable": [
 					"fffffffffffffffe"
 				]
+			}
+		},
+		"feed1da81e26dc35": {
+			"parent": "abcde92f2c09c134",
+			"name": "Mission Critical In",
+			"factory": "[modules:/zprioritynode.class].pc_entitytype",
+			"blueprint": "[modules:/zprioritynode.class].pc_entityblueprint",
+			"properties": {
+				"m_aHigherPriority": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						"feedba76a33db082"
+					]
+				},
+				"m_nPriorityOffset": {
+					"type": "int32",
+					"value": 1
+				},
+				"m_nBasePriority": {
+					"type": "int32",
+					"value": 250
+				}
+			}
+		},
+		"feed4e8b1935c261": {
+			"parent": "abcde92f2c09c134",
+			"name": "Agent 47",
+			"factory": "[modules:/zentity.class].pc_entitytype",
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint",
+			"properties": {
+				"HigherPriority": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						"feed1da81e26dc35"
+					],
+					"postInit": true
+				}
+			}
+		},
+		"feeda93a30a1bfea": {
+			"parent": "feed458e92ce0f7f",
+			"name": "Higher Priority",
+			"factory": "[modules:/zprioritynode.class].pc_entitytype",
+			"blueprint": "[modules:/zprioritynode.class].pc_entityblueprint",
+			"properties": {
+				"m_aHigherPriority": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						"feed1da81e26dc35"
+					],
+					"postInit": true
+				}
 			}
 		}
 	},

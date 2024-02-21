@@ -20,6 +20,11 @@
 					"runtimeID": "00ED2A2D1873BCAA",
 					"comment": "outfit_wolverine_guard_providenceguardelite_m_actor_v0",
 					"toChunk": 3
+				},
+				{
+					"runtimeID": "00608C3EB30184CB",
+					"comment": "[modules:/zactorexemptionaspect.class].entitytype",
+					"toChunk": 3
 				}
 			]
 		},
