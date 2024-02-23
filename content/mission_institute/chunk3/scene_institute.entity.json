@@ -1191,11 +1191,11 @@
 				},
 				"m_bSpawnOnStart": {
 					"type": "bool",
-					"value": false
+					"value": true
 				},
 				"m_rMainItemKey": {
 					"type": "SEntityTemplateReference",
-					"value": "feed4345219a96a3",
+					"value": "feed6a779e0ab715",
 					"postInit": true
 				},
 				"m_eidParent": {
@@ -1229,18 +1229,6 @@
 				}
 			}
 		},
-		"feed4345219a96a3": {
-			"parent": "feedf47c4c875dc7",
-			"name": "ItemKey_Shotgun02 NPC Bartoli 12G",
-			"factory": "[modules:/zitemrepositorykeyentity.class].pc_entitytype",
-			"blueprint": "[modules:/zitemrepositorykeyentity.class].pc_entityblueprint",
-			"properties": {
-				"m_RepositoryId": {
-					"type": "ZGuid",
-					"value": "7f31d897-a62f-448c-be0d-79d565e2faa7"
-				}
-			}
-		},
 		"feed5dd4d96cb4c1": {
 			"parent": "feedf47c4c875dc7",
 			"name": "HeroItemAction",
@@ -1255,7 +1243,7 @@
 			"properties": {
 				"Delay time (ms)": {
 					"type": "int32",
-					"value": 150
+					"value": 0
 				}
 			},
 			"events": {
@@ -1268,7 +1256,7 @@
 		},
 		"feed3e78e04bad38": {
 			"parent": "feedf47c4c875dc7",
-			"name": "PalaceGarden_Clown_StartingLocation",
+			"name": "Institute_Grey_StartingLocation",
 			"factory": "[modules:/zsequenceentity.class].pc_entitytype",
 			"blueprint": "[modules:/zsequenceentity.class].pc_entityblueprint",
 			"properties": {
@@ -1334,7 +1322,7 @@
 		},
 		"feed60b5c962851f": {
 			"parent": "feedf47c4c875dc7",
-			"name": "HeroSpawnSequenceDirector_Clown",
+			"name": "HeroSpawnSequenceDirector_Grey",
 			"factory": "00A6F689FB19B096",
 			"blueprint": "005AEBE4BDFCD1C9",
 			"properties": {
@@ -1372,7 +1360,7 @@
 		},
 		"feed51ab04f42fc6": {
 			"parent": "feed3e78e04bad38",
-			"name": "EntityTrack_ Cam_PalaceGarden_Intro",
+			"name": "EntityTrack_InstituteEntrance_Intro",
 			"factory": "[modules:/zentitygroup.class].pc_entitytype",
 			"blueprint": "[modules:/zentitygroup.class].pc_entityblueprint",
 			"properties": {
@@ -1599,7 +1587,7 @@
 		},
 		"feedd984faae9879": {
 			"parent": "feed3e78e04bad38",
-			"name": "Cam_PalaceGarden_Intro",
+			"name": "Cam_InstituteEntrance_Intro",
 			"factory": "[modules:/zcameraentity.class].pc_entitytype",
 			"blueprint": "[modules:/zcameraentity.class].pc_entityblueprint",
 			"properties": {
