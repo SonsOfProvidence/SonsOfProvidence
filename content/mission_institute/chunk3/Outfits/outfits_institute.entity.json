@@ -59,7 +59,8 @@
 				"m_AvailableWeaponKeys": {
 					"type": "TArray<SEntityTemplateReference>",
 					"value": [
-						"feed57ac92744da3"
+						"feed57ac92744da3",
+						"feed339a95c822ba"
 					]
 				},
 				"m_bHeroDisguiseAvailable": {
@@ -373,6 +374,30 @@
 				"m_RepositoryId": {
 					"type": "ZGuid",
 					"value": "1cae7d71-55c8-401a-9dfb-cd0909c4f6ee"
+				}
+			}
+		},
+		"feed339a95c822ba": {
+			"parent": "feeda3b6bd03594e",
+			"name": "ItemKey_Shotgun02 NPC Bartoli 12G",
+			"factory": "[modules:/zitemrepositorykeyentity.class].pc_entitytype",
+			"blueprint": "[modules:/zitemrepositorykeyentity.class].pc_entityblueprint",
+			"properties": {
+				"m_RepositoryId": {
+					"type": "ZGuid",
+					"value": "7f31d897-a62f-448c-be0d-79d565e2faa7"
+				}
+			}
+		},
+		"feed138737799709": {
+			"parent": "feeda3b6bd03594e",
+			"name": "ItemKey_ICA Briefcase Wide",
+			"factory": "[modules:/zitemrepositorykeyentity.class].pc_entitytype",
+			"blueprint": "[modules:/zitemrepositorykeyentity.class].pc_entityblueprint",
+			"properties": {
+				"m_RepositoryId": {
+					"type": "ZGuid",
+					"value": "0673481e-48ed-4c4a-bd83-53b6724b79fb"
 				}
 			}
 		}
