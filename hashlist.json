@@ -232,6 +232,22 @@
 		"ioiString": "[assembly:/sonsofprovidence/objects/party_balloons.entity].pc_entityblueprint"
 	},
 	{
+		"hash": "0020886BF7DFF302",
+		"ioiString": "[assembly:/sonsofprovidence/objects/institute_guitar_case.entity].pc_entitytype"
+	},
+	{
+		"hash": "00A2CF451920E568",
+		"ioiString": "[assembly:/sonsofprovidence/objects/institute_guitar_case.entity].pc_entityblueprint"
+	},
+	{
+		"hash": "00984C321B0892EE",
+		"ioiString": "[assembly:/sonsofprovidence/objects/container_suitcase_base_extended.entity].pc_entitytype"
+	},
+	{
+		"hash": "0010B84701C7474F",
+		"ioiString": "[assembly:/sonsofprovidence/objects/container_suitcase_base_extended.entity].pc_entityblueprint"
+	},
+	{
 		"hash": "00E1F885EC425545",
 		"ioiString": "[assembly:/sonsofprovidence/objects/sapienza_church.entity].pc_entitytype"
 	},
