@@ -1,0 +1,1797 @@
+{
+	"tempHash": "00984C321B0892EE",
+	"tbluHash": "0010B84701C7474F",
+	"rootEntity": "7ad3ed4b84b88d45",
+	"entities": {
+		"6323b94fdf8f10a8": {
+			"parent": "0f459c74b488e03c",
+			"name": "Keyword_ITEM_WOODENPADDLE",
+			"factory": "[assembly:/_pro/design/gamecore/keywords/keyworditems.template?/keyword_item_woodenpaddle.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/gamecore/keywords/keyworditems.template?/keyword_item_woodenpaddle.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_aHolders": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						"0f459c74b488e03c"
+					],
+					"postInit": true
+				}
+			}
+		},
+		"5dc68057eb9cd1fd": {
+			"parent": "7ad3ed4b84b88d45",
+			"name": "Shake",
+			"factory": "[modules:/zanimresourceentity.class].pc_entitytype",
+			"blueprint": "[modules:/zanimresourceentity.class].pc_entityblueprint",
+			"properties": {
+				"m_animationResourceID": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "0071E95D693E33E0",
+						"flag": "5F"
+					}
+				},
+				"m_sAnimName": {
+					"type": "ZString",
+					"value": "shake"
+				}
+			}
+		},
+		"8a4732d3642dfc6a": {
+			"parent": "0f459c74b488e03c",
+			"name": "Keyword_ITEM_RADIO",
+			"factory": "[assembly:/_pro/design/gamecore/keywords/keyworditems.template?/keyword_item_radio.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/gamecore/keywords/keyworditems.template?/keyword_item_radio.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_aHolders": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						"0f459c74b488e03c"
+					],
+					"postInit": true
+				}
+			}
+		},
+		"614696a319f81d3f": {
+			"parent": "7ad3ed4b84b88d45",
+			"name": "PlaceRetrieve",
+			"factory": "[modules:/zanimresourceentity.class].pc_entitytype",
+			"blueprint": "[modules:/zanimresourceentity.class].pc_entityblueprint",
+			"properties": {
+				"m_animationResourceID": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "008253466716BC9A",
+						"flag": "5F"
+					}
+				},
+				"m_sAnimName": {
+					"type": "ZString",
+					"value": "placeretrieve"
+				}
+			}
+		},
+		"c5272c46c72fc6af": {
+			"parent": "0f459c74b488e03c",
+			"name": "Keyword_ITEM_MAORI_PADDLE",
+			"factory": "[assembly:/_pro/design/gamecore/keywords/keyworditems.template?/keyword_item_maori_paddle.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/gamecore/keywords/keyworditems.template?/keyword_item_maori_paddle.entitytemplate].pc_entityblueprint"
+		},
+		"3cd87f1cf46f067a": {
+			"parent": "7ad3ed4b84b88d45",
+			"name": "ValueBool_Basic",
+			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_bAlwaysSignalOnSet": {
+					"type": "bool",
+					"value": true
+				},
+				"m_bSignalsInEditMode": {
+					"type": "bool",
+					"value": true
+				}
+			},
+			"events": {
+				"OnTrue": {
+					"SetFalse": [
+						"0e8432dd9545f374"
+					],
+					"MakeInvisible": [
+						"d025aa4ed1deee8b"
+					]
+				},
+				"OnFalse": {
+					"SetTrue": [
+						"0e8432dd9545f374"
+					],
+					"MakeVisible": [
+						"d025aa4ed1deee8b"
+					]
+				}
+			}
+		},
+		"6fd3501cfb6c1e18": {
+			"parent": "7ad3ed4b84b88d45",
+			"name": "Disassemble",
+			"factory": "[modules:/zanimresourceentity.class].pc_entitytype",
+			"blueprint": "[modules:/zanimresourceentity.class].pc_entityblueprint",
+			"properties": {
+				"m_animationResourceID": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "00DC373405FAD641",
+						"flag": "5F"
+					}
+				},
+				"m_sAnimName": {
+					"type": "ZString",
+					"value": "disassemble"
+				}
+			}
+		},
+		"be27e5400e067b3b": {
+			"parent": "7ad3ed4b84b88d45",
+			"name": "ValueBool_EntityProperty_01",
+			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_entityproperty.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_entityproperty.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_sPropertyName": {
+					"type": "ZString",
+					"value": "m_bShowPromptInWorld"
+				},
+				"m_rEntity": {
+					"type": "SEntityTemplateReference",
+					"value": "fafe10e3a394cfe2",
+					"postInit": true
+				}
+			}
+		},
+		"4b4fb8dcdf5cbe11": {
+			"parent": "7ad3ed4b84b88d45",
+			"name": "ValueBool_Operation_01",
+			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_operation.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_operation.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_aValues": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						"8bc1eedac45e0282",
+						"9aa76fe21311f6b4",
+						"04ce610e138b4dac",
+						"f38462c87741da3a"
+					],
+					"postInit": true
+				}
+			}
+		},
+		"758ea18e6cfca63d": {
+			"parent": "7ad3ed4b84b88d45",
+			"name": "ValueBool_EntityProperty_02",
+			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_entityproperty.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_entityproperty.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_sPropertyName": {
+					"type": "ZString",
+					"value": "m_bShowPromptInWorld"
+				},
+				"m_rEntity": {
+					"type": "SEntityTemplateReference",
+					"value": "f092bc411a4ce601",
+					"postInit": true
+				}
+			}
+		},
+		"cd2b2999941fef22": {
+			"parent": "7ad3ed4b84b88d45",
+			"name": "Frisk",
+			"factory": "[modules:/zanimresourceentity.class].pc_entitytype",
+			"blueprint": "[modules:/zanimresourceentity.class].pc_entityblueprint",
+			"properties": {
+				"m_animationResourceID": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "00ED390006AC3BD9",
+						"flag": "5F"
+					}
+				},
+				"m_sAnimName": {
+					"type": "ZString",
+					"value": "frisk"
+				}
+			}
+		},
+		"864b3063ba97ce68": {
+			"parent": "7ad3ed4b84b88d45",
+			"name": "HeroContainerItemAction",
+			"factory": "[modules:/zherocontaineritemaction.class].pc_entitytype",
+			"blueprint": "[modules:/zherocontaineritemaction.class].pc_entityblueprint",
+			"properties": {
+				"m_rContainerItem": {
+					"type": "SEntityTemplateReference",
+					"value": "e64a41baf11aee3e",
+					"postInit": true
+				}
+			}
+		},
+		"2367734688e12edb": {
+			"parent": "7ad3ed4b84b88d45",
+			"name": "NothingStored",
+			"factory": "[modules:/zinvertedcondition.class].pc_entitytype",
+			"blueprint": "[modules:/zinvertedcondition.class].pc_entityblueprint",
+			"properties": {
+				"m_rCondition": {
+					"type": "SEntityTemplateReference",
+					"value": "8bc1eedac45e0282",
+					"postInit": true
+				}
+			}
+		},
+		"3b82f695ca061175": {
+			"parent": "0f459c74b488e03c",
+			"name": "Keyword_ITEM_SUITCASE",
+			"factory": "[assembly:/_pro/design/gamecore/keywords/keyworditems.template?/keyword_item_suitcase.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/gamecore/keywords/keyworditems.template?/keyword_item_suitcase.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_aHolders": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						"0f459c74b488e03c"
+					],
+					"postInit": true
+				}
+			}
+		},
+		"8bc1eedac45e0282": {
+			"parent": "7ad3ed4b84b88d45",
+			"name": "ItemStorage01",
+			"factory": "[modules:/zitemstorageentity.class].pc_entitytype",
+			"blueprint": "[modules:/zitemstorageentity.class].pc_entityblueprint",
+			"properties": {
+				"m_rContainerGeom": {
+					"type": "SEntityTemplateReference",
+					"value": "90ba13786168c571",
+					"postInit": true
+				}
+			},
+			"events": {
+				"ContainedItemDestroyed": {
+					"Get": [
+						"94ce6c78333ae869"
+					]
+				}
+			}
+		},
+		"eb48f59c8344e05e": {
+			"parent": "0f459c74b488e03c",
+			"name": "Keyword_ITEM_REMOTE_DETONATOR",
+			"factory": "[assembly:/_pro/design/gamecore/keywords/keyworditems.template?/keyword_item_remote_detonator.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/gamecore/keywords/keyworditems.template?/keyword_item_remote_detonator.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_aHolders": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						"0f459c74b488e03c"
+					],
+					"postInit": true
+				}
+			}
+		},
+		"0e600177b290aff0": {
+			"parent": "7ad3ed4b84b88d45",
+			"name": "Keyword_ITEM_DESC_ONEHANDED_CONTAINER",
+			"factory": "[assembly:/_pro/design/gamecore/keywords/keyworditemdescriptors.template?/keyword_item_desc_onehanded_container.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/gamecore/keywords/keyworditemdescriptors.template?/keyword_item_desc_onehanded_container.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_aHolders": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						"90ba13786168c571"
+					],
+					"postInit": true
+				}
+			}
+		},
+		"4902d48e3c4fb1dd": {
+			"parent": "7ad3ed4b84b88d45",
+			"name": "HeroKeywordProxy",
+			"factory": "[modules:/zherokeywordproxyentity.class].pc_entitytype",
+			"blueprint": "[modules:/zherokeywordproxyentity.class].pc_entityblueprint"
+		},
+		"1c64cd4216c835a0": {
+			"parent": "0f459c74b488e03c",
+			"name": "Keyword_ITEM_DIDGERIDOO",
+			"factory": "[assembly:/_pro/design/gamecore/keywords/keyworditems.template?/keyword_item_didgeridoo.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/gamecore/keywords/keyworditems.template?/keyword_item_didgeridoo.entitytemplate].pc_entityblueprint"
+		},
+		"0444f0a1d4791065": {
+			"parent": "0f459c74b488e03c",
+			"name": "Keyword_ITEM_LONG_SWORD",
+			"factory": "[assembly:/_pro/design/gamecore/keywords/keyworditems.template?/keyword_item_long_sword.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/gamecore/keywords/keyworditems.template?/keyword_item_long_sword.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_aHolders": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						"0f459c74b488e03c"
+					],
+					"postInit": true
+				}
+			}
+		},
+		"90ba13786168c571": {
+			"parent": "7ad3ed4b84b88d45",
+			"name": "suitcase_ica_b_wide",
+			"factory": "[assembly:/_pro/items/templates/containers/suitcases.template?/itemart_suitcase_ica_a_wide.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/items/templates/containers/suitcases.template?/itemart_suitcase_ica_a_wide.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": 0,
+							"y": 0,
+							"z": 0.30370599031448364
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": null,
+					"postInit": true
+				}
+			}
+		},
+		"eb6b421adecca599": {
+			"parent": "7ad3ed4b84b88d45",
+			"name": "Disassemble_From_Back",
+			"factory": "[modules:/zanimresourceentity.class].pc_entitytype",
+			"blueprint": "[modules:/zanimresourceentity.class].pc_entityblueprint",
+			"properties": {
+				"m_animationResourceID": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "007687A988406021",
+						"flag": "5F"
+					}
+				},
+				"m_sAnimName": {
+					"type": "ZString",
+					"value": "disassemble_from_back"
+				}
+			}
+		},
+		"3128666f01a5d3f6": {
+			"parent": "7ad3ed4b84b88d45",
+			"name": "VBO_IsEquipped",
+			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_operation.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_operation.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_aValues": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						{
+							"ref": "e64a41baf11aee3e",
+							"externalScene": null,
+							"exposedEntity": "IsEquipped"
+						}
+					],
+					"postInit": true
+				}
+			}
+		},
+		"92811a9aa2c9b747": {
+			"parent": "0f459c74b488e03c",
+			"name": "Keyword_ITEM_BATTLEAXE",
+			"factory": "[assembly:/_pro/design/gamecore/keywords/keyworditems.template?/keyword_item_battleaxe.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/gamecore/keywords/keyworditems.template?/keyword_item_battleaxe.entitytemplate].pc_entityblueprint"
+		},
+		"c3648ae4d934a54b": {
+			"parent": "0f459c74b488e03c",
+			"name": "Keyword_STATE_FIRE",
+			"factory": "[assembly:/_pro/design/gamecore/keywords/keywordstates.template?/keyword_state_fire.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/gamecore/keywords/keywordstates.template?/keyword_state_fire.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_aHolders": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						"0f459c74b488e03c"
+					],
+					"postInit": true
+				}
+			}
+		},
+		"4399110c8be7105f": {
+			"parent": "7ad3ed4b84b88d45",
+			"name": "EventChannelReceiver_void",
+			"factory": "[assembly:/_pro/design/gamecore/events/eventchannel.template?/eventchannelreceiver_void.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/gamecore/events/eventchannel.template?/eventchannelreceiver_void.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_rChannelToken": {
+					"type": "SEntityTemplateReference",
+					"value": "a967040b4772f633",
+					"postInit": true
+				}
+			},
+			"events": {
+				"EventReceived": {
+					"SetTrue": [
+						"b61a25feae8387d3"
+					]
+				}
+			}
+		},
+		"1d37246f9e5c6482": {
+			"parent": "7ad3ed4b84b88d45",
+			"name": "Sneak_Disassemble",
+			"factory": "[modules:/zanimresourceentity.class].pc_entitytype",
+			"blueprint": "[modules:/zanimresourceentity.class].pc_entityblueprint",
+			"properties": {
+				"m_animationResourceID": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "00D9C3DDDEA03D30",
+						"flag": "5F"
+					}
+				},
+				"m_sAnimName": {
+					"type": "ZString",
+					"value": "sneak_disassemble"
+				}
+			}
+		},
+		"04ce610e138b4dac": {
+			"parent": "7ad3ed4b84b88d45",
+			"name": "SetpieceHelper_InteractionDelay",
+			"factory": "[assembly:/_pro/design/gamecore/setpiecehelpers.template?/setpiecehelper_interactiondelay.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/gamecore/setpiecehelpers.template?/setpiecehelper_interactiondelay.entitytemplate].pc_entityblueprint"
+		},
+		"1c422c35c9459985": {
+			"parent": "7ad3ed4b84b88d45",
+			"name": "ALL",
+			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_operation.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_operation.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_aValues": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						"2367734688e12edb",
+						"9aa76fe21311f6b4",
+						"04ce610e138b4dac"
+					],
+					"postInit": true
+				}
+			}
+		},
+		"c962ae99c6ab6f08": {
+			"parent": "7ad3ed4b84b88d45",
+			"name": "KeywordEntity_FOLEY_ITEM_SUITCASE",
+			"factory": "[assembly:/_pro/design/gamecore/keywords/keywordsound.template?/keywordentity_foley_item_suitcase.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/gamecore/keywords/keywordsound.template?/keywordentity_foley_item_suitcase.entitytemplate].pc_entityblueprint",
+			"events": {
+				"Keyword": {
+					"AddKeyword": [
+						"4902d48e3c4fb1dd"
+					]
+				},
+				"Keyword2": {
+					"RemoveKeyword": [
+						"4902d48e3c4fb1dd"
+					]
+				}
+			}
+		},
+		"d025aa4ed1deee8b": {
+			"parent": "7ad3ed4b84b88d45",
+			"name": "LD_MapTracker_Suitcase",
+			"factory": "[assembly:/templates/ui/maptrackercontrols.template?/ld_maptracker_suitcase.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/templates/ui/maptrackercontrols.template?/ld_maptracker_suitcase.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "90ba13786168c571"
+				},
+				"m_bVisibilityCheckCurrentMap": {
+					"type": "bool",
+					"value": false
+				},
+				"m_bLevelCheck": {
+					"type": "bool",
+					"value": true
+				}
+			}
+		},
+		"6d2309cc251fc9f0": {
+			"parent": "7ad3ed4b84b88d45",
+			"name": "VBP_Stored_Item_Sweetener",
+			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_poll.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_poll.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_rValueEntity": {
+					"type": "SEntityTemplateReference",
+					"value": "8bc1eedac45e0282"
+				}
+			},
+			"events": {
+				"PollTrue": {
+					"ItemPlaced": [
+						"20c123438ec04ab5"
+					]
+				}
+			}
+		},
+		"97006dcd39a24cda": {
+			"parent": "7ad3ed4b84b88d45",
+			"name": "EventToken_HUD_Inventory_Close",
+			"factory": "[assembly:/_pro/design/gamecore/events/eventtokens_hudcontrol.template?/eventtoken_hud_inventory_close.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/gamecore/events/eventtokens_hudcontrol.template?/eventtoken_hud_inventory_close.entitytemplate].pc_entityblueprint"
+		},
+		"9fca70200222ec08": {
+			"parent": "7ad3ed4b84b88d45",
+			"name": "InvertedCondition",
+			"factory": "[modules:/zinvertedcondition.class].pc_entitytype",
+			"blueprint": "[modules:/zinvertedcondition.class].pc_entityblueprint",
+			"properties": {
+				"m_rCondition": {
+					"type": "SEntityTemplateReference",
+					"value": "3128666f01a5d3f6"
+				}
+			}
+		},
+		"f38462c87741da3a": {
+			"parent": "7ad3ed4b84b88d45",
+			"name": "FreeOrOwnerByHitman 2",
+			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_operation.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_operation.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_eEvaluation": {
+					"type": "ZValueBool_Operation_Signal.EEvaluationType",
+					"value": "ANY"
+				},
+				"m_aValues": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						"9fca70200222ec08",
+						"b61a25feae8387d3"
+					],
+					"postInit": true
+				}
+			}
+		},
+		"bb5dfd915998e968": {
+			"parent": "7ad3ed4b84b88d45",
+			"name": "ValueBool_Poll",
+			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_poll.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_poll.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_rValueEntity": {
+					"type": "SEntityTemplateReference",
+					"value": "3cd87f1cf46f067a"
+				}
+			},
+			"events": {
+				"PollTrue": {
+					"SetFalse": [
+						"0e8432dd9545f374"
+					]
+				},
+				"PollFalse": {
+					"SetTrue": [
+						"0e8432dd9545f374"
+					]
+				}
+			}
+		},
+		"43f2b4096fcf8b71": {
+			"parent": "0f459c74b488e03c",
+			"name": "Keyword_ITEM_BASEBALLBAT",
+			"factory": "[assembly:/_pro/design/gamecore/keywords/keyworditems.template?/keyword_item_baseballbat.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/gamecore/keywords/keyworditems.template?/keyword_item_baseballbat.entitytemplate].pc_entityblueprint"
+		},
+		"288fe1d1f7e50b5f": {
+			"parent": "0f459c74b488e03c",
+			"name": "Keyword_ITEM_SHOVEL",
+			"factory": "[assembly:/_pro/design/gamecore/keywords/keyworditems.template?/keyword_item_shovel.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/gamecore/keywords/keyworditems.template?/keyword_item_shovel.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_aHolders": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						"0f459c74b488e03c"
+					],
+					"postInit": true
+				}
+			}
+		},
+		"fafe10e3a394cfe2": {
+			"parent": "7ad3ed4b84b88d45",
+			"name": "Interaction_Conceal",
+			"factory": "[assembly:/_pro/design/gamecore/interactionbase.template?/interaction_subaction.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/gamecore/interactionbase.template?/interaction_subaction.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_ConditionList_Usable": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						"1c422c35c9459985"
+					]
+				},
+				"m_ConditionList_Visible": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						"1c422c35c9459985"
+					]
+				},
+				"m_bIsIllegal": {
+					"type": "bool",
+					"value": false
+				},
+				"m_sPromptText": {
+					"type": "ZString",
+					"value": "Conceal sniper"
+				},
+				"m_eActionType": {
+					"type": "EActionType",
+					"value": "AT_ITEM_INTERACTION"
+				},
+				"m_bCanBeOperatedWithItemsInHand": {
+					"type": "bool",
+					"value": true
+				},
+				"m_RuntimeNetworkResourceID": {
+					"type": "ZRuntimeResourceID",
+					"value": null
+				},
+				"m_rPromptTextResource": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "00A2E61350C1580E",
+						"flag": "5F"
+					}
+				},
+				"m_bShowPromptInWorld": {
+					"type": "bool",
+					"value": true
+				},
+				"m_rPromptTextPassiveResource": {
+					"type": "ZRuntimeResourceID",
+					"value": null
+				},
+				"m_aPromptText": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+
+					]
+				},
+				"m_aPromptDescriptionText": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+
+					]
+				},
+				"m_Object": {
+					"type": "SEntityTemplateReference",
+					"value": "8bc1eedac45e0282"
+				},
+				"m_bUsableConditionUseAllEquippableItems": {
+					"type": "bool",
+					"value": true
+				},
+				"m_eUsableConditionKeywordsBehaviorA": {
+					"type": "EKeywordSetBehavior",
+					"value": "EKWSB_No"
+				},
+				"m_bUseItemIllegalityInInventorySubactionGroup": {
+					"type": "bool",
+					"value": true
+				},
+				"m_eInputAction": {
+					"type": "EHM5GameInputFlag",
+					"value": "eGameInputConcealRetrieve"
+				},
+				"m_rUsableConditionKeywordsA": {
+					"type": "SEntityTemplateReference",
+					"value": "0f459c74b488e03c",
+					"postInit": true
+				}
+			},
+			"events": {
+				"ItemUsed": {
+					"PlaceIntoContainerItem": [
+						"864b3063ba97ce68"
+					],
+					"SetItem": [
+						"63b12b96f1c11201"
+					]
+				},
+				"Started": {
+					"StartDelay": [
+						"04ce610e138b4dac"
+					]
+				}
+			}
+		},
+		"95bb47f2fc28d7b5": {
+			"parent": "0f459c74b488e03c",
+			"name": "Keyword_ITEM_HEROCAMERA",
+			"factory": "[assembly:/_pro/design/gamecore/keywords/keyworditems.template?/keyword_item_herocamera.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/gamecore/keywords/keyworditems.template?/keyword_item_herocamera.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_aHolders": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						"0f459c74b488e03c"
+					],
+					"postInit": true
+				}
+			}
+		},
+		"058253ab47e29def": {
+			"parent": "7ad3ed4b84b88d45",
+			"name": "Subaction",
+			"factory": "[modules:/zsubaction.class].pc_entitytype",
+			"blueprint": "[modules:/zsubaction.class].pc_entityblueprint",
+			"properties": {
+				"m_eActionType": {
+					"type": "EActionType",
+					"value": "AT_INTERACTION_GROUP"
+				},
+				"m_aSubactions": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						"fafe10e3a394cfe2"
+					]
+				},
+				"m_sPromptText": {
+					"type": "ZString",
+					"value": "Interact"
+				},
+				"m_sPromptTextPassive": {
+					"type": "ZString",
+					"value": "Interact"
+				},
+				"m_rPromptTextResource": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/localization/hitman6/conversations/ui/pro/setpieces.sweetmenutext?/setpieces_localization_prompt_concealitem.sweetline].pc_sweetline",
+						"flag": "5F"
+					}
+				},
+				"m_bApplyPromptDescriptionText": {
+					"type": "bool",
+					"value": false
+				},
+				"m_bIsInventorySubactionGroup": {
+					"type": "bool",
+					"value": true
+				},
+				"m_bShowUnusableAsGrayedInteraction": {
+					"type": "bool",
+					"value": true
+				},
+				"m_rPromptTextPassiveResource": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/localization/hitman6/conversations/ui/pro/setpieces.sweetmenutext?/setpieces_localization_prompt_concealitem.sweetline].pc_sweetline",
+						"flag": "5F"
+					}
+				},
+				"m_rPromptDescriptionTextPassiveResource": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/localization/hitman6/conversations/ui/pro/setpieces.sweetmenutext?/setpieces_localization_prompt_missingconcealableitem.sweetline].pc_sweetline",
+						"flag": "5F"
+					}
+				},
+				"m_bShowPromptInWorld": {
+					"type": "bool",
+					"value": true
+				},
+				"m_eInputAction": {
+					"type": "EHM5GameInputFlag",
+					"value": "eGameInputConcealRetrieve"
+				},
+				"m_eUsableConditionKeywordsBehaviorA": {
+					"type": "EKeywordSetBehavior",
+					"value": "EKWSB_No"
+				},
+				"m_bUsableConditionUseAllEquippableItems": {
+					"type": "bool",
+					"value": true
+				},
+				"m_rUsableCondition": {
+					"type": "SEntityTemplateReference",
+					"value": "5c118487de87908f",
+					"postInit": true
+				},
+				"m_rVisibleCondition": {
+					"type": "SEntityTemplateReference",
+					"value": "5c118487de87908f",
+					"postInit": true
+				},
+				"m_rUsableConditionKeywordsA": {
+					"type": "SEntityTemplateReference",
+					"value": "0f459c74b488e03c",
+					"postInit": true
+				}
+			}
+		},
+		"064787d8b13cfc89": {
+			"parent": "7ad3ed4b84b88d45",
+			"name": "Prop_Suitcase",
+			"factory": "[modules:/zvariationresourceentity.class].pc_entitytype",
+			"blueprint": "[modules:/zvariationresourceentity.class].pc_entityblueprint",
+			"properties": {
+				"m_VariationResourceID": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/animations/animationdatabases/hm5_weapons.aset?/prop_suitcase.asva].pc_asva",
+						"flag": "5F"
+					}
+				}
+			}
+		},
+		"494c45613cab88eb": {
+			"parent": "0f459c74b488e03c",
+			"name": "Keyword_ITEM_RAKE",
+			"factory": "[assembly:/_pro/design/gamecore/keywords/keyworditems.template?/keyword_item_rake.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/gamecore/keywords/keyworditems.template?/keyword_item_rake.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_aHolders": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						"0f459c74b488e03c"
+					],
+					"postInit": true
+				}
+			}
+		},
+		"a1283ba1808cf8cb": {
+			"parent": "0f459c74b488e03c",
+			"name": "Keyword_ITEM_KATANA",
+			"factory": "[assembly:/_pro/design/gamecore/keywords/keyworditems.template?/keyword_item_katana.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/gamecore/keywords/keyworditems.template?/keyword_item_katana.entitytemplate].pc_entityblueprint"
+		},
+		"0e8432dd9545f374": {
+			"parent": "7ad3ed4b84b88d45",
+			"name": "ValueBool_Set_01",
+			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_set.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_set.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_aValueEntities": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						"be27e5400e067b3b",
+						"758ea18e6cfca63d",
+						"58d30ea95ed7264c"
+					],
+					"postInit": true
+				}
+			}
+		},
+		"bb972f4fba29cd4c": {
+			"parent": "7ad3ed4b84b88d45",
+			"name": "EventChannelReceiver_void_01",
+			"factory": "[assembly:/_pro/design/gamecore/events/eventchannel.template?/eventchannelreceiver_void.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/gamecore/events/eventchannel.template?/eventchannelreceiver_void.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_rChannelToken": {
+					"type": "SEntityTemplateReference",
+					"value": "97006dcd39a24cda"
+				}
+			},
+			"events": {
+				"EventReceived": {
+					"SetFalse": [
+						"b61a25feae8387d3"
+					]
+				}
+			}
+		},
+		"a967040b4772f633": {
+			"parent": "7ad3ed4b84b88d45",
+			"name": "EventToken_HUD_Inventory_Open",
+			"factory": "[assembly:/_pro/design/gamecore/events/eventtokens_hudcontrol.template?/eventtoken_hud_inventory_open.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/gamecore/events/eventtokens_hudcontrol.template?/eventtoken_hud_inventory_open.entitytemplate].pc_entityblueprint"
+		},
+		"0f459c74b488e03c": {
+			"parent": "7ad3ed4b84b88d45",
+			"name": "UnconcealableItems",
+			"factory": "[modules:/zentity.class].pc_entitytype",
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
+		},
+		"6e6efa8362830aec": {
+			"parent": "7ad3ed4b84b88d45",
+			"name": "Assemble",
+			"factory": "[modules:/zanimresourceentity.class].pc_entitytype",
+			"blueprint": "[modules:/zanimresourceentity.class].pc_entityblueprint",
+			"properties": {
+				"m_animationResourceID": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "004678531860EB7D",
+						"flag": "5F"
+					}
+				},
+				"m_sAnimName": {
+					"type": "ZString",
+					"value": "assemble"
+				}
+			}
+		},
+		"63b12b96f1c11201": {
+			"parent": "7ad3ed4b84b88d45",
+			"name": "ItemKeywordProxy",
+			"factory": "[modules:/zitemkeywordproxyentity.class].pc_entitytype",
+			"blueprint": "[modules:/zitemkeywordproxyentity.class].pc_entityblueprint"
+		},
+		"31eebd165924f9d2": {
+			"parent": "7ad3ed4b84b88d45",
+			"name": "ValueBool_Poll_01",
+			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_poll.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_poll.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_rValueEntity": {
+					"type": "SEntityTemplateReference",
+					"value": "3128666f01a5d3f6"
+				}
+			},
+			"events": {
+				"PollTrue": {
+					"GetKeyword": [
+						"c962ae99c6ab6f08"
+					]
+				}
+			}
+		},
+		"03e77ac3c01cb0c4": {
+			"parent": "7ad3ed4b84b88d45",
+			"name": "GameEventListener 1",
+			"factory": "[modules:/zgameeventlistenerentity.class].pc_entitytype",
+			"blueprint": "[modules:/zgameeventlistenerentity.class].pc_entityblueprint",
+			"events": {
+				"EventOccurred": {
+					"Poll": [
+						"31eebd165924f9d2"
+					]
+				}
+			}
+		},
+		"58d30ea95ed7264c": {
+			"parent": "7ad3ed4b84b88d45",
+			"name": "ValueBool_EntityProperty_03",
+			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_entityproperty.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_entityproperty.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_rEntity": {
+					"type": "SEntityTemplateReference",
+					"value": "058253ab47e29def"
+				},
+				"m_sPropertyName": {
+					"type": "ZString",
+					"value": "m_bShowPromptInWorld"
+				}
+			}
+		},
+		"b61a25feae8387d3": {
+			"parent": "7ad3ed4b84b88d45",
+			"name": "VB_InventoryOpen",
+			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entityblueprint"
+		},
+		"f092bc411a4ce601": {
+			"parent": "7ad3ed4b84b88d45",
+			"name": "Interaction_Retrieve",
+			"factory": "[assembly:/_pro/design/gamecore/interactionbase.template?/interaction_subaction.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/gamecore/interactionbase.template?/interaction_subaction.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_ConditionList_Usable": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						"4b4fb8dcdf5cbe11"
+					]
+				},
+				"m_ConditionList_Visible": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						"4b4fb8dcdf5cbe11"
+					]
+				},
+				"m_bIsIllegal": {
+					"type": "bool",
+					"value": false
+				},
+				"m_sPromptText": {
+					"type": "ZString",
+					"value": "Retrieve Sniper"
+				},
+				"m_eActionType": {
+					"type": "EActionType",
+					"value": "AT_ITEM_INTERACTION"
+				},
+				"m_bCanBeOperatedWithItemsInHand": {
+					"type": "bool",
+					"value": true
+				},
+				"m_RuntimeNetworkResourceID": {
+					"type": "ZRuntimeResourceID",
+					"value": null
+				},
+				"m_rPromptTextResource": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "00535774108A0E41",
+						"flag": "5F"
+					}
+				},
+				"m_rPromptTextPassiveResource": {
+					"type": "ZRuntimeResourceID",
+					"value": null
+				},
+				"m_aPromptText": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+
+					]
+				},
+				"m_aPromptDescriptionText": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+
+					]
+				},
+				"m_Object": {
+					"type": "SEntityTemplateReference",
+					"value": "8bc1eedac45e0282"
+				},
+				"m_eInputAction": {
+					"type": "EHM5GameInputFlag",
+					"value": "eGameInputConcealRetrieve"
+				}
+			},
+			"events": {
+				"Started": {
+					"EquipContainedItem": [
+						"864b3063ba97ce68"
+					],
+					"StartDelay": [
+						"04ce610e138b4dac"
+					]
+				}
+			}
+		},
+		"b6affea32ac4d872": {
+			"parent": "0f459c74b488e03c",
+			"name": "Keyword_ITEM_DRIFTWOOD_LOG",
+			"factory": "[assembly:/_pro/design/gamecore/keywords/keyworditems.template?/keyword_item_driftwood_log.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/gamecore/keywords/keyworditems.template?/keyword_item_driftwood_log.entitytemplate].pc_entityblueprint"
+		},
+		"5d8ce522ed498823": {
+			"parent": "0f459c74b488e03c",
+			"name": "Keyword_ITEM_GOLFCLUB",
+			"factory": "[assembly:/_pro/design/gamecore/keywords/keyworditems.template?/keyword_item_golfclub.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/gamecore/keywords/keyworditems.template?/keyword_item_golfclub.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_aHolders": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						"0f459c74b488e03c"
+					]
+				}
+			}
+		},
+		"8adb3482c2881007": {
+			"parent": "0f459c74b488e03c",
+			"name": "Keyword_ITEM_BRANDINGIRON",
+			"factory": "[assembly:/_pro/design/gamecore/keywords/keyworditems.template?/keyword_item_brandingiron.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/gamecore/keywords/keyworditems.template?/keyword_item_brandingiron.entitytemplate].pc_entityblueprint"
+		},
+		"595fb59b73953726": {
+			"parent": "7ad3ed4b84b88d45",
+			"name": "Keyword_ITEM_SUITCASE",
+			"factory": "[assembly:/_pro/design/gamecore/keywords/keyworditems.template?/keyword_item_suitcase.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/gamecore/keywords/keyworditems.template?/keyword_item_suitcase.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_aHolders": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						"90ba13786168c571"
+					]
+				}
+			}
+		},
+		"cc0bca50411914a2": {
+			"parent": "0f459c74b488e03c",
+			"name": "Keyword_ITEM_VIKING_AXE_A",
+			"factory": "[assembly:/_pro/design/gamecore/keywords/keyworditems.template?/keyword_item_viking_axe_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/gamecore/keywords/keyworditems.template?/keyword_item_viking_axe_a.entitytemplate].pc_entityblueprint"
+		},
+		"20c123438ec04ab5": {
+			"parent": "7ad3ed4b84b88d45",
+			"name": "SoundSetup_Item",
+			"factory": "[assembly:/templates/itemtemplates/item_soundsetup.template?/soundsetup_item.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/templates/itemtemplates/item_soundsetup.template?/soundsetup_item.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "90ba13786168c571"
+				},
+				"Equipped_Foley_Keyword": {
+					"type": "ZString",
+					"value": "FOLEY_ITEM_SUITCASE"
+				},
+				"m_rHolder": {
+					"type": "SEntityTemplateReference",
+					"value": "90ba13786168c571"
+				},
+				"PropEquipped_Sound": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "001AB03001ED15D2",
+						"flag": "5F"
+					}
+				},
+				"Prop_Placed_Sound": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/sound/wwise/exportedwwisedata/events/item_events/item_suitcase_metal/play_foley_suitcase_metal_placed.wwiseevent].pc_wwisebank",
+						"flag": "5F"
+					}
+				},
+				"PropUnEquipped_Sound": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "0076BCF9FDDBF3FC",
+						"flag": "5F"
+					}
+				},
+				"CloseCombatImpact_Sound": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/sound/wwise/exportedwwisedata/events/item_events/item_suitcase_metal/sfx_melee_suitcase_impact_metal_01.wwiseevent].pc_wwisebank",
+						"flag": "5F"
+					}
+				},
+				"DeadlyThrowImpact_Sound": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/sound/wwise/exportedwwisedata/events/item_events/item_suitcase_metal/sfx_melee_suitcase_impact_metal_01.wwiseevent].pc_wwisebank",
+						"flag": "5F"
+					}
+				},
+				"ItemImpactLow": {
+					"type": "ZRuntimeResourceID",
+					"value": null
+				},
+				"Close_Comba_Impact_Back_Soundt": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/sound/wwise/exportedwwisedata/events/item_events/item_suitcase_metal/sfx_melee_suitcase_impact_metal_01.wwiseevent].pc_wwisebank",
+						"flag": "5F"
+					}
+				},
+				"ThrowMaterial_Sweetener": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/sound/wwise/exportedwwisedata/events/item_events/item_suitcase_metal/play_foley_suitcase_metal_placed.wwiseevent].pc_wwisebank",
+						"flag": "5F"
+					}
+				},
+				"m_bUseRaycastObstruction": {
+					"type": "bool",
+					"value": false
+				},
+				"m_ObstructionShapeRoot": {
+					"type": "SEntityTemplateReference",
+					"value": "90ba13786168c571"
+				},
+				"ItemGeneric01": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "0076BCF9FDDBF3FC",
+						"flag": "5F"
+					}
+				},
+				"m_eidParent1": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "90ba13786168c571",
+						"externalScene": null,
+						"exposedEntity": "ItemPlacement"
+					},
+					"postInit": true
+				}
+			},
+			"subsets": {
+				"AudioEmitters": [
+					"7ad3ed4b84b88d45"
+				]
+			}
+		},
+		"9aa76fe21311f6b4": {
+			"parent": "7ad3ed4b84b88d45",
+			"name": "FreeOrOwnerByHitman",
+			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_operation.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_operation.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_eEvaluation": {
+					"type": "ZValueBool_Operation_Signal.EEvaluationType",
+					"value": "ANY"
+				},
+				"m_aValues": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						{
+							"ref": "e64a41baf11aee3e",
+							"externalScene": null,
+							"exposedEntity": "ItemPickupEnabled"
+						},
+						"3cd87f1cf46f067a"
+					],
+					"postInit": true
+				}
+			}
+		},
+		"94ce6c78333ae869": {
+			"parent": "7ad3ed4b84b88d45",
+			"name": "KeywordCondition",
+			"factory": "[modules:/zkeywordcondition.class].pc_entitytype",
+			"blueprint": "[modules:/zkeywordcondition.class].pc_entityblueprint",
+			"properties": {
+				"m_rTarget": {
+					"type": "SEntityTemplateReference",
+					"value": "63b12b96f1c11201"
+				},
+				"m_bSubscribe": {
+					"type": "bool",
+					"value": false
+				},
+				"m_eEvaluation": {
+					"type": "ZKeywordCondition.EEvaluationType",
+					"value": "ALL"
+				},
+				"m_bSignalOnActivate": {
+					"type": "bool",
+					"value": false
+				},
+				"m_rRequirements": {
+					"type": "SEntityTemplateReference",
+					"value": "40b5db1d311c546d",
+					"postInit": true
+				}
+			},
+			"events": {
+				"OnTrue": {
+					"DisablePickup": [
+						"e64a41baf11aee3e"
+					],
+					"TurnOff": [
+						"e64a41baf11aee3e"
+					],
+					"DisableAIPerceptible": [
+						"e64a41baf11aee3e"
+					],
+					"WeaponBroken": [
+						"e64a41baf11aee3e"
+					],
+					"DestroyAndRemoveItem": [
+						"e64a41baf11aee3e"
+					],
+					"SetInPhysicsWorld": [
+						{
+							"ref": "90ba13786168c571",
+							"value": {
+								"type": "bool",
+								"value": false
+							}
+						}
+					],
+					"SetVisible": [
+						{
+							"ref": "90ba13786168c571",
+							"value": {
+								"type": "bool",
+								"value": false
+							}
+						}
+					]
+				}
+			}
+		},
+		"8b9ece90a6b06856": {
+			"parent": "7ad3ed4b84b88d45",
+			"name": "Closed",
+			"factory": "[modules:/zanimresourceentity.class].pc_entitytype",
+			"blueprint": "[modules:/zanimresourceentity.class].pc_entityblueprint",
+			"properties": {
+				"m_animationResourceID": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "003DCDE631CB5C41",
+						"flag": "5F"
+					}
+				},
+				"m_sAnimName": {
+					"type": "ZString",
+					"value": "closed"
+				}
+			}
+		},
+		"6cf377bb24210bff": {
+			"parent": "0f459c74b488e03c",
+			"name": "Keyword_ITEM_BASEBALLBAT_CLOWN",
+			"factory": "[assembly:/_pro/design/gamecore/keywords/keyworditems.template?/keyword_item_baseballbat_clown.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/gamecore/keywords/keyworditems.template?/keyword_item_baseballbat_clown.entitytemplate].pc_entityblueprint"
+		},
+		"aec05bd77840b7fb": {
+			"parent": "7ad3ed4b84b88d45",
+			"name": "Quick_Open_Close",
+			"factory": "[modules:/zanimresourceentity.class].pc_entitytype",
+			"blueprint": "[modules:/zanimresourceentity.class].pc_entityblueprint",
+			"properties": {
+				"m_animationResourceID": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "00E6C58D2177184E",
+						"flag": "5F"
+					}
+				},
+				"m_sAnimName": {
+					"type": "ZString",
+					"value": "quick_open_close"
+				}
+			}
+		},
+		"38fa7df5ec246a82": {
+			"parent": "7ad3ed4b84b88d45",
+			"name": "AnimPlayerEntity",
+			"factory": "[modules:/zanimplayerentity.class].pc_entitytype",
+			"blueprint": "[modules:/zanimplayerentity.class].pc_entityblueprint",
+			"properties": {
+				"m_LinkedEntity": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "90ba13786168c571",
+						"externalScene": null,
+						"exposedEntity": "Linkedprim"
+					}
+				},
+				"m_bTrajectoryEnabled": {
+					"type": "bool",
+					"value": false
+				},
+				"m_bLoop": {
+					"type": "bool",
+					"value": false
+				},
+				"m_AnimPlayListEntity": {
+					"type": "SEntityTemplateReference",
+					"value": "b69cce21898a136e",
+					"postInit": true
+				}
+			}
+		},
+		"e64a41baf11aee3e": {
+			"parent": "7ad3ed4b84b88d45",
+			"name": "ContainerHelper_OneHand",
+			"factory": "[assembly:/_pro/design/gamecore/itemhelpers.template?/containerhelper_onehand.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/gamecore/itemhelpers.template?/containerhelper_onehand.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_rGeomentity": {
+					"type": "SEntityTemplateReference",
+					"value": "90ba13786168c571"
+				},
+				"m_PosHandAttach": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "90ba13786168c571",
+						"externalScene": null,
+						"exposedEntity": "HandAttacherSpatial"
+					}
+				},
+				"m_PosFreeBoneAttach": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "90ba13786168c571",
+						"externalScene": null,
+						"exposedEntity": "HandAttacherSpatial"
+					}
+				},
+				"m_pVariationResource": {
+					"type": "SEntityTemplateReference",
+					"value": "064787d8b13cfc89"
+				},
+				"m_PosPlacementAttach": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "90ba13786168c571",
+						"externalScene": null,
+						"exposedEntity": "ItemPlacement"
+					}
+				},
+				"m_aSubactions": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						"058253ab47e29def",
+						"f092bc411a4ce601"
+					]
+				},
+				"m_rItemContainer": {
+					"type": "SEntityTemplateReference",
+					"value": "8bc1eedac45e0282"
+				},
+				"m_AnimPlayer": {
+					"type": "SEntityTemplateReference",
+					"value": "38fa7df5ec246a82"
+				},
+				"m_PlacementVolume": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "90ba13786168c571",
+						"externalScene": null,
+						"exposedEntity": "PlacementVolume"
+					}
+				},
+				"m_Object": {
+					"type": "SEntityTemplateReference",
+					"value": "7ad3ed4b84b88d45",
+					"postInit": true
+				}
+			},
+			"events": {
+				"OnPlaced": {
+					"ItemPlaced": [
+						"20c123438ec04ab5"
+					],
+					"SetFalse": [
+						"3cd87f1cf46f067a"
+					],
+					"GetKeyword2": [
+						"c962ae99c6ab6f08"
+					]
+				},
+				"OwnedByHitman": {
+					"Item_Equipped": [
+						"20c123438ec04ab5"
+					],
+					"SetTrue": [
+						"3cd87f1cf46f067a"
+					],
+					"GetKeyword": [
+						"c962ae99c6ab6f08"
+					]
+				},
+				"OnDrop": {
+					"Item_UnEquipped": [
+						"20c123438ec04ab5"
+					],
+					"OnDrop_MixingEvent": [
+						"20c123438ec04ab5"
+					],
+					"SetFalse": [
+						"3cd87f1cf46f067a"
+					],
+					"GetKeyword2": [
+						"c962ae99c6ab6f08"
+					]
+				},
+				"OnRelease": {
+					"SetFalse": [
+						"3cd87f1cf46f067a"
+					],
+					"GetKeyword2": [
+						"c962ae99c6ab6f08"
+					]
+				},
+				"OnRequestPutInContainer": {
+					"Execute": [
+						"058253ab47e29def"
+					]
+				},
+				"ImpactFrontSide": {
+					"Impact": [
+						"20c123438ec04ab5"
+					],
+					"Poll": [
+						"6d2309cc251fc9f0"
+					]
+				},
+				"ImpactBack": {
+					"Impact_Back": [
+						"20c123438ec04ab5"
+					],
+					"Poll": [
+						"6d2309cc251fc9f0"
+					]
+				},
+				"DeadlyThrowImpact": {
+					"DeadlyThrowImpact": [
+						"20c123438ec04ab5"
+					],
+					"Poll": [
+						"6d2309cc251fc9f0"
+					]
+				},
+				"ThrowImpact": {
+					"ItemPlaced": [
+						"20c123438ec04ab5"
+					]
+				},
+				"OnDestroyed": {
+					"MakeInvisible": [
+						"d025aa4ed1deee8b"
+					]
+				},
+				"OnThrown": {
+					"OnThrown_MixingEvent": [
+						"20c123438ec04ab5"
+					],
+					"GetKeyword2": [
+						"c962ae99c6ab6f08"
+					],
+					"ItemGeneric01": [
+						"20c123438ec04ab5"
+					]
+				}
+			},
+			"subsets": {
+				"Replicable": [
+					"7ad3ed4b84b88d45"
+				]
+			}
+		},
+		"7ad3ed4b84b88d45": {
+			"parent": null,
+			"name": "Prop_Container_Suitcase_Base",
+			"factory": "[modules:/zentity.class].pc_entitytype",
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": 0,
+							"y": 0,
+							"z": 0.30370599031448364
+						}
+					}
+				}
+			},
+			"propertyAliases": {
+				"m_eidParent": [
+					{
+						"originalProperty": "m_eidParent",
+						"originalEntity": "90ba13786168c571"
+					}
+				],
+				"m_mTransform": [
+					{
+						"originalProperty": "m_mTransform",
+						"originalEntity": "90ba13786168c571"
+					}
+				],
+				"m_rContainsItem": [
+					{
+						"originalProperty": "m_rContainsItem",
+						"originalEntity": "8bc1eedac45e0282"
+					}
+				]
+			},
+			"exposedInterfaces": {
+				"IItem": "e64a41baf11aee3e",
+				"ZHM5Item": "e64a41baf11aee3e",
+				"IItemBase": "e64a41baf11aee3e",
+				"IPhysicsAccessor": "90ba13786168c571",
+				"ZGeomEntity": "90ba13786168c571",
+				"ZSpatialEntity": "90ba13786168c571",
+				"IDynamicPhysics": "90ba13786168c571",
+				"ZHM5ItemCCWeapon": "e64a41baf11aee3e",
+				"IItemWeapon": "e64a41baf11aee3e",
+				"ZAnimPlayerEntity": "38fa7df5ec246a82"
+			}
+		},
+		"1387965e7c1a5563": {
+			"parent": "7ad3ed4b84b88d45",
+			"name": "Sneak_Assemble",
+			"factory": "[modules:/zanimresourceentity.class].pc_entitytype",
+			"blueprint": "[modules:/zanimresourceentity.class].pc_entityblueprint",
+			"properties": {
+				"m_animationResourceID": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "005E3AAA2A97D224",
+						"flag": "5F"
+					}
+				},
+				"m_sAnimName": {
+					"type": "ZString",
+					"value": "sneak_assemble"
+				}
+			}
+		},
+		"b69cce21898a136e": {
+			"parent": "7ad3ed4b84b88d45",
+			"name": "AnimPlayListEntity",
+			"factory": "[modules:/zanimplaylistentity.class].pc_entitytype",
+			"blueprint": "[modules:/zanimplaylistentity.class].pc_entityblueprint",
+			"properties": {
+				"m_AnimList": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						"614696a319f81d3f",
+						"cd2b2999941fef22",
+						"6e6efa8362830aec",
+						"6fd3501cfb6c1e18",
+						"8b9ece90a6b06856",
+						"aec05bd77840b7fb",
+						"5dc68057eb9cd1fd",
+						"eb6b421adecca599",
+						"1d37246f9e5c6482",
+						"1387965e7c1a5563"
+					]
+				}
+			}
+		},
+		"40b5db1d311c546d": {
+			"parent": "7ad3ed4b84b88d45",
+			"name": "Keyword_WEAPON_EXPLOSIVE",
+			"factory": "[assembly:/_pro/design/gamecore/keywords/keywordweapondescriptors.template?/keyword_weapon_explosive.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/gamecore/keywords/keywordweapondescriptors.template?/keyword_weapon_explosive.entitytemplate].pc_entityblueprint"
+		},
+		"5c118487de87908f": {
+			"parent": "7ad3ed4b84b88d45",
+			"name": "ALL 2",
+			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_operation.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_operation.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_aValues": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						"2367734688e12edb",
+						"9aa76fe21311f6b4",
+						"04ce610e138b4dac",
+						"f38462c87741da3a"
+					]
+				}
+			}
+		},
+		"dc4d452c8133d365": {
+			"parent": "7ad3ed4b84b88d45",
+			"name": "GameEventListener",
+			"factory": "[modules:/zgameeventlistenerentity.class].pc_entitytype",
+			"blueprint": "[modules:/zgameeventlistenerentity.class].pc_entityblueprint",
+			"properties": {
+				"m_eEvent": {
+					"type": "EGameEventType",
+					"value": "GET_SavegameRestored"
+				}
+			},
+			"events": {
+				"EventOccurred": {
+					"Poll": [
+						"bb5dfd915998e968"
+					],
+					"GetKeyword": [
+						"c962ae99c6ab6f08"
+					]
+				}
+			}
+		},
+		"feed89db35ee24e0": {
+			"parent": "7ad3ed4b84b88d45",
+			"name": "ItemKey_Shotgun02 NPC Bartoli 12G",
+			"factory": "[modules:/zitemrepositorykeyentity.class].pc_entitytype",
+			"blueprint": "[modules:/zitemrepositorykeyentity.class].pc_entityblueprint",
+			"properties": {
+				"m_RepositoryId": {
+					"type": "ZGuid",
+					"value": "7f31d897-a62f-448c-be0d-79d565e2faa7"
+				}
+			}
+		},
+		"feed9a2ae99a6f85": {
+			"parent": "7ad3ed4b84b88d45",
+			"name": "ItemSpawner01",
+			"factory": "[modules:/zitemspawner.class].pc_entitytype",
+			"blueprint": "[modules:/zitemspawner.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						}
+					}
+				},
+				"m_bUsePlacementAttach": {
+					"type": "bool",
+					"value": false
+				},
+				"m_rMainItemKey": {
+					"type": "SEntityTemplateReference",
+					"value": "feed89db35ee24e0"
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "7ad3ed4b84b88d45",
+					"postInit": true
+				},
+				"m_bSpawnOnStart": {
+					"type": "bool",
+					"value": true
+				}
+			},
+			"events": {
+				"Item": {
+					"PlaceItem": [
+						"8bc1eedac45e0282"
+					]
+				}
+			}
+		}
+	},
+	"propertyOverrides": [
+
+	],
+	"overrideDeletes": [
+
+	],
+	"pinConnectionOverrides": [
+
+	],
+	"pinConnectionOverrideDeletes": [
+
+	],
+	"externalScenes": [
+
+	],
+	"subType": "template",
+	"quickEntityVersion": 3.1,
+	"extraFactoryDependencies": [
+		{
+			"resource": "00F24F8361DC4DF4",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/templates/ui/maptrackercontrols.template?/ui_tracker_icon_suitcase.entitytemplate].pc_entitytemplate",
+			"flag": "5F"
+		}
+	],
+	"extraBlueprintDependencies": [
+
+	],
+	"comments": [
+
+	]
+}
