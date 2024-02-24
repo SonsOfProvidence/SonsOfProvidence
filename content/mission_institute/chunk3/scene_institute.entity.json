@@ -895,7 +895,7 @@
 			"events": {
 				"OnStart": {
 					"Start": [
-						"feed7126d1cbcde5"
+						"feed0afc993e2d74"
 					],
 					"Set": [
 						"feed4f8f1f09eb65"
@@ -952,7 +952,7 @@
 				}
 			},
 			"events": {
-				"OnActTimeout": {
+				"OnActDone": {
 					"Start": [
 						"feed8ba95140be13"
 					]
@@ -1609,6 +1609,102 @@
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
 					"value": "fffffffffffffffe",
+					"postInit": true
+				}
+			}
+		},
+		"feede1c8ee49abec": {
+			"parent": "feed457d5a02e93a",
+			"name": "ItemKey_Institute Guitar Case",
+			"factory": "[modules:/zitemrepositorykeyentity.class].pc_entitytype",
+			"blueprint": "[modules:/zitemrepositorykeyentity.class].pc_entityblueprint",
+			"properties": {
+				"m_RepositoryId": {
+					"type": "ZGuid",
+					"value": "e1e09633-4efb-41ee-9102-87c330d281f3"
+				}
+			}
+		},
+		"feed0afc993e2d74": {
+			"parent": "feed457d5a02e93a",
+			"name": "Act_MR_Stand_CarrySuitcase_PickUp_000CM",
+			"factory": "004C06BE00B43E75",
+			"blueprint": "003ECA231031F074",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -179
+						},
+						"position": {
+							"x": -1,
+							"y": -27,
+							"z": 2.8698404
+						}
+					}
+				},
+				"m_rRepositoryKeyToFind": {
+					"type": "SEntityTemplateReference",
+					"value": "feede1c8ee49abec"
+				},
+				"m_pActor": {
+					"type": "SEntityTemplateReference",
+					"value": "feedaa852daf61db",
+					"postInit": true
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fffffffffffffffe",
+					"postInit": true
+				}
+			},
+			"events": {
+				"OnActDone": {
+					"Start": [
+						"feed7126d1cbcde5"
+					]
+				}
+			}
+		},
+		"feedcabffe76e780": {
+			"parent": "feed457d5a02e93a",
+			"name": "Institute Guitar Case Item Spawner",
+			"factory": "[modules:/zitemspawner.class].pc_entitytype",
+			"blueprint": "[modules:/zitemspawner.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						}
+					}
+				},
+				"m_rMainItemKey": {
+					"type": "SEntityTemplateReference",
+					"value": "feede1c8ee49abec"
+				},
+				"m_bSpawnOnStart": {
+					"type": "bool",
+					"value": true
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "feed0afc993e2d74",
+						"externalScene": null,
+						"exposedEntity": "Spatial_SuitcasePosition"
+					},
 					"postInit": true
 				}
 			}

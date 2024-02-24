@@ -389,15 +389,15 @@
 				}
 			}
 		},
-		"feed138737799709": {
+		"feedc644e327af9b": {
 			"parent": "feeda3b6bd03594e",
-			"name": "ItemKey_ICA Briefcase Wide",
+			"name": "ItemKey_Institute Guitar Case",
 			"factory": "[modules:/zitemrepositorykeyentity.class].pc_entitytype",
 			"blueprint": "[modules:/zitemrepositorykeyentity.class].pc_entityblueprint",
 			"properties": {
 				"m_RepositoryId": {
 					"type": "ZGuid",
-					"value": "0673481e-48ed-4c4a-bd83-53b6724b79fb"
+					"value": "e1e09633-4efb-41ee-9102-87c330d281f3"
 				}
 			}
 		}
