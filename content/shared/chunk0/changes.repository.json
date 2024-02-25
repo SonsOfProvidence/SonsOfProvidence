@@ -194,7 +194,7 @@
 		"CheatSpawnGroup_Tools": false,
 		"CommonName": "(Container) Institute Guitar Case",
 		"CompareItem": "00000000-0000-0000-0000-000000000000",
-		"Description": "ui_prop_container_sniper_case_desc",
+		"Description": "ui_prop_container_guitar_case_desc",
 		"DetectShots": false,
 		"DisplayItemCategoryOnlineTraitsIndex": 0,
 		"EnablePickUpOnRelease": true,
@@ -214,7 +214,7 @@
 		"HarmlessImpact": false,
 		"HitmanCanConceal": false,
 		"HolsterAbility": "eHolsterSecondaryOnly",
-		"HudIcon": "15035998978210785",
+		"HudIcon": "62529185462322025",
 		"ID_": "e1e09633-4efb-41ee-9102-87c330d281f3",
 		"Image": "images/unlockables/item_perspective_0673481e-48ed-4c4a-bd83-53b6724b79fb_0.jpg",
 		"InteractionTimeMultiplier": 1,
@@ -254,7 +254,7 @@
 		],
 		"MugshotIsTransparent": false,
 		"MugshotTransformation": "6.123032E-17, 1, 0, -1, 6.123032E-17, 0, 0, 0, 1, 0, 0, 0",
-		"Name_LOC": "ui_prop_container_sniper_case_name",
+		"Name_LOC": "ui_prop_container_guitar_case_name",
 		"NeverInvestigateDistractions": false,
 		"OnlineTraits": [
 			"case"

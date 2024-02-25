@@ -232,12 +232,24 @@
 		"ioiString": "[assembly:/sonsofprovidence/objects/party_balloons.entity].pc_entityblueprint"
 	},
 	{
+		"hash": "00BEFF3C4226FC2C",
+		"ioiString": "[assembly:/sonsofprovidence/objects/institute_guitar_case.prim].pc_prim"
+	},
+	{
 		"hash": "0020886BF7DFF302",
 		"ioiString": "[assembly:/sonsofprovidence/objects/institute_guitar_case.entity].pc_entitytype"
 	},
 	{
 		"hash": "00A2CF451920E568",
 		"ioiString": "[assembly:/sonsofprovidence/objects/institute_guitar_case.entity].pc_entityblueprint"
+	},
+	{
+		"hash": "008360AF26543441",
+		"ioiString": "[assembly:/sonsofprovidence/objects/itemart_suitcase_guitar_case.entity].pc_entitytype"
+	},
+	{
+		"hash": "001C60535F951B96",
+		"ioiString": "[assembly:/sonsofprovidence/objects/itemart_suitcase_guitar_case.entity].pc_entityblueprint"
 	},
 	{
 		"hash": "00984C321B0892EE",
@@ -324,8 +336,8 @@
 		"ioiString": "(planning_contract) sonsofprovidence bank (h3)"
 	},
 	{
-		"hash": "002DDBAAF0E0B62C",
-		"ioiString": "Act_MR_HeadOfSecurity_AimPistol_Dianna"
+		"hash": "00DE25F67F938369",
+		"ioiString": "hudicon (container) institute guitar case"
 	},
 	{
 		"hash": "005565E11B9913E7",

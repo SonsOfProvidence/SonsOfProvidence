@@ -321,9 +321,9 @@
 		},
 		"90ba13786168c571": {
 			"parent": "7ad3ed4b84b88d45",
-			"name": "suitcase_ica_b_wide",
-			"factory": "[assembly:/_pro/items/templates/containers/suitcases.template?/itemart_suitcase_ica_a_wide.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/items/templates/containers/suitcases.template?/itemart_suitcase_ica_a_wide.entitytemplate].pc_entityblueprint",
+			"name": "suitcase_guitar_case",
+			"factory": "[assembly:/sonsofprovidence/objects/itemart_suitcase_guitar_case.entity].pc_entitytype",
+			"blueprint": "[assembly:/sonsofprovidence/objects/itemart_suitcase_guitar_case.entity].pc_entityblueprint",
 			"properties": {
 				"m_mTransform": {
 					"type": "SMatrix43",

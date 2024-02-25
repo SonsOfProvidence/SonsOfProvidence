@@ -25,6 +25,11 @@
 					"runtimeID": "004C06BE00B43E75",
 					"comment": "act_mr_stand_carrysuitcase_pickup_000cm",
 					"toChunk": 3
+				},
+				{
+					"runtimeID": "00D4793ABC63AA52",
+					"comment": "[assembly:/_pro/environment/geometry/props/leisure/guitar_case_a.wl2?/guitar_case_a_00.prim].pc_entitytype",
+					"toChunk": 0
 				}
 			]
 		},
@@ -4347,6 +4352,8 @@
 			"UI_TOKEN_OUTFIT_LUCAS_GREY_RELAXED_DESC": "Casual outfit with smart pants and a tee-shirt.",
 			"UI_TOKEN_OUTFIT_LUCAS_GREY_BALD_NAME": "Tactical Infiltration Suit",
 			"UI_TOKEN_OUTFIT_LUCAS_GREY_BALD_DESC": "A tactical infiltration suit designed to be low profile.",
+			"ui_prop_container_guitar_case_name": "Guitar Case",
+			"ui_prop_container_guitar_case_desc": "This custom made Institute Guitar Case can hold a Shotgun",
 			"ui_starting_location_chongqing_ether_lab_default_name": "Top floor of Ether Headquarters",
 			"ui_starting_location_chongqing_ether_lab_desc": "I have made my way to the top floor of Ether Headquarters",
 			"ui_starting_location_dartmoor_institute_default_name": "The Institute for Human Betterment",
