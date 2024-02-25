@@ -6,8 +6,8 @@
 		"acf7031fcb855839": {
 			"parent": null,
 			"name": "Itemart_suitcase_guitar_case",
-			"factory": "005276F3030DECCC",
-			"blueprint": "00D3FCD3C822B695",
+			"factory": "006D2E34B48F98DF",
+			"blueprint": "004E2DC565834679",
 			"properties": {
 				"m_mTransform": {
 					"type": "SMatrix43",

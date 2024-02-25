@@ -1,0 +1,508 @@
+{
+	"tempHash": "006D2E34B48F98DF",
+	"tbluHash": "004E2DC565834679",
+	"rootEntity": "1c47c2c1e33972f7",
+	"entities": {
+		"a4471602a9b384f7": {
+			"parent": "1c47c2c1e33972f7",
+			"name": "DebugBox",
+			"factory": "[modules:/zdebugboxentity.class].pc_entitytype",
+			"blueprint": "[modules:/zdebugboxentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						}
+					}
+				},
+				"m_Color": {
+					"type": "SColorRGBA",
+					"value": "#6cf56cff"
+				},
+				"m_bForceVisible": {
+					"type": "bool",
+					"value": true
+				},
+				"m_eDrawLayer": {
+					"type": "ZDebugSpatialEntity.EDrawLayer",
+					"value": "DL_ALIGNMENT"
+				},
+				"m_bSelectVisibleOnly": {
+					"type": "bool",
+					"value": false
+				},
+				"m_rBoxVolume": {
+					"type": "SEntityTemplateReference",
+					"value": "27cc0b52714d7cf0",
+					"postInit": true
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "27cc0b52714d7cf0",
+					"postInit": true
+				}
+			}
+		},
+		"172fb0438086f153": {
+			"parent": "1c47c2c1e33972f7",
+			"name": "fx_gameplay_invisibleshotcoli",
+			"factory": "[assembly:/_pro/effects/materials/gameplay/fx_gameplay_invisibleshotcoli.mi].pc_entitytype",
+			"blueprint": "[assembly:/_pro/effects/materials/gameplay/fx_gameplay_invisibleshotcoli.mi].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": -7.624141216278076,
+							"y": 1.1910020112991333,
+							"z": -4.322253227233887
+						}
+					}
+				},
+				"Override": {
+					"type": "bool",
+					"value": false
+				},
+				"Clients": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						"a26fc036cb7aec6d"
+					],
+					"postInit": true
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "1c47c2c1e33972f7",
+					"postInit": true
+				}
+			}
+		},
+		"7e9fd1cdb0477a58": {
+			"parent": "1c47c2c1e33972f7",
+			"name": "PropHelper_Item_Placement",
+			"factory": "[assembly:/_pro/design/gamecore/prophelpers.template?/prophelper_item_placement.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/gamecore/prophelpers.template?/prophelper_item_placement.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": 0,
+							"y": -0.07882700115442276,
+							"z": 0
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "a26fc036cb7aec6d",
+					"postInit": true
+				}
+			}
+		},
+		"7583dc12ab030a0b": {
+			"parent": "1c47c2c1e33972f7",
+			"name": "HandAttacherSpatial",
+			"factory": "[modules:/zdebuggizmoentity.class].pc_entitytype",
+			"blueprint": "[modules:/zdebuggizmoentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": 0,
+							"y": 0,
+							"z": 0.17499999701976776
+						}
+					}
+				},
+				"m_GizmoGeomRID": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/geometry/g2/actspecific_gizmos.wl2?/debug_misc_horiz_4x4.prim].pc_prim",
+						"flag": "5F"
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "a26fc036cb7aec6d",
+					"postInit": true
+				}
+			}
+		},
+		"56075431c155e1dc": {
+			"parent": "1c47c2c1e33972f7",
+			"name": "suitcase_medium_anim",
+			"factory": "[modules:/zspatialentity.class].pc_entitytype",
+			"blueprint": "[modules:/zspatialentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": 0,
+							"y": 0.008655999787151814,
+							"z": 0.17714500427246094
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "1c47c2c1e33972f7",
+					"postInit": true
+				}
+			}
+		},
+		"27cc0b52714d7cf0": {
+			"parent": "1c47c2c1e33972f7",
+			"name": "PlacementVolume",
+			"factory": "[modules:/zboxvolumeentity.class].pc_entitytype",
+			"blueprint": "[modules:/zboxvolumeentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						}
+					}
+				},
+				"m_vGlobalSize": {
+					"type": "SVector3",
+					"value": {
+						"x": 0.47999998927116394,
+						"y": 0.15000000596046448,
+						"z": 0.4000000059604645
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "a26fc036cb7aec6d",
+					"postInit": true
+				}
+			}
+		},
+		"a26fc036cb7aec6d": {
+			"parent": "1c47c2c1e33972f7",
+			"name": "2H_Large_Root_Medium",
+			"factory": "0033F8854CB5C795",
+			"blueprint": "[assembly:/templates/geometrytemplaterigidbody.template?/geomentity01.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": 5.534409046173096,
+							"y": 0,
+							"z": 0.6848539710044861
+						}
+					}
+				},
+				"m_eGlowType": {
+					"type": "ERenderGlowTypes",
+					"value": "ERENDERGLOWTYPE_ITEMS"
+				},
+				"m_eCCD": {
+					"type": "ECCDUsage",
+					"value": "ECCDUSAGE_AGAINST_STATIC"
+				},
+				"m_bStartSleeping": {
+					"type": "bool",
+					"value": true
+				},
+				"m_bIgnoreCharacters": {
+					"type": "bool",
+					"value": true
+				},
+				"m_fFriction": {
+					"type": "float32",
+					"value": 500
+				},
+				"m_fMass": {
+					"type": "float32",
+					"value": 10
+				},
+				"m_fRestitution": {
+					"type": "float32",
+					"value": 0.009999999776482582
+				},
+				"m_fLinearDampening": {
+					"type": "float32",
+					"value": 1
+				},
+				"m_fAngularDampening": {
+					"type": "float32",
+					"value": 1
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": null
+				},
+				"m_ResourceID": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "00BEFF3C4226FC2C",
+						"flag": "5F"
+					}
+				}
+			},
+			"outputCopying": {
+				"OnSleep": {
+					"OnSleep": [
+						"1c47c2c1e33972f7"
+					]
+				}
+			}
+		},
+		"1c47c2c1e33972f7": {
+			"parent": null,
+			"name": "Itemart_archetype_guitarcase_default",
+			"factory": "[modules:/zentity.class].pc_entitytype",
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": 5.534409046173096,
+							"y": 0,
+							"z": 0.6848539710044861
+						}
+					}
+				},
+				"HandAttacherTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": 0,
+							"y": 0,
+							"z": 0.17499999701976776
+						}
+					}
+				},
+				"ItemPlacementTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": 0,
+							"y": -0.07882700115442276,
+							"z": 0
+						}
+					}
+				},
+				"OverrideInvisible": {
+					"type": "bool",
+					"value": false
+				}
+			},
+			"inputCopying": {
+				"SetVisible": {
+					"SetVisible": [
+						"a26fc036cb7aec6d"
+					]
+				},
+				"SetInPhysicsWorld": {
+					"SetInPhysicsWorld": [
+						"a26fc036cb7aec6d"
+					]
+				},
+				"KinematicBody": {
+					"KinematicBody": [
+						"a26fc036cb7aec6d"
+					]
+				}
+			},
+			"propertyAliases": {
+				"HandAttacherTransform": [
+					{
+						"originalProperty": "m_mTransform",
+						"originalEntity": "7583dc12ab030a0b"
+					}
+				],
+				"ItemPlacementTransform": [
+					{
+						"originalProperty": "m_mTransform",
+						"originalEntity": "7e9fd1cdb0477a58"
+					}
+				],
+				"OverrideInvisible": [
+					{
+						"originalProperty": "Override",
+						"originalEntity": "172fb0438086f153"
+					}
+				],
+				"PlacementVolume": [
+					{
+						"originalProperty": "m_vGlobalSize",
+						"originalEntity": "27cc0b52714d7cf0"
+					}
+				],
+				"PlacementVolumeTransform": [
+					{
+						"originalProperty": "m_mTransform",
+						"originalEntity": "27cc0b52714d7cf0"
+					}
+				],
+				"m_ResourceGeometry": [
+					{
+						"originalProperty": "m_ResourceID",
+						"originalEntity": "a26fc036cb7aec6d"
+					}
+				],
+				"m_eidParent": [
+					{
+						"originalProperty": "m_eidParent",
+						"originalEntity": "a26fc036cb7aec6d"
+					}
+				],
+				"m_mTransform": [
+					{
+						"originalProperty": "m_mTransform",
+						"originalEntity": "a26fc036cb7aec6d"
+					}
+				]
+			},
+			"exposedEntities": {
+				"HandAttacherSpatial": {
+					"isArray": false,
+					"refersTo": [
+						"7583dc12ab030a0b"
+					]
+				},
+				"ItemPlacement": {
+					"isArray": false,
+					"refersTo": [
+						"7e9fd1cdb0477a58"
+					]
+				},
+				"Linkedprim": {
+					"isArray": false,
+					"refersTo": [
+						"56075431c155e1dc"
+					]
+				},
+				"PlacementVolume": {
+					"isArray": false,
+					"refersTo": [
+						"27cc0b52714d7cf0"
+					]
+				}
+			},
+			"exposedInterfaces": {
+				"IPhysicsAccessor": "a26fc036cb7aec6d",
+				"ZGeomEntity": "a26fc036cb7aec6d",
+				"IDynamicPhysics": "a26fc036cb7aec6d",
+				"ZSpatialEntity": "a26fc036cb7aec6d"
+			}
+		}
+	},
+	"propertyOverrides": [
+
+	],
+	"overrideDeletes": [
+
+	],
+	"pinConnectionOverrides": [
+
+	],
+	"pinConnectionOverrideDeletes": [
+
+	],
+	"externalScenes": [
+
+	],
+	"subType": "template",
+	"quickEntityVersion": 3.1,
+	"extraFactoryDependencies": [
+		{
+			"resource": "00D4C882625B6F20",
+			"flag": "5F"
+		},
+		{
+			"resource": "00F429FAEFD8616E",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/environment/textures/constants/color_grey.texture?/diffuse_a.tex](ascolormap).pc_tex",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/environment/textures/detailmaps/default.texture?/detail_a.tex](ascompoundnormal).pc_tex",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/environment/textures/constants/normalmap.texture?/normal_a.tex](asnormalmap).pc_tex",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/environment/textures/constants/color_black.texture?/diffuse_a.tex](ascolormap).pc_tex",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/geometry/g2/gizmos.wl2?/gizmo_trigger_01.prim].pc_prim",
+			"flag": "5F"
+		}
+	],
+	"extraBlueprintDependencies": [
+
+	],
+	"comments": [
+
+	]
+}

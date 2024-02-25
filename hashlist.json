@@ -340,6 +340,14 @@
 		"ioiString": "hudicon (container) institute guitar case"
 	},
 	{
+		"hash": "006D2E34B48F98DF",
+		"ioiString": "itemart_archetype_suitcase_default (template)"
+	},
+	{
+		"hash": "004E2DC565834679",
+		"ioiString": "itemart_archetype_suitcase_default (blueprint)"
+	},
+	{
 		"hash": "005565E11B9913E7",
 		"ioiString": "[assembly:/sonsofprovidence/scene_institute.entity].pc_entitytemplate"
 	},
