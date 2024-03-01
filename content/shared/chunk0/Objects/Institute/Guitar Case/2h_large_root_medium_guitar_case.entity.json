@@ -1,6 +1,6 @@
 {
-	"tempHash": "0033F8854CB5C795",
-	"tbluHash": "00C7E348A80A6E6E",
+	"tempHash": "00CCC031E07719EC",
+	"tbluHash": "007D3E1640E4F80A",
 	"rootEntity": "8c971e0640085e97",
 	"entities": {
 		"8c971e0640085e97": {
@@ -47,14 +47,14 @@
 				"m_ResourceID": {
 					"type": "ZRuntimeResourceID",
 					"value": {
-						"resource": "00F5B1DA939DF3C9",
+						"resource": "00BEFF3C4226FC2C",
 						"flag": "5F"
 					}
 				},
 				"m_CollisionResourceID": {
 					"type": "ZRuntimeResourceID",
 					"value": {
-						"resource": "00D4C882625B6F20",
+						"resource": "005E651724568E76",
 						"flag": "5F"
 					}
 				}

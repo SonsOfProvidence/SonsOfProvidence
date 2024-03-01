@@ -221,7 +221,7 @@
 		"a26fc036cb7aec6d": {
 			"parent": "1c47c2c1e33972f7",
 			"name": "2H_Large_Root_Medium",
-			"factory": "0033F8854CB5C795",
+			"factory": "00CCC031E07719EC",
 			"blueprint": "[assembly:/templates/geometrytemplaterigidbody.template?/geomentity01.entitytemplate].pc_entityblueprint",
 			"properties": {
 				"m_mTransform": {

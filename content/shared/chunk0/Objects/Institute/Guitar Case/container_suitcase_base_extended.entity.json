@@ -1022,7 +1022,7 @@
 				},
 				"m_sPromptText": {
 					"type": "ZString",
-					"value": "Retrieve Sniper"
+					"value": "Retrieve Shotgun"
 				},
 				"m_eActionType": {
 					"type": "EActionType",

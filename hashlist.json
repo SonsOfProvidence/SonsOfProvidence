@@ -348,6 +348,10 @@
 		"ioiString": "itemart_archetype_suitcase_default (blueprint)"
 	},
 	{
+		"hash": "00CCC031E07719EC",
+		"ioiString": "2h_large_root_medium_guitar_case (template)"
+	},
+	{
 		"hash": "005565E11B9913E7",
 		"ioiString": "[assembly:/sonsofprovidence/scene_institute.entity].pc_entitytemplate"
 	},
