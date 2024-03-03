@@ -352,6 +352,10 @@
 		"ioiString": "2h_large_root_medium_guitar_case (template)"
 	},
 	{
+		"hash": "007D3E1640E4F80A",
+		"ioiString": "2h_large_root_medium_guitar_case (blueprint)"
+	},
+	{
 		"hash": "005565E11B9913E7",
 		"ioiString": "[assembly:/sonsofprovidence/scene_institute.entity].pc_entitytemplate"
 	},

@@ -102,12 +102,12 @@
 					"value": {
 						"rotation": {
 							"x": 0,
-							"y": 0,
+							"y": 90,
 							"z": 0
 						},
 						"position": {
 							"x": 0,
-							"y": -0.07882700115442276,
+							"y": 0,
 							"z": 0
 						}
 					}
@@ -136,7 +136,7 @@
 						"position": {
 							"x": 0,
 							"y": 0,
-							"z": 0.17499999701976776
+							"z": 0
 						}
 					}
 				},
@@ -193,7 +193,7 @@
 					"value": {
 						"rotation": {
 							"x": 0,
-							"y": 0,
+							"y": 90,
 							"z": 0
 						},
 						"position": {
@@ -222,7 +222,7 @@
 			"parent": "1c47c2c1e33972f7",
 			"name": "2H_Large_Root_Medium",
 			"factory": "00CCC031E07719EC",
-			"blueprint": "[assembly:/templates/geometrytemplaterigidbody.template?/geomentity01.entitytemplate].pc_entityblueprint",
+			"blueprint": "007D3E1640E4F80A",
 			"properties": {
 				"m_mTransform": {
 					"type": "SMatrix43",
@@ -320,14 +320,14 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": 0
+							"x": 20,
+							"y": -90,
+							"z": 20
 						},
 						"position": {
-							"x": 0,
-							"y": 0,
-							"z": 0.17499999701976776
+							"x": 0.15,
+							"y": -0.242,
+							"z": 0.07
 						}
 					}
 				},
@@ -336,12 +336,12 @@
 					"value": {
 						"rotation": {
 							"x": 0,
-							"y": 0,
+							"y": 90,
 							"z": 0
 						},
 						"position": {
 							"x": 0,
-							"y": -0.07882700115442276,
+							"y": 0,
 							"z": 0
 						}
 					}
