@@ -388,6 +388,38 @@
 		"ioiString": "[assembly:/sonsofprovidence/institute/charset_institute_guard_providenceguardelite_m.entitytemplate].pc_entityblueprint"
 	},
 	{
+		"hash": "0024872CC3FC93AD",
+		"ioiString": "[assembly:/sonsofprovidence/institute/charset_subject.entitytemplate].pc_entitytype"
+	},
+	{
+		"hash": "001B63B0B53F90AE",
+		"ioiString": "[assembly:/sonsofprovidence/institute/charset_subject.entitytemplate].pc_entityblueprint"
+	},
+	{
+		"hash": "0007570A9DCB7D91",
+		"ioiString": "[assembly:/sonsofprovidence/institute/outfit_subject_actor_v0.entitytemplate].pc_entitytype"
+	},
+	{
+		"hash": "00F80EF0023D746C",
+		"ioiString": "[assembly:/sonsofprovidence/institute/outfit_subject_actor_v0.entitytemplate].pc_entityblueprint"
+	},
+	{
+		"hash": "001FE063A4CF11CE",
+		"ioiString": "[assembly:/sonsofprovidence/institute/charset_worker.entitytemplate].pc_entitytype"
+	},
+	{
+		"hash": "00EF7886FCF6702C",
+		"ioiString": "[assembly:/sonsofprovidence/institute/charset_worker.entitytemplate].pc_entityblueprint"
+	},
+	{
+		"hash": "00E3B0BBB613136D",
+		"ioiString": "[assembly:/sonsofprovidence/institute/outfit_worker_actor_v0.entitytemplate].pc_entitytype"
+	},
+	{
+		"hash": "00A1EEFA5CD27653",
+		"ioiString": "[assembly:/sonsofprovidence/institute/outfit_worker_actor_v0.entitytemplate].pc_entityblueprint"
+	},
+	{
 		"hash": "00D023CAEBCDCC63",
 		"ioiString": "[assembly:/sonsofprovidence/thomascross_hair_diffuse.tex](ascolormap).pc_tex)"
 	},
