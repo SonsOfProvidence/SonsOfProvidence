@@ -107,8 +107,8 @@
 						"feed115cba100e8f",
 						"feed19690b0c67f4",
 						"feedce8a7eb54e89",
-						"feedc60f647efed2",
-						"feed52761e012942"
+						"feedd3cfe9658805",
+						"feed1748635b628d"
 					],
 					"postInit": true
 				}
@@ -228,12 +228,6 @@
 				}
 			}
 		},
-		"feedc60f647efed2": {
-			"parent": "8a1a25c92b349cbb",
-			"name": "Arms_Biceps_Hand_Slim",
-			"factory": "00A8C587CBD8DED6",
-			"blueprint": "00453477D22B54EA"
-		},
 		"feedc9dd0fb12f46": {
 			"parent": "8a1a25c92b349cbb",
 			"name": "Head_Attacher",
@@ -295,21 +289,33 @@
 				}
 			}
 		},
-		"feed52761e012942": {
+		"feedd3cfe9658805": {
 			"parent": "8a1a25c92b349cbb",
-			"name": "Head_Caucasian_60s_01",
-			"factory": "0050D39D4CF9B59B",
-			"blueprint": "001568CC58A41F36",
+			"name": "Head_Caucasian_40s_01",
+			"factory": "0005ED65F89C78AA",
+			"blueprint": "0083700AEA713ED7",
 			"properties": {
-				"ConstantColorRGB_01_Value": {
-					"type": "SColorRGB",
-					"value": "#e0f0ff"
+				"Texture2DNormal_01": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "009F95CAF698F582",
+						"flag": "5F"
+					}
 				},
-				"ConstantColorRGB_02_Value": {
-					"type": "SColorRGB",
-					"value": "#e0f0ff"
+				"Texture2D_01": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "00C3B9C9DEC8812E",
+						"flag": "5F"
+					}
 				}
 			}
+		},
+		"feed1748635b628d": {
+			"parent": "8a1a25c92b349cbb",
+			"name": "Arms_Shoulder_Hand",
+			"factory": "00D0A46D325392B0",
+			"blueprint": "0038B023C4284F44"
 		}
 	},
 	"propertyOverrides": [
