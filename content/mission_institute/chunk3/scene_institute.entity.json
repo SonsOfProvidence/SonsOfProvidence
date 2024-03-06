@@ -1269,7 +1269,7 @@
 				},
 				"m_nWeaponIndex": {
 					"type": "int32",
-					"value": 1
+					"value": 0
 				},
 				"m_sActorName": {
 					"type": "ZString",
@@ -3012,7 +3012,7 @@
 				},
 				"m_AlignRotation": {
 					"type": "ZActBehaviorEntity.ERotationAlignment",
-					"value": "RA_EXACT"
+					"value": "RA_NONE"
 				},
 				"m_fActTimeout": {
 					"type": "float32",
