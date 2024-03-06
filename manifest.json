@@ -27,6 +27,11 @@
 					"toChunk": 3
 				},
 				{
+					"runtimeID": "00316579AAD3F1F4",
+					"comment": "act_mr_stand_carrysuitcase_putdown_000cm",
+					"toChunk": 3
+				},
+				{
 					"runtimeID": "00D4793ABC63AA52",
 					"comment": "[assembly:/_pro/environment/geometry/props/leisure/guitar_case_a.wl2?/guitar_case_a_00.prim].pc_entitytype",
 					"toChunk": 0

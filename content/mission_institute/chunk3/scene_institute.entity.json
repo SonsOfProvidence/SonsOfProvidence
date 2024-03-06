@@ -470,12 +470,12 @@
 						"rotation": {
 							"x": 0,
 							"y": 0,
-							"z": -179
+							"z": -173.98631031270526
 						},
 						"position": {
-							"x": -1,
-							"y": -27,
-							"z": 2.8698404
+							"x": -0.9834561,
+							"y": -10.11645,
+							"z": 3.9999998
 						}
 					}
 				},
@@ -506,53 +506,6 @@
 			"name": "HeroSpawn_StartingLocation",
 			"factory": "[modules:/zentity.class].pc_entitytype",
 			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
-		},
-		"feed2aa2a7e5dd0c": {
-			"parent": "feed98b9682a63dd",
-			"name": "Setpiece_Italy_Unique_Destructible_Wall_A",
-			"factory": "[assembly:/_pro/design/setpieces/unique/setpiece_italy_unique.template?/setpiece_italy_unique_destructible_wall_a.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/design/setpieces/unique/setpiece_italy_unique.template?/setpiece_italy_unique_destructible_wall_a.entitytemplate].pc_entityblueprint",
-			"properties": {
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": 0
-						},
-						"position": {
-							"x": -0.09033966,
-							"y": 67.6385,
-							"z": 3.9167256
-						}
-					}
-				},
-				"SoundGate_Enabled": {
-					"type": "bool",
-					"value": true
-				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": {
-						"externalScene": "[assembly:/_pro/scenes/missions/ancestral/scenario_bulldog.brick].pc_entitytype",
-						"ref": "aff994cc4a72c41f"
-					},
-					"postInit": true
-				}
-			},
-			"events": {
-				"WallDestroyed": {
-					"TransmitEvent": [
-
-					]
-				}
-			},
-			"subsets": {
-				"AudioEmitters": [
-					"fffffffffffffffe"
-				]
-			}
 		},
 		"feed98b9682a63dd": {
 			"parent": "abcd5e509cf0ca65",
@@ -722,7 +675,7 @@
 				"m_duration": {
 					"type": "ZGameTime",
 					"value": {
-						"m_nTicks": 1348576
+						"m_nTicks": 648576
 					}
 				},
 				"m_bLetterbox": {
@@ -736,7 +689,7 @@
 				"m_letterboxFadeOut": {
 					"type": "ZGameTime",
 					"value": {
-						"m_nTicks": 4042576
+						"m_nTicks": 2042576
 					}
 				},
 				"m_aTracksAndGroups": {
@@ -1141,7 +1094,7 @@
 		},
 		"feed6014000d451f": {
 			"parent": "abcde92f2c09c134",
-			"name": "Agent 47",
+			"name": "Subject 47",
 			"factory": "[modules:/zentity.class].pc_entitytype",
 			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
 		},
@@ -1258,7 +1211,7 @@
 		},
 		"feed1d82663b0b17": {
 			"parent": "feed6014000d451f",
-			"name": "Walking",
+			"name": "Subject 47 Drama",
 			"factory": "00979FC47234F029",
 			"blueprint": "00E41A264738A917",
 			"properties": {
@@ -1283,7 +1236,7 @@
 		},
 		"feed90d89ed84bb7": {
 			"parent": "feed6014000d451f",
-			"name": "CHAR_Agent_47",
+			"name": "CHAR_Subject_47",
 			"factory": "[assembly:/templates/aspectdummy.aspect]([assembly:/templates/gameplay/ai2/actors.template?/npcactor.entitytemplate].entitytype,[modules:/zglowoverrideaspect.class].entitytype).pc_entitytype",
 			"blueprint": "[assembly:/templates/aspectdummy.aspect]([assembly:/templates/gameplay/ai2/actors.template?/npcactor.entitytemplate].entitytype,[modules:/zglowoverrideaspect.class].entitytype).pc_entityblueprint",
 			"properties": {
@@ -1293,12 +1246,12 @@
 						"rotation": {
 							"x": 0,
 							"y": 0,
-							"z": -176.16738095998707
+							"z": 172.7130674287665
 						},
 						"position": {
-							"x": 1.7500814,
-							"y": -26.971516,
-							"z": 2.8700678
+							"x": 1.2448163,
+							"y": -9.678167,
+							"z": 4
 						}
 					}
 				},
@@ -1314,9 +1267,13 @@
 					"type": "int32",
 					"value": 0
 				},
+				"m_nWeaponIndex": {
+					"type": "int32",
+					"value": 1
+				},
 				"m_sActorName": {
 					"type": "ZString",
-					"value": "Bhavan Supplier"
+					"value": "Subject 47"
 				},
 				"m_nOutfitCharset": {
 					"type": "int32",
@@ -1497,7 +1454,7 @@
 		},
 		"feed8640f8685165": {
 			"parent": "feed1d82663b0b17",
-			"name": "Act_MR_Stand_Basic Just Past Front Door",
+			"name": "Act_MR_Stand_Basic Just Past Cafeteria Door",
 			"factory": "00251CC86224019D",
 			"blueprint": "005C75C0C3B1863A",
 			"properties": {
@@ -1507,12 +1464,12 @@
 						"rotation": {
 							"x": 0,
 							"y": 0,
-							"z": 179
+							"z": -91.47832864843572
 						},
 						"position": {
-							"x": 0.4065533,
-							"y": -2.3534987,
-							"z": 4.0105443
+							"x": -1.414801,
+							"y": 42.22553,
+							"z": 4.017874
 						}
 					}
 				},
@@ -1527,7 +1484,7 @@
 				},
 				"m_fActTimeout": {
 					"type": "float32",
-					"value": 0.5
+					"value": 15
 				},
 				"m_bUseConversationHelper": {
 					"type": "bool",
@@ -1546,57 +1503,8 @@
 			"events": {
 				"OnActDone": {
 					"Start": [
-						"feed982843420b9e"
+						"feed364ce7bda0a3"
 					]
-				}
-			}
-		},
-		"feed982843420b9e": {
-			"parent": "feed1d82663b0b17",
-			"name": "Act_MR_Stand_Basic Behind Table in Library",
-			"factory": "00251CC86224019D",
-			"blueprint": "005C75C0C3B1863A",
-			"properties": {
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": -84.274999413876
-						},
-						"position": {
-							"x": -31.261232,
-							"y": 7.998166,
-							"z": 4.000002
-						}
-					}
-				},
-				"m_pActor": {
-					"type": "SEntityTemplateReference",
-					"value": "feedf534062a501e",
-					"postInit": true
-				},
-				"m_AlignRotation": {
-					"type": "ZActBehaviorEntity.ERotationAlignment",
-					"value": "RA_EXACT"
-				},
-				"m_fActTimeout": {
-					"type": "float32",
-					"value": 5
-				},
-				"m_bUseConversationHelper": {
-					"type": "bool",
-					"value": true
-				},
-				"m_MovementType": {
-					"type": "ZActBehaviorEntity.EMovementType",
-					"value": "MT_WALK"
-				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "fffffffffffffffe",
-					"postInit": true
 				}
 			}
 		},
@@ -1704,12 +1612,12 @@
 						"rotation": {
 							"x": 0,
 							"y": 0,
-							"z": -176.16738095998707
+							"z": 172.7130674287665
 						},
 						"position": {
-							"x": 1.7500814,
-							"y": -26.971516,
-							"z": 2.8700678
+							"x": 1.2448163,
+							"y": -9.678167,
+							"z": 4
 						}
 					}
 				},
@@ -1731,7 +1639,7 @@
 			"events": {
 				"OnActDone": {
 					"Start": [
-						"feed8640f8685165"
+						"feedbb14ee095f99"
 					]
 				}
 			}
@@ -3019,6 +2927,384 @@
 					"fffffffffffffffe"
 				]
 			}
+		},
+		"feedbf2decf65f4d": {
+			"parent": "feed1d82663b0b17",
+			"name": "Target_Worker2",
+			"factory": "[modules:/zorientationentity.class].pc_entitytype",
+			"blueprint": "[modules:/zorientationentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": 1.4,
+							"y": 0,
+							"z": 4.0000024
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fffffffffffffffe",
+					"postInit": true
+				}
+			}
+		},
+		"feed44b5c7c3a7ae": {
+			"parent": "feed1d82663b0b17",
+			"name": "Timer",
+			"factory": "[assembly:/_pro/design/logic.template?/timer.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/logic.template?/timer.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_bEnabled": {
+					"type": "bool",
+					"value": false
+				},
+				"m_nInterval": {
+					"type": "int32",
+					"value": 0
+				}
+			},
+			"events": {
+				"TimeOut": {
+					"Stop": [
+						"feed44b5c7c3a7ae"
+					],
+					"Reset": [
+						"feed44b5c7c3a7ae"
+					],
+					"Military_Armed_Riffle": [
+						"feed364ce7bda0a3"
+					]
+				}
+			}
+		},
+		"feed364ce7bda0a3": {
+			"parent": "feed1d82663b0b17",
+			"name": "Act_MR_Military_Stand_Rifle_Full_Behaviour",
+			"factory": "[assembly:/_pro/design/actor/acts/mr_guard.template?/act_mr_military_stand_riffle_full_behaviour.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/acts/mr_guard.template?/act_mr_military_stand_riffle_full_behaviour.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -179
+						},
+						"position": {
+							"x": 0.4065533,
+							"y": -2.3534987,
+							"z": 4.0105443
+						}
+					}
+				},
+				"m_pTarget": {
+					"type": "SEntityTemplateReference",
+					"value": "feedbf2decf65f4d"
+				},
+				"m_AlignRotation": {
+					"type": "ZActBehaviorEntity.ERotationAlignment",
+					"value": "RA_EXACT"
+				},
+				"m_fActTimeout": {
+					"type": "float32",
+					"value": 5
+				},
+				"m_pActor": {
+					"type": "SEntityTemplateReference",
+					"value": "feedf534062a501e",
+					"postInit": true
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fffffffffffffffe",
+					"postInit": true
+				},
+				"m_bFastTransition": {
+					"type": "bool",
+					"value": true
+				}
+			},
+			"events": {
+				"OnStart": {
+					"Start": [
+						"feed44b5c7c3a7ae"
+					],
+					"Military_Aim_Fire": [
+						"feed364ce7bda0a3"
+					]
+				},
+				"OnActTimeout": {
+					"Start": [
+						"feed0915975109b8"
+					]
+				}
+			}
+		},
+		"feedbb14ee095f99": {
+			"parent": "feed1d82663b0b17",
+			"name": "Act_MR_Stand_Basic Just Past Front Door",
+			"factory": "00251CC86224019D",
+			"blueprint": "005C75C0C3B1863A",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -179
+						},
+						"position": {
+							"x": 0.4065533,
+							"y": -2.3534987,
+							"z": 4.0105443
+						}
+					}
+				},
+				"m_pActor": {
+					"type": "SEntityTemplateReference",
+					"value": "feedf534062a501e",
+					"postInit": true
+				},
+				"m_AlignRotation": {
+					"type": "ZActBehaviorEntity.ERotationAlignment",
+					"value": "RA_NONE"
+				},
+				"m_fActTimeout": {
+					"type": "float32",
+					"value": 5
+				},
+				"m_bUseConversationHelper": {
+					"type": "bool",
+					"value": true
+				},
+				"m_MovementType": {
+					"type": "ZActBehaviorEntity.EMovementType",
+					"value": "MT_WALK"
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fffffffffffffffe",
+					"postInit": true
+				}
+			},
+			"events": {
+				"OnReached": {
+					"Start": [
+						"feed7f4c03b9d085"
+					]
+				}
+			}
+		},
+		"feed0915975109b8": {
+			"parent": "feed1d82663b0b17",
+			"name": "act_mr_guard_rifle_jog",
+			"factory": "[assembly:/_pro/design/actor/acts/mr_guard.template?/act_mr_guard_rifle_jog.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/acts/mr_guard.template?/act_mr_guard_rifle_jog.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -91.47832864843572
+						},
+						"position": {
+							"x": -1.414801,
+							"y": 42.22553,
+							"z": 4.017874
+						}
+					}
+				},
+				"m_fActTimeout": {
+					"type": "float32",
+					"value": 120
+				},
+				"m_pActor": {
+					"type": "SEntityTemplateReference",
+					"value": "feedf534062a501e",
+					"postInit": true
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fffffffffffffffe",
+					"postInit": true
+				}
+			},
+			"events": {
+				"OnReached": {
+					"Start": [
+						"feed8640f8685165"
+					]
+				}
+			}
+		},
+		"feed7f4c03b9d085": {
+			"parent": "feed1d82663b0b17",
+			"name": "Act_MR_Stand_CarrySuitcase_PutDown_000cm",
+			"factory": "00316579AAD3F1F4",
+			"blueprint": "00DA730C8CD4C375",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -179
+						},
+						"position": {
+							"x": 0.4065533,
+							"y": -2.3534987,
+							"z": 4.0105443
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fffffffffffffffe",
+					"postInit": true
+				},
+				"m_pActor": {
+					"type": "SEntityTemplateReference",
+					"value": "feedf534062a501e",
+					"postInit": true
+				}
+			},
+			"events": {
+				"OnActDone": {
+					"Start": [
+						"feed364ce7bda0a3"
+					],
+					"TransmitEvent": [
+						"feed9b729844d892"
+					]
+				}
+			},
+			"subsets": {
+				"AudioEmitters": [
+					"fffffffffffffffe"
+				]
+			}
+		},
+		"feed7e6b296a6e3b": {
+			"parent": "feed1d82663b0b17",
+			"name": "ItemSpawner Shotgun",
+			"factory": "[modules:/zitemspawner.class].pc_entitytype",
+			"blueprint": "[modules:/zitemspawner.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 70.07505296418282
+						},
+						"position": {
+							"x": 16.827659606933594,
+							"y": -18.264989852905273,
+							"z": 8.375056266784668
+						}
+					}
+				},
+				"m_bSpawnOnStart": {
+					"type": "bool",
+					"value": false
+				},
+				"m_rMainItemKey": {
+					"type": "SEntityTemplateReference",
+					"value": "feed55c4c280a5e5",
+					"postInit": true
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fffffffffffffffe",
+					"postInit": true
+				}
+			},
+			"events": {
+				"Item": {
+					"SetItem": [
+						"feed9aa32be3218c"
+					]
+				}
+			}
+		},
+		"feed55c4c280a5e5": {
+			"parent": "feed1d82663b0b17",
+			"name": "ItemKey_Shotgun02 NPC Bartoli 12G",
+			"factory": "[modules:/zitemrepositorykeyentity.class].pc_entitytype",
+			"blueprint": "[modules:/zitemrepositorykeyentity.class].pc_entityblueprint",
+			"properties": {
+				"m_RepositoryId": {
+					"type": "ZGuid",
+					"value": "7f31d897-a62f-448c-be0d-79d565e2faa7"
+				}
+			}
+		},
+		"feed9aa32be3218c": {
+			"parent": "feed1d82663b0b17",
+			"name": "ActorItemAction 47 gets shotgun from case",
+			"factory": "[modules:/zactoritemaction.class].pc_entitytype",
+			"blueprint": "[modules:/zactoritemaction.class].pc_entityblueprint",
+			"properties": {
+				"m_pActor": {
+					"type": "SEntityTemplateReference",
+					"value": "feed90d89ed84bb7",
+					"postInit": true
+				},
+				"m_pItem": {
+					"type": "SEntityTemplateReference",
+					"value": "feed55c4c280a5e5",
+					"postInit": true
+				},
+				"m_rKeywordsToFind": {
+					"type": "SEntityTemplateReference",
+					"value": "feed55c4c280a5e5",
+					"postInit": true
+				}
+			}
+		},
+		"feed3b4e0b0ad51d": {
+			"parent": "feed1d82663b0b17",
+			"name": "Actual 47 spawns shotgun",
+			"factory": "[modules:/zeventreceiverentity_void.class].pc_entitytype",
+			"blueprint": "[modules:/zeventreceiverentity_void.class].pc_entityblueprint",
+			"events": {
+				"EventReceived": {
+					"SpawnItem": [
+						"feed7e6b296a6e3b"
+					],
+					"AddToInventory": [
+						"feed9aa32be3218c"
+					]
+				}
+			}
+		},
+		"feed9b729844d892": {
+			"parent": "feed1d82663b0b17",
+			"name": "Spawn shotgun transmitter",
+			"factory": "[modules:/zeventtransmitterentity_void.class].pc_entitytype",
+			"blueprint": "[modules:/zeventtransmitterentity_void.class].pc_entityblueprint",
+			"properties": {
+				"m_Receivers": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						"feed3b4e0b0ad51d"
+					]
+				}
+			}
 		}
 	},
 	"propertyOverrides": [
@@ -3055,7 +3341,7 @@
 						"position": {
 							"x": -1.544118,
 							"y": 67.55924,
-							"z": 5.06
+							"z": 5.46
 						}
 					}
 				}
@@ -3069,6 +3355,14 @@
 		},
 		{
 			"ref": "74fdb6d3188eff45",
+			"externalScene": "[assembly:/_pro/scenes/missions/ancestral/scenario_bulldog.brick].pc_entitytype"
+		},
+		{
+			"ref": "a07dc3d56bdba767",
+			"externalScene": "[assembly:/_pro/scenes/missions/ancestral/scenario_bulldog.brick].pc_entitytype"
+		},
+		{
+			"ref": "6249385da173b353",
 			"externalScene": "[assembly:/_pro/scenes/missions/ancestral/scenario_bulldog.brick].pc_entitytype"
 		}
 	],

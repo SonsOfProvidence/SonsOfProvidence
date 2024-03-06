@@ -248,9 +248,7 @@
 				"m_AvailableWeaponKeys": {
 					"type": "TArray<SEntityTemplateReference>",
 					"value": [
-						"feed975d164cc921",
-						"feed5b872a9d48b5",
-						"feed9cc83118832e"
+						"feedb23edd6150cd"
 					],
 					"postInit": true
 				},
@@ -275,18 +273,6 @@
 				}
 			}
 		},
-		"feed5b872a9d48b5": {
-			"parent": "feed9a363b653847",
-			"name": "ItemKey_ICA Tactical Shotgun _Wolverine_NPC",
-			"factory": "[modules:/zitemrepositorykeyentity.class].pc_entitytype",
-			"blueprint": "[modules:/zitemrepositorykeyentity.class].pc_entityblueprint",
-			"properties": {
-				"m_RepositoryId": {
-					"type": "ZGuid",
-					"value": "4e92b3c5-3358-44aa-8a87-f7f349f46f44"
-				}
-			}
-		},
 		"feed60b4331a0a8e": {
 			"parent": "feed9a363b653847",
 			"name": "Keyword_Prof_Class_Guard_Heavy",
@@ -299,18 +285,6 @@
 						"feed9a363b653847"
 					],
 					"postInit": true
-				}
-			}
-		},
-		"feed9cc83118832e": {
-			"parent": "feed9a363b653847",
-			"name": "ItemKey__S3_ _SMG_ RAPTOR ICA Standard Wolverine",
-			"factory": "[modules:/zitemrepositorykeyentity.class].pc_entitytype",
-			"blueprint": "[modules:/zitemrepositorykeyentity.class].pc_entityblueprint",
-			"properties": {
-				"m_RepositoryId": {
-					"type": "ZGuid",
-					"value": "a494c3c8-9a41-4398-9542-559e6a5dc1cb"
 				}
 			}
 		},
@@ -345,18 +319,6 @@
 			"name": "Keyword_ITEM_SNIPER_RIFLE",
 			"factory": "[assembly:/_pro/design/gamecore/keywords/keyworditems.template?/keyword_item_sniper_rifle.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/design/gamecore/keywords/keyworditems.template?/keyword_item_sniper_rifle.entitytemplate].pc_entityblueprint"
-		},
-		"feed975d164cc921": {
-			"parent": "feed9a363b653847",
-			"name": "DONT_USE_ON_LEVEL_ItemKey__Pistol_ ICA 19 Wolverine",
-			"factory": "[modules:/zitemrepositorykeyentity.class].pc_entitytype",
-			"blueprint": "[modules:/zitemrepositorykeyentity.class].pc_entityblueprint",
-			"properties": {
-				"m_RepositoryId": {
-					"type": "ZGuid",
-					"value": "c716ebb8-cc0e-4e60-9335-844a0d7e645d"
-				}
-			}
 		},
 		"feed1b1fd0043bdb": {
 			"parent": "feed9a363b653847",
@@ -464,16 +426,14 @@
 				"m_AvailableWeaponKeys": {
 					"type": "TArray<SEntityTemplateReference>",
 					"value": [
-						"feed84a7525336f2",
-						"feed1b0f7acc4fb0",
-						"feed2df2643bc53e"
+						"feedad5b555493d9"
 					],
 					"postInit": true
 				},
 				"m_aWeaponsAllowedExceptionKeywords": {
 					"type": "TArray<SEntityTemplateReference>",
 					"value": [
-						"feed9c92b7f3249f"
+
 					],
 					"postInit": true
 				}
@@ -491,18 +451,6 @@
 				}
 			}
 		},
-		"feed1b0f7acc4fb0": {
-			"parent": "feed1716b47f01ca",
-			"name": "ItemKey_ICA Tactical Shotgun _Wolverine_NPC",
-			"factory": "[modules:/zitemrepositorykeyentity.class].pc_entitytype",
-			"blueprint": "[modules:/zitemrepositorykeyentity.class].pc_entityblueprint",
-			"properties": {
-				"m_RepositoryId": {
-					"type": "ZGuid",
-					"value": "4e92b3c5-3358-44aa-8a87-f7f349f46f44"
-				}
-			}
-		},
 		"feed43e52dcbbc69": {
 			"parent": "feed1716b47f01ca",
 			"name": "Keyword_Prof_Class_Guard_Heavy",
@@ -515,18 +463,6 @@
 						"feed1716b47f01ca"
 					],
 					"postInit": true
-				}
-			}
-		},
-		"feed2df2643bc53e": {
-			"parent": "feed1716b47f01ca",
-			"name": "ItemKey__S3_ _SMG_ RAPTOR ICA Standard Wolverine",
-			"factory": "[modules:/zitemrepositorykeyentity.class].pc_entitytype",
-			"blueprint": "[modules:/zitemrepositorykeyentity.class].pc_entityblueprint",
-			"properties": {
-				"m_RepositoryId": {
-					"type": "ZGuid",
-					"value": "a494c3c8-9a41-4398-9542-559e6a5dc1cb"
 				}
 			}
 		},
@@ -553,24 +489,6 @@
 					"value": [
 						"feed1716b47f01ca"
 					]
-				}
-			}
-		},
-		"feed9c92b7f3249f": {
-			"parent": "feed1716b47f01ca",
-			"name": "Keyword_ITEM_SNIPER_RIFLE",
-			"factory": "[assembly:/_pro/design/gamecore/keywords/keyworditems.template?/keyword_item_sniper_rifle.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/design/gamecore/keywords/keyworditems.template?/keyword_item_sniper_rifle.entitytemplate].pc_entityblueprint"
-		},
-		"feed84a7525336f2": {
-			"parent": "feed1716b47f01ca",
-			"name": "DONT_USE_ON_LEVEL_ItemKey__Pistol_ ICA 19 Wolverine",
-			"factory": "[modules:/zitemrepositorykeyentity.class].pc_entitytype",
-			"blueprint": "[modules:/zitemrepositorykeyentity.class].pc_entityblueprint",
-			"properties": {
-				"m_RepositoryId": {
-					"type": "ZGuid",
-					"value": "c716ebb8-cc0e-4e60-9335-844a0d7e645d"
 				}
 			}
 		},
@@ -630,8 +548,8 @@
 				"m_AvailableWeaponKeys": {
 					"type": "TArray<SEntityTemplateReference>",
 					"value": [
-						"feed0166abe6b945",
-						"feed9f9b25259b12"
+						"feed9f9b25259b12",
+						"feed2009a1c2759f"
 					]
 				},
 				"m_bHeroDisguiseAvailable": {
@@ -720,18 +638,6 @@
 			},
 			"factory": "[assembly:/_pro/design/gamecore/keywords/keywordsound.template?/keywordentity_foley_outfit_guard.entitytemplate].pc_entitytype"
 		},
-		"feed0166abe6b945": {
-			"parent": "feed68ccada2c6e8",
-			"name": "ItemKey_Hackl9R NPC",
-			"factory": "[modules:/zitemrepositorykeyentity.class].pc_entitytype",
-			"blueprint": "[modules:/zitemrepositorykeyentity.class].pc_entityblueprint",
-			"properties": {
-				"m_RepositoryId": {
-					"type": "ZGuid",
-					"value": "1cae7d71-55c8-401a-9dfb-cd0909c4f6ee"
-				}
-			}
-		},
 		"feed9f9b25259b12": {
 			"parent": "feed68ccada2c6e8",
 			"name": "ItemKey_Shotgun02 NPC Bartoli 12G",
@@ -744,15 +650,39 @@
 				}
 			}
 		},
-		"feedb020a87c9722": {
-			"parent": "feed68ccada2c6e8",
-			"name": "ItemKey_Institute Guitar Case",
+		"feedb23edd6150cd": {
+			"parent": "feed9a363b653847",
+			"name": "ItemKey__AR_ _NPC_ Fusil G1_4_C",
 			"factory": "[modules:/zitemrepositorykeyentity.class].pc_entitytype",
 			"blueprint": "[modules:/zitemrepositorykeyentity.class].pc_entityblueprint",
 			"properties": {
 				"m_RepositoryId": {
 					"type": "ZGuid",
-					"value": "e1e09633-4efb-41ee-9102-87c330d281f3"
+					"value": "6b93848c-8f1d-42eb-816f-bab61b56d8a5"
+				}
+			}
+		},
+		"feedad5b555493d9": {
+			"parent": "feed1716b47f01ca",
+			"name": "ItemKey__Pistol__NPC_ Bartoli 75R",
+			"factory": "[modules:/zitemrepositorykeyentity.class].pc_entitytype",
+			"blueprint": "[modules:/zitemrepositorykeyentity.class].pc_entityblueprint",
+			"properties": {
+				"m_RepositoryId": {
+					"type": "ZGuid",
+					"value": "55ed7196-2303-4af6-9fa3-45b691134561"
+				}
+			}
+		},
+		"feed2009a1c2759f": {
+			"parent": "feed68ccada2c6e8",
+			"name": "ItemKey__Pistol__NPC_ Bartoli 75R",
+			"factory": "[modules:/zitemrepositorykeyentity.class].pc_entitytype",
+			"blueprint": "[modules:/zitemrepositorykeyentity.class].pc_entityblueprint",
+			"properties": {
+				"m_RepositoryId": {
+					"type": "ZGuid",
+					"value": "55ed7196-2303-4af6-9fa3-45b691134561"
 				}
 			}
 		}
