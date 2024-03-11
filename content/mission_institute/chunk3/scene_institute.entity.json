@@ -1267,10 +1267,6 @@
 					"type": "int32",
 					"value": 0
 				},
-				"m_nWeaponIndex": {
-					"type": "int32",
-					"value": 0
-				},
 				"m_sActorName": {
 					"type": "ZString",
 					"value": "Subject 47"
@@ -3016,7 +3012,7 @@
 				},
 				"m_fActTimeout": {
 					"type": "float32",
-					"value": 5
+					"value": 3
 				},
 				"m_pActor": {
 					"type": "SEntityTemplateReference",
