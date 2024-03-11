@@ -232,6 +232,34 @@
 		"ioiString": "[assembly:/sonsofprovidence/objects/party_balloons.entity].pc_entityblueprint"
 	},
 	{
+		"hash": "00BEFF3C4226FC2C",
+		"ioiString": "[assembly:/sonsofprovidence/objects/institute_guitar_case.prim].pc_prim"
+	},
+	{
+		"hash": "0020886BF7DFF302",
+		"ioiString": "[assembly:/sonsofprovidence/objects/institute_guitar_case.entity].pc_entitytype"
+	},
+	{
+		"hash": "00A2CF451920E568",
+		"ioiString": "[assembly:/sonsofprovidence/objects/institute_guitar_case.entity].pc_entityblueprint"
+	},
+	{
+		"hash": "008360AF26543441",
+		"ioiString": "[assembly:/sonsofprovidence/objects/itemart_suitcase_guitar_case.entity].pc_entitytype"
+	},
+	{
+		"hash": "001C60535F951B96",
+		"ioiString": "[assembly:/sonsofprovidence/objects/itemart_suitcase_guitar_case.entity].pc_entityblueprint"
+	},
+	{
+		"hash": "00984C321B0892EE",
+		"ioiString": "[assembly:/sonsofprovidence/objects/container_suitcase_base_extended.entity].pc_entitytype"
+	},
+	{
+		"hash": "0010B84701C7474F",
+		"ioiString": "[assembly:/sonsofprovidence/objects/container_suitcase_base_extended.entity].pc_entityblueprint"
+	},
+	{
 		"hash": "00E1F885EC425545",
 		"ioiString": "[assembly:/sonsofprovidence/objects/sapienza_church.entity].pc_entitytype"
 	},
@@ -308,8 +336,24 @@
 		"ioiString": "(planning_contract) sonsofprovidence bank (h3)"
 	},
 	{
-		"hash": "002DDBAAF0E0B62C",
-		"ioiString": "Act_MR_HeadOfSecurity_AimPistol_Dianna"
+		"hash": "00DE25F67F938369",
+		"ioiString": "hudicon (container) institute guitar case"
+	},
+	{
+		"hash": "006D2E34B48F98DF",
+		"ioiString": "itemart_archetype_suitcase_default (template)"
+	},
+	{
+		"hash": "004E2DC565834679",
+		"ioiString": "itemart_archetype_suitcase_default (blueprint)"
+	},
+	{
+		"hash": "00CCC031E07719EC",
+		"ioiString": "2h_large_root_medium_guitar_case (template)"
+	},
+	{
+		"hash": "007D3E1640E4F80A",
+		"ioiString": "2h_large_root_medium_guitar_case (blueprint)"
 	},
 	{
 		"hash": "005565E11B9913E7",
@@ -326,6 +370,54 @@
 	{
 		"hash": "00D6366F5F266F1E",
 		"ioiString": "[assembly:/sonsofprovidence/outfits_institute.brick].pc_entityblueprint"
+	},
+	{
+		"hash": "00D1C25BA934D68F",
+		"ioiString": "[assembly:/sonsofprovidence/institute/outfit_institute_guard_providenceguardelite_m.entitytemplate].pc_entitytype"
+	},
+	{
+		"hash": "00BA351E06815433",
+		"ioiString": "[assembly:/sonsofprovidence/institute/outfit_institute_guard_providenceguardelite_m.entitytemplate].pc_entityblueprint"
+	},
+	{
+		"hash": "00A89EA621807545",
+		"ioiString": "[assembly:/sonsofprovidence/institute/charset_institute_guard_providenceguardelite_m.entitytemplate].pc_entitytype"
+	},
+	{
+		"hash": "00F3CAB8F4916063",
+		"ioiString": "[assembly:/sonsofprovidence/institute/charset_institute_guard_providenceguardelite_m.entitytemplate].pc_entityblueprint"
+	},
+	{
+		"hash": "0024872CC3FC93AD",
+		"ioiString": "[assembly:/sonsofprovidence/institute/charset_subject.entitytemplate].pc_entitytype"
+	},
+	{
+		"hash": "001B63B0B53F90AE",
+		"ioiString": "[assembly:/sonsofprovidence/institute/charset_subject.entitytemplate].pc_entityblueprint"
+	},
+	{
+		"hash": "0007570A9DCB7D91",
+		"ioiString": "[assembly:/sonsofprovidence/institute/outfit_subject_actor_v0.entitytemplate].pc_entitytype"
+	},
+	{
+		"hash": "00F80EF0023D746C",
+		"ioiString": "[assembly:/sonsofprovidence/institute/outfit_subject_actor_v0.entitytemplate].pc_entityblueprint"
+	},
+	{
+		"hash": "001FE063A4CF11CE",
+		"ioiString": "[assembly:/sonsofprovidence/institute/charset_worker.entitytemplate].pc_entitytype"
+	},
+	{
+		"hash": "00EF7886FCF6702C",
+		"ioiString": "[assembly:/sonsofprovidence/institute/charset_worker.entitytemplate].pc_entityblueprint"
+	},
+	{
+		"hash": "00E3B0BBB613136D",
+		"ioiString": "[assembly:/sonsofprovidence/institute/outfit_worker_actor_v0.entitytemplate].pc_entitytype"
+	},
+	{
+		"hash": "00A1EEFA5CD27653",
+		"ioiString": "[assembly:/sonsofprovidence/institute/outfit_worker_actor_v0.entitytemplate].pc_entityblueprint"
 	},
 	{
 		"hash": "00D023CAEBCDCC63",

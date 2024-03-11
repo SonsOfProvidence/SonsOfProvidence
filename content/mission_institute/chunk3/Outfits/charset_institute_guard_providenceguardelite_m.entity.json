@@ -1,0 +1,130 @@
+{
+	"tempHash": "00A89EA621807545",
+	"tbluHash": "00F3CAB8F4916063",
+	"rootEntity": "ca38e2b8df44c3fe",
+	"entities": {
+		"5816f847f644cbcd": {
+			"parent": "ca38e2b8df44c3fe",
+			"name": "Actor",
+			"factory": "[modules:/zcharsetcharactertype.class].pc_entitytype",
+			"blueprint": "[modules:/zcharsetcharactertype.class].pc_entityblueprint",
+			"properties": {
+				"m_aVariations": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						"ab24a50d672de838"
+					],
+					"postInit": true
+				}
+			}
+		},
+		"ab24a50d672de838": {
+			"parent": "5816f847f644cbcd",
+			"name": "0",
+			"factory": "[modules:/zoutfitvariation.class].pc_entitytype",
+			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint",
+			"properties": {
+				"m_Outfit": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/sonsofprovidence/institute/outfit_institute_guard_providenceguardelite_m.entitytemplate].pc_entitytype",
+						"flag": "9F"
+					}
+				}
+			}
+		},
+		"ddec58a305ca6a03": {
+			"parent": "27c063a1df505a1c",
+			"name": "Var0",
+			"factory": "[modules:/zoutfitvariation.class].pc_entitytype",
+			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint",
+			"properties": {
+				"m_Outfit": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/characters/templates/wolverine/char_wolverine_guards.template?/outfit_wolverine_guard_providenceguardelite_m_nude_v0.entitytemplate].pc_entitytemplate",
+						"flag": "9F"
+					}
+				}
+			}
+		},
+		"27c063a1df505a1c": {
+			"parent": "ca38e2b8df44c3fe",
+			"name": "Nude",
+			"factory": "[modules:/zcharsetcharactertype.class].pc_entitytype",
+			"blueprint": "[modules:/zcharsetcharactertype.class].pc_entityblueprint",
+			"properties": {
+				"m_aVariations": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						"ddec58a305ca6a03"
+					],
+					"postInit": true
+				}
+			}
+		},
+		"6c2850a8f5c3401d": {
+			"parent": "ca38e2b8df44c3fe",
+			"name": "HeroA",
+			"factory": "[modules:/zcharsetcharactertype.class].pc_entitytype",
+			"blueprint": "[modules:/zcharsetcharactertype.class].pc_entityblueprint",
+			"properties": {
+				"m_aVariations": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						"feed6982f758b0d9"
+					],
+					"postInit": true
+				}
+			}
+		},
+		"ca38e2b8df44c3fe": {
+			"parent": null,
+			"name": "CHARSET_Institute_Guard_ProvidenceGuardElite_M",
+			"factory": "004470A9E6A7722D",
+			"blueprint": "00E21A11EC782D9E",
+			"properties": {
+				"m_aCharacters": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						"5816f847f644cbcd",
+						"27c063a1df505a1c",
+						"6c2850a8f5c3401d"
+					]
+				}
+			}
+		},
+		"feed6982f758b0d9": {
+			"parent": "6c2850a8f5c3401d",
+			"name": "Var0",
+			"factory": "[modules:/zoutfitvariation.class].pc_entitytype",
+			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint"
+		}
+	},
+	"propertyOverrides": [
+
+	],
+	"overrideDeletes": [
+
+	],
+	"pinConnectionOverrides": [
+
+	],
+	"pinConnectionOverrideDeletes": [
+
+	],
+	"externalScenes": [
+
+	],
+	"subType": "template",
+	"quickEntityVersion": 3.1,
+	"extraFactoryDependencies": [
+
+	],
+	"extraBlueprintDependencies": [
+
+	],
+	"comments": [
+
+	]
+}
