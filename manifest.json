@@ -19,17 +19,17 @@
 				{
 					"runtimeID": "00ED2A2D1873BCAA",
 					"comment": "outfit_wolverine_guard_providenceguardelite_m_actor_v0",
-					"toChunk": 3
+					"toChunk": 29
 				},
 				{
 					"runtimeID": "004C06BE00B43E75",
 					"comment": "act_mr_stand_carrysuitcase_pickup_000cm",
-					"toChunk": 3
+					"toChunk": 29
 				},
 				{
 					"runtimeID": "00316579AAD3F1F4",
 					"comment": "act_mr_stand_carrysuitcase_putdown_000cm",
-					"toChunk": 3
+					"toChunk": 29
 				},
 				{
 					"runtimeID": "00D4793ABC63AA52",
@@ -4240,12 +4240,12 @@
 		},
 		{
 			"type": "entity",
-			"partition": "ancestral",
+			"partition": "snug",
 			"path": "[assembly:/sonsofprovidence/scene_institute.entity].entitytemplate"
 		},
 		{
 			"type": "entity",
-			"partition": "ancestral",
+			"partition": "snug",
 			"path": "[assembly:/sonsofprovidence/outfits_institute.entity].entitytype"
 		},
 		{
@@ -4325,8 +4325,8 @@
 			"UI_STORY": "Story",
 			"UI_CHONGQING_DESC": "I am at Ether headquarters to take the memory wiping antidote and deal them a blow.",
 			"UI_CHONGQING_TITLE": "A Desperate Play",
-			"UI_DARTMOOR_DESC": "47 and I have returned to the Institute for Human Betterment and are executing our pact to take them all down.",
-			"UI_DARTMOOR_TITLE": "Assault on the Institute",
+			"UI_INSTITUTE_DESC": "47 and I have returned to the Institute for Human Betterment and are executing our pact to take them all down.",
+			"UI_INSTITUTE_TITLE": "Assault on the Institute",
 			"UI_DUBAI_DESC": "I've learned that Eugene Cobb is a member of Providence. It's time to begin taking them all down, starting with Eugene Cobb, who holds one of two keys needed to open the Providence archive.",
 			"UI_DUBAI_TITLE": "Grey's Revenge Begins",
 			"UI_DUBAI_TARGET_BRIEFING": "Eugene Cobb",
@@ -4361,8 +4361,8 @@
 			"ui_prop_container_guitar_case_desc": "This custom made Institute Guitar Case can hold a Shotgun",
 			"ui_starting_location_chongqing_ether_lab_default_name": "Top floor of Ether Headquarters",
 			"ui_starting_location_chongqing_ether_lab_desc": "I have made my way to the top floor of Ether Headquarters",
-			"ui_starting_location_dartmoor_institute_default_name": "The Institute for Human Betterment",
-			"ui_starting_location_dartmoor_institute_desc": "47 and I have returned to the Institute for Human Betterment after our last mission, and have made our way to the outer gate.",
+			"ui_starting_location_institute_default_name": "The Institute for Human Betterment",
+			"ui_starting_location_institute_desc": "47 and I have returned to the Institute for Human Betterment after our last mission, and have made our way to the outer gate.",
 			"ui_starting_location_siberia_moscow_default_name": "FSB Headquarters, Moscow, Russia",
 			"ui_starting_location_siberia_moscow_desc": "I have infiltrated the perimeter of the FSB Headquarters in Moscow.",
 			"ui_starting_location_dubai_airplane_default_name": "Eugene Cobb's private jet, Pacific Ocean",
