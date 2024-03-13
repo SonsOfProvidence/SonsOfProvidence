@@ -3371,6 +3371,22 @@
 		{
 			"ref": "eee44fc22bd15a36",
 			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "cfa08a029e8fc2c4",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "d312694eaedc711c",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "7cebe36f11bb3128",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "e386f95a4b727618",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
 		}
 	],
 	"pinConnectionOverrides": [
