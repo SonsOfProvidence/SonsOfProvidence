@@ -3351,7 +3351,6 @@
 	"externalScenes": [
 		"[assembly:/sonsofprovidence/outfits_institute.brick].pc_entitytype",
 		"[assembly:/_pro/scenes/bricks/evergreen_setup.brick].pc_entitytype",
-		"[assembly:/_pro/scenes/missions/snug/tod_vanilla_day.brick].pc_entitytype",
 		"[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
 	],
 	"subType": "scene",
