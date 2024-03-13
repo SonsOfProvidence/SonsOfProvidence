@@ -470,12 +470,12 @@
 						"rotation": {
 							"x": 0,
 							"y": 0,
-							"z": -146.15692310554172
+							"z": 79.42186997082598
 						},
 						"position": {
-							"x": 50.1672,
-							"y": -211.6313,
-							"z": -5.234507
+							"x": 71.62526,
+							"y": -163.55855,
+							"z": -10.824762
 						}
 					}
 				},
@@ -525,12 +525,12 @@
 						"rotation": {
 							"x": 0,
 							"y": 0,
-							"z": 0
+							"z": -109.35378064981617
 						},
 						"position": {
-							"x": -1.4,
-							"y": 0,
-							"z": 4.0105443
+							"x": 56.667686,
+							"y": -168.43335,
+							"z": -10.921892
 						}
 					}
 				},
@@ -1042,12 +1042,12 @@
 						"rotation": {
 							"x": 0,
 							"y": 0,
-							"z": -92.52379155374373
+							"z": -169.89030050896196
 						},
 						"position": {
-							"x": -6.1368685,
-							"y": 9.961857,
-							"z": 4.010544
+							"x": 50.872726,
+							"y": -173.51793,
+							"z": -10.91049
 						}
 					}
 				},
@@ -1251,12 +1251,12 @@
 						"rotation": {
 							"x": 0,
 							"y": 0,
-							"z": 172.7130674287665
+							"z": 69.614415001983
 						},
 						"position": {
-							"x": 1.2448163,
-							"y": -9.678167,
-							"z": 4
+							"x": 70.50396,
+							"y": -162.26291,
+							"z": -10.882508
 						}
 					}
 				},
@@ -1839,12 +1839,12 @@
 						"rotation": {
 							"x": 0,
 							"y": 0,
-							"z": 86.1074776964879
+							"z": -17.634706616157718
 						},
 						"position": {
-							"x": 1.9078019,
-							"y": 45.065266,
-							"z": 4.0178733
+							"x": 38.76983,
+							"y": -174.75366,
+							"z": -10.99887
 						}
 					}
 				},
@@ -2327,12 +2327,12 @@
 						"rotation": {
 							"x": 0,
 							"y": 0,
-							"z": -91.47832864843572
+							"z": 156.65816136951793
 						},
 						"position": {
-							"x": -1.414801,
-							"y": 45.22553,
-							"z": 4.017874
+							"x": 38.817646,
+							"y": -177.2806,
+							"z": -10.998635
 						}
 					}
 				},
@@ -2673,12 +2673,12 @@
 						"rotation": {
 							"x": 0,
 							"y": 0,
-							"z": 4.2140307768460525
+							"z": -111.07099265999493
 						},
 						"position": {
-							"x": 1.4,
-							"y": 0,
-							"z": 4.0000024
+							"x": 55.79851,
+							"y": -166.23587,
+							"z": -10.81612
 						}
 					}
 				},
@@ -2740,12 +2740,12 @@
 						"rotation": {
 							"x": 0,
 							"y": 0,
-							"z": 84.08124060750109
+							"z": -7.7345420746155815
 						},
 						"position": {
-							"x": -4.5382247,
-							"y": 10.013534,
-							"z": 4.010544
+							"x": 50.241882,
+							"y": -170.45,
+							"z": -10.899521
 						}
 					}
 				},
@@ -2807,12 +2807,12 @@
 						"rotation": {
 							"x": 0,
 							"y": 0,
-							"z": -164.78618210448147
+							"z": 118.21706441874244
 						},
 						"position": {
-							"x": -1.5423632,
-							"y": 41.374477,
-							"z": 4.0000024
+							"x": 43.444397,
+							"y": -177.26215,
+							"z": -10.960872
 						}
 					}
 				},
@@ -2874,12 +2874,12 @@
 						"rotation": {
 							"x": 0,
 							"y": 0,
-							"z": 156.17517137254964
+							"z": 50.912892601624534
 						},
 						"position": {
-							"x": 2.5450175,
-							"y": 41.123848,
-							"z": 4.0000024
+							"x": 43.397007,
+							"y": -174.79477,
+							"z": -10.959595
 						}
 					}
 				},
@@ -3340,7 +3340,38 @@
 		}
 	],
 	"overrideDeletes": [
-
+		{
+			"ref": "504baf7c60254048",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "056d075064013ace",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "2d8ea6402d2d270a",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "857f39d10d9061d0",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "15f1974fee4c5fd7",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "4374d77a9e3565ee",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "d759f80661ae773f",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "eee44fc22bd15a36",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		}
 	],
 	"pinConnectionOverrides": [
 
