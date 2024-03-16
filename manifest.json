@@ -35,6 +35,96 @@
 					"runtimeID": "00D4793ABC63AA52",
 					"comment": "[assembly:/_pro/environment/geometry/props/leisure/guitar_case_a.wl2?/guitar_case_a_00.prim].pc_entitytype",
 					"toChunk": 0
+				},
+				{
+					"runtimeID": "00019CA4A5F1347E",
+					"comment": "[assembly:/_pro/environment/templates/kits/castle/mansion_a_prefab.template?/side_front_f.entitytemplate].pc_entitytype",
+					"toChunk": 29
+				},
+				{
+					"runtimeID": "008BB864EA693242",
+					"comment": "[assembly:/runtimeresources/vertexpaint/_pro/scenes/missions/ancestral/scenario_bulldog/side_front_f_28df2c69d91c4d3fa7ff74e38059b687.vertexdata].pc_vertexdata",
+					"toChunk": 29
+				},
+				{
+					"runtimeID": "0003E8B5463548CB",
+					"comment": "[assembly:/_pro/environment/templates/kits/castle/mansion_a.template?/a_ext_handrail_050x1_blank_a.entitytemplate].pc_entitytype",
+					"toChunk": 29
+				},
+				{
+					"runtimeID": "001D91FB4898F7AF",
+					"comment": "[assembly:/_pro/environment/templates/kits/castle/mansion_a.template?/a_ext_handrail_1x1_blank_a.entitytemplate].pc_entitytype",
+					"toChunk": 29
+				},
+				{
+					"runtimeID": "00B24AF90A842D2E",
+					"comment": "[assembly:/_pro/environment/templates/kits/castle/mansion_a.template?/a_ext_handrail_2x1_stairs_a.entitytemplate].pc_entitytype",
+					"toChunk": 29
+				},
+				{
+					"runtimeID": "000440A25593BAFF",
+					"comment": "[assembly:/_pro/environment/templates/kits/castle/mansion_a.template?/a_ext_stairs_2x1_blank_a.entitytemplate].pc_entitytype",
+					"toChunk": 29
+				},
+				{
+					"runtimeID": "00880B2FABD3455B",
+					"comment": "[assembly:/_pro/environment/templates/kits/castle/mansion_a_prefab.template?/side_right_g.entitytemplate].pc_entitytype",
+					"toChunk": 29
+				},
+				{
+					"runtimeID": "0033295AAB218798",
+					"comment": "[assembly:/runtimeresources/vertexpaint/_pro/scenes/missions/ancestral/scenario_bulldog/side_right_g_062bd954d53d4e5a8a47f1a3bdd70f4f.vertexdata].pc_vertexdata",
+					"toChunk": 29
+				},
+				{
+					"runtimeID": "00C15C1C31798896",
+					"comment": "[assembly:/_pro/environment/templates/kits/castle/mansion_a_prefab.template?/mansion_exterior_a_tiles_b.entitytemplate].pc_entitytype",
+					"toChunk": 29
+				},
+				{
+					"runtimeID": "009158A7B807AF9B",
+					"comment": "[assembly:/runtimeresources/vertexpaint/_pro/scenes/missions/ancestral/scenario_bulldog/mansion_exterior_a_tiles_b_aca9b72894434e9ba10776063163447c.vertexdata].pc_vertexdata",
+					"toChunk": 29
+				},
+				{
+					"runtimeID": "0007AB5FE8282BCF",
+					"comment": "[assembly:/_pro/environment/templates/kits/castle/mansion_a_prefab.template?/side_front_d.entitytemplate].pc_entitytype",
+					"toChunk": 29
+				},
+				{
+					"runtimeID": "00CECC59F4859EAD",
+					"comment": "[assembly:/runtimeresources/vertexpaint/_pro/scenes/missions/ancestral/scenario_bulldog/side_front_d_1c681668f27945b984df30b4938f614d.vertexdata].pc_vertexdata",
+					"toChunk": 29
+				},
+				{
+					"runtimeID": "001AF3FA82C01C95",
+					"comment": "[assembly:/_pro/environment/templates/kits/castle/mansion_a.template?/a_ext_floor_1x1_blank_a.entitytemplate].pc_entitytype",
+					"toChunk": 29
+				},
+				{
+					"runtimeID": "00A3127D1D3BC939",
+					"comment": "[unknown:/*/concrete_bare_b.mi].pc_mi",
+					"toChunk": 29
+				},
+				{
+					"runtimeID": "00149C25A0D2C7C1",
+					"comment": "[assembly:/_pro/environment/templates/kits/castle/mansion_a_prefab.template?/side_left_i.entitytemplate].pc_entitytype",
+					"toChunk": 29
+				},
+				{
+					"runtimeID": "008F68C17D3B4759",
+					"comment": "[assembly:/runtimeresources/vertexpaint/_pro/scenes/missions/ancestral/scenario_bulldog/side_left_i_cd8074cf4ecd4dedb70f4aacecd0a57b.vertexdata].pc_vertexdata",
+					"toChunk": 29
+				},
+				{
+					"runtimeID": "007369DD5F6F7A5A",
+					"comment": "[assembly:/_pro/environment/templates/kits/castle/mansion_a_prefab.template?/mansion_exterior_b.entitytemplate].pc_entitytype",
+					"toChunk": 29
+				},
+				{
+					"runtimeID": "009797768F2355C8",
+					"comment": "[assembly:/runtimeresources/vertexpaint/_pro/scenes/missions/ancestral/scenario_bulldog/mansion_exterior_b_1893fbe3e87d410fa8cc586316c03538.vertexdata].pc_vertexdata",
+					"toChunk": 29
 				}
 			]
 		},
