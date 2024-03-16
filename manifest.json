@@ -4083,12 +4083,6 @@
 			"toChunk": 4
 		},
 		{
-			"runtimeID": "0037FB3CDE0CF25E",
-			"comment": "setpiece_italy_unique_destructible_wall_a",
-			"portFromChunk1": true,
-			"toChunk": 3
-		},
-		{
 			"runtimeID": "0022AFDA627C0EDF",
 			"comment": "setpiece_italy_unique_virussecuritycabinet",
 			"portFromChunk1": true,
