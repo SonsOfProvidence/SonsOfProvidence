@@ -1613,12 +1613,12 @@
 						"rotation": {
 							"x": 0,
 							"y": 0,
-							"z": 172.7130674287665
+							"z": 154.19656119264533
 						},
 						"position": {
-							"x": 1.2448163,
-							"y": -9.678167,
-							"z": 4
+							"x": 70.50396,
+							"y": -162.26291,
+							"z": -10.8877735
 						}
 					}
 				},
@@ -3386,6 +3386,1350 @@
 		},
 		{
 			"ref": "e386f95a4b727618",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "596d76c6cfaa6a39",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "014a6b4d623ce78f",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "a8f864adce8fe5ce",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "81ae4493d224177f",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "51437e7d04d9dbc6",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "444bf1f633970df3",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "76e1c538b3a9d367",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "2ca0b31495999265",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "5ece6e09ecca09e5",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "fad65c2a507b10bb",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "d65e66bcaa56b176",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "6b7e114fbb54dcdb",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "1123b6486a141d10",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "46b4e9b5235c2d62",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "a83e53e8ad493a8d",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "e43ff76dc5d7b3c5",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "d624716bd422a780",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "aa9592bb0b50dbe8",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "474ee0ac196d431b",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "411268f6714f4627",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "73509d3cc0911768",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "1115986afe382656",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "f36183f5d0165072",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "bd927b5e0d1cbed5",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "64bce269495732fb",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "cd082b9231494273",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "4e8f3d61d4cf3dd2",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "4375b6869e383716",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "c85e37689bf623a9",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "3dca4bcfd81d9e95",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "fbb1918c0d6b1593",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "69a8acd9ccf4c7b4",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "7927cb98a9fda09d",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "3ab940e06edf57d8",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "f49cd62b91850cb4",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "f5d9121438660c4d",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "cc638635799b0962",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "2d0245ba5203ee7e",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "4cee18a0916240ab",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "b4f055b1e645e632",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "14a059760f716f94",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "a552499e838f8097",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "4b3b5ffd957d572a",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "cf95741832318dd1",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "828800858ae6b0bf",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "77e7f33abf05a6b8",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "f586619fde0fcd7b",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "8c662da69c142cef",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "e0e1abc2acf1146a",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "e1c8235a92fc6704",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "1942c11e366f19e2",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "8b8d72288cadbfdf",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "25e5bc68db39ae26",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "d57ac9a1a7ba9fae",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "1956266f567214b7",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "242e0162b42b6a45",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "21584568777fb3a6",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "1ba059de03f9810c",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "11d1aded3c189834",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "c6a40b3796336558",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "c6a40b3796336558",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "a890d3c5d1f91e52",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "08ff0e0c6c9bef2e",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "e08d801f8dff1275",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "9a95b7abe186207c",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "ede92a4831639c10",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "e9ec03daacbe4488",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "cb24fe26153f5c8a",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "3bdb384456a7fff6",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "4776005de3e710b0",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "1a929bc8a665d562",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "fc25f96b0f897c9b",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "4c396cfa5416d66d",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "8551b2fa02707aff",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "a0e466dbd320f1f9",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "5484fdef1dd2ee01",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "65bc8265090f38c3",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "8c702692d3957f9b",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "fe34ef209e8aa079",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "e15d1d2ce206785f",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "1f3d69631ce667ff",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "0673f4006d6e6038",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "9a9f9b69428d0631",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "599c8abc0e8bc2a0",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "77fb7b86fd538094",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "90298ac569cf7fb7",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "35b8536404585690",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "3c8178123b9b9524",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "a39f180af6b5a9dd",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "1286a9c40e9cc878",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "0a4c54d531718a65",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "210caae0c7bfd42e",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "621c84765ebdc440",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "9011ba3ff52251ce",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "fd8d71e608936369",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "ff828bdc758c1756",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "05e28f57a71cb6e2",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "a1f89a996c9f5ee0",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "3c9b7edf931420d9",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "1d86e7c636a147c3",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "f33b9aa1ecfe625b",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "c560584820e69dcd",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "3e3add866ef135c8",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "07cbfa55065e3b6a",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "3901c8604eae2569",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "0869deca7b7ff580",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "29c35e5ecd2ec49f",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "7d5952196cc929df",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "9dd32e89544bc67a",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "6103919633e85272",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "162c1ecc8f1dd48f",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "6886df440adb8c89",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "0d4528c266a5b2c8",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "0ea88ca846bae00a",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "ca591781f08d80ff",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "83450dcf4a45990c",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "3a5f2eba01fc9ad0",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "3a5f2eba01fc9ad0",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "eb61b21cb668f5a7",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "a2423b91b3878bac",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "c432e08862ff7065",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "51a43e4bec2e1cde",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "5ce85469229aaf33",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "6c5fb623bd7c2274",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "652bd6137860e387",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "5d624ea954b64061",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "5731f2790a7dc2c1",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "ba53e0a245547aa3",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "55daaee817bfa9ff",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "bfe3525058d26561",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "260bcd9a6c19d2e7",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "e3f414fd768b6c21",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "417e8bbd27f430f7",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "5a00310d73fe8fee",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "ccd9ac760fa366ab",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "4ce1bbe8e777e0e8",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "f9702bd6dfcebf6c",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "eb12af192ffef353",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "c9905c48dbc32cc7",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "9fb631375aa45e51",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "7be3e4228ab147b4",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "56f125f49257e451",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "04b0f4bdbd667928",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "5acc27d42f0f0bd0",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "75fa1c527d50cb10",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "3720ca71d53e4c20",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "9240d3eaa2e0cba0",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "a2ffaf2cd00cfc89",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "88667c273db5fc17",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "253e90f2f4f32d55",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "61e53f6dd34dbe45",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "729ea2384c667adf",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "b57abbc032c7f822",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "d9b299a1f4d543a4",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "4afe9c9956ebd759",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "fc839fd8c8c6e288",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "7b6c5d002f226e60",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "4b2df15827ad12b1",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "8209ce8225317d79",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "163c6382d4de25ed",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "8016580a10abf45c",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "051e6642fe4deae1",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "da8ef0cfd063c2b0",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "b7e2bb1ef98a0a0e",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "a0be66c8bc3b9c0a",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "48426c43bb24ba41",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "0e1612e90296481c",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "f81f49a683e126f8",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "5e36a55d29f804c6",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "92c4099048b44e38",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "2ae9f326e5e29e3a",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "a25597ef85101f4d",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "00ecd16a88b164cd",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "f3fec0da21fea08e",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "e5698cd6424f5f0b",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "42e249bb9bf9e733",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "14d8df8c25dbde61",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "c2b08ff32a152bd1",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "ad41395de48df36b",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "680093588f514cb7",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "092e96b1b280ec8b",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "e73987db3578d9ab",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "9c3e9f27cf3b2b50",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "4bc8c22e6655f926",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "6e3cead5e85c298d",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "1f1a87f027208b31",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "b0e117bbe231778b",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "0ab76f39b3847232",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "4d9edfc8309a997a",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "02f6192cdf5f0e62",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "4322c35944f06125",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "0ea89f65f1440d94",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "284810ad0a10f931",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "d80feda0ec816857",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "07a3ea3db048ede6",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "cca0bb9880ba8936",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "23fe1f52aa370edf",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "4a7639539f1d50bf",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "8925db9fb9221fa6",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "f12b0e1aa138aaa1",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "ce69e7efd435dd0f",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "2c85aeeead50a1af",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "7aa384eefe289a1b",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "c3aec6af9fa37c6d",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "93891ed390a287c5",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "7ee0cc9f9bf811d3",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "131e52f3f4b669da",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "8ee0e9a3e350b8ad",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "b4df39b61c945b4a",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "9209bd94edb428cf",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "3ec5e39461cab3c5",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "8cad95d61cc12946",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "faf1f8b5248fcb29",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "4427ef199c70841a",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "57c068826fc6f876",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "4eb855c14a3a7a7a",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "918b5c45264586b9",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "a96a9219642befcb",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "c52e35b8f45e3bf2",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "eb434030b6f2f8f5",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "9da489684a61b31b",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "95b20b46651a2600",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "b605d4fe4cb5c591",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "51ae9594a20b862f",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "5b7e968284dd1153",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "55c53e33ac9a3042",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "337852c1fbc9619b",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "c8b6d4e8a0210796",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "0e20eebcd7b44fa7",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "2a1a98bf3e20cf35",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "7fdf033fee025d22",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "f4f16d5b0d25d8e5",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "d09ca1fd32a0da7d",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "8c4ec28cf1141e2f",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "7154cb3ae7b3ef29",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "f618f3b9aa7fafa6",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "b19463ceb6b094f3",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "b22baf76166c8b8b",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "e63a08103cbefa9e",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "afd8a8d5d66f2522",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "1c2bd11d403d02b0",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "2fa25067bf9cd537",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "de9b160bb43ea765",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "d4d772749ffc6d8f",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "72bba23d705e5f75",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "cd7fed0d554aa4c8",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "57d081eca31f6cdc",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "40d95700047a590d",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "d2260c1cd7fdc21a",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "98b3626d988f676b",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "e51b5758fcdb4397",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "787c2a26e79ee1f7",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "5c07076a33b70da4",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "363406e533ec8258",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "c0572fe38832346a",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "dc0cbf909dc63811",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "f1d65e2c8bc95ee2",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "6cd0e0469501d3aa",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "76189948419f85b0",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "c052cdd89e5519e6",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "82139b4d8044db26",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "0bbdee2ad3d34956",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "6caf8a3d935dee67",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "b2a5a82d347871ee",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "4498cd683792ca8a",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "6a6c3f9896e4a1d5",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "70d01f35f89738b9",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "73e0a0d9571d091a",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "501aefe9d69ed05e",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "12d0f81beb581b1a",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "3c0deb1d3a478bc0",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "2ae676a1d9de7b30",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "e954b6cf85720d91",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "854949fff1538093",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "17176413df4da2d1",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "e3364ff8fa2cea1b",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "080aba97c701b769",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "56835f286da7b192",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "cedaa1729323ed9f",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "db05d4dd3e38178f",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "89b5b86a7c8cfc16",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "a2cd1d6f4238424e",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "e0a7cab36d80f251",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "1fff55083b8b7985",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "2fa9d46fe83f6e1f",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "1c31f6525aee1cca",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "c460c2d120b16df0",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "cfd4a64f774a3ee4",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "f2315d2fe3dbec54",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "0ab6d1896b9336f8",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "26dd010f3659e405",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "4f1e9916980a5ce6",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "65dd3b77d593dbfa",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "50e472e9b7c4077b",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "1d9898f1ebcaa1a6",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "5042a934adf3824c",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "2113f4468041be04",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "8cbbcd3d08317227",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "ea8eec5bb98a8473",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "10638b0b7ec16f8b",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "e616ec4811080914",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "4b32866b1943f728",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "ed4936a7bfcd0c27",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "acba01b7b9a5810f",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "7f71fc49bfb79882",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "04eb3cd091abbf6f",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "7006b6fd3a24d511",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "34a18f359bf617c8",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "38b6693a440ad4c1",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "87f6eddd44c76c2d",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "15cdae7b225abbc2",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "5d24d68115c6978d",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "a58f5c27f32d0387",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "9a4bf4efb848b098",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "2b27b1468f336e60",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "03ac25c23c3576aa",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "cc15efad5555a51f",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "a62d27cbc957550f",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "a6dacc57c7e0e004",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "6059abf12a358e5a",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "1e90ebd19a97fac3",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "0ea5d2027f13d121",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "fa3e361dbe69b910",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "1b060f5d9392f1ae",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "7d60a9421aa994ad",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "555f4896c44f0d53",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "ab6252454590cce0",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "3829cb815aa97fd6",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "7840f2438335b420",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "ab683d62174b6714",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "b784bc99f8f312b2",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "104e43f693ea72e4",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "96bfcfd22aa106c6",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "114b302613160708",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "6bbc2e1595ac9432",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "45401c803ccf9bbe",
 			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
 		}
 	],
