@@ -4826,6 +4826,12 @@
 					"type": "EActorVoiceVariation",
 					"value": "eAVV_CIVMALECH01"
 				},
+				"m_InventoryItemKeys": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						"feed9ca11739b0ab"
+					]
+				},
 				"m_aEnforcedOutfits": {
 					"type": "TArray<SEntityTemplateReference>",
 					"value": [
@@ -6209,6 +6215,18 @@
 					"type": "SEntityTemplateReference",
 					"value": "feeda0dde246616a",
 					"postInit": true
+				}
+			}
+		},
+		"feed9ca11739b0ab": {
+			"parent": "feed524921616dea",
+			"name": "ItemKey_Providence_Key",
+			"factory": "[modules:/zitemrepositorykeyentity.class].pc_entitytype",
+			"blueprint": "[modules:/zitemrepositorykeyentity.class].pc_entityblueprint",
+			"properties": {
+				"m_RepositoryId": {
+					"type": "ZGuid",
+					"value": "3b4e0f4e-f6cd-4831-96a9-ab958545cf4c"
 				}
 			}
 		}
