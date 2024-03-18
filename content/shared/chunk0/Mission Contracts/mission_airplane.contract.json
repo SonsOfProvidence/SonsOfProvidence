@@ -17,6 +17,40 @@
 					"EventName": "Kill",
 					"EventValues": { "RepositoryId": "d3959196-6be0-43ea-b6e7-aafa70824746" }
 				}
+			},
+			{
+				"Id": "d51fee00-820d-4f0a-9602-b090165b9dd8",
+				"Category": "primary",
+				"ObjectiveType": "custom",
+				"ForceShowOnLoadingScreen": true,
+				"Image": "images/sop/airplane_objective.png",
+				"BriefingName": "Obtain Eugene Cobb's Providence Archive Key",
+				"BriefingText": "I need to take Eugene Cobb's Providence Archive Key.",
+				"LongBriefingText": "I need to take Eugene Cobb's Providence Archive Key. It is one of two keys needed to open the Providence archive vault at the Milton-Fitzpatrick bank.",
+				"HUDTemplate": {
+					"display": "Obtain Eugene Cobb's Providence Archive Key"
+				},
+				"Type": "statemachine",
+				"Definition": {
+					"Context": {
+						"Targets": [
+							"3b4e0f4e-f6cd-4831-96a9-ab958545cf4c"
+						]
+					},
+					"States": {
+						"Start": {
+							"ItemPickedUp": {
+								"Condition": {
+									"$eq": [
+										"$Value.RepositoryId",
+										"3b4e0f4e-f6cd-4831-96a9-ab958545cf4c"
+									]
+								},
+								"Transition": "Success"
+							}
+						}
+					}
+				}
 			}
 		],
 		"GameDifficulties": [
