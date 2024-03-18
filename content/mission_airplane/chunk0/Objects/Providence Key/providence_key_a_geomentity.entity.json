@@ -1,0 +1,616 @@
+{
+	"tempHash": "00FEC61D7DE1A99C",
+	"tbluHash": "000AB44F2C7000F3",
+	"rootEntity": "452222950dbdafec",
+	"entities": {
+		"f145d5f7f7560fd5": {
+			"parent": "b798a0a35cdaa121",
+			"name": "ValueBool_Basic",
+			"factory": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_bValue": {
+					"type": "bool",
+					"value": true
+				}
+			},
+			"events": {
+				"OnTrue": {
+					"Disable": [
+						"c01b9088f627fdf0"
+					]
+				},
+				"OnFalse": {
+					"Enable": [
+						"c01b9088f627fdf0"
+					]
+				}
+			}
+		},
+		"b323680742c3e813": {
+			"parent": "b798a0a35cdaa121",
+			"name": "Light",
+			"factory": "[modules:/zlightentity.class].pc_entitytype",
+			"blueprint": "[modules:/zlightentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": -180,
+							"y": 0,
+							"z": -90
+						},
+						"position": {
+							"x": 0,
+							"y": 0,
+							"z": -0.1413470059633255
+						}
+					}
+				},
+				"m_bVisible": {
+					"type": "bool",
+					"value": false
+				},
+				"m_vNearAttenuation": {
+					"type": "SVector2",
+					"value": {
+						"x": 0.15000000596046448,
+						"y": 0.1599999964237213
+					}
+				},
+				"m_vAngularAttenuation": {
+					"type": "SVector2",
+					"value": {
+						"x": 0.10999999940395355,
+						"y": 0.3700000047683716
+					}
+				},
+				"m_bCastShadows": {
+					"type": "bool",
+					"value": false
+				},
+				"m_eLightType": {
+					"type": "ILightEntity.ELightType",
+					"value": "LT_SQUARESPOT"
+				},
+				"m_fAspectXByY": {
+					"type": "float32",
+					"value": 0.23999999463558197
+				},
+				"m_vFarAttenuation": {
+					"type": "SVector2",
+					"value": {
+						"x": 0.1899999976158142,
+						"y": 0.25999999046325684
+					}
+				},
+				"m_bEnableLightFade": {
+					"type": "bool",
+					"value": true
+				},
+				"m_fLightFadeDistance": {
+					"type": "float32",
+					"value": 15
+				},
+				"m_fLightFadeLength": {
+					"type": "float32",
+					"value": 5
+				},
+				"m_fDiffusePower": {
+					"type": "float32",
+					"value": 1
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "b798a0a35cdaa121",
+					"postInit": true
+				}
+			}
+		},
+		"c01b9088f627fdf0": {
+			"parent": "b798a0a35cdaa121",
+			"name": "CollisionListener",
+			"factory": "[modules:/zcollisionlistenerentity.class].pc_entitytype",
+			"blueprint": "[modules:/zcollisionlistenerentity.class].pc_entityblueprint",
+			"properties": {
+				"m_bEnabled": {
+					"type": "bool",
+					"value": false
+				},
+				"m_Listener": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						"b798a0a35cdaa121"
+					],
+					"postInit": true
+				}
+			},
+			"events": {
+				"OnImpact": {
+					"SetTrue": [
+						"f145d5f7f7560fd5"
+					],
+					"Break": [
+						"e1309f29c0072bfa"
+					]
+				}
+			}
+		},
+		"6e540fc87aa6b239": {
+			"parent": "452222950dbdafec",
+			"name": "PropHelper_Item_Placement",
+			"factory": "[assembly:/_pro/design/gamecore/prophelpers.template?/prophelper_item_placement.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/gamecore/prophelpers.template?/prophelper_item_placement.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -90
+						},
+						"position": {
+							"x": 0,
+							"y": 0,
+							"z": 0.0003589999978430569
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "b798a0a35cdaa121",
+					"postInit": true
+				}
+			}
+		},
+		"e1309f29c0072bfa": {
+			"parent": "b798a0a35cdaa121",
+			"name": "FX_Logic_LampCore",
+			"factory": "[assembly:/_pro/effects/templates/logic/fx_logic_lampcore.template?/fx_logic_lampcore.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/effects/templates/logic/fx_logic_lampcore.template?/fx_logic_lampcore.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"On": {
+					"type": "bool",
+					"value": false
+				},
+				"Breakable": {
+					"type": "bool",
+					"value": false
+				},
+				"DiffusePower": {
+					"type": "float32",
+					"value": 1
+				},
+				"GlowPower": {
+					"type": "float32",
+					"value": 1
+				},
+				"FlickerColor": {
+					"type": "SColorRGB",
+					"value": "#e8c551"
+				},
+				"LampGeometry": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						"b798a0a35cdaa121"
+					],
+					"postInit": true
+				}
+			},
+			"events": {
+				"DiffuseColor": {
+					"DiffuseColor": [
+						"b323680742c3e813"
+					],
+					"ConstantColorRGB_01_Value": [
+						"9aa8eac31f1533a8"
+					]
+				},
+				"DiffusePower": {
+					"DiffusePower": [
+						"b323680742c3e813"
+					]
+				},
+				"On": {
+					"SetVisible": [
+						"b323680742c3e813"
+					]
+				},
+				"GlowPower": {
+					"ConstantVector1D_07_Value": [
+						"9aa8eac31f1533a8"
+					]
+				}
+			},
+			"outputCopying": {
+				"OnBroken": {
+					"OnBroken": [
+						"b798a0a35cdaa121"
+					]
+				}
+			}
+		},
+		"9aa8eac31f1533a8": {
+			"parent": "b798a0a35cdaa121",
+			"name": "phone_helmut_a",
+			"factory": "[assembly:/_pro/items/materials/quest/phone_helmut_a.mi].pc_entitytype",
+			"blueprint": "[assembly:/_pro/items/materials/quest/phone_helmut_a.mi].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						}
+					}
+				},
+				"ConstantVector1D_07_Value_op": {
+					"type": "IRenderMaterialEntity.EModifierOperation",
+					"value": "eReplace"
+				},
+				"ConstantColorRGB_01_Value_op": {
+					"type": "IRenderMaterialEntity.EModifierOperation",
+					"value": "eReplace"
+				},
+				"ConstantVector1D_07_Value": {
+					"type": "float32",
+					"value": 1
+				},
+				"Texture2D_04_enab": {
+					"type": "bool",
+					"value": true
+				},
+				"Texture2D_04": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "00B355BE1F2ECD17",
+						"flag": "5F"
+					}
+				},
+				"Clients": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						"b798a0a35cdaa121"
+					],
+					"postInit": true
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "b798a0a35cdaa121",
+					"postInit": true
+				}
+			}
+		},
+		"b798a0a35cdaa121": {
+			"parent": "452222950dbdafec",
+			"name": "providence_key_a",
+			"factory": "[assembly:/sonsofprovidence/airplane/providence_key_a_prim].pc_entitytype",
+			"blueprint": "[assembly:/templates/geometrytemplaterigidbody.template?/geomentity01.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						}
+					}
+				},
+				"m_bKinematic": {
+					"type": "bool",
+					"value": false
+				},
+				"On": {
+					"type": "bool",
+					"value": false
+				},
+				"m_fFriction": {
+					"type": "float32",
+					"value": 0.6100000143051147
+				},
+				"m_fAngularDampening": {
+					"type": "float32",
+					"value": 0.6000000238418579
+				},
+				"DiffusePower": {
+					"type": "float32",
+					"value": 1
+				},
+				"GlowPower": {
+					"type": "float32",
+					"value": 1
+				},
+				"m_eGlowType": {
+					"type": "ERenderGlowTypes",
+					"value": "ERENDERGLOWTYPE_ITEMS"
+				},
+				"m_eCCD": {
+					"type": "ECCDUsage",
+					"value": "ECCDUSAGE_AGAINST_STATIC"
+				},
+				"ScreenImage": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "00B355BE1F2ECD17",
+						"flag": "5F"
+					}
+				},
+				"m_eRoomBehaviour": {
+					"type": "ZSpatialEntity.ERoomBehaviour",
+					"value": "ROOM_DYNAMIC"
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": null
+				}
+			},
+			"inputCopying": {
+				"TurnOn": {
+					"TurnOn": [
+						"e1309f29c0072bfa"
+					]
+				},
+				"TurnOff": {
+					"TurnOff": [
+						"e1309f29c0072bfa"
+					]
+				},
+				"KinematicBody": {
+					"SetValue": [
+						"f145d5f7f7560fd5"
+					]
+				}
+			},
+			"outputCopying": {
+				"OnSleep": {
+					"OnSleep": [
+						"452222950dbdafec"
+					]
+				}
+			},
+			"propertyAliases": {
+				"DiffusePower": [
+					{
+						"originalProperty": "DiffusePower",
+						"originalEntity": "e1309f29c0072bfa"
+					},
+					{
+						"originalProperty": "m_fDiffusePower",
+						"originalEntity": "b323680742c3e813"
+					}
+				],
+				"GlowPower": [
+					{
+						"originalProperty": "GlowPower",
+						"originalEntity": "e1309f29c0072bfa"
+					}
+				],
+				"On": [
+					{
+						"originalProperty": "On",
+						"originalEntity": "e1309f29c0072bfa"
+					},
+					{
+						"originalProperty": "m_bVisible",
+						"originalEntity": "b323680742c3e813"
+					}
+				],
+				"ScreenImage": [
+					{
+						"originalProperty": "Texture2D_04",
+						"originalEntity": "9aa8eac31f1533a8"
+					}
+				]
+			}
+		},
+		"e0f352edf550af2e": {
+			"parent": "452222950dbdafec",
+			"name": "HandAttacherSpatial",
+			"factory": "[modules:/zdebuggizmoentity.class].pc_entitytype",
+			"blueprint": "[modules:/zdebuggizmoentity.class].pc_entityblueprint",
+			"properties": {
+				"m_GizmoGeomRID": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/geometry/g2/actspecific_gizmos.wl2?/debug_misc_horiz_4x4.prim].pc_prim",
+						"flag": "5F"
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "b798a0a35cdaa121"
+				},
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 90,
+							"z": 0
+						},
+						"position": {
+							"x": 0,
+							"y": 0,
+							"z": 0.009999999776482582
+						}
+					}
+				}
+			}
+		},
+		"452222950dbdafec": {
+			"parent": null,
+			"name": "Providence_Key_A",
+			"factory": "[modules:/zentity.class].pc_entitytype",
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						}
+					}
+				},
+				"On": {
+					"type": "bool",
+					"value": false
+				}
+			},
+			"inputCopying": {
+				"SetVisible": {
+					"SetVisible": [
+						"b798a0a35cdaa121"
+					]
+				},
+				"SetInPhysicsWorld": {
+					"SetInPhysicsWorld": [
+						"b798a0a35cdaa121"
+					]
+				},
+				"KinematicBody": {
+					"KinematicBody": [
+						"b798a0a35cdaa121"
+					]
+				},
+				"TurnOn": {
+					"TurnOn": [
+						"b798a0a35cdaa121"
+					]
+				},
+				"TurnOff": {
+					"TurnOff": [
+						"b798a0a35cdaa121"
+					]
+				}
+			},
+			"propertyAliases": {
+				"DiffusePower": [
+					{
+						"originalProperty": "DiffusePower",
+						"originalEntity": "b798a0a35cdaa121"
+					}
+				],
+				"GlowPower": [
+					{
+						"originalProperty": "GlowPower",
+						"originalEntity": "b798a0a35cdaa121"
+					}
+				],
+				"On": [
+					{
+						"originalProperty": "On",
+						"originalEntity": "b798a0a35cdaa121"
+					}
+				],
+				"m_eRoomBehaviour": [
+					{
+						"originalProperty": "m_eRoomBehaviour",
+						"originalEntity": "b798a0a35cdaa121"
+					}
+				],
+				"m_eidParent": [
+					{
+						"originalProperty": "m_eidParent",
+						"originalEntity": "b798a0a35cdaa121"
+					}
+				],
+				"m_mTransform": [
+					{
+						"originalProperty": "m_mTransform",
+						"originalEntity": "b798a0a35cdaa121"
+					}
+				]
+			},
+			"exposedEntities": {
+				"HandAttacherSpatial": {
+					"isArray": false,
+					"refersTo": [
+						"e0f352edf550af2e"
+					]
+				},
+				"PropHelper_Item_Placement": {
+					"isArray": false,
+					"refersTo": [
+						"6e540fc87aa6b239"
+					]
+				}
+			},
+			"exposedInterfaces": {
+				"ZSpatialEntity": "b798a0a35cdaa121",
+				"ZRenderableEntity": "b798a0a35cdaa121",
+				"IPhysicsAccessor": "b798a0a35cdaa121",
+				"ZGeomEntity": "b798a0a35cdaa121",
+				"IDynamicPhysics": "b798a0a35cdaa121",
+				"ZPrimitiveContainerEntity": "b798a0a35cdaa121"
+			}
+		}
+	},
+	"propertyOverrides": [
+
+	],
+	"overrideDeletes": [
+
+	],
+	"pinConnectionOverrides": [
+
+	],
+	"pinConnectionOverrideDeletes": [
+
+	],
+	"externalScenes": [
+
+	],
+	"subType": "template",
+	"quickEntityVersion": 3.1,
+	"extraFactoryDependencies": [
+		"[assembly:/sonsofprovidence/airplane/providence_key.prim].pc_prim",
+		{
+			"resource": "[assembly:/_pro/items/geometry/quest/phone_helmut_a.wl2?/phone_helmut_a.prim].pc_coll",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/items/textures/quest/phone_helmut_a.texture?/diffuse_a.tex](ascolormap).pc_tex",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/items/textures/quest/phone_helmut_a.texture?/normal_a.tex](asnormalmap).pc_tex",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/items/textures/quest/phone_helmut_a.texture?/specular_a.tex](ascolormap).pc_tex",
+			"flag": "5F"
+		},
+		{
+			"resource": "00F429FAEFD8616E",
+			"flag": "5F"
+		}
+	],
+	"extraBlueprintDependencies": [
+
+	],
+	"comments": [
+
+	]
+}
