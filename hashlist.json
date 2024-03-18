@@ -288,6 +288,34 @@
 		"ioiString": "[assembly:/sonsofprovidence/airplane/airplane.prim].pc_prim"
 	},
 	{
+		"hash": "006B3ACE75087B37",
+		"ioiString": "[assembly:/sonsofprovidence/airplane/prop_questitem_airplane_providence_key.entitytemplate].pc_entitytype"
+	},
+	{
+		"hash": "00889BCC922681E7",
+		"ioiString": "[assembly:/sonsofprovidence/airplane/prop_questitem_airplane_providence_key.entitytemplate].pc_entityblueprint"
+	},
+	{
+		"hash": "00FEC61D7DE1A99C",
+		"ioiString": "[assembly:/sonsofprovidence/objects/providence_key_a_geomentity].pc_entitytype"
+	},
+	{
+		"hash": "000AB44F2C7000F3",
+		"ioiString": "[assembly:/sonsofprovidence/objects/providence_key_a_geomentity].pc_entityblueprint"
+	},
+	{
+		"hash": "00165653715171C1",
+		"ioiString": "[assembly:/sonsofprovidence/airplane/providence_key_a_prim].pc_entitytype"
+	},
+	{
+		"hash": "0010261709F6093A",
+		"ioiString": "[assembly:/sonsofprovidence/airplane/providence_key_a_prim].pc_entityblueprint"
+	},
+	{
+		"hash": "005987D5A8FC71BD",
+		"ioiString": "[assembly:/sonsofprovidence/airplane/providence_key.prim].pc_prim"
+	},
+	{
 		"hash": "00AC4770232E82A6",
 		"ioiString": "[assembly:/sonsofprovidence/airplane/ocean_outerhorizon_tall.prim].pc_prim"
 	},
