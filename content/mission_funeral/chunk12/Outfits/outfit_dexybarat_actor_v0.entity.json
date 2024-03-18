@@ -326,12 +326,7 @@
 				},
 				"m_Spheres": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"387fbf05fe205455",
-						"6b28c6953f5bd13c",
-						"d030f694424084e9",
-						"402e665c0155fde2"
-					],
+					"value": ["387fbf05fe205455", "6b28c6953f5bd13c", "d030f694424084e9", "402e665c0155fde2"],
 					"postInit": true
 				},
 				"m_eidParent": {
@@ -484,9 +479,7 @@
 				},
 				"Clients": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"599389de02441623"
-					],
+					"value": ["599389de02441623"],
 					"postInit": true
 				},
 				"m_eidParent": {
@@ -591,9 +584,7 @@
 				},
 				"Clients": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"599389de02441623"
-					],
+					"value": ["599389de02441623"],
 					"postInit": true
 				},
 				"m_eidParent": {
@@ -718,9 +709,7 @@
 				},
 				"m_LocalColliders": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"baf63096abbf71f5"
-					],
+					"value": ["baf63096abbf71f5"],
 					"postInit": true
 				}
 			}
@@ -876,9 +865,7 @@
 				},
 				"Clients": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"599389de02441623"
-					]
+					"value": ["599389de02441623"]
 				},
 				"ConstantVector1D_03_Value_op": {
 					"type": "IRenderMaterialEntity.EModifierOperation",
@@ -945,9 +932,7 @@
 				},
 				"Clients": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"599389de02441623"
-					]
+					"value": ["599389de02441623"]
 				},
 				"ConstantVector1D_05_Value_op": {
 					"type": "IRenderMaterialEntity.EModifierOperation",
@@ -1017,9 +1002,7 @@
 				},
 				"Clients": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"599389de02441623"
-					]
+					"value": ["599389de02441623"]
 				},
 				"ConstantVector1D_05_Value_op": {
 					"type": "IRenderMaterialEntity.EModifierOperation",
@@ -1561,9 +1544,7 @@
 				},
 				"Clients": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"599389de02441623"
-					]
+					"value": ["599389de02441623"]
 				},
 				"Texture2D_01_enab": {
 					"type": "bool",
@@ -1718,12 +1699,7 @@
 				},
 				"m_Spheres": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"466c2884604242b9",
-						"4760e7a7721b9380",
-						"c76e1649197a065a",
-						"387fbf05fe205455"
-					],
+					"value": ["466c2884604242b9", "4760e7a7721b9380", "c76e1649197a065a", "387fbf05fe205455"],
 					"postInit": true
 				},
 				"m_eidParent": {
@@ -2489,9 +2465,7 @@
 				},
 				"Clients": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"599389de02441623"
-					]
+					"value": ["599389de02441623"]
 				},
 				"Texture2DNormal_01_enab": {
 					"type": "bool",
@@ -2575,9 +2549,7 @@
 				},
 				"Clients": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"599389de02441623"
-					]
+					"value": ["599389de02441623"]
 				},
 				"ConstantVector1D_03_Value_op": {
 					"type": "IRenderMaterialEntity.EModifierOperation",
@@ -2616,11 +2588,7 @@
 			"properties": {
 				"m_Spheres": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"386e587f329a74a7",
-						"e836ecea62933e9b",
-						"387fbf05fe205455"
-					]
+					"value": ["386e587f329a74a7", "e836ecea62933e9b", "387fbf05fe205455"]
 				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
@@ -2651,9 +2619,7 @@
 				},
 				"Clients": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"599389de02441623"
-					]
+					"value": ["599389de02441623"]
 				},
 				"Texture2D_01_enab": {
 					"type": "bool",
@@ -2673,21 +2639,11 @@
 			}
 		}
 	},
-	"propertyOverrides": [
-
-	],
-	"overrideDeletes": [
-
-	],
-	"pinConnectionOverrides": [
-
-	],
-	"pinConnectionOverrideDeletes": [
-
-	],
-	"externalScenes": [
-
-	],
+	"propertyOverrides": [],
+	"overrideDeletes": [],
+	"pinConnectionOverrides": [],
+	"pinConnectionOverrideDeletes": [],
+	"externalScenes": [],
 	"subType": "template",
 	"quickEntityVersion": 3.1,
 	"extraFactoryDependencies": [
@@ -2796,10 +2752,6 @@
 			"flag": "5F"
 		}
 	],
-	"extraBlueprintDependencies": [
-
-	],
-	"comments": [
-
-	]
+	"extraBlueprintDependencies": [],
+	"comments": []
 }

@@ -472,9 +472,7 @@
 			"blueprint": "[modules:/zentity.class].pc_entityblueprint",
 			"events": {
 				"OnPlay": {
-					"SetTrue": [
-						"feed9ed416ff098a"
-					]
+					"SetTrue": ["feed9ed416ff098a"]
 				}
 			}
 		},
@@ -515,9 +513,7 @@
 			"factory": "[assembly:/_pro/design/levelflow.template?/herospawn.entitytemplate].pc_entitytype",
 			"events": {
 				"OnSpawn": {
-					"SetTrue": [
-						"feed9ed416ff098a"
-					]
+					"SetTrue": ["feed9ed416ff098a"]
 				}
 			}
 		},
@@ -563,14 +559,10 @@
 			},
 			"events": {
 				"ItemReady": {
-					"PickupIntoPocket": [
-						"feedb3b37a5c56ce"
-					]
+					"PickupIntoPocket": ["feedb3b37a5c56ce"]
 				},
 				"Item": {
-					"SetItem": [
-						"feedb3b37a5c56ce"
-					]
+					"SetItem": ["feedb3b37a5c56ce"]
 				}
 			}
 		},
@@ -604,9 +596,7 @@
 				},
 				"m_aSequences": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"feeda8e7530f20e4"
-					]
+					"value": ["feeda8e7530f20e4"]
 				},
 				"m_nPriority": {
 					"type": "uint32",
@@ -627,36 +617,22 @@
 			},
 			"events": {
 				"OnPlay": {
-					"SetTrue": [
-
-					],
-					"SpawnItem": [
-						"feed1fcb384540e6"
-					],
-					"In": [
-						"feed03d0410f26f4"
-					],
-					"CustomFlyIn_Start": [
-						"feed375e080ac218"
-					]
+					"SetTrue": [],
+					"SpawnItem": ["feed1fcb384540e6"],
+					"In": ["feed03d0410f26f4"],
+					"CustomFlyIn_Start": ["feed375e080ac218"]
 				},
 				"OnStop": {
-					"CustomFlyIn_NearEnd_EnableWorld": [
-						"feed375e080ac218"
-					]
+					"CustomFlyIn_NearEnd_EnableWorld": ["feed375e080ac218"]
 				}
 			},
 			"outputCopying": {
 				"OnPlay": {
-					"OnPlay": [
-						"feed4df0cb046759"
-					]
+					"OnPlay": ["feed4df0cb046759"]
 				}
 			},
 			"subsets": {
-				"AudioEmitters": [
-					"fffffffffffffffe"
-				]
+				"AudioEmitters": ["fffffffffffffffe"]
 			}
 		},
 		"feed375e080ac218": {
@@ -678,9 +654,7 @@
 			},
 			"events": {
 				"Out": {
-					"CustomFlyIn_NearEnd_EnableWorld": [
-						"feed375e080ac218"
-					]
+					"CustomFlyIn_NearEnd_EnableWorld": ["feed375e080ac218"]
 				}
 			}
 		},
@@ -718,11 +692,7 @@
 				},
 				"m_aTracksAndGroups": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"feedeb633a37f729",
-						"feedd2d7f6fc02f1",
-						"feed4a28222e7478"
-					],
+					"value": ["feedeb633a37f729", "feedd2d7f6fc02f1", "feed4a28222e7478"],
 					"postInit": true
 				}
 			}
@@ -735,9 +705,7 @@
 			"properties": {
 				"m_aValueEntities": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-
-					]
+					"value": []
 				}
 			}
 		},
@@ -749,17 +717,13 @@
 			"properties": {
 				"m_aItems": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"feed62b9671040eb"
-					],
+					"value": ["feed62b9671040eb"],
 					"postInit": true
 				}
 			},
 			"outputCopying": {
 				"Interpolation_Fired": {
-					"Event_Track_Interpolation_Fired": [
-						"feeda8e7530f20e4"
-					]
+					"Event_Track_Interpolation_Fired": ["feeda8e7530f20e4"]
 				}
 			}
 		},
@@ -771,9 +735,7 @@
 			"properties": {
 				"m_aItems": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"feed239ce80dbf1f"
-					],
+					"value": ["feed239ce80dbf1f"],
 					"postInit": true
 				}
 			}
@@ -792,9 +754,7 @@
 			"properties": {
 				"m_aItems": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"feed9b6b46f04550"
-					],
+					"value": ["feed9b6b46f04550"],
 					"postInit": true
 				}
 			}
@@ -804,9 +764,7 @@
 			"name": "EntityTrack_ Hitman",
 			"factory": "[modules:/zentitygroup.class].pc_entitytype",
 			"blueprint": "[modules:/zentitygroup.class].pc_entityblueprint",
-			"properties": {
-
-			}
+			"properties": {}
 		},
 		"feedeb633a37f729": {
 			"parent": "feeda8e7530f20e4",
@@ -816,9 +774,7 @@
 			"properties": {
 				"m_aTracksAndGroups": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"feedc93c46210808"
-					],
+					"value": ["feedc93c46210808"],
 					"postInit": true
 				}
 			}
@@ -831,9 +787,7 @@
 			"properties": {
 				"m_aTracksAndGroups": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"feed4df6b1899209"
-					]
+					"value": ["feed4df6b1899209"]
 				}
 			}
 		},
@@ -858,9 +812,7 @@
 			},
 			"outputCopying": {
 				"Fired": {
-					"Interpolation_Fired": [
-						"feedc62b60fb2564"
-					]
+					"Interpolation_Fired": ["feedc62b60fb2564"]
 				}
 			}
 		},
@@ -916,9 +868,7 @@
 				},
 				"m_aItems": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"feed92acbba796b0"
-					]
+					"value": ["feed92acbba796b0"]
 				},
 				"m_bRestoreValueAfterEnd": {
 					"type": "bool",
@@ -948,26 +898,8 @@
 					"type": "ZCurve",
 					"value": {
 						"data": [
-							[
-								0,
-								-53,
-								0,
-								0,
-								0,
-								0,
-								0,
-								-53
-							],
-							[
-								1,
-								-54,
-								0,
-								0,
-								0,
-								0,
-								0,
-								-54
-							]
+							[0, -53, 0, 0, 0, 0, 0, -53],
+							[1, -54, 0, 0, 0, 0, 0, -54]
 						]
 					}
 				},
@@ -975,26 +907,8 @@
 					"type": "ZCurve",
 					"value": {
 						"data": [
-							[
-								0,
-								-89.6476808565214,
-								0,
-								0,
-								0,
-								0,
-								0,
-								-89.6476808565214
-							],
-							[
-								1,
-								-89.6476808565214,
-								0,
-								0,
-								0,
-								0,
-								0,
-								-89.6476808565214
-							]
+							[0, -89.6476808565214, 0, 0, 0, 0, 0, -89.6476808565214],
+							[1, -89.6476808565214, 0, 0, 0, 0, 0, -89.6476808565214]
 						]
 					}
 				},
@@ -1002,26 +916,8 @@
 					"type": "ZCurve",
 					"value": {
 						"data": [
-							[
-								0,
-								-23,
-								0,
-								0,
-								0,
-								0,
-								0,
-								-23
-							],
-							[
-								1,
-								-24,
-								0,
-								0,
-								0,
-								0,
-								0,
-								-24
-							]
+							[0, -23, 0, 0, 0, 0, 0, -23],
+							[1, -24, 0, 0, 0, 0, 0, -24]
 						]
 					}
 				},
@@ -1029,26 +925,8 @@
 					"type": "ZCurve",
 					"value": {
 						"data": [
-							[
-								0,
-								0,
-								0,
-								0,
-								0,
-								0,
-								0,
-								0
-							],
-							[
-								1,
-								0,
-								0,
-								0,
-								0,
-								0,
-								0,
-								0
-							]
+							[0, 0, 0, 0, 0, 0, 0, 0],
+							[1, 0, 0, 0, 0, 0, 0, 0]
 						]
 					}
 				},
@@ -1056,26 +934,8 @@
 					"type": "ZCurve",
 					"value": {
 						"data": [
-							[
-								0,
-								-1,
-								0,
-								0,
-								0,
-								0,
-								0,
-								-1
-							],
-							[
-								1,
-								-1,
-								0,
-								0,
-								0,
-								0,
-								0,
-								-1
-							]
+							[0, -1, 0, 0, 0, 0, 0, -1],
+							[1, -1, 0, 0, 0, 0, 0, -1]
 						]
 					}
 				},
@@ -1083,26 +943,8 @@
 					"type": "ZCurve",
 					"value": {
 						"data": [
-							[
-								0,
-								1.383242226748166,
-								0,
-								0,
-								0,
-								0,
-								0,
-								1.383242226748166
-							],
-							[
-								1,
-								1.383242226748166,
-								0,
-								0,
-								0,
-								0,
-								0,
-								1.383242226748166
-							]
+							[0, 1.383242226748166, 0, 0, 0, 0, 0, 1.383242226748166],
+							[1, 1.383242226748166, 0, 0, 0, 0, 0, 1.383242226748166]
 						]
 					}
 				}
@@ -1116,9 +958,7 @@
 			"properties": {
 				"m_aItems": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"feed1f4a657d9e38"
-					]
+					"value": ["feed1f4a657d9e38"]
 				},
 				"m_bRestoreValueAfterEnd": {
 					"type": "bool",
@@ -1153,26 +993,8 @@
 					"type": "ZCurve",
 					"value": {
 						"data": [
-							[
-								0,
-								-53,
-								0,
-								0,
-								0,
-								0,
-								0,
-								-53
-							],
-							[
-								1,
-								-54,
-								0,
-								0,
-								0,
-								0,
-								0,
-								-54
-							]
+							[0, -53, 0, 0, 0, 0, 0, -53],
+							[1, -54, 0, 0, 0, 0, 0, -54]
 						]
 					}
 				},
@@ -1180,26 +1002,8 @@
 					"type": "ZCurve",
 					"value": {
 						"data": [
-							[
-								0,
-								-89.6476808565214,
-								0,
-								0,
-								0,
-								0,
-								0,
-								-89.6476808565214
-							],
-							[
-								1,
-								-89.6476808565214,
-								0,
-								0,
-								0,
-								0,
-								0,
-								-89.6476808565214
-							]
+							[0, -89.6476808565214, 0, 0, 0, 0, 0, -89.6476808565214],
+							[1, -89.6476808565214, 0, 0, 0, 0, 0, -89.6476808565214]
 						]
 					}
 				},
@@ -1207,26 +1011,8 @@
 					"type": "ZCurve",
 					"value": {
 						"data": [
-							[
-								0,
-								-23,
-								0,
-								0,
-								0,
-								0,
-								0,
-								-23
-							],
-							[
-								1,
-								-24,
-								0,
-								0,
-								0,
-								0,
-								0,
-								-24
-							]
+							[0, -23, 0, 0, 0, 0, 0, -23],
+							[1, -24, 0, 0, 0, 0, 0, -24]
 						]
 					}
 				},
@@ -1234,26 +1020,8 @@
 					"type": "ZCurve",
 					"value": {
 						"data": [
-							[
-								0,
-								0,
-								0,
-								0,
-								0,
-								0,
-								0,
-								0
-							],
-							[
-								1,
-								0,
-								0,
-								0,
-								0,
-								0,
-								0,
-								0
-							]
+							[0, 0, 0, 0, 0, 0, 0, 0],
+							[1, 0, 0, 0, 0, 0, 0, 0]
 						]
 					}
 				},
@@ -1261,26 +1029,8 @@
 					"type": "ZCurve",
 					"value": {
 						"data": [
-							[
-								0,
-								-1,
-								0,
-								0,
-								0,
-								0,
-								0,
-								-1
-							],
-							[
-								1,
-								-1,
-								0,
-								0,
-								0,
-								0,
-								0,
-								-1
-							]
+							[0, -1, 0, 0, 0, 0, 0, -1],
+							[1, -1, 0, 0, 0, 0, 0, -1]
 						]
 					}
 				},
@@ -1288,26 +1038,8 @@
 					"type": "ZCurve",
 					"value": {
 						"data": [
-							[
-								0,
-								1.383242226748166,
-								0,
-								0,
-								0,
-								0,
-								0,
-								1.383242226748166
-							],
-							[
-								1,
-								1.383242226748166,
-								0,
-								0,
-								0,
-								0,
-								0,
-								1.383242226748166
-							]
+							[0, 1.383242226748166, 0, 0, 0, 0, 0, 1.383242226748166],
+							[1, 1.383242226748166, 0, 0, 0, 0, 0, 1.383242226748166]
 						]
 					}
 				}
@@ -1400,9 +1132,7 @@
 				}
 			},
 			"subsets": {
-				"Rooms": [
-					"fffffffffffffffe"
-				]
+				"Rooms": ["fffffffffffffffe"]
 			}
 		},
 		"feed58d5fb0f1e13": {
@@ -1524,9 +1254,7 @@
 				},
 				"m_aEnforcedOutfits": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-
-					]
+					"value": []
 				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
@@ -1535,12 +1263,8 @@
 				}
 			},
 			"subsets": {
-				"AudioEmitters": [
-					"fffffffffffffffe"
-				],
-				"Replicable": [
-					"fffffffffffffffe"
-				]
+				"AudioEmitters": ["fffffffffffffffe"],
+				"Replicable": ["fffffffffffffffe"]
 			}
 		},
 		"feedb7fef140cfcf": {
@@ -1575,25 +1299,15 @@
 			},
 			"events": {
 				"OnDead": {
-					"SetTrue": [
-						"feedb7fef140cfcf"
-					],
-					"SetFalse": [
-						"feedb5a56fe49157"
-					]
+					"SetTrue": ["feedb7fef140cfcf"],
+					"SetFalse": ["feedb5a56fe49157"]
 				},
 				"OnAlive": {
-					"SetFalse": [
-						"feedb7fef140cfcf"
-					],
-					"SetTrue": [
-						"feedb5a56fe49157"
-					]
+					"SetFalse": ["feedb7fef140cfcf"],
+					"SetTrue": ["feedb5a56fe49157"]
 				},
 				"OnPacified": {
-					"SetFalse": [
-						"feedb5a56fe49157"
-					]
+					"SetFalse": ["feedb5a56fe49157"]
 				}
 			}
 		},
@@ -1644,9 +1358,7 @@
 				},
 				"m_InventoryItemKeys": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"feed7265799410bb"
-					]
+					"value": ["feed7265799410bb"]
 				},
 				"m_bStartEnabled": {
 					"type": "bool",
@@ -1659,12 +1371,8 @@
 				}
 			},
 			"subsets": {
-				"AudioEmitters": [
-					"fffffffffffffffe"
-				],
-				"Replicable": [
-					"fffffffffffffffe"
-				]
+				"AudioEmitters": ["fffffffffffffffe"],
+				"Replicable": ["fffffffffffffffe"]
 			}
 		},
 		"feed791f6eebdd4b": {
@@ -1674,9 +1382,7 @@
 			"properties": {
 				"m_aRoles": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"feed75b22fe25448"
-					]
+					"value": ["feed75b22fe25448"]
 				},
 				"m_bTerminateOnDone": {
 					"type": "bool",
@@ -1697,9 +1403,7 @@
 			},
 			"events": {
 				"OnStart": {
-					"Start": [
-						"feed104473684061"
-					]
+					"Start": ["feed104473684061"]
 				}
 			},
 			"factory": "000C288A323918F9"
@@ -1762,9 +1466,7 @@
 			},
 			"events": {
 				"OnActTimeout": {
-					"Start": [
-						"feedd2aa9885ba37"
-					]
+					"Start": ["feedd2aa9885ba37"]
 				}
 			}
 		},
@@ -1855,9 +1557,7 @@
 				}
 			},
 			"subsets": {
-				"Rooms": [
-					"fffffffffffffffe"
-				]
+				"Rooms": ["fffffffffffffffe"]
 			}
 		},
 		"feedc048020b2704": {
@@ -2019,9 +1719,7 @@
 				}
 			},
 			"subsets": {
-				"Rooms": [
-					"fffffffffffffffe"
-				]
+				"Rooms": ["fffffffffffffffe"]
 			}
 		},
 		"feed571d02242cd1": {
@@ -2341,9 +2039,7 @@
 				}
 			},
 			"subsets": {
-				"Rooms": [
-					"fffffffffffffffe"
-				]
+				"Rooms": ["fffffffffffffffe"]
 			}
 		},
 		"feed6a208a48ac88": {
@@ -2689,9 +2385,7 @@
 				}
 			},
 			"subsets": {
-				"Rooms": [
-					"fffffffffffffffe"
-				]
+				"Rooms": ["fffffffffffffffe"]
 			}
 		},
 		"feed4eb43df8e410": {
@@ -3037,9 +2731,7 @@
 				}
 			},
 			"subsets": {
-				"Rooms": [
-					"fffffffffffffffe"
-				]
+				"Rooms": ["fffffffffffffffe"]
 			}
 		},
 		"feed38671ab4a7c5": {
@@ -3357,9 +3049,7 @@
 				}
 			},
 			"subsets": {
-				"Rooms": [
-					"fffffffffffffffe"
-				]
+				"Rooms": ["fffffffffffffffe"]
 			}
 		},
 		"feed742cc163fd3e": {
@@ -3398,9 +3088,7 @@
 				}
 			},
 			"subsets": {
-				"AudioEmitters": [
-					"fffffffffffffffe"
-				]
+				"AudioEmitters": ["fffffffffffffffe"]
 			}
 		},
 		"feed7041543c894a": {
@@ -3677,9 +3365,7 @@
 				}
 			},
 			"subsets": {
-				"AudioEmitters": [
-					"fffffffffffffffe"
-				]
+				"AudioEmitters": ["fffffffffffffffe"]
 			}
 		},
 		"feedf4ca59e68319": {
@@ -4137,16 +3823,12 @@
 				},
 				"m_aEnforcedOutfits": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-
-					],
+					"value": [],
 					"postInit": true
 				},
 				"m_InventoryItemKeys": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-
-					],
+					"value": [],
 					"postInit": true
 				},
 				"m_eidParent": {
@@ -4156,12 +3838,8 @@
 				}
 			},
 			"subsets": {
-				"AudioEmitters": [
-					"fffffffffffffffe"
-				],
-				"Replicable": [
-					"fffffffffffffffe"
-				]
+				"AudioEmitters": ["fffffffffffffffe"],
+				"Replicable": ["fffffffffffffffe"]
 			}
 		},
 		"feed9b29bf5c4d4c": {
@@ -4215,11 +3893,7 @@
 				},
 				"m_aEnforcedOutfits": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"feed3f771bfddf74",
-						"feeddad0590423af",
-						"feed58a78a957e9a"
-					],
+					"value": ["feed3f771bfddf74", "feeddad0590423af", "feed58a78a957e9a"],
 					"postInit": true
 				},
 				"m_eidParent": {
@@ -4229,12 +3903,8 @@
 				}
 			},
 			"subsets": {
-				"AudioEmitters": [
-					"fffffffffffffffe"
-				],
-				"Replicable": [
-					"fffffffffffffffe"
-				]
+				"AudioEmitters": ["fffffffffffffffe"],
+				"Replicable": ["fffffffffffffffe"]
 			}
 		},
 		"feed3f771bfddf74": {
@@ -4307,12 +3977,8 @@
 				}
 			},
 			"subsets": {
-				"AudioEmitters": [
-					"fffffffffffffffe"
-				],
-				"Replicable": [
-					"fffffffffffffffe"
-				]
+				"AudioEmitters": ["fffffffffffffffe"],
+				"Replicable": ["fffffffffffffffe"]
 			}
 		},
 		"feed0b77dd6c73f7": {
@@ -4363,12 +4029,8 @@
 				}
 			},
 			"subsets": {
-				"AudioEmitters": [
-					"fffffffffffffffe"
-				],
-				"Replicable": [
-					"fffffffffffffffe"
-				]
+				"AudioEmitters": ["fffffffffffffffe"],
+				"Replicable": ["fffffffffffffffe"]
 			}
 		},
 		"feedee1cd09c2f9a": {
@@ -4410,15 +4072,11 @@
 				},
 				"m_InventoryItemKeys": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-
-					]
+					"value": []
 				},
 				"m_aEnforcedOutfits": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-
-					]
+					"value": []
 				},
 				"m_eRequiredVoiceVariation": {
 					"type": "EActorVoiceVariation",
@@ -4431,12 +4089,8 @@
 				}
 			},
 			"subsets": {
-				"AudioEmitters": [
-					"fffffffffffffffe"
-				],
-				"Replicable": [
-					"fffffffffffffffe"
-				]
+				"AudioEmitters": ["fffffffffffffffe"],
+				"Replicable": ["fffffffffffffffe"]
 			}
 		},
 		"feed1c00a0cad810": {
@@ -4507,9 +4161,7 @@
 			},
 			"events": {
 				"Item": {
-					"SetItem": [
-						"feed1c00a0cad810"
-					]
+					"SetItem": ["feed1c00a0cad810"]
 				}
 			}
 		},
@@ -5174,11 +4826,7 @@
 				},
 				"m_aEnforcedOutfits": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"feed20e887d3410f",
-						"feed661795fef11f",
-						"feed977bf9b015b2"
-					],
+					"value": ["feed20e887d3410f", "feed661795fef11f", "feed977bf9b015b2"],
 					"postInit": true
 				},
 				"m_eidParent": {
@@ -5188,12 +4836,8 @@
 				}
 			},
 			"subsets": {
-				"AudioEmitters": [
-					"fffffffffffffffe"
-				],
-				"Replicable": [
-					"fffffffffffffffe"
-				]
+				"AudioEmitters": ["fffffffffffffffe"],
+				"Replicable": ["fffffffffffffffe"]
 			}
 		},
 		"feed20e887d3410f": {
@@ -5704,9 +5348,7 @@
 				}
 			},
 			"subsets": {
-				"AudioEmitters": [
-					"fffffffffffffffe"
-				]
+				"AudioEmitters": ["fffffffffffffffe"]
 			}
 		},
 		"feed9f47ac1b5672": {
@@ -5808,15 +5450,11 @@
 				},
 				"m_InventoryItemKeys": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-
-					]
+					"value": []
 				},
 				"m_aEnforcedOutfits": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-
-					]
+					"value": []
 				},
 				"m_eRequiredVoiceVariation": {
 					"type": "EActorVoiceVariation",
@@ -5829,12 +5467,8 @@
 				}
 			},
 			"subsets": {
-				"AudioEmitters": [
-					"fffffffffffffffe"
-				],
-				"Replicable": [
-					"fffffffffffffffe"
-				]
+				"AudioEmitters": ["fffffffffffffffe"],
+				"Replicable": ["fffffffffffffffe"]
 			}
 		},
 		"feed1ccba2cbf95a": {
@@ -5870,15 +5504,11 @@
 			},
 			"events": {
 				"OnActTimeout": {
-					"Done": [
-						"feed11123c5fa00f"
-					]
+					"Done": ["feed11123c5fa00f"]
 				}
 			},
 			"subsets": {
-				"Replicable": [
-					"fffffffffffffffe"
-				]
+				"Replicable": ["fffffffffffffffe"]
 			}
 		},
 		"feedaf1c43e26d95": {
@@ -5917,9 +5547,7 @@
 				}
 			},
 			"subsets": {
-				"AudioEmitters": [
-					"fffffffffffffffe"
-				]
+				"AudioEmitters": ["fffffffffffffffe"]
 			}
 		},
 		"feedf18129f98dc7": {
@@ -5929,9 +5557,7 @@
 			"properties": {
 				"m_aRoles": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"feed58874af193c1"
-					]
+					"value": ["feed58874af193c1"]
 				},
 				"m_bTerminateOnDone": {
 					"type": "bool",
@@ -5952,9 +5578,7 @@
 			},
 			"events": {
 				"OnStart": {
-					"Start": [
-						"feed11123c5fa00f"
-					]
+					"Start": ["feed11123c5fa00f"]
 				}
 			},
 			"factory": "000C288A323918F9"
@@ -6017,9 +5641,7 @@
 			},
 			"events": {
 				"OnActTimeout": {
-					"Start": [
-						"feed104473684061"
-					]
+					"Start": ["feed104473684061"]
 				}
 			}
 		},
@@ -6100,9 +5722,7 @@
 			},
 			"events": {
 				"OnActTimeout": {
-					"Start": [
-						"feed1ccba2cbf95a"
-					]
+					"Start": ["feed1ccba2cbf95a"]
 				}
 			}
 		},
@@ -6174,9 +5794,7 @@
 				}
 			},
 			"subsets": {
-				"AudioEmitters": [
-					"fffffffffffffffe"
-				]
+				"AudioEmitters": ["fffffffffffffffe"]
 			}
 		},
 		"feed65cc756404ce": {
@@ -6362,19 +5980,13 @@
 			"blueprint": "[modules:/zentity.class].pc_entityblueprint",
 			"events": {
 				"ExitSequenceOver": {
-					"Manual_Exit_Trigger": [
-						"feed505a850ee106"
-					],
-					"Trigger": [
-
-					]
+					"Manual_Exit_Trigger": ["feed505a850ee106"],
+					"Trigger": []
 				}
 			},
 			"inputCopying": {
 				"StartExitSequence": {
-					"Play": [
-						"feedadf35c95c1cf"
-					]
+					"Play": ["feedadf35c95c1cf"]
 				}
 			}
 		},
@@ -6461,19 +6073,13 @@
 			},
 			"events": {
 				"Audio_Events_BoatAudio_Fired": {
-					"SetTrue": [
-						"feed01d051981bee"
-					]
+					"SetTrue": ["feed01d051981bee"]
 				},
 				"Stopped": {
-					"SetFalse": [
-						"feed01d051981bee"
-					]
+					"SetFalse": ["feed01d051981bee"]
 				},
 				"OnAbort": {
-					"SetFalse": [
-						"feed01d051981bee"
-					]
+					"SetFalse": ["feed01d051981bee"]
 				}
 			}
 		},
@@ -6485,16 +6091,12 @@
 			"properties": {
 				"m_aSequences": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"feedcfd70b3fdf71"
-					]
+					"value": ["feedcfd70b3fdf71"]
 				}
 			},
 			"outputCopying": {
 				"OnStop": {
-					"ExitSequenceOver": [
-						"feed6809f1423297"
-					]
+					"ExitSequenceOver": ["feed6809f1423297"]
 				}
 			}
 		},
@@ -6539,9 +6141,7 @@
 			"properties": {
 				"m_aItems": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"feedb96036466833"
-					],
+					"value": ["feedb96036466833"],
 					"postInit": true
 				}
 			}
@@ -6554,10 +6154,7 @@
 			"properties": {
 				"m_aTracksAndGroups": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"feedbf0ec4b004b2",
-						"feeda872deb3897b"
-					],
+					"value": ["feedbf0ec4b004b2", "feeda872deb3897b"],
 					"postInit": true
 				}
 			}
@@ -6570,10 +6167,7 @@
 			"properties": {
 				"m_aTracksAndGroups": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"feed011448e5b8d8",
-						"feed4762594e0562"
-					],
+					"value": ["feed011448e5b8d8", "feed4762594e0562"],
 					"postInit": true
 				}
 			}
@@ -6586,9 +6180,7 @@
 			"properties": {
 				"m_aTracksAndGroups": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"feed9819a74a7373"
-					]
+					"value": ["feed9819a74a7373"]
 				}
 			}
 		},
@@ -6604,10 +6196,7 @@
 				},
 				"m_aTracksAndGroups": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"feed9432437bafff",
-						"feed97db77f62ec7"
-					]
+					"value": ["feed9432437bafff", "feed97db77f62ec7"]
 				}
 			}
 		},
@@ -6656,9 +6245,7 @@
 				},
 				"m_aItems": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"feed2a14b29da268"
-					],
+					"value": ["feed2a14b29da268"],
 					"postInit": true
 				}
 			}
@@ -6679,9 +6266,7 @@
 				},
 				"m_aItems": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"feedb185d06abdd9"
-					],
+					"value": ["feedb185d06abdd9"],
 					"postInit": true
 				}
 			}
@@ -6752,9 +6337,7 @@
 			"properties": {
 				"m_aItems": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"feed0d3edbcb8fed"
-					]
+					"value": ["feed0d3edbcb8fed"]
 				},
 				"m_entityGroup": {
 					"type": "SEntityTemplateReference",
@@ -6783,9 +6366,7 @@
 				},
 				"m_aItems": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-
-					]
+					"value": []
 				}
 			}
 		},
@@ -6811,26 +6392,8 @@
 					"type": "ZCurve",
 					"value": {
 						"data": [
-							[
-								0,
-								0.000005680594767909497,
-								0,
-								0,
-								0,
-								0,
-								0,
-								0.000005680594767909497
-							],
-							[
-								1,
-								0.000005680594767909497,
-								0,
-								0,
-								0,
-								0,
-								0,
-								0.000005680594767909497
-							]
+							[0, 0.000005680594767909497, 0, 0, 0, 0, 0, 0.000005680594767909497],
+							[1, 0.000005680594767909497, 0, 0, 0, 0, 0, 0.000005680594767909497]
 						]
 					}
 				},
@@ -6838,26 +6401,8 @@
 					"type": "ZCurve",
 					"value": {
 						"data": [
-							[
-								0,
-								0,
-								0,
-								0,
-								0,
-								0,
-								0,
-								0
-							],
-							[
-								1,
-								0,
-								0,
-								0,
-								0,
-								0,
-								0,
-								0
-							]
+							[0, 0, 0, 0, 0, 0, 0, 0],
+							[1, 0, 0, 0, 0, 0, 0, 0]
 						]
 					}
 				},
@@ -6865,26 +6410,8 @@
 					"type": "ZCurve",
 					"value": {
 						"data": [
-							[
-								0,
-								1.657495,
-								0,
-								0,
-								0,
-								0,
-								0,
-								1.657495
-							],
-							[
-								1,
-								1.657495,
-								0,
-								0,
-								0,
-								0,
-								0,
-								1.657495
-							]
+							[0, 1.657495, 0, 0, 0, 0, 0, 1.657495],
+							[1, 1.657495, 0, 0, 0, 0, 0, 1.657495]
 						]
 					}
 				},
@@ -6892,26 +6419,8 @@
 					"type": "ZCurve",
 					"value": {
 						"data": [
-							[
-								0,
-								0,
-								0,
-								0,
-								0,
-								0,
-								0,
-								0
-							],
-							[
-								1,
-								0,
-								0,
-								0,
-								0,
-								0,
-								0,
-								0
-							]
+							[0, 0, 0, 0, 0, 0, 0, 0],
+							[1, 0, 0, 0, 0, 0, 0, 0]
 						]
 					}
 				},
@@ -6919,26 +6428,8 @@
 					"type": "ZCurve",
 					"value": {
 						"data": [
-							[
-								0,
-								0,
-								0,
-								0,
-								0,
-								0,
-								0,
-								0
-							],
-							[
-								1,
-								0,
-								0,
-								0,
-								0,
-								0,
-								0,
-								0
-							]
+							[0, 0, 0, 0, 0, 0, 0, 0],
+							[1, 0, 0, 0, 0, 0, 0, 0]
 						]
 					}
 				},
@@ -6946,26 +6437,8 @@
 					"type": "ZCurve",
 					"value": {
 						"data": [
-							[
-								0,
-								-5.536709979381271e-11,
-								0,
-								0,
-								0,
-								0,
-								0,
-								-5.536709979381271e-11
-							],
-							[
-								1,
-								-5.536709979381271e-11,
-								0,
-								0,
-								0,
-								0,
-								0,
-								-5.536709979381271e-11
-							]
+							[0, -5.536709979381271e-11, 0, 0, 0, 0, 0, -5.536709979381271e-11],
+							[1, -5.536709979381271e-11, 0, 0, 0, 0, 0, -5.536709979381271e-11]
 						]
 					}
 				}
@@ -6992,9 +6465,7 @@
 				},
 				"m_aItems": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"feeda1f8a555bb5e"
-					],
+					"value": ["feeda1f8a555bb5e"],
 					"postInit": true
 				}
 			}
@@ -7021,36 +6492,9 @@
 					"type": "ZCurve",
 					"value": {
 						"data": [
-							[
-								0,
-								1,
-								0,
-								0,
-								0.21460182964801788,
-								-0.7146018147468567,
-								-4.8090179775077144e-17,
-								1
-							],
-							[
-								0.5,
-								0.5,
-								0,
-								0,
-								0.21460182964801788,
-								0.07079632580280304,
-								-0.7853981852531433,
-								0.5
-							],
-							[
-								1,
-								0,
-								0,
-								0,
-								0,
-								0,
-								0,
-								0
-							]
+							[0, 1, 0, 0, 0.21460182964801788, -0.7146018147468567, -4.8090179775077144e-17, 1],
+							[0.5, 0.5, 0, 0, 0.21460182964801788, 0.07079632580280304, -0.7853981852531433, 0.5],
+							[1, 0, 0, 0, 0, 0, 0, 0]
 						]
 					}
 				}
@@ -7068,9 +6512,7 @@
 				},
 				"m_aItems": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"feed5f33e8e77ca7"
-					]
+					"value": ["feed5f33e8e77ca7"]
 				},
 				"m_entityGroup": {
 					"type": "SEntityTemplateReference",
@@ -7087,9 +6529,7 @@
 			"properties": {
 				"m_aItems": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"feed810426f1fa14"
-					]
+					"value": ["feed810426f1fa14"]
 				},
 				"m_entityGroup": {
 					"type": "SEntityTemplateReference",
@@ -7120,26 +6560,8 @@
 					"type": "ZCurve",
 					"value": {
 						"data": [
-							[
-								0,
-								24.6,
-								0,
-								0,
-								0,
-								0,
-								0,
-								24.6
-							],
-							[
-								1,
-								24.6,
-								0,
-								0,
-								0,
-								0,
-								0,
-								24.6
-							]
+							[0, 24.6, 0, 0, 0, 0, 0, 24.6],
+							[1, 24.6, 0, 0, 0, 0, 0, 24.6]
 						]
 					}
 				}
@@ -7167,36 +6589,12 @@
 					"type": "ZCurve",
 					"value": {
 						"data": [
+							[0, 24.6, 0, 0, 0, 0, -0.0741729736328125, 24.6],
 							[
-								0,
-								24.6,
-								0,
-								0,
-								0,
-								0,
-								-0.0741729736328125,
-								24.6
+								0.8642240762710571, 24.6, 1.1021994352340698, -2.518890619277954, 2.467316150665283,
+								-1.3508033752441406, 0, 24.6
 							],
-							[
-								0.8642240762710571,
-								24.6,
-								1.1021994352340698,
-								-2.518890619277954,
-								2.467316150665283,
-								-1.3508033752441406,
-								0,
-								24.6
-							],
-							[
-								1,
-								24.6,
-								0,
-								0,
-								0,
-								0,
-								0,
-								24.6
-							]
+							[1, 24.6, 0, 0, 0, 0, 0, 24.6]
 						]
 					}
 				},
@@ -7204,36 +6602,9 @@
 					"type": "ZCurve",
 					"value": {
 						"data": [
-							[
-								0,
-								-87.92774200439453,
-								0,
-								0,
-								0,
-								0,
-								0,
-								-87.92774200439453
-							],
-							[
-								0.8642240762710571,
-								-87.92774200439453,
-								0,
-								0,
-								0,
-								0,
-								0,
-								-87.92774200439453
-							],
-							[
-								1,
-								-87.92774200439453,
-								0,
-								0,
-								0,
-								0,
-								0,
-								-87.92774200439453
-							]
+							[0, -87.92774200439453, 0, 0, 0, 0, 0, -87.92774200439453],
+							[0.8642240762710571, -87.92774200439453, 0, 0, 0, 0, 0, -87.92774200439453],
+							[1, -87.92774200439453, 0, 0, 0, 0, 0, -87.92774200439453]
 						]
 					}
 				},
@@ -7241,36 +6612,12 @@
 					"type": "ZCurve",
 					"value": {
 						"data": [
+							[0, 31.657495, 0, 0, 0, 0, 1.2355194091796875, 31.657495],
 							[
-								0,
-								31.657495,
-								0,
-								0,
-								0,
-								0,
-								1.2355194091796875,
-								31.657495
+								0.8642240762710571, 31.657495, -2.762479305267334, 7.145765781402588, -7.848359107971191,
+								4.4550933837890625, 0, 31.657495
 							],
-							[
-								0.8642240762710571,
-								31.657495,
-								-2.762479305267334,
-								7.145765781402588,
-								-7.848359107971191,
-								4.4550933837890625,
-								0,
-								31.657495
-							],
-							[
-								1,
-								31.657495,
-								0,
-								0,
-								0,
-								0,
-								0,
-								31.657495
-							]
+							[1, 31.657495, 0, 0, 0, 0, 0, 31.657495]
 						]
 					}
 				},
@@ -7278,36 +6625,9 @@
 					"type": "ZCurve",
 					"value": {
 						"data": [
-							[
-								0,
-								-0.17429526150226593,
-								0,
-								0,
-								0,
-								0,
-								0,
-								-0.17429526150226593
-							],
-							[
-								0.8642240762710571,
-								-0.17429526150226593,
-								0,
-								0,
-								0,
-								0,
-								0,
-								-0.17429526150226593
-							],
-							[
-								1,
-								-0.17429526150226593,
-								0,
-								0,
-								0,
-								0,
-								0,
-								-0.17429526150226593
-							]
+							[0, -0.17429526150226593, 0, 0, 0, 0, 0, -0.17429526150226593],
+							[0.8642240762710571, -0.17429526150226593, 0, 0, 0, 0, 0, -0.17429526150226593],
+							[1, -0.17429526150226593, 0, 0, 0, 0, 0, -0.17429526150226593]
 						]
 					}
 				},
@@ -7315,36 +6635,12 @@
 					"type": "ZCurve",
 					"value": {
 						"data": [
+							[0, 2.2635459899902344, 0, 0, 0, 0, 0.16797801852226257, 2.2635459899902344],
 							[
-								0,
-								2.2635459899902344,
-								0,
-								0,
-								0,
-								0,
-								0.16797801852226257,
-								2.2635459899902344
+								0.8642240762710571, 2.431524008512497, -0.0739838033914566, 0.42246803641319275,
+								-0.6721747517585754, 0.4161735475063324, 0, 2.431524008512497
 							],
-							[
-								0.8642240762710571,
-								2.431524008512497,
-								-0.0739838033914566,
-								0.42246803641319275,
-								-0.6721747517585754,
-								0.4161735475063324,
-								0,
-								2.431524008512497
-							],
-							[
-								1,
-								2.524007022380829,
-								0,
-								0,
-								0,
-								0,
-								0,
-								2.524007022380829
-							]
+							[1, 2.524007022380829, 0, 0, 0, 0, 0, 2.524007022380829]
 						]
 					}
 				},
@@ -7352,36 +6648,9 @@
 					"type": "ZCurve",
 					"value": {
 						"data": [
-							[
-								0,
-								-167.62570190429688,
-								0,
-								0,
-								0,
-								0,
-								0,
-								-167.62570190429688
-							],
-							[
-								0.8642240762710571,
-								-167.62570190429688,
-								0,
-								0,
-								0,
-								0,
-								0,
-								-167.62570190429688
-							],
-							[
-								1,
-								-167.62570190429688,
-								0,
-								0,
-								0,
-								0,
-								0,
-								-167.62570190429688
-							]
+							[0, -167.62570190429688, 0, 0, 0, 0, 0, -167.62570190429688],
+							[0.8642240762710571, -167.62570190429688, 0, 0, 0, 0, 0, -167.62570190429688],
+							[1, -167.62570190429688, 0, 0, 0, 0, 0, -167.62570190429688]
 						]
 					}
 				}
@@ -7436,9 +6705,7 @@
 			},
 			"events": {
 				"ExitActivated": {
-					"StartExitSequence": [
-						"feed6809f1423297"
-					]
+					"StartExitSequence": ["feed6809f1423297"]
 				}
 			}
 		},
@@ -8172,12 +7439,8 @@
 			"externalScene": "[assembly:/_pro/scenes/missions/greedy/mission_raccoon/scenario_raccoon.brick].pc_entitytype"
 		}
 	],
-	"pinConnectionOverrides": [
-
-	],
-	"pinConnectionOverrideDeletes": [
-
-	],
+	"pinConnectionOverrides": [],
+	"pinConnectionOverrideDeletes": [],
 	"externalScenes": [
 		"[assembly:/_pro/scenes/missions/greedy/mission_raccoon/scenario_raccoon.brick].pc_entitytype",
 		"[assembly:/sonsofprovidence/funeral/funeral_outfits.brick].pc_entitytype",
@@ -8185,13 +7448,7 @@
 	],
 	"subType": "scene",
 	"quickEntityVersion": 3.1,
-	"extraFactoryDependencies": [
-
-	],
-	"extraBlueprintDependencies": [
-
-	],
-	"comments": [
-
-	]
+	"extraFactoryDependencies": [],
+	"extraBlueprintDependencies": [],
+	"comments": []
 }

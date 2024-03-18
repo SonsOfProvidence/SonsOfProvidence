@@ -107,9 +107,7 @@
 				},
 				"m_LocalColliders": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"ec806844331425b6"
-					],
+					"value": ["ec806844331425b6"],
 					"postInit": true
 				}
 			}
@@ -137,9 +135,7 @@
 				},
 				"Clients": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"e3293ebba8396188"
-					]
+					"value": ["e3293ebba8396188"]
 				},
 				"Diffuse_Tint_Value": {
 					"type": "SColorRGB",
@@ -205,9 +201,7 @@
 				},
 				"Clients": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"e3293ebba8396188"
-					]
+					"value": ["e3293ebba8396188"]
 				},
 				"ConstantVector1D_03_Value_op": {
 					"type": "IRenderMaterialEntity.EModifierOperation",
@@ -280,9 +274,7 @@
 				},
 				"Clients": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"e3293ebba8396188"
-					]
+					"value": ["e3293ebba8396188"]
 				},
 				"Texture2D_01_enab": {
 					"type": "bool",
@@ -418,9 +410,7 @@
 				},
 				"Clients": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"e3293ebba8396188"
-					]
+					"value": ["e3293ebba8396188"]
 				},
 				"ConstantVector1D_04_Value_op": {
 					"type": "IRenderMaterialEntity.EModifierOperation",
@@ -482,9 +472,7 @@
 				},
 				"Clients": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"e3293ebba8396188"
-					]
+					"value": ["e3293ebba8396188"]
 				},
 				"Texture2D_01_enab": {
 					"type": "bool",
@@ -722,9 +710,7 @@
 				},
 				"Clients": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"e3293ebba8396188"
-					]
+					"value": ["e3293ebba8396188"]
 				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
@@ -748,21 +734,11 @@
 			}
 		}
 	},
-	"propertyOverrides": [
-
-	],
-	"overrideDeletes": [
-
-	],
-	"pinConnectionOverrides": [
-
-	],
-	"pinConnectionOverrideDeletes": [
-
-	],
-	"externalScenes": [
-
-	],
+	"propertyOverrides": [],
+	"overrideDeletes": [],
+	"pinConnectionOverrides": [],
+	"pinConnectionOverrideDeletes": [],
+	"externalScenes": [],
 	"subType": "template",
 	"quickEntityVersion": 3.1,
 	"extraFactoryDependencies": [
@@ -843,10 +819,6 @@
 			"flag": "5F"
 		}
 	],
-	"extraBlueprintDependencies": [
-
-	],
-	"comments": [
-
-	]
+	"extraBlueprintDependencies": [],
+	"comments": []
 }

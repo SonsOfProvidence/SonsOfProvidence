@@ -81,9 +81,7 @@
 				},
 				"Clients": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"e50eb3f162f06202"
-					],
+					"value": ["e50eb3f162f06202"],
 					"postInit": true
 				},
 				"m_eidParent": {
@@ -124,9 +122,7 @@
 				},
 				"Clients": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"48b2ff856d0a903d"
-					],
+					"value": ["48b2ff856d0a903d"],
 					"postInit": true
 				},
 				"m_eidParent": {
@@ -224,9 +220,7 @@
 				},
 				"Clients": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"e50eb3f162f06202"
-					]
+					"value": ["e50eb3f162f06202"]
 				},
 				"EyeShader_01_IrisHueShift": {
 					"type": "float32",
@@ -334,9 +328,7 @@
 				},
 				"Clients": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"15e75d7e3a27a4e9"
-					]
+					"value": ["15e75d7e3a27a4e9"]
 				},
 				"ConstantVector1D_01_Value_op": {
 					"type": "IRenderMaterialEntity.EModifierOperation",
@@ -389,9 +381,7 @@
 			"properties": {
 				"m_LocalColliders": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-
-					]
+					"value": []
 				},
 				"m_fFrustumFarDistanceProperty": {
 					"type": "float32",
@@ -523,9 +513,7 @@
 				},
 				"Clients": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"ce2e082e15290b6b"
-					]
+					"value": ["ce2e082e15290b6b"]
 				},
 				"ConstantColorRGB_02_Value_op": {
 					"type": "IRenderMaterialEntity.EModifierOperation",
@@ -618,30 +606,14 @@
 			}
 		}
 	},
-	"propertyOverrides": [
-
-	],
-	"overrideDeletes": [
-
-	],
-	"pinConnectionOverrides": [
-
-	],
-	"pinConnectionOverrideDeletes": [
-
-	],
-	"externalScenes": [
-
-	],
+	"propertyOverrides": [],
+	"overrideDeletes": [],
+	"pinConnectionOverrides": [],
+	"pinConnectionOverrideDeletes": [],
+	"externalScenes": [],
 	"subType": "template",
 	"quickEntityVersion": 3.1,
-	"extraFactoryDependencies": [
-
-	],
-	"extraBlueprintDependencies": [
-
-	],
-	"comments": [
-
-	]
+	"extraFactoryDependencies": [],
+	"extraBlueprintDependencies": [],
+	"comments": []
 }

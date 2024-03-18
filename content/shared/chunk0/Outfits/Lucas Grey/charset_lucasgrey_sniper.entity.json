@@ -11,10 +11,7 @@
 			"properties": {
 				"m_aVariations": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"d60a4a575c0273c7",
-						"44bef655027e398f"
-					],
+					"value": ["d60a4a575c0273c7", "44bef655027e398f"],
 					"postInit": true
 				}
 			}
@@ -33,10 +30,7 @@
 			"properties": {
 				"m_aVariations": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"2a35b36f6ad8447f",
-						"b5053ca234982c1e"
-					],
+					"value": ["2a35b36f6ad8447f", "b5053ca234982c1e"],
 					"postInit": true
 				}
 			}
@@ -49,11 +43,7 @@
 			"properties": {
 				"m_aCharacters": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"a062e60c070a9f31",
-						"6d1e9518973b19c4",
-						"2b33258166bec6d3"
-					],
+					"value": ["a062e60c070a9f31", "6d1e9518973b19c4", "2b33258166bec6d3"],
 					"postInit": true
 				}
 			}
@@ -93,10 +83,7 @@
 			"properties": {
 				"m_aVariations": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"b49cfd1777640387",
-						"e58a9ffcc9361f3a"
-					]
+					"value": ["b49cfd1777640387", "e58a9ffcc9361f3a"]
 				}
 			}
 		},
@@ -122,30 +109,14 @@
 			}
 		}
 	},
-	"propertyOverrides": [
-
-	],
-	"overrideDeletes": [
-
-	],
-	"pinConnectionOverrides": [
-
-	],
-	"pinConnectionOverrideDeletes": [
-
-	],
-	"externalScenes": [
-
-	],
+	"propertyOverrides": [],
+	"overrideDeletes": [],
+	"pinConnectionOverrides": [],
+	"pinConnectionOverrideDeletes": [],
+	"externalScenes": [],
 	"subType": "template",
 	"quickEntityVersion": 3.1,
-	"extraFactoryDependencies": [
-
-	],
-	"extraBlueprintDependencies": [
-
-	],
-	"comments": [
-
-	]
+	"extraFactoryDependencies": [],
+	"extraBlueprintDependencies": [],
+	"comments": []
 }

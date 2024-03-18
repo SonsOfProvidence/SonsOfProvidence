@@ -81,21 +81,15 @@
 			},
 			"events": {
 				"ActEvent4002": {
-					"StartFire": [
-						"af433ff3769f4a45"
-					]
+					"StartFire": ["af433ff3769f4a45"]
 				},
 				"ActEvent4003": {
-					"Holster": [
-						"af433ff3769f4a45"
-					]
+					"Holster": ["af433ff3769f4a45"]
 				}
 			},
 			"outputCopying": {
 				"ActEvent4002": {
-					"Fire_Weapon": [
-						"a972e9786c82b67f"
-					]
+					"Fire_Weapon": ["a972e9786c82b67f"]
 				}
 			}
 		},
@@ -174,9 +168,7 @@
 				},
 				"m_aApproachPath": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-
-					]
+					"value": []
 				},
 				"m_eState": {
 					"type": "ZActBehaviorEntity.EState",
@@ -198,26 +190,18 @@
 			},
 			"events": {
 				"OnStart": {
-					"Unholster": [
-						"af433ff3769f4a45"
-					]
+					"Unholster": ["af433ff3769f4a45"]
 				}
 			},
 			"outputCopying": {
 				"OnStart": {
-					"OnStart": [
-						"a972e9786c82b67f"
-					]
+					"OnStart": ["a972e9786c82b67f"]
 				},
 				"OnReached": {
-					"OnReached": [
-						"a972e9786c82b67f"
-					]
+					"OnReached": ["a972e9786c82b67f"]
 				},
 				"OnActDone": {
-					"OnActDone": [
-						"a972e9786c82b67f"
-					]
+					"OnActDone": ["a972e9786c82b67f"]
 				}
 			}
 		},
@@ -253,24 +237,16 @@
 			},
 			"inputCopying": {
 				"Start": {
-					"Start": [
-						"3822db5cd85e84d9"
-					]
+					"Start": ["3822db5cd85e84d9"]
 				},
 				"React": {
-					"Request": [
-						"f46f1d71bad35a7f"
-					]
+					"Request": ["f46f1d71bad35a7f"]
 				},
 				"Fire_Pistol_From_ReactLoop": {
-					"Request": [
-						"4a5ac63a93b737a6"
-					]
+					"Request": ["4a5ac63a93b737a6"]
 				},
 				"Fire_Pistol_From_ArmBackLoop": {
-					"Request": [
-						"6c9d11d304727e85"
-					]
+					"Request": ["6c9d11d304727e85"]
 				}
 			},
 			"propertyAliases": {
@@ -389,30 +365,14 @@
 			}
 		}
 	},
-	"propertyOverrides": [
-
-	],
-	"overrideDeletes": [
-
-	],
-	"pinConnectionOverrides": [
-
-	],
-	"pinConnectionOverrideDeletes": [
-
-	],
-	"externalScenes": [
-
-	],
+	"propertyOverrides": [],
+	"overrideDeletes": [],
+	"pinConnectionOverrides": [],
+	"pinConnectionOverrideDeletes": [],
+	"externalScenes": [],
 	"subType": "template",
 	"quickEntityVersion": 3.1,
-	"extraFactoryDependencies": [
-
-	],
-	"extraBlueprintDependencies": [
-
-	],
-	"comments": [
-
-	]
+	"extraFactoryDependencies": [],
+	"extraBlueprintDependencies": [],
+	"comments": []
 }

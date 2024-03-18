@@ -67,9 +67,7 @@
 				},
 				"Clients": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"e62e6760cc0b954b"
-					],
+					"value": ["e62e6760cc0b954b"],
 					"postInit": true
 				}
 			}
@@ -140,9 +138,7 @@
 				},
 				"Clients": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"e62e6760cc0b954b"
-					],
+					"value": ["e62e6760cc0b954b"],
 					"postInit": true
 				}
 			}
@@ -170,9 +166,7 @@
 				},
 				"Clients": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"e62e6760cc0b954b"
-					],
+					"value": ["e62e6760cc0b954b"],
 					"postInit": true
 				},
 				"Texture2D_01_enab": {
@@ -217,9 +211,7 @@
 				},
 				"CharacterLinkedEntity2": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-
-					]
+					"value": []
 				},
 				"CharacterLinkedEntity": {
 					"type": "SEntityTemplateReference",
@@ -266,9 +258,7 @@
 				},
 				"Clients": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"e62e6760cc0b954b"
-					],
+					"value": ["e62e6760cc0b954b"],
 					"postInit": true
 				}
 			}
@@ -288,9 +278,7 @@
 				},
 				"m_ClothColliders": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-
-					]
+					"value": []
 				}
 			}
 		},
@@ -337,21 +325,11 @@
 			}
 		}
 	},
-	"propertyOverrides": [
-
-	],
-	"overrideDeletes": [
-
-	],
-	"pinConnectionOverrides": [
-
-	],
-	"pinConnectionOverrideDeletes": [
-
-	],
-	"externalScenes": [
-
-	],
+	"propertyOverrides": [],
+	"overrideDeletes": [],
+	"pinConnectionOverrides": [],
+	"pinConnectionOverrideDeletes": [],
+	"externalScenes": [],
 	"subType": "template",
 	"quickEntityVersion": 3.1,
 	"extraFactoryDependencies": [
@@ -432,10 +410,6 @@
 			"flag": "5F"
 		}
 	],
-	"extraBlueprintDependencies": [
-
-	],
-	"comments": [
-
-	]
+	"extraBlueprintDependencies": [],
+	"comments": []
 }

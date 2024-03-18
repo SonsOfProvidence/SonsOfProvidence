@@ -11,9 +11,7 @@
 			"properties": {
 				"m_aVariations": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"ab24a50d672de838"
-					],
+					"value": ["ab24a50d672de838"],
 					"postInit": true
 				}
 			}
@@ -56,9 +54,7 @@
 			"properties": {
 				"m_aVariations": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"ddec58a305ca6a03"
-					],
+					"value": ["ddec58a305ca6a03"],
 					"postInit": true
 				}
 			}
@@ -71,9 +67,7 @@
 			"properties": {
 				"m_aVariations": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"feed6982f758b0d9"
-					],
+					"value": ["feed6982f758b0d9"],
 					"postInit": true
 				}
 			}
@@ -86,11 +80,7 @@
 			"properties": {
 				"m_aCharacters": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"5816f847f644cbcd",
-						"27c063a1df505a1c",
-						"6c2850a8f5c3401d"
-					]
+					"value": ["5816f847f644cbcd", "27c063a1df505a1c", "6c2850a8f5c3401d"]
 				}
 			}
 		},
@@ -101,30 +91,14 @@
 			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint"
 		}
 	},
-	"propertyOverrides": [
-
-	],
-	"overrideDeletes": [
-
-	],
-	"pinConnectionOverrides": [
-
-	],
-	"pinConnectionOverrideDeletes": [
-
-	],
-	"externalScenes": [
-
-	],
+	"propertyOverrides": [],
+	"overrideDeletes": [],
+	"pinConnectionOverrides": [],
+	"pinConnectionOverrideDeletes": [],
+	"externalScenes": [],
 	"subType": "template",
 	"quickEntityVersion": 3.1,
-	"extraFactoryDependencies": [
-
-	],
-	"extraBlueprintDependencies": [
-
-	],
-	"comments": [
-
-	]
+	"extraFactoryDependencies": [],
+	"extraBlueprintDependencies": [],
+	"comments": []
 }

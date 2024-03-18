@@ -37,7 +37,7 @@ Here is a Google doc describing the mod: https://docs.google.com/document/d/1p4J
 Screenshots of development: https://drive.google.com/drive/folders/1qDZbWrh8asCa3vEfYIuR9_0DD2S4TjNH?usp=sharing  
 Update Video for version 0.7: https://www.youtube.com/watch?v=nBDP6n_3Ugg  
 Update Video for version 0.17: https://www.youtube.com/watch?v=pTICV5o_M1E  
-Update Video for version 0.43: https://www.youtube.com/watch?v=Yl8Oi9fGbl4  
+Update Video for version 0.43: https://www.youtube.com/watch?v=Yl8Oi9fGbl4
 
 # Planned Campaign Mission and Cutscene list:
 
@@ -104,7 +104,7 @@ Grey begins reminiscing about 47 and studies mysterious deaths and disappearance
 **Setting Location**: Moscow  
 **Sandbox Destination**: Siberia  
 **Intro Cutscene**:  
-**Gameplay**:  
+**Gameplay**:
 
 **New starting location**: In front of the mansion  
 **Scenery changes**: Add a cityscape to make it look more like the Red Square in Moscow  

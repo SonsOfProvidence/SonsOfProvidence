@@ -322,9 +322,7 @@
 				},
 				"Clients": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"95aefd50dde742f0"
-					],
+					"value": ["95aefd50dde742f0"],
 					"postInit": true
 				},
 				"m_eidParent": {
@@ -377,9 +375,7 @@
 				},
 				"Clients": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"95aefd50dde742f0"
-					],
+					"value": ["95aefd50dde742f0"],
 					"postInit": true
 				},
 				"m_eidParent": {
@@ -427,9 +423,7 @@
 				},
 				"Clients": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"95aefd50dde742f0"
-					],
+					"value": ["95aefd50dde742f0"],
 					"postInit": true
 				},
 				"m_eidParent": {
@@ -499,9 +493,7 @@
 				},
 				"Clients": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"95aefd50dde742f0"
-					],
+					"value": ["95aefd50dde742f0"],
 					"postInit": true
 				},
 				"m_eidParent": {
@@ -646,21 +638,11 @@
 			}
 		}
 	},
-	"propertyOverrides": [
-
-	],
-	"overrideDeletes": [
-
-	],
-	"pinConnectionOverrides": [
-
-	],
-	"pinConnectionOverrideDeletes": [
-
-	],
-	"externalScenes": [
-
-	],
+	"propertyOverrides": [],
+	"overrideDeletes": [],
+	"pinConnectionOverrides": [],
+	"pinConnectionOverrideDeletes": [],
+	"externalScenes": [],
 	"subType": "template",
 	"quickEntityVersion": 3.1,
 	"extraFactoryDependencies": [
@@ -725,10 +707,6 @@
 			"flag": "5F"
 		}
 	],
-	"extraBlueprintDependencies": [
-
-	],
-	"comments": [
-
-	]
+	"extraBlueprintDependencies": [],
+	"comments": []
 }

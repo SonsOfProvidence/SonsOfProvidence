@@ -17,9 +17,7 @@
 			"properties": {
 				"m_aVariations": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"f117966d34ecaecf"
-					]
+					"value": ["f117966d34ecaecf"]
 				}
 			}
 		},
@@ -37,11 +35,7 @@
 			"properties": {
 				"m_aCharacters": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"a7b97d59e59aa36c",
-						"b0df03c1b623494e",
-						"231dd020e7953ba0"
-					],
+					"value": ["a7b97d59e59aa36c", "b0df03c1b623494e", "231dd020e7953ba0"],
 					"postInit": true
 				}
 			}
@@ -54,9 +48,7 @@
 			"properties": {
 				"m_aVariations": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"a547446636213b68"
-					],
+					"value": ["a547446636213b68"],
 					"postInit": true
 				}
 			}
@@ -84,37 +76,19 @@
 			"properties": {
 				"m_aVariations": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"631fea7bb7a42375"
-					]
+					"value": ["631fea7bb7a42375"]
 				}
 			}
 		}
 	},
-	"propertyOverrides": [
-
-	],
-	"overrideDeletes": [
-
-	],
-	"pinConnectionOverrides": [
-
-	],
-	"pinConnectionOverrideDeletes": [
-
-	],
-	"externalScenes": [
-
-	],
+	"propertyOverrides": [],
+	"overrideDeletes": [],
+	"pinConnectionOverrides": [],
+	"pinConnectionOverrideDeletes": [],
+	"externalScenes": [],
 	"subType": "template",
 	"quickEntityVersion": 3.1,
-	"extraFactoryDependencies": [
-
-	],
-	"extraBlueprintDependencies": [
-
-	],
-	"comments": [
-
-	]
+	"extraFactoryDependencies": [],
+	"extraBlueprintDependencies": [],
+	"comments": []
 }

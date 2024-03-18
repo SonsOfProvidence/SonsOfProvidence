@@ -57,9 +57,7 @@
 				},
 				"m_LocalColliders": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"abcd52b42ac3d798"
-					]
+					"value": ["abcd52b42ac3d798"]
 				},
 				"m_fDamping": {
 					"type": "float32",
@@ -315,9 +313,7 @@
 				},
 				"Clients": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"8a1a25c92b349cbb"
-					],
+					"value": ["8a1a25c92b349cbb"],
 					"postInit": true
 				},
 				"Texture2D_01_enab": {
@@ -386,9 +382,7 @@
 				},
 				"Clients": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"8a1a25c92b349cbb"
-					]
+					"value": ["8a1a25c92b349cbb"]
 				},
 				"ConstantVector1D_01_Value": {
 					"type": "float32",
@@ -412,30 +406,14 @@
 			}
 		}
 	},
-	"propertyOverrides": [
-
-	],
-	"overrideDeletes": [
-
-	],
-	"pinConnectionOverrides": [
-
-	],
-	"pinConnectionOverrideDeletes": [
-
-	],
-	"externalScenes": [
-
-	],
+	"propertyOverrides": [],
+	"overrideDeletes": [],
+	"pinConnectionOverrides": [],
+	"pinConnectionOverrideDeletes": [],
+	"externalScenes": [],
 	"subType": "template",
 	"quickEntityVersion": 3.1,
-	"extraFactoryDependencies": [
-
-	],
-	"extraBlueprintDependencies": [
-
-	],
-	"comments": [
-
-	]
+	"extraFactoryDependencies": [],
+	"extraBlueprintDependencies": [],
+	"comments": []
 }

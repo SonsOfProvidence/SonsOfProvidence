@@ -565,19 +565,13 @@
 				},
 				"m_aEnforcedOutfits": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-
-					],
+					"value": [],
 					"postInit": true
 				}
 			},
 			"subsets": {
-				"AudioEmitters": [
-					"fffffffffffffffe"
-				],
-				"Replicable": [
-					"fffffffffffffffe"
-				]
+				"AudioEmitters": ["fffffffffffffffe"],
+				"Replicable": ["fffffffffffffffe"]
 			}
 		},
 		"feed55de631596a9": {
@@ -618,14 +612,10 @@
 			},
 			"events": {
 				"Item": {
-					"SetItem": [
-						"feed5dd4d96cb4c1"
-					]
+					"SetItem": ["feed5dd4d96cb4c1"]
 				},
 				"ItemReady": {
-					"In": [
-						"feed05ddff255d75"
-					]
+					"In": ["feed05ddff255d75"]
 				}
 			}
 		},
@@ -660,9 +650,7 @@
 			},
 			"events": {
 				"Out": {
-					"PickupIntoHands": [
-						"feed5dd4d96cb4c1"
-					]
+					"PickupIntoHands": ["feed5dd4d96cb4c1"]
 				}
 			}
 		},
@@ -694,9 +682,7 @@
 				},
 				"m_aTracksAndGroups": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-
-					]
+					"value": []
 				},
 				"m_sequenceOrigin": {
 					"type": "SEntityTemplateReference",
@@ -744,9 +730,7 @@
 				},
 				"m_aSequences": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"feed3e78e04bad38"
-					]
+					"value": ["feed3e78e04bad38"]
 				},
 				"m_bHideItems": {
 					"type": "bool",
@@ -759,15 +743,11 @@
 			},
 			"events": {
 				"OnPlay": {
-					"SpawnItem": [
-						"feed55de631596a9"
-					]
+					"SpawnItem": ["feed55de631596a9"]
 				}
 			},
 			"subsets": {
-				"AudioEmitters": [
-					"fffffffffffffffe"
-				]
+				"AudioEmitters": ["fffffffffffffffe"]
 			}
 		},
 		"feed51ab04f42fc6": {
@@ -782,9 +762,7 @@
 				},
 				"m_aTracksAndGroups": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"feedea7712e46ce0"
-					],
+					"value": ["feedea7712e46ce0"],
 					"postInit": true
 				}
 			}
@@ -801,9 +779,7 @@
 				},
 				"m_aItems": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"feed2d2514852f24"
-					]
+					"value": ["feed2d2514852f24"]
 				},
 				"m_bRestoreValueAfterEnd": {
 					"type": "bool",
@@ -834,25 +810,10 @@
 					"value": {
 						"data": [
 							[
-								0,
-								-0.25535133481025696,
-								-0.22673986852169037,
-								0.5668497085571289,
-								-0.6046396493911743,
-								0.34010979533195496,
-								0,
-								-0.25535133481025696
+								0, -0.25535133481025696, -0.22673986852169037, 0.5668497085571289, -0.6046396493911743,
+								0.34010979533195496, 0, -0.25535133481025696
 							],
-							[
-								1,
-								-0.17977137863636017,
-								0,
-								0,
-								0,
-								0,
-								0,
-								-0.17977137863636017
-							]
+							[1, -0.17977137863636017, 0, 0, 0, 0, 0, -0.17977137863636017]
 						]
 					}
 				},
@@ -861,25 +822,10 @@
 					"value": {
 						"data": [
 							[
-								0,
-								-86.81672668457031,
-								3.838348388671875,
-								-9.595870971679688,
-								10.235595703125,
-								-5.7575225830078125,
-								0,
-								-86.81672668457031
+								0, -86.81672668457031, 3.838348388671875, -9.595870971679688, 10.235595703125,
+								-5.7575225830078125, 0, -86.81672668457031
 							],
-							[
-								1,
-								-88.09617614746094,
-								0,
-								0,
-								0,
-								0,
-								0,
-								-88.09617614746094
-							]
+							[1, -88.09617614746094, 0, 0, 0, 0, 0, -88.09617614746094]
 						]
 					}
 				},
@@ -888,25 +834,10 @@
 					"value": {
 						"data": [
 							[
-								0,
-								-1.9959040880203247,
-								-0.790823221206665,
-								1.9770580530166626,
-								-2.1088619232177734,
-								1.1862348318099976,
-								0,
-								-1.9959040880203247
+								0, -1.9959040880203247, -0.790823221206665, 1.9770580530166626, -2.1088619232177734,
+								1.1862348318099976, 0, -1.9959040880203247
 							],
-							[
-								1,
-								-1.732296347618103,
-								0,
-								0,
-								0,
-								0,
-								0,
-								-1.732296347618103
-							]
+							[1, -1.732296347618103, 0, 0, 0, 0, 0, -1.732296347618103]
 						]
 					}
 				},
@@ -914,26 +845,8 @@
 					"type": "ZCurve",
 					"value": {
 						"data": [
-							[
-								0,
-								180,
-								0,
-								0,
-								0,
-								0,
-								0,
-								180
-							],
-							[
-								1,
-								180,
-								0,
-								0,
-								0,
-								0,
-								0,
-								180
-							]
+							[0, 180, 0, 0, 0, 0, 0, 180],
+							[1, 180, 0, 0, 0, 0, 0, 180]
 						]
 					}
 				},
@@ -942,25 +855,10 @@
 					"value": {
 						"data": [
 							[
-								0,
-								1.6200569868087769,
-								0.06017095968127251,
-								-0.15042740106582642,
-								0.16045589745044708,
-								-0.09025643765926361,
-								0,
-								1.6200569868087769
+								0, 1.6200569868087769, 0.06017095968127251, -0.15042740106582642, 0.16045589745044708,
+								-0.09025643765926361, 0, 1.6200569868087769
 							],
-							[
-								1,
-								1.600000023841858,
-								0,
-								0,
-								0,
-								0,
-								0,
-								1.600000023841858
-							]
+							[1, 1.600000023841858, 0, 0, 0, 0, 0, 1.600000023841858]
 						]
 					}
 				},
@@ -969,25 +867,10 @@
 					"value": {
 						"data": [
 							[
-								0,
-								-150.54541015625,
-								9.616424560546875,
-								-24.041061401367188,
-								25.643798828125,
-								-14.424636840820312,
-								0,
-								-150.54541015625
+								0, -150.54541015625, 9.616424560546875, -24.041061401367188, 25.643798828125,
+								-14.424636840820312, 0, -150.54541015625
 							],
-							[
-								1,
-								-153.75088500976562,
-								0,
-								0,
-								0,
-								0,
-								0,
-								-153.75088500976562
-							]
+							[1, -153.75088500976562, 0, 0, 0, 0, 0, -153.75088500976562]
 						]
 					}
 				},
@@ -1077,19 +960,13 @@
 				},
 				"m_aEnforcedOutfits": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-
-					],
+					"value": [],
 					"postInit": true
 				}
 			},
 			"subsets": {
-				"AudioEmitters": [
-					"fffffffffffffffe"
-				],
-				"Replicable": [
-					"fffffffffffffffe"
-				]
+				"AudioEmitters": ["fffffffffffffffe"],
+				"Replicable": ["fffffffffffffffe"]
 			}
 		},
 		"feed6014000d451f": {
@@ -1121,16 +998,12 @@
 				},
 				"m_aHigherPriority": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"feed1d82663b0b17"
-					],
+					"value": ["feed1d82663b0b17"],
 					"postInit": true
 				},
 				"privateVolume": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"feeda352f41b29ec"
-					],
+					"value": ["feeda352f41b29ec"],
 					"postInit": true
 				},
 				"m_rActorProvider": {
@@ -1140,9 +1013,7 @@
 				},
 				"exclusionList": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"feed90d89ed84bb7"
-					],
+					"value": ["feed90d89ed84bb7"],
 					"postInit": true
 				},
 				"m_eidParent": {
@@ -1153,9 +1024,7 @@
 			},
 			"events": {
 				"Triggered": {
-					"MoveHitmanToRoom": [
-						"feeddf85a10391e2"
-					]
+					"MoveHitmanToRoom": ["feeddf85a10391e2"]
 				}
 			}
 		},
@@ -1195,18 +1064,12 @@
 			},
 			"events": {
 				"MoveHitmanBack": {
-					"ReturnHitmanToEntrance": [
-						"feed526fae54c946"
-					]
+					"ReturnHitmanToEntrance": ["feed526fae54c946"]
 				}
 			},
 			"subsets": {
-				"AudioEmitters": [
-					"fffffffffffffffe"
-				],
-				"Rooms": [
-					"fffffffffffffffe"
-				]
+				"AudioEmitters": ["fffffffffffffffe"],
+				"Rooms": ["fffffffffffffffe"]
 			}
 		},
 		"feed1d82663b0b17": {
@@ -1227,9 +1090,7 @@
 				},
 				"m_aRoles": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"feedf534062a501e"
-					],
+					"value": ["feedf534062a501e"],
 					"postInit": true
 				}
 			}
@@ -1290,12 +1151,8 @@
 				}
 			},
 			"subsets": {
-				"AudioEmitters": [
-					"fffffffffffffffe"
-				],
-				"Replicable": [
-					"fffffffffffffffe"
-				]
+				"AudioEmitters": ["fffffffffffffffe"],
+				"Replicable": ["fffffffffffffffe"]
 			}
 		},
 		"feedf34f80b60424": {
@@ -1439,12 +1296,8 @@
 			},
 			"events": {
 				"OnStart": {
-					"Start": [
-						"feed3e4cecb266e9"
-					],
-					"Set": [
-						"feeda700542084e2"
-					]
+					"Start": ["feed3e4cecb266e9"],
+					"Set": ["feeda700542084e2"]
 				}
 			}
 		},
@@ -1498,9 +1351,7 @@
 			},
 			"events": {
 				"OnActDone": {
-					"Start": [
-						"feed364ce7bda0a3"
-					]
+					"Start": ["feed364ce7bda0a3"]
 				}
 			}
 		},
@@ -1634,9 +1485,7 @@
 			},
 			"events": {
 				"OnActDone": {
-					"Start": [
-						"feedbb14ee095f99"
-					]
+					"Start": ["feedbb14ee095f99"]
 				}
 			}
 		},
@@ -1709,16 +1558,12 @@
 				},
 				"m_aHigherPriority": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"feedbabcdeb09c43"
-					],
+					"value": ["feedbabcdeb09c43"],
 					"postInit": true
 				},
 				"privateVolume": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"feedbca654bec226"
-					],
+					"value": ["feedbca654bec226"],
 					"postInit": true
 				},
 				"m_rActorProvider": {
@@ -1728,9 +1573,7 @@
 				},
 				"exclusionList": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"feed951236e1f386"
-					],
+					"value": ["feed951236e1f386"],
 					"postInit": true
 				},
 				"m_eidParent": {
@@ -1741,9 +1584,7 @@
 			},
 			"events": {
 				"Triggered": {
-					"MoveHitmanToRoom": [
-						"feeddca9603ed59d"
-					]
+					"MoveHitmanToRoom": ["feeddca9603ed59d"]
 				}
 			}
 		},
@@ -1783,18 +1624,12 @@
 			},
 			"events": {
 				"MoveHitmanBack": {
-					"ReturnHitmanToEntrance": [
-						"feedf2c1a7538998"
-					]
+					"ReturnHitmanToEntrance": ["feedf2c1a7538998"]
 				}
 			},
 			"subsets": {
-				"AudioEmitters": [
-					"fffffffffffffffe"
-				],
-				"Rooms": [
-					"fffffffffffffffe"
-				]
+				"AudioEmitters": ["fffffffffffffffe"],
+				"Rooms": ["fffffffffffffffe"]
 			}
 		},
 		"feedbabcdeb09c43": {
@@ -1815,9 +1650,7 @@
 				},
 				"m_aRoles": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"feed3d0e5b738b1e"
-					],
+					"value": ["feed3d0e5b738b1e"],
 					"postInit": true
 				}
 			}
@@ -1878,12 +1711,8 @@
 				}
 			},
 			"subsets": {
-				"AudioEmitters": [
-					"fffffffffffffffe"
-				],
-				"Replicable": [
-					"fffffffffffffffe"
-				]
+				"AudioEmitters": ["fffffffffffffffe"],
+				"Replicable": ["fffffffffffffffe"]
 			}
 		},
 		"feed325e7c07bb1a": {
@@ -2027,12 +1856,8 @@
 			},
 			"events": {
 				"OnStart": {
-					"Start": [
-						"feedf6c85533db6b"
-					],
-					"Set": [
-						"feedb4989f2e295b"
-					]
+					"Start": ["feedf6c85533db6b"],
+					"Set": ["feedb4989f2e295b"]
 				}
 			}
 		},
@@ -2084,9 +1909,7 @@
 					"postInit": true
 				}
 			},
-			"events": {
-
-			}
+			"events": {}
 		},
 		"feedb4989f2e295b": {
 			"parent": "feedbabcdeb09c43",
@@ -2197,16 +2020,12 @@
 				},
 				"m_aHigherPriority": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"feedf7c11358152f"
-					],
+					"value": ["feedf7c11358152f"],
 					"postInit": true
 				},
 				"privateVolume": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"feed16747f7daaf1"
-					],
+					"value": ["feed16747f7daaf1"],
 					"postInit": true
 				},
 				"m_rActorProvider": {
@@ -2216,9 +2035,7 @@
 				},
 				"exclusionList": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"feed0d4aee5e7121"
-					],
+					"value": ["feed0d4aee5e7121"],
 					"postInit": true
 				},
 				"m_eidParent": {
@@ -2229,9 +2046,7 @@
 			},
 			"events": {
 				"Triggered": {
-					"MoveHitmanToRoom": [
-						"feed3a81d810ba3e"
-					]
+					"MoveHitmanToRoom": ["feed3a81d810ba3e"]
 				}
 			}
 		},
@@ -2271,18 +2086,12 @@
 			},
 			"events": {
 				"MoveHitmanBack": {
-					"ReturnHitmanToEntrance": [
-						"feedb858c2c8fc30"
-					]
+					"ReturnHitmanToEntrance": ["feedb858c2c8fc30"]
 				}
 			},
 			"subsets": {
-				"AudioEmitters": [
-					"fffffffffffffffe"
-				],
-				"Rooms": [
-					"fffffffffffffffe"
-				]
+				"AudioEmitters": ["fffffffffffffffe"],
+				"Rooms": ["fffffffffffffffe"]
 			}
 		},
 		"feedf7c11358152f": {
@@ -2303,9 +2112,7 @@
 				},
 				"m_aRoles": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"feedf4e722acce00"
-					],
+					"value": ["feedf4e722acce00"],
 					"postInit": true
 				}
 			}
@@ -2366,12 +2173,8 @@
 				}
 			},
 			"subsets": {
-				"AudioEmitters": [
-					"fffffffffffffffe"
-				],
-				"Replicable": [
-					"fffffffffffffffe"
-				]
+				"AudioEmitters": ["fffffffffffffffe"],
+				"Replicable": ["fffffffffffffffe"]
 			}
 		},
 		"feed51a05ce3a403": {
@@ -2515,12 +2318,8 @@
 			},
 			"events": {
 				"OnStart": {
-					"Start": [
-						"feed0dfc57efec2c"
-					],
-					"Set": [
-						"feed752fecc35eca"
-					]
+					"Start": ["feed0dfc57efec2c"],
+					"Set": ["feed752fecc35eca"]
 				}
 			}
 		},
@@ -2572,9 +2371,7 @@
 					"postInit": true
 				}
 			},
-			"events": {
-
-			}
+			"events": {}
 		},
 		"feed752fecc35eca": {
 			"parent": "feedf7c11358152f",
@@ -2708,19 +2505,13 @@
 				},
 				"m_aEnforcedOutfits": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-
-					],
+					"value": [],
 					"postInit": true
 				}
 			},
 			"subsets": {
-				"AudioEmitters": [
-					"fffffffffffffffe"
-				],
-				"Replicable": [
-					"fffffffffffffffe"
-				]
+				"AudioEmitters": ["fffffffffffffffe"],
+				"Replicable": ["fffffffffffffffe"]
 			}
 		},
 		"feedd9ec41666109": {
@@ -2775,19 +2566,13 @@
 				},
 				"m_aEnforcedOutfits": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-
-					],
+					"value": [],
 					"postInit": true
 				}
 			},
 			"subsets": {
-				"AudioEmitters": [
-					"fffffffffffffffe"
-				],
-				"Replicable": [
-					"fffffffffffffffe"
-				]
+				"AudioEmitters": ["fffffffffffffffe"],
+				"Replicable": ["fffffffffffffffe"]
 			}
 		},
 		"feed650623e3413d": {
@@ -2842,19 +2627,13 @@
 				},
 				"m_aEnforcedOutfits": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-
-					],
+					"value": [],
 					"postInit": true
 				}
 			},
 			"subsets": {
-				"AudioEmitters": [
-					"fffffffffffffffe"
-				],
-				"Replicable": [
-					"fffffffffffffffe"
-				]
+				"AudioEmitters": ["fffffffffffffffe"],
+				"Replicable": ["fffffffffffffffe"]
 			}
 		},
 		"feedf72f23c11003": {
@@ -2909,19 +2688,13 @@
 				},
 				"m_aEnforcedOutfits": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-
-					],
+					"value": [],
 					"postInit": true
 				}
 			},
 			"subsets": {
-				"AudioEmitters": [
-					"fffffffffffffffe"
-				],
-				"Replicable": [
-					"fffffffffffffffe"
-				]
+				"AudioEmitters": ["fffffffffffffffe"],
+				"Replicable": ["fffffffffffffffe"]
 			}
 		},
 		"feedbf2decf65f4d": {
@@ -2969,15 +2742,9 @@
 			},
 			"events": {
 				"TimeOut": {
-					"Stop": [
-						"feed44b5c7c3a7ae"
-					],
-					"Reset": [
-						"feed44b5c7c3a7ae"
-					],
-					"Military_Armed_Riffle": [
-						"feed364ce7bda0a3"
-					]
+					"Stop": ["feed44b5c7c3a7ae"],
+					"Reset": ["feed44b5c7c3a7ae"],
+					"Military_Armed_Riffle": ["feed364ce7bda0a3"]
 				}
 			}
 		},
@@ -3031,17 +2798,11 @@
 			},
 			"events": {
 				"OnStart": {
-					"Start": [
-						"feed44b5c7c3a7ae"
-					],
-					"Military_Aim_Fire": [
-						"feed364ce7bda0a3"
-					]
+					"Start": ["feed44b5c7c3a7ae"],
+					"Military_Aim_Fire": ["feed364ce7bda0a3"]
 				},
 				"OnActTimeout": {
-					"Start": [
-						"feed0915975109b8"
-					]
+					"Start": ["feed0915975109b8"]
 				}
 			}
 		},
@@ -3095,9 +2856,7 @@
 			},
 			"events": {
 				"OnReached": {
-					"Start": [
-						"feed7f4c03b9d085"
-					]
+					"Start": ["feed7f4c03b9d085"]
 				}
 			}
 		},
@@ -3139,9 +2898,7 @@
 			},
 			"events": {
 				"OnReached": {
-					"Start": [
-						"feed8640f8685165"
-					]
+					"Start": ["feed8640f8685165"]
 				}
 			}
 		},
@@ -3179,18 +2936,12 @@
 			},
 			"events": {
 				"OnActDone": {
-					"Start": [
-						"feed364ce7bda0a3"
-					],
-					"TransmitEvent": [
-						"feed9b729844d892"
-					]
+					"Start": ["feed364ce7bda0a3"],
+					"TransmitEvent": ["feed9b729844d892"]
 				}
 			},
 			"subsets": {
-				"AudioEmitters": [
-					"fffffffffffffffe"
-				]
+				"AudioEmitters": ["fffffffffffffffe"]
 			}
 		},
 		"feed7e6b296a6e3b": {
@@ -3231,9 +2982,7 @@
 			},
 			"events": {
 				"Item": {
-					"SetItem": [
-						"feed9aa32be3218c"
-					]
+					"SetItem": ["feed9aa32be3218c"]
 				}
 			}
 		},
@@ -3279,12 +3028,8 @@
 			"blueprint": "[modules:/zeventreceiverentity_void.class].pc_entityblueprint",
 			"events": {
 				"EventReceived": {
-					"SpawnItem": [
-						"feed7e6b296a6e3b"
-					],
-					"AddToInventory": [
-						"feed9aa32be3218c"
-					]
+					"SpawnItem": ["feed7e6b296a6e3b"],
+					"AddToInventory": ["feed9aa32be3218c"]
 				}
 			}
 		},
@@ -3296,9 +3041,7 @@
 			"properties": {
 				"m_Receivers": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"feed3b4e0b0ad51d"
-					]
+					"value": ["feed3b4e0b0ad51d"]
 				}
 			}
 		}
@@ -3362,12 +3105,8 @@
 			"externalScene": "[assembly:/_pro/scenes/missions/ancestral/scenario_bulldog.brick].pc_entitytype"
 		}
 	],
-	"pinConnectionOverrides": [
-
-	],
-	"pinConnectionOverrideDeletes": [
-
-	],
+	"pinConnectionOverrides": [],
+	"pinConnectionOverrideDeletes": [],
 	"externalScenes": [
 		"[assembly:/_pro/scenes/missions/ancestral/scenario_bulldog.brick].pc_entitytype",
 		"[assembly:/sonsofprovidence/outfits_institute.brick].pc_entitytype",
@@ -3375,13 +3114,7 @@
 	],
 	"subType": "scene",
 	"quickEntityVersion": 3.1,
-	"extraFactoryDependencies": [
-
-	],
-	"extraBlueprintDependencies": [
-
-	],
-	"comments": [
-
-	]
+	"extraFactoryDependencies": [],
+	"extraBlueprintDependencies": [],
+	"comments": []
 }

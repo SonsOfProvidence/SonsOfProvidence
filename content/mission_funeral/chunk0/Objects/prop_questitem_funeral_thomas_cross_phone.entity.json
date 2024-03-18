@@ -74,9 +74,7 @@
 				}
 			},
 			"subsets": {
-				"AudioEmitters": [
-					"db6bbbfdc1640b46"
-				]
+				"AudioEmitters": ["db6bbbfdc1640b46"]
 			}
 		},
 		"0ee6f53b5fb638e7": {
@@ -87,9 +85,7 @@
 			"properties": {
 				"m_aHolders": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"908c96445e793718"
-					]
+					"value": ["908c96445e793718"]
 				}
 			}
 		},
@@ -106,9 +102,7 @@
 			},
 			"events": {
 				"EventOccurred": {
-					"Poll": [
-						"83f440bd7658913f"
-					]
+					"Poll": ["83f440bd7658913f"]
 				}
 			}
 		},
@@ -133,9 +127,7 @@
 			},
 			"events": {
 				"GlowType": {
-					"SetGlowType": [
-						"908c96445e793718"
-					]
+					"SetGlowType": ["908c96445e793718"]
 				}
 			}
 		},
@@ -176,43 +168,27 @@
 			},
 			"events": {
 				"OnPlaced": {
-					"ItemPlaced": [
-						"d42c82dc464d2892"
-					]
+					"ItemPlaced": ["d42c82dc464d2892"]
 				},
 				"OnEquip": {
-					"Item_Equipped": [
-						"d42c82dc464d2892"
-					]
+					"Item_Equipped": ["d42c82dc464d2892"]
 				},
 				"OnUnEquip": {
-					"Item_UnEquipped": [
-						"d42c82dc464d2892"
-					]
+					"Item_UnEquipped": ["d42c82dc464d2892"]
 				},
 				"OnDrop": {
-					"OnDrop_MixingEvent": [
-						"d42c82dc464d2892"
-					],
-					"SetTrue": [
-						"750ca600436db8ee"
-					]
+					"OnDrop_MixingEvent": ["d42c82dc464d2892"],
+					"SetTrue": ["750ca600436db8ee"]
 				},
 				"OnThrown": {
-					"OnThrown_MixingEvent": [
-						"d42c82dc464d2892"
-					]
+					"OnThrown_MixingEvent": ["d42c82dc464d2892"]
 				},
 				"OwnedByHitman": {
-					"SetFalse": [
-						"750ca600436db8ee"
-					]
+					"SetFalse": ["750ca600436db8ee"]
 				}
 			},
 			"subsets": {
-				"Replicable": [
-					"db6bbbfdc1640b46"
-				]
+				"Replicable": ["db6bbbfdc1640b46"]
 			}
 		},
 		"db6bbbfdc1640b46": {
@@ -286,9 +262,7 @@
 			"properties": {
 				"m_aHolders": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"908c96445e793718"
-					]
+					"value": ["908c96445e793718"]
 				}
 			}
 		},
@@ -317,9 +291,7 @@
 			"blueprint": "[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entityblueprint",
 			"events": {
 				"OnTrue": {
-					"MakeVisible": [
-						"609b05ede701d08f"
-					]
+					"MakeVisible": ["609b05ede701d08f"]
 				}
 			}
 		},
@@ -336,28 +308,16 @@
 			},
 			"events": {
 				"PollTrue": {
-					"MakeVisible": [
-						"609b05ede701d08f"
-					]
+					"MakeVisible": ["609b05ede701d08f"]
 				}
 			}
 		}
 	},
-	"propertyOverrides": [
-
-	],
-	"overrideDeletes": [
-
-	],
-	"pinConnectionOverrides": [
-
-	],
-	"pinConnectionOverrideDeletes": [
-
-	],
-	"externalScenes": [
-
-	],
+	"propertyOverrides": [],
+	"overrideDeletes": [],
+	"pinConnectionOverrides": [],
+	"pinConnectionOverrideDeletes": [],
+	"externalScenes": [],
 	"subType": "template",
 	"quickEntityVersion": 3.1,
 	"extraFactoryDependencies": [
@@ -378,10 +338,6 @@
 			"flag": "5F"
 		}
 	],
-	"extraBlueprintDependencies": [
-
-	],
-	"comments": [
-
-	]
+	"extraBlueprintDependencies": [],
+	"comments": []
 }

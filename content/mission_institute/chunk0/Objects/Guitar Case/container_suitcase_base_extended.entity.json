@@ -11,9 +11,7 @@
 			"properties": {
 				"m_aHolders": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"0f459c74b488e03c"
-					],
+					"value": ["0f459c74b488e03c"],
 					"postInit": true
 				}
 			}
@@ -45,9 +43,7 @@
 			"properties": {
 				"m_aHolders": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"0f459c74b488e03c"
-					],
+					"value": ["0f459c74b488e03c"],
 					"postInit": true
 				}
 			}
@@ -94,20 +90,12 @@
 			},
 			"events": {
 				"OnTrue": {
-					"SetFalse": [
-						"0e8432dd9545f374"
-					],
-					"MakeInvisible": [
-						"d025aa4ed1deee8b"
-					]
+					"SetFalse": ["0e8432dd9545f374"],
+					"MakeInvisible": ["d025aa4ed1deee8b"]
 				},
 				"OnFalse": {
-					"SetTrue": [
-						"0e8432dd9545f374"
-					],
-					"MakeVisible": [
-						"d025aa4ed1deee8b"
-					]
+					"SetTrue": ["0e8432dd9545f374"],
+					"MakeVisible": ["d025aa4ed1deee8b"]
 				}
 			}
 		},
@@ -155,12 +143,7 @@
 			"properties": {
 				"m_aValues": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"8bc1eedac45e0282",
-						"9aa76fe21311f6b4",
-						"04ce610e138b4dac",
-						"f38462c87741da3a"
-					],
+					"value": ["8bc1eedac45e0282", "9aa76fe21311f6b4", "04ce610e138b4dac", "f38462c87741da3a"],
 					"postInit": true
 				}
 			}
@@ -235,9 +218,7 @@
 			"properties": {
 				"m_aHolders": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"0f459c74b488e03c"
-					],
+					"value": ["0f459c74b488e03c"],
 					"postInit": true
 				}
 			}
@@ -256,9 +237,7 @@
 			},
 			"events": {
 				"ContainedItemDestroyed": {
-					"Get": [
-						"94ce6c78333ae869"
-					]
+					"Get": ["94ce6c78333ae869"]
 				}
 			}
 		},
@@ -270,9 +249,7 @@
 			"properties": {
 				"m_aHolders": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"0f459c74b488e03c"
-					],
+					"value": ["0f459c74b488e03c"],
 					"postInit": true
 				}
 			}
@@ -285,9 +262,7 @@
 			"properties": {
 				"m_aHolders": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"90ba13786168c571"
-					],
+					"value": ["90ba13786168c571"],
 					"postInit": true
 				}
 			}
@@ -312,9 +287,7 @@
 			"properties": {
 				"m_aHolders": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"0f459c74b488e03c"
-					],
+					"value": ["0f459c74b488e03c"],
 					"postInit": true
 				}
 			}
@@ -399,9 +372,7 @@
 			"properties": {
 				"m_aHolders": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"0f459c74b488e03c"
-					],
+					"value": ["0f459c74b488e03c"],
 					"postInit": true
 				}
 			}
@@ -420,9 +391,7 @@
 			},
 			"events": {
 				"EventReceived": {
-					"SetTrue": [
-						"b61a25feae8387d3"
-					]
+					"SetTrue": ["b61a25feae8387d3"]
 				}
 			}
 		},
@@ -459,11 +428,7 @@
 			"properties": {
 				"m_aValues": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"2367734688e12edb",
-						"9aa76fe21311f6b4",
-						"04ce610e138b4dac"
-					],
+					"value": ["2367734688e12edb", "9aa76fe21311f6b4", "04ce610e138b4dac"],
 					"postInit": true
 				}
 			}
@@ -475,14 +440,10 @@
 			"blueprint": "[assembly:/_pro/design/gamecore/keywords/keywordsound.template?/keywordentity_foley_item_suitcase.entitytemplate].pc_entityblueprint",
 			"events": {
 				"Keyword": {
-					"AddKeyword": [
-						"4902d48e3c4fb1dd"
-					]
+					"AddKeyword": ["4902d48e3c4fb1dd"]
 				},
 				"Keyword2": {
-					"RemoveKeyword": [
-						"4902d48e3c4fb1dd"
-					]
+					"RemoveKeyword": ["4902d48e3c4fb1dd"]
 				}
 			}
 		},
@@ -534,9 +495,7 @@
 			},
 			"events": {
 				"PollTrue": {
-					"ItemPlaced": [
-						"20c123438ec04ab5"
-					]
+					"ItemPlaced": ["20c123438ec04ab5"]
 				}
 			}
 		},
@@ -570,10 +529,7 @@
 				},
 				"m_aValues": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"9fca70200222ec08",
-						"b61a25feae8387d3"
-					],
+					"value": ["9fca70200222ec08", "b61a25feae8387d3"],
 					"postInit": true
 				}
 			}
@@ -591,14 +547,10 @@
 			},
 			"events": {
 				"PollTrue": {
-					"SetFalse": [
-						"0e8432dd9545f374"
-					]
+					"SetFalse": ["0e8432dd9545f374"]
 				},
 				"PollFalse": {
-					"SetTrue": [
-						"0e8432dd9545f374"
-					]
+					"SetTrue": ["0e8432dd9545f374"]
 				}
 			}
 		},
@@ -616,9 +568,7 @@
 			"properties": {
 				"m_aHolders": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"0f459c74b488e03c"
-					],
+					"value": ["0f459c74b488e03c"],
 					"postInit": true
 				}
 			}
@@ -631,15 +581,11 @@
 			"properties": {
 				"m_ConditionList_Usable": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"1c422c35c9459985"
-					]
+					"value": ["1c422c35c9459985"]
 				},
 				"m_ConditionList_Visible": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"1c422c35c9459985"
-					]
+					"value": ["1c422c35c9459985"]
 				},
 				"m_bIsIllegal": {
 					"type": "bool",
@@ -678,15 +624,11 @@
 				},
 				"m_aPromptText": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-
-					]
+					"value": []
 				},
 				"m_aPromptDescriptionText": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-
-					]
+					"value": []
 				},
 				"m_Object": {
 					"type": "SEntityTemplateReference",
@@ -716,17 +658,11 @@
 			},
 			"events": {
 				"ItemUsed": {
-					"PlaceIntoContainerItem": [
-						"864b3063ba97ce68"
-					],
-					"SetItem": [
-						"63b12b96f1c11201"
-					]
+					"PlaceIntoContainerItem": ["864b3063ba97ce68"],
+					"SetItem": ["63b12b96f1c11201"]
 				},
 				"Started": {
-					"StartDelay": [
-						"04ce610e138b4dac"
-					]
+					"StartDelay": ["04ce610e138b4dac"]
 				}
 			}
 		},
@@ -738,9 +674,7 @@
 			"properties": {
 				"m_aHolders": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"0f459c74b488e03c"
-					],
+					"value": ["0f459c74b488e03c"],
 					"postInit": true
 				}
 			}
@@ -757,9 +691,7 @@
 				},
 				"m_aSubactions": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"fafe10e3a394cfe2"
-					]
+					"value": ["fafe10e3a394cfe2"]
 				},
 				"m_sPromptText": {
 					"type": "ZString",
@@ -858,9 +790,7 @@
 			"properties": {
 				"m_aHolders": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"0f459c74b488e03c"
-					],
+					"value": ["0f459c74b488e03c"],
 					"postInit": true
 				}
 			}
@@ -879,11 +809,7 @@
 			"properties": {
 				"m_aValueEntities": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"be27e5400e067b3b",
-						"758ea18e6cfca63d",
-						"58d30ea95ed7264c"
-					],
+					"value": ["be27e5400e067b3b", "758ea18e6cfca63d", "58d30ea95ed7264c"],
 					"postInit": true
 				}
 			}
@@ -901,9 +827,7 @@
 			},
 			"events": {
 				"EventReceived": {
-					"SetFalse": [
-						"b61a25feae8387d3"
-					]
+					"SetFalse": ["b61a25feae8387d3"]
 				}
 			}
 		},
@@ -957,9 +881,7 @@
 			},
 			"events": {
 				"PollTrue": {
-					"GetKeyword": [
-						"c962ae99c6ab6f08"
-					]
+					"GetKeyword": ["c962ae99c6ab6f08"]
 				}
 			}
 		},
@@ -970,9 +892,7 @@
 			"blueprint": "[modules:/zgameeventlistenerentity.class].pc_entityblueprint",
 			"events": {
 				"EventOccurred": {
-					"Poll": [
-						"31eebd165924f9d2"
-					]
+					"Poll": ["31eebd165924f9d2"]
 				}
 			}
 		},
@@ -1006,15 +926,11 @@
 			"properties": {
 				"m_ConditionList_Usable": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"4b4fb8dcdf5cbe11"
-					]
+					"value": ["4b4fb8dcdf5cbe11"]
 				},
 				"m_ConditionList_Visible": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"4b4fb8dcdf5cbe11"
-					]
+					"value": ["4b4fb8dcdf5cbe11"]
 				},
 				"m_bIsIllegal": {
 					"type": "bool",
@@ -1049,15 +965,11 @@
 				},
 				"m_aPromptText": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-
-					]
+					"value": []
 				},
 				"m_aPromptDescriptionText": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-
-					]
+					"value": []
 				},
 				"m_Object": {
 					"type": "SEntityTemplateReference",
@@ -1070,12 +982,8 @@
 			},
 			"events": {
 				"Started": {
-					"EquipContainedItem": [
-						"864b3063ba97ce68"
-					],
-					"StartDelay": [
-						"04ce610e138b4dac"
-					]
+					"EquipContainedItem": ["864b3063ba97ce68"],
+					"StartDelay": ["04ce610e138b4dac"]
 				}
 			}
 		},
@@ -1093,9 +1001,7 @@
 			"properties": {
 				"m_aHolders": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"0f459c74b488e03c"
-					]
+					"value": ["0f459c74b488e03c"]
 				}
 			}
 		},
@@ -1113,9 +1019,7 @@
 			"properties": {
 				"m_aHolders": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"90ba13786168c571"
-					]
+					"value": ["90ba13786168c571"]
 				}
 			}
 		},
@@ -1222,9 +1126,7 @@
 				}
 			},
 			"subsets": {
-				"AudioEmitters": [
-					"7ad3ed4b84b88d45"
-				]
+				"AudioEmitters": ["7ad3ed4b84b88d45"]
 			}
 		},
 		"9aa76fe21311f6b4": {
@@ -1281,21 +1183,11 @@
 			},
 			"events": {
 				"OnTrue": {
-					"DisablePickup": [
-						"e64a41baf11aee3e"
-					],
-					"TurnOff": [
-						"e64a41baf11aee3e"
-					],
-					"DisableAIPerceptible": [
-						"e64a41baf11aee3e"
-					],
-					"WeaponBroken": [
-						"e64a41baf11aee3e"
-					],
-					"DestroyAndRemoveItem": [
-						"e64a41baf11aee3e"
-					],
+					"DisablePickup": ["e64a41baf11aee3e"],
+					"TurnOff": ["e64a41baf11aee3e"],
+					"DisableAIPerceptible": ["e64a41baf11aee3e"],
+					"WeaponBroken": ["e64a41baf11aee3e"],
+					"DestroyAndRemoveItem": ["e64a41baf11aee3e"],
 					"SetInPhysicsWorld": [
 						{
 							"ref": "90ba13786168c571",
@@ -1430,10 +1322,7 @@
 				},
 				"m_aSubactions": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"058253ab47e29def",
-						"f092bc411a4ce601"
-					]
+					"value": ["058253ab47e29def", "f092bc411a4ce601"]
 				},
 				"m_rItemContainer": {
 					"type": "SEntityTemplateReference",
@@ -1459,104 +1348,54 @@
 			},
 			"events": {
 				"OnPlaced": {
-					"ItemPlaced": [
-						"20c123438ec04ab5"
-					],
-					"SetFalse": [
-						"3cd87f1cf46f067a"
-					],
-					"GetKeyword2": [
-						"c962ae99c6ab6f08"
-					]
+					"ItemPlaced": ["20c123438ec04ab5"],
+					"SetFalse": ["3cd87f1cf46f067a"],
+					"GetKeyword2": ["c962ae99c6ab6f08"]
 				},
 				"OwnedByHitman": {
-					"Item_Equipped": [
-						"20c123438ec04ab5"
-					],
-					"SetTrue": [
-						"3cd87f1cf46f067a"
-					],
-					"GetKeyword": [
-						"c962ae99c6ab6f08"
-					]
+					"Item_Equipped": ["20c123438ec04ab5"],
+					"SetTrue": ["3cd87f1cf46f067a"],
+					"GetKeyword": ["c962ae99c6ab6f08"]
 				},
 				"OnDrop": {
-					"Item_UnEquipped": [
-						"20c123438ec04ab5"
-					],
-					"OnDrop_MixingEvent": [
-						"20c123438ec04ab5"
-					],
-					"SetFalse": [
-						"3cd87f1cf46f067a"
-					],
-					"GetKeyword2": [
-						"c962ae99c6ab6f08"
-					]
+					"Item_UnEquipped": ["20c123438ec04ab5"],
+					"OnDrop_MixingEvent": ["20c123438ec04ab5"],
+					"SetFalse": ["3cd87f1cf46f067a"],
+					"GetKeyword2": ["c962ae99c6ab6f08"]
 				},
 				"OnRelease": {
-					"SetFalse": [
-						"3cd87f1cf46f067a"
-					],
-					"GetKeyword2": [
-						"c962ae99c6ab6f08"
-					]
+					"SetFalse": ["3cd87f1cf46f067a"],
+					"GetKeyword2": ["c962ae99c6ab6f08"]
 				},
 				"OnRequestPutInContainer": {
-					"Execute": [
-						"058253ab47e29def"
-					]
+					"Execute": ["058253ab47e29def"]
 				},
 				"ImpactFrontSide": {
-					"Impact": [
-						"20c123438ec04ab5"
-					],
-					"Poll": [
-						"6d2309cc251fc9f0"
-					]
+					"Impact": ["20c123438ec04ab5"],
+					"Poll": ["6d2309cc251fc9f0"]
 				},
 				"ImpactBack": {
-					"Impact_Back": [
-						"20c123438ec04ab5"
-					],
-					"Poll": [
-						"6d2309cc251fc9f0"
-					]
+					"Impact_Back": ["20c123438ec04ab5"],
+					"Poll": ["6d2309cc251fc9f0"]
 				},
 				"DeadlyThrowImpact": {
-					"DeadlyThrowImpact": [
-						"20c123438ec04ab5"
-					],
-					"Poll": [
-						"6d2309cc251fc9f0"
-					]
+					"DeadlyThrowImpact": ["20c123438ec04ab5"],
+					"Poll": ["6d2309cc251fc9f0"]
 				},
 				"ThrowImpact": {
-					"ItemPlaced": [
-						"20c123438ec04ab5"
-					]
+					"ItemPlaced": ["20c123438ec04ab5"]
 				},
 				"OnDestroyed": {
-					"MakeInvisible": [
-						"d025aa4ed1deee8b"
-					]
+					"MakeInvisible": ["d025aa4ed1deee8b"]
 				},
 				"OnThrown": {
-					"OnThrown_MixingEvent": [
-						"20c123438ec04ab5"
-					],
-					"GetKeyword2": [
-						"c962ae99c6ab6f08"
-					],
-					"ItemGeneric01": [
-						"20c123438ec04ab5"
-					]
+					"OnThrown_MixingEvent": ["20c123438ec04ab5"],
+					"GetKeyword2": ["c962ae99c6ab6f08"],
+					"ItemGeneric01": ["20c123438ec04ab5"]
 				}
 			},
 			"subsets": {
-				"Replicable": [
-					"7ad3ed4b84b88d45"
-				]
+				"Replicable": ["7ad3ed4b84b88d45"]
 			}
 		},
 		"7ad3ed4b84b88d45": {
@@ -1670,12 +1509,7 @@
 			"properties": {
 				"m_aValues": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"2367734688e12edb",
-						"9aa76fe21311f6b4",
-						"04ce610e138b4dac",
-						"f38462c87741da3a"
-					]
+					"value": ["2367734688e12edb", "9aa76fe21311f6b4", "04ce610e138b4dac", "f38462c87741da3a"]
 				}
 			}
 		},
@@ -1692,12 +1526,8 @@
 			},
 			"events": {
 				"EventOccurred": {
-					"Poll": [
-						"bb5dfd915998e968"
-					],
-					"GetKeyword": [
-						"c962ae99c6ab6f08"
-					]
+					"Poll": ["bb5dfd915998e968"],
+					"GetKeyword": ["c962ae99c6ab6f08"]
 				}
 			}
 		},
@@ -1754,28 +1584,16 @@
 			},
 			"events": {
 				"Item": {
-					"PlaceItem": [
-						"8bc1eedac45e0282"
-					]
+					"PlaceItem": ["8bc1eedac45e0282"]
 				}
 			}
 		}
 	},
-	"propertyOverrides": [
-
-	],
-	"overrideDeletes": [
-
-	],
-	"pinConnectionOverrides": [
-
-	],
-	"pinConnectionOverrideDeletes": [
-
-	],
-	"externalScenes": [
-
-	],
+	"propertyOverrides": [],
+	"overrideDeletes": [],
+	"pinConnectionOverrides": [],
+	"pinConnectionOverrideDeletes": [],
+	"externalScenes": [],
 	"subType": "template",
 	"quickEntityVersion": 3.1,
 	"extraFactoryDependencies": [
@@ -1788,10 +1606,6 @@
 			"flag": "5F"
 		}
 	],
-	"extraBlueprintDependencies": [
-
-	],
-	"comments": [
-
-	]
+	"extraBlueprintDependencies": [],
+	"comments": []
 }

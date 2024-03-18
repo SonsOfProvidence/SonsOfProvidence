@@ -54,9 +54,7 @@
 				},
 				"m_LocalColliders": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-
-					]
+					"value": []
 				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
@@ -116,9 +114,7 @@
 				},
 				"m_LocalColliders": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-
-					]
+					"value": []
 				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
@@ -178,9 +174,7 @@
 				},
 				"m_LocalColliders": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-
-					]
+					"value": []
 				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
@@ -225,20 +219,14 @@
 			"properties": {
 				"m_Listener": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"24f1005c8b369176"
-					],
+					"value": ["24f1005c8b369176"],
 					"postInit": true
 				}
 			},
 			"events": {
 				"OnActivate": {
-					"SetTrue": [
-						"feedec9dd937a4e8"
-					],
-					"In": [
-						"12ee1d60b48953dc"
-					],
+					"SetTrue": ["feedec9dd937a4e8"],
+					"In": ["12ee1d60b48953dc"],
 					"Activate": [
 						"9d40379ec58903b7",
 						"7d2bcb760bf5b310",
@@ -264,12 +252,8 @@
 						"2dcfa65accfb0fc1",
 						"9438b8e2e7ce5268"
 					],
-					"MakeInvisible": [
-						"24f1005c8b369176"
-					],
-					"DisableSimulation": [
-						"24f1005c8b369176"
-					]
+					"MakeInvisible": ["24f1005c8b369176"],
+					"DisableSimulation": ["24f1005c8b369176"]
 				}
 			}
 		},
@@ -332,9 +316,7 @@
 				},
 				"m_AreaBoxes": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"15030b0aeb285893"
-					]
+					"value": ["15030b0aeb285893"]
 				},
 				"m_fStrength": {
 					"type": "float32",
@@ -406,9 +388,7 @@
 				},
 				"m_LocalColliders": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-
-					]
+					"value": []
 				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
@@ -468,9 +448,7 @@
 				},
 				"m_LocalColliders": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-
-					]
+					"value": []
 				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
@@ -664,9 +642,7 @@
 						"2dcfa65accfb0fc1",
 						"9438b8e2e7ce5268"
 					],
-					"Disable": [
-						"24a3814570da69ed"
-					]
+					"Disable": ["24a3814570da69ed"]
 				}
 			}
 		},
@@ -749,9 +725,7 @@
 				},
 				"m_LocalColliders": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-
-					]
+					"value": []
 				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
@@ -905,28 +879,16 @@
 			"properties": {
 				"m_aValueEntities": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"feedd40b23cc8dd7"
-					]
+					"value": ["feedd40b23cc8dd7"]
 				}
 			}
 		}
 	},
-	"propertyOverrides": [
-
-	],
-	"overrideDeletes": [
-
-	],
-	"pinConnectionOverrides": [
-
-	],
-	"pinConnectionOverrideDeletes": [
-
-	],
-	"externalScenes": [
-
-	],
+	"propertyOverrides": [],
+	"overrideDeletes": [],
+	"pinConnectionOverrides": [],
+	"pinConnectionOverrideDeletes": [],
+	"externalScenes": [],
 	"subType": "template",
 	"quickEntityVersion": 3.1,
 	"extraFactoryDependencies": [
@@ -967,10 +929,6 @@
 			"flag": "5F"
 		}
 	],
-	"extraBlueprintDependencies": [
-
-	],
-	"comments": [
-
-	]
+	"extraBlueprintDependencies": [],
+	"comments": []
 }

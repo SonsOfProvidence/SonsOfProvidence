@@ -45,18 +45,13 @@
 				"Type": "statemachine",
 				"Definition": {
 					"Context": {
-						"Targets": [
-							"1518c0c7-7fa1-4d51-a87d-d660e5bfc8f1"
-						]
+						"Targets": ["1518c0c7-7fa1-4d51-a87d-d660e5bfc8f1"]
 					},
 					"States": {
 						"Start": {
 							"ItemPickedUp": {
 								"Condition": {
-									"$eq": [
-										"$Value.RepositoryId",
-										"1518c0c7-7fa1-4d51-a87d-d660e5bfc8f1"
-									]
+									"$eq": ["$Value.RepositoryId", "1518c0c7-7fa1-4d51-a87d-d660e5bfc8f1"]
 								},
 								"Transition": "Success"
 							}

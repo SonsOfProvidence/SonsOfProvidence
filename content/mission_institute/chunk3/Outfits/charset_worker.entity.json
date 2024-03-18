@@ -22,9 +22,7 @@
 			"properties": {
 				"m_aVariations": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"feeda09f936a70d4"
-					]
+					"value": ["feeda09f936a70d4"]
 				}
 			},
 			"factory": "[modules:/zcharsetcharactertype.class].pc_entitytype"
@@ -48,9 +46,7 @@
 			"properties": {
 				"m_aVariations": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"8081ad013abb189d"
-					]
+					"value": ["8081ad013abb189d"]
 				}
 			},
 			"factory": "[modules:/zcharsetcharactertype.class].pc_entitytype"
@@ -62,9 +58,7 @@
 			"properties": {
 				"m_aVariations": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"ff2e13419e29d0b2"
-					]
+					"value": ["ff2e13419e29d0b2"]
 				}
 			},
 			"factory": "[modules:/zcharsetcharactertype.class].pc_entitytype"
@@ -76,11 +70,7 @@
 			"properties": {
 				"m_aCharacters": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"6051217c5a972faf",
-						"8e7890fc6fa38d9b",
-						"391645991db86c05"
-					],
+					"value": ["6051217c5a972faf", "8e7890fc6fa38d9b", "391645991db86c05"],
 					"postInit": true
 				}
 			},
@@ -99,30 +89,14 @@
 			}
 		}
 	},
-	"propertyOverrides": [
-
-	],
-	"overrideDeletes": [
-
-	],
-	"pinConnectionOverrides": [
-
-	],
-	"pinConnectionOverrideDeletes": [
-
-	],
-	"externalScenes": [
-
-	],
+	"propertyOverrides": [],
+	"overrideDeletes": [],
+	"pinConnectionOverrides": [],
+	"pinConnectionOverrideDeletes": [],
+	"externalScenes": [],
 	"subType": "template",
 	"quickEntityVersion": 3.1,
-	"extraFactoryDependencies": [
-
-	],
-	"extraBlueprintDependencies": [
-
-	],
-	"comments": [
-
-	]
+	"extraFactoryDependencies": [],
+	"extraBlueprintDependencies": [],
+	"comments": []
 }

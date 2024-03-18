@@ -51,9 +51,7 @@
 				},
 				"m_aCharSets": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"feedbaa5f0bc7d19"
-					]
+					"value": ["feedbaa5f0bc7d19"]
 				},
 				"m_sId": {
 					"type": "ZGuid",
@@ -101,9 +99,7 @@
 			"properties": {
 				"m_aHolders": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"feed1a2830b91bcf"
-					],
+					"value": ["feed1a2830b91bcf"],
 					"postInit": true
 				}
 			},
@@ -197,9 +193,7 @@
 				},
 				"m_aCharSets": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"feedb77f78bfdb73"
-					],
+					"value": ["feedb77f78bfdb73"],
 					"postInit": true
 				}
 			}
@@ -247,9 +241,7 @@
 			"properties": {
 				"m_aHolders": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"feed4f6aa85f82c7"
-					]
+					"value": ["feed4f6aa85f82c7"]
 				}
 			}
 		},
@@ -299,9 +291,7 @@
 				},
 				"m_aCharSets": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"feedafb3484a99a3"
-					]
+					"value": ["feedafb3484a99a3"]
 				},
 				"m_sId": {
 					"type": "ZGuid",
@@ -316,9 +306,7 @@
 				},
 				"m_aAnimationSets": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"feed50aa8a1ba3d2"
-					]
+					"value": ["feed50aa8a1ba3d2"]
 				},
 				"m_sCommonName": {
 					"type": "ZString",
@@ -377,9 +365,7 @@
 			"properties": {
 				"m_aHolders": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"feed75bb1235e699"
-					]
+					"value": ["feed75bb1235e699"]
 				}
 			}
 		},
@@ -425,9 +411,7 @@
 				},
 				"m_aCharSets": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"feed03a13349e3a8"
-					]
+					"value": ["feed03a13349e3a8"]
 				},
 				"m_sId": {
 					"type": "ZGuid",
@@ -468,9 +452,7 @@
 				},
 				"m_aAnimationSets": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"feedb6471eabaf2e"
-					]
+					"value": ["feedb6471eabaf2e"]
 				}
 			}
 		},
@@ -494,9 +476,7 @@
 			"properties": {
 				"m_aHolders": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"feed86fc17505af7"
-					],
+					"value": ["feed86fc17505af7"],
 					"postInit": true
 				}
 			}
@@ -551,9 +531,7 @@
 				},
 				"m_aCharSets": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"feedd1f7368312f0"
-					]
+					"value": ["feedd1f7368312f0"]
 				},
 				"m_eSoundFootwearType": {
 					"type": "EHM5SoundFootwearType",
@@ -598,9 +576,7 @@
 				},
 				"m_rDefaultVoiceVariations": {
 					"type": "TArray<EActorVoiceVariation>",
-					"value": [
-
-					]
+					"value": []
 				}
 			}
 		},
@@ -631,37 +607,19 @@
 			"properties": {
 				"m_aHolders": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"feed8eb40ad7bbfe"
-					]
+					"value": ["feed8eb40ad7bbfe"]
 				}
 			}
 		}
 	},
-	"propertyOverrides": [
-
-	],
-	"overrideDeletes": [
-
-	],
-	"pinConnectionOverrides": [
-
-	],
-	"pinConnectionOverrideDeletes": [
-
-	],
-	"externalScenes": [
-		"[assembly:/_pro/scenes/bricks/globaldata.brick].pc_entitytype"
-	],
+	"propertyOverrides": [],
+	"overrideDeletes": [],
+	"pinConnectionOverrides": [],
+	"pinConnectionOverrideDeletes": [],
+	"externalScenes": ["[assembly:/_pro/scenes/bricks/globaldata.brick].pc_entitytype"],
 	"subType": "brick",
 	"quickEntityVersion": 3.1,
-	"extraFactoryDependencies": [
-
-	],
-	"extraBlueprintDependencies": [
-
-	],
-	"comments": [
-
-	]
+	"extraFactoryDependencies": [],
+	"extraBlueprintDependencies": [],
+	"comments": []
 }

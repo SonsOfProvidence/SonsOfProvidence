@@ -57,9 +57,7 @@
 				},
 				"Clients": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"1ea6b26752b01a56"
-					],
+					"value": ["1ea6b26752b01a56"],
 					"postInit": true
 				},
 				"m_eidParent": {
@@ -86,9 +84,7 @@
 			},
 			"events": {
 				"Lerp": {
-					"ConstantVector1D_01_Value": [
-						"99685dedd6f40469"
-					]
+					"ConstantVector1D_01_Value": ["99685dedd6f40469"]
 				}
 			}
 		},
@@ -164,11 +160,7 @@
 			},
 			"events": {
 				"Lerp": {
-					"ConstantVector1D_01_Value": [
-						"e166ec5b3995e096",
-						"7520d9ca56632a1c",
-						"12f5c2db2602ec8d"
-					]
+					"ConstantVector1D_01_Value": ["e166ec5b3995e096", "7520d9ca56632a1c", "12f5c2db2602ec8d"]
 				}
 			}
 		},
@@ -195,9 +187,7 @@
 				},
 				"Clients": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"19df23332c101fc9"
-					]
+					"value": ["19df23332c101fc9"]
 				},
 				"ConstantVector1D_01_Value_op": {
 					"type": "IRenderMaterialEntity.EModifierOperation",
@@ -346,9 +336,7 @@
 				},
 				"Clients": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"1ea6b26752b01a56"
-					],
+					"value": ["1ea6b26752b01a56"],
 					"postInit": true
 				},
 				"m_eidParent": {
@@ -373,28 +361,16 @@
 				},
 				"HeadMaterialOverride": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"1ea6b26752b01a56"
-					],
+					"value": ["1ea6b26752b01a56"],
 					"postInit": true
 				}
 			},
 			"events": {
 				"HitmanWetness": {
-					"T": [
-						"7136428e6ce4b3e7",
-						"78c53894f61101a0",
-						"ae229db3f7d5128c",
-						"433f37b1af5bf4a3"
-					]
+					"T": ["7136428e6ce4b3e7", "78c53894f61101a0", "ae229db3f7d5128c", "433f37b1af5bf4a3"]
 				},
 				"ChangedDisguiseTrigger": {
-					"Activate": [
-						"e166ec5b3995e096",
-						"7520d9ca56632a1c",
-						"12f5c2db2602ec8d",
-						"99685dedd6f40469"
-					]
+					"Activate": ["e166ec5b3995e096", "7520d9ca56632a1c", "12f5c2db2602ec8d", "99685dedd6f40469"]
 				}
 			}
 		},
@@ -434,9 +410,7 @@
 			},
 			"events": {
 				"Lerp": {
-					"ConstantVector1D_06_Value": [
-						"7520d9ca56632a1c"
-					]
+					"ConstantVector1D_06_Value": ["7520d9ca56632a1c"]
 				}
 			}
 		},
@@ -475,9 +449,7 @@
 				},
 				"Clients": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"1ea6b26752b01a56"
-					],
+					"value": ["1ea6b26752b01a56"],
 					"postInit": true
 				},
 				"m_eidParent": {
@@ -522,9 +494,7 @@
 				},
 				"Clients": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"1ea6b26752b01a56"
-					],
+					"value": ["1ea6b26752b01a56"],
 					"postInit": true
 				},
 				"m_eidParent": {
@@ -576,9 +546,7 @@
 				},
 				"m_LocalColliders": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-
-					]
+					"value": []
 				},
 				"m_bGlobalCollidersEnabled": {
 					"type": "bool",
@@ -738,9 +706,7 @@
 				},
 				"Clients": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"1ea6b26752b01a56"
-					]
+					"value": ["1ea6b26752b01a56"]
 				},
 				"EyeShader_01_IrisBrightness_op": {
 					"type": "IRenderMaterialEntity.EModifierOperation",
@@ -864,9 +830,7 @@
 				},
 				"Clients": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"feedb41221b7a6a6"
-					]
+					"value": ["feedb41221b7a6a6"]
 				},
 				"ConstantVector1D_01_Value_op": {
 					"type": "IRenderMaterialEntity.EModifierOperation",
@@ -917,21 +881,11 @@
 			}
 		}
 	},
-	"propertyOverrides": [
-
-	],
-	"overrideDeletes": [
-
-	],
-	"pinConnectionOverrides": [
-
-	],
-	"pinConnectionOverrideDeletes": [
-
-	],
-	"externalScenes": [
-
-	],
+	"propertyOverrides": [],
+	"overrideDeletes": [],
+	"pinConnectionOverrides": [],
+	"pinConnectionOverrideDeletes": [],
+	"externalScenes": [],
 	"subType": "template",
 	"quickEntityVersion": 3.1,
 	"extraFactoryDependencies": [
@@ -1080,10 +1034,6 @@
 			"flag": "5F"
 		}
 	],
-	"extraBlueprintDependencies": [
-
-	],
-	"comments": [
-
-	]
+	"extraBlueprintDependencies": [],
+	"comments": []
 }

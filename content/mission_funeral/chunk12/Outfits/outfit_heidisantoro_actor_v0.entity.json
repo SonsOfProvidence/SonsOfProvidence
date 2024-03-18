@@ -302,9 +302,7 @@
 				},
 				"Clients": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"7c2e4aa44e9c9f43"
-					],
+					"value": ["7c2e4aa44e9c9f43"],
 					"postInit": true
 				},
 				"m_eidParent": {
@@ -353,9 +351,7 @@
 				},
 				"Clients": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"7c2e4aa44e9c9f43"
-					],
+					"value": ["7c2e4aa44e9c9f43"],
 					"postInit": true
 				},
 				"m_eidParent": {
@@ -495,9 +491,7 @@
 				},
 				"Clients": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"7c2e4aa44e9c9f43"
-					],
+					"value": ["7c2e4aa44e9c9f43"],
 					"postInit": true
 				},
 				"m_eidParent": {
@@ -560,11 +554,7 @@
 			"properties": {
 				"m_Spheres": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"a20bfa17d91ac086",
-						"3d92b9992254f17c",
-						"78e0545871245fab"
-					],
+					"value": ["a20bfa17d91ac086", "3d92b9992254f17c", "78e0545871245fab"],
 					"postInit": true
 				},
 				"m_eidParent": {
@@ -627,9 +617,7 @@
 				},
 				"Clients": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"7c2e4aa44e9c9f43"
-					],
+					"value": ["7c2e4aa44e9c9f43"],
 					"postInit": true
 				},
 				"m_eidParent": {
@@ -775,9 +763,7 @@
 				},
 				"Clients": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"7c2e4aa44e9c9f43"
-					],
+					"value": ["7c2e4aa44e9c9f43"],
 					"postInit": true
 				},
 				"m_eidParent": {
@@ -947,9 +933,7 @@
 				},
 				"Clients": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"7c2e4aa44e9c9f43"
-					],
+					"value": ["7c2e4aa44e9c9f43"],
 					"postInit": true
 				},
 				"m_eidParent": {
@@ -1080,9 +1064,7 @@
 				},
 				"Clients": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"7c2e4aa44e9c9f43"
-					],
+					"value": ["7c2e4aa44e9c9f43"],
 					"postInit": true
 				},
 				"m_eidParent": {
@@ -1115,9 +1097,7 @@
 				},
 				"Clients": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"b8690078373bc8da"
-					]
+					"value": ["b8690078373bc8da"]
 				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
@@ -1215,9 +1195,7 @@
 				},
 				"Clients": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"7c2e4aa44e9c9f43"
-					],
+					"value": ["7c2e4aa44e9c9f43"],
 					"postInit": true
 				},
 				"m_eidParent": {
@@ -1415,9 +1393,7 @@
 				},
 				"Clients": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"7c2e4aa44e9c9f43"
-					],
+					"value": ["7c2e4aa44e9c9f43"],
 					"postInit": true
 				},
 				"m_eidParent": {
@@ -1750,12 +1726,7 @@
 				},
 				"m_Spheres": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"2e2ca8d0b9b1b0f2",
-						"ce5ddab61241b659",
-						"bdf6c0fea7593157",
-						"78e0545871245fab"
-					],
+					"value": ["2e2ca8d0b9b1b0f2", "ce5ddab61241b659", "bdf6c0fea7593157", "78e0545871245fab"],
 					"postInit": true
 				},
 				"m_eidParent": {
@@ -1971,9 +1942,7 @@
 				},
 				"Clients": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"7c2e4aa44e9c9f43"
-					],
+					"value": ["7c2e4aa44e9c9f43"],
 					"postInit": true
 				},
 				"m_eidParent": {
@@ -2059,9 +2028,7 @@
 				},
 				"Clients": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"7c2e4aa44e9c9f43"
-					],
+					"value": ["7c2e4aa44e9c9f43"],
 					"postInit": true
 				},
 				"m_eidParent": {
@@ -2733,9 +2700,7 @@
 				},
 				"m_LocalColliders": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"e9be611e36442d96"
-					]
+					"value": ["e9be611e36442d96"]
 				},
 				"m_bGlobalCollidersEnabled": {
 					"type": "bool",
@@ -2833,12 +2798,7 @@
 			"properties": {
 				"m_Spheres": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"78e0545871245fab",
-						"a4980fb6b2dda8a2",
-						"f9faec3e5d9684e0",
-						"de7d14813be9fa4e"
-					]
+					"value": ["78e0545871245fab", "a4980fb6b2dda8a2", "f9faec3e5d9684e0", "de7d14813be9fa4e"]
 				},
 				"m_mTransform": {
 					"type": "SMatrix43",
@@ -2874,21 +2834,11 @@
 			}
 		}
 	},
-	"propertyOverrides": [
-
-	],
-	"overrideDeletes": [
-
-	],
-	"pinConnectionOverrides": [
-
-	],
-	"pinConnectionOverrideDeletes": [
-
-	],
-	"externalScenes": [
-
-	],
+	"propertyOverrides": [],
+	"overrideDeletes": [],
+	"pinConnectionOverrides": [],
+	"pinConnectionOverrideDeletes": [],
+	"externalScenes": [],
 	"subType": "template",
 	"quickEntityVersion": 3.1,
 	"extraFactoryDependencies": [
@@ -3029,10 +2979,6 @@
 			"flag": "5F"
 		}
 	],
-	"extraBlueprintDependencies": [
-
-	],
-	"comments": [
-
-	]
+	"extraBlueprintDependencies": [],
+	"comments": []
 }

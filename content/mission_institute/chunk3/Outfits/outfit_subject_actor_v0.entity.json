@@ -82,9 +82,7 @@
 				},
 				"m_LocalColliders": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-
-					]
+					"value": []
 				},
 				"m_bGlobalCollidersEnabled": {
 					"type": "bool",
@@ -226,9 +224,7 @@
 				},
 				"Clients": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"feeda8c78a4966d5"
-					],
+					"value": ["feeda8c78a4966d5"],
 					"postInit": true
 				},
 				"m_eidParent": {
@@ -276,9 +272,7 @@
 				},
 				"Clients": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"feeda8c78a4966d5"
-					]
+					"value": ["feeda8c78a4966d5"]
 				},
 				"EyeShader_01_IrisBrightness_op": {
 					"type": "IRenderMaterialEntity.EModifierOperation",
@@ -407,30 +401,14 @@
 			}
 		}
 	},
-	"propertyOverrides": [
-
-	],
-	"overrideDeletes": [
-
-	],
-	"pinConnectionOverrides": [
-
-	],
-	"pinConnectionOverrideDeletes": [
-
-	],
-	"externalScenes": [
-
-	],
+	"propertyOverrides": [],
+	"overrideDeletes": [],
+	"pinConnectionOverrides": [],
+	"pinConnectionOverrideDeletes": [],
+	"externalScenes": [],
 	"subType": "template",
 	"quickEntityVersion": 3.1,
-	"extraFactoryDependencies": [
-
-	],
-	"extraBlueprintDependencies": [
-
-	],
-	"comments": [
-
-	]
+	"extraFactoryDependencies": [],
+	"extraBlueprintDependencies": [],
+	"comments": []
 }

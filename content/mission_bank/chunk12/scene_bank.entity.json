@@ -466,9 +466,7 @@
 			"blueprint": "[modules:/zentity.class].pc_entityblueprint",
 			"events": {
 				"OnPlay": {
-					"SetTrue": [
-						"feed9ed416ff098a"
-					]
+					"SetTrue": ["feed9ed416ff098a"]
 				}
 			}
 		},
@@ -509,9 +507,7 @@
 			"factory": "[assembly:/_pro/design/levelflow.template?/herospawn.entitytemplate].pc_entitytype",
 			"events": {
 				"OnSpawn": {
-					"SetTrue": [
-						"feed9ed416ff098a"
-					]
+					"SetTrue": ["feed9ed416ff098a"]
 				}
 			}
 		},
@@ -557,14 +553,10 @@
 			},
 			"events": {
 				"ItemReady": {
-					"PickupIntoPocket": [
-						"feedb3b37a5c56ce"
-					]
+					"PickupIntoPocket": ["feedb3b37a5c56ce"]
 				},
 				"Item": {
-					"SetItem": [
-						"feedb3b37a5c56ce"
-					]
+					"SetItem": ["feedb3b37a5c56ce"]
 				}
 			}
 		},
@@ -598,9 +590,7 @@
 				},
 				"m_aSequences": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"feeda8e7530f20e4"
-					]
+					"value": ["feeda8e7530f20e4"]
 				},
 				"m_nPriority": {
 					"type": "uint32",
@@ -621,36 +611,22 @@
 			},
 			"events": {
 				"OnPlay": {
-					"SetTrue": [
-
-					],
-					"SpawnItem": [
-						"feed1fcb384540e6"
-					],
-					"In": [
-						"feed03d0410f26f4"
-					],
-					"CustomFlyIn_Start": [
-						"feed375e080ac218"
-					]
+					"SetTrue": [],
+					"SpawnItem": ["feed1fcb384540e6"],
+					"In": ["feed03d0410f26f4"],
+					"CustomFlyIn_Start": ["feed375e080ac218"]
 				},
 				"OnStop": {
-					"CustomFlyIn_NearEnd_EnableWorld": [
-						"feed375e080ac218"
-					]
+					"CustomFlyIn_NearEnd_EnableWorld": ["feed375e080ac218"]
 				}
 			},
 			"outputCopying": {
 				"OnPlay": {
-					"OnPlay": [
-						"feed4df0cb046759"
-					]
+					"OnPlay": ["feed4df0cb046759"]
 				}
 			},
 			"subsets": {
-				"AudioEmitters": [
-					"fffffffffffffffe"
-				]
+				"AudioEmitters": ["fffffffffffffffe"]
 			}
 		},
 		"feed375e080ac218": {
@@ -672,9 +648,7 @@
 			},
 			"events": {
 				"Out": {
-					"CustomFlyIn_NearEnd_EnableWorld": [
-						"feed375e080ac218"
-					]
+					"CustomFlyIn_NearEnd_EnableWorld": ["feed375e080ac218"]
 				}
 			}
 		},
@@ -712,11 +686,7 @@
 				},
 				"m_aTracksAndGroups": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"feedeb633a37f729",
-						"feedd2d7f6fc02f1",
-						"feed4a28222e7478"
-					],
+					"value": ["feedeb633a37f729", "feedd2d7f6fc02f1", "feed4a28222e7478"],
 					"postInit": true
 				}
 			}
@@ -729,9 +699,7 @@
 			"properties": {
 				"m_aValueEntities": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-
-					]
+					"value": []
 				}
 			}
 		},
@@ -743,17 +711,13 @@
 			"properties": {
 				"m_aItems": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"feed62b9671040eb"
-					],
+					"value": ["feed62b9671040eb"],
 					"postInit": true
 				}
 			},
 			"outputCopying": {
 				"Interpolation_Fired": {
-					"Event_Track_Interpolation_Fired": [
-						"feeda8e7530f20e4"
-					]
+					"Event_Track_Interpolation_Fired": ["feeda8e7530f20e4"]
 				}
 			}
 		},
@@ -765,9 +729,7 @@
 			"properties": {
 				"m_aItems": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"feed239ce80dbf1f"
-					],
+					"value": ["feed239ce80dbf1f"],
 					"postInit": true
 				}
 			}
@@ -786,9 +748,7 @@
 			"properties": {
 				"m_aItems": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"feed9b6b46f04550"
-					],
+					"value": ["feed9b6b46f04550"],
 					"postInit": true
 				}
 			}
@@ -798,9 +758,7 @@
 			"name": "EntityTrack_ Hitman",
 			"factory": "[modules:/zentitygroup.class].pc_entitytype",
 			"blueprint": "[modules:/zentitygroup.class].pc_entityblueprint",
-			"properties": {
-
-			}
+			"properties": {}
 		},
 		"feedeb633a37f729": {
 			"parent": "feeda8e7530f20e4",
@@ -810,9 +768,7 @@
 			"properties": {
 				"m_aTracksAndGroups": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"feedc93c46210808"
-					],
+					"value": ["feedc93c46210808"],
 					"postInit": true
 				}
 			}
@@ -825,9 +781,7 @@
 			"properties": {
 				"m_aTracksAndGroups": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"feed4df6b1899209"
-					]
+					"value": ["feed4df6b1899209"]
 				}
 			}
 		},
@@ -852,9 +806,7 @@
 			},
 			"outputCopying": {
 				"Fired": {
-					"Interpolation_Fired": [
-						"feedc62b60fb2564"
-					]
+					"Interpolation_Fired": ["feedc62b60fb2564"]
 				}
 			}
 		},
@@ -910,9 +862,7 @@
 				},
 				"m_aItems": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"feed92acbba796b0"
-					]
+					"value": ["feed92acbba796b0"]
 				},
 				"m_bRestoreValueAfterEnd": {
 					"type": "bool",
@@ -942,26 +892,8 @@
 					"type": "ZCurve",
 					"value": {
 						"data": [
-							[
-								0,
-								-53,
-								0,
-								0,
-								0,
-								0,
-								0,
-								-53
-							],
-							[
-								1,
-								-54,
-								0,
-								0,
-								0,
-								0,
-								0,
-								-54
-							]
+							[0, -53, 0, 0, 0, 0, 0, -53],
+							[1, -54, 0, 0, 0, 0, 0, -54]
 						]
 					}
 				},
@@ -969,26 +901,8 @@
 					"type": "ZCurve",
 					"value": {
 						"data": [
-							[
-								0,
-								-89.6476808565214,
-								0,
-								0,
-								0,
-								0,
-								0,
-								-89.6476808565214
-							],
-							[
-								1,
-								-89.6476808565214,
-								0,
-								0,
-								0,
-								0,
-								0,
-								-89.6476808565214
-							]
+							[0, -89.6476808565214, 0, 0, 0, 0, 0, -89.6476808565214],
+							[1, -89.6476808565214, 0, 0, 0, 0, 0, -89.6476808565214]
 						]
 					}
 				},
@@ -996,26 +910,8 @@
 					"type": "ZCurve",
 					"value": {
 						"data": [
-							[
-								0,
-								-23,
-								0,
-								0,
-								0,
-								0,
-								0,
-								-23
-							],
-							[
-								1,
-								-24,
-								0,
-								0,
-								0,
-								0,
-								0,
-								-24
-							]
+							[0, -23, 0, 0, 0, 0, 0, -23],
+							[1, -24, 0, 0, 0, 0, 0, -24]
 						]
 					}
 				},
@@ -1023,26 +919,8 @@
 					"type": "ZCurve",
 					"value": {
 						"data": [
-							[
-								0,
-								0,
-								0,
-								0,
-								0,
-								0,
-								0,
-								0
-							],
-							[
-								1,
-								0,
-								0,
-								0,
-								0,
-								0,
-								0,
-								0
-							]
+							[0, 0, 0, 0, 0, 0, 0, 0],
+							[1, 0, 0, 0, 0, 0, 0, 0]
 						]
 					}
 				},
@@ -1050,26 +928,8 @@
 					"type": "ZCurve",
 					"value": {
 						"data": [
-							[
-								0,
-								-1,
-								0,
-								0,
-								0,
-								0,
-								0,
-								-1
-							],
-							[
-								1,
-								-1,
-								0,
-								0,
-								0,
-								0,
-								0,
-								-1
-							]
+							[0, -1, 0, 0, 0, 0, 0, -1],
+							[1, -1, 0, 0, 0, 0, 0, -1]
 						]
 					}
 				},
@@ -1077,26 +937,8 @@
 					"type": "ZCurve",
 					"value": {
 						"data": [
-							[
-								0,
-								1.383242226748166,
-								0,
-								0,
-								0,
-								0,
-								0,
-								1.383242226748166
-							],
-							[
-								1,
-								1.383242226748166,
-								0,
-								0,
-								0,
-								0,
-								0,
-								1.383242226748166
-							]
+							[0, 1.383242226748166, 0, 0, 0, 0, 0, 1.383242226748166],
+							[1, 1.383242226748166, 0, 0, 0, 0, 0, 1.383242226748166]
 						]
 					}
 				}
@@ -1110,9 +952,7 @@
 			"properties": {
 				"m_aItems": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"feed1f4a657d9e38"
-					]
+					"value": ["feed1f4a657d9e38"]
 				},
 				"m_bRestoreValueAfterEnd": {
 					"type": "bool",
@@ -1147,26 +987,8 @@
 					"type": "ZCurve",
 					"value": {
 						"data": [
-							[
-								0,
-								-53,
-								0,
-								0,
-								0,
-								0,
-								0,
-								-53
-							],
-							[
-								1,
-								-54,
-								0,
-								0,
-								0,
-								0,
-								0,
-								-54
-							]
+							[0, -53, 0, 0, 0, 0, 0, -53],
+							[1, -54, 0, 0, 0, 0, 0, -54]
 						]
 					}
 				},
@@ -1174,26 +996,8 @@
 					"type": "ZCurve",
 					"value": {
 						"data": [
-							[
-								0,
-								-89.6476808565214,
-								0,
-								0,
-								0,
-								0,
-								0,
-								-89.6476808565214
-							],
-							[
-								1,
-								-89.6476808565214,
-								0,
-								0,
-								0,
-								0,
-								0,
-								-89.6476808565214
-							]
+							[0, -89.6476808565214, 0, 0, 0, 0, 0, -89.6476808565214],
+							[1, -89.6476808565214, 0, 0, 0, 0, 0, -89.6476808565214]
 						]
 					}
 				},
@@ -1201,26 +1005,8 @@
 					"type": "ZCurve",
 					"value": {
 						"data": [
-							[
-								0,
-								-23,
-								0,
-								0,
-								0,
-								0,
-								0,
-								-23
-							],
-							[
-								1,
-								-24,
-								0,
-								0,
-								0,
-								0,
-								0,
-								-24
-							]
+							[0, -23, 0, 0, 0, 0, 0, -23],
+							[1, -24, 0, 0, 0, 0, 0, -24]
 						]
 					}
 				},
@@ -1228,26 +1014,8 @@
 					"type": "ZCurve",
 					"value": {
 						"data": [
-							[
-								0,
-								0,
-								0,
-								0,
-								0,
-								0,
-								0,
-								0
-							],
-							[
-								1,
-								0,
-								0,
-								0,
-								0,
-								0,
-								0,
-								0
-							]
+							[0, 0, 0, 0, 0, 0, 0, 0],
+							[1, 0, 0, 0, 0, 0, 0, 0]
 						]
 					}
 				},
@@ -1255,26 +1023,8 @@
 					"type": "ZCurve",
 					"value": {
 						"data": [
-							[
-								0,
-								-1,
-								0,
-								0,
-								0,
-								0,
-								0,
-								-1
-							],
-							[
-								1,
-								-1,
-								0,
-								0,
-								0,
-								0,
-								0,
-								-1
-							]
+							[0, -1, 0, 0, 0, 0, 0, -1],
+							[1, -1, 0, 0, 0, 0, 0, -1]
 						]
 					}
 				},
@@ -1282,26 +1032,8 @@
 					"type": "ZCurve",
 					"value": {
 						"data": [
-							[
-								0,
-								1.383242226748166,
-								0,
-								0,
-								0,
-								0,
-								0,
-								1.383242226748166
-							],
-							[
-								1,
-								1.383242226748166,
-								0,
-								0,
-								0,
-								0,
-								0,
-								1.383242226748166
-							]
+							[0, 1.383242226748166, 0, 0, 0, 0, 0, 1.383242226748166],
+							[1, 1.383242226748166, 0, 0, 0, 0, 0, 1.383242226748166]
 						]
 					}
 				}
@@ -1394,9 +1126,7 @@
 				},
 				"m_Clients": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-
-					]
+					"value": []
 				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
@@ -1404,36 +1134,18 @@
 				}
 			},
 			"subsets": {
-				"Rooms": [
-					"fffffffffffffffe"
-				]
+				"Rooms": ["fffffffffffffffe"]
 			}
 		}
 	},
-	"propertyOverrides": [
-
-	],
-	"overrideDeletes": [
-
-	],
-	"pinConnectionOverrides": [
-
-	],
-	"pinConnectionOverrideDeletes": [
-
-	],
-	"externalScenes": [
-		"[assembly:/_pro/scenes/missions/greedy/mission_raccoon/scenario_raccoon.brick].pc_entitytype"
-	],
+	"propertyOverrides": [],
+	"overrideDeletes": [],
+	"pinConnectionOverrides": [],
+	"pinConnectionOverrideDeletes": [],
+	"externalScenes": ["[assembly:/_pro/scenes/missions/greedy/mission_raccoon/scenario_raccoon.brick].pc_entitytype"],
 	"subType": "scene",
 	"quickEntityVersion": 3.1,
-	"extraFactoryDependencies": [
-
-	],
-	"extraBlueprintDependencies": [
-
-	],
-	"comments": [
-
-	]
+	"extraFactoryDependencies": [],
+	"extraBlueprintDependencies": [],
+	"comments": []
 }

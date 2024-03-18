@@ -47,9 +47,7 @@
 				},
 				"m_aCharSets": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"feed4867830515a9"
-					]
+					"value": ["feed4867830515a9"]
 				},
 				"m_eSoundFootwearType": {
 					"type": "EHM5SoundFootwearType",
@@ -88,12 +86,7 @@
 				},
 				"m_rDefaultVoiceVariations": {
 					"type": "TArray<EActorVoiceVariation>",
-					"value": [
-						"eAVV_YACHTCREW01",
-						"eAVV_YACHTCREW02",
-						"eAVV_YACHTCREW03",
-						"eAVV_YACHTCREW04"
-					]
+					"value": ["eAVV_YACHTCREW01", "eAVV_YACHTCREW02", "eAVV_YACHTCREW03", "eAVV_YACHTCREW04"]
 				}
 			}
 		},
@@ -141,9 +134,7 @@
 				},
 				"m_aCharSets": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"feed71a75a0b5976"
-					]
+					"value": ["feed71a75a0b5976"]
 				},
 				"m_eSoundFootwearType": {
 					"type": "EHM5SoundFootwearType",
@@ -188,12 +179,7 @@
 				},
 				"m_rDefaultVoiceVariations": {
 					"type": "TArray<EActorVoiceVariation>",
-					"value": [
-						"eAVV_YACHTCREW01",
-						"eAVV_YACHTCREW02",
-						"eAVV_YACHTCREW03",
-						"eAVV_YACHTCREW04"
-					]
+					"value": ["eAVV_YACHTCREW01", "eAVV_YACHTCREW02", "eAVV_YACHTCREW03", "eAVV_YACHTCREW04"]
 				},
 				"m_bIsFemale": {
 					"type": "bool",
@@ -228,9 +214,7 @@
 			"properties": {
 				"m_aHolders": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"feed5b12a0cdb77b"
-					]
+					"value": ["feed5b12a0cdb77b"]
 				}
 			}
 		},
@@ -272,9 +256,7 @@
 				},
 				"m_aCharSets": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"feed43ac317e7d6b"
-					]
+					"value": ["feed43ac317e7d6b"]
 				},
 				"m_eSoundFootwearType": {
 					"type": "EHM5SoundFootwearType",
@@ -313,12 +295,7 @@
 				},
 				"m_rDefaultVoiceVariations": {
 					"type": "TArray<EActorVoiceVariation>",
-					"value": [
-						"eAVV_YACHTCREW01",
-						"eAVV_YACHTCREW02",
-						"eAVV_YACHTCREW03",
-						"eAVV_YACHTCREW04"
-					]
+					"value": ["eAVV_YACHTCREW01", "eAVV_YACHTCREW02", "eAVV_YACHTCREW03", "eAVV_YACHTCREW04"]
 				}
 			}
 		},
@@ -366,9 +343,7 @@
 				},
 				"m_aCharSets": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"feed93a6e1f43c8a"
-					]
+					"value": ["feed93a6e1f43c8a"]
 				},
 				"m_eSoundFootwearType": {
 					"type": "EHM5SoundFootwearType",
@@ -413,12 +388,7 @@
 				},
 				"m_rDefaultVoiceVariations": {
 					"type": "TArray<EActorVoiceVariation>",
-					"value": [
-						"eAVV_YACHTCREW01",
-						"eAVV_YACHTCREW02",
-						"eAVV_YACHTCREW03",
-						"eAVV_YACHTCREW04"
-					]
+					"value": ["eAVV_YACHTCREW01", "eAVV_YACHTCREW02", "eAVV_YACHTCREW03", "eAVV_YACHTCREW04"]
 				}
 			}
 		},
@@ -436,9 +406,7 @@
 			"properties": {
 				"m_aHolders": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"feed89a95fc2881d"
-					],
+					"value": ["feed89a95fc2881d"],
 					"postInit": true
 				}
 			}
@@ -494,9 +462,7 @@
 				},
 				"m_aCharSets": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"feeddfaf39c8ee04"
-					]
+					"value": ["feeddfaf39c8ee04"]
 				},
 				"m_eSoundFootwearType": {
 					"type": "EHM5SoundFootwearType",
@@ -535,12 +501,7 @@
 				},
 				"m_rDefaultVoiceVariations": {
 					"type": "TArray<EActorVoiceVariation>",
-					"value": [
-						"eAVV_YACHTCREW01",
-						"eAVV_YACHTCREW02",
-						"eAVV_YACHTCREW03",
-						"eAVV_YACHTCREW04"
-					]
+					"value": ["eAVV_YACHTCREW01", "eAVV_YACHTCREW02", "eAVV_YACHTCREW03", "eAVV_YACHTCREW04"]
 				}
 			}
 		},
@@ -588,9 +549,7 @@
 				},
 				"m_aCharSets": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"feed27b7cd27280f"
-					]
+					"value": ["feed27b7cd27280f"]
 				},
 				"m_eSoundFootwearType": {
 					"type": "EHM5SoundFootwearType",
@@ -629,12 +588,7 @@
 				},
 				"m_rDefaultVoiceVariations": {
 					"type": "TArray<EActorVoiceVariation>",
-					"value": [
-						"eAVV_YACHTCREW01",
-						"eAVV_YACHTCREW02",
-						"eAVV_YACHTCREW03",
-						"eAVV_YACHTCREW04"
-					]
+					"value": ["eAVV_YACHTCREW01", "eAVV_YACHTCREW02", "eAVV_YACHTCREW03", "eAVV_YACHTCREW04"]
 				}
 			}
 		},
@@ -692,18 +646,11 @@
 				},
 				"m_aAnimationSets": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-
-					]
+					"value": []
 				},
 				"m_AvailableWeaponKeys": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"feedfb5e614e16d4",
-						"feedf4bfb8d9e5ec",
-						"feed7ae946fad36d",
-						"feedd630ad859816"
-					]
+					"value": ["feedfb5e614e16d4", "feedf4bfb8d9e5ec", "feed7ae946fad36d", "feedd630ad859816"]
 				},
 				"m_sCommonName": {
 					"type": "ZString",
@@ -748,22 +695,16 @@
 				},
 				"m_AvailableGrenadeKeys": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"feede05b87b795cb"
-					]
+					"value": ["feede05b87b795cb"]
 				},
 				"m_aCharSets": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"feedd9581fcc9344"
-					],
+					"value": ["feedd9581fcc9344"],
 					"postInit": true
 				},
 				"m_aWeaponsAllowedExceptionKeywords": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-
-					],
+					"value": [],
 					"postInit": true
 				},
 				"m_pParentOutfit": {
@@ -819,9 +760,7 @@
 			"properties": {
 				"m_aHolders": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"feed89698b603122"
-					],
+					"value": ["feed89698b603122"],
 					"postInit": true
 				}
 			}
@@ -834,9 +773,7 @@
 			"properties": {
 				"m_aHolders": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"feed89698b603122"
-					],
+					"value": ["feed89698b603122"],
 					"postInit": true
 				}
 			}
@@ -892,9 +829,7 @@
 			"properties": {
 				"m_aHolders": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"feed89698b603122"
-					]
+					"value": ["feed89698b603122"]
 				}
 			}
 		},
@@ -906,38 +841,20 @@
 			"properties": {
 				"m_aHolders": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"feed89698b603122"
-					],
+					"value": ["feed89698b603122"],
 					"postInit": true
 				}
 			}
 		}
 	},
-	"propertyOverrides": [
-
-	],
-	"overrideDeletes": [
-
-	],
-	"pinConnectionOverrides": [
-
-	],
-	"pinConnectionOverrideDeletes": [
-
-	],
-	"externalScenes": [
-		"[assembly:/_pro/scenes/bricks/globaldata.brick].pc_entitytype"
-	],
+	"propertyOverrides": [],
+	"overrideDeletes": [],
+	"pinConnectionOverrides": [],
+	"pinConnectionOverrideDeletes": [],
+	"externalScenes": ["[assembly:/_pro/scenes/bricks/globaldata.brick].pc_entitytype"],
 	"subType": "brick",
 	"quickEntityVersion": 3.1,
-	"extraFactoryDependencies": [
-
-	],
-	"extraBlueprintDependencies": [
-
-	],
-	"comments": [
-
-	]
+	"extraFactoryDependencies": [],
+	"extraBlueprintDependencies": [],
+	"comments": []
 }

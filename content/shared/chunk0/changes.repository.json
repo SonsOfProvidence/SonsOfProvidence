@@ -177,13 +177,9 @@
 	"e1e09633-4efb-41ee-9102-87c330d281f3": {
 		"AIPerceptibleOnRelease": true,
 		"ActionRewardType": "AR_None",
-		"AdditionalKeywords": [
-			"INVENTORY_TYPE_SUITCASE"
-		],
+		"AdditionalKeywords": ["INVENTORY_TYPE_SUITCASE"],
 		"AmmoItem": "00000000-0000-0000-0000-000000000000",
-		"AppliedModifiers": [
-			"00000000-0000-0000-0000-000000000000"
-		],
+		"AppliedModifiers": ["00000000-0000-0000-0000-000000000000"],
 		"CanBeDropped": true,
 		"CanPistolWhip": false,
 		"CarryAnimSetType": "EAST_SUITCASE",
@@ -237,28 +233,16 @@
 		"LocaKey": "",
 		"MainAnimSetType": "EAST_SUITCASE",
 		"MeleeDamageBehavior": "EIMDB_Undefined",
-		"ModifierSlot1": [
-			"00000000-0000-0000-0000-000000000000"
-		],
-		"ModifierSlot2": [
-			"00000000-0000-0000-0000-000000000000"
-		],
-		"ModifierSlot3": [
-			"00000000-0000-0000-0000-000000000000"
-		],
-		"ModifierSlot4": [
-			"00000000-0000-0000-0000-000000000000"
-		],
-		"ModifierSlot5": [
-			"00000000-0000-0000-0000-000000000000"
-		],
+		"ModifierSlot1": ["00000000-0000-0000-0000-000000000000"],
+		"ModifierSlot2": ["00000000-0000-0000-0000-000000000000"],
+		"ModifierSlot3": ["00000000-0000-0000-0000-000000000000"],
+		"ModifierSlot4": ["00000000-0000-0000-0000-000000000000"],
+		"ModifierSlot5": ["00000000-0000-0000-0000-000000000000"],
 		"MugshotIsTransparent": false,
 		"MugshotTransformation": "6.123032E-17, 1, 0, -1, 6.123032E-17, 0, 0, 0, 1, 0, 0, 0",
 		"Name_LOC": "ui_prop_container_guitar_case_name",
 		"NeverInvestigateDistractions": false,
-		"OnlineTraits": [
-			"case"
-		],
+		"OnlineTraits": ["case"],
 		"OverrideItemThrowRotation": true,
 		"PlaceableType": "PLACEABLE_SLEEP_PHYSICS",
 		"PlacementOrientToHM": true,
@@ -286,13 +270,9 @@
 	"1518c0c7-7fa1-4d51-a87d-d660e5bfc8f1": {
 		"AIPerceptibleOnRelease": false,
 		"ActionRewardType": "AR_None",
-		"AdditionalKeywords": [
-			""
-		],
+		"AdditionalKeywords": [""],
 		"AmmoItem": "00000000-0000-0000-0000-000000000000",
-		"AppliedModifiers": [
-			"00000000-0000-0000-0000-000000000000"
-		],
+		"AppliedModifiers": ["00000000-0000-0000-0000-000000000000"],
 		"CanBeDropped": false,
 		"CanPistolWhip": false,
 		"CarryAnimSetType": "EAST_SMALLOBJ",
@@ -346,28 +326,16 @@
 		"LocaKey": "",
 		"MainAnimSetType": "EAST_UNDEFINED",
 		"MeleeDamageBehavior": "EIMDB_Undefined",
-		"ModifierSlot1": [
-			"00000000-0000-0000-0000-000000000000"
-		],
-		"ModifierSlot2": [
-			"00000000-0000-0000-0000-000000000000"
-		],
-		"ModifierSlot3": [
-			"00000000-0000-0000-0000-000000000000"
-		],
-		"ModifierSlot4": [
-			"00000000-0000-0000-0000-000000000000"
-		],
-		"ModifierSlot5": [
-			"00000000-0000-0000-0000-000000000000"
-		],
+		"ModifierSlot1": ["00000000-0000-0000-0000-000000000000"],
+		"ModifierSlot2": ["00000000-0000-0000-0000-000000000000"],
+		"ModifierSlot3": ["00000000-0000-0000-0000-000000000000"],
+		"ModifierSlot4": ["00000000-0000-0000-0000-000000000000"],
+		"ModifierSlot5": ["00000000-0000-0000-0000-000000000000"],
 		"MugshotIsTransparent": false,
 		"MugshotTransformation": "6.123032E-17, -1, -6.123032E-17, 0, 6.123032E-17, -1, 1, 6.123032E-17, 3.749152E-33, 0, 0, 0",
 		"Name_LOC": "ui_prop_questitem_funeral_thomas_cross_phone_title",
 		"NeverInvestigateDistractions": false,
-		"OnlineTraits": [
-			"NONE"
-		],
+		"OnlineTraits": ["NONE"],
 		"OverrideItemThrowRotation": false,
 		"PlaceableType": "PLACEABLE_NOT",
 		"PlacementOrientToHM": true,

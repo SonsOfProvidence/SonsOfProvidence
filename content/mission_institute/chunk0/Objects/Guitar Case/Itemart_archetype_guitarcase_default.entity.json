@@ -79,9 +79,7 @@
 				},
 				"Clients": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"a26fc036cb7aec6d"
-					],
+					"value": ["a26fc036cb7aec6d"],
 					"postInit": true
 				},
 				"m_eidParent": {
@@ -289,9 +287,7 @@
 			},
 			"outputCopying": {
 				"OnSleep": {
-					"OnSleep": [
-						"1c47c2c1e33972f7"
-					]
+					"OnSleep": ["1c47c2c1e33972f7"]
 				}
 			}
 		},
@@ -353,19 +349,13 @@
 			},
 			"inputCopying": {
 				"SetVisible": {
-					"SetVisible": [
-						"a26fc036cb7aec6d"
-					]
+					"SetVisible": ["a26fc036cb7aec6d"]
 				},
 				"SetInPhysicsWorld": {
-					"SetInPhysicsWorld": [
-						"a26fc036cb7aec6d"
-					]
+					"SetInPhysicsWorld": ["a26fc036cb7aec6d"]
 				},
 				"KinematicBody": {
-					"KinematicBody": [
-						"a26fc036cb7aec6d"
-					]
+					"KinematicBody": ["a26fc036cb7aec6d"]
 				}
 			},
 			"propertyAliases": {
@@ -421,27 +411,19 @@
 			"exposedEntities": {
 				"HandAttacherSpatial": {
 					"isArray": false,
-					"refersTo": [
-						"7583dc12ab030a0b"
-					]
+					"refersTo": ["7583dc12ab030a0b"]
 				},
 				"ItemPlacement": {
 					"isArray": false,
-					"refersTo": [
-						"7e9fd1cdb0477a58"
-					]
+					"refersTo": ["7e9fd1cdb0477a58"]
 				},
 				"Linkedprim": {
 					"isArray": false,
-					"refersTo": [
-						"56075431c155e1dc"
-					]
+					"refersTo": ["56075431c155e1dc"]
 				},
 				"PlacementVolume": {
 					"isArray": false,
-					"refersTo": [
-						"27cc0b52714d7cf0"
-					]
+					"refersTo": ["27cc0b52714d7cf0"]
 				}
 			},
 			"exposedInterfaces": {
@@ -452,21 +434,11 @@
 			}
 		}
 	},
-	"propertyOverrides": [
-
-	],
-	"overrideDeletes": [
-
-	],
-	"pinConnectionOverrides": [
-
-	],
-	"pinConnectionOverrideDeletes": [
-
-	],
-	"externalScenes": [
-
-	],
+	"propertyOverrides": [],
+	"overrideDeletes": [],
+	"pinConnectionOverrides": [],
+	"pinConnectionOverrideDeletes": [],
+	"externalScenes": [],
 	"subType": "template",
 	"quickEntityVersion": 3.1,
 	"extraFactoryDependencies": [
@@ -499,10 +471,6 @@
 			"flag": "5F"
 		}
 	],
-	"extraBlueprintDependencies": [
-
-	],
-	"comments": [
-
-	]
+	"extraBlueprintDependencies": [],
+	"comments": []
 }

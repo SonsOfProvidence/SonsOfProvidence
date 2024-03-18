@@ -41,9 +41,7 @@
 			"properties": {
 				"m_LocalColliders": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-
-					]
+					"value": []
 				},
 				"m_fFrustumFarDistanceProperty": {
 					"type": "float32",
@@ -124,9 +122,7 @@
 				},
 				"Clients": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"2a346945227f91e8"
-					],
+					"value": ["2a346945227f91e8"],
 					"postInit": true
 				}
 			}
@@ -241,9 +237,7 @@
 				},
 				"Clients": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"2a346945227f91e8"
-					]
+					"value": ["2a346945227f91e8"]
 				},
 				"Texture2D_03_enab": {
 					"type": "bool",
@@ -368,9 +362,7 @@
 				},
 				"Clients": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"20fe6657cb1b388d"
-					],
+					"value": ["20fe6657cb1b388d"],
 					"postInit": true
 				}
 			}
@@ -406,21 +398,11 @@
 			}
 		}
 	},
-	"propertyOverrides": [
-
-	],
-	"overrideDeletes": [
-
-	],
-	"pinConnectionOverrides": [
-
-	],
-	"pinConnectionOverrideDeletes": [
-
-	],
-	"externalScenes": [
-
-	],
+	"propertyOverrides": [],
+	"overrideDeletes": [],
+	"pinConnectionOverrides": [],
+	"pinConnectionOverrideDeletes": [],
+	"externalScenes": [],
 	"subType": "template",
 	"quickEntityVersion": 3.1,
 	"extraFactoryDependencies": [
@@ -481,10 +463,6 @@
 			"flag": "5F"
 		}
 	],
-	"extraBlueprintDependencies": [
-
-	],
-	"comments": [
-
-	]
+	"extraBlueprintDependencies": [],
+	"comments": []
 }

@@ -58,9 +58,7 @@
 				},
 				"m_AvailableWeaponKeys": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-
-					]
+					"value": []
 				},
 				"m_bHeroDisguiseAvailable": {
 					"type": "bool",
@@ -72,9 +70,7 @@
 				},
 				"m_aCharSets": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"feed1c32d5e1c54b"
-					]
+					"value": ["feed1c32d5e1c54b"]
 				},
 				"m_pParentOutfit": {
 					"type": "SEntityTemplateReference",
@@ -85,9 +81,7 @@
 				},
 				"m_rDefaultVoiceVariations": {
 					"type": "TArray<EActorVoiceVariation>",
-					"value": [
-						"eAVV_Undefined"
-					]
+					"value": ["eAVV_Undefined"]
 				},
 				"m_sId": {
 					"type": "ZGuid",
@@ -125,9 +119,7 @@
 			"properties": {
 				"m_aHolders": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"feeda3b6bd03594e"
-					],
+					"value": ["feeda3b6bd03594e"],
 					"postInit": true
 				}
 			},
@@ -140,9 +132,7 @@
 			"properties": {
 				"m_aHolders": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"feeda3b6bd03594e"
-					],
+					"value": ["feeda3b6bd03594e"],
 					"postInit": true
 				}
 			},
@@ -217,18 +207,11 @@
 				},
 				"m_rDefaultVoiceVariations": {
 					"type": "TArray<EActorVoiceVariation>",
-					"value": [
-						"eAVV_BDYGRD04",
-						"eAVV_BDYGRD05",
-						"eAVV_BDYGRD06",
-						"eAVV_BDYGRD07"
-					]
+					"value": ["eAVV_BDYGRD04", "eAVV_BDYGRD05", "eAVV_BDYGRD06", "eAVV_BDYGRD07"]
 				},
 				"m_AvailableGrenadeKeys": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"feedb2463fdf362b"
-					]
+					"value": ["feedb2463fdf362b"]
 				},
 				"m_fHitPoints": {
 					"type": "float32",
@@ -240,23 +223,17 @@
 				},
 				"m_aCharSets": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"feed1b1fd0043bdb"
-					],
+					"value": ["feed1b1fd0043bdb"],
 					"postInit": true
 				},
 				"m_AvailableWeaponKeys": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"feedb23edd6150cd"
-					],
+					"value": ["feedb23edd6150cd"],
 					"postInit": true
 				},
 				"m_aWeaponsAllowedExceptionKeywords": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"feed41dcabcf61a3"
-					],
+					"value": ["feed41dcabcf61a3"],
 					"postInit": true
 				}
 			}
@@ -281,9 +258,7 @@
 			"properties": {
 				"m_aHolders": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"feed9a363b653847"
-					],
+					"value": ["feed9a363b653847"],
 					"postInit": true
 				}
 			}
@@ -308,9 +283,7 @@
 			"properties": {
 				"m_aHolders": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"feed9a363b653847"
-					]
+					"value": ["feed9a363b653847"]
 				}
 			}
 		},
@@ -395,18 +368,11 @@
 				},
 				"m_rDefaultVoiceVariations": {
 					"type": "TArray<EActorVoiceVariation>",
-					"value": [
-						"eAVV_BDYGRD04",
-						"eAVV_BDYGRD05",
-						"eAVV_BDYGRD06",
-						"eAVV_BDYGRD07"
-					]
+					"value": ["eAVV_BDYGRD04", "eAVV_BDYGRD05", "eAVV_BDYGRD06", "eAVV_BDYGRD07"]
 				},
 				"m_AvailableGrenadeKeys": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"feedc085891f9878"
-					]
+					"value": ["feedc085891f9878"]
 				},
 				"m_fHitPoints": {
 					"type": "float32",
@@ -418,23 +384,17 @@
 				},
 				"m_aCharSets": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"feed3cb5495f05c9"
-					],
+					"value": ["feed3cb5495f05c9"],
 					"postInit": true
 				},
 				"m_AvailableWeaponKeys": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"feedad5b555493d9"
-					],
+					"value": ["feedad5b555493d9"],
 					"postInit": true
 				},
 				"m_aWeaponsAllowedExceptionKeywords": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-
-					],
+					"value": [],
 					"postInit": true
 				}
 			}
@@ -459,9 +419,7 @@
 			"properties": {
 				"m_aHolders": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"feed1716b47f01ca"
-					],
+					"value": ["feed1716b47f01ca"],
 					"postInit": true
 				}
 			}
@@ -486,9 +444,7 @@
 			"properties": {
 				"m_aHolders": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"feed1716b47f01ca"
-					]
+					"value": ["feed1716b47f01ca"]
 				}
 			}
 		},
@@ -547,10 +503,7 @@
 				},
 				"m_AvailableWeaponKeys": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"feed9f9b25259b12",
-						"feed2009a1c2759f"
-					]
+					"value": ["feed9f9b25259b12", "feed2009a1c2759f"]
 				},
 				"m_bHeroDisguiseAvailable": {
 					"type": "bool",
@@ -562,9 +515,7 @@
 				},
 				"m_aCharSets": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"feedd7446bca838e"
-					]
+					"value": ["feedd7446bca838e"]
 				},
 				"m_pParentOutfit": {
 					"type": "SEntityTemplateReference",
@@ -575,9 +526,7 @@
 				},
 				"m_rDefaultVoiceVariations": {
 					"type": "TArray<EActorVoiceVariation>",
-					"value": [
-						"eAVV_Undefined"
-					]
+					"value": ["eAVV_Undefined"]
 				},
 				"m_sId": {
 					"type": "ZGuid",
@@ -615,9 +564,7 @@
 			"properties": {
 				"m_aHolders": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"feed68ccada2c6e8"
-					],
+					"value": ["feed68ccada2c6e8"],
 					"postInit": true
 				}
 			},
@@ -630,9 +577,7 @@
 			"properties": {
 				"m_aHolders": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"feed68ccada2c6e8"
-					],
+					"value": ["feed68ccada2c6e8"],
 					"postInit": true
 				}
 			},
@@ -687,30 +632,14 @@
 			}
 		}
 	},
-	"propertyOverrides": [
-
-	],
-	"overrideDeletes": [
-
-	],
-	"pinConnectionOverrides": [
-
-	],
-	"pinConnectionOverrideDeletes": [
-
-	],
-	"externalScenes": [
-		"[assembly:/_pro/scenes/bricks/globaldata.brick].pc_entitytype"
-	],
+	"propertyOverrides": [],
+	"overrideDeletes": [],
+	"pinConnectionOverrides": [],
+	"pinConnectionOverrideDeletes": [],
+	"externalScenes": ["[assembly:/_pro/scenes/bricks/globaldata.brick].pc_entitytype"],
 	"subType": "brick",
 	"quickEntityVersion": 3.1,
-	"extraFactoryDependencies": [
-
-	],
-	"extraBlueprintDependencies": [
-
-	],
-	"comments": [
-
-	]
+	"extraFactoryDependencies": [],
+	"extraBlueprintDependencies": [],
+	"comments": []
 }
