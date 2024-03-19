@@ -117,6 +117,41 @@
 					"toChunk": 29
 				},
 				{
+					"runtimeID": "00FBB6CDF54B7512",
+					"comment": "[assembly:/_pro/environment/templates/kits/castle/mansion_a_prefab.template?/side_left_d.entitytemplate].pc_entitytype",
+					"toChunk": 29
+				},
+				{
+					"runtimeID": "00A63F6B26F68886",
+					"comment": "[assembly:/runtimeresources/vertexpaint/_pro/scenes/missions/ancestral/scenario_bulldog/side_left_d_2608e321449946b7a915d274892fecc6.vertexdata].pc_vertexdata",
+					"toChunk": 29
+				},
+				{
+					"runtimeID": "0033BD0221BE34B5",
+					"comment": "[assembly:/_pro/environment/templates/kits/castle/mansion_a_prefab.template?/side_back_b.entitytemplate].pc_entitytype",
+					"toChunk": 29
+				},
+				{
+					"runtimeID": "00791FC3CD4268BD",
+					"comment": "[assembly:/runtimeresources/vertexpaint/_pro/scenes/missions/ancestral/scenario_bulldog/side_back_b_79c4060a5c274fc4bd328feef447d424.vertexdata].pc_vertexdata",
+					"toChunk": 29
+				},
+				{
+					"runtimeID": "0084F623806E0E61",
+					"comment": "[assembly:/_pro/environment/templates/architecture/doors/doors_bulldog_a.template?/window_double_glass_bulldog_a.entitytemplate].pc_entitytype",
+					"toChunk": 29
+				},
+				{
+					"runtimeID": "0043B96104B947A4",
+					"comment": "[assembly:/_pro/environment/templates/architecture/doors/doors_bulldog_a.template?/door_double_glass_bulldog_a.entitytemplate].pc_entitytype",
+					"toChunk": 29
+				},
+				{
+					"runtimeID": "002F45C4A6ADD651",
+					"comment": "bulldog_greenhouse_alustre_straight_a (template)",
+					"toChunk": 29
+				},
+				{
 					"runtimeID": "007369DD5F6F7A5A",
 					"comment": "[assembly:/_pro/environment/templates/kits/castle/mansion_a_prefab.template?/mansion_exterior_b.entitytemplate].pc_entitytype",
 					"toChunk": 29
