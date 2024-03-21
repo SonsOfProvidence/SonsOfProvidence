@@ -1,6 +1,6 @@
 {
-	"tempHash": "00E4CF1507F85C55",
-	"tbluHash": "00DB640FA765983B",
+	"tempHash": "00662A097812E0F5",
+	"tbluHash": "004B08F7350693A4",
 	"rootEntity": "feed694fb26160e3",
 	"entities": {
 		"ff2e13419e29d0b2": {
@@ -71,7 +71,7 @@
 		},
 		"feed694fb26160e3": {
 			"parent": null,
-			"name": "CHARSET_Eugene_Cobb",
+			"name": "CHARSET_Pilot",
 			"blueprint": "[modules:/zoutfitvariationcollection.class].pc_entityblueprint",
 			"properties": {
 				"m_aCharacters": {
@@ -94,7 +94,7 @@
 			"properties": {
 				"m_Outfit": {
 					"type": "ZRuntimeResourceID",
-					"value": "006E65A4B1D372A9"
+					"value": "[assembly:/sonsofprovidence/airplane/outfit_pilot_actor_v0.entitytemplate].pc_entitytype"
 				}
 			}
 		}

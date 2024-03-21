@@ -88,6 +88,22 @@
 		"ioiString": "[assembly:/sonsofprovidence/airplane/outfit_eugene_cobb_actor_v0.entitytemplate].pc_entityblueprint"
 	},
 	{
+		"hash": "00662A097812E0F5",
+		"ioiString": "[assembly:/sonsofprovidence/airplane/charset_pilot.entitytemplate].pc_entitytype"
+	},
+	{
+		"hash": "004B08F7350693A4",
+		"ioiString": "[assembly:/sonsofprovidence/airplane/charset_pilot.entitytemplate].pc_entityblueprint"
+	},
+	{
+		"hash": "0051DDD22CA6BA19",
+		"ioiString": "[assembly:/sonsofprovidence/airplane/outfit_pilot_actor_v0.entitytemplate].pc_entitytype"
+	},
+	{
+		"hash": "00728B2C12C4C373",
+		"ioiString": "[assembly:/sonsofprovidence/airplane/outfit_pilot_actor_v0.entitytemplate].pc_entityblueprint"
+	},
+	{
 		"hash": "0027FA16D98A5FC5",
 		"ioiString": "[assembly:/sonsofprovidence/shared/global_outfits.brick].pc_entitytype"
 	},

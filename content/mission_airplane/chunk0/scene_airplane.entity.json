@@ -3615,7 +3615,7 @@
 				},
 				"m_OutfitRepositoryID": {
 					"type": "ZGuid",
-					"value": "ea5b1cea-c305-4f60-9512-78b2e6cd5030"
+					"value": "713eac2e-5e91-478c-916f-39d05bd17fc3"
 				},
 				"m_nOutfitVariation": {
 					"type": "int32",
@@ -3627,7 +3627,7 @@
 				},
 				"m_eRequiredVoiceVariation": {
 					"type": "EActorVoiceVariation",
-					"value": "eAVV_CIVMALECH01"
+					"value": "eAVV_BUSEY"
 				},
 				"m_aEnforcedOutfits": {
 					"type": "TArray<SEntityTemplateReference>",
@@ -3678,7 +3678,7 @@
 				},
 				"m_OutfitRepositoryID": {
 					"type": "ZGuid",
-					"value": "ea5b1cea-c305-4f60-9512-78b2e6cd5030"
+					"value": "713eac2e-5e91-478c-916f-39d05bd17fc3"
 				},
 				"m_nOutfitVariation": {
 					"type": "int32",
@@ -3686,11 +3686,11 @@
 				},
 				"m_sActorName": {
 					"type": "ZString",
-					"value": "Tommy Marevick"
+					"value": "Tommy Macevirk"
 				},
 				"m_eRequiredVoiceVariation": {
 					"type": "EActorVoiceVariation",
-					"value": "eAVV_CIVMALECH01"
+					"value": "eAVV_BDYGRD01"
 				},
 				"m_aEnforcedOutfits": {
 					"type": "TArray<SEntityTemplateReference>",
@@ -4824,7 +4824,7 @@
 				},
 				"m_eRequiredVoiceVariation": {
 					"type": "EActorVoiceVariation",
-					"value": "eAVV_CIVMALECH01"
+					"value": "eAVV_CIVMALE01"
 				},
 				"m_InventoryItemKeys": {
 					"type": "TArray<SEntityTemplateReference>",
