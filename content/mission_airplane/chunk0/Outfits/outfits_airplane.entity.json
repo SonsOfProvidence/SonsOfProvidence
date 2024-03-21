@@ -33,19 +33,27 @@
 						"m_bApplyLeftRightScalars": false
 					}
 				},
-				"m_eActorType": { "type": "EActorType", "value": "eAT_Civilian" },
+				"m_eActorType": {
+					"type": "EActorType",
+					"value": "eAT_Civilian"
+				},
 				"m_eActorCCClass": {
 					"type": "EActorCCPreset",
 					"value": "ACCP_CivilianeMale"
 				},
-				"m_bHeroDisguiseAvailable": { "type": "bool", "value": false },
+				"m_bHeroDisguiseAvailable": {
+					"type": "bool",
+					"value": false
+				},
 				"m_eSoundFootwearType": {
 					"type": "EHM5SoundFootwearType",
 					"value": "EFWT_BAREFOOT"
 				},
 				"m_aCharSets": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": ["feed85b94d5d1f13"]
+					"value": [
+						"feed85b94d5d1f13"
+					]
 				},
 				"m_sId": {
 					"type": "ZGuid",
@@ -58,8 +66,14 @@
 						"externalScene": "[assembly:/_pro/scenes/bricks/globaldata.brick].pc_entitytype"
 					}
 				},
-				"m_sCommonName": { "type": "ZString", "value": "Eugene Cobb" },
-				"m_sTitle": { "type": "ZString", "value": "Eugene Cobb" },
+				"m_sCommonName": {
+					"type": "ZString",
+					"value": "Eugene Cobb"
+				},
+				"m_sTitle": {
+					"type": "ZString",
+					"value": "Eugene Cobb"
+				},
 				"m_eOutfitAICategory": {
 					"type": "EOutfitAICategory",
 					"value": "OAC_Fallback"
@@ -81,7 +95,9 @@
 			"properties": {
 				"m_aHolders": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": ["feed1a2830b91bcf"],
+					"value": [
+						"feed1a2830b91bcf"
+					],
 					"postInit": true
 				}
 			},
@@ -105,16 +121,186 @@
 				}
 			},
 			"factory": "[assembly:/_pro/design/gamecore/keywords/keywordsound.template?/keywordentity_foley_outfit_naked.entitytemplate].pc_entitytype"
+		},
+		"feed5e6ce1abba29": {
+			"parent": "fffffffffffffffe",
+			"name": "Airplane_pilot_M",
+			"factory": "[modules:/zglobaloutfitkit.class].pc_entitytype",
+			"blueprint": "[modules:/zglobaloutfitkit.class].pc_entityblueprint",
+			"properties": {
+				"m_DamageMultipliers": {
+					"type": "SBodyPartDamageMultipliers",
+					"value": {
+						"m_fHeadDamageMultiplier": 3,
+						"m_fFaceDamageMultiplier": 3,
+						"m_fArmDamageMultiplier": 1,
+						"m_fLArmDamageScalar": 0,
+						"m_fRArmDamageScalar": 0,
+						"m_fHandDamageMultiplier": 0.5,
+						"m_fLHandDamageScalar": 0,
+						"m_fRHandDamageScalar": 0,
+						"m_fLegDamageMultiplier": 0.6000000238418579,
+						"m_fLLegDamageScalar": 0,
+						"m_fRLegDamageScalar": 0,
+						"m_fTorsoDamageMultiplier": 1,
+						"m_bApplyLeftRightScalars": false
+					}
+				},
+				"m_bHeroDisguiseAvailable": {
+					"type": "bool",
+					"value": false
+				},
+				"m_bWeaponsAllowed": {
+					"type": "bool",
+					"value": true
+				},
+				"m_eSoundFootwearType": {
+					"type": "EHM5SoundFootwearType",
+					"value": "EFWT_BOOTS"
+				},
+				"m_sId": {
+					"type": "ZGuid",
+					"value": "713eac2e-5e91-478c-916f-39d05bd17fc3"
+				},
+				"m_pParentOutfit": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "958ef354a73d986e",
+						"externalScene": "[assembly:/_pro/scenes/bricks/globaldata.brick].pc_entitytype"
+					}
+				},
+				"m_sCommonName": {
+					"type": "ZString",
+					"value": "Airplane_Pilot"
+				},
+				"m_sTitle": {
+					"type": "ZString",
+					"value": "Airplane Pilot"
+				},
+				"m_eOutfitAICategory": {
+					"type": "EOutfitAICategory",
+					"value": "OAC_Soldier"
+				},
+				"m_rNameTextResource": {
+					"type": "ZRuntimeResourceID",
+					"value": "[assembly:/localization/hitman6/conversations/ui/pro/online/repository/outfits_npcs_sapienza.sweetmenutext?/outfits_sapienza_worker_nakedguy_m_hpa1370_name_d3bdbcfe-8e46-4774-a642-17daa98a7f69.sweetline].pc_sweetline"
+				},
+				"m_rDescriptionTextResource": {
+					"type": "ZRuntimeResourceID",
+					"value": "[assembly:/localization/hitman6/conversations/ui/pro/online/repository/outfits_npcs_sapienza.sweetmenutext?/outfits_sapienza_worker_nakedguy_m_hpa1370_description_d3bdbcfe-8e46-4774-a642-17daa98a7f69.sweetline].pc_sweetline"
+				},
+				"m_rDefaultVoiceVariations": {
+					"type": "TArray<EActorVoiceVariation>",
+					"value": [
+						"eAVV_BDYGRD05",
+						"eAVV_BDYGRD06",
+						"eAVV_BDYGRD07"
+					]
+				},
+				"m_eOutfitType": {
+					"type": "EOutfitType",
+					"value": "eOT_Guard"
+				},
+				"m_aCharSets": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						"feedde82859bc349"
+					],
+					"postInit": true
+				},
+				"m_AvailableWeaponKeys": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						"feed813876de0e52"
+					],
+					"postInit": true
+				}
+			}
+		},
+		"feedc45082f359a6": {
+			"parent": "feed5e6ce1abba29",
+			"name": "Keyword_Prof_Class_Guard_Heavy",
+			"factory": "00364659808ED13C",
+			"blueprint": "003A7D4D8810414B",
+			"properties": {
+				"m_aHolders": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						"feed5e6ce1abba29"
+					],
+					"postInit": true
+				}
+			}
+		},
+		"feed2360e3e6b4c6": {
+			"parent": "feed5e6ce1abba29",
+			"name": "KeywordEntity_FOLEY_OUTFIT_ARMYVEST",
+			"factory": "[assembly:/_pro/design/gamecore/keywords/keywordsound.template?/keywordentity_foley_outfit_armyvest.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/gamecore/keywords/keywordsound.template?/keywordentity_foley_outfit_armyvest.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_rHolder": {
+					"type": "SEntityTemplateReference",
+					"value": "feed5e6ce1abba29"
+				}
+			}
+		},
+		"feedc7caece8859c": {
+			"parent": "feed5e6ce1abba29",
+			"name": "Keyword_Prof_Class_Default",
+			"factory": "007A51A2AFEC0D1A",
+			"blueprint": "00B0282A41C1CF2E",
+			"properties": {
+				"m_aHolders": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						"feed5e6ce1abba29"
+					]
+				}
+			}
+		},
+		"feedde82859bc349": {
+			"parent": "feed5e6ce1abba29",
+			"name": "CHARSET_pilot",
+			"factory": "[assembly:/sonsofprovidence/airplane/charset_pilot.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/sonsofprovidence/airplane/charset_pilot.entitytemplate].pc_entityblueprint"
+		},
+		"feed813876de0e52": {
+			"parent": "feed5e6ce1abba29",
+			"name": "ItemKey__Pistol__NPC_ Bartoli 75R",
+			"factory": "[modules:/zitemrepositorykeyentity.class].pc_entitytype",
+			"blueprint": "[modules:/zitemrepositorykeyentity.class].pc_entityblueprint",
+			"properties": {
+				"m_RepositoryId": {
+					"type": "ZGuid",
+					"value": "55ed7196-2303-4af6-9fa3-45b691134561"
+				}
+			}
 		}
 	},
-	"propertyOverrides": [],
-	"overrideDeletes": [],
-	"pinConnectionOverrides": [],
-	"pinConnectionOverrideDeletes": [],
-	"externalScenes": ["[assembly:/_pro/scenes/bricks/globaldata.brick].pc_entitytype"],
+	"propertyOverrides": [
+
+	],
+	"overrideDeletes": [
+
+	],
+	"pinConnectionOverrides": [
+
+	],
+	"pinConnectionOverrideDeletes": [
+
+	],
+	"externalScenes": [
+		"[assembly:/_pro/scenes/bricks/globaldata.brick].pc_entitytype"
+	],
 	"subType": "brick",
 	"quickEntityVersion": 3.1,
-	"extraFactoryDependencies": [],
-	"extraBlueprintDependencies": [],
-	"comments": []
+	"extraFactoryDependencies": [
+
+	],
+	"extraBlueprintDependencies": [
+
+	],
+	"comments": [
+
+	]
 }
