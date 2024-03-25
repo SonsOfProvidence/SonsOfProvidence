@@ -48,9 +48,9 @@ The cutscene from the original trilogy, where Subject 6 and Subject 47 are angry
 ## Mission 1: Assault on the Institute
 
 **Setting Location**: The Institute, Romania  
-**Sandbox Destination**: Dartmoor  
+**Sandbox Destination**: Safehouse  
 **Briefing Cutscene**: Lucas Grey has landed in front of Rubble falls in front of the hole in the wall.  
-**Gameplay**: Gameplay begins with the player playing as Subject 6 (bald, so the normal Agent 47 model can be used), starting in front of the rubble by the window outside of Dartmoor, armed with a Sawed-off shotgun, wearing the tactical wetsuit. Subject 6 must escape to the exit at the entrance of the Dartmoor level. All the areas of Dartmoor besides the path from the front entrance to the exit are blocked off, and all the doors are non-interactable. The only NPCs are mercenaries, armed with automatic rifles, and they are all enforcers for the Tactical Wetsuit disguise. After the level begins, a grenade is detonated inside the mansion, which will alert the guards.
+**Gameplay**: Gameplay begins with the player playing as Subject 6 (bald, so the normal Agent 47 model can be used), starting in front of the rubble by the window outside the safehouse, armed with a Sawed-off shotgun, wearing the tactical wetsuit. Subject 6 must escape to the exit at the entrance of the safehouse level. All the areas of safehouse besides the path from the front entrance to the exit are blocked off, and all the doors are non-interactable. The only NPCs are mercenaries, armed with automatic rifles, and they are all enforcers for the Tactical Wetsuit disguise. After the level begins, a grenade is detonated inside the mansion, which will alert the guards.
 
 **New starting location**: In front of the mansion  
 **Have restricted loadout**:

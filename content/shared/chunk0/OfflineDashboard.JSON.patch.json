@@ -19,7 +19,7 @@
 		{
 			"op": "replace",
 			"path": "/children/$mergearrays/0/$if/$else/data/image",
-			"value": "$res images/sop/dbierek_tile.jpg"
+			"value": "$res images/sop/sons_of_providence_tile.jpg"
 		},
 		{
 			"op": "add",

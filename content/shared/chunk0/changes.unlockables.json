@@ -114,8 +114,8 @@
 		"Rarity": "common",
 		"IsDroppable": false
 	},
-	"STARTING_LOCATION_DARTMOOR_OUTSIDE": {
-		"Id": "STARTING_LOCATION_DARTMOOR_OUTSIDE",
+	"STARTING_LOCATION_INSTITUTE_OUTSIDE": {
+		"Id": "STARTING_LOCATION_INSTITUTE_OUTSIDE",
 		"Guid": "179474a4-727a-1111-b354-c9fff4e8bff2",
 		"Type": "access",
 		"Subtype": "startinglocation",
@@ -128,7 +128,7 @@
 		"Capabilities": [],
 		"Qualities": {},
 		"Properties": {
-			"Location": "LOCATION_ANCESTRAL_BULLDOG",
+			"Location": "LOCATION_SNUG",
 			"RepositoryId": "9c111405-637e-46b7-a051-279039c533ac",
 			"Equip": ["TOKEN_OUTFIT_LUCAS_GREY_BALD"],
 			"UnlockOrder": 3
@@ -438,7 +438,7 @@
 			"ProgressionKey": "LOCATION_ANCESTRAL",
 			"Season": 1,
 			"CreateContractId": "7b68746b-9d29-4aa6-adab-90c21c7b4381",
-			"RequiredResources": ["[assembly:/sonsofprovidence/scene_airplane.entity].entitytemplate"],
+			"RequiredResources": ["[assembly:/sonsofprovidence/scene_institute.entity].entitytemplate"],
 			"Entitlements": ["LOCATION_ANCESTRAL"]
 		},
 		"Rarity": null
@@ -616,7 +616,7 @@
 				"STARTING_LOCATION_FUNERAL_CHURCH_TOWER",
 				"STARTING_LOCATION_AIRPLANE_SEAT",
 				"STARTING_LOCATION_MOSCOW_OUTSIDE",
-				"STARTING_LOCATION_DARTMOOR_OUTSIDE",
+				"STARTING_LOCATION_INSTITUTE_OUTSIDE",
 				"STARTING_LOCATION_BERLIN_OUTSIDE",
 				"STARTING_LOCATION_NEWYORK_GARAGE"
 			]
