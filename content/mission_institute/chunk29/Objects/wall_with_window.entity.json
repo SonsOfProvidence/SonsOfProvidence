@@ -1,0 +1,178 @@
+{
+	"tempHash": "001466EC25613F2A",
+	"tbluHash": "004C6901434BAD9F",
+	"rootEntity": "26b17b5079157a63",
+	"entities": {
+		"26b17b5079157a63": {
+			"parent": null,
+			"name": "Wall with Window",
+			"factory": "0009205BF00E76CC",
+			"blueprint": "00D79F81487BA1C9",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": -45,
+							"y": 71,
+							"z": 2
+						}
+					}
+				},
+				"m_bAddChildren": {
+					"type": "bool",
+					"value": true
+				},
+				"m_ResourceID": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "00FC0A36C429BA22",
+						"flag": "5F"
+					}
+				},
+				"m_CollisionResourceID": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "00D7759A19798CC5",
+						"flag": "5F"
+					}
+				}
+			}
+		}
+	},
+	"propertyOverrides": [
+
+	],
+	"overrideDeletes": [
+
+	],
+	"pinConnectionOverrides": [
+
+	],
+	"pinConnectionOverrideDeletes": [
+
+	],
+	"externalScenes": [
+
+	],
+	"subType": "template",
+	"quickEntityVersion": 3.1,
+	"extraFactoryDependencies": [
+		"00D23BE4FBA8B010",
+		{
+			"resource": "00615ED4C4CAB39F",
+			"flag": "5F"
+		},
+		{
+			"resource": "007C968ABF39E016",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/environment/materials/levels/bulldog/castle_bricks_a.mi].pc_mi",
+			"flag": "5F"
+		},
+		"[assembly:/_pro/environment/templates/kits/castle/mansion_a.template?/a_ext_wall_2x7_blank_a.entitytemplate].pc_entitytype",
+		{
+			"resource": "00B22E1E2BBF7455",
+			"flag": "5F"
+		},
+		{
+			"resource": "008776E4E8B23C6E",
+			"flag": "5F"
+		},
+		{
+			"resource": "00DD7F0FD7F4FE31",
+			"flag": "5F"
+		},
+		"[assembly:/_pro/environment/templates/kits/castle/mansion_a.template?/a_ext_wall_1x7_blank_a.entitytemplate].pc_entitytype",
+		{
+			"resource": "00BF9AC164678F9A",
+			"flag": "5F"
+		},
+		{
+			"resource": "00F1D27045F393E8",
+			"flag": "5F"
+		},
+		{
+			"resource": "00273504AB886D08",
+			"flag": "5F"
+		},
+		"[assembly:/_pro/environment/templates/kits/castle/mansion_a.template?/a_ext_wall_050x7_cornerout_a.entitytemplate].pc_entitytype",
+		{
+			"resource": "00B8F5EB222F1E5D",
+			"flag": "5F"
+		},
+		{
+			"resource": "0010EE549CC31572",
+			"flag": "5F"
+		},
+		{
+			"resource": "00B44A0EF5EBF181",
+			"flag": "5F"
+		},
+		"[assembly:/_pro/environment/templates/kits/castle/mansion_a.template?/a_ext_wall_050x7_cornerin_a.entitytemplate].pc_entitytype",
+		{
+			"resource": "00580271863AC6CC",
+			"flag": "5F"
+		},
+		{
+			"resource": "0093BC09BB5F71EB",
+			"flag": "5F"
+		},
+		{
+			"resource": "001EC3286228275B",
+			"flag": "5F"
+		},
+		{
+			"resource": "00ADBB99111A2D30",
+			"flag": "5F"
+		},
+		{
+			"resource": "001CEEA21C566536",
+			"flag": "5F"
+		},
+		"[assembly:/_pro/environment/templates/kits/castle/mansion_a.template?/a_ext_wall_3x7_window_a.entitytemplate].pc_entitytype",
+		{
+			"resource": "003DD28519797804",
+			"flag": "5F"
+		},
+		{
+			"resource": "002231FDD1FC5B4E",
+			"flag": "5F"
+		},
+		{
+			"resource": "0070B64F6F56281E",
+			"flag": "5F"
+		},
+		"[assembly:/_pro/environment/templates/kits/castle/mansion_a.template?/a_ext_wall_4x7_blank_a.entitytemplate].pc_entitytype",
+		{
+			"resource": "0085A9377E915E36",
+			"flag": "5F"
+		},
+		{
+			"resource": "003196596221B37D",
+			"flag": "5F"
+		},
+		{
+			"resource": "00760DE63FEFC08A",
+			"flag": "5F"
+		}
+	],
+	"extraBlueprintDependencies": [
+		"00BFB1341E78B08F",
+		"[assembly:/_pro/environment/templates/kits/castle/mansion_a.template?/a_ext_wall_2x7_blank_a.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/kits/castle/mansion_a.template?/a_ext_wall_1x7_blank_a.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/kits/castle/mansion_a.template?/a_ext_wall_050x7_cornerout_a.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/kits/castle/mansion_a.template?/a_ext_wall_050x7_cornerin_a.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/kits/castle/mansion_a.template?/a_ext_wall_3x7_window_a.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/environment/templates/kits/castle/mansion_a.template?/a_ext_wall_4x7_blank_a.entitytemplate].pc_entityblueprint"
+	],
+	"comments": [
+
+	]
+}

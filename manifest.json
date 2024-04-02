@@ -72,6 +72,21 @@
 					"toChunk": 29
 				},
 				{
+					"runtimeID": "00BFCCA7558A2E6F",
+					"comment": "[assembly:/_pro/environment/templates/kits/castle/mansion_a.template?/a_int_wall_1x7_blank_a.entitytemplate].pc_entitytype",
+					"toChunk": 29
+				},
+				{
+					"runtimeID": "00A0B8BBBBCBB79A",
+					"comment": "[assembly:/_pro/environment/templates/kits/castle/mansion_a.template?/a_ext_wall_3x7_window_a_frame.entitytemplate].pc_entitytype",
+					"toChunk": 29
+				},
+				{
+					"runtimeID": "00EDBB5422EA027E",
+					"comment": "[assembly:/_pro/environment/templates/kits/castle/mansion_a.template?/a_int_wall_3x7_window_a.entitytemplate].pc_entitytype",
+					"toChunk": 29
+				},
+				{
 					"runtimeID": "0033295AAB218798",
 					"comment": "[assembly:/runtimeresources/vertexpaint/_pro/scenes/missions/ancestral/scenario_bulldog/side_right_g_062bd954d53d4e5a8a47f1a3bdd70f4f.vertexdata].pc_vertexdata",
 					"toChunk": 29
