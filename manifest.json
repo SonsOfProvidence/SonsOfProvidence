@@ -87,6 +87,31 @@
 					"toChunk": 29
 				},
 				{
+					"runtimeID": "0054AF34AA26E53D",
+					"comment": "[assembly:/_pro/environment/templates/kits/castle/mansion_a.template?/a_ext_wall_1x7_window_b_hinge_single_closed.entitytemplate].pc_entitytype",
+					"toChunk": 29
+				},
+				{
+					"runtimeID": "00194931A7FA2F7D",
+					"comment": "[assembly:/_pro/environment/templates/props/furniture/antique_furniture_b.template?/leather_chair_italian_a.entitytemplate].pc_entitytype",
+					"toChunk": 29
+				},
+				{
+					"runtimeID": "00E16387CDF34A67",
+					"comment": " [assembly:/templates/aspectdummy.aspect]([assembly:/_pro/environment/templates/props/furniture/antique_furniture_a.template?/medieval_oak_desk_a.entitytemplate].entitytype,[modules:/zexplosionblockeraspect.class].entitytype).pc_entitytype",
+					"toChunk": 29
+				},
+				{
+					"runtimeID": "00ACBB990FED8E79",
+					"comment": "bank_ceiling_wood_c",
+					"toChunk": 29
+				},
+				{
+					"runtimeID": "009F57DF2A452CDC",
+					"comment": "[assembly:/_pro/environment/templates/architecture/doors/doors_bulldog_a.template?/door_double_bulldog_a.entitytemplate].pc_entitytype",
+					"toChunk": 29
+				},
+				{
 					"runtimeID": "0033295AAB218798",
 					"comment": "[assembly:/runtimeresources/vertexpaint/_pro/scenes/missions/ancestral/scenario_bulldog/side_right_g_062bd954d53d4e5a8a47f1a3bdd70f4f.vertexdata].pc_vertexdata",
 					"toChunk": 29
