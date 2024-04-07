@@ -10484,7 +10484,7 @@
 							"z": -180
 						},
 						"position": {
-							"x": -49.334991455078125,
+							"x": -49.86023712158203,
 							"y": -207.53602600097656,
 							"z": -2.0873308181762695
 						}
@@ -13355,9 +13355,9 @@
 							"z": 0
 						},
 						"position": {
-							"x": -17.099300384521484,
-							"y": -183.8537139892578,
-							"z": -1.9660767316818237
+							"x": -17.10112762451172,
+							"y": -183.66635131835938,
+							"z": -1.9660505056381226
 						}
 					}
 				},
@@ -13451,9 +13451,9 @@
 							"z": 0
 						},
 						"position": {
-							"x": -1.8884344100952148,
-							"y": -188.24697875976562,
-							"z": -2.010251045227051
+							"x": -1.9604787826538086,
+							"y": -188.4989471435547,
+							"z": -2.0102767944335938
 						}
 					}
 				},
@@ -13515,9 +13515,9 @@
 							"z": 0
 						},
 						"position": {
-							"x": -18.001739501953125,
-							"y": -188.4220733642578,
-							"z": -1.9923521280288696
+							"x": -17.97555160522461,
+							"y": -188.53799438476562,
+							"z": -1.9923560619354248
 						}
 					}
 				},
@@ -13611,9 +13611,9 @@
 							"z": 0
 						},
 						"position": {
-							"x": 6.387033462524414,
-							"y": -183.87989807128906,
-							"z": -1.9479840993881226
+							"x": 6.448807716369629,
+							"y": -183.68736267089844,
+							"z": -1.948010802268982
 						}
 					}
 				},
@@ -16933,19 +16933,19 @@
 						"rotation": {
 							"x": 0,
 							"y": 0,
-							"z": -180
+							"z": 89.9999965849052
 						},
 						"position": {
-							"x": -49.148780822753906,
-							"y": -207.99130249023438,
-							"z": -8.999276161193848
+							"x": 42.41532516479492,
+							"y": -182.80714416503906,
+							"z": -9.011883735656738
 						}
 					}
 				},
 				"m_PrimitiveScale": {
 					"type": "SVector3",
 					"value": {
-						"x": 1,
+						"x": 0.4,
 						"y": 1,
 						"z": 1
 					}
@@ -18494,7 +18494,7 @@
 							"z": 0
 						},
 						"position": {
-							"x": 35.489381790161133,
+							"x": 31.898414611816406,
 							"y": -199.7701416015625,
 							"z": -2.358860492706299
 						}
@@ -18503,7 +18503,7 @@
 				"m_PrimitiveScale": {
 					"type": "SVector3",
 					"value": {
-						"x": 1.6,
+						"x": 2.6,
 						"y": 1.2,
 						"z": 1
 					}
@@ -22706,19 +22706,19 @@
 						"rotation": {
 							"x": 0,
 							"y": 0,
-							"z": -89.9999965849052
+							"z": 89.9999965849052
 						},
 						"position": {
-							"x": -68.92103576660156,
-							"y": -183.00357055664062,
-							"z": -9.01224136352539
+							"x": 42.41532516479492,
+							"y": -182.80714416503906,
+							"z": -2.011883735656738
 						}
 					}
 				},
 				"m_PrimitiveScale": {
 					"type": "SVector3",
 					"value": {
-						"x": 1,
+						"x": 0.4,
 						"y": 1,
 						"z": 1
 					}
@@ -24197,9 +24197,9 @@
 							"z": -180
 						},
 						"position": {
-							"x": -46.81733703613281,
-							"y": -208.31007385253906,
-							"z": -2.01224136352539
+							"x": 306.7329406738281,
+							"y": -217.0489501953125,
+							"z": 184.0748748779297
 						}
 					}
 				},
@@ -24372,9 +24372,9 @@
 							"z": -180
 						},
 						"position": {
-							"x": -50.81733703613281,
-							"y": -208.31007385253906,
-							"z": -2.01224136352539
+							"x": -116.50684356689453,
+							"y": -221.8698272705078,
+							"z": -46.27619552612305
 						}
 					}
 				},
@@ -24652,9 +24652,9 @@
 							"z": 0
 						},
 						"position": {
-							"x": -54.810150146484375,
-							"y": -147.8090362548828,
-							"z": -2.01224136352539
+							"x": -94.91698455810547,
+							"y": -133.58920288085938,
+							"z": -30.285242080688477
 						}
 					}
 				},
@@ -24757,9 +24757,9 @@
 							"z": 0
 						},
 						"position": {
-							"x": -50.810150146484375,
-							"y": -147.8090362548828,
-							"z": -2.01224136352539
+							"x": -296.39385986328125,
+							"y": -137.35345458984375,
+							"z": -133.31744384765625
 						}
 					}
 				},
@@ -24827,7 +24827,7 @@
 							"z": -180
 						},
 						"position": {
-							"x": -49.334991455078125,
+							"x": -52.335060119628906,
 							"y": -207.53602600097656,
 							"z": -2.0873308181762695
 						}
@@ -24859,11 +24859,11 @@
 						"rotation": {
 							"x": 0,
 							"y": 0,
-							"z": -180
+							"z": 0
 						},
 						"position": {
-							"x": -49.334991455078125,
-							"y": -207.53602600097656,
+							"x": -49.807861328125,
+							"y": -148.06141662597656,
 							"z": -2.0873308181762695
 						}
 					}
@@ -24897,7 +24897,7 @@
 							"z": -180
 						},
 						"position": {
-							"x": -49.334991455078125,
+							"x": -46.799034118652344,
 							"y": -207.53602600097656,
 							"z": -2.0873308181762695
 						}
@@ -25569,7 +25569,7 @@
 						},
 						"position": {
 							"x": -46.5,
-							"y": -157.66482543945312,
+							"y": -155.33935546875,
 							"z": 3.945338726043701
 						}
 					}
@@ -26773,7 +26773,7 @@
 				"m_PrimitiveScale": {
 					"type": "SVector3",
 					"value": {
-						"x": 1,
+						"x": 2,
 						"y": 1,
 						"z": 1
 					}
@@ -26870,7 +26870,7 @@
 						},
 						"position": {
 							"x": -46.5,
-							"y": -169.66482543945312,
+							"y": -167.6378631591797,
 							"z": 3.945338726043701
 						}
 					}
@@ -27010,7 +27010,7 @@
 						},
 						"position": {
 							"x": -46.5,
-							"y": -165.66482543945312,
+							"y": -163.5869903564453,
 							"z": 3.945338726043701
 						}
 					}
@@ -27045,7 +27045,7 @@
 						},
 						"position": {
 							"x": -46.5,
-							"y": -161.66482543945312,
+							"y": -159.47352600097656,
 							"z": 3.945338726043701
 						}
 					}
@@ -27054,6 +27054,111 @@
 					"type": "SVector3",
 					"value": {
 						"x": 2,
+						"y": 1,
+						"z": 1
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feed1e591404f88b"
+				}
+			}
+		},
+		"feedce961e01639e": {
+			"parent": "feed87c7e00fdd5c",
+			"name": "bank_ceiling_wood_c_02",
+			"factory": "00ACBB990FED8E79",
+			"blueprint": "00677FA7B08F96F3",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": -46.5,
+							"y": -151.33935546875,
+							"z": 3.945338726043701
+						}
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 2,
+						"y": 1,
+						"z": 1
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feed1e591404f88b"
+				}
+			}
+		},
+		"feedb3fdd531c06c": {
+			"parent": "feede8f78fe04021",
+			"name": "a_ext_wall_3x7_window_a_2nd",
+			"factory": "[assembly:/_pro/environment/templates/kits/castle/mansion_a.template?/a_int_wall_3x7_window_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/castle/mansion_a.template?/a_int_wall_3x7_window_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": -52.807861328125,
+							"y": -148.06141662597656,
+							"z": -2.0873308181762695
+						}
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 1,
+						"y": 1,
+						"z": 1
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feed1e591404f88b"
+				}
+			}
+		},
+		"feedfc920341aaf6": {
+			"parent": "feede8f78fe04021",
+			"name": "a_ext_wall_3x7_window_a_2nd",
+			"factory": "[assembly:/_pro/environment/templates/kits/castle/mansion_a.template?/a_int_wall_3x7_window_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/castle/mansion_a.template?/a_int_wall_3x7_window_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": -55.807861328125,
+							"y": -148.06141662597656,
+							"z": -2.0873308181762695
+						}
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 1,
 						"y": 1,
 						"z": 1
 					}
@@ -28476,6 +28581,26 @@
 		},
 		{
 			"ref": "62709d52ac2cc00b",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "a4991fe66f6582e8",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "2db2ab03f1fb1ede",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "91dbc77e5b108b06",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "9ad4f94b4d956280",
+			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
+		},
+		{
+			"ref": "560c9d24e9a319c2",
 			"externalScene": "[assembly:/_pro/scenes/missions/snug/mission_vanilla.brick].pc_entitytype"
 		}
 	],
