@@ -9,7 +9,7 @@
 				"BriefingName": "$($repository d3959196-6be0-43ea-b6e7-aafa70824748).Name",
 				"BriefingText": "Eliminate Nicholai Kamarov",
 				"HUDTemplate": { "display": "Eliminate Nicholai Kamarov" },
-				"Image": "images/sop/dbierek_tile.jpg",
+				"Image": "images/sop/sons_of_providence_tile.jpg",
 				"SuccessEvent": {
 					"EventName": "Kill",
 					"EventValues": { "RepositoryId": "d3959196-6be0-43ea-b6e7-aafa70824748" }

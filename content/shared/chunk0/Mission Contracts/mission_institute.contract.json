@@ -16,9 +16,9 @@
 	"Metadata": {
 		"Id": "1c427111-cfc7-4049-ab5f-528b91a04e38",
 		"IsPublished": true,
-		"Title": "UI_DARTMOOR_TITLE",
-		"Description": "UI_DARTMOOR_DESC",
-		"CodeName_Hint": "Dartmoor",
+		"Title": "UI_INSTITUTE_TITLE",
+		"Description": "UI_INSTITUTE_DESC",
+		"CodeName_Hint": "Institute",
 		"ScenePath": "assembly:/sonsofprovidence/scene_institute.entity",
 		"TileImage": "images/locations/location_institute/tile.jpg",
 		"Location": "LOCATION_INSTITUTE",
@@ -28,7 +28,7 @@
 		"Type": "mission",
 		"Release": "2.2.x",
 		"RequiredUnlockable": "ACCESS_HIT_MONGOOSE",
-		"Entitlements": ["LOCATION_ANCESTRAL"]
+		"Entitlements": ["LOCATION_GOLDEN"]
 	},
 	"UserData": {},
 	"SMF": { "destinations": { "addToDestinations": true, "peacockIntegration": true, "narrativeContext": "Mission" } }

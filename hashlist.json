@@ -464,6 +464,30 @@
 		"ioiString": "[assembly:/sonsofprovidence/institute/outfit_worker_actor_v0.entitytemplate].pc_entityblueprint"
 	},
 	{
+		"hash": "00FC0A36C429BA22",
+		"ioiString": "[assembly:/sonsofprovidence/institute/objects/wall_with_window.prim].pc_prim"
+	},
+	{
+		"hash": "001466EC25613F2A",
+		"ioiString": "[assembly:/sonsofprovidence/institute/objects/wall_with_window.entitytemplate].pc_entitytype"
+	},
+	{
+		"hash": "004C6901434BAD9F",
+		"ioiString": "[assembly:/sonsofprovidence/institute/objects/wall_with_window.entitytemplate].pc_entityblueprint"
+	},
+	{
+		"hash": "00B5FF2B826DED6D",
+		"ioiString": "[assembly:/sonsofprovidence/institute/objects/roof_shingles.prim].pc_prim"
+	},
+	{
+		"hash": "002DCCC55162F38B",
+		"ioiString": "[assembly:/sonsofprovidence/institute/objects/roof_shingles.entitytemplate].pc_entitytype"
+	},
+	{
+		"hash": "008669A712750F73",
+		"ioiString": "[assembly:/sonsofprovidence/institute/objects/roof_shingles.entitytemplate].pc_entityblueprint"
+	},
+	{
 		"hash": "00D023CAEBCDCC63",
 		"ioiString": "[assembly:/sonsofprovidence/thomascross_hair_diffuse.tex](ascolormap).pc_tex)"
 	},

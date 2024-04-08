@@ -7,9 +7,9 @@
 	},
 	"9c111405-637e-46b7-a051-279039c533ac": {
 		"ID_": "9c111405-637e-46b7-a051-279039c533ac",
-		"Image": "images/sop/dartmoor_exterior_start.jpg",
-		"Name_LOC": "ui_starting_location_dartmoor_institute_default_name",
-		"Description": "ui_starting_location_dartmoor_institute_desc"
+		"Image": "images/sop/institute_exterior_start.jpg",
+		"Name_LOC": "ui_starting_location_institute_default_name",
+		"Description": "ui_starting_location_institute_desc"
 	},
 	"a8f370ef-5936-49c6-8c30-8bf3b9ca1930": {
 		"ID_": "a8f370ef-5936-49c6-8c30-8bf3b9ca1930",
