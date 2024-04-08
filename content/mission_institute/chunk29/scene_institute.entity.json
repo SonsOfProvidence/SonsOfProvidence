@@ -3322,40 +3322,6 @@
 				}
 			}
 		},
-		"feedc98f258e32e1": {
-			"parent": "feedd4b1cd882def",
-			"name": "Mansion_exterior_B",
-			"factory": "[assembly:/_pro/environment/templates/kits/castle/mansion_a_prefab.template?/mansion_exterior_b.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/environment/templates/kits/castle/mansion_a_prefab.template?/mansion_exterior_b.entitytemplate].pc_entityblueprint",
-			"properties": {
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": 89.9999965849052
-						},
-						"position": {
-							"x": -68.5339126586914,
-							"y": -190.12692260742188,
-							"z": 5.048646926879883
-						}
-					}
-				},
-				"m_VertexPaintData": {
-					"type": "ZRuntimeResourceID",
-					"value": {
-						"resource": "[assembly:/runtimeresources/vertexpaint/_pro/scenes/missions/ancestral/scenario_bulldog/mansion_exterior_b_1893fbe3e87d410fa8cc586316c03538.vertexdata].pc_vertexdata",
-						"flag": "5F"
-					}
-				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "feed1e591404f88b"
-				}
-			}
-		},
 		"feed1e591404f88b": {
 			"parent": "abcd85cba5ab5afa",
 			"name": "000_Institute",
@@ -3612,74 +3578,6 @@
 				}
 			}
 		},
-		"feeda5f688e5e63d": {
-			"parent": "feedd4b1cd882def",
-			"name": "Mansion_Exterior_A_Tiles_B",
-			"factory": "[assembly:/_pro/environment/templates/kits/castle/mansion_a_prefab.template?/mansion_exterior_a_tiles_b.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/environment/templates/kits/castle/mansion_a_prefab.template?/mansion_exterior_a_tiles_b.entitytemplate].pc_entityblueprint",
-			"properties": {
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": -89.9999965849052
-						},
-						"position": {
-							"x": 22.459747314453125,
-							"y": -174.11488342285156,
-							"z": 18.914628982543945
-						}
-					}
-				},
-				"m_VertexPaintData": {
-					"type": "ZRuntimeResourceID",
-					"value": {
-						"resource": "[assembly:/runtimeresources/vertexpaint/_pro/scenes/missions/ancestral/scenario_bulldog/mansion_exterior_a_tiles_b_aca9b72894434e9ba10776063163447c.vertexdata].pc_vertexdata",
-						"flag": "5F"
-					}
-				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "feed1e591404f88b"
-				}
-			}
-		},
-		"feed28c0a7fe92c2": {
-			"parent": "feedd4b1cd882def",
-			"name": "Side_Front_D",
-			"factory": "[assembly:/_pro/environment/templates/kits/castle/mansion_a_prefab.template?/side_front_d.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/environment/templates/kits/castle/mansion_a_prefab.template?/side_front_d.entitytemplate].pc_entityblueprint",
-			"properties": {
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": -89.9999965849052
-						},
-						"position": {
-							"x": 31.462881088256836,
-							"y": -175.13316345214844,
-							"z": 4.9880218505859375
-						}
-					}
-				},
-				"m_VertexPaintData": {
-					"type": "ZRuntimeResourceID",
-					"value": {
-						"resource": "[assembly:/runtimeresources/vertexpaint/_pro/scenes/missions/ancestral/scenario_bulldog/side_front_d_1c681668f27945b984df30b4938f614d.vertexdata].pc_vertexdata",
-						"flag": "5F"
-					}
-				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "feed1e591404f88b"
-				}
-			}
-		},
 		"feed02ea55a33181": {
 			"parent": "feedeeaa49015f9b",
 			"name": "A_ext_floor_1x1_blank_A_concrete_01",
@@ -3704,7 +3602,7 @@
 						"position": {
 							"x": 31.28521728515625,
 							"y": -173.40402221679688,
-							"z": -9.00572395324707
+							"z": -8.98125171661377
 						}
 					}
 				},
@@ -5388,12 +5286,12 @@
 						"rotation": {
 							"x": 0,
 							"y": 0,
-							"z": -180
+							"z": -180.00000500895632
 						},
 						"position": {
-							"x": 32.32497787475586,
-							"y": -181.1243133544922,
-							"z": -16.03166961669922
+							"x": 17.255955,
+							"y": -181.12431,
+							"z": -16.03167
 						}
 					}
 				},
@@ -5672,7 +5570,7 @@
 						},
 						"position": {
 							"x": 32.201717376708984,
-							"y": -173.1008758544922,
+							"y": -173.38275146484375,
 							"z": 4.931985378265381
 						}
 					}
@@ -5834,7 +5732,7 @@
 		},
 		"feed2ae41ac55ba5": {
 			"parent": "feedbebc927682e5",
-			"name": "Lamp_Ceiling_Chandelier_Ornate_B_02",
+			"name": "Lamp_Ceiling_Chandelier_Ornate_B_01",
 			"factory": "[assembly:/_pro/environment/templates/props/lamps/lamps_indoor_colorado_a.template?/lamp_ceiling_chandelier_ornate_b.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/environment/templates/props/lamps/lamps_indoor_colorado_a.template?/lamp_ceiling_chandelier_ornate_b.entitytemplate].pc_entityblueprint",
 			"properties": {
@@ -5904,7 +5802,7 @@
 				},
 				"On": {
 					"type": "bool",
-					"value": false
+					"value": true
 				},
 				"m_bUseDynamicShadowMap": {
 					"type": "bool",
@@ -6181,7 +6079,7 @@
 		},
 		"feeda84324a61c54": {
 			"parent": "feedd4b1cd882def",
-			"name": "Side_Left_D_02",
+			"name": "Side_Left_D_03",
 			"factory": "[assembly:/_pro/environment/templates/kits/castle/mansion_a_prefab.template?/side_left_d.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/environment/templates/kits/castle/mansion_a_prefab.template?/side_left_d.entitytemplate].pc_entityblueprint",
 			"properties": {
@@ -6196,7 +6094,7 @@
 						"position": {
 							"x": 32.41716766357422,
 							"y": -175.4032745361328,
-							"z": -2.048234939575195
+							"z": 4.951765060424805
 						}
 					}
 				},
@@ -8078,44 +7976,6 @@
 				}
 			}
 		},
-		"feed1c471c8c718a": {
-			"parent": "feed14176f0ee906",
-			"name": "Side_Left_I_",
-			"factory": "[assembly:/_pro/environment/templates/kits/castle/mansion_a_prefab.template?/side_left_i.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/environment/templates/kits/castle/mansion_a_prefab.template?/side_left_i.entitytemplate].pc_entityblueprint",
-			"properties": {
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": -180
-						},
-						"position": {
-							"x": 35.0411262512207,
-							"y": -173.82794189453125,
-							"z": -17.04923439025879
-						}
-					}
-				},
-				"m_VertexPaintData": {
-					"type": "ZRuntimeResourceID",
-					"value": {
-						"resource": "[assembly:/runtimeresources/vertexpaint/_pro/scenes/missions/ancestral/scenario_bulldog/side_left_i_cd8074cf4ecd4dedb70f4aacecd0a57b.vertexdata].pc_vertexdata",
-						"flag": "5F"
-					}
-				},
-				"m_bAddChildren": {
-					"type": "bool",
-					"value": true
-				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "feed1e591404f88b"
-				}
-			}
-		},
 		"feed375f99744817": {
 			"parent": "feed14176f0ee906",
 			"name": "Side_Left_I_",
@@ -8154,44 +8014,6 @@
 				}
 			}
 		},
-		"feed2ead2386b6d2": {
-			"parent": "feed14176f0ee906",
-			"name": "Side_Left_I_",
-			"factory": "[assembly:/_pro/environment/templates/kits/castle/mansion_a_prefab.template?/side_left_i.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/environment/templates/kits/castle/mansion_a_prefab.template?/side_left_i.entitytemplate].pc_entityblueprint",
-			"properties": {
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": -180
-						},
-						"position": {
-							"x": 35.0411262512207,
-							"y": -173.82794189453125,
-							"z": -17.04923439025879
-						}
-					}
-				},
-				"m_VertexPaintData": {
-					"type": "ZRuntimeResourceID",
-					"value": {
-						"resource": "[assembly:/runtimeresources/vertexpaint/_pro/scenes/missions/ancestral/scenario_bulldog/side_left_i_cd8074cf4ecd4dedb70f4aacecd0a57b.vertexdata].pc_vertexdata",
-						"flag": "5F"
-					}
-				},
-				"m_bAddChildren": {
-					"type": "bool",
-					"value": true
-				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "feed1e591404f88b"
-				}
-			}
-		},
 		"feed7a35b2082cc1": {
 			"parent": "feed14176f0ee906",
 			"name": "Side_Left_I_",
@@ -8207,9 +8029,9 @@
 							"z": -180
 						},
 						"position": {
-							"x": 35.0411262512207,
-							"y": -173.82794189453125,
-							"z": -17.04923439025879
+							"x": 32.395137786865234,
+							"y": -180.14349365234375,
+							"z": -16.03449821472168
 						}
 					}
 				},
@@ -8247,159 +8069,7 @@
 						"position": {
 							"x": 32.36758041381836,
 							"y": -171.3934783935547,
-							"z": -15.843400001525879
-						}
-					}
-				},
-				"m_VertexPaintData": {
-					"type": "ZRuntimeResourceID",
-					"value": {
-						"resource": "[assembly:/runtimeresources/vertexpaint/_pro/scenes/missions/ancestral/scenario_bulldog/side_left_i_cd8074cf4ecd4dedb70f4aacecd0a57b.vertexdata].pc_vertexdata",
-						"flag": "5F"
-					}
-				},
-				"m_bAddChildren": {
-					"type": "bool",
-					"value": true
-				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "feed1e591404f88b"
-				}
-			}
-		},
-		"feed92183a4cbd67": {
-			"parent": "feed14176f0ee906",
-			"name": "Side_Left_I_",
-			"factory": "[assembly:/_pro/environment/templates/kits/castle/mansion_a_prefab.template?/side_left_i.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/environment/templates/kits/castle/mansion_a_prefab.template?/side_left_i.entitytemplate].pc_entityblueprint",
-			"properties": {
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": -180
-						},
-						"position": {
-							"x": 35.0411262512207,
-							"y": -173.82794189453125,
-							"z": -17.04923439025879
-						}
-					}
-				},
-				"m_VertexPaintData": {
-					"type": "ZRuntimeResourceID",
-					"value": {
-						"resource": "[assembly:/runtimeresources/vertexpaint/_pro/scenes/missions/ancestral/scenario_bulldog/side_left_i_cd8074cf4ecd4dedb70f4aacecd0a57b.vertexdata].pc_vertexdata",
-						"flag": "5F"
-					}
-				},
-				"m_bAddChildren": {
-					"type": "bool",
-					"value": true
-				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "feed1e591404f88b"
-				}
-			}
-		},
-		"feed7383b6713584": {
-			"parent": "feed14176f0ee906",
-			"name": "Side_Left_I_",
-			"factory": "[assembly:/_pro/environment/templates/kits/castle/mansion_a_prefab.template?/side_left_i.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/environment/templates/kits/castle/mansion_a_prefab.template?/side_left_i.entitytemplate].pc_entityblueprint",
-			"properties": {
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": -180
-						},
-						"position": {
-							"x": 35.0411262512207,
-							"y": -173.82794189453125,
-							"z": -17.04923439025879
-						}
-					}
-				},
-				"m_VertexPaintData": {
-					"type": "ZRuntimeResourceID",
-					"value": {
-						"resource": "[assembly:/runtimeresources/vertexpaint/_pro/scenes/missions/ancestral/scenario_bulldog/side_left_i_cd8074cf4ecd4dedb70f4aacecd0a57b.vertexdata].pc_vertexdata",
-						"flag": "5F"
-					}
-				},
-				"m_bAddChildren": {
-					"type": "bool",
-					"value": true
-				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "feed1e591404f88b"
-				}
-			}
-		},
-		"feed7aba6cc6eeed": {
-			"parent": "feed14176f0ee906",
-			"name": "Side_Left_I_",
-			"factory": "[assembly:/_pro/environment/templates/kits/castle/mansion_a_prefab.template?/side_left_i.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/environment/templates/kits/castle/mansion_a_prefab.template?/side_left_i.entitytemplate].pc_entityblueprint",
-			"properties": {
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": -180
-						},
-						"position": {
-							"x": 35.0411262512207,
-							"y": -173.82794189453125,
-							"z": -17.04923439025879
-						}
-					}
-				},
-				"m_VertexPaintData": {
-					"type": "ZRuntimeResourceID",
-					"value": {
-						"resource": "[assembly:/runtimeresources/vertexpaint/_pro/scenes/missions/ancestral/scenario_bulldog/side_left_i_cd8074cf4ecd4dedb70f4aacecd0a57b.vertexdata].pc_vertexdata",
-						"flag": "5F"
-					}
-				},
-				"m_bAddChildren": {
-					"type": "bool",
-					"value": true
-				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "feed1e591404f88b"
-				}
-			}
-		},
-		"feedca4c328a9e28": {
-			"parent": "feed14176f0ee906",
-			"name": "Side_Left_I_",
-			"factory": "[assembly:/_pro/environment/templates/kits/castle/mansion_a_prefab.template?/side_left_i.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/environment/templates/kits/castle/mansion_a_prefab.template?/side_left_i.entitytemplate].pc_entityblueprint",
-			"properties": {
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": -180
-						},
-						"position": {
-							"x": 35.0411262512207,
-							"y": -173.82794189453125,
-							"z": -17.04923439025879
+							"z": -15.949670791625977
 						}
 					}
 				},
@@ -8437,120 +8107,6 @@
 						"position": {
 							"x": 34.8447151184082,
 							"y": -178.08184814453125,
-							"z": -17.04923439025879
-						}
-					}
-				},
-				"m_VertexPaintData": {
-					"type": "ZRuntimeResourceID",
-					"value": {
-						"resource": "[assembly:/runtimeresources/vertexpaint/_pro/scenes/missions/ancestral/scenario_bulldog/side_left_i_cd8074cf4ecd4dedb70f4aacecd0a57b.vertexdata].pc_vertexdata",
-						"flag": "5F"
-					}
-				},
-				"m_bAddChildren": {
-					"type": "bool",
-					"value": true
-				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "feed1e591404f88b"
-				}
-			}
-		},
-		"feedb55bf342d79b": {
-			"parent": "feed14176f0ee906",
-			"name": "Side_Left_I_",
-			"factory": "[assembly:/_pro/environment/templates/kits/castle/mansion_a_prefab.template?/side_left_i.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/environment/templates/kits/castle/mansion_a_prefab.template?/side_left_i.entitytemplate].pc_entityblueprint",
-			"properties": {
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": -180
-						},
-						"position": {
-							"x": 35.0411262512207,
-							"y": -173.82794189453125,
-							"z": -17.04923439025879
-						}
-					}
-				},
-				"m_VertexPaintData": {
-					"type": "ZRuntimeResourceID",
-					"value": {
-						"resource": "[assembly:/runtimeresources/vertexpaint/_pro/scenes/missions/ancestral/scenario_bulldog/side_left_i_cd8074cf4ecd4dedb70f4aacecd0a57b.vertexdata].pc_vertexdata",
-						"flag": "5F"
-					}
-				},
-				"m_bAddChildren": {
-					"type": "bool",
-					"value": true
-				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "feed1e591404f88b"
-				}
-			}
-		},
-		"feed4bf67f052dbd": {
-			"parent": "feed14176f0ee906",
-			"name": "Side_Left_I_",
-			"factory": "[assembly:/_pro/environment/templates/kits/castle/mansion_a_prefab.template?/side_left_i.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/environment/templates/kits/castle/mansion_a_prefab.template?/side_left_i.entitytemplate].pc_entityblueprint",
-			"properties": {
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": -180
-						},
-						"position": {
-							"x": 35.0411262512207,
-							"y": -173.82794189453125,
-							"z": -17.04923439025879
-						}
-					}
-				},
-				"m_VertexPaintData": {
-					"type": "ZRuntimeResourceID",
-					"value": {
-						"resource": "[assembly:/runtimeresources/vertexpaint/_pro/scenes/missions/ancestral/scenario_bulldog/side_left_i_cd8074cf4ecd4dedb70f4aacecd0a57b.vertexdata].pc_vertexdata",
-						"flag": "5F"
-					}
-				},
-				"m_bAddChildren": {
-					"type": "bool",
-					"value": true
-				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "feed1e591404f88b"
-				}
-			}
-		},
-		"feed50aa81a12a92": {
-			"parent": "feed14176f0ee906",
-			"name": "Side_Left_I_",
-			"factory": "[assembly:/_pro/environment/templates/kits/castle/mansion_a_prefab.template?/side_left_i.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/environment/templates/kits/castle/mansion_a_prefab.template?/side_left_i.entitytemplate].pc_entityblueprint",
-			"properties": {
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": -180
-						},
-						"position": {
-							"x": 35.0411262512207,
-							"y": -173.82794189453125,
 							"z": -17.04923439025879
 						}
 					}
@@ -10470,7 +10026,7 @@
 			}
 		},
 		"feed03dde1a3a958": {
-			"parent": "feed2940c4699491",
+			"parent": "feed71f176af7394",
 			"name": "a_ext_wall_3x7_window_a_2nd",
 			"factory": "[assembly:/_pro/environment/templates/kits/castle/mansion_a.template?/a_int_wall_3x7_window_a.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/environment/templates/kits/castle/mansion_a.template?/a_int_wall_3x7_window_a.entitytemplate].pc_entityblueprint",
@@ -10484,9 +10040,9 @@
 							"z": -180
 						},
 						"position": {
-							"x": -49.86023712158203,
-							"y": -207.53602600097656,
-							"z": -2.0873308181762695
+							"x": -46.76759338378906,
+							"y": -208.2965545654297,
+							"z": -2.005030393600464
 						}
 					}
 				},
@@ -12260,7 +11816,7 @@
 			}
 		},
 		"feedf9dc431631a8": {
-			"parent": "feedbe95ec736835",
+			"parent": "feedbebc927682e5",
 			"name": "a_int_wall_1x7_window_b_01",
 			"factory": "[assembly:/_pro/environment/templates/kits/castle/mansion_a.template?/a_int_wall_1x7_window_b.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/environment/templates/kits/castle/mansion_a.template?/a_int_wall_1x7_window_b.entitytemplate].pc_entityblueprint",
@@ -12295,7 +11851,7 @@
 			}
 		},
 		"feedd2067d570ac7": {
-			"parent": "feedbe95ec736835",
+			"parent": "feedbebc927682e5",
 			"name": "a_int_wall_1x7_window_b_01",
 			"factory": "[assembly:/_pro/environment/templates/kits/castle/mansion_a.template?/a_int_wall_1x7_window_b.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/environment/templates/kits/castle/mansion_a.template?/a_int_wall_1x7_window_b.entitytemplate].pc_entityblueprint",
@@ -12388,7 +11944,7 @@
 						"position": {
 							"x": 32.237823486328125,
 							"y": -171.9127960205078,
-							"z": -9.008069038391113
+							"z": -8.988286972045898
 						}
 					}
 				},
@@ -15866,7 +15422,7 @@
 						"position": {
 							"x": -38.320796966552734,
 							"y": -175.07432556152344,
-							"z": -8.996387481689453
+							"z": -9.621461868286133
 						}
 					}
 				},
@@ -18877,7 +18433,7 @@
 			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
 		},
 		"feed1b491a02a358": {
-			"parent": "feed69f3fe137bf4",
+			"parent": "feedbe95ec736835",
 			"name": "a_ext_wall_3x7_window_a_",
 			"factory": "[assembly:/_pro/environment/templates/kits/castle/mansion_a.template?/a_int_wall_3x7_window_a.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/environment/templates/kits/castle/mansion_a.template?/a_int_wall_3x7_window_a.entitytemplate].pc_entityblueprint",
@@ -19293,13 +18849,13 @@
 					"value": {
 						"rotation": {
 							"x": 0,
-							"y": 0.0005682930832887331,
-							"z": 89.99999658469697
+							"y": 0,
+							"z": 89.9999965849052
 						},
 						"position": {
 							"x": 32.64994430541992,
 							"y": -166.57394409179688,
-							"z": -10.819133758544922
+							"z": -10.9935884475708
 						}
 					}
 				},
@@ -22081,10 +21637,18 @@
 							"z": 0
 						},
 						"position": {
-							"x": 20.361652374267578,
-							"y": -190.2278594970703,
-							"z": 5.048583030700684
+							"x": 5.2926283,
+							"y": -193.26007,
+							"z": 5.048583
 						}
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 1,
+						"y": 0.75,
+						"z": 1
 					}
 				},
 				"m_VertexPaintData": {
@@ -22370,7 +21934,7 @@
 					"value": {
 						"x": 1,
 						"y": 1,
-						"z": 1
+						"z": 1.1
 					}
 				},
 				"m_eidParent": {
@@ -22405,7 +21969,7 @@
 					"value": {
 						"x": 1,
 						"y": 1,
-						"z": 1
+						"z": 1.1
 					}
 				},
 				"m_eidParent": {
@@ -22440,7 +22004,7 @@
 					"value": {
 						"x": 1,
 						"y": 1,
-						"z": 1
+						"z": 1.1
 					}
 				},
 				"m_eidParent": {
@@ -22475,7 +22039,7 @@
 					"value": {
 						"x": 1,
 						"y": 1,
-						"z": 1
+						"z": 1.1
 					}
 				},
 				"m_eidParent": {
@@ -22510,7 +22074,7 @@
 					"value": {
 						"x": 1,
 						"y": 1,
-						"z": 1
+						"z": 1.1
 					}
 				},
 				"m_eidParent": {
@@ -22545,7 +22109,7 @@
 					"value": {
 						"x": 1,
 						"y": 1,
-						"z": 1
+						"z": 1.1
 					}
 				},
 				"m_eidParent": {
@@ -22580,7 +22144,7 @@
 					"value": {
 						"x": 1,
 						"y": 1,
-						"z": 1
+						"z": 1.1
 					}
 				},
 				"m_eidParent": {
@@ -22615,7 +22179,7 @@
 					"value": {
 						"x": 1,
 						"y": 1,
-						"z": 1
+						"z": 1.1
 					}
 				},
 				"m_eidParent": {
@@ -22650,7 +22214,7 @@
 					"value": {
 						"x": 1,
 						"y": 1,
-						"z": 1
+						"z": 1.1
 					}
 				},
 				"m_eidParent": {
@@ -22685,7 +22249,7 @@
 					"value": {
 						"x": 1,
 						"y": 1,
-						"z": 1
+						"z": 1.1
 					}
 				},
 				"m_eidParent": {
@@ -22755,7 +22319,7 @@
 					"value": {
 						"x": 1,
 						"y": 1,
-						"z": 1
+						"z": 1.1
 					}
 				},
 				"m_eidParent": {
@@ -22790,7 +22354,7 @@
 					"value": {
 						"x": 1,
 						"y": 1,
-						"z": 1
+						"z": 1.1
 					}
 				},
 				"m_eidParent": {
@@ -22825,7 +22389,7 @@
 					"value": {
 						"x": 1,
 						"y": 1,
-						"z": 1
+						"z": 1.1
 					}
 				},
 				"m_eidParent": {
@@ -22860,7 +22424,7 @@
 					"value": {
 						"x": 1,
 						"y": 1,
-						"z": 1
+						"z": 1.1
 					}
 				},
 				"m_eidParent": {
@@ -22895,7 +22459,7 @@
 					"value": {
 						"x": 1,
 						"y": 1,
-						"z": 1
+						"z": 1.1
 					}
 				},
 				"m_eidParent": {
@@ -22930,7 +22494,7 @@
 					"value": {
 						"x": 1,
 						"y": 1,
-						"z": 1
+						"z": 1.1
 					}
 				},
 				"m_eidParent": {
@@ -22965,7 +22529,7 @@
 					"value": {
 						"x": 1,
 						"y": 1,
-						"z": 1
+						"z": 1.1
 					}
 				},
 				"m_eidParent": {
@@ -23000,7 +22564,7 @@
 					"value": {
 						"x": 1,
 						"y": 1,
-						"z": 1
+						"z": 1.1
 					}
 				},
 				"m_eidParent": {
@@ -23035,7 +22599,7 @@
 					"value": {
 						"x": 1,
 						"y": 1,
-						"z": 1
+						"z": 1.1
 					}
 				},
 				"m_eidParent": {
@@ -23070,7 +22634,7 @@
 					"value": {
 						"x": 1,
 						"y": 1,
-						"z": 1
+						"z": 1.1
 					}
 				},
 				"m_eidParent": {
@@ -23105,7 +22669,7 @@
 					"value": {
 						"x": 1,
 						"y": 1,
-						"z": 1
+						"z": 1.1
 					}
 				},
 				"m_eidParent": {
@@ -23140,7 +22704,7 @@
 					"value": {
 						"x": 1,
 						"y": 1,
-						"z": 1
+						"z": 1.1
 					}
 				},
 				"m_eidParent": {
@@ -23175,7 +22739,7 @@
 					"value": {
 						"x": 1,
 						"y": 1,
-						"z": 1
+						"z": 1.1
 					}
 				},
 				"m_eidParent": {
@@ -23210,7 +22774,7 @@
 					"value": {
 						"x": 1,
 						"y": 1,
-						"z": 1
+						"z": 1.1
 					}
 				},
 				"m_eidParent": {
@@ -23280,7 +22844,7 @@
 					"value": {
 						"x": 1,
 						"y": 1,
-						"z": 1
+						"z": 1.1
 					}
 				},
 				"m_eidParent": {
@@ -23315,7 +22879,7 @@
 					"value": {
 						"x": 1,
 						"y": 1,
-						"z": 1
+						"z": 1.1
 					}
 				},
 				"m_eidParent": {
@@ -23350,7 +22914,7 @@
 					"value": {
 						"x": 1,
 						"y": 1,
-						"z": 1
+						"z": 1.1
 					}
 				},
 				"m_eidParent": {
@@ -23385,7 +22949,7 @@
 					"value": {
 						"x": 1,
 						"y": 1,
-						"z": 1
+						"z": 1.1
 					}
 				},
 				"m_eidParent": {
@@ -23420,7 +22984,7 @@
 					"value": {
 						"x": 1,
 						"y": 1,
-						"z": 1
+						"z": 1.1
 					}
 				},
 				"m_eidParent": {
@@ -23455,7 +23019,7 @@
 					"value": {
 						"x": 1,
 						"y": 1,
-						"z": 1
+						"z": 1.1
 					}
 				},
 				"m_eidParent": {
@@ -23490,7 +23054,7 @@
 					"value": {
 						"x": 1,
 						"y": 1,
-						"z": 1
+						"z": 1.1
 					}
 				},
 				"m_eidParent": {
@@ -23525,7 +23089,7 @@
 					"value": {
 						"x": 1,
 						"y": 1,
-						"z": 1
+						"z": 1.1
 					}
 				},
 				"m_eidParent": {
@@ -23560,7 +23124,7 @@
 					"value": {
 						"x": 1,
 						"y": 1,
-						"z": 1
+						"z": 1.1
 					}
 				},
 				"m_eidParent": {
@@ -23595,7 +23159,7 @@
 					"value": {
 						"x": 1,
 						"y": 1,
-						"z": 1
+						"z": 1.1
 					}
 				},
 				"m_eidParent": {
@@ -23630,7 +23194,7 @@
 					"value": {
 						"x": 1,
 						"y": 1,
-						"z": 1
+						"z": 1.1
 					}
 				},
 				"m_eidParent": {
@@ -23665,7 +23229,7 @@
 					"value": {
 						"x": 1,
 						"y": 1,
-						"z": 1
+						"z": 1.1
 					}
 				},
 				"m_eidParent": {
@@ -23706,7 +23270,7 @@
 					"value": {
 						"x": 1,
 						"y": 1,
-						"z": 1
+						"z": 1.1
 					}
 				},
 				"m_eidParent": {
@@ -23741,7 +23305,7 @@
 					"value": {
 						"x": 1,
 						"y": 1,
-						"z": 1
+						"z": 1.1
 					}
 				},
 				"m_eidParent": {
@@ -23776,7 +23340,7 @@
 					"value": {
 						"x": 1,
 						"y": 1,
-						"z": 1
+						"z": 1.1
 					}
 				},
 				"m_eidParent": {
@@ -23811,7 +23375,7 @@
 					"value": {
 						"x": 1,
 						"y": 1,
-						"z": 1
+						"z": 1.1
 					}
 				},
 				"m_eidParent": {
@@ -23846,7 +23410,7 @@
 					"value": {
 						"x": 1,
 						"y": 1,
-						"z": 1
+						"z": 1.1
 					}
 				},
 				"m_eidParent": {
@@ -23881,7 +23445,7 @@
 					"value": {
 						"x": 1,
 						"y": 1,
-						"z": 1
+						"z": 1.1
 					}
 				},
 				"m_eidParent": {
@@ -23916,7 +23480,7 @@
 					"value": {
 						"x": 1,
 						"y": 1,
-						"z": 1
+						"z": 1.1
 					}
 				},
 				"m_eidParent": {
@@ -23951,7 +23515,7 @@
 					"value": {
 						"x": 1,
 						"y": 1,
-						"z": 1
+						"z": 1.1
 					}
 				},
 				"m_eidParent": {
@@ -23986,7 +23550,7 @@
 					"value": {
 						"x": 1,
 						"y": 1,
-						"z": 1
+						"z": 1.1
 					}
 				},
 				"m_eidParent": {
@@ -24021,7 +23585,7 @@
 					"value": {
 						"x": 1,
 						"y": 1,
-						"z": 1
+						"z": 1.1
 					}
 				},
 				"m_eidParent": {
@@ -24068,7 +23632,7 @@
 					"value": {
 						"x": 1,
 						"y": 1,
-						"z": 1
+						"z": 1.1
 					}
 				},
 				"m_eidParent": {
@@ -24103,7 +23667,7 @@
 					"value": {
 						"x": 1,
 						"y": 1,
-						"z": 1
+						"z": 1.1
 					}
 				},
 				"m_eidParent": {
@@ -24138,7 +23702,7 @@
 					"value": {
 						"x": 1,
 						"y": 1,
-						"z": 1
+						"z": 1.1
 					}
 				},
 				"m_eidParent": {
@@ -24173,7 +23737,7 @@
 					"value": {
 						"x": 1,
 						"y": 1,
-						"z": 1
+						"z": 1.1
 					}
 				},
 				"m_eidParent": {
@@ -24199,7 +23763,7 @@
 						"position": {
 							"x": 306.7329406738281,
 							"y": -217.0489501953125,
-							"z": 184.0748748779297
+							"z": -184.0748748779297
 						}
 					}
 				},
@@ -24313,7 +23877,7 @@
 					"value": {
 						"x": 1,
 						"y": 1,
-						"z": 1
+						"z": 1.1
 					}
 				},
 				"m_eidParent": {
@@ -24453,7 +24017,7 @@
 					"value": {
 						"x": 1,
 						"y": 1,
-						"z": 1
+						"z": 1.1
 					}
 				},
 				"m_eidParent": {
@@ -24488,7 +24052,7 @@
 					"value": {
 						"x": 1,
 						"y": 1,
-						"z": 1
+						"z": 1.1
 					}
 				},
 				"m_eidParent": {
@@ -24523,7 +24087,7 @@
 					"value": {
 						"x": 1,
 						"y": 1,
-						"z": 1
+						"z": 1.1
 					}
 				},
 				"m_eidParent": {
@@ -24558,7 +24122,7 @@
 					"value": {
 						"x": 1,
 						"y": 1,
-						"z": 1
+						"z": 1.1
 					}
 				},
 				"m_eidParent": {
@@ -24593,7 +24157,7 @@
 					"value": {
 						"x": 1,
 						"y": 1,
-						"z": 1
+						"z": 1.1
 					}
 				},
 				"m_eidParent": {
@@ -24628,7 +24192,7 @@
 					"value": {
 						"x": 1,
 						"y": 1,
-						"z": 1
+						"z": 1.1
 					}
 				},
 				"m_eidParent": {
@@ -24663,7 +24227,7 @@
 					"value": {
 						"x": 1,
 						"y": 1,
-						"z": 1
+						"z": 1.1
 					}
 				},
 				"m_eidParent": {
@@ -24698,7 +24262,7 @@
 					"value": {
 						"x": 1,
 						"y": 1,
-						"z": 1
+						"z": 1.1
 					}
 				},
 				"m_eidParent": {
@@ -24733,7 +24297,7 @@
 					"value": {
 						"x": 1,
 						"y": 1,
-						"z": 1
+						"z": 1.1
 					}
 				},
 				"m_eidParent": {
@@ -24768,7 +24332,7 @@
 					"value": {
 						"x": 1,
 						"y": 1,
-						"z": 1
+						"z": 1.1
 					}
 				},
 				"m_eidParent": {
@@ -24803,7 +24367,7 @@
 					"value": {
 						"x": 1,
 						"y": 1,
-						"z": 1
+						"z": 1.1
 					}
 				},
 				"m_eidParent": {
@@ -24813,7 +24377,7 @@
 			}
 		},
 		"feedff4abaf67b2e": {
-			"parent": "feede8f78fe04021",
+			"parent": "feed71f176af7394",
 			"name": "a_ext_wall_3x7_window_a_2nd",
 			"factory": "[assembly:/_pro/environment/templates/kits/castle/mansion_a.template?/a_int_wall_3x7_window_a.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/environment/templates/kits/castle/mansion_a.template?/a_int_wall_3x7_window_a.entitytemplate].pc_entityblueprint",
@@ -24827,9 +24391,9 @@
 							"z": -180
 						},
 						"position": {
-							"x": -52.335060119628906,
-							"y": -207.53602600097656,
-							"z": -2.0873308181762695
+							"x": -51.92137908935547,
+							"y": -208.2965545654297,
+							"z": -2.005030393600464
 						}
 					}
 				},
@@ -24897,44 +24461,9 @@
 							"z": -180
 						},
 						"position": {
-							"x": -46.799034118652344,
-							"y": -207.53602600097656,
-							"z": -2.0873308181762695
-						}
-					}
-				},
-				"m_PrimitiveScale": {
-					"type": "SVector3",
-					"value": {
-						"x": 1,
-						"y": 1,
-						"z": 1
-					}
-				},
-				"m_eidParent": {
-					"type": "SEntityTemplateReference",
-					"value": "feed1e591404f88b"
-				}
-			}
-		},
-		"feed912564eae684": {
-			"parent": "feed71f176af7394",
-			"name": "a_ext_wall_3x7_window_a_2nd",
-			"factory": "[assembly:/_pro/environment/templates/kits/castle/mansion_a.template?/a_int_wall_3x7_window_a.entitytemplate].pc_entitytype",
-			"blueprint": "[assembly:/_pro/environment/templates/kits/castle/mansion_a.template?/a_int_wall_3x7_window_a.entitytemplate].pc_entityblueprint",
-			"properties": {
-				"m_mTransform": {
-					"type": "SMatrix43",
-					"value": {
-						"rotation": {
-							"x": 0,
-							"y": 0,
-							"z": -180
-						},
-						"position": {
-							"x": -49.334991455078125,
-							"y": -207.53602600097656,
-							"z": -2.0873308181762695
+							"x": -49.35038757324219,
+							"y": -208.2965545654297,
+							"z": -2.005030393600464
 						}
 					}
 				},
@@ -27114,7 +26643,7 @@
 							"z": 0
 						},
 						"position": {
-							"x": -52.807861328125,
+							"x": -52.564666748046875,
 							"y": -148.06141662597656,
 							"z": -2.0873308181762695
 						}
@@ -27149,7 +26678,7 @@
 							"z": 0
 						},
 						"position": {
-							"x": -55.807861328125,
+							"x": -55.38201904296875,
 							"y": -148.06141662597656,
 							"z": -2.0873308181762695
 						}
@@ -27162,6 +26691,2709 @@
 						"y": 1,
 						"z": 1
 					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feed1e591404f88b"
+				}
+			}
+		},
+		"feedd0bbeb559f10": {
+			"parent": "abcdeaf23812acfd",
+			"name": "PFObstacle 2",
+			"factory": "[modules:/zpfobstacleentity.class].pc_entitytype",
+			"blueprint": "[modules:/zpfobstacleentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": 50,
+							"y": -150,
+							"z": -20
+						}
+					}
+				},
+				"m_vGlobalSize": {
+					"type": "SVector3",
+					"value": {
+						"x": 200,
+						"y": 10,
+						"z": 10
+					}
+				},
+				"m_fPenaltyMultiplier": {
+					"type": "float32",
+					"value": 15
+				},
+				"m_bEnabled": {
+					"type": "bool",
+					"value": true
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feed1e591404f88b"
+				}
+			}
+		},
+		"feed328ce9596b12": {
+			"parent": "abcdeaf23812acfd",
+			"name": "PFObstacle 2",
+			"factory": "[modules:/zpfobstacleentity.class].pc_entitytype",
+			"blueprint": "[modules:/zpfobstacleentity.class].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": 50,
+							"y": -200,
+							"z": -20
+						}
+					}
+				},
+				"m_vGlobalSize": {
+					"type": "SVector3",
+					"value": {
+						"x": 200,
+						"y": 10,
+						"z": 100
+					}
+				},
+				"m_fPenaltyMultiplier": {
+					"type": "float32",
+					"value": 15
+				},
+				"m_bEnabled": {
+					"type": "bool",
+					"value": true
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feed1e591404f88b"
+				}
+			}
+		},
+		"feedd399f2e832be": {
+			"parent": "feed2940c4699491",
+			"name": "a_ext_handrail_050x1_blank_a_001",
+			"factory": "[assembly:/_pro/environment/templates/kits/castle/mansion_a.template?/a_ext_handrail_050x1_blank_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/castle/mansion_a.template?/a_ext_handrail_050x1_blank_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 89.9999965849052
+						},
+						"position": {
+							"x": 34.8790397644043,
+							"y": -168.99295043945312,
+							"z": -10.104143142700195
+						}
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 1,
+						"y": 1,
+						"z": 1
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feed1e591404f88b"
+				}
+			}
+		},
+		"feedd4cc02a8895b": {
+			"parent": "feed2940c4699491",
+			"name": "a_ext_handrail_050x1_blank_a_001",
+			"factory": "[assembly:/_pro/environment/templates/kits/castle/mansion_a.template?/a_ext_handrail_050x1_blank_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/castle/mansion_a.template?/a_ext_handrail_050x1_blank_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 89.9999965849052
+						},
+						"position": {
+							"x": 34.8790397644043,
+							"y": -168.99295043945312,
+							"z": -10.104143142700195
+						}
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 1,
+						"y": 1,
+						"z": 1
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feed1e591404f88b"
+				}
+			}
+		},
+		"feed3ed5e1f1d513": {
+			"parent": "feedeb22331f4c8b",
+			"name": "a_ext_handrail_050x1_blank_a_001",
+			"factory": "[assembly:/_pro/environment/templates/kits/castle/mansion_a.template?/a_ext_handrail_050x1_blank_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/castle/mansion_a.template?/a_ext_handrail_050x1_blank_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 89.9999965849052
+						},
+						"position": {
+							"x": 34.8790397644043,
+							"y": -168.99295043945312,
+							"z": -10.104143142700195
+						}
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 1,
+						"y": 1,
+						"z": 1
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feed1e591404f88b"
+				}
+			}
+		},
+		"feedea6246fb42ee": {
+			"parent": "feedeb22331f4c8b",
+			"name": "a_ext_handrail_050x1_blank_a_001",
+			"factory": "[assembly:/_pro/environment/templates/kits/castle/mansion_a.template?/a_ext_handrail_050x1_blank_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/castle/mansion_a.template?/a_ext_handrail_050x1_blank_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 89.9999965849052
+						},
+						"position": {
+							"x": 34.8790397644043,
+							"y": -168.99295043945312,
+							"z": -10.104143142700195
+						}
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 1,
+						"y": 1,
+						"z": 1
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feed1e591404f88b"
+				}
+			}
+		},
+		"feedbf49728774fc": {
+			"parent": "feedeb22331f4c8b",
+			"name": "a_ext_handrail_050x1_blank_a_001",
+			"factory": "[assembly:/_pro/environment/templates/kits/castle/mansion_a.template?/a_ext_handrail_050x1_blank_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/castle/mansion_a.template?/a_ext_handrail_050x1_blank_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 89.9999965849052
+						},
+						"position": {
+							"x": 34.8790397644043,
+							"y": -168.99295043945312,
+							"z": -10.104143142700195
+						}
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 1,
+						"y": 1,
+						"z": 1
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feed1e591404f88b"
+				}
+			}
+		},
+		"feed3686ab6013c9": {
+			"parent": "feedeb22331f4c8b",
+			"name": "a_ext_handrail_050x1_blank_a_001",
+			"factory": "[assembly:/_pro/environment/templates/kits/castle/mansion_a.template?/a_ext_handrail_050x1_blank_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/castle/mansion_a.template?/a_ext_handrail_050x1_blank_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 89.9999965849052
+						},
+						"position": {
+							"x": 34.8790397644043,
+							"y": -168.99295043945312,
+							"z": -10.104143142700195
+						}
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 1,
+						"y": 1,
+						"z": 1
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feed1e591404f88b"
+				}
+			}
+		},
+		"feedbb3dc7f2336a": {
+			"parent": "feedeb22331f4c8b",
+			"name": "a_ext_handrail_050x1_blank_a_001",
+			"factory": "[assembly:/_pro/environment/templates/kits/castle/mansion_a.template?/a_ext_handrail_050x1_blank_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/castle/mansion_a.template?/a_ext_handrail_050x1_blank_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 89.9999965849052
+						},
+						"position": {
+							"x": 34.8790397644043,
+							"y": -168.99295043945312,
+							"z": -10.104143142700195
+						}
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 1,
+						"y": 1,
+						"z": 1
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feed1e591404f88b"
+				}
+			}
+		},
+		"feed9de1089587f1": {
+			"parent": "feedeb22331f4c8b",
+			"name": "a_ext_handrail_050x1_blank_a_001",
+			"factory": "[assembly:/_pro/environment/templates/kits/castle/mansion_a.template?/a_ext_handrail_050x1_blank_a.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/castle/mansion_a.template?/a_ext_handrail_050x1_blank_a.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 89.9999965849052
+						},
+						"position": {
+							"x": 34.8790397644043,
+							"y": -168.99295043945312,
+							"z": -10.104143142700195
+						}
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 1,
+						"y": 1,
+						"z": 1
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feed1e591404f88b"
+				}
+			}
+		},
+		"feed62551ddbcfc5": {
+			"parent": "feedf3acfd5efc3d",
+			"name": "a_ext_wall_1x7_window_b_hinge_single_closed_01",
+			"factory": "[assembly:/_pro/environment/templates/kits/castle/mansion_a.template?/a_ext_wall_1x7_window_b_hinge_single_closed.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/castle/mansion_a.template?/a_ext_wall_1x7_window_b_hinge_single_closed.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 89.9999965849052
+						},
+						"position": {
+							"x": 32.54142761230469,
+							"y": -177.90208435058594,
+							"z": -1.9998843669891357
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feed1e591404f88b"
+				}
+			},
+			"subsets": {
+				"AudioEmitters": [
+					"fffffffffffffffe"
+				]
+			}
+		},
+		"feed7484355deca7": {
+			"parent": "feedf3acfd5efc3d",
+			"name": "a_ext_wall_1x7_window_b_hinge_single_closed_01",
+			"factory": "[assembly:/_pro/environment/templates/kits/castle/mansion_a.template?/a_ext_wall_1x7_window_b_hinge_single_closed.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/castle/mansion_a.template?/a_ext_wall_1x7_window_b_hinge_single_closed.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 89.9999965849052
+						},
+						"position": {
+							"x": 32.57709884643555,
+							"y": -171.87355041503906,
+							"z": -2.0358309745788574
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feed1e591404f88b"
+				}
+			},
+			"subsets": {
+				"AudioEmitters": [
+					"fffffffffffffffe"
+				]
+			}
+		},
+		"feed06046b17cab7": {
+			"parent": "feed5a5f2cf5a94f",
+			"name": "a_ext_wall_1x7_window_b_hinge_single_closed_01",
+			"factory": "[assembly:/_pro/environment/templates/kits/castle/mansion_a.template?/a_ext_wall_1x7_window_b_hinge_single_closed.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/castle/mansion_a.template?/a_ext_wall_1x7_window_b_hinge_single_closed.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 89.9999965849052
+						},
+						"position": {
+							"x": 32.61429977416992,
+							"y": -171.9379425048828,
+							"z": 4.9371867179870605
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feed1e591404f88b"
+				}
+			},
+			"subsets": {
+				"AudioEmitters": [
+					"fffffffffffffffe"
+				]
+			}
+		},
+		"feed31b431c3fb92": {
+			"parent": "feed5a5f2cf5a94f",
+			"name": "a_ext_wall_1x7_window_b_hinge_single_closed_01",
+			"factory": "[assembly:/_pro/environment/templates/kits/castle/mansion_a.template?/a_ext_wall_1x7_window_b_hinge_single_closed.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/castle/mansion_a.template?/a_ext_wall_1x7_window_b_hinge_single_closed.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 89.9999965849052
+						},
+						"position": {
+							"x": 32.45793914794922,
+							"y": -177.90208435058594,
+							"z": 4.947031497955322
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feed1e591404f88b"
+				}
+			},
+			"subsets": {
+				"AudioEmitters": [
+					"fffffffffffffffe"
+				]
+			}
+		},
+		"feed621de6e40943": {
+			"parent": "feed68e718c72efa",
+			"name": "a_ext_wall_4x7_window_b_frame_01",
+			"factory": "[assembly:/_pro/environment/templates/kits/castle/mansion_a.template?/a_ext_wall_3x7_window_a_frame.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/castle/mansion_a.template?/a_ext_wall_3x7_window_a_frame.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 89.9999965849052
+						},
+						"position": {
+							"x": 42.39773178100586,
+							"y": -184.33529663085938,
+							"z": -9.00703239440918
+						}
+					}
+				},
+				"Window_Transform_right": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feed1e591404f88b"
+				}
+			},
+			"subsets": {
+				"AudioEmitters": [
+					"fffffffffffffffe"
+				]
+			}
+		},
+		"feedbafb8402222c": {
+			"parent": "feed466d75287aa8",
+			"name": "a_ext_wall_4x7_window_b_frame_01",
+			"factory": "[assembly:/_pro/environment/templates/kits/castle/mansion_a.template?/a_ext_wall_3x7_window_a_frame.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/castle/mansion_a.template?/a_ext_wall_3x7_window_a_frame.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 180
+						},
+						"position": {
+							"x": 9.995203018188477,
+							"y": -200.94973754882812,
+							"z": -1.9906631708145142
+						}
+					}
+				},
+				"Window_Transform_right": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feed1e591404f88b"
+				}
+			},
+			"subsets": {
+				"AudioEmitters": [
+					"fffffffffffffffe"
+				]
+			}
+		},
+		"feed8f7a120a4ffd": {
+			"parent": "feed6db1e1b3e5b0",
+			"name": "a_ext_wall_4x7_window_b_frame_01",
+			"factory": "[assembly:/_pro/environment/templates/kits/castle/mansion_a.template?/a_ext_wall_3x7_window_a_frame.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/castle/mansion_a.template?/a_ext_wall_3x7_window_a_frame.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": 3.73452091217041,
+							"y": -200.6917266845703,
+							"z": -1.9991257190704346
+						}
+					}
+				},
+				"Window_Transform_right": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feed1e591404f88b"
+				}
+			},
+			"subsets": {
+				"AudioEmitters": [
+					"fffffffffffffffe"
+				]
+			}
+		},
+		"feedec8ffa25f76c": {
+			"parent": "feedfd8afeadc326",
+			"name": "a_ext_wall_4x7_window_b_frame_01",
+			"factory": "[assembly:/_pro/environment/templates/kits/castle/mansion_a.template?/a_ext_wall_3x7_window_a_frame.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/castle/mansion_a.template?/a_ext_wall_3x7_window_a_frame.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 89.9999965849052
+						},
+						"position": {
+							"x": 42.40037155151367,
+							"y": -194.7772979736328,
+							"z": -9.012056350708008
+						}
+					}
+				},
+				"Window_Transform_right": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feed1e591404f88b"
+				}
+			},
+			"subsets": {
+				"AudioEmitters": [
+					"fffffffffffffffe"
+				]
+			}
+		},
+		"feed1c3b0a1a68fe": {
+			"parent": "feed0e1c5192bc2b",
+			"name": "a_ext_wall_4x7_window_b_frame_01",
+			"factory": "[assembly:/_pro/environment/templates/kits/castle/mansion_a.template?/a_ext_wall_3x7_window_a_frame.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/castle/mansion_a.template?/a_ext_wall_3x7_window_a_frame.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -180
+						},
+						"position": {
+							"x": 12.995203018188477,
+							"y": -200.94973754882812,
+							"z": -1.9906631708145142
+						}
+					}
+				},
+				"Window_Transform_right": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feed1e591404f88b"
+				}
+			},
+			"subsets": {
+				"AudioEmitters": [
+					"fffffffffffffffe"
+				]
+			}
+		},
+		"feedef5e47243098": {
+			"parent": "feed1b491a02a358",
+			"name": "a_ext_wall_4x7_window_b_frame_01",
+			"factory": "[assembly:/_pro/environment/templates/kits/castle/mansion_a.template?/a_ext_wall_3x7_window_a_frame.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/castle/mansion_a.template?/a_ext_wall_3x7_window_a_frame.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -180
+						},
+						"position": {
+							"x": 0.21855354309082,
+							"y": -201.02957153320312,
+							"z": -1.9906631708145142
+						}
+					}
+				},
+				"Window_Transform_right": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feed1e591404f88b"
+				}
+			},
+			"subsets": {
+				"AudioEmitters": [
+					"fffffffffffffffe"
+				]
+			}
+		},
+		"feed191c7cb6ba5c": {
+			"parent": "feedb2b1e280b8da",
+			"name": "a_ext_wall_4x7_window_b_frame_01",
+			"factory": "[assembly:/_pro/environment/templates/kits/castle/mansion_a.template?/a_ext_wall_3x7_window_a_frame.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/castle/mansion_a.template?/a_ext_wall_3x7_window_a_frame.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -180
+						},
+						"position": {
+							"x": -26.042285919189453,
+							"y": -200.7749481201172,
+							"z": -1.9889146089553833
+						}
+					}
+				},
+				"Window_Transform_right": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feed1e591404f88b"
+				}
+			},
+			"subsets": {
+				"AudioEmitters": [
+					"fffffffffffffffe"
+				]
+			}
+		},
+		"feed21fae43fa289": {
+			"parent": "feed03dde1a3a958",
+			"name": "a_ext_wall_4x7_window_b_frame_01",
+			"factory": "[assembly:/_pro/environment/templates/kits/castle/mansion_a.template?/a_ext_wall_3x7_window_a_frame.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/castle/mansion_a.template?/a_ext_wall_3x7_window_a_frame.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -180
+						},
+						"position": {
+							"x": -46.7765007019043,
+							"y": -208.2965545654297,
+							"z": -2.005030393600464
+						}
+					}
+				},
+				"Window_Transform_right": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feed1e591404f88b"
+				}
+			},
+			"subsets": {
+				"AudioEmitters": [
+					"fffffffffffffffe"
+				]
+			}
+		},
+		"feed4199e5c9d15c": {
+			"parent": "feed18714d5030cd",
+			"name": "a_ext_wall_4x7_window_b_frame_01",
+			"factory": "[assembly:/_pro/environment/templates/kits/castle/mansion_a.template?/a_ext_wall_3x7_window_a_frame.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/castle/mansion_a.template?/a_ext_wall_3x7_window_a_frame.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -180
+						},
+						"position": {
+							"x": -49.334739685058594,
+							"y": -208.2965545654297,
+							"z": -2.005030393600464
+						}
+					}
+				},
+				"Window_Transform_right": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feed1e591404f88b"
+				}
+			},
+			"subsets": {
+				"AudioEmitters": [
+					"fffffffffffffffe"
+				]
+			}
+		},
+		"feed47319b546cfb": {
+			"parent": "feedff4abaf67b2e",
+			"name": "a_ext_wall_4x7_window_b_frame_01",
+			"factory": "[assembly:/_pro/environment/templates/kits/castle/mansion_a.template?/a_ext_wall_3x7_window_a_frame.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/castle/mansion_a.template?/a_ext_wall_3x7_window_a_frame.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -180
+						},
+						"position": {
+							"x": -51.95042419433594,
+							"y": -208.2965545654297,
+							"z": -1.9839359521865845
+						}
+					}
+				},
+				"Window_Transform_right": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feed1e591404f88b"
+				}
+			},
+			"subsets": {
+				"AudioEmitters": [
+					"fffffffffffffffe"
+				]
+			}
+		},
+		"feedcfd8793ac3eb": {
+			"parent": "feedb3fdd531c06c",
+			"name": "a_ext_wall_4x7_window_b_frame_01",
+			"factory": "[assembly:/_pro/environment/templates/kits/castle/mansion_a.template?/a_ext_wall_3x7_window_a_frame.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/castle/mansion_a.template?/a_ext_wall_3x7_window_a_frame.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": -52.551963806152344,
+							"y": -148.06141662597656,
+							"z": -2.0873308181762695
+						}
+					}
+				},
+				"Window_Transform_right": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feed1e591404f88b"
+				}
+			},
+			"subsets": {
+				"AudioEmitters": [
+					"fffffffffffffffe"
+				]
+			}
+		},
+		"feed2e991de4dffa": {
+			"parent": "feedb61234667fc1",
+			"name": "a_ext_wall_4x7_window_b_frame_01",
+			"factory": "[assembly:/_pro/environment/templates/kits/castle/mansion_a.template?/a_ext_wall_3x7_window_a_frame.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/castle/mansion_a.template?/a_ext_wall_3x7_window_a_frame.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": -49.807861328125,
+							"y": -148.06141662597656,
+							"z": -2.0873308181762695
+						}
+					}
+				},
+				"Window_Transform_right": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feed1e591404f88b"
+				}
+			},
+			"subsets": {
+				"AudioEmitters": [
+					"fffffffffffffffe"
+				]
+			}
+		},
+		"feed2bf6c1c8d4b0": {
+			"parent": "feedfc920341aaf6",
+			"name": "a_ext_wall_4x7_window_b_frame_01",
+			"factory": "[assembly:/_pro/environment/templates/kits/castle/mansion_a.template?/a_ext_wall_3x7_window_a_frame.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/castle/mansion_a.template?/a_ext_wall_3x7_window_a_frame.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": -55.33905029296875,
+							"y": -148.06141662597656,
+							"z": -2.0873308181762695
+						}
+					}
+				},
+				"Window_Transform_right": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						}
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feed1e591404f88b"
+				}
+			},
+			"subsets": {
+				"AudioEmitters": [
+					"fffffffffffffffe"
+				]
+			}
+		},
+		"feed24898721f8b3": {
+			"parent": "feedeb22331f4c8b",
+			"name": "Lamp_Ceiling_Chandelier_Ornate_B_02",
+			"factory": "[assembly:/_pro/environment/templates/props/lamps/lamps_indoor_colorado_a.template?/lamp_ceiling_chandelier_ornate_b.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/lamps/lamps_indoor_colorado_a.template?/lamp_ceiling_chandelier_ornate_b.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 14.16809864004574
+						},
+						"position": {
+							"x": 23.761367797851562,
+							"y": -187.8982391357422,
+							"z": -3.2741892337799072
+						}
+					}
+				},
+				"m_vFarAttenuation": {
+					"type": "SVector2",
+					"value": {
+						"x": 3.0399999618530273,
+						"y": 10
+					}
+				},
+				"LightTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": 0.005717999767512083,
+							"y": -0.0046709999442100525,
+							"z": -0.14154499769210815
+						}
+					}
+				},
+				"LampChainTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": 0,
+							"y": 0,
+							"z": -1.485200047492981
+						}
+					}
+				},
+				"DiffuseColor": {
+					"type": "SColorRGB",
+					"value": "#ffa978"
+				},
+				"GlowPower": {
+					"type": "float32",
+					"value": 350
+				},
+				"DiffusePower": {
+					"type": "float32",
+					"value": 15
+				},
+				"On": {
+					"type": "bool",
+					"value": true
+				},
+				"m_bUseDynamicShadowMap": {
+					"type": "bool",
+					"value": true
+				},
+				"m_bUseStaticShadowMap": {
+					"type": "bool",
+					"value": true
+				},
+				"m_vAngularAttenuation": {
+					"type": "SVector2",
+					"value": {
+						"x": 0.388131707906723,
+						"y": 1.09539794921875
+					}
+				},
+				"m_fShadowFadeLength": {
+					"type": "float32",
+					"value": 2
+				},
+				"ChandelierMeshCastShadows": {
+					"type": "bool",
+					"value": false
+				},
+				"m_fShadowFadeDistance": {
+					"type": "float32",
+					"value": 20
+				},
+				"ShotColiScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 1,
+						"y": 1,
+						"z": 2.4700000286102295
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feed1e591404f88b"
+				}
+			},
+			"subsets": {
+				"Activatable_NormalGameplay, IEntity": [
+					"fffffffffffffffe"
+				]
+			}
+		},
+		"feede56c13cb87c1": {
+			"parent": "feedeb22331f4c8b",
+			"name": "Lamp_Ceiling_Chandelier_Ornate_B_03",
+			"factory": "[assembly:/_pro/environment/templates/props/lamps/lamps_indoor_colorado_a.template?/lamp_ceiling_chandelier_ornate_b.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/lamps/lamps_indoor_colorado_a.template?/lamp_ceiling_chandelier_ornate_b.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 14.16809864004574
+						},
+						"position": {
+							"x": 23.560163497924805,
+							"y": -191.68930053710938,
+							"z": 3.68538236618042
+						}
+					}
+				},
+				"m_vFarAttenuation": {
+					"type": "SVector2",
+					"value": {
+						"x": 3.0399999618530273,
+						"y": 10
+					}
+				},
+				"LightTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": 0.005717999767512083,
+							"y": -0.0046709999442100525,
+							"z": -0.14154499769210815
+						}
+					}
+				},
+				"LampChainTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": 0,
+							"y": 0,
+							"z": -1.485200047492981
+						}
+					}
+				},
+				"DiffuseColor": {
+					"type": "SColorRGB",
+					"value": "#ffa978"
+				},
+				"GlowPower": {
+					"type": "float32",
+					"value": 350
+				},
+				"DiffusePower": {
+					"type": "float32",
+					"value": 15
+				},
+				"On": {
+					"type": "bool",
+					"value": true
+				},
+				"m_bUseDynamicShadowMap": {
+					"type": "bool",
+					"value": true
+				},
+				"m_bUseStaticShadowMap": {
+					"type": "bool",
+					"value": true
+				},
+				"m_vAngularAttenuation": {
+					"type": "SVector2",
+					"value": {
+						"x": 0.388131707906723,
+						"y": 1.09539794921875
+					}
+				},
+				"m_fShadowFadeLength": {
+					"type": "float32",
+					"value": 2
+				},
+				"ChandelierMeshCastShadows": {
+					"type": "bool",
+					"value": false
+				},
+				"m_fShadowFadeDistance": {
+					"type": "float32",
+					"value": 20
+				},
+				"ShotColiScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 1,
+						"y": 1,
+						"z": 2.4700000286102295
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feed1e591404f88b"
+				}
+			},
+			"subsets": {
+				"Activatable_NormalGameplay, IEntity": [
+					"fffffffffffffffe"
+				]
+			}
+		},
+		"feed51c0628aef95": {
+			"parent": "feed0eb28b55a766",
+			"name": "Lamp_Ceiling_Chandelier_Ornate_B_07",
+			"factory": "[assembly:/_pro/environment/templates/props/lamps/lamps_indoor_colorado_a.template?/lamp_ceiling_chandelier_ornate_b.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/lamps/lamps_indoor_colorado_a.template?/lamp_ceiling_chandelier_ornate_b.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 14.16809864004574
+						},
+						"position": {
+							"x": -0.887664794921875,
+							"y": -194.58802795410156,
+							"z": 3.6743264198303223
+						}
+					}
+				},
+				"m_vFarAttenuation": {
+					"type": "SVector2",
+					"value": {
+						"x": 3.0399999618530273,
+						"y": 10
+					}
+				},
+				"LightTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": 0.005717999767512083,
+							"y": -0.0046709999442100525,
+							"z": -0.14154499769210815
+						}
+					}
+				},
+				"LampChainTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": 0,
+							"y": 0,
+							"z": -1.485200047492981
+						}
+					}
+				},
+				"DiffuseColor": {
+					"type": "SColorRGB",
+					"value": "#ffa978"
+				},
+				"GlowPower": {
+					"type": "float32",
+					"value": 350
+				},
+				"DiffusePower": {
+					"type": "float32",
+					"value": 15
+				},
+				"On": {
+					"type": "bool",
+					"value": true
+				},
+				"m_bUseDynamicShadowMap": {
+					"type": "bool",
+					"value": true
+				},
+				"m_bUseStaticShadowMap": {
+					"type": "bool",
+					"value": true
+				},
+				"m_vAngularAttenuation": {
+					"type": "SVector2",
+					"value": {
+						"x": 0.388131707906723,
+						"y": 1.09539794921875
+					}
+				},
+				"m_fShadowFadeLength": {
+					"type": "float32",
+					"value": 2
+				},
+				"ChandelierMeshCastShadows": {
+					"type": "bool",
+					"value": false
+				},
+				"m_fShadowFadeDistance": {
+					"type": "float32",
+					"value": 20
+				},
+				"ShotColiScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 1,
+						"y": 1,
+						"z": 2.4700000286102295
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feed1e591404f88b"
+				}
+			},
+			"subsets": {
+				"Activatable_NormalGameplay, IEntity": [
+					"fffffffffffffffe"
+				]
+			}
+		},
+		"feed0d18046506b1": {
+			"parent": "feed0eb28b55a766",
+			"name": "Lamp_Ceiling_Chandelier_Ornate_B_04",
+			"factory": "[assembly:/_pro/environment/templates/props/lamps/lamps_indoor_colorado_a.template?/lamp_ceiling_chandelier_ornate_b.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/lamps/lamps_indoor_colorado_a.template?/lamp_ceiling_chandelier_ornate_b.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 14.16809864004574
+						},
+						"position": {
+							"x": 4.304277420043945,
+							"y": -186.35044860839844,
+							"z": 3.7762973308563232
+						}
+					}
+				},
+				"m_vFarAttenuation": {
+					"type": "SVector2",
+					"value": {
+						"x": 3.0399999618530273,
+						"y": 10
+					}
+				},
+				"LightTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": 0.005717999767512083,
+							"y": -0.0046709999442100525,
+							"z": -0.14154499769210815
+						}
+					}
+				},
+				"LampChainTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": 0,
+							"y": 0,
+							"z": -1.485200047492981
+						}
+					}
+				},
+				"DiffuseColor": {
+					"type": "SColorRGB",
+					"value": "#ffa978"
+				},
+				"GlowPower": {
+					"type": "float32",
+					"value": 350
+				},
+				"DiffusePower": {
+					"type": "float32",
+					"value": 15
+				},
+				"On": {
+					"type": "bool",
+					"value": true
+				},
+				"m_bUseDynamicShadowMap": {
+					"type": "bool",
+					"value": true
+				},
+				"m_bUseStaticShadowMap": {
+					"type": "bool",
+					"value": true
+				},
+				"m_vAngularAttenuation": {
+					"type": "SVector2",
+					"value": {
+						"x": 0.388131707906723,
+						"y": 1.09539794921875
+					}
+				},
+				"m_fShadowFadeLength": {
+					"type": "float32",
+					"value": 2
+				},
+				"ChandelierMeshCastShadows": {
+					"type": "bool",
+					"value": false
+				},
+				"m_fShadowFadeDistance": {
+					"type": "float32",
+					"value": 20
+				},
+				"ShotColiScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 1,
+						"y": 1,
+						"z": 2.4700000286102295
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feed1e591404f88b"
+				}
+			},
+			"subsets": {
+				"Activatable_NormalGameplay, IEntity": [
+					"fffffffffffffffe"
+				]
+			}
+		},
+		"feed3f7ea509bc31": {
+			"parent": "feed0eb28b55a766",
+			"name": "Lamp_Ceiling_Chandelier_Ornate_B_05",
+			"factory": "[assembly:/_pro/environment/templates/props/lamps/lamps_indoor_colorado_a.template?/lamp_ceiling_chandelier_ornate_b.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/lamps/lamps_indoor_colorado_a.template?/lamp_ceiling_chandelier_ornate_b.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 14.16809864004574
+						},
+						"position": {
+							"x": -12.52209186553955,
+							"y": -186.35044860839844,
+							"z": 3.7762973308563232
+						}
+					}
+				},
+				"m_vFarAttenuation": {
+					"type": "SVector2",
+					"value": {
+						"x": 3.0399999618530273,
+						"y": 10
+					}
+				},
+				"LightTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": 0.005717999767512083,
+							"y": -0.0046709999442100525,
+							"z": -0.14154499769210815
+						}
+					}
+				},
+				"LampChainTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": 0,
+							"y": 0,
+							"z": -1.485200047492981
+						}
+					}
+				},
+				"DiffuseColor": {
+					"type": "SColorRGB",
+					"value": "#ffa978"
+				},
+				"GlowPower": {
+					"type": "float32",
+					"value": 350
+				},
+				"DiffusePower": {
+					"type": "float32",
+					"value": 15
+				},
+				"On": {
+					"type": "bool",
+					"value": true
+				},
+				"m_bUseDynamicShadowMap": {
+					"type": "bool",
+					"value": true
+				},
+				"m_bUseStaticShadowMap": {
+					"type": "bool",
+					"value": true
+				},
+				"m_vAngularAttenuation": {
+					"type": "SVector2",
+					"value": {
+						"x": 0.388131707906723,
+						"y": 1.09539794921875
+					}
+				},
+				"m_fShadowFadeLength": {
+					"type": "float32",
+					"value": 2
+				},
+				"ChandelierMeshCastShadows": {
+					"type": "bool",
+					"value": false
+				},
+				"m_fShadowFadeDistance": {
+					"type": "float32",
+					"value": 20
+				},
+				"ShotColiScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 1,
+						"y": 1,
+						"z": 2.4700000286102295
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feed1e591404f88b"
+				}
+			},
+			"subsets": {
+				"Activatable_NormalGameplay, IEntity": [
+					"fffffffffffffffe"
+				]
+			}
+		},
+		"feed4a82482c7b5a": {
+			"parent": "feed0eb28b55a766",
+			"name": "Lamp_Ceiling_Chandelier_Ornate_B_06",
+			"factory": "[assembly:/_pro/environment/templates/props/lamps/lamps_indoor_colorado_a.template?/lamp_ceiling_chandelier_ornate_b.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/lamps/lamps_indoor_colorado_a.template?/lamp_ceiling_chandelier_ornate_b.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 14.16809864004574
+						},
+						"position": {
+							"x": 10.048091888427734,
+							"y": -196.04629516601562,
+							"z": 3.648007869720459
+						}
+					}
+				},
+				"m_vFarAttenuation": {
+					"type": "SVector2",
+					"value": {
+						"x": 3.0399999618530273,
+						"y": 10
+					}
+				},
+				"LightTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": 0.005717999767512083,
+							"y": -0.0046709999442100525,
+							"z": -0.14154499769210815
+						}
+					}
+				},
+				"LampChainTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": 0,
+							"y": 0,
+							"z": -1.485200047492981
+						}
+					}
+				},
+				"DiffuseColor": {
+					"type": "SColorRGB",
+					"value": "#ffa978"
+				},
+				"GlowPower": {
+					"type": "float32",
+					"value": 350
+				},
+				"DiffusePower": {
+					"type": "float32",
+					"value": 15
+				},
+				"On": {
+					"type": "bool",
+					"value": true
+				},
+				"m_bUseDynamicShadowMap": {
+					"type": "bool",
+					"value": true
+				},
+				"m_bUseStaticShadowMap": {
+					"type": "bool",
+					"value": true
+				},
+				"m_vAngularAttenuation": {
+					"type": "SVector2",
+					"value": {
+						"x": 0.388131707906723,
+						"y": 1.09539794921875
+					}
+				},
+				"m_fShadowFadeLength": {
+					"type": "float32",
+					"value": 2
+				},
+				"ChandelierMeshCastShadows": {
+					"type": "bool",
+					"value": false
+				},
+				"m_fShadowFadeDistance": {
+					"type": "float32",
+					"value": 20
+				},
+				"ShotColiScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 1,
+						"y": 1,
+						"z": 2.4700000286102295
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feed1e591404f88b"
+				}
+			},
+			"subsets": {
+				"Activatable_NormalGameplay, IEntity": [
+					"fffffffffffffffe"
+				]
+			}
+		},
+		"feed7688f13178ba": {
+			"parent": "feed0eb28b55a766",
+			"name": "Lamp_Ceiling_Chandelier_Ornate_B_08",
+			"factory": "[assembly:/_pro/environment/templates/props/lamps/lamps_indoor_colorado_a.template?/lamp_ceiling_chandelier_ornate_b.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/lamps/lamps_indoor_colorado_a.template?/lamp_ceiling_chandelier_ornate_b.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 14.16809864004574
+						},
+						"position": {
+							"x": -16.941043853759766,
+							"y": -196.16696166992188,
+							"z": 3.760627269744873
+						}
+					}
+				},
+				"m_vFarAttenuation": {
+					"type": "SVector2",
+					"value": {
+						"x": 3.0399999618530273,
+						"y": 10
+					}
+				},
+				"LightTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": 0.005717999767512083,
+							"y": -0.0046709999442100525,
+							"z": -0.14154499769210815
+						}
+					}
+				},
+				"LampChainTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": 0,
+							"y": 0,
+							"z": -1.485200047492981
+						}
+					}
+				},
+				"DiffuseColor": {
+					"type": "SColorRGB",
+					"value": "#ffa978"
+				},
+				"GlowPower": {
+					"type": "float32",
+					"value": 350
+				},
+				"DiffusePower": {
+					"type": "float32",
+					"value": 15
+				},
+				"On": {
+					"type": "bool",
+					"value": true
+				},
+				"m_bUseDynamicShadowMap": {
+					"type": "bool",
+					"value": true
+				},
+				"m_bUseStaticShadowMap": {
+					"type": "bool",
+					"value": true
+				},
+				"m_vAngularAttenuation": {
+					"type": "SVector2",
+					"value": {
+						"x": 0.388131707906723,
+						"y": 1.09539794921875
+					}
+				},
+				"m_fShadowFadeLength": {
+					"type": "float32",
+					"value": 2
+				},
+				"ChandelierMeshCastShadows": {
+					"type": "bool",
+					"value": false
+				},
+				"m_fShadowFadeDistance": {
+					"type": "float32",
+					"value": 20
+				},
+				"ShotColiScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 1,
+						"y": 1,
+						"z": 2.4700000286102295
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feed1e591404f88b"
+				}
+			},
+			"subsets": {
+				"Activatable_NormalGameplay, IEntity": [
+					"fffffffffffffffe"
+				]
+			}
+		},
+		"feedc5168c6687ca": {
+			"parent": "feed2940c4699491",
+			"name": "Lamp_Ceiling_Chandelier_Ornate_B_09",
+			"factory": "[assembly:/_pro/environment/templates/props/lamps/lamps_indoor_colorado_a.template?/lamp_ceiling_chandelier_ornate_b.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/lamps/lamps_indoor_colorado_a.template?/lamp_ceiling_chandelier_ornate_b.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 14.16809864004574
+						},
+						"position": {
+							"x": -26.521560668945312,
+							"y": -192.64378356933594,
+							"z": 3.760627269744873
+						}
+					}
+				},
+				"m_vFarAttenuation": {
+					"type": "SVector2",
+					"value": {
+						"x": 3.0399999618530273,
+						"y": 10
+					}
+				},
+				"LightTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": 0.005717999767512083,
+							"y": -0.0046709999442100525,
+							"z": -0.14154499769210815
+						}
+					}
+				},
+				"LampChainTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": 0,
+							"y": 0,
+							"z": -1.485200047492981
+						}
+					}
+				},
+				"DiffuseColor": {
+					"type": "SColorRGB",
+					"value": "#ffa978"
+				},
+				"GlowPower": {
+					"type": "float32",
+					"value": 350
+				},
+				"DiffusePower": {
+					"type": "float32",
+					"value": 15
+				},
+				"On": {
+					"type": "bool",
+					"value": true
+				},
+				"m_bUseDynamicShadowMap": {
+					"type": "bool",
+					"value": true
+				},
+				"m_bUseStaticShadowMap": {
+					"type": "bool",
+					"value": true
+				},
+				"m_vAngularAttenuation": {
+					"type": "SVector2",
+					"value": {
+						"x": 0.388131707906723,
+						"y": 1.09539794921875
+					}
+				},
+				"m_fShadowFadeLength": {
+					"type": "float32",
+					"value": 2
+				},
+				"ChandelierMeshCastShadows": {
+					"type": "bool",
+					"value": false
+				},
+				"m_fShadowFadeDistance": {
+					"type": "float32",
+					"value": 20
+				},
+				"ShotColiScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 1,
+						"y": 1,
+						"z": 2.4700000286102295
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feed1e591404f88b"
+				}
+			},
+			"subsets": {
+				"Activatable_NormalGameplay, IEntity": [
+					"fffffffffffffffe"
+				]
+			}
+		},
+		"feedf876eb4f87c1": {
+			"parent": "feed2940c4699491",
+			"name": "Lamp_Ceiling_Chandelier_Ornate_B_10",
+			"factory": "[assembly:/_pro/environment/templates/props/lamps/lamps_indoor_colorado_a.template?/lamp_ceiling_chandelier_ornate_b.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/lamps/lamps_indoor_colorado_a.template?/lamp_ceiling_chandelier_ornate_b.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 14.16809864004574
+						},
+						"position": {
+							"x": -25.08786392211914,
+							"y": -192.64378356933594,
+							"z": -3.206441879272461
+						}
+					}
+				},
+				"m_vFarAttenuation": {
+					"type": "SVector2",
+					"value": {
+						"x": 3.0399999618530273,
+						"y": 10
+					}
+				},
+				"LightTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": 0.005717999767512083,
+							"y": -0.0046709999442100525,
+							"z": -0.14154499769210815
+						}
+					}
+				},
+				"LampChainTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": 0,
+							"y": 0,
+							"z": -1.485200047492981
+						}
+					}
+				},
+				"DiffuseColor": {
+					"type": "SColorRGB",
+					"value": "#ffa978"
+				},
+				"GlowPower": {
+					"type": "float32",
+					"value": 350
+				},
+				"DiffusePower": {
+					"type": "float32",
+					"value": 15
+				},
+				"On": {
+					"type": "bool",
+					"value": true
+				},
+				"m_bUseDynamicShadowMap": {
+					"type": "bool",
+					"value": true
+				},
+				"m_bUseStaticShadowMap": {
+					"type": "bool",
+					"value": true
+				},
+				"m_vAngularAttenuation": {
+					"type": "SVector2",
+					"value": {
+						"x": 0.388131707906723,
+						"y": 1.09539794921875
+					}
+				},
+				"m_fShadowFadeLength": {
+					"type": "float32",
+					"value": 2
+				},
+				"ChandelierMeshCastShadows": {
+					"type": "bool",
+					"value": false
+				},
+				"m_fShadowFadeDistance": {
+					"type": "float32",
+					"value": 20
+				},
+				"ShotColiScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 1,
+						"y": 1,
+						"z": 2.4700000286102295
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feed1e591404f88b"
+				}
+			},
+			"subsets": {
+				"Activatable_NormalGameplay, IEntity": [
+					"fffffffffffffffe"
+				]
+			}
+		},
+		"feedf628740af66c": {
+			"parent": "feed607c4cf31b67",
+			"name": "Lamp_Ceiling_Chandelier_Ornate_B_11",
+			"factory": "[assembly:/_pro/environment/templates/props/lamps/lamps_indoor_colorado_a.template?/lamp_ceiling_chandelier_ornate_b.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/lamps/lamps_indoor_colorado_a.template?/lamp_ceiling_chandelier_ornate_b.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 14.16809864004574
+						},
+						"position": {
+							"x": -29.76938247680664,
+							"y": -176.888916015625,
+							"z": -3.290778398513794
+						}
+					}
+				},
+				"m_vFarAttenuation": {
+					"type": "SVector2",
+					"value": {
+						"x": 3.0399999618530273,
+						"y": 10
+					}
+				},
+				"LightTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": 0.005717999767512083,
+							"y": -0.0046709999442100525,
+							"z": -0.14154499769210815
+						}
+					}
+				},
+				"LampChainTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": 0,
+							"y": 0,
+							"z": -1.485200047492981
+						}
+					}
+				},
+				"DiffuseColor": {
+					"type": "SColorRGB",
+					"value": "#ffa978"
+				},
+				"GlowPower": {
+					"type": "float32",
+					"value": 350
+				},
+				"DiffusePower": {
+					"type": "float32",
+					"value": 15
+				},
+				"On": {
+					"type": "bool",
+					"value": true
+				},
+				"m_bUseDynamicShadowMap": {
+					"type": "bool",
+					"value": true
+				},
+				"m_bUseStaticShadowMap": {
+					"type": "bool",
+					"value": true
+				},
+				"m_vAngularAttenuation": {
+					"type": "SVector2",
+					"value": {
+						"x": 0.388131707906723,
+						"y": 1.09539794921875
+					}
+				},
+				"m_fShadowFadeLength": {
+					"type": "float32",
+					"value": 2
+				},
+				"ChandelierMeshCastShadows": {
+					"type": "bool",
+					"value": false
+				},
+				"m_fShadowFadeDistance": {
+					"type": "float32",
+					"value": 20
+				},
+				"ShotColiScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 1,
+						"y": 1,
+						"z": 2.4700000286102295
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feed1e591404f88b"
+				}
+			},
+			"subsets": {
+				"Activatable_NormalGameplay, IEntity": [
+					"fffffffffffffffe"
+				]
+			}
+		},
+		"feed6741e17eab14": {
+			"parent": "feed69f3fe137bf4",
+			"name": "Lamp_Ceiling_Chandelier_Ornate_B_11",
+			"factory": "[assembly:/_pro/environment/templates/props/lamps/lamps_indoor_colorado_a.template?/lamp_ceiling_chandelier_ornate_b.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/lamps/lamps_indoor_colorado_a.template?/lamp_ceiling_chandelier_ornate_b.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 14.16809864004574
+						},
+						"position": {
+							"x": -51.716453552246094,
+							"y": -176.88909912109375,
+							"z": 2.9371769428253174
+						}
+					}
+				},
+				"m_vFarAttenuation": {
+					"type": "SVector2",
+					"value": {
+						"x": 3.0399999618530273,
+						"y": 10
+					}
+				},
+				"LightTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": 0.005717999767512083,
+							"y": -0.0046709999442100525,
+							"z": -0.14154499769210815
+						}
+					}
+				},
+				"LampChainTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": 0,
+							"y": 0,
+							"z": -1.485200047492981
+						}
+					}
+				},
+				"DiffuseColor": {
+					"type": "SColorRGB",
+					"value": "#ffa978"
+				},
+				"GlowPower": {
+					"type": "float32",
+					"value": 350
+				},
+				"DiffusePower": {
+					"type": "float32",
+					"value": 15
+				},
+				"On": {
+					"type": "bool",
+					"value": true
+				},
+				"m_bUseDynamicShadowMap": {
+					"type": "bool",
+					"value": true
+				},
+				"m_bUseStaticShadowMap": {
+					"type": "bool",
+					"value": true
+				},
+				"m_vAngularAttenuation": {
+					"type": "SVector2",
+					"value": {
+						"x": 0.388131707906723,
+						"y": 1.09539794921875
+					}
+				},
+				"m_fShadowFadeLength": {
+					"type": "float32",
+					"value": 2
+				},
+				"ChandelierMeshCastShadows": {
+					"type": "bool",
+					"value": false
+				},
+				"m_fShadowFadeDistance": {
+					"type": "float32",
+					"value": 20
+				},
+				"ShotColiScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 1,
+						"y": 1,
+						"z": 2.4700000286102295
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feed1e591404f88b"
+				}
+			},
+			"subsets": {
+				"Activatable_NormalGameplay, IEntity": [
+					"fffffffffffffffe"
+				]
+			}
+		},
+		"feed3aed7c5bdc11": {
+			"parent": "feed69f3fe137bf4",
+			"name": "Lamp_Ceiling_Chandelier_Ornate_B_14",
+			"factory": "[assembly:/_pro/environment/templates/props/lamps/lamps_indoor_colorado_a.template?/lamp_ceiling_chandelier_ornate_b.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/lamps/lamps_indoor_colorado_a.template?/lamp_ceiling_chandelier_ornate_b.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 14.16809864004574
+						},
+						"position": {
+							"x": -52.054954528808594,
+							"y": -193.56439208984375,
+							"z": 3.221306324005127
+						}
+					}
+				},
+				"m_vFarAttenuation": {
+					"type": "SVector2",
+					"value": {
+						"x": 3.0399999618530273,
+						"y": 10
+					}
+				},
+				"LightTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": 0.005717999767512083,
+							"y": -0.0046709999442100525,
+							"z": -0.14154499769210815
+						}
+					}
+				},
+				"LampChainTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": 0,
+							"y": 0,
+							"z": -1.485200047492981
+						}
+					}
+				},
+				"DiffuseColor": {
+					"type": "SColorRGB",
+					"value": "#ffa978"
+				},
+				"GlowPower": {
+					"type": "float32",
+					"value": 350
+				},
+				"DiffusePower": {
+					"type": "float32",
+					"value": 15
+				},
+				"On": {
+					"type": "bool",
+					"value": true
+				},
+				"m_bUseDynamicShadowMap": {
+					"type": "bool",
+					"value": true
+				},
+				"m_bUseStaticShadowMap": {
+					"type": "bool",
+					"value": true
+				},
+				"m_vAngularAttenuation": {
+					"type": "SVector2",
+					"value": {
+						"x": 0.388131707906723,
+						"y": 1.09539794921875
+					}
+				},
+				"m_fShadowFadeLength": {
+					"type": "float32",
+					"value": 2
+				},
+				"ChandelierMeshCastShadows": {
+					"type": "bool",
+					"value": false
+				},
+				"m_fShadowFadeDistance": {
+					"type": "float32",
+					"value": 20
+				},
+				"ShotColiScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 1,
+						"y": 1,
+						"z": 2.4700000286102295
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feed1e591404f88b"
+				}
+			},
+			"subsets": {
+				"Activatable_NormalGameplay, IEntity": [
+					"fffffffffffffffe"
+				]
+			}
+		},
+		"feedbcac47a797c3": {
+			"parent": "feed69f3fe137bf4",
+			"name": "Lamp_Ceiling_Chandelier_Ornate_B_13",
+			"factory": "[assembly:/_pro/environment/templates/props/lamps/lamps_indoor_colorado_a.template?/lamp_ceiling_chandelier_ornate_b.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/props/lamps/lamps_indoor_colorado_a.template?/lamp_ceiling_chandelier_ornate_b.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 14.16809864004574
+						},
+						"position": {
+							"x": -51.16803741455078,
+							"y": -162.52859497070312,
+							"z": 3.3156380653381348
+						}
+					}
+				},
+				"m_vFarAttenuation": {
+					"type": "SVector2",
+					"value": {
+						"x": 3.0399999618530273,
+						"y": 10
+					}
+				},
+				"LightTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": 0.005717999767512083,
+							"y": -0.0046709999442100525,
+							"z": -0.14154499769210815
+						}
+					}
+				},
+				"LampChainTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": 0
+						},
+						"position": {
+							"x": 0,
+							"y": 0,
+							"z": -1.485200047492981
+						}
+					}
+				},
+				"DiffuseColor": {
+					"type": "SColorRGB",
+					"value": "#ffa978"
+				},
+				"GlowPower": {
+					"type": "float32",
+					"value": 350
+				},
+				"DiffusePower": {
+					"type": "float32",
+					"value": 15
+				},
+				"On": {
+					"type": "bool",
+					"value": true
+				},
+				"m_bUseDynamicShadowMap": {
+					"type": "bool",
+					"value": true
+				},
+				"m_bUseStaticShadowMap": {
+					"type": "bool",
+					"value": true
+				},
+				"m_vAngularAttenuation": {
+					"type": "SVector2",
+					"value": {
+						"x": 0.388131707906723,
+						"y": 1.09539794921875
+					}
+				},
+				"m_fShadowFadeLength": {
+					"type": "float32",
+					"value": 2
+				},
+				"ChandelierMeshCastShadows": {
+					"type": "bool",
+					"value": false
+				},
+				"m_fShadowFadeDistance": {
+					"type": "float32",
+					"value": 20
+				},
+				"ShotColiScale": {
+					"type": "SVector3",
+					"value": {
+						"x": 1,
+						"y": 1,
+						"z": 2.4700000286102295
+					}
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "feed1e591404f88b"
+				}
+			},
+			"subsets": {
+				"Activatable_NormalGameplay, IEntity": [
+					"fffffffffffffffe"
+				]
+			}
+		},
+		"feed262c7f7cef56": {
+			"parent": "feedd4b1cd882def",
+			"name": "Side_Left_D_02",
+			"factory": "[assembly:/_pro/environment/templates/kits/castle/mansion_a_prefab.template?/side_left_d.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/kits/castle/mansion_a_prefab.template?/side_left_d.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -180
+						},
+						"position": {
+							"x": 32.41716766357422,
+							"y": -175.4032745361328,
+							"z": -2.048234939575195
+						}
+					}
+				},
+				"m_VertexPaintData": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/runtimeresources/vertexpaint/_pro/scenes/missions/ancestral/scenario_bulldog/side_left_d_2608e321449946b7a915d274892fecc6.vertexdata].pc_vertexdata",
+						"flag": "5F"
+					}
+				},
+				"m_bAddChildren": {
+					"type": "bool",
+					"value": true
 				},
 				"m_eidParent": {
 					"type": "SEntityTemplateReference",
