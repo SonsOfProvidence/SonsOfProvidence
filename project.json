@@ -129,6 +129,8 @@
 		"[assembly:/sonsofprovidence/airplane/setpiece_airplane_unique_computer_100cm.entitytemplate].pc_entitytype",
 		"[assembly:/sonsofprovidence/airplane/setpiece_airplane_unique_computer_100cm.entitytemplate].pc_entityblueprint",
 		"[assembly:/sonsofprovidence/funeral/prop_questitem_funeral_thomas_cross_phone.entitytemplate].pc_entitytype",
-		"[assembly:/sonsofprovidence/funeral/prop_questitem_funeral_thomas_cross_phone.entitytemplate].pc_entityblueprint"
+		"[assembly:/sonsofprovidence/funeral/prop_questitem_funeral_thomas_cross_phone.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/scenes/bricks/menumapsetup_sons_of_providence.brick].pc_entitytype",
+		"[assembly:/_pro/scenes/bricks/menumapsetup_sons_of_providence.brick].pc_entityblueprint"
 	]
 }

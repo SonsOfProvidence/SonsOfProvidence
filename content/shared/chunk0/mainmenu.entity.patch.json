@@ -1,0 +1,10 @@
+{
+	"tempHash": "00D21C3C85998917",
+	"tbluHash": "00AAF83476B4C540",
+	"patch": [
+		{
+			"AddExternalScene": "[assembly:/_pro/scenes/bricks/menumapsetup_sons_of_providence.brick].pc_entitytype"
+		}
+	],
+	"patchVersion": 6
+}
