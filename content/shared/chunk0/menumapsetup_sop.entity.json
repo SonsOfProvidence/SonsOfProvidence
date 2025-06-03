@@ -1,0 +1,149 @@
+{
+	"tempHash": "00106F9312E4985C",
+	"tbluHash": "003C94CCFD92BF3F",
+	"rootEntity": "fffffffffffffffe",
+	"entities": {
+		"fffffffffffffffe": {
+			"parent": null,
+			"name": "Scene",
+			"factory": "[modules:/zspatialentity.class].pc_entitytype",
+			"blueprint": "[modules:/zspatialentity.class].pc_entityblueprint"
+		},
+		"cafe63ee482b7331": {
+			"parent": "fffffffffffffffe",
+			"name": "MenuMapSetup_SonsOfProvidence",
+			"factory": "[modules:/zentity.class].pc_entitytype",
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
+		},
+		"cafe977784fbc69b": {
+			"parent": "cafe63ee482b7331",
+			"name": "Scene_Carpark",
+			"factory": "[assembly:/templates/ui/mapexportentities.template?/menumap.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/templates/ui/mapexportentities.template?/menumap.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_pMetaDataResource": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "00D757C1562092CC",
+						"flag": "5F"
+					}
+				}
+			}
+		},
+		"cafe8c42e706adbd": {
+			"parent": "cafe63ee482b7331",
+			"name": "Scene_Airplane",
+			"factory": "[assembly:/templates/ui/mapexportentities.template?/menumap.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/templates/ui/mapexportentities.template?/menumap.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_pMetaDataResource": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "000753BE8FC10BD8",
+						"flag": "5F"
+					}
+				}
+			}
+		},
+		"cafee2d1989a1019": {
+			"parent": "cafe63ee482b7331",
+			"name": "Scene_Moscow",
+			"factory": "[assembly:/templates/ui/mapexportentities.template?/menumap.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/templates/ui/mapexportentities.template?/menumap.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_pMetaDataResource": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "00988241F442CDDF",
+						"flag": "5F"
+					}
+				}
+			}
+		},
+		"cafe575477f3237f": {
+			"parent": "cafe63ee482b7331",
+			"name": "Scene_Funeral",
+			"factory": "[assembly:/templates/ui/mapexportentities.template?/menumap.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/templates/ui/mapexportentities.template?/menumap.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_pMetaDataResource": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "0087D3DCE70CFF95",
+						"flag": "5F"
+					}
+				}
+			}
+		},
+		"cafea6f9837345dd": {
+			"parent": "cafe63ee482b7331",
+			"name": "Scene_Institute",
+			"factory": "[assembly:/templates/ui/mapexportentities.template?/menumap.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/templates/ui/mapexportentities.template?/menumap.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_pMetaDataResource": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "004F040B5D41A40F",
+						"flag": "5F"
+					}
+				}
+			}
+		},
+		"cafed8d10a1afbbc": {
+			"parent": "cafe63ee482b7331",
+			"name": "Scene_Tower",
+			"factory": "[assembly:/templates/ui/mapexportentities.template?/menumap.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/templates/ui/mapexportentities.template?/menumap.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_pMetaDataResource": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "008D479D666B23A6",
+						"flag": "5F"
+					}
+				}
+			}
+		},
+		"cafe91bed3076988": {
+			"parent": "cafe63ee482b7331",
+			"name": "Scene_Bank",
+			"factory": "[assembly:/templates/ui/mapexportentities.template?/menumap.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/templates/ui/mapexportentities.template?/menumap.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_pMetaDataResource": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "004D36DBA84266E6",
+						"flag": "5F"
+					}
+				}
+			}
+		},
+		"cafe80953de02714": {
+			"parent": "cafe63ee482b7331",
+			"name": "Scene_Ether_Lab",
+			"factory": "[assembly:/templates/ui/mapexportentities.template?/menumap.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/templates/ui/mapexportentities.template?/menumap.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_pMetaDataResource": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "00F236F34971A418",
+						"flag": "5F"
+					}
+				}
+			}
+		}
+	},
+	"propertyOverrides": [],
+	"overrideDeletes": [],
+	"pinConnectionOverrides": [],
+	"pinConnectionOverrideDeletes": [],
+	"externalScenes": [],
+	"subType": "brick",
+	"quickEntityVersion": 3.1,
+	"extraFactoryDependencies": [],
+	"extraBlueprintDependencies": [],
+	"comments": []
+}
