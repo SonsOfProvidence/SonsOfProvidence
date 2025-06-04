@@ -1935,7 +1935,7 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": { "x": -0.0, "y": 0.0, "z": -180.0 },
-						"position": { "x": 47.5, "y": -125.0, "z": 4.5 }
+						"position": { "x": 46.5, "y": -125.0, "z": 4.5 }
 					}
 				},
 				"m_eidParent": { "type": "SEntityTemplateReference", "value": "630f9164460de833", "postInit": true }
@@ -2919,7 +2919,7 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": { "x": -0.0, "y": 0.0, "z": -180.0 },
-						"position": { "x": -52.25, "y": 133.0, "z": 4.5 }
+						"position": { "x": -53.25, "y": 133.0, "z": 4.5 }
 					}
 				},
 				"VehiclePaintDiffuse": { "type": "SColorRGB", "value": "#696969" },
@@ -5800,7 +5800,7 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": { "x": -0.0, "y": 0.0, "z": 54.3890020608966 },
-						"position": { "x": 50.48820877075195, "y": 15.851690292358398, "z": 4.758460998535156 }
+						"position": { "x": 0.4882087707519531, "y": 7.851690292358398, "z": 4.758460998535156 }
 					}
 				},
 				"2998112157": {
@@ -6000,7 +6000,7 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": { "x": -0.0, "y": 0.0, "z": -180.0 },
-						"position": { "x": -52.029388427734375, "y": 112.39219665527344, "z": 4.5 }
+						"position": { "x": -53.029388427734375, "y": 112.39219665527344, "z": 4.5 }
 					}
 				},
 				"VehiclePaintDiffuse": { "type": "SColorRGB", "value": "#575757" },
@@ -6363,7 +6363,7 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": { "x": -0.0, "y": 0.0, "z": 54.3890020608966 },
-						"position": { "x": 50.48820877075195, "y": -1.6548320055007937, "z": 4.488000869750977 }
+						"position": { "x": 1.4882087707519531, "y": -1.6548320055007937, "z": 4.488000869750977 }
 					}
 				},
 				"2998112157": {
@@ -6966,7 +6966,7 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": { "x": -0.0, "y": 0.0, "z": -180.0 },
-						"position": { "x": 48.0, "y": -74.91768646240234, "z": 4.5 }
+						"position": { "x": 47.0, "y": -74.91768646240234, "z": 4.5 }
 					}
 				},
 				"VehiclePaintDiffuse": { "type": "SColorRGB", "value": "#ffc400" },
@@ -8229,7 +8229,7 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": { "x": -0.0, "y": 0.0, "z": -180.0 },
-						"position": { "x": -52.25, "y": 139.99989318847656, "z": 4.5 }
+						"position": { "x": -53.25, "y": 139.99989318847656, "z": 4.5 }
 					}
 				},
 				"VehiclePaintDiffuse": { "type": "SColorRGB", "value": "#cc4b4b" },
@@ -10803,7 +10803,7 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": { "x": -0.0, "y": 0.0, "z": -180.0 },
-						"position": { "x": -52.029388427734375, "y": 117.89219665527344, "z": 4.5 }
+						"position": { "x": -53.029388427734375, "y": 117.89219665527344, "z": 4.5 }
 					}
 				},
 				"VehiclePaintDiffuse": { "type": "SColorRGB", "value": "#575757" },
@@ -10876,7 +10876,7 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": { "x": -0.0, "y": 0.0, "z": -180.0 },
-						"position": { "x": 48.0, "y": -98.41768646240234, "z": 4.5 }
+						"position": { "x": 47.0, "y": -98.41768646240234, "z": 4.5 }
 					}
 				},
 				"VehiclePaintDiffuse": { "type": "SColorRGB", "value": "#ffc400" },
@@ -13893,8 +13893,8 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": -90.0 },
-						"position": { "x": 14.75, "y": -79.25, "z": 4.75 }
+						"rotation": { "x": -0.01398404498541963, "y": 0.01399240971611656, "z": 89.96574318621609 },
+						"position": { "x": 49.75, "y": -79.25, "z": 4.75 }
 					}
 				},
 				"m_eidParent": { "type": "SEntityTemplateReference", "value": "630f9164460de833", "postInit": true }
@@ -15468,8 +15468,8 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": -175.6399387534722 },
-						"position": { "x": 47.58843994140625, "y": -104.88719940185548, "z": 4.5 }
+						"rotation": { "x": -0.0, "y": 0.0, "z": -175.64009446947202 },
+						"position": { "x": 46.58843994140625, "y": -104.88719940185548, "z": 4.5 }
 					}
 				},
 				"PaintDiffuse": { "type": "SColorRGB", "value": "#4b5a69" },
@@ -17743,7 +17743,7 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": { "x": -0.0, "y": 0.0, "z": -180.0 },
-						"position": { "x": 48.0, "y": -68.75, "z": 4.5 }
+						"position": { "x": 47.0, "y": -68.75, "z": 4.5 }
 					}
 				},
 				"VehiclePaintDiffuse": { "type": "SColorRGB", "value": "#ffc400" },
@@ -20513,7 +20513,7 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": { "x": -0.0, "y": 0.0, "z": -180.0 },
-						"position": { "x": 48.0, "y": -85.97297668457031, "z": 4.5 }
+						"position": { "x": 47.02482604980469, "y": -85.97297668457031, "z": 4.5 }
 					}
 				},
 				"VehiclePaintDiffuse": { "type": "SColorRGB", "value": "#ffc400" },
@@ -21460,8 +21460,8 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": -180.0 },
-						"position": { "x": 19.917200088500977, "y": -192.25929260253903, "z": 4.740161895751953 }
+						"rotation": { "x": 0, "y": 0, "z": 180 },
+						"position": { "x": 26.832801818847656, "y": 7.0026397705078125, "z": 4.849999904632568 }
 					}
 				},
 				"m_PrimitiveScale": { "type": "SVector3", "value": { "x": 1.0, "y": 1.0, "z": 1.9299999475479128 } },
@@ -21905,7 +21905,7 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": { "x": -0.0, "y": 0.0, "z": -180.0 },
-						"position": { "x": 48.0, "y": -164.99290466308594, "z": 4.5 }
+						"position": { "x": 47.0, "y": -164.99290466308594, "z": 4.5 }
 					}
 				},
 				"VehiclePaintDiffuse": { "type": "SColorRGB", "value": "#ffc400" },
@@ -21985,8 +21985,8 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": -90.0 },
-						"position": { "x": -45.25, "y": 104.25, "z": 4.5 }
+						"rotation": { "x": -0.0, "y": 0.0, "z": 179.96043531900548 },
+						"position": { "x": -53.25, "y": 104.25, "z": 4.5 }
 					}
 				},
 				"VehiclePaintDiffuse": { "type": "SColorRGB", "value": "#ffc400" },
@@ -22488,7 +22488,7 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": { "x": -0.0, "y": 0.0, "z": -180.0 },
-						"position": { "x": -45.75, "y": 106.25, "z": 4.75 }
+						"position": { "x": -50.75, "y": 104.25, "z": 4.75 }
 					}
 				},
 				"m_eidParent": { "type": "SEntityTemplateReference", "value": "630f9164460de833", "postInit": true }
@@ -23031,7 +23031,7 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": { "x": -0.0, "y": 0.0, "z": -180.0 },
-						"position": { "x": -52.02939987182617, "y": 126.39219665527344, "z": 4.5 }
+						"position": { "x": -53.02939987182617, "y": 126.39219665527344, "z": 4.5 }
 					}
 				},
 				"PaintDiffuse": { "type": "SColorRGB", "value": "#bd4f4f" },
@@ -23417,7 +23417,7 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": { "x": -0.0, "y": 0.0, "z": -180.0 },
-						"position": { "x": 48.0, "y": -158.82530212402344, "z": 4.5 }
+						"position": { "x": 47.0, "y": -158.82530212402344, "z": 4.5 }
 					}
 				},
 				"VehiclePaintDiffuse": { "type": "SColorRGB", "value": "#ffc400" },
@@ -25153,7 +25153,7 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": { "x": -0.0, "y": 0.0, "z": -180.0 },
-						"position": { "x": 48.0, "y": -80.5, "z": 4.5 }
+						"position": { "x": 47.0, "y": -80.5, "z": 4.5 }
 					}
 				},
 				"VehiclePaintDiffuse": { "type": "SColorRGB", "value": "#ffc400" },
@@ -25632,7 +25632,7 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": { "x": -0.0, "y": 0.0, "z": -180.0 },
-						"position": { "x": 48.0, "y": -131.75, "z": 4.5 }
+						"position": { "x": 46.5, "y": -131.75, "z": 4.5 }
 					}
 				},
 				"ConstantColorRGB_01_Value": { "type": "SColorRGB", "value": "#363c4f" },
@@ -32547,7 +32547,7 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
-						"position": { "x": 42.603031158447266, "y": 6.583281993865967, "z": 4.508460998535156 }
+						"position": { "x": 26.603031158447266, "y": 6.583281993865967, "z": 4.508460998535156 }
 					}
 				},
 				"m_PrimitiveScale": {
@@ -38023,8 +38023,8 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": 90.0 },
-						"position": { "x": -47.0, "y": 88.0, "z": 4.5 }
+						"rotation": { "x": -0.0, "y": 0.0, "z": 179.96043531900548 },
+						"position": { "x": -53.0, "y": 88.0, "z": 4.5 }
 					}
 				},
 				"VehiclePaintDiffuse": { "type": "SColorRGB", "value": "#696969" },
@@ -41306,7 +41306,7 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": { "x": -0.0, "y": 0.0, "z": -180.0 },
-						"position": { "x": 48.0, "y": -153.1676025390625, "z": 4.5 }
+						"position": { "x": 47.0, "y": -153.1676025390625, "z": 4.5 }
 					}
 				},
 				"VehiclePaintDiffuse": { "type": "SColorRGB", "value": "#ffc400" },
@@ -43540,7 +43540,7 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": { "x": -0.0, "y": 0.0, "z": -180.0 },
-						"position": { "x": -52.25, "y": 145.24989318847656, "z": 4.5 }
+						"position": { "x": -53.25, "y": 145.24989318847656, "z": 4.5 }
 					}
 				},
 				"VehiclePaintDiffuse": { "type": "SColorRGB", "value": "#ffc400" },
@@ -43905,7 +43905,7 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": { "x": -0.0, "y": 0.0, "z": -180.0 },
-						"position": { "x": 48.0, "y": -91.8664321899414, "z": 4.5 }
+						"position": { "x": 47.0, "y": -91.8664321899414, "z": 4.5 }
 					}
 				},
 				"PaintDiffuse": { "type": "SColorRGB", "value": "#943838" },
@@ -45814,7 +45814,7 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": { "x": -0.0, "y": 0.0, "z": -180.0 },
-						"position": { "x": 48.0, "y": -147.0, "z": 4.5 }
+						"position": { "x": 47.0, "y": -147.0, "z": 4.5 }
 					}
 				},
 				"VehiclePaintDiffuse": { "type": "SColorRGB", "value": "#ffc400" },
