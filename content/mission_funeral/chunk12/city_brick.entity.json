@@ -55,7 +55,7 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": { "x": -0.0, "y": 0.0, "z": -180.0 },
-						"position": { "x": -56.25, "y": 46.0, "z": 4.5 }
+						"position": { "x": -52.93082427978515, "y": 46.0, "z": 4.5 }
 					}
 				},
 				"VehiclePaintDiffuse": { "type": "SColorRGB", "value": "#cc4b4b" },
@@ -356,8 +356,8 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": -90.0 },
-						"position": { "x": -72.12610626220703, "y": 22.678640365600582, "z": 4.720967769622803 }
+						"rotation": { "x": -0.0, "y": 0.0, "z": -89.9999965849052 },
+						"position": { "x": -72.12610626220703, "y": -85.38994598388672, "z": 4.720967769622803 }
 					}
 				},
 				"m_eidParent": { "type": "SEntityTemplateReference", "value": "630f9164460de833", "postInit": true }
@@ -427,7 +427,7 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": { "x": -0.0, "y": 0.0, "z": -180.0 },
-						"position": { "x": -56.25, "y": 27.75, "z": 4.5 }
+						"position": { "x": -53.19899368286133, "y": 51.26261138916016, "z": 4.502574443817139 }
 					}
 				},
 				"VehiclePaintDiffuse": { "type": "SColorRGB", "value": "#696969" },
@@ -603,8 +603,8 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
-						"position": { "x": 22.179950714111328, "y": 0.0, "z": 0.0 }
+						"rotation": { "x": -0.0, "y": 0.0, "z": -0.055952911904113965 },
+						"position": { "x": 22.177690505981445, "y": 0.3326111435890198, "z": 0.032494544982910156 }
 					}
 				},
 				"m_eidParent": { "type": "SEntityTemplateReference", "value": "949cacf59b870877", "postInit": true }
@@ -1094,7 +1094,7 @@
 						"data": [
 							[
 								0.0, 0.10000000149011612, 7.888609052210118e-31, 1.942890293094024e-15,
-								-3.885780586188048e-15, 2.4980018054066026e-15, -5.551115123125787e-16, 0.10000000149011612
+								-3.885780586188048e-15, 2.4980018054066026e-15, -5.551115123125788e-16, 0.10000000149011612
 							],
 							[1.0, 0.10000000149011612, 0.0, 0.0, 0.0, 0.0, 0.0, 0.10000000149011612]
 						]
@@ -1187,7 +1187,7 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": { "x": -0.0, "y": 0.0, "z": -180.0 },
-						"position": { "x": -41.70000076293945, "y": -107.5, "z": 4.75 }
+						"position": { "x": -41.70000076293945, "y": -131.82577514648438, "z": 4.75 }
 					}
 				},
 				"m_eidParent": { "type": "SEntityTemplateReference", "value": "630f9164460de833", "postInit": true }
@@ -3946,7 +3946,7 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
-						"position": { "x": -72.18624114990234, "y": 9.912760734558104, "z": 4.720967769622803 }
+						"position": { "x": -49.78232192993164, "y": -99.57794189453124, "z": 4.73271369934082 }
 					}
 				},
 				"m_eidParent": { "type": "SEntityTemplateReference", "value": "630f9164460de833", "postInit": true }
@@ -4367,15 +4367,15 @@
 		},
 		"ee8ab9b1844d367e": {
 			"parent": "506ea7320bdace4b",
-			"name": "backdrop_building_miami_near_d_00_04",
+			"name": "backdrop_building_miami_near_d_00_16",
 			"factory": "[assembly:/_pro/environment/templates/backdrop/buildings/backdrop_buildings_miami_a.template?/backdrop_building_miami_near_e_00.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/_pro/environment/templates/backdrop/buildings/backdrop_buildings_miami_a.template?/backdrop_building_miami_near_e_00.entitytemplate].pc_entityblueprint",
 			"properties": {
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": 90.0 },
-						"position": { "x": -388.25, "y": -70.25, "z": 5.0084638595581055 }
+						"rotation": { "x": -0.0, "y": 0.0, "z": 89.9999965849052 },
+						"position": { "x": -388.25, "y": -169.96914672851565, "z": 5.0084638595581055 }
 					}
 				},
 				"m_PrimitiveScale": {
@@ -4873,8 +4873,8 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": 90.0 },
-						"position": { "x": -61.0, "y": 559.0, "z": 4.5084638595581055 }
+						"rotation": { "x": -0.0, "y": 0.0, "z": 89.9999965849052 },
+						"position": { "x": -61.0, "y": 461.39801025390625, "z": 4.5084638595581055 }
 					}
 				},
 				"m_eidParent": { "type": "SEntityTemplateReference", "value": "630f9164460de833", "postInit": true }
@@ -5193,7 +5193,7 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": { "x": -0.0, "y": 0.0, "z": -180.0 },
-						"position": { "x": -56.242408752441406, "y": 2.4875030517578125, "z": 4.5084638595581055 }
+						"position": { "x": -52.8721923828125, "y": 3.0139427185058594, "z": 4.5084638595581055 }
 					}
 				},
 				"VehiclePaintDiffuse": { "type": "SColorRGB", "value": "#ffc400" },
@@ -6022,7 +6022,7 @@
 						"data": [
 							[
 								0.0, 0.10000000149011612, 7.888609052210118e-31, 1.942890293094024e-15,
-								-3.885780586188048e-15, 2.4980018054066026e-15, -5.551115123125787e-16, 0.10000000149011612
+								-3.885780586188048e-15, 2.4980018054066026e-15, -5.551115123125788e-16, 0.10000000149011612
 							],
 							[1.0, 0.10000000149011612, 0.0, 0.0, 0.0, 0.0, 0.0, 0.10000000149011612]
 						]
@@ -6811,8 +6811,8 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": -90.0 },
-						"position": { "x": 39.0, "y": -184.0, "z": 4.5084638595581055 }
+						"rotation": { "x": -0.0, "y": 0.0, "z": -89.9999965849052 },
+						"position": { "x": 38.42121505737305, "y": -184.0, "z": 4.5084638595581055 }
 					}
 				},
 				"m_eRoomBehaviour": { "type": "ZSpatialEntity.ERoomBehaviour", "value": "ROOM_STATIC" },
@@ -11302,7 +11302,7 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": { "x": -0.0, "y": 0.0, "z": -180.0 },
-						"position": { "x": -31.600000381469727, "y": -107.5, "z": 4.75 }
+						"position": { "x": -31.600000381469727, "y": -134.6015167236328, "z": 4.75 }
 					}
 				},
 				"m_eidParent": { "type": "SEntityTemplateReference", "value": "630f9164460de833", "postInit": true }
@@ -12106,7 +12106,7 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": { "x": -0.0, "y": 0.0, "z": -180.0 },
-						"position": { "x": -56.242408752441406, "y": 8.000215530395508, "z": 4.5084638595581055 }
+						"position": { "x": -52.938941955566406, "y": 8.623723030090332, "z": 4.508481502532959 }
 					}
 				},
 				"VehiclePaintDiffuse": { "type": "SColorRGB", "value": "#ffc400" },
@@ -12307,8 +12307,8 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": 90.0 },
-						"position": { "x": -54.63943862915039, "y": 50.5, "z": 4.7584638595581055 }
+						"rotation": { "x": -0.0, "y": 0.0, "z": 89.9999965849052 },
+						"position": { "x": -50.663089752197266, "y": -21.613439559936523, "z": 4.760324001312256 }
 					}
 				},
 				"m_eidParent": { "type": "SEntityTemplateReference", "value": "630f9164460de833", "postInit": true }
@@ -12392,8 +12392,8 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": -157.70880267153862 },
-						"position": { "x": -39.66215896606445, "y": -107.76439666748048, "z": 4.797097206115723 }
+						"rotation": { "x": -0.0, "y": 0.0, "z": -157.70879189651217 },
+						"position": { "x": -39.66215896606445, "y": -133.51815795898438, "z": 4.797097206115723 }
 					}
 				},
 				"m_PrimitiveScale": {
@@ -12857,7 +12857,7 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
-						"position": { "x": -80.79975891113281, "y": -16.26374053955078, "z": 4.8001837730407715 }
+						"position": { "x": -49.84986114501953, "y": -15.356321334838867, "z": 4.8001837730407715 }
 					}
 				},
 				"m_PrimitiveScale": {
@@ -13166,8 +13166,9 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
-						"position": { "x": -2.75, "y": 288.5, "z": 4.7584638595581055 }
+						"rotation": { "x": -0.0, "y": 0, "z": 90 },
+						"position": { "x": 192.98785, "y": -90.715744, "z": -13.391333 },
+						"scale": { "x": 0.9999999, "y": 0.9999999, "z": 1 }
 					}
 				},
 				"m_PrimitiveScale": {
@@ -13603,8 +13604,8 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": 90.0 },
-						"position": { "x": -54.47555923461914, "y": 24.75, "z": 4.7584638595581055 }
+						"rotation": { "x": -0.0, "y": 0.0, "z": 89.9999965849052 },
+						"position": { "x": -50.699710845947266, "y": 23.49289894104004, "z": 4.758443832397461 }
 					}
 				},
 				"m_eidParent": { "type": "SEntityTemplateReference", "value": "630f9164460de833", "postInit": true }
@@ -16328,8 +16329,8 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": 90.0 },
-						"position": { "x": -54.63943862915039, "y": 35.5, "z": 4.7584638595581055 }
+						"rotation": { "x": -0.0, "y": 0.0, "z": 89.9999965849052 },
+						"position": { "x": -50.68546676635742, "y": -32.39071273803711, "z": 4.7575178146362305 }
 					}
 				},
 				"m_eidParent": { "type": "SEntityTemplateReference", "value": "630f9164460de833", "postInit": true }
@@ -20291,8 +20292,8 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": -90.0 },
-						"position": { "x": -61.0, "y": 96.0, "z": 4.5084638595581055 }
+						"rotation": { "x": -0.0, "y": 0.0, "z": -89.9999965849052 },
+						"position": { "x": -61.445892333984375, "y": 96.18852996826172, "z": 4.5084638595581055 }
 					}
 				},
 				"m_eRoomBehaviour": { "type": "ZSpatialEntity.ERoomBehaviour", "value": "ROOM_STATIC" },
@@ -21044,7 +21045,7 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": { "x": -0.0, "y": 0.0, "z": -180.0 },
-						"position": { "x": -56.242408752441406, "y": -2.7624969482421875, "z": 4.5084638595581055 }
+						"position": { "x": -52.84220504760742, "y": -2.762495517730713, "z": 4.662390232086182 }
 					}
 				},
 				"VehiclePaintDiffuse": { "type": "SColorRGB", "value": "#ffc400" },
@@ -22115,8 +22116,8 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": 3.3025158805052124, "y": 0.7460116294967026, "z": -126.19000567176636 },
-						"position": { "x": -58.02865982055664, "y": 48.18170928955078, "z": 4.499998092651367 }
+						"rotation": { "x": 3.3024695545147376, "y": 0.7459904321402954, "z": -126.19000656601968 },
+						"position": { "x": -37.02865982055664, "y": 0.18170928955078125, "z": 4.499998092651367 }
 					}
 				},
 				"m_bCastShadows": { "type": "bool", "value": true },
@@ -23542,7 +23543,7 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": { "x": -0.0, "y": 0.0, "z": -180.0 },
-						"position": { "x": -56.25, "y": 39.0, "z": 4.5 }
+						"position": { "x": -53.018409729003906, "y": 39.0, "z": 4.5 }
 					}
 				},
 				"VehiclePaintDiffuse": { "type": "SColorRGB", "value": "#696969" },
@@ -25278,8 +25279,8 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": -90.0 },
-						"position": { "x": 91.5, "y": 227.25, "z": 5.0084638595581055 }
+						"rotation": { "x": -0.0, "y": 0.0, "z": -89.9999965849052 },
+						"position": { "x": 46.05492401123047, "y": 381.2994995117187, "z": 4.917627334594727 }
 					}
 				},
 				"m_PrimitiveScale": {
@@ -26369,8 +26370,8 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": 90.0 },
-						"position": { "x": -111.6613998413086, "y": -87.25, "z": 4.7584638595581055 }
+						"rotation": { "x": -0.0, "y": 0.0, "z": 89.9999965849052 },
+						"position": { "x": -111.6613998413086, "y": -131.1575927734375, "z": 4.7584638595581055 }
 					}
 				},
 				"m_PrimitiveScale": {
@@ -29353,7 +29354,7 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": { "x": -0.0, "y": 0.0, "z": -180.0 },
-						"position": { "x": -56.25, "y": 33.5, "z": 4.5084638595581055 }
+						"position": { "x": -52.79977035522461, "y": 33.5, "z": 4.5084638595581055 }
 					}
 				},
 				"VehiclePaintDiffuse": { "type": "SColorRGB", "value": "#cc4b4b" },
@@ -29633,8 +29634,8 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": -90.0 },
-						"position": { "x": -31.632999420166016, "y": -107.45249938964844, "z": 4.748626232147217 }
+						"rotation": { "x": -0.0, "y": 0.0, "z": -180.0 },
+						"position": { "x": -49.8653678894043, "y": -70.83063507080078, "z": 4.829766273498535 }
 					}
 				},
 				"m_PrimitiveScale": { "type": "SVector3", "value": { "x": 1.0, "y": 1.0, "z": 1.9299999475479128 } },
@@ -31161,8 +31162,8 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": -90.0 },
-						"position": { "x": 19.30701065063477, "y": 104.25, "z": 4.5 }
+						"rotation": { "x": -0.0, "y": 0.0, "z": -0.01978234098566587 },
+						"position": { "x": 30.20390510559082, "y": 96.63652801513672, "z": 4.498129844665527 }
 					}
 				},
 				"VehiclePaintDiffuse": { "type": "SColorRGB", "value": "#696969" },
@@ -31432,8 +31433,8 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": -90.0 },
-						"position": { "x": 39.0, "y": -463.75, "z": 4.5084638595581055 }
+						"rotation": { "x": -0.0, "y": 0.0, "z": -89.9999965849052 },
+						"position": { "x": 38.86262512207031, "y": -463.75, "z": 4.5084638595581055 }
 					}
 				},
 				"m_eRoomBehaviour": { "type": "ZSpatialEntity.ERoomBehaviour", "value": "ROOM_STATIC" },
@@ -32666,8 +32667,8 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": -90.0 },
-						"position": { "x": -110.75, "y": 323.25, "z": 4.7584638595581055 }
+						"rotation": { "x": -0.0, "y": 0.0, "z": -89.9999965849052 },
+						"position": { "x": -64.66325378417969, "y": 323.25, "z": 4.7584638595581055 }
 					}
 				},
 				"m_PrimitiveScale": {
@@ -32725,7 +32726,7 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": { "x": -0.0, "y": 0.0, "z": -180.0 },
-						"position": { "x": -72.0, "y": -9.877063751220703, "z": 4.720967769622803 }
+						"position": { "x": -50.311580657958984, "y": -84.67671966552734, "z": 4.720966815948486 }
 					}
 				},
 				"m_eidParent": { "type": "SEntityTemplateReference", "value": "630f9164460de833", "postInit": true }
@@ -33361,8 +33362,8 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": -90.0 },
-						"position": { "x": -111.0, "y": 190.25, "z": 4.7584638595581055 }
+						"rotation": { "x": -0.0, "y": 0.0, "z": 89.9999965849052 },
+						"position": { "x": -244.73040771484375, "y": -169.96914672851565, "z": 0.4084639549255371 }
 					}
 				},
 				"m_PrimitiveScale": {
@@ -33535,8 +33536,8 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": -90.0 },
-						"position": { "x": -41.632999420166016, "y": -107.45249938964844, "z": 4.748626232147217 }
+						"rotation": { "x": -0.0, "y": 0.0, "z": 0.01978234098566587 },
+						"position": { "x": -49.813575744628906, "y": -15.452499389648438, "z": 4.844533920288086 }
 					}
 				},
 				"m_PrimitiveScale": { "type": "SVector3", "value": { "x": 1.0, "y": 1.0, "z": 1.9299999475479128 } },
@@ -36323,7 +36324,7 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": { "x": -0.0, "y": 0.0, "z": -180.0 },
-						"position": { "x": -8.0, "y": -365.75, "z": 5.0084638595581055 }
+						"position": { "x": 21.50346565246582, "y": -354.336669921875, "z": 5.0084638595581055 }
 					}
 				},
 				"m_PrimitiveScale": {
@@ -38598,8 +38599,8 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": -90.0 },
-						"position": { "x": 39.0, "y": 96.0, "z": 4.5084638595581055 }
+						"rotation": { "x": -0.0, "y": 0.0, "z": -89.9999965849052 },
+						"position": { "x": 38.36250305175781, "y": 96.0, "z": 4.5084638595581055 }
 					}
 				},
 				"m_eRoomBehaviour": { "type": "ZSpatialEntity.ERoomBehaviour", "value": "ROOM_STATIC" },
@@ -40140,8 +40141,8 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": -90.0 },
-						"position": { "x": -114.0, "y": -188.0, "z": 4.7584638595581055 }
+						"rotation": { "x": -0.0, "y": 0.0, "z": -89.9999965849052 },
+						"position": { "x": -70.86772918701172, "y": -280.747802734375, "z": 4.7584638595581055 }
 					}
 				},
 				"m_PrimitiveScale": {
@@ -40184,8 +40185,8 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": 90.0 },
-						"position": { "x": -111.75, "y": 241.25, "z": 4.7584638595581055 }
+						"rotation": { "x": -0.0, "y": 0.0, "z": 89.9999965849052 },
+						"position": { "x": -112.31704711914064, "y": -200.87835693359375, "z": -4.1915364265441895 }
 					}
 				},
 				"m_PrimitiveScale": {
@@ -41759,7 +41760,7 @@
 						"data": [
 							[
 								0.0, 0.10000000149011612, 7.888609052210118e-31, 1.942890293094024e-15,
-								-3.885780586188048e-15, 2.4980018054066026e-15, -5.551115123125787e-16, 0.10000000149011612
+								-3.885780586188048e-15, 2.4980018054066026e-15, -5.551115123125788e-16, 0.10000000149011612
 							],
 							[1.0, 0.10000000149011612, 0.0, 0.0, 0.0, 0.0, 0.0, 0.10000000149011612]
 						]
@@ -42898,7 +42899,7 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": { "x": -0.0, "y": 0.0, "z": -180.0 },
-						"position": { "x": -56.0, "y": 52.75, "z": 4.5 }
+						"position": { "x": -52.760345458984375, "y": 21.57012367248535, "z": 4.500088691711426 }
 					}
 				},
 				"VehiclePaintDiffuse": { "type": "SColorRGB", "value": "#cc3939" },
@@ -43031,8 +43032,8 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": 90.0 },
-						"position": { "x": -56.0, "y": 61.25, "z": 4.7584638595581055 }
+						"rotation": { "x": -0.0, "y": 0.0, "z": 89.9999965849052 },
+						"position": { "x": -50.6198844909668, "y": 61.25, "z": 4.7584638595581055 }
 					}
 				},
 				"m_eidParent": { "type": "SEntityTemplateReference", "value": "630f9164460de833" }
@@ -43150,8 +43151,8 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": -90.0 },
-						"position": { "x": 39.0, "y": -44.0, "z": 4.5084638595581055 }
+						"rotation": { "x": -0.0, "y": 0.0, "z": -89.9999965849052 },
+						"position": { "x": 38.37867736816406, "y": -44.0, "z": 4.5084638595581055 }
 					}
 				},
 				"m_eRoomBehaviour": { "type": "ZSpatialEntity.ERoomBehaviour", "value": "ROOM_STATIC" },
@@ -44340,8 +44341,8 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": 66.14315080200777 },
-						"position": { "x": -33.86376953125, "y": -107.75859832763672, "z": 4.797097206115723 }
+						"rotation": { "x": -0.0, "y": 0.0, "z": 66.14314996198505 },
+						"position": { "x": -33.86376953125, "y": -133.933349609375, "z": 4.797097206115723 }
 					}
 				},
 				"m_PrimitiveScale": {
@@ -44812,8 +44813,8 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": -90.0 },
-						"position": { "x": -50.0, "y": -100.46839904785156, "z": 4.5 }
+						"rotation": { "x": -0.0, "y": 0.0, "z": -89.9999965849052 },
+						"position": { "x": -50.0, "y": -102.26947784423828, "z": 4.5 }
 					}
 				},
 				"m_eidParent": { "type": "SEntityTemplateReference", "value": "630f9164460de833" }
@@ -46322,8 +46323,8 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": -90.0 },
-						"position": { "x": 26.30701065063477, "y": 104.25, "z": 4.5 }
+						"rotation": { "x": -0.0, "y": 0.0, "z": 0.01978234098566587 },
+						"position": { "x": 30.105567932128903, "y": 102.84796142578124, "z": 4.671722412109375 }
 					}
 				},
 				"VehiclePaintDiffuse": { "type": "SColorRGB", "value": "#cc4b4b" },
@@ -46477,7 +46478,7 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
-						"position": { "x": -72.24163818359375, "y": 10.723750114440918, "z": 4.720967769622803 }
+						"position": { "x": -51.08818817138672, "y": -84.64498138427734, "z": 4.720803737640381 }
 					}
 				},
 				"m_eidParent": { "type": "SEntityTemplateReference", "value": "630f9164460de833" }
@@ -47032,8 +47033,8 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -9.135217486054716, "y": -9.740905589420276, "z": 91.85781862767548 },
-						"position": { "x": -56.26823043823242, "y": 17.142929077148438, "z": 4.821083068847656 }
+						"rotation": { "x": -9.135041359420034, "y": -9.741074856840292, "z": 91.8578290483113 },
+						"position": { "x": -37.26823043823242, "y": 10.142929077148438, "z": 4.821083068847656 }
 					}
 				},
 				"m_bCastShadows": { "type": "bool", "value": true },
@@ -47272,7 +47273,7 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": { "x": -0.0, "y": 0.0, "z": -180.0 },
-						"position": { "x": -56.242408752441406, "y": 13.319109916687012, "z": 4.5084638595581055 }
+						"position": { "x": -52.92456817626953, "y": 15.017556190490724, "z": 4.508485794067383 }
 					}
 				},
 				"VehiclePaintDiffuse": { "type": "SColorRGB", "value": "#ffc400" },
@@ -47839,8 +47840,8 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": 90.0 },
-						"position": { "x": 187.5, "y": -81.75, "z": 4.7584638595581055 }
+						"rotation": { "x": -0.0, "y": 0.0, "z": 89.9999965849052 },
+						"position": { "x": 192.98785400390625, "y": -90.71574401855467, "z": -8.791332244873047 }
 					}
 				},
 				"m_PrimitiveScale": { "type": "SVector3", "value": { "x": 1.0, "y": 1.0, "z": 1.0 } },
@@ -48824,8 +48825,8 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": -26.91209791064472 },
-						"position": { "x": -43.86188125610352, "y": -107.76439666748048, "z": 4.797097206115723 }
+						"rotation": { "x": -0.0, "y": 0.0, "z": -26.91209638802143 },
+						"position": { "x": -49.935340881347656, "y": -70.6485595703125, "z": 4.797097206115723 }
 					}
 				},
 				"m_PrimitiveScale": {
@@ -49750,10 +49751,115 @@
 					"type": "SMatrix43",
 					"value": {
 						"rotation": { "x": -0.0, "y": 0.0, "z": -180.0 },
-						"position": { "x": -72.0553970336914, "y": -10.236689567565918, "z": 4.720967769622803 }
+						"position": { "x": -50.55535888671875, "y": -99.68590545654295, "z": 4.799410343170166 }
 					}
 				},
 				"m_eidParent": { "type": "SEntityTemplateReference", "value": "630f9164460de833" }
+			}
+		},
+		"cafe2a827d0ade0a": {
+			"parent": "506ea7320bdace4b",
+			"name": "backdrop_building_miami_near_d_00_04",
+			"factory": "[assembly:/_pro/environment/templates/backdrop/buildings/backdrop_buildings_miami_a.template?/backdrop_building_miami_near_e_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/backdrop/buildings/backdrop_buildings_miami_a.template?/backdrop_building_miami_near_e_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": 90.0 },
+						"position": { "x": -388.25, "y": -70.25, "z": 5.0084638595581055 }
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": { "x": 0.675000011920929, "y": 0.675000011920929, "z": 0.675000011920929 }
+				},
+				"m_bRaytracingVisible": { "type": "bool", "value": false },
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "630f9164460de833", "postInit": true }
+			}
+		},
+		"cafeb0f289e349e7": {
+			"parent": "506ea7320bdace4b",
+			"name": "backdrop_building_miami_near_d_00_15",
+			"factory": "[assembly:/_pro/environment/templates/backdrop/buildings/backdrop_buildings_miami_a.template?/backdrop_building_miami_near_e_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/backdrop/buildings/backdrop_buildings_miami_a.template?/backdrop_building_miami_near_e_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": 90.0 },
+						"position": { "x": -388.25, "y": -70.25, "z": 5.0084638595581055 }
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": { "x": 0.675000011920929, "y": 0.675000011920929, "z": 0.675000011920929 }
+				},
+				"m_bRaytracingVisible": { "type": "bool", "value": false },
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "630f9164460de833", "postInit": true }
+			}
+		},
+		"cafe7658f2b1c271": {
+			"parent": "506ea7320bdace4b",
+			"name": "backdrop_building_miami_near_d_00_13",
+			"factory": "[assembly:/_pro/environment/templates/backdrop/buildings/backdrop_buildings_miami_a.template?/backdrop_building_miami_near_e_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/backdrop/buildings/backdrop_buildings_miami_a.template?/backdrop_building_miami_near_e_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": 90.0 },
+						"position": { "x": -388.25, "y": -70.25, "z": 5.0084638595581055 }
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": { "x": 0.675000011920929, "y": 0.675000011920929, "z": 0.675000011920929 }
+				},
+				"m_bRaytracingVisible": { "type": "bool", "value": false },
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "630f9164460de833", "postInit": true }
+			}
+		},
+		"cafe60641ce9ef94": {
+			"parent": "506ea7320bdace4b",
+			"name": "backdrop_building_miami_near_d_00_14",
+			"factory": "[assembly:/_pro/environment/templates/backdrop/buildings/backdrop_buildings_miami_a.template?/backdrop_building_miami_near_e_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/backdrop/buildings/backdrop_buildings_miami_a.template?/backdrop_building_miami_near_e_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": 90.0 },
+						"position": { "x": -388.25, "y": -70.25, "z": 5.0084638595581055 }
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": { "x": 0.675000011920929, "y": 0.675000011920929, "z": 0.675000011920929 }
+				},
+				"m_bRaytracingVisible": { "type": "bool", "value": false },
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "630f9164460de833", "postInit": true }
+			}
+		},
+		"cafe5a685f6968fd": {
+			"parent": "506ea7320bdace4b",
+			"name": "backdrop_building_miami_near_d_00_12",
+			"factory": "[assembly:/_pro/environment/templates/backdrop/buildings/backdrop_buildings_miami_a.template?/backdrop_building_miami_near_e_00.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/environment/templates/backdrop/buildings/backdrop_buildings_miami_a.template?/backdrop_building_miami_near_e_00.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": 90.0 },
+						"position": { "x": -388.25, "y": -70.25, "z": 5.0084638595581055 }
+					}
+				},
+				"m_PrimitiveScale": {
+					"type": "SVector3",
+					"value": { "x": 0.675000011920929, "y": 0.675000011920929, "z": 0.675000011920929 }
+				},
+				"m_bRaytracingVisible": { "type": "bool", "value": false },
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "630f9164460de833", "postInit": true }
 			}
 		}
 	},
