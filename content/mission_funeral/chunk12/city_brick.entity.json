@@ -10689,8 +10689,8 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": -90.0 },
-						"position": { "x": 39.0, "y": -324.0, "z": 4.5084638595581055 }
+						"rotation": { "x": -0.0, "y": 0.0, "z": -89.9999965849052 },
+						"position": { "x": 38.822940826416016, "y": -322.4067077636719, "z": 4.5084614753723145 }
 					}
 				},
 				"m_eRoomBehaviour": { "type": "ZSpatialEntity.ERoomBehaviour", "value": "ROOM_STATIC" },
@@ -24720,8 +24720,8 @@
 				"m_mTransform": {
 					"type": "SMatrix43",
 					"value": {
-						"rotation": { "x": -0.0, "y": 0.0, "z": -90.0 },
-						"position": { "x": -61.0, "y": -229.25, "z": 4.5084638595581055 }
+						"rotation": { "x": -0.0, "y": 0.0, "z": -89.9999965849052 },
+						"position": { "x": -61.25960922241211, "y": -229.25, "z": 4.5084638595581055 }
 					}
 				},
 				"m_eRoomBehaviour": { "type": "ZSpatialEntity.ERoomBehaviour", "value": "ROOM_STATIC" },
@@ -40124,10 +40124,10 @@
 				"Global": { "type": "bool", "value": true },
 				"ConstantVector1D_05_Value_op": { "type": "IRenderMaterialEntity.EModifierOperation", "value": "eReplace" },
 				"Specular_Multiplier_Value_op": { "type": "IRenderMaterialEntity.EModifierOperation", "value": "eReplace" },
-				"Specular_Multiplier_Value": { "type": "float32", "value": 5.0 },
+				"Specular_Multiplier_Value": { "type": "float32", "value": 1.0 },
 				"ConstantVector1D_04_Value_op": { "type": "IRenderMaterialEntity.EModifierOperation", "value": "eReplace" },
 				"ConstantVector1D_04_Value": { "type": "float32", "value": 0.0 },
-				"ConstantVector1D_05_Value": { "type": "float32", "value": 3.0 },
+				"ConstantVector1D_05_Value": { "type": "float32", "value": 1.0 },
 				"m_eidParent": { "type": "SEntityTemplateReference", "value": "fffffffffffffffe" }
 			}
 		},
