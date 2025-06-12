@@ -1,0 +1,2643 @@
+{
+	"tempHash": "00D8DFB7CB0F7BA1",
+	"tbluHash": "0086EC8099870A97",
+	"rootEntity": "fffffffffffffffe",
+	"entities": {
+		"412cdaa8b3ce8398": {
+			"parent": "ea2d69e22b157d3a",
+			"name": "Prof_Colorado_Unique",
+			"factory": "[assembly:/_pro/design/actor/profession.template?/prof_colorado_unique.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_colorado_unique.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_aHolders": { "type": "TArray<SEntityTemplateReference>", "value": ["ea2d69e22b157d3a"], "postInit": true }
+			}
+		},
+		"1d5ddd065fe199e0": {
+			"parent": "1e9e1de4f8f2392e",
+			"name": "Keyword_Prof_Class_Worker_Kitchen",
+			"factory": "000B2108B2CD26DF",
+			"blueprint": "00FABEC02BAB7A0E",
+			"properties": {
+				"m_aHolders": { "type": "TArray<SEntityTemplateReference>", "value": ["1e9e1de4f8f2392e"], "postInit": true }
+			}
+		},
+		"0378a8e27a4c36f6": {
+			"parent": "2f59b5de8643b513",
+			"name": "Colorado_Guard_MilitiaTechnician_M_HPA1091",
+			"factory": "[modules:/zglobaloutfitkit.class].pc_entitytype",
+			"blueprint": "[modules:/zglobaloutfitkit.class].pc_entityblueprint",
+			"properties": {
+				"m_DamageMultipliers": {
+					"type": "SBodyPartDamageMultipliers",
+					"value": {
+						"m_fHeadDamageMultiplier": 3.0,
+						"m_fFaceDamageMultiplier": 3.0,
+						"m_fArmDamageMultiplier": 1.0,
+						"m_fLArmDamageScalar": 0.0,
+						"m_fRArmDamageScalar": 0.0,
+						"m_fHandDamageMultiplier": 0.5,
+						"m_fLHandDamageScalar": 0.0,
+						"m_fRHandDamageScalar": 0.0,
+						"m_fLegDamageMultiplier": 0.6000000238418579,
+						"m_fLLegDamageScalar": 0.0,
+						"m_fRLegDamageScalar": 0.0,
+						"m_fTorsoDamageMultiplier": 1.0,
+						"m_bApplyLeftRightScalars": false
+					}
+				},
+				"m_bHeroDisguiseAvailable": { "type": "bool", "value": true },
+				"m_bWeaponsAllowed": { "type": "bool", "value": true },
+				"m_eSoundFootwearType": { "type": "EHM5SoundFootwearType", "value": "EFWT_BOOTS" },
+				"m_sId": { "type": "ZGuid", "value": "143c62fc-4bf6-474a-9542-1e81bf93a044" },
+				"m_pParentOutfit": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "958ef354a73d986e",
+						"externalScene": "[assembly:/_pro/scenes/bricks/globaldata.brick].pc_entitytype"
+					}
+				},
+				"m_sCommonName": { "type": "ZString", "value": "Colorado_Guard_MilitiaTechnician_M_HPA1091" },
+				"m_sTitle": { "type": "ZString", "value": "Militia Technician" },
+				"m_eOutfitAICategory": { "type": "EOutfitAICategory", "value": "OAC_Soldier" },
+				"m_rNameTextResource": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/localization/hitman6/conversations/ui/pro/online/repository/outfits_npcs_colorado.sweetmenutext?/outfits_colorado_guard_militiatechnician_m_hpa1091_name_143c62fc-4bf6-474a-9542-1e81bf93a044.sweetline].pc_sweetline",
+						"flag": "5F"
+					}
+				},
+				"m_rDescriptionTextResource": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/localization/hitman6/conversations/ui/pro/online/repository/outfits_npcs_colorado.sweetmenutext?/outfits_colorado_guard_militiatechnician_m_hpa1091_description_143c62fc-4bf6-474a-9542-1e81bf93a044.sweetline].pc_sweetline",
+						"flag": "5F"
+					}
+				},
+				"m_rDefaultVoiceVariations": {
+					"type": "TArray<EActorVoiceVariation>",
+					"value": ["eAVV_BDYGRD04", "eAVV_BDYGRD01", "eAVV_BDYGRD02", "eAVV_BDYGRD03"]
+				},
+				"m_aCharSets": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["e7836065d421e54d"],
+					"postInit": true
+				},
+				"m_AvailableWeaponKeys": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["68853e5126bd41e6", "b3fcdd0fb5fa7d38", "edfc456a42217749", "1ab3af8563248784"],
+					"postInit": true
+				},
+				"m_AvailableGrenadeKeys": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["1c768457430a034e"],
+					"postInit": true
+				},
+				"m_aWeaponsAllowedExceptionKeywords": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["bcf1c7b721b5a09f"],
+					"postInit": true
+				}
+			}
+		},
+		"29623cb40bdc3ad3": {
+			"parent": "e336cf8f98952f3f",
+			"name": "ItemKey_Shotgun01 NPC",
+			"factory": "[modules:/zitemrepositorykeyentity.class].pc_entitytype",
+			"blueprint": "[modules:/zitemrepositorykeyentity.class].pc_entityblueprint",
+			"properties": { "m_RepositoryId": { "type": "ZGuid", "value": "901a3b51-51a0-4236-bdf2-23d20696b358" } }
+		},
+		"76c63114cb2805a2": {
+			"parent": "601c322657ff6950",
+			"name": "Keyword_Prof_Class_Default",
+			"factory": "007A51A2AFEC0D1A",
+			"blueprint": "00B0282A41C1CF2E",
+			"properties": {
+				"m_aHolders": { "type": "TArray<SEntityTemplateReference>", "value": ["601c322657ff6950"], "postInit": true }
+			}
+		},
+		"b98a3a648e5a884c": {
+			"parent": "cb4aa5072abede33",
+			"name": "Colorado_Bull",
+			"factory": "[modules:/zentity.class].pc_entitytype",
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
+		},
+		"1a80b9a6d30d7577": {
+			"parent": "41ed462dcf3ec7d0",
+			"name": "KeywordEntity_FOLEY_OUTFIT_ARMYVEST",
+			"factory": "[assembly:/_pro/design/gamecore/keywords/keywordsound.template?/keywordentity_foley_outfit_armyvest.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/gamecore/keywords/keywordsound.template?/keywordentity_foley_outfit_armyvest.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_aHolders": { "type": "TArray<SEntityTemplateReference>", "value": ["41ed462dcf3ec7d0"], "postInit": true }
+			}
+		},
+		"77d54833d8cbb618": {
+			"parent": "34e88a9981424177",
+			"name": "CHARSET_MilitiaElite_M",
+			"factory": "[assembly:/_pro/characters/templates/colorado/char_colorado_guards.template?/charset_militiaelite_m.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/characters/templates/colorado/char_colorado_guards.template?/charset_militiaelite_m.entitytemplate].pc_entityblueprint"
+		},
+		"684560a797d4a8f2": {
+			"parent": "e336cf8f98952f3f",
+			"name": "ItemKey_AssaultRifle03 NPC Shooting Range version01",
+			"factory": "[modules:/zitemrepositorykeyentity.class].pc_entitytype",
+			"blueprint": "[modules:/zitemrepositorykeyentity.class].pc_entityblueprint",
+			"properties": { "m_RepositoryId": { "type": "ZGuid", "value": "6b93848c-8f1d-42eb-816f-bab61b56d8a5" } }
+		},
+		"1a853bf92af606b0": {
+			"parent": "5633d5827dde2784",
+			"name": "Prof_Colorado_Unique_MayaParvati",
+			"factory": "[assembly:/_pro/design/actor/profession.template?/prof_colorado_unique_mayaparvati.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_colorado_unique_mayaparvati.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_aHolders": { "type": "TArray<SEntityTemplateReference>", "value": ["5633d5827dde2784"], "postInit": true }
+			}
+		},
+		"1892dc67e787055a": {
+			"parent": "41ed462dcf3ec7d0",
+			"name": "Prof_Colorado_Guard",
+			"factory": "[assembly:/_pro/design/actor/profession.template?/prof_colorado_guard.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_colorado_guard.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_aHolders": { "type": "TArray<SEntityTemplateReference>", "value": ["41ed462dcf3ec7d0"], "postInit": true }
+			}
+		},
+		"82dd60aa21591e55": {
+			"parent": "34e88a9981424177",
+			"name": "Prof_Colorado_MilitiaElite",
+			"factory": "[assembly:/_pro/design/actor/profession.template?/prof_colorado_militiaelite.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_colorado_militiaelite.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_aHolders": { "type": "TArray<SEntityTemplateReference>", "value": ["34e88a9981424177"], "postInit": true }
+			}
+		},
+		"8146feab7da46f0e": {
+			"parent": "2f59b5de8643b513",
+			"name": "Colorado_Unique_Scarecrow_M_HPA2139",
+			"factory": "[modules:/zglobaloutfitkit.class].pc_entitytype",
+			"blueprint": "[modules:/zglobaloutfitkit.class].pc_entityblueprint",
+			"properties": {
+				"m_DamageMultipliers": {
+					"type": "SBodyPartDamageMultipliers",
+					"value": {
+						"m_fHeadDamageMultiplier": 3.0,
+						"m_fFaceDamageMultiplier": 3.0,
+						"m_fArmDamageMultiplier": 1.0,
+						"m_fLArmDamageScalar": 0.0,
+						"m_fRArmDamageScalar": 0.0,
+						"m_fHandDamageMultiplier": 0.5,
+						"m_fLHandDamageScalar": 0.0,
+						"m_fRHandDamageScalar": 0.0,
+						"m_fLegDamageMultiplier": 0.6000000238418579,
+						"m_fLLegDamageScalar": 0.0,
+						"m_fRLegDamageScalar": 0.0,
+						"m_fTorsoDamageMultiplier": 1.0,
+						"m_bApplyLeftRightScalars": false
+					}
+				},
+				"m_eActorType": { "type": "EActorType", "value": "eAT_Civilian" },
+				"m_eActorCCClass": { "type": "EActorCCPreset", "value": "ACCP_CivilianeMale" },
+				"m_bHeroDisguiseAvailable": { "type": "bool", "value": true },
+				"m_eSoundFootwearType": { "type": "EHM5SoundFootwearType", "value": "EFWT_RUBBER_BOOTS" },
+				"m_sId": { "type": "ZGuid", "value": "fd5d2b9d-dcef-4596-a98a-5266a148c40c" },
+				"m_pParentOutfit": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "6736fcbbd3e73209",
+						"externalScene": "[assembly:/_pro/scenes/bricks/globaldata.brick].pc_entitytype"
+					}
+				},
+				"m_sCommonName": { "type": "ZString", "value": "Colorado_Unique_Scarecrow_M_HPA2139" },
+				"m_sTitle": { "type": "ZString", "value": "Scarecrow" },
+				"m_rNameTextResource": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/localization/hitman6/conversations/ui/pro/online/repository/outfits_npcs_colorado.sweetmenutext?/outfits_colorado_unique_scarecrow_m_hpa2139_name_fd5d2b9d-dcef-4596-a98a-5266a148c40c.sweetline].pc_sweetline",
+						"flag": "5F"
+					}
+				},
+				"m_rDescriptionTextResource": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/localization/hitman6/conversations/ui/pro/online/repository/outfits_npcs_colorado.sweetmenutext?/outfits_colorado_unique_scarecrow_m_hpa2139_description_fd5d2b9d-dcef-4596-a98a-5266a148c40c.sweetline].pc_sweetline",
+						"flag": "5F"
+					}
+				},
+				"m_bCanCallForHelp": { "type": "bool", "value": false },
+				"m_eOutfitAICategory": { "type": "EOutfitAICategory", "value": "OAC_Scarecrow" },
+				"m_aCharSets": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["05ba8e09e6558766"],
+					"postInit": true
+				}
+			}
+		},
+		"3171247e644a489c": {
+			"parent": "17e8233dc7740619",
+			"name": "ItemKey_Pistol01 NPC",
+			"factory": "[modules:/zitemrepositorykeyentity.class].pc_entitytype",
+			"blueprint": "[modules:/zitemrepositorykeyentity.class].pc_entityblueprint",
+			"properties": { "m_RepositoryId": { "type": "ZGuid", "value": "55ed7196-2303-4af6-9fa3-45b691134561" } }
+		},
+		"87bc8ae44faf17e7": {
+			"parent": "e336cf8f98952f3f",
+			"name": "ItemKey__Grenade_ Flash",
+			"factory": "[modules:/zitemrepositorykeyentity.class].pc_entitytype",
+			"blueprint": "[modules:/zitemrepositorykeyentity.class].pc_entityblueprint",
+			"properties": { "m_RepositoryId": { "type": "ZGuid", "value": "042fae7b-fe9e-4a83-ac7b-5c914a71b2ca" } }
+		},
+		"38f269508d0fd44b": {
+			"parent": "601c322657ff6950",
+			"name": "Prof_Colorado_DemoMan",
+			"factory": "[assembly:/_pro/design/actor/profession.template?/prof_colorado_demoman.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_colorado_demoman.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_aHolders": { "type": "TArray<SEntityTemplateReference>", "value": ["601c322657ff6950"], "postInit": true }
+			}
+		},
+		"22c8e757eaa1ed4e": {
+			"parent": "34e88a9981424177",
+			"name": "Prof_Colorado",
+			"factory": "[assembly:/_pro/design/actor/profession.template?/prof_colorado.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_colorado.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_aHolders": { "type": "TArray<SEntityTemplateReference>", "value": ["34e88a9981424177"], "postInit": true }
+			}
+		},
+		"15aefa89cfe7c109": {
+			"parent": "34e88a9981424177",
+			"name": "KeywordEntity_FOLEY_OUTFIT_ARMYVEST",
+			"factory": "[assembly:/_pro/design/gamecore/keywords/keywordsound.template?/keywordentity_foley_outfit_armyvest.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/gamecore/keywords/keywordsound.template?/keywordentity_foley_outfit_armyvest.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_rHolder": { "type": "SEntityTemplateReference", "value": "34e88a9981424177", "postInit": true }
+			}
+		},
+		"ade9b170f8a68799": {
+			"parent": "8146feab7da46f0e",
+			"name": "Keyword_Prof_Class_Default",
+			"factory": "007A51A2AFEC0D1A",
+			"blueprint": "00B0282A41C1CF2E",
+			"properties": { "m_aHolders": { "type": "TArray<SEntityTemplateReference>", "value": ["8146feab7da46f0e"] } }
+		},
+		"7274bc62a754a5f1": {
+			"parent": "1acef4ad13b81f68",
+			"name": "Keyword_FOLEY_OUTFIT_CIV_CLOTH_LIGHT",
+			"factory": "[assembly:/_pro/design/gamecore/keywords/keywordsound.template?/keyword_foley_outfit_civ_cloth_light.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/gamecore/keywords/keywordsound.template?/keyword_foley_outfit_civ_cloth_light.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_rHolder": { "type": "SEntityTemplateReference", "value": "1acef4ad13b81f68", "postInit": true }
+			}
+		},
+		"89bb220004c63e48": {
+			"parent": "e336cf8f98952f3f",
+			"name": "ItemKey_AssaultRifle01 NPC",
+			"factory": "[modules:/zitemrepositorykeyentity.class].pc_entitytype",
+			"blueprint": "[modules:/zitemrepositorykeyentity.class].pc_entityblueprint",
+			"properties": { "m_RepositoryId": { "type": "ZGuid", "value": "d8aa6eba-0cb7-4ed4-ab99-975f2793d731" } }
+		},
+		"d99e266ae4a292d0": {
+			"parent": "0378a8e27a4c36f6",
+			"name": "Keyword_FOLEY_VR_OUTFIT_CLOTHGLOVES",
+			"factory": "[assembly:/_pro/design/gamecore/keywords/keywordsound.template?/keyword_foley_vr_outfit_clothgloves.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/gamecore/keywords/keywordsound.template?/keyword_foley_vr_outfit_clothgloves.entitytemplate].pc_entityblueprint",
+			"properties": { "m_rHolder": { "type": "SEntityTemplateReference", "value": "0378a8e27a4c36f6" } }
+		},
+		"02cef5208fbfc859": {
+			"parent": "182c5a67722bf829",
+			"name": "Keyword_FOLEY_OUTFIT_WORKER_CLOTH_LIGHT",
+			"factory": "[assembly:/_pro/design/gamecore/keywords/keywordsound.template?/keyword_foley_outfit_worker_cloth_light.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/gamecore/keywords/keywordsound.template?/keyword_foley_outfit_worker_cloth_light.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_rHolder": { "type": "SEntityTemplateReference", "value": "182c5a67722bf829", "postInit": true }
+			}
+		},
+		"41ed462dcf3ec7d0": {
+			"parent": "2f59b5de8643b513",
+			"name": "Colorado_Guard_MilitiaBasic_M_HPA1092",
+			"factory": "[modules:/zglobaloutfitkit.class].pc_entitytype",
+			"blueprint": "[modules:/zglobaloutfitkit.class].pc_entityblueprint",
+			"properties": {
+				"m_DamageMultipliers": {
+					"type": "SBodyPartDamageMultipliers",
+					"value": {
+						"m_fHeadDamageMultiplier": 3.0,
+						"m_fFaceDamageMultiplier": 3.0,
+						"m_fArmDamageMultiplier": 1.0,
+						"m_fLArmDamageScalar": 0.0,
+						"m_fRArmDamageScalar": 0.0,
+						"m_fHandDamageMultiplier": 0.5,
+						"m_fLHandDamageScalar": 0.0,
+						"m_fRHandDamageScalar": 0.0,
+						"m_fLegDamageMultiplier": 0.6000000238418579,
+						"m_fLLegDamageScalar": 0.0,
+						"m_fRLegDamageScalar": 0.0,
+						"m_fTorsoDamageMultiplier": 1.0,
+						"m_bApplyLeftRightScalars": false
+					}
+				},
+				"m_bHeroDisguiseAvailable": { "type": "bool", "value": true },
+				"m_bWeaponsAllowed": { "type": "bool", "value": true },
+				"m_eSoundFootwearType": { "type": "EHM5SoundFootwearType", "value": "EFWT_BOOTS" },
+				"m_sId": { "type": "ZGuid", "value": "3dd1467a-72d2-4590-93d8-10807c9f1645" },
+				"m_pParentOutfit": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "958ef354a73d986e",
+						"externalScene": "[assembly:/_pro/scenes/bricks/globaldata.brick].pc_entitytype"
+					}
+				},
+				"m_sCommonName": { "type": "ZString", "value": "Colorado_Guard_MilitiaBasic_M_HPA1092" },
+				"m_sTitle": { "type": "ZString", "value": "Militia Basic" },
+				"m_eOutfitAICategory": { "type": "EOutfitAICategory", "value": "OAC_Security" },
+				"m_rNameTextResource": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/localization/hitman6/conversations/ui/pro/online/repository/outfits_npcs_colorado.sweetmenutext?/outfits_colorado_guard_militiabasic_m_hpa1092_name_3dd1467a-72d2-4590-93d8-10807c9f1645.sweetline].pc_sweetline",
+						"flag": "5F"
+					}
+				},
+				"m_rDescriptionTextResource": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/localization/hitman6/conversations/ui/pro/online/repository/outfits_npcs_colorado.sweetmenutext?/outfits_colorado_guard_militiabasic_m_hpa1092_description_3dd1467a-72d2-4590-93d8-10807c9f1645.sweetline].pc_sweetline",
+						"flag": "5F"
+					}
+				},
+				"m_rDefaultVoiceVariations": {
+					"type": "TArray<EActorVoiceVariation>",
+					"value": ["eAVV_BDYGRD04", "eAVV_BDYGRD01", "eAVV_BDYGRD02", "eAVV_BDYGRD03"]
+				},
+				"m_aCharSets": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["a5f9661e13ef29eb"],
+					"postInit": true
+				},
+				"m_AvailableWeaponKeys": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						"86aad896b3160201",
+						"fc7f817683aa989f",
+						"bb48612ae93967b5",
+						"605c414a6a5165e5",
+						"53ccab11e33a86bb"
+					],
+					"postInit": true
+				},
+				"m_AvailableGrenadeKeys": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["ea387a0695d6c1f8"],
+					"postInit": true
+				},
+				"m_aWeaponsAllowedExceptionKeywords": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["f5a5128b3f72125f"],
+					"postInit": true
+				}
+			}
+		},
+		"979bb1e9cd135600": {
+			"parent": "1e9e1de4f8f2392e",
+			"name": "Prof_Colorado",
+			"factory": "[assembly:/_pro/design/actor/profession.template?/prof_colorado.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_colorado.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_aHolders": { "type": "TArray<SEntityTemplateReference>", "value": ["1e9e1de4f8f2392e"], "postInit": true }
+			}
+		},
+		"77562008351eaf03": {
+			"parent": "34e88a9981424177",
+			"name": "Keyword_Prof_Class_Guard_Heavy",
+			"factory": "00364659808ED13C",
+			"blueprint": "003A7D4D8810414B",
+			"properties": {
+				"m_aHolders": { "type": "TArray<SEntityTemplateReference>", "value": ["34e88a9981424177"], "postInit": true }
+			}
+		},
+		"7bddc6799fbaf890": {
+			"parent": "5633d5827dde2784",
+			"name": "Keyword_DIALOGUE_NPC_PARVATI",
+			"factory": "[assembly:/_pro/design/gamecore/keywords/keywordaidialogue.template?/keyword_dialogue_npc_parvati.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/gamecore/keywords/keywordaidialogue.template?/keyword_dialogue_npc_parvati.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_aHolders": { "type": "TArray<SEntityTemplateReference>", "value": [] },
+				"m_rHolder": { "type": "SEntityTemplateReference", "value": "5633d5827dde2784", "postInit": true }
+			}
+		},
+		"55896d91b75af645": {
+			"parent": "0378a8e27a4c36f6",
+			"name": "Keyword_Prof_Class_Default",
+			"factory": "007A51A2AFEC0D1A",
+			"blueprint": "00B0282A41C1CF2E",
+			"properties": { "m_aHolders": { "type": "TArray<SEntityTemplateReference>", "value": ["0378a8e27a4c36f6"] } }
+		},
+		"e284484fd26a4e0f": {
+			"parent": "17e8233dc7740619",
+			"name": "Prof_Colorado_Unique",
+			"factory": "[assembly:/_pro/design/actor/profession.template?/prof_colorado_unique.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_colorado_unique.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_aHolders": { "type": "TArray<SEntityTemplateReference>", "value": ["17e8233dc7740619"], "postInit": true }
+			}
+		},
+		"415d33d4ff39db72": {
+			"parent": "1acef4ad13b81f68",
+			"name": "Prof_Colorado_Unique_Hostage",
+			"factory": "[assembly:/_pro/design/actor/profession.template?/prof_colorado_unique_hostage.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_colorado_unique_hostage.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_aHolders": { "type": "TArray<SEntityTemplateReference>", "value": ["1acef4ad13b81f68"], "postInit": true }
+			}
+		},
+		"c83f23556154f68b": {
+			"parent": "601c322657ff6950",
+			"name": "Prof_Colorado",
+			"factory": "[assembly:/_pro/design/actor/profession.template?/prof_colorado.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_colorado.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_aHolders": { "type": "TArray<SEntityTemplateReference>", "value": ["601c322657ff6950"], "postInit": true }
+			}
+		},
+		"6253d51c4b87567b": {
+			"parent": "97a8221f5dd1b5b0",
+			"name": "Prof_Colorado_Unique",
+			"factory": "[assembly:/_pro/design/actor/profession.template?/prof_colorado_unique.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_colorado_unique.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_aHolders": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["1acef4ad13b81f68", "97a8221f5dd1b5b0"],
+					"postInit": true
+				}
+			}
+		},
+		"4ac903d32e71f5d1": {
+			"parent": "182c5a67722bf829",
+			"name": "CHARSET_Hacker_M",
+			"factory": "[assembly:/_pro/characters/templates/colorado/char_colorado_workers.template?/charset_hacker_m.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/characters/templates/colorado/char_colorado_workers.template?/charset_hacker_m.entitytemplate].pc_entityblueprint"
+		},
+		"601c322657ff6950": {
+			"parent": "2f59b5de8643b513",
+			"name": "Colorado_Guard_MilitiaDemoMan_M_HPA2422",
+			"factory": "[modules:/zglobaloutfitkit.class].pc_entitytype",
+			"blueprint": "[modules:/zglobaloutfitkit.class].pc_entityblueprint",
+			"properties": {
+				"m_DamageMultipliers": {
+					"type": "SBodyPartDamageMultipliers",
+					"value": {
+						"m_fHeadDamageMultiplier": 3.0,
+						"m_fFaceDamageMultiplier": 3.0,
+						"m_fArmDamageMultiplier": 1.0,
+						"m_fLArmDamageScalar": 0.0,
+						"m_fRArmDamageScalar": 0.0,
+						"m_fHandDamageMultiplier": 0.5,
+						"m_fLHandDamageScalar": 0.0,
+						"m_fRHandDamageScalar": 0.0,
+						"m_fLegDamageMultiplier": 0.6000000238418579,
+						"m_fLLegDamageScalar": 0.0,
+						"m_fRLegDamageScalar": 0.0,
+						"m_fTorsoDamageMultiplier": 1.0,
+						"m_bApplyLeftRightScalars": false
+					}
+				},
+				"m_bHeroDisguiseAvailable": { "type": "bool", "value": true },
+				"m_bWeaponsAllowed": { "type": "bool", "value": true },
+				"m_eSoundFootwearType": { "type": "EHM5SoundFootwearType", "value": "EFWT_BOOTS" },
+				"m_sId": { "type": "ZGuid", "value": "59c4f7db-f065-4fac-bc6c-5c7ac3758eed" },
+				"m_pParentOutfit": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "958ef354a73d986e",
+						"externalScene": "[assembly:/_pro/scenes/bricks/globaldata.brick].pc_entitytype"
+					}
+				},
+				"m_sCommonName": { "type": "ZString", "value": "Colorado_Guard_MilitiaDeMoman_M_HPA2422" },
+				"m_sTitle": { "type": "ZString", "value": "Militia Demolition Man" },
+				"m_eOutfitAICategory": { "type": "EOutfitAICategory", "value": "OAC_SpecOps" },
+				"m_rNameTextResource": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/localization/hitman6/conversations/ui/pro/online/repository/outfits_npcs_colorado.sweetmenutext?/outfits_colorado_guard_militiademoman_m_hpa2422_name_59c4f7db-f065-4fac-bc6c-5c7ac3758eed.sweetline].pc_sweetline",
+						"flag": "5F"
+					}
+				},
+				"m_rDescriptionTextResource": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/localization/hitman6/conversations/ui/pro/online/repository/outfits_npcs_colorado.sweetmenutext?/outfits_colorado_guard_militiademoman_m_hpa2422_description_59c4f7db-f065-4fac-bc6c-5c7ac3758eed.sweetline].pc_sweetline",
+						"flag": "5F"
+					}
+				},
+				"m_rDefaultVoiceVariations": {
+					"type": "TArray<EActorVoiceVariation>",
+					"value": ["eAVV_SPECOPS01", "eAVV_SPECOPS02", "eAVV_SPECOPS03"]
+				},
+				"m_aCharSets": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["3210d45ffb026fe0"],
+					"postInit": true
+				},
+				"m_AvailableWeaponKeys": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["8a92d7dffb570c2f", "905357ac1fc697ff", "aba81a83bec4e161", "ca57e7928800eef6"],
+					"postInit": true
+				},
+				"m_AvailableGrenadeKeys": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["d5b2dca2d7da72d7"],
+					"postInit": true
+				},
+				"m_aWeaponsAllowedExceptionKeywords": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["693cb2c442fc29ab"],
+					"postInit": true
+				}
+			}
+		},
+		"a031f2a4fc3d755b": {
+			"parent": "1e9e1de4f8f2392e",
+			"name": "ItemKey__Grenade_ Flash",
+			"factory": "[modules:/zitemrepositorykeyentity.class].pc_entitytype",
+			"blueprint": "[modules:/zitemrepositorykeyentity.class].pc_entityblueprint",
+			"properties": { "m_RepositoryId": { "type": "ZGuid", "value": "17164a76-09ce-4a49-8314-3b2c49cb96bb" } }
+		},
+		"5633d5827dde2784": {
+			"parent": "2f59b5de8643b513",
+			"name": "Colorado_Unique_MayaParvati_F_HPA2137",
+			"factory": "[modules:/zglobaloutfitkit.class].pc_entitytype",
+			"blueprint": "[modules:/zglobaloutfitkit.class].pc_entityblueprint",
+			"properties": {
+				"m_DamageMultipliers": {
+					"type": "SBodyPartDamageMultipliers",
+					"value": {
+						"m_fHeadDamageMultiplier": 3.0,
+						"m_fFaceDamageMultiplier": 3.0,
+						"m_fArmDamageMultiplier": 1.0,
+						"m_fLArmDamageScalar": 1.000000013351432e-10,
+						"m_fRArmDamageScalar": 1.0,
+						"m_fHandDamageMultiplier": 0.5,
+						"m_fLHandDamageScalar": 1.000000013351432e-10,
+						"m_fRHandDamageScalar": 1.0,
+						"m_fLegDamageMultiplier": 0.6000000238418579,
+						"m_fLLegDamageScalar": 1.0,
+						"m_fRLegDamageScalar": 1.0,
+						"m_fTorsoDamageMultiplier": 1.0,
+						"m_bApplyLeftRightScalars": true
+					}
+				},
+				"m_eActorType": { "type": "EActorType", "value": "eAT_Civilian" },
+				"m_bIsFemale": { "type": "bool", "value": true },
+				"m_eActorCCClass": { "type": "EActorCCPreset", "value": "ACCP_CivilianFemale" },
+				"m_bHeroDisguiseAvailable": { "type": "bool", "value": false },
+				"m_eSoundFootwearType": { "type": "EHM5SoundFootwearType", "value": "EFWT_RUBBER_BOOTS" },
+				"m_sId": { "type": "ZGuid", "value": "aac89488-f310-464c-b2cb-32f9f125dd07" },
+				"m_pParentOutfit": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "f76365f15c816405",
+						"externalScene": "[assembly:/_pro/scenes/bricks/globaldata.brick].pc_entitytype"
+					}
+				},
+				"m_sCommonName": { "type": "ZString", "value": "Colorado_Unique_MayaParvati_F_HPA2137" },
+				"m_sTitle": { "type": "ZString", "value": "Maya Parvati" },
+				"m_rNameTextResource": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/localization/hitman6/conversations/ui/pro/online/repository/outfits_npcs_colorado.sweetmenutext?/outfits_colorado_unique_mayaparvati_f_hpa2137_name_aac89488-f310-464c-b2cb-32f9f125dd07.sweetline].pc_sweetline",
+						"flag": "5F"
+					}
+				},
+				"m_rDescriptionTextResource": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/localization/hitman6/conversations/ui/pro/online/repository/outfits_npcs_colorado.sweetmenutext?/outfits_colorado_unique_mayaparvati_f_hpa2137_description_aac89488-f310-464c-b2cb-32f9f125dd07.sweetline].pc_sweetline",
+						"flag": "5F"
+					}
+				},
+				"m_rDefaultVoiceVariations": { "type": "TArray<EActorVoiceVariation>", "value": ["eAVV_PARVATI"] },
+				"m_aCharSets": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["2dd6ffd8f06f9208"],
+					"postInit": true
+				},
+				"m_aAnimationSets": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["5dc63230dac8f476"],
+					"postInit": true
+				}
+			}
+		},
+		"605c414a6a5165e5": {
+			"parent": "41ed462dcf3ec7d0",
+			"name": "ItemKey_AssaultRifle02 NPC",
+			"factory": "[modules:/zitemrepositorykeyentity.class].pc_entitytype",
+			"blueprint": "[modules:/zitemrepositorykeyentity.class].pc_entityblueprint",
+			"properties": { "m_RepositoryId": { "type": "ZGuid", "value": "16edb112-58cc-4069-a7dd-ebd258b14044" } }
+		},
+		"8f13bd4ceb53642c": {
+			"parent": "1e9e1de4f8f2392e",
+			"name": "Keyword_FOLEY_OUTFIT_WORKER_CLOTH_HEAVY",
+			"factory": "[assembly:/_pro/design/gamecore/keywords/keywordsound.template?/keyword_foley_outfit_worker_cloth_heavy.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/gamecore/keywords/keywordsound.template?/keyword_foley_outfit_worker_cloth_heavy.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_aHolders": { "type": "TArray<SEntityTemplateReference>", "value": ["1e9e1de4f8f2392e"], "postInit": true }
+			}
+		},
+		"b3fcdd0fb5fa7d38": {
+			"parent": "0378a8e27a4c36f6",
+			"name": "ItemKey_SMG02 NPC Shaurya",
+			"factory": "[modules:/zitemrepositorykeyentity.class].pc_entitytype",
+			"blueprint": "[modules:/zitemrepositorykeyentity.class].pc_entityblueprint",
+			"properties": { "m_RepositoryId": { "type": "ZGuid", "value": "3fd9825d-8aa5-48e0-97a9-ec8f541f871a" } }
+		},
+		"693cb2c442fc29ab": {
+			"parent": "601c322657ff6950",
+			"name": "Keyword_ITEM_SNIPER_RIFLE",
+			"factory": "[assembly:/_pro/design/gamecore/keywords/keyworditems.template?/keyword_item_sniper_rifle.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/gamecore/keywords/keyworditems.template?/keyword_item_sniper_rifle.entitytemplate].pc_entityblueprint"
+		},
+		"eda8e285dcee39f8": {
+			"parent": "e336cf8f98952f3f",
+			"name": "ItemKey_SMG01 NPC",
+			"factory": "[modules:/zitemrepositorykeyentity.class].pc_entitytype",
+			"blueprint": "[modules:/zitemrepositorykeyentity.class].pc_entityblueprint",
+			"properties": { "m_RepositoryId": { "type": "ZGuid", "value": "e206ed81-0559-4289-9fec-e6a3e9d4ee7c" } }
+		},
+		"34e88a9981424177": {
+			"parent": "2f59b5de8643b513",
+			"name": "Colorado_Guard_MilitiaElite_M_HPA1096",
+			"factory": "[modules:/zglobaloutfitkit.class].pc_entitytype",
+			"blueprint": "[modules:/zglobaloutfitkit.class].pc_entityblueprint",
+			"properties": {
+				"m_DamageMultipliers": {
+					"type": "SBodyPartDamageMultipliers",
+					"value": {
+						"m_fHeadDamageMultiplier": 3.0,
+						"m_fFaceDamageMultiplier": 3.0,
+						"m_fArmDamageMultiplier": 1.0,
+						"m_fLArmDamageScalar": 0.0,
+						"m_fRArmDamageScalar": 0.0,
+						"m_fHandDamageMultiplier": 0.5,
+						"m_fLHandDamageScalar": 0.0,
+						"m_fRHandDamageScalar": 0.0,
+						"m_fLegDamageMultiplier": 0.6000000238418579,
+						"m_fLLegDamageScalar": 0.0,
+						"m_fRLegDamageScalar": 0.0,
+						"m_fTorsoDamageMultiplier": 1.0,
+						"m_bApplyLeftRightScalars": false
+					}
+				},
+				"m_bHeroDisguiseAvailable": { "type": "bool", "value": true },
+				"m_bWeaponsAllowed": { "type": "bool", "value": true },
+				"m_eSoundFootwearType": { "type": "EHM5SoundFootwearType", "value": "EFWT_BOOTS" },
+				"m_aCharSets": { "type": "TArray<SEntityTemplateReference>", "value": ["77d54833d8cbb618"] },
+				"m_sId": { "type": "ZGuid", "value": "d878b5ee-90cd-4222-8503-1e9ae193d556" },
+				"m_pParentOutfit": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "958ef354a73d986e",
+						"externalScene": "[assembly:/_pro/scenes/bricks/globaldata.brick].pc_entitytype"
+					}
+				},
+				"m_sCommonName": { "type": "ZString", "value": "Colorado_Guard_MilitiaElite_M_HPA1096" },
+				"m_sTitle": { "type": "ZString", "value": "Militia Elite" },
+				"m_eOutfitAICategory": { "type": "EOutfitAICategory", "value": "OAC_Soldier" },
+				"m_rNameTextResource": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/localization/hitman6/conversations/ui/pro/online/repository/outfits_npcs_colorado.sweetmenutext?/outfits_colorado_guard_militiaelite_m_hpa1096_name_d878b5ee-90cd-4222-8503-1e9ae193d556.sweetline].pc_sweetline",
+						"flag": "5F"
+					}
+				},
+				"m_rDescriptionTextResource": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/localization/hitman6/conversations/ui/pro/online/repository/outfits_npcs_colorado.sweetmenutext?/outfits_colorado_guard_militiaelite_m_hpa1096_description_d878b5ee-90cd-4222-8503-1e9ae193d556.sweetline].pc_sweetline",
+						"flag": "5F"
+					}
+				},
+				"m_rDefaultVoiceVariations": {
+					"type": "TArray<EActorVoiceVariation>",
+					"value": ["eAVV_SPECOPS01", "eAVV_SPECOPS02", "eAVV_SPECOPS03", "eAVV_BDYGRD04"]
+				},
+				"m_AvailableWeaponKeys": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["5e995526ac287658", "b7630483c8fa5705", "6c54bb932abc6102", "e4910a5946d5be8b"],
+					"postInit": true
+				},
+				"m_AvailableGrenadeKeys": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["fda6cc01bca76524"],
+					"postInit": true
+				},
+				"m_aWeaponsAllowedExceptionKeywords": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["9cb375c6ba718114"],
+					"postInit": true
+				}
+			}
+		},
+		"ea2d69e22b157d3a": {
+			"parent": "2f59b5de8643b513",
+			"name": "Colorado_Unique_EzraBerg_M_HPA2136",
+			"factory": "[modules:/zglobaloutfitkit.class].pc_entitytype",
+			"blueprint": "[modules:/zglobaloutfitkit.class].pc_entityblueprint",
+			"properties": {
+				"m_DamageMultipliers": {
+					"type": "SBodyPartDamageMultipliers",
+					"value": {
+						"m_fHeadDamageMultiplier": 3.0,
+						"m_fFaceDamageMultiplier": 3.0,
+						"m_fArmDamageMultiplier": 1.0,
+						"m_fLArmDamageScalar": 0.0,
+						"m_fRArmDamageScalar": 0.0,
+						"m_fHandDamageMultiplier": 0.5,
+						"m_fLHandDamageScalar": 0.0,
+						"m_fRHandDamageScalar": 0.0,
+						"m_fLegDamageMultiplier": 0.6000000238418579,
+						"m_fLLegDamageScalar": 0.0,
+						"m_fRLegDamageScalar": 0.0,
+						"m_fTorsoDamageMultiplier": 1.0,
+						"m_bApplyLeftRightScalars": false
+					}
+				},
+				"m_eActorType": { "type": "EActorType", "value": "eAT_Civilian" },
+				"m_eActorCCClass": { "type": "EActorCCPreset", "value": "ACCP_CivilianeMale" },
+				"m_bHeroDisguiseAvailable": { "type": "bool", "value": false },
+				"m_eSoundFootwearType": { "type": "EHM5SoundFootwearType", "value": "EFWT_RUBBER_BOOTS" },
+				"m_sId": { "type": "ZGuid", "value": "a8ab28b6-ab00-44d4-8909-ba2a8ea59fae" },
+				"m_pParentOutfit": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "6736fcbbd3e73209",
+						"externalScene": "[assembly:/_pro/scenes/bricks/globaldata.brick].pc_entitytype"
+					}
+				},
+				"m_sCommonName": { "type": "ZString", "value": "Colorado_Unique_EzraBerg_M_HPA2136" },
+				"m_sTitle": { "type": "ZString", "value": "Ezra Berg" },
+				"m_rNameTextResource": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/localization/hitman6/conversations/ui/pro/online/repository/outfits_npcs_colorado.sweetmenutext?/outfits_colorado_unique_ezraberg_m_hpa2136_name_a8ab28b6-ab00-44d4-8909-ba2a8ea59fae.sweetline].pc_sweetline",
+						"flag": "5F"
+					}
+				},
+				"m_rDescriptionTextResource": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/localization/hitman6/conversations/ui/pro/online/repository/outfits_npcs_colorado.sweetmenutext?/outfits_colorado_unique_ezraberg_m_hpa2136_description_a8ab28b6-ab00-44d4-8909-ba2a8ea59fae.sweetline].pc_sweetline",
+						"flag": "5F"
+					}
+				},
+				"m_rDefaultVoiceVariations": { "type": "TArray<EActorVoiceVariation>", "value": ["eAVV_BERG"] },
+				"m_eOutfitAICategory": { "type": "EOutfitAICategory", "value": "OAC_Berg" },
+				"m_aCharSets": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["c4f6e0d8a605a7b5"],
+					"postInit": true
+				}
+			}
+		},
+		"8cc69ce5d6403b7e": {
+			"parent": "77a8f777c2ac0294",
+			"name": "Prof_Colorado",
+			"factory": "[assembly:/_pro/design/actor/profession.template?/prof_colorado.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_colorado.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_aHolders": { "type": "TArray<SEntityTemplateReference>", "value": ["77a8f777c2ac0294"], "postInit": true }
+			}
+		},
+		"e4910a5946d5be8b": {
+			"parent": "34e88a9981424177",
+			"name": "ItemKey_AssaultRifle01 NPC",
+			"factory": "[modules:/zitemrepositorykeyentity.class].pc_entitytype",
+			"blueprint": "[modules:/zitemrepositorykeyentity.class].pc_entityblueprint",
+			"properties": { "m_RepositoryId": { "type": "ZGuid", "value": "d8aa6eba-0cb7-4ed4-ab99-975f2793d731" } }
+		},
+		"97a8221f5dd1b5b0": {
+			"parent": "2f59b5de8643b513",
+			"name": "Colorado_Unique_PenelopeGraves_F_HPA2594",
+			"factory": "[modules:/zglobaloutfitkit.class].pc_entitytype",
+			"blueprint": "[modules:/zglobaloutfitkit.class].pc_entityblueprint",
+			"properties": {
+				"m_DamageMultipliers": {
+					"type": "SBodyPartDamageMultipliers",
+					"value": {
+						"m_fHeadDamageMultiplier": 3.0,
+						"m_fFaceDamageMultiplier": 3.0,
+						"m_fArmDamageMultiplier": 1.0,
+						"m_fLArmDamageScalar": 0.0,
+						"m_fRArmDamageScalar": 0.0,
+						"m_fHandDamageMultiplier": 0.5,
+						"m_fLHandDamageScalar": 0.0,
+						"m_fRHandDamageScalar": 0.0,
+						"m_fLegDamageMultiplier": 0.6000000238418579,
+						"m_fLLegDamageScalar": 0.0,
+						"m_fRLegDamageScalar": 0.0,
+						"m_fTorsoDamageMultiplier": 1.0,
+						"m_bApplyLeftRightScalars": false
+					}
+				},
+				"m_eActorType": { "type": "EActorType", "value": "eAT_Civilian" },
+				"m_bIsFemale": { "type": "bool", "value": true },
+				"m_eActorCCClass": { "type": "EActorCCPreset", "value": "ACCP_CivilianFemale" },
+				"m_bHeroDisguiseAvailable": { "type": "bool", "value": false },
+				"m_eSoundFootwearType": { "type": "EHM5SoundFootwearType", "value": "EFWT_SNEAKERS" },
+				"m_sId": { "type": "ZGuid", "value": "7eadb713-a645-4b37-a8ee-7c65bdc589d8" },
+				"m_pParentOutfit": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "f76365f15c816405",
+						"externalScene": "[assembly:/_pro/scenes/bricks/globaldata.brick].pc_entitytype"
+					}
+				},
+				"m_sCommonName": { "type": "ZString", "value": "Colorado_Unique_PenelopeGraves_F_HPA2594" },
+				"m_sTitle": { "type": "ZString", "value": "Penelope Graves" },
+				"m_rNameTextResource": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/localization/hitman6/conversations/ui/pro/online/repository/outfits_npcs_colorado.sweetmenutext?/outfits_colorado_unique_penelopegraves_f_hpa2594_name_7eadb713-a645-4b37-a8ee-7c65bdc589d8.sweetline].pc_sweetline",
+						"flag": "5F"
+					}
+				},
+				"m_rDescriptionTextResource": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/localization/hitman6/conversations/ui/pro/online/repository/outfits_npcs_colorado.sweetmenutext?/outfits_colorado_unique_penelopegraves_f_hpa2594_description_7eadb713-a645-4b37-a8ee-7c65bdc589d8.sweetline].pc_sweetline",
+						"flag": "5F"
+					}
+				},
+				"m_rDefaultVoiceVariations": { "type": "TArray<EActorVoiceVariation>", "value": ["eAVV_GRAVES"] },
+				"m_aCharSets": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["622537f20f77b296"],
+					"postInit": true
+				}
+			}
+		},
+		"1783a621c0acbd1a": {
+			"parent": "e336cf8f98952f3f",
+			"name": "ItemKey_AssaultRifle03 NPC Shooting Range version",
+			"factory": "[modules:/zitemrepositorykeyentity.class].pc_entitytype",
+			"blueprint": "[modules:/zitemrepositorykeyentity.class].pc_entityblueprint",
+			"properties": { "m_RepositoryId": { "type": "ZGuid", "value": "6b93848c-8f1d-42eb-816f-bab61b56d8a5" } }
+		},
+		"68853e5126bd41e6": {
+			"parent": "0378a8e27a4c36f6",
+			"name": "ItemKey_Pistol02 NPC",
+			"factory": "[modules:/zitemrepositorykeyentity.class].pc_entitytype",
+			"blueprint": "[modules:/zitemrepositorykeyentity.class].pc_entityblueprint",
+			"properties": { "m_RepositoryId": { "type": "ZGuid", "value": "2953e9ac-e25b-41ae-afbf-4a47f86c4f54" } }
+		},
+		"f07809ce966058b0": {
+			"parent": "0378a8e27a4c36f6",
+			"name": "Prof_Colorado",
+			"factory": "[assembly:/_pro/design/actor/profession.template?/prof_colorado.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_colorado.entitytemplate].pc_entityblueprint",
+			"properties": { "m_aHolders": { "type": "TArray<SEntityTemplateReference>", "value": ["0378a8e27a4c36f6"] } }
+		},
+		"f13a1be0e069e375": {
+			"parent": "1e9e1de4f8f2392e",
+			"name": "ItemKey_SMG01 NPC",
+			"factory": "[modules:/zitemrepositorykeyentity.class].pc_entitytype",
+			"blueprint": "[modules:/zitemrepositorykeyentity.class].pc_entityblueprint",
+			"properties": { "m_RepositoryId": { "type": "ZGuid", "value": "e206ed81-0559-4289-9fec-e6a3e9d4ee7c" } }
+		},
+		"77a8f777c2ac0294": {
+			"parent": "2f59b5de8643b513",
+			"name": "Colorado_Unique_SeanRose_M_HPA1099",
+			"factory": "[modules:/zglobaloutfitkit.class].pc_entitytype",
+			"blueprint": "[modules:/zglobaloutfitkit.class].pc_entityblueprint",
+			"properties": {
+				"m_DamageMultipliers": {
+					"type": "SBodyPartDamageMultipliers",
+					"value": {
+						"m_fHeadDamageMultiplier": 3.0,
+						"m_fFaceDamageMultiplier": 3.0,
+						"m_fArmDamageMultiplier": 1.0,
+						"m_fLArmDamageScalar": 0.0,
+						"m_fRArmDamageScalar": 0.0,
+						"m_fHandDamageMultiplier": 0.5,
+						"m_fLHandDamageScalar": 0.0,
+						"m_fRHandDamageScalar": 0.0,
+						"m_fLegDamageMultiplier": 0.6000000238418579,
+						"m_fLLegDamageScalar": 0.0,
+						"m_fRLegDamageScalar": 0.0,
+						"m_fTorsoDamageMultiplier": 1.0,
+						"m_bApplyLeftRightScalars": false
+					}
+				},
+				"m_eActorType": { "type": "EActorType", "value": "eAT_Civilian" },
+				"m_eActorCCClass": { "type": "EActorCCPreset", "value": "ACCP_CivilianeMale" },
+				"m_bHeroDisguiseAvailable": { "type": "bool", "value": false },
+				"m_eSoundFootwearType": { "type": "EHM5SoundFootwearType", "value": "EFWT_BOOTS" },
+				"m_sId": { "type": "ZGuid", "value": "15450434-ee7d-4294-a560-131c7032e337" },
+				"m_pParentOutfit": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "6736fcbbd3e73209",
+						"externalScene": "[assembly:/_pro/scenes/bricks/globaldata.brick].pc_entitytype"
+					}
+				},
+				"m_sCommonName": { "type": "ZString", "value": "Colorado_Unique_SeanRose_M_HPA1099" },
+				"m_sTitle": { "type": "ZString", "value": "Sean Rose" },
+				"m_rNameTextResource": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/localization/hitman6/conversations/ui/pro/online/repository/outfits_npcs_colorado.sweetmenutext?/outfits_colorado_unique_seanrose_m_hpa1099_name_15450434-ee7d-4294-a560-131c7032e337.sweetline].pc_sweetline",
+						"flag": "5F"
+					}
+				},
+				"m_rDescriptionTextResource": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/localization/hitman6/conversations/ui/pro/online/repository/outfits_npcs_colorado.sweetmenutext?/outfits_colorado_unique_seanrose_m_hpa1099_description_15450434-ee7d-4294-a560-131c7032e337.sweetline].pc_sweetline",
+						"flag": "5F"
+					}
+				},
+				"m_AvailableWeaponKeys": { "type": "TArray<SEntityTemplateReference>", "value": [] },
+				"m_bAccidentShy": { "type": "bool", "value": true },
+				"m_rDefaultVoiceVariations": { "type": "TArray<EActorVoiceVariation>", "value": ["eAVV_ROSE"] },
+				"m_aCharSets": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["d46fb4668f5e6d59"],
+					"postInit": true
+				}
+			}
+		},
+		"ef5f142bdab9ba70": {
+			"parent": "17e8233dc7740619",
+			"name": "Prof_Colorado",
+			"factory": "[assembly:/_pro/design/actor/profession.template?/prof_colorado.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_colorado.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_aHolders": { "type": "TArray<SEntityTemplateReference>", "value": ["17e8233dc7740619"], "postInit": true }
+			}
+		},
+		"e7e553d469603aa6": {
+			"parent": "0378a8e27a4c36f6",
+			"name": "KeywordEntity_FOLEY_OUTFIT_ENGINEER",
+			"factory": "[assembly:/_pro/design/gamecore/keywords/keywordsound.template?/keywordentity_foley_outfit_engineer.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/gamecore/keywords/keywordsound.template?/keywordentity_foley_outfit_engineer.entitytemplate].pc_entityblueprint",
+			"properties": { "m_aHolders": { "type": "TArray<SEntityTemplateReference>", "value": ["0378a8e27a4c36f6"] } }
+		},
+		"c828a249aaea98ca": {
+			"parent": "ea2d69e22b157d3a",
+			"name": "Prof_Colorado",
+			"factory": "[assembly:/_pro/design/actor/profession.template?/prof_colorado.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_colorado.entitytemplate].pc_entityblueprint",
+			"properties": { "m_aHolders": { "type": "TArray<SEntityTemplateReference>", "value": ["ea2d69e22b157d3a"] } }
+		},
+		"225742b8f7dd24ba": {
+			"parent": "1e9e1de4f8f2392e",
+			"name": "ItemKey_Melee_Cleaver",
+			"factory": "[modules:/zitemrepositorykeyentity.class].pc_entitytype",
+			"blueprint": "[modules:/zitemrepositorykeyentity.class].pc_entityblueprint",
+			"properties": { "m_RepositoryId": { "type": "ZGuid", "value": "1bbf0ed5-0515-4599-a4c9-454ce59cff44" } }
+		},
+		"3210d45ffb026fe0": {
+			"parent": "601c322657ff6950",
+			"name": "CHARSET_MilitiaDemoMan_M",
+			"factory": "[assembly:/_pro/characters/templates/colorado/char_colorado_guards.template?/charset_militiademoman_m.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/characters/templates/colorado/char_colorado_guards.template?/charset_militiademoman_m.entitytemplate].pc_entityblueprint"
+		},
+		"f63d70e9a97b874c": {
+			"parent": "41ed462dcf3ec7d0",
+			"name": "Keyword_Prof_Class_Guard_Heavy",
+			"factory": "00364659808ED13C",
+			"blueprint": "003A7D4D8810414B",
+			"properties": { "m_aHolders": { "type": "TArray<SEntityTemplateReference>", "value": ["41ed462dcf3ec7d0"] } }
+		},
+		"70cdf0ea25752c32": {
+			"parent": "e336cf8f98952f3f",
+			"name": "Keyword_ITEM_SNIPER_RIFLE",
+			"factory": "[assembly:/_pro/design/gamecore/keywords/keyworditems.template?/keyword_item_sniper_rifle.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/gamecore/keywords/keyworditems.template?/keyword_item_sniper_rifle.entitytemplate].pc_entityblueprint"
+		},
+		"27ada3c90ddc6dd8": {
+			"parent": "0378a8e27a4c36f6",
+			"name": "Prof_Colorado_MilitiaTechnician",
+			"factory": "[assembly:/_pro/design/actor/profession.template?/prof_colorado_militiatechnician.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_colorado_militiatechnician.entitytemplate].pc_entityblueprint",
+			"properties": { "m_aHolders": { "type": "TArray<SEntityTemplateReference>", "value": ["0378a8e27a4c36f6"] } }
+		},
+		"bddcf2ed4b3571c9": {
+			"parent": "ea2d69e22b157d3a",
+			"name": "Prof_Colorado_Unique_EzraBerg",
+			"factory": "[assembly:/_pro/design/actor/profession.template?/prof_colorado_unique_ezraberg.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_colorado_unique_ezraberg.entitytemplate].pc_entityblueprint",
+			"properties": { "m_aHolders": { "type": "TArray<SEntityTemplateReference>", "value": ["ea2d69e22b157d3a"] } }
+		},
+		"68aa06259f07c33d": {
+			"parent": "41ed462dcf3ec7d0",
+			"name": "Prof_Colorado",
+			"factory": "[assembly:/_pro/design/actor/profession.template?/prof_colorado.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_colorado.entitytemplate].pc_entityblueprint",
+			"properties": { "m_aHolders": { "type": "TArray<SEntityTemplateReference>", "value": ["41ed462dcf3ec7d0"] } }
+		},
+		"1c768457430a034e": {
+			"parent": "0378a8e27a4c36f6",
+			"name": "ItemKey__Grenade_ Flash",
+			"factory": "[modules:/zitemrepositorykeyentity.class].pc_entitytype",
+			"blueprint": "[modules:/zitemrepositorykeyentity.class].pc_entityblueprint",
+			"properties": { "m_RepositoryId": { "type": "ZGuid", "value": "5d6f6532-6168-4280-9443-c80f089dc41d" } }
+		},
+		"5a3a13b4a53050c5": {
+			"parent": "5633d5827dde2784",
+			"name": "KeywordEntity_FOLEY_OUTFIT_ARMYVEST",
+			"factory": "[assembly:/_pro/design/gamecore/keywords/keywordsound.template?/keywordentity_foley_outfit_armyvest.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/gamecore/keywords/keywordsound.template?/keywordentity_foley_outfit_armyvest.entitytemplate].pc_entityblueprint",
+			"properties": { "m_rHolder": { "type": "SEntityTemplateReference", "value": "5633d5827dde2784" } }
+		},
+		"6cb1f967200c7682": {
+			"parent": "77a8f777c2ac0294",
+			"name": "KeywordEntity_FOLEY_OUTFIT_ARMYVEST",
+			"factory": "[assembly:/_pro/design/gamecore/keywords/keywordsound.template?/keywordentity_foley_outfit_armyvest.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/gamecore/keywords/keywordsound.template?/keywordentity_foley_outfit_armyvest.entitytemplate].pc_entityblueprint",
+			"properties": { "m_aHolders": { "type": "TArray<SEntityTemplateReference>", "value": ["77a8f777c2ac0294"] } }
+		},
+		"cc03d17eef66eef1": {
+			"parent": "ea2d69e22b157d3a",
+			"name": "KeywordEntity_DIALOGUE_MUFFLEFILTER_HAZMAT",
+			"factory": "[assembly:/_pro/design/gamecore/keywords/keywordaidialogue.template?/keywordentity_dialogue_mufflefilter_hazmat.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/gamecore/keywords/keywordaidialogue.template?/keywordentity_dialogue_mufflefilter_hazmat.entitytemplate].pc_entityblueprint",
+			"properties": { "m_rHolder": { "type": "SEntityTemplateReference", "value": "ea2d69e22b157d3a" } }
+		},
+		"38e3e6f595a18a91": {
+			"parent": "601c322657ff6950",
+			"name": "KeywordEntity_FOLEY_OUTFIT_BUILDER",
+			"factory": "[assembly:/_pro/design/gamecore/keywords/keywordsound.template?/keywordentity_foley_outfit_builder.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/gamecore/keywords/keywordsound.template?/keywordentity_foley_outfit_builder.entitytemplate].pc_entityblueprint",
+			"properties": { "m_aHolders": { "type": "TArray<SEntityTemplateReference>", "value": ["601c322657ff6950"] } }
+		},
+		"6c54bb932abc6102": {
+			"parent": "34e88a9981424177",
+			"name": "ItemKey_Shotgun01 NPC",
+			"factory": "[modules:/zitemrepositorykeyentity.class].pc_entitytype",
+			"blueprint": "[modules:/zitemrepositorykeyentity.class].pc_entityblueprint",
+			"properties": { "m_RepositoryId": { "type": "ZGuid", "value": "901a3b51-51a0-4236-bdf2-23d20696b358" } }
+		},
+		"9cb375c6ba718114": {
+			"parent": "34e88a9981424177",
+			"name": "Keyword_ITEM_SNIPER_RIFLE",
+			"factory": "[assembly:/_pro/design/gamecore/keywords/keyworditems.template?/keyword_item_sniper_rifle.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/gamecore/keywords/keyworditems.template?/keyword_item_sniper_rifle.entitytemplate].pc_entityblueprint"
+		},
+		"c895da7b6043fabe": {
+			"parent": "34e88a9981424177",
+			"name": "Keyword_FOLEY_VR_OUTFIT_CLOTHGLOVES_01",
+			"factory": "[assembly:/_pro/design/gamecore/keywords/keywordsound.template?/keyword_foley_vr_outfit_clothgloves.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/gamecore/keywords/keywordsound.template?/keyword_foley_vr_outfit_clothgloves.entitytemplate].pc_entityblueprint",
+			"properties": { "m_rHolder": { "type": "SEntityTemplateReference", "value": "34e88a9981424177" } }
+		},
+		"3d990a733e404bf8": {
+			"parent": "8146feab7da46f0e",
+			"name": "Keyword_FOLEY_VR_OUTFIT_MUFFLE",
+			"factory": "[assembly:/_pro/design/gamecore/keywords/keywordsound.template?/keyword_foley_vr_outfit_muffle.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/gamecore/keywords/keywordsound.template?/keyword_foley_vr_outfit_muffle.entitytemplate].pc_entityblueprint",
+			"properties": { "m_rHolder": { "type": "SEntityTemplateReference", "value": "8146feab7da46f0e" } }
+		},
+		"e8078e0918fa0308": {
+			"parent": "17e8233dc7740619",
+			"name": "ItemKey_SMG01 NPC",
+			"factory": "[modules:/zitemrepositorykeyentity.class].pc_entitytype",
+			"blueprint": "[modules:/zitemrepositorykeyentity.class].pc_entityblueprint",
+			"properties": { "m_RepositoryId": { "type": "ZGuid", "value": "e206ed81-0559-4289-9fec-e6a3e9d4ee7c" } }
+		},
+		"c4f6e0d8a605a7b5": {
+			"parent": "ea2d69e22b157d3a",
+			"name": "CHARSET_EzraBerg_M",
+			"factory": "[assembly:/_pro/characters/templates/colorado/char_colorado_unique.template?/charset_ezraberg_m.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/characters/templates/colorado/char_colorado_unique.template?/charset_ezraberg_m.entitytemplate].pc_entityblueprint"
+		},
+		"8ab51adf3dcadbc9": {
+			"parent": "ea2d69e22b157d3a",
+			"name": "Keyword_DIALOGUE_NPC_BERG",
+			"factory": "[assembly:/_pro/design/gamecore/keywords/keywordaidialogue.template?/keyword_dialogue_npc_berg.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/gamecore/keywords/keywordaidialogue.template?/keyword_dialogue_npc_berg.entitytemplate].pc_entityblueprint",
+			"properties": { "m_rHolder": { "type": "SEntityTemplateReference", "value": "ea2d69e22b157d3a" } }
+		},
+		"c55c0e875df5ba0e": {
+			"parent": "1e9e1de4f8f2392e",
+			"name": "Prof_Colorado_Worker",
+			"factory": "[assembly:/_pro/design/actor/profession.template?/prof_colorado_worker.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_colorado_worker.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_aHolders": { "type": "TArray<SEntityTemplateReference>", "value": ["1e9e1de4f8f2392e"], "postInit": true }
+			}
+		},
+		"840bb21e771d07cf": {
+			"parent": "1e9e1de4f8f2392e",
+			"name": "ItemKey_AssaultRifle02 NPC",
+			"factory": "[modules:/zitemrepositorykeyentity.class].pc_entitytype",
+			"blueprint": "[modules:/zitemrepositorykeyentity.class].pc_entityblueprint",
+			"properties": { "m_RepositoryId": { "type": "ZGuid", "value": "16edb112-58cc-4069-a7dd-ebd258b14044" } }
+		},
+		"d40ab1da277e8efd": {
+			"parent": "77a8f777c2ac0294",
+			"name": "ItemKey_Pistol01 NPC",
+			"factory": "[modules:/zitemrepositorykeyentity.class].pc_entitytype",
+			"blueprint": "[modules:/zitemrepositorykeyentity.class].pc_entityblueprint",
+			"properties": { "m_RepositoryId": { "type": "ZGuid", "value": "55ed7196-2303-4af6-9fa3-45b691134561" } }
+		},
+		"a8c64ee73624a31f": {
+			"parent": "97a8221f5dd1b5b0",
+			"name": "Keyword_DIALOGUE_NPC_GRAVES",
+			"factory": "[assembly:/_pro/design/gamecore/keywords/keywordaidialogue.template?/keyword_dialogue_npc_graves.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/gamecore/keywords/keywordaidialogue.template?/keyword_dialogue_npc_graves.entitytemplate].pc_entityblueprint",
+			"properties": { "m_rHolder": { "type": "SEntityTemplateReference", "value": "97a8221f5dd1b5b0" } }
+		},
+		"05ba8e09e6558766": {
+			"parent": "8146feab7da46f0e",
+			"name": "CHARSET_Scarecrow_M",
+			"factory": "[assembly:/_pro/characters/templates/colorado/char_colorado_unique.template?/charset_scarecrow_m.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/characters/templates/colorado/char_colorado_unique.template?/charset_scarecrow_m.entitytemplate].pc_entityblueprint"
+		},
+		"aa679ab6ea28ce84": {
+			"parent": "5633d5827dde2784",
+			"name": "Keyword_Prof_Class_Default",
+			"factory": "007A51A2AFEC0D1A",
+			"blueprint": "00B0282A41C1CF2E",
+			"properties": { "m_aHolders": { "type": "TArray<SEntityTemplateReference>", "value": ["5633d5827dde2784"] } }
+		},
+		"c7c6ee1a568e3317": {
+			"parent": "e336cf8f98952f3f",
+			"name": "KeywordEntity_FOLEY_OUTFIT_GUARD",
+			"factory": "[assembly:/_pro/design/gamecore/keywords/keywordsound.template?/keywordentity_foley_outfit_guard.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/gamecore/keywords/keywordsound.template?/keywordentity_foley_outfit_guard.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_rHolder": { "type": "SEntityTemplateReference", "value": "e336cf8f98952f3f", "postInit": true }
+			}
+		},
+		"7148e33f0317be83": {
+			"parent": "e336cf8f98952f3f",
+			"name": "Keyword_Prof_Class_Default",
+			"factory": "007A51A2AFEC0D1A",
+			"blueprint": "00B0282A41C1CF2E",
+			"properties": {
+				"m_aHolders": { "type": "TArray<SEntityTemplateReference>", "value": ["e336cf8f98952f3f"], "postInit": true }
+			}
+		},
+		"c72e9bf1035752e3": {
+			"parent": "17e8233dc7740619",
+			"name": "Prof_Colorado_StrikeLeader",
+			"factory": "[assembly:/_pro/design/actor/profession.template?/prof_colorado_strikeleader.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_colorado_strikeleader.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_aHolders": { "type": "TArray<SEntityTemplateReference>", "value": ["17e8233dc7740619"], "postInit": true }
+			}
+		},
+		"ca57e7928800eef6": {
+			"parent": "601c322657ff6950",
+			"name": "ItemKey_AssaultRifle01 NPC",
+			"factory": "[modules:/zitemrepositorykeyentity.class].pc_entitytype",
+			"blueprint": "[modules:/zitemrepositorykeyentity.class].pc_entityblueprint",
+			"properties": { "m_RepositoryId": { "type": "ZGuid", "value": "d8aa6eba-0cb7-4ed4-ab99-975f2793d731" } }
+		},
+		"90a861bdc8071dea": {
+			"parent": "8146feab7da46f0e",
+			"name": "Keyword_FOLEY_OUTFIT_ROBE_LIGHT",
+			"factory": "[assembly:/_pro/design/gamecore/keywords/keywordsound.template?/keyword_foley_outfit_robe_light.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/gamecore/keywords/keywordsound.template?/keyword_foley_outfit_robe_light.entitytemplate].pc_entityblueprint",
+			"properties": { "m_aHolders": { "type": "TArray<SEntityTemplateReference>", "value": ["8146feab7da46f0e"] } }
+		},
+		"1acef4ad13b81f68": {
+			"parent": "2f59b5de8643b513",
+			"name": "Colorado_Unique_Hostage_M_HPA2138",
+			"factory": "[modules:/zglobaloutfitkit.class].pc_entitytype",
+			"blueprint": "[modules:/zglobaloutfitkit.class].pc_entityblueprint",
+			"properties": {
+				"m_DamageMultipliers": {
+					"type": "SBodyPartDamageMultipliers",
+					"value": {
+						"m_fHeadDamageMultiplier": 3.0,
+						"m_fFaceDamageMultiplier": 3.0,
+						"m_fArmDamageMultiplier": 1.0,
+						"m_fLArmDamageScalar": 0.0,
+						"m_fRArmDamageScalar": 0.0,
+						"m_fHandDamageMultiplier": 0.5,
+						"m_fLHandDamageScalar": 0.0,
+						"m_fRHandDamageScalar": 0.0,
+						"m_fLegDamageMultiplier": 0.6000000238418579,
+						"m_fLLegDamageScalar": 0.0,
+						"m_fRLegDamageScalar": 0.0,
+						"m_fTorsoDamageMultiplier": 1.0,
+						"m_bApplyLeftRightScalars": false
+					}
+				},
+				"m_eActorType": { "type": "EActorType", "value": "eAT_Civilian" },
+				"m_eActorCCClass": { "type": "EActorCCPreset", "value": "ACCP_CivilianeMale" },
+				"m_bHeroDisguiseAvailable": { "type": "bool", "value": false },
+				"m_eSoundFootwearType": { "type": "EHM5SoundFootwearType", "value": "EFWT_LEATHER" },
+				"m_sId": { "type": "ZGuid", "value": "465e6eff-8c42-41bb-88e5-c43780b536e5" },
+				"m_pParentOutfit": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "6736fcbbd3e73209",
+						"externalScene": "[assembly:/_pro/scenes/bricks/globaldata.brick].pc_entitytype"
+					}
+				},
+				"m_sCommonName": { "type": "ZString", "value": "Colorado_Unique_Hostage_M_HPA2138" },
+				"m_sTitle": { "type": "ZString", "value": "Hostage" },
+				"m_rNameTextResource": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/localization/hitman6/conversations/ui/pro/online/repository/outfits_npcs_colorado.sweetmenutext?/outfits_colorado_unique_hostage_m_hpa2138_name_465e6eff-8c42-41bb-88e5-c43780b536e5.sweetline].pc_sweetline",
+						"flag": "5F"
+					}
+				},
+				"m_rDescriptionTextResource": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/localization/hitman6/conversations/ui/pro/online/repository/outfits_npcs_colorado.sweetmenutext?/outfits_colorado_unique_hostage_m_hpa2138_description_465e6eff-8c42-41bb-88e5-c43780b536e5.sweetline].pc_sweetline",
+						"flag": "5F"
+					}
+				},
+				"m_aCharSets": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["3088aff9c6545748"],
+					"postInit": true
+				}
+			}
+		},
+		"86aad896b3160201": {
+			"parent": "41ed462dcf3ec7d0",
+			"name": "ItemKey_Pistol01 NPC",
+			"factory": "[modules:/zitemrepositorykeyentity.class].pc_entitytype",
+			"blueprint": "[modules:/zitemrepositorykeyentity.class].pc_entityblueprint",
+			"properties": { "m_RepositoryId": { "type": "ZGuid", "value": "55ed7196-2303-4af6-9fa3-45b691134561" } }
+		},
+		"b35fa1b0575cfddc": {
+			"parent": "34e88a9981424177",
+			"name": "Keyword_FOLEY_VR_OUTFIT_CLOTHGLOVES",
+			"factory": "[assembly:/_pro/design/gamecore/keywords/keywordsound.template?/keyword_foley_vr_outfit_clothgloves.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/gamecore/keywords/keywordsound.template?/keyword_foley_vr_outfit_clothgloves.entitytemplate].pc_entityblueprint",
+			"properties": { "m_rHolder": { "type": "SEntityTemplateReference", "value": "34e88a9981424177" } }
+		},
+		"499a0be5bd36964d": {
+			"parent": "1e9e1de4f8f2392e",
+			"name": "Keyword_Prof_Class_Default",
+			"factory": "007A51A2AFEC0D1A",
+			"blueprint": "00B0282A41C1CF2E",
+			"properties": {
+				"m_aHolders": { "type": "TArray<SEntityTemplateReference>", "value": ["1e9e1de4f8f2392e"], "postInit": true }
+			}
+		},
+		"f5a5128b3f72125f": {
+			"parent": "41ed462dcf3ec7d0",
+			"name": "Keyword_ITEM_SNIPER_RIFLE",
+			"factory": "[assembly:/_pro/design/gamecore/keywords/keyworditems.template?/keyword_item_sniper_rifle.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/gamecore/keywords/keyworditems.template?/keyword_item_sniper_rifle.entitytemplate].pc_entityblueprint"
+		},
+		"5dc63230dac8f476": {
+			"parent": "5633d5827dde2784",
+			"name": "AnimSet_Civ_Female_S01",
+			"factory": "[assembly:/_pro/design/actor/animvariation.template?/animset_civ_female_s01.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/animvariation.template?/animset_civ_female_s01.entitytemplate].pc_entityblueprint"
+		},
+		"ad52834d221de8ee": {
+			"parent": "17e8233dc7740619",
+			"name": "Prof_Colorado_Guard",
+			"factory": "[assembly:/_pro/design/actor/profession.template?/prof_colorado_guard.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_colorado_guard.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_aHolders": { "type": "TArray<SEntityTemplateReference>", "value": ["17e8233dc7740619"], "postInit": true }
+			}
+		},
+		"5e995526ac287658": {
+			"parent": "34e88a9981424177",
+			"name": "ItemKey_Pistol01 NPC",
+			"factory": "[modules:/zitemrepositorykeyentity.class].pc_entitytype",
+			"blueprint": "[modules:/zitemrepositorykeyentity.class].pc_entityblueprint",
+			"properties": { "m_RepositoryId": { "type": "ZGuid", "value": "55ed7196-2303-4af6-9fa3-45b691134561" } }
+		},
+		"c7b2c4f6cab2e639": {
+			"parent": "ea2d69e22b157d3a",
+			"name": "KeywordEntity_FOLEY_OUTFIT_ENGINEER",
+			"factory": "[assembly:/_pro/design/gamecore/keywords/keywordsound.template?/keywordentity_foley_outfit_engineer.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/gamecore/keywords/keywordsound.template?/keywordentity_foley_outfit_engineer.entitytemplate].pc_entityblueprint",
+			"properties": { "m_aHolders": { "type": "TArray<SEntityTemplateReference>", "value": ["ea2d69e22b157d3a"] } }
+		},
+		"57da3512a280fdac": {
+			"parent": "97a8221f5dd1b5b0",
+			"name": "Prof_Colorado",
+			"factory": "[assembly:/_pro/design/actor/profession.template?/prof_colorado.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_colorado.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_aHolders": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["1acef4ad13b81f68", "97a8221f5dd1b5b0"]
+				}
+			}
+		},
+		"8dee6e83686253d6": {
+			"parent": "1e9e1de4f8f2392e",
+			"name": "ItemKey_SMG02 NPC Shaurya",
+			"factory": "[modules:/zitemrepositorykeyentity.class].pc_entitytype",
+			"blueprint": "[modules:/zitemrepositorykeyentity.class].pc_entityblueprint",
+			"properties": { "m_RepositoryId": { "type": "ZGuid", "value": "3fd9825d-8aa5-48e0-97a9-ec8f541f871a" } }
+		},
+		"556c74b54bfcb06d": {
+			"parent": "34e88a9981424177",
+			"name": "Prof_Colorado_Guard",
+			"factory": "[assembly:/_pro/design/actor/profession.template?/prof_colorado_guard.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_colorado_guard.entitytemplate].pc_entityblueprint",
+			"properties": { "m_aHolders": { "type": "TArray<SEntityTemplateReference>", "value": ["34e88a9981424177"] } }
+		},
+		"74088331abbcc061": {
+			"parent": "17e8233dc7740619",
+			"name": "Keyword_FOLEY_VR_OUTFIT_LEATHERGLOVES",
+			"factory": "[assembly:/_pro/design/gamecore/keywords/keywordsound.template?/keyword_foley_vr_outfit_leathergloves.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/gamecore/keywords/keywordsound.template?/keyword_foley_vr_outfit_leathergloves.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_rHolder": { "type": "SEntityTemplateReference", "value": "17e8233dc7740619", "postInit": true }
+			}
+		},
+		"bcf1c7b721b5a09f": {
+			"parent": "0378a8e27a4c36f6",
+			"name": "Keyword_ITEM_SNIPER_RIFLE",
+			"factory": "[assembly:/_pro/design/gamecore/keywords/keyworditems.template?/keyword_item_sniper_rifle.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/gamecore/keywords/keyworditems.template?/keyword_item_sniper_rifle.entitytemplate].pc_entityblueprint"
+		},
+		"9a85d5e532566f9e": {
+			"parent": "77a8f777c2ac0294",
+			"name": "Prof_Colorado_Unique",
+			"factory": "[assembly:/_pro/design/actor/profession.template?/prof_colorado_unique.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_colorado_unique.entitytemplate].pc_entityblueprint",
+			"properties": { "m_aHolders": { "type": "TArray<SEntityTemplateReference>", "value": ["77a8f777c2ac0294"] } }
+		},
+		"cb4aa5072abede33": {
+			"parent": {
+				"ref": "dc98cfc39d83dd5c",
+				"externalScene": "[assembly:/_pro/scenes/bricks/globaldata.brick].pc_entitytype"
+			},
+			"name": "ColoradoOutfits",
+			"factory": "[modules:/zentity.class].pc_entitytype",
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
+		},
+		"3d973915f179734d": {
+			"parent": "1e9e1de4f8f2392e",
+			"name": "CHARSET_MilitiaCook_M",
+			"factory": "[assembly:/_pro/characters/templates/colorado/char_colorado_guards.template?/charset_militiacook_m.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/characters/templates/colorado/char_colorado_guards.template?/charset_militiacook_m.entitytemplate].pc_entityblueprint"
+		},
+		"19a4aee8c69b1160": {
+			"parent": "e336cf8f98952f3f",
+			"name": "KeywordEntity_DIALOGUE_MUFFLEFILTER_HAZMAT",
+			"factory": "[assembly:/_pro/design/gamecore/keywords/keywordaidialogue.template?/keywordentity_dialogue_mufflefilter_hazmat.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/gamecore/keywords/keywordaidialogue.template?/keywordentity_dialogue_mufflefilter_hazmat.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_rHolder": { "type": "SEntityTemplateReference", "value": "e336cf8f98952f3f", "postInit": true }
+			}
+		},
+		"3b74ea5ba2deba2c": {
+			"parent": "41ed462dcf3ec7d0",
+			"name": "Prof_Colorado_MilitiaBasic",
+			"factory": "[assembly:/_pro/design/actor/profession.template?/prof_colorado_militiabasic.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_colorado_militiabasic.entitytemplate].pc_entityblueprint",
+			"properties": { "m_aHolders": { "type": "TArray<SEntityTemplateReference>", "value": ["41ed462dcf3ec7d0"] } }
+		},
+		"3964eafa50f6d36f": {
+			"parent": "1acef4ad13b81f68",
+			"name": "Prof_Colorado",
+			"factory": "[assembly:/_pro/design/actor/profession.template?/prof_colorado.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_colorado.entitytemplate].pc_entityblueprint",
+			"properties": { "m_aHolders": { "type": "TArray<SEntityTemplateReference>", "value": ["1acef4ad13b81f68"] } }
+		},
+		"8ee834cf53e24fdc": {
+			"parent": "41ed462dcf3ec7d0",
+			"name": "Keyword_FOLEY_VR_OUTFIT_CLOTHGLOVES",
+			"factory": "[assembly:/_pro/design/gamecore/keywords/keywordsound.template?/keyword_foley_vr_outfit_clothgloves.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/gamecore/keywords/keywordsound.template?/keyword_foley_vr_outfit_clothgloves.entitytemplate].pc_entityblueprint",
+			"properties": { "m_rHolder": { "type": "SEntityTemplateReference", "value": "41ed462dcf3ec7d0" } }
+		},
+		"418e97e12a44c07b": {
+			"parent": "5633d5827dde2784",
+			"name": "Prof_Colorado",
+			"factory": "[assembly:/_pro/design/actor/profession.template?/prof_colorado.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_colorado.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_aHolders": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["1acef4ad13b81f68", "5633d5827dde2784"]
+				}
+			}
+		},
+		"35542ef299f7900b": {
+			"parent": "77a8f777c2ac0294",
+			"name": "Keyword_DIALOGUE_NPC_ROSE",
+			"factory": "[assembly:/_pro/design/gamecore/keywords/keywordaidialogue.template?/keyword_dialogue_npc_rose.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/gamecore/keywords/keywordaidialogue.template?/keyword_dialogue_npc_rose.entitytemplate].pc_entityblueprint",
+			"properties": { "m_rHolder": { "type": "SEntityTemplateReference", "value": "77a8f777c2ac0294" } }
+		},
+		"905357ac1fc697ff": {
+			"parent": "601c322657ff6950",
+			"name": "ItemKey_SMG02 NPC Shaurya",
+			"factory": "[modules:/zitemrepositorykeyentity.class].pc_entitytype",
+			"blueprint": "[modules:/zitemrepositorykeyentity.class].pc_entityblueprint",
+			"properties": { "m_RepositoryId": { "type": "ZGuid", "value": "3fd9825d-8aa5-48e0-97a9-ec8f541f871a" } }
+		},
+		"b9f2394083dc3d8e": {
+			"parent": "e336cf8f98952f3f",
+			"name": "Keyword_FOLEY_VR_OUTFIT_LEATHERGLOVES",
+			"factory": "[assembly:/_pro/design/gamecore/keywords/keywordsound.template?/keyword_foley_vr_outfit_leathergloves.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/gamecore/keywords/keywordsound.template?/keyword_foley_vr_outfit_leathergloves.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_rHolder": { "type": "SEntityTemplateReference", "value": "e336cf8f98952f3f", "postInit": true }
+			}
+		},
+		"f92948b701da6a5d": {
+			"parent": "182c5a67722bf829",
+			"name": "Keyword_Prof_Class_Default",
+			"factory": "007A51A2AFEC0D1A",
+			"blueprint": "00B0282A41C1CF2E",
+			"properties": {
+				"m_aHolders": { "type": "TArray<SEntityTemplateReference>", "value": ["182c5a67722bf829"], "postInit": true }
+			}
+		},
+		"eb15f949c464905d": {
+			"parent": "e336cf8f98952f3f",
+			"name": "Prof_Colorado_MilitiaSpecOps",
+			"factory": "[assembly:/_pro/design/actor/profession.template?/prof_colorado_militiaspecops.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_colorado_militiaspecops.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_aHolders": { "type": "TArray<SEntityTemplateReference>", "value": ["e336cf8f98952f3f"], "postInit": true }
+			}
+		},
+		"0f18ee70023b0094": {
+			"parent": "e336cf8f98952f3f",
+			"name": "CHARSET_MilitiaSpecOps_M",
+			"factory": "[assembly:/_pro/characters/templates/colorado/char_colorado_guards.template?/charset_militiaspecops_m.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/characters/templates/colorado/char_colorado_guards.template?/charset_militiaspecops_m.entitytemplate].pc_entityblueprint"
+		},
+		"fffffffffffffffe": {
+			"parent": null,
+			"name": "Scene",
+			"factory": "[modules:/zspatialentity.class].pc_entitytype",
+			"blueprint": "[modules:/zspatialentity.class].pc_entityblueprint"
+		},
+		"182c5a67722bf829": {
+			"parent": "2f59b5de8643b513",
+			"name": "Colorado_Worker_Hacker_M_HPA2134",
+			"factory": "[modules:/zglobaloutfitkit.class].pc_entitytype",
+			"blueprint": "[modules:/zglobaloutfitkit.class].pc_entityblueprint",
+			"properties": {
+				"m_DamageMultipliers": {
+					"type": "SBodyPartDamageMultipliers",
+					"value": {
+						"m_fHeadDamageMultiplier": 3.0,
+						"m_fFaceDamageMultiplier": 3.0,
+						"m_fArmDamageMultiplier": 1.0,
+						"m_fLArmDamageScalar": 0.0,
+						"m_fRArmDamageScalar": 0.0,
+						"m_fHandDamageMultiplier": 0.5,
+						"m_fLHandDamageScalar": 0.0,
+						"m_fRHandDamageScalar": 0.0,
+						"m_fLegDamageMultiplier": 0.6000000238418579,
+						"m_fLLegDamageScalar": 0.0,
+						"m_fRLegDamageScalar": 0.0,
+						"m_fTorsoDamageMultiplier": 1.0,
+						"m_bApplyLeftRightScalars": false
+					}
+				},
+				"m_eActorType": { "type": "EActorType", "value": "eAT_Civilian" },
+				"m_eActorCCClass": { "type": "EActorCCPreset", "value": "ACCP_CivilianeMale" },
+				"m_aCharSets": { "type": "TArray<SEntityTemplateReference>", "value": ["4ac903d32e71f5d1"] },
+				"m_eSoundFootwearType": { "type": "EHM5SoundFootwearType", "value": "EFWT_BOOTS" },
+				"m_sId": { "type": "ZGuid", "value": "aab7f28d-84d9-47d1-be52-d142f5970086" },
+				"m_pParentOutfit": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "6736fcbbd3e73209",
+						"externalScene": "[assembly:/_pro/scenes/bricks/globaldata.brick].pc_entitytype"
+					}
+				},
+				"m_sCommonName": { "type": "ZString", "value": "Colorado_Worker_Hacker_M_HPA2134" },
+				"m_sTitle": { "type": "ZString", "value": "Hacker" },
+				"m_rNameTextResource": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/localization/hitman6/conversations/ui/pro/online/repository/outfits_npcs_colorado.sweetmenutext?/outfits_colorado_worker_hacker_m_hpa2134_name_aab7f28d-84d9-47d1-be52-d142f5970086.sweetline].pc_sweetline",
+						"flag": "5F"
+					}
+				},
+				"m_rDescriptionTextResource": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/localization/hitman6/conversations/ui/pro/online/repository/outfits_npcs_colorado.sweetmenutext?/outfits_colorado_worker_hacker_m_hpa2134_description_aab7f28d-84d9-47d1-be52-d142f5970086.sweetline].pc_sweetline",
+						"flag": "5F"
+					}
+				},
+				"m_eOutfitAICategory": { "type": "EOutfitAICategory", "value": "OAC_Hacker" },
+				"m_bHeroDisguiseAvailable": { "type": "bool", "value": true },
+				"m_rDefaultVoiceVariations": {
+					"type": "TArray<EActorVoiceVariation>",
+					"value": ["eAVV_CIVMALE06", "eAVV_CIVMALE03", "eAVV_CIVMALE01"]
+				}
+			}
+		},
+		"a4ba10f957aa1d43": {
+			"parent": "ea2d69e22b157d3a",
+			"name": "Keyword_Prof_Class_Default",
+			"factory": "007A51A2AFEC0D1A",
+			"blueprint": "00B0282A41C1CF2E",
+			"properties": { "m_aHolders": { "type": "TArray<SEntityTemplateReference>", "value": ["ea2d69e22b157d3a"] } }
+		},
+		"bb48612ae93967b5": {
+			"parent": "41ed462dcf3ec7d0",
+			"name": "ItemKey_Shotgun01 NPC",
+			"factory": "[modules:/zitemrepositorykeyentity.class].pc_entitytype",
+			"blueprint": "[modules:/zitemrepositorykeyentity.class].pc_entityblueprint",
+			"properties": { "m_RepositoryId": { "type": "ZGuid", "value": "901a3b51-51a0-4236-bdf2-23d20696b358" } }
+		},
+		"5390026d634cebdc": {
+			"parent": "34e88a9981424177",
+			"name": "Keyword_Prof_Class_Default",
+			"factory": "007A51A2AFEC0D1A",
+			"blueprint": "00B0282A41C1CF2E",
+			"properties": { "m_aHolders": { "type": "TArray<SEntityTemplateReference>", "value": ["34e88a9981424177"] } }
+		},
+		"927dd46ccd154fec": {
+			"parent": "17e8233dc7740619",
+			"name": "ItemKey_Shotgun01 NPC",
+			"factory": "[modules:/zitemrepositorykeyentity.class].pc_entitytype",
+			"blueprint": "[modules:/zitemrepositorykeyentity.class].pc_entityblueprint",
+			"properties": { "m_RepositoryId": { "type": "ZGuid", "value": "901a3b51-51a0-4236-bdf2-23d20696b358" } }
+		},
+		"8e3de8d12607f1b7": {
+			"parent": "0378a8e27a4c36f6",
+			"name": "Prof_Colorado_Guard",
+			"factory": "[assembly:/_pro/design/actor/profession.template?/prof_colorado_guard.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_colorado_guard.entitytemplate].pc_entityblueprint",
+			"properties": { "m_aHolders": { "type": "TArray<SEntityTemplateReference>", "value": ["0378a8e27a4c36f6"] } }
+		},
+		"2dd6ffd8f06f9208": {
+			"parent": "5633d5827dde2784",
+			"name": "CHARSET_MayaParvati_F",
+			"factory": "[assembly:/_pro/characters/templates/colorado/char_colorado_unique.template?/charset_mayaparvati_f.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/characters/templates/colorado/char_colorado_unique.template?/charset_mayaparvati_f.entitytemplate].pc_entityblueprint"
+		},
+		"1ccdf28e8144a070": {
+			"parent": "e336cf8f98952f3f",
+			"name": "ItemKey_Pistol01 NPC",
+			"factory": "[modules:/zitemrepositorykeyentity.class].pc_entitytype",
+			"blueprint": "[modules:/zitemrepositorykeyentity.class].pc_entityblueprint",
+			"properties": { "m_RepositoryId": { "type": "ZGuid", "value": "55ed7196-2303-4af6-9fa3-45b691134561" } }
+		},
+		"80713fd4bfc6dff4": {
+			"parent": "e336cf8f98952f3f",
+			"name": "Keyword_Prof_Class_Guard_Heavy",
+			"factory": "00364659808ED13C",
+			"blueprint": "003A7D4D8810414B",
+			"properties": {
+				"m_aHolders": { "type": "TArray<SEntityTemplateReference>", "value": ["e336cf8f98952f3f"], "postInit": true }
+			}
+		},
+		"21d0fc1928bfae43": {
+			"parent": "97a8221f5dd1b5b0",
+			"name": "Prof_Colorado_Unique_PenelopeGraves",
+			"factory": "[assembly:/_pro/design/actor/profession.template?/prof_colorado_unique_penelopegraves.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_colorado_unique_penelopegraves.entitytemplate].pc_entityblueprint",
+			"properties": { "m_aHolders": { "type": "TArray<SEntityTemplateReference>", "value": ["97a8221f5dd1b5b0"] } }
+		},
+		"75978d7e258c0f6d": {
+			"parent": "0378a8e27a4c36f6",
+			"name": "Keyword_Prof_Class_Worker_HandyMan",
+			"factory": "002811AABB61822A",
+			"blueprint": "0035FE674764BAA4",
+			"properties": { "m_aHolders": { "type": "TArray<SEntityTemplateReference>", "value": ["0378a8e27a4c36f6"] } }
+		},
+		"622537f20f77b296": {
+			"parent": "97a8221f5dd1b5b0",
+			"name": "CHARSET_PenelopeGrave_F",
+			"factory": "[assembly:/_pro/characters/templates/colorado/char_colorado_unique.template?/charset_penelopegrave_f.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/characters/templates/colorado/char_colorado_unique.template?/charset_penelopegrave_f.entitytemplate].pc_entityblueprint"
+		},
+		"664d9d1857c5df5e": {
+			"parent": "182c5a67722bf829",
+			"name": "Prof_Colorado",
+			"factory": "[assembly:/_pro/design/actor/profession.template?/prof_colorado.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_colorado.entitytemplate].pc_entityblueprint",
+			"properties": { "m_aHolders": { "type": "TArray<SEntityTemplateReference>", "value": ["182c5a67722bf829"] } }
+		},
+		"fc7f817683aa989f": {
+			"parent": "41ed462dcf3ec7d0",
+			"name": "ItemKey_SMG01 NPC",
+			"factory": "[modules:/zitemrepositorykeyentity.class].pc_entitytype",
+			"blueprint": "[modules:/zitemrepositorykeyentity.class].pc_entityblueprint",
+			"properties": { "m_RepositoryId": { "type": "ZGuid", "value": "e206ed81-0559-4289-9fec-e6a3e9d4ee7c" } }
+		},
+		"295b578ad0d42844": {
+			"parent": "182c5a67722bf829",
+			"name": "Prof_Colorado_Hacker",
+			"factory": "[assembly:/_pro/design/actor/profession.template?/prof_colorado_hacker.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_colorado_hacker.entitytemplate].pc_entityblueprint",
+			"properties": { "m_aHolders": { "type": "TArray<SEntityTemplateReference>", "value": ["182c5a67722bf829"] } }
+		},
+		"5e374cafa9edc053": {
+			"parent": "17e8233dc7740619",
+			"name": "ItemKey_AssaultRifle01 NPC",
+			"factory": "[modules:/zitemrepositorykeyentity.class].pc_entitytype",
+			"blueprint": "[modules:/zitemrepositorykeyentity.class].pc_entityblueprint",
+			"properties": { "m_RepositoryId": { "type": "ZGuid", "value": "d8aa6eba-0cb7-4ed4-ab99-975f2793d731" } }
+		},
+		"a2034cd5337eaf3a": {
+			"parent": "77a8f777c2ac0294",
+			"name": "Prof_Colorado_Unique_SeanRose",
+			"factory": "[assembly:/_pro/design/actor/profession.template?/prof_colorado_unique_seanrose.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_colorado_unique_seanrose.entitytemplate].pc_entityblueprint",
+			"properties": { "m_aHolders": { "type": "TArray<SEntityTemplateReference>", "value": ["77a8f777c2ac0294"] } }
+		},
+		"4414165e092998b3": {
+			"parent": "182c5a67722bf829",
+			"name": "Prof_Colorado_Worker",
+			"factory": "[assembly:/_pro/design/actor/profession.template?/prof_colorado_worker.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_colorado_worker.entitytemplate].pc_entityblueprint",
+			"properties": { "m_aHolders": { "type": "TArray<SEntityTemplateReference>", "value": ["182c5a67722bf829"] } }
+		},
+		"5602d1462b7e93ae": {
+			"parent": "17e8233dc7740619",
+			"name": "Keyword_Prof_Class_Guard_Heavy",
+			"factory": "00364659808ED13C",
+			"blueprint": "003A7D4D8810414B",
+			"properties": {
+				"m_aHolders": { "type": "TArray<SEntityTemplateReference>", "value": ["17e8233dc7740619"], "postInit": true }
+			}
+		},
+		"af71ffb9d460ad05": {
+			"parent": "1e9e1de4f8f2392e",
+			"name": "Keyword_Prof_Class_Guard_Heavy",
+			"factory": "00364659808ED13C",
+			"blueprint": "003A7D4D8810414B",
+			"properties": {
+				"m_aHolders": { "type": "TArray<SEntityTemplateReference>", "value": ["1e9e1de4f8f2392e"], "postInit": true }
+			}
+		},
+		"e1213365ffed70ba": {
+			"parent": "8146feab7da46f0e",
+			"name": "Prof_Colorado_Unique_Scarecrow",
+			"factory": "[assembly:/_pro/design/actor/profession.template?/prof_colorado_unique_scarecrow.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_colorado_unique_scarecrow.entitytemplate].pc_entityblueprint",
+			"properties": { "m_aHolders": { "type": "TArray<SEntityTemplateReference>", "value": ["8146feab7da46f0e"] } }
+		},
+		"53ccab11e33a86bb": {
+			"parent": "41ed462dcf3ec7d0",
+			"name": "ItemKey_AssaultRifle03 NPC Shooting Range version",
+			"factory": "[modules:/zitemrepositorykeyentity.class].pc_entitytype",
+			"blueprint": "[modules:/zitemrepositorykeyentity.class].pc_entityblueprint",
+			"properties": { "m_RepositoryId": { "type": "ZGuid", "value": "6b93848c-8f1d-42eb-816f-bab61b56d8a5" } }
+		},
+		"3dbada7968c451c9": {
+			"parent": "601c322657ff6950",
+			"name": "Keyword_FOLEY_VR_OUTFIT_CLOTHGLOVES",
+			"factory": "[assembly:/_pro/design/gamecore/keywords/keywordsound.template?/keyword_foley_vr_outfit_clothgloves.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/gamecore/keywords/keywordsound.template?/keyword_foley_vr_outfit_clothgloves.entitytemplate].pc_entityblueprint",
+			"properties": { "m_rHolder": { "type": "SEntityTemplateReference", "value": "601c322657ff6950" } }
+		},
+		"f0de1751a26d17ee": {
+			"parent": "17e8233dc7740619",
+			"name": "Keyword_Prof_Class_Default",
+			"factory": "007A51A2AFEC0D1A",
+			"blueprint": "00B0282A41C1CF2E",
+			"properties": {
+				"m_aHolders": { "type": "TArray<SEntityTemplateReference>", "value": ["17e8233dc7740619"], "postInit": true }
+			}
+		},
+		"d16c19ecabbc626a": {
+			"parent": "1e9e1de4f8f2392e",
+			"name": "ItemKey_Pistol02 NPC",
+			"factory": "[modules:/zitemrepositorykeyentity.class].pc_entitytype",
+			"blueprint": "[modules:/zitemrepositorykeyentity.class].pc_entityblueprint",
+			"properties": { "m_RepositoryId": { "type": "ZGuid", "value": "2953e9ac-e25b-41ae-afbf-4a47f86c4f54" } }
+		},
+		"c74a90d44a670d92": {
+			"parent": "97a8221f5dd1b5b0",
+			"name": "Keyword_FOLEY_OUTFIT_CIV_CLOTH_LIGHT",
+			"factory": "[assembly:/_pro/design/gamecore/keywords/keywordsound.template?/keyword_foley_outfit_civ_cloth_light.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/gamecore/keywords/keywordsound.template?/keyword_foley_outfit_civ_cloth_light.entitytemplate].pc_entityblueprint",
+			"properties": { "m_rHolder": { "type": "SEntityTemplateReference", "value": "97a8221f5dd1b5b0" } }
+		},
+		"e7836065d421e54d": {
+			"parent": "0378a8e27a4c36f6",
+			"name": "CHARSET_MilitiaTechnician_M",
+			"factory": "[assembly:/_pro/characters/templates/colorado/char_colorado_guards.template?/charset_militiatechnician_m.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/characters/templates/colorado/char_colorado_guards.template?/charset_militiatechnician_m.entitytemplate].pc_entityblueprint"
+		},
+		"9db08a1677794dc0": {
+			"parent": "1e9e1de4f8f2392e",
+			"name": "Prof_Colorado_MilitiaCook",
+			"factory": "[assembly:/_pro/design/actor/profession.template?/prof_colorado_militiacook.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_colorado_militiacook.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_aHolders": { "type": "TArray<SEntityTemplateReference>", "value": ["1e9e1de4f8f2392e"], "postInit": true }
+			}
+		},
+		"fda6cc01bca76524": {
+			"parent": "34e88a9981424177",
+			"name": "ItemKey__Grenade_ Flash",
+			"factory": "[modules:/zitemrepositorykeyentity.class].pc_entitytype",
+			"blueprint": "[modules:/zitemrepositorykeyentity.class].pc_entityblueprint",
+			"properties": { "m_RepositoryId": { "type": "ZGuid", "value": "042fae7b-fe9e-4a83-ac7b-5c914a71b2ca" } }
+		},
+		"8a92d7dffb570c2f": {
+			"parent": "601c322657ff6950",
+			"name": "ItemKey_Pistol01 NPC",
+			"factory": "[modules:/zitemrepositorykeyentity.class].pc_entitytype",
+			"blueprint": "[modules:/zitemrepositorykeyentity.class].pc_entityblueprint",
+			"properties": { "m_RepositoryId": { "type": "ZGuid", "value": "55ed7196-2303-4af6-9fa3-45b691134561" } }
+		},
+		"529d379f275bd78a": {
+			"parent": "41ed462dcf3ec7d0",
+			"name": "Keyword_Prof_Class_Default",
+			"factory": "007A51A2AFEC0D1A",
+			"blueprint": "00B0282A41C1CF2E",
+			"properties": { "m_aHolders": { "type": "TArray<SEntityTemplateReference>", "value": ["41ed462dcf3ec7d0"] } }
+		},
+		"d46fb4668f5e6d59": {
+			"parent": "77a8f777c2ac0294",
+			"name": "CHARSET_Sean_M",
+			"factory": "[assembly:/_pro/characters/templates/colorado/char_colorado_unique.template?/charset_sean_m.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/characters/templates/colorado/char_colorado_unique.template?/charset_sean_m.entitytemplate].pc_entityblueprint"
+		},
+		"599821b56dcc0728": {
+			"parent": "8146feab7da46f0e",
+			"name": "Keyword_FOLEY_VR_OUTFIT_LEATHERGLOVES",
+			"factory": "[assembly:/_pro/design/gamecore/keywords/keywordsound.template?/keyword_foley_vr_outfit_leathergloves.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/gamecore/keywords/keywordsound.template?/keyword_foley_vr_outfit_leathergloves.entitytemplate].pc_entityblueprint",
+			"properties": { "m_rHolder": { "type": "SEntityTemplateReference", "value": "8146feab7da46f0e" } }
+		},
+		"2f59b5de8643b513": {
+			"parent": "cb4aa5072abede33",
+			"name": "Colorado_Ambient",
+			"factory": "[modules:/zentity.class].pc_entitytype",
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
+		},
+		"0c0cf5f1577c1e40": {
+			"parent": "601c322657ff6950",
+			"name": "Prof_Colorado_Guard",
+			"factory": "[assembly:/_pro/design/actor/profession.template?/prof_colorado_guard.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_colorado_guard.entitytemplate].pc_entityblueprint",
+			"properties": { "m_aHolders": { "type": "TArray<SEntityTemplateReference>", "value": ["601c322657ff6950"] } }
+		},
+		"4bfd2ceea4f241ec": {
+			"parent": "e336cf8f98952f3f",
+			"name": "Prof_Colorado_Guard",
+			"factory": "[assembly:/_pro/design/actor/profession.template?/prof_colorado_guard.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_colorado_guard.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_aHolders": { "type": "TArray<SEntityTemplateReference>", "value": ["e336cf8f98952f3f"], "postInit": true }
+			}
+		},
+		"1ab3af8563248784": {
+			"parent": "0378a8e27a4c36f6",
+			"name": "ItemKey_AssaultRifle01 NPC",
+			"factory": "[modules:/zitemrepositorykeyentity.class].pc_entitytype",
+			"blueprint": "[modules:/zitemrepositorykeyentity.class].pc_entityblueprint",
+			"properties": { "m_RepositoryId": { "type": "ZGuid", "value": "d8aa6eba-0cb7-4ed4-ab99-975f2793d731" } }
+		},
+		"52a3c5c8b73387fe": {
+			"parent": "601c322657ff6950",
+			"name": "Keyword_Prof_Class_Guard_Heavy",
+			"factory": "00364659808ED13C",
+			"blueprint": "003A7D4D8810414B",
+			"properties": { "m_aHolders": { "type": "TArray<SEntityTemplateReference>", "value": ["601c322657ff6950"] } }
+		},
+		"972d6889b0511399": {
+			"parent": "1acef4ad13b81f68",
+			"name": "Prof_Colorado_Unique",
+			"factory": "[assembly:/_pro/design/actor/profession.template?/prof_colorado_unique.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_colorado_unique.entitytemplate].pc_entityblueprint",
+			"properties": { "m_aHolders": { "type": "TArray<SEntityTemplateReference>", "value": ["1acef4ad13b81f68"] } }
+		},
+		"34c4d9eacbf65d56": {
+			"parent": "8146feab7da46f0e",
+			"name": "Prof_Colorado",
+			"factory": "[assembly:/_pro/design/actor/profession.template?/prof_colorado.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_colorado.entitytemplate].pc_entityblueprint",
+			"properties": { "m_aHolders": { "type": "TArray<SEntityTemplateReference>", "value": ["8146feab7da46f0e"] } }
+		},
+		"f74b35046e6c081a": {
+			"parent": "8146feab7da46f0e",
+			"name": "Prof_Colorado_Unique",
+			"factory": "[assembly:/_pro/design/actor/profession.template?/prof_colorado_unique.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_colorado_unique.entitytemplate].pc_entityblueprint",
+			"properties": { "m_aHolders": { "type": "TArray<SEntityTemplateReference>", "value": ["8146feab7da46f0e"] } }
+		},
+		"3088aff9c6545748": {
+			"parent": "1acef4ad13b81f68",
+			"name": "CHARSET_Hostage_M",
+			"factory": "[assembly:/_pro/characters/templates/colorado/char_colorado_unique.template?/charset_hostage_m.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/characters/templates/colorado/char_colorado_unique.template?/charset_hostage_m.entitytemplate].pc_entityblueprint"
+		},
+		"e336cf8f98952f3f": {
+			"parent": "2f59b5de8643b513",
+			"name": "Colorado_Guard_MilitiaSpecOps_M_HPA1094",
+			"factory": "[modules:/zglobaloutfitkit.class].pc_entitytype",
+			"blueprint": "[modules:/zglobaloutfitkit.class].pc_entityblueprint",
+			"properties": {
+				"m_DamageMultipliers": {
+					"type": "SBodyPartDamageMultipliers",
+					"value": {
+						"m_fHeadDamageMultiplier": 3.0,
+						"m_fFaceDamageMultiplier": 3.0,
+						"m_fArmDamageMultiplier": 1.0,
+						"m_fLArmDamageScalar": 0.0,
+						"m_fRArmDamageScalar": 0.0,
+						"m_fHandDamageMultiplier": 0.5,
+						"m_fLHandDamageScalar": 0.0,
+						"m_fRHandDamageScalar": 0.0,
+						"m_fLegDamageMultiplier": 0.6000000238418579,
+						"m_fLLegDamageScalar": 0.0,
+						"m_fRLegDamageScalar": 0.0,
+						"m_fTorsoDamageMultiplier": 1.0,
+						"m_bApplyLeftRightScalars": false
+					}
+				},
+				"m_bHeroDisguiseAvailable": { "type": "bool", "value": true },
+				"m_bWeaponsAllowed": { "type": "bool", "value": true },
+				"m_aCharSets": { "type": "TArray<SEntityTemplateReference>", "value": ["0f18ee70023b0094"] },
+				"m_eSoundFootwearType": { "type": "EHM5SoundFootwearType", "value": "EFWT_BOOTS" },
+				"m_sId": { "type": "ZGuid", "value": "ed1a4bf9-0641-4e70-9af1-d6e68cbb84d6" },
+				"m_pParentOutfit": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "1357f3657950d38e",
+						"externalScene": "[assembly:/_pro/scenes/bricks/globaldata.brick].pc_entitytype"
+					}
+				},
+				"m_AvailableWeaponKeys": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						"1ccdf28e8144a070",
+						"eda8e285dcee39f8",
+						"29623cb40bdc3ad3",
+						"89bb220004c63e48",
+						"1783a621c0acbd1a",
+						"684560a797d4a8f2"
+					]
+				},
+				"m_sCommonName": { "type": "ZString", "value": "Colorado_Guard_MilitiaSpecOps_M_HPA1094" },
+				"m_sTitle": { "type": "ZString", "value": "Militia Spec Ops" },
+				"m_eOutfitAICategory": { "type": "EOutfitAICategory", "value": "OAC_SpecOps" },
+				"m_rNameTextResource": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/localization/hitman6/conversations/ui/pro/online/repository/outfits_npcs_colorado.sweetmenutext?/outfits_colorado_guard_militiaspecops_m_hpa1094_name_ed1a4bf9-0641-4e70-9af1-d6e68cbb84d6.sweetline].pc_sweetline",
+						"flag": "5F"
+					}
+				},
+				"m_rDescriptionTextResource": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/localization/hitman6/conversations/ui/pro/online/repository/outfits_npcs_colorado.sweetmenutext?/outfits_colorado_guard_militiaspecops_m_hpa1094_description_ed1a4bf9-0641-4e70-9af1-d6e68cbb84d6.sweetline].pc_sweetline",
+						"flag": "5F"
+					}
+				},
+				"m_rDefaultVoiceVariations": {
+					"type": "TArray<EActorVoiceVariation>",
+					"value": ["eAVV_SPECOPS01", "eAVV_SPECOPS02", "eAVV_SPECOPS03"]
+				},
+				"m_AvailableGrenadeKeys": { "type": "TArray<SEntityTemplateReference>", "value": ["87bc8ae44faf17e7"] },
+				"m_aWeaponsAllowedExceptionKeywords": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["70cdf0ea25752c32"]
+				}
+			}
+		},
+		"a90327ecdcd24c47": {
+			"parent": "1e9e1de4f8f2392e",
+			"name": "Keyword_ITEM_SNIPER_RIFLE",
+			"factory": "[assembly:/_pro/design/gamecore/keywords/keyworditems.template?/keyword_item_sniper_rifle.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/gamecore/keywords/keyworditems.template?/keyword_item_sniper_rifle.entitytemplate].pc_entityblueprint"
+		},
+		"ab41a8dac5f53bc8": {
+			"parent": "1e9e1de4f8f2392e",
+			"name": "ItemKey_Melee_KitchenKnife",
+			"factory": "[modules:/zitemrepositorykeyentity.class].pc_entitytype",
+			"blueprint": "[modules:/zitemrepositorykeyentity.class].pc_entityblueprint",
+			"properties": { "m_RepositoryId": { "type": "ZGuid", "value": "e17172cc-bf70-4df6-9828-d9856b1a24fd" } }
+		},
+		"8eda110d4ec97b04": {
+			"parent": "0378a8e27a4c36f6",
+			"name": "Keyword_Prof_Class_Guard_Heavy",
+			"factory": "00364659808ED13C",
+			"blueprint": "003A7D4D8810414B",
+			"properties": { "m_aHolders": { "type": "TArray<SEntityTemplateReference>", "value": ["0378a8e27a4c36f6"] } }
+		},
+		"ea387a0695d6c1f8": {
+			"parent": "41ed462dcf3ec7d0",
+			"name": "ItemKey__Grenade_ Flash",
+			"factory": "[modules:/zitemrepositorykeyentity.class].pc_entitytype",
+			"blueprint": "[modules:/zitemrepositorykeyentity.class].pc_entityblueprint",
+			"properties": { "m_RepositoryId": { "type": "ZGuid", "value": "042fae7b-fe9e-4a83-ac7b-5c914a71b2ca" } }
+		},
+		"1e9e1de4f8f2392e": {
+			"parent": "2f59b5de8643b513",
+			"name": "Colorado_Guard_MilitiaCook_M_HPA2785",
+			"factory": "[modules:/zglobaloutfitkit.class].pc_entitytype",
+			"blueprint": "[modules:/zglobaloutfitkit.class].pc_entityblueprint",
+			"properties": {
+				"m_DamageMultipliers": {
+					"type": "SBodyPartDamageMultipliers",
+					"value": {
+						"m_fHeadDamageMultiplier": 3.0,
+						"m_fFaceDamageMultiplier": 3.0,
+						"m_fArmDamageMultiplier": 1.0,
+						"m_fLArmDamageScalar": 0.0,
+						"m_fRArmDamageScalar": 0.0,
+						"m_fHandDamageMultiplier": 0.5,
+						"m_fLHandDamageScalar": 0.0,
+						"m_fRHandDamageScalar": 0.0,
+						"m_fLegDamageMultiplier": 0.6000000238418579,
+						"m_fLLegDamageScalar": 0.0,
+						"m_fRLegDamageScalar": 0.0,
+						"m_fTorsoDamageMultiplier": 1.0,
+						"m_bApplyLeftRightScalars": false
+					}
+				},
+				"m_bHeroDisguiseAvailable": { "type": "bool", "value": true },
+				"m_bWeaponsAllowed": { "type": "bool", "value": true },
+				"m_aCharSets": { "type": "TArray<SEntityTemplateReference>", "value": ["3d973915f179734d"] },
+				"m_eSoundFootwearType": { "type": "EHM5SoundFootwearType", "value": "EFWT_RUBBER_BOOTS" },
+				"m_sId": { "type": "ZGuid", "value": "dac13714-a012-47cf-b76a-150cfc4cece5" },
+				"m_pParentOutfit": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "1357f3657950d38e",
+						"externalScene": "[assembly:/_pro/scenes/bricks/globaldata.brick].pc_entitytype"
+					}
+				},
+				"m_AvailableWeaponKeys": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						"d16c19ecabbc626a",
+						"8dee6e83686253d6",
+						"f13a1be0e069e375",
+						"840bb21e771d07cf",
+						"ab41a8dac5f53bc8",
+						"225742b8f7dd24ba"
+					]
+				},
+				"m_sCommonName": { "type": "ZString", "value": "Colorado_Guard_MilitiaCook_M_HPA2785" },
+				"m_sTitle": { "type": "ZString", "value": "Militia Cook" },
+				"m_eOutfitAICategory": { "type": "EOutfitAICategory", "value": "OAC_Chef" },
+				"m_rNameTextResource": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/localization/hitman6/conversations/ui/pro/online/repository/outfits_npcs_colorado.sweetmenutext?/outfits_colorado_guard_militiacook_m_hpa2785_name_dac13714-a012-47cf-b76a-150cfc4cece5.sweetline].pc_sweetline",
+						"flag": "5F"
+					}
+				},
+				"m_rDescriptionTextResource": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/localization/hitman6/conversations/ui/pro/online/repository/outfits_npcs_colorado.sweetmenutext?/outfits_colorado_guard_militiacook_m_hpa2785_description_dac13714-a012-47cf-b76a-150cfc4cece5.sweetline].pc_sweetline",
+						"flag": "5F"
+					}
+				},
+				"m_AvailableGrenadeKeys": { "type": "TArray<SEntityTemplateReference>", "value": ["a031f2a4fc3d755b"] },
+				"m_aWeaponsAllowedExceptionKeywords": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["a90327ecdcd24c47"]
+				}
+			}
+		},
+		"1878cf258e590f4b": {
+			"parent": "17e8233dc7740619",
+			"name": "KeywordEntity_FOLEY_OUTFIT_GUARD",
+			"factory": "[assembly:/_pro/design/gamecore/keywords/keywordsound.template?/keywordentity_foley_outfit_guard.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/gamecore/keywords/keywordsound.template?/keywordentity_foley_outfit_guard.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_rHolder": { "type": "SEntityTemplateReference", "value": "17e8233dc7740619", "postInit": true }
+			}
+		},
+		"a5f9661e13ef29eb": {
+			"parent": "41ed462dcf3ec7d0",
+			"name": "CHARSET_MilitiaBasic_M",
+			"factory": "[assembly:/_pro/characters/templates/colorado/char_colorado_guards.template?/charset_militiabasic_m.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/characters/templates/colorado/char_colorado_guards.template?/charset_militiabasic_m.entitytemplate].pc_entityblueprint"
+		},
+		"d5b2dca2d7da72d7": {
+			"parent": "601c322657ff6950",
+			"name": "ItemKey__Grenade_ Flash 1",
+			"factory": "[modules:/zitemrepositorykeyentity.class].pc_entitytype",
+			"blueprint": "[modules:/zitemrepositorykeyentity.class].pc_entityblueprint",
+			"properties": { "m_RepositoryId": { "type": "ZGuid", "value": "042fae7b-fe9e-4a83-ac7b-5c914a71b2ca" } }
+		},
+		"d7b3b4a8ed43caac": {
+			"parent": "5633d5827dde2784",
+			"name": "Prof_Colorado_Unique",
+			"factory": "[assembly:/_pro/design/actor/profession.template?/prof_colorado_unique.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_colorado_unique.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_aHolders": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["1acef4ad13b81f68", "5633d5827dde2784"]
+				}
+			}
+		},
+		"b7630483c8fa5705": {
+			"parent": "34e88a9981424177",
+			"name": "ItemKey_SMG01 NPC",
+			"factory": "[modules:/zitemrepositorykeyentity.class].pc_entitytype",
+			"blueprint": "[modules:/zitemrepositorykeyentity.class].pc_entityblueprint",
+			"properties": { "m_RepositoryId": { "type": "ZGuid", "value": "e206ed81-0559-4289-9fec-e6a3e9d4ee7c" } }
+		},
+		"aba81a83bec4e161": {
+			"parent": "601c322657ff6950",
+			"name": "ItemKey_Shotgun01 NPC",
+			"factory": "[modules:/zitemrepositorykeyentity.class].pc_entitytype",
+			"blueprint": "[modules:/zitemrepositorykeyentity.class].pc_entityblueprint",
+			"properties": { "m_RepositoryId": { "type": "ZGuid", "value": "901a3b51-51a0-4236-bdf2-23d20696b358" } }
+		},
+		"fe421b083887ea16": {
+			"parent": "e336cf8f98952f3f",
+			"name": "Prof_Colorado",
+			"factory": "[assembly:/_pro/design/actor/profession.template?/prof_colorado.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_colorado.entitytemplate].pc_entityblueprint",
+			"properties": { "m_aHolders": { "type": "TArray<SEntityTemplateReference>", "value": ["e336cf8f98952f3f"] } }
+		},
+		"ce20b04602e5509a": {
+			"parent": "97a8221f5dd1b5b0",
+			"name": "Keyword_Prof_Class_Default",
+			"factory": "007A51A2AFEC0D1A",
+			"blueprint": "00B0282A41C1CF2E",
+			"properties": { "m_aHolders": { "type": "TArray<SEntityTemplateReference>", "value": ["97a8221f5dd1b5b0"] } }
+		},
+		"17e8233dc7740619": {
+			"parent": "2f59b5de8643b513",
+			"name": "Colorado_Unique_StrikeLeader_M_HPA2421",
+			"factory": "[modules:/zglobaloutfitkit.class].pc_entitytype",
+			"blueprint": "[modules:/zglobaloutfitkit.class].pc_entityblueprint",
+			"properties": {
+				"m_DamageMultipliers": {
+					"type": "SBodyPartDamageMultipliers",
+					"value": {
+						"m_fHeadDamageMultiplier": 3.0,
+						"m_fFaceDamageMultiplier": 3.0,
+						"m_fArmDamageMultiplier": 1.0,
+						"m_fLArmDamageScalar": 0.0,
+						"m_fRArmDamageScalar": 0.0,
+						"m_fHandDamageMultiplier": 0.5,
+						"m_fLHandDamageScalar": 0.0,
+						"m_fRHandDamageScalar": 0.0,
+						"m_fLegDamageMultiplier": 0.6000000238418579,
+						"m_fLLegDamageScalar": 0.0,
+						"m_fRLegDamageScalar": 0.0,
+						"m_fTorsoDamageMultiplier": 1.0,
+						"m_bApplyLeftRightScalars": false
+					}
+				},
+				"m_bHeroDisguiseAvailable": { "type": "bool", "value": true },
+				"m_bWeaponsAllowed": { "type": "bool", "value": true },
+				"m_eSoundFootwearType": { "type": "EHM5SoundFootwearType", "value": "EFWT_BOOTS" },
+				"m_sId": { "type": "ZGuid", "value": "338021a8-0c61-4732-a991-559e25e49efe" },
+				"m_pParentOutfit": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "958ef354a73d986e",
+						"externalScene": "[assembly:/_pro/scenes/bricks/globaldata.brick].pc_entitytype"
+					}
+				},
+				"m_AvailableWeaponKeys": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["3171247e644a489c", "e8078e0918fa0308", "927dd46ccd154fec", "5e374cafa9edc053"]
+				},
+				"m_sCommonName": { "type": "ZString", "value": "Colorado_Unique_StrikeLeader_M_HPA2421" },
+				"m_sTitle": { "type": "ZString", "value": "Strike Leader" },
+				"m_eOutfitAICategory": { "type": "EOutfitAICategory", "value": "OAC_SpecOps" },
+				"m_rNameTextResource": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/localization/hitman6/conversations/ui/pro/online/repository/outfits_npcs_colorado.sweetmenutext?/outfits_colorado_unique_strikeleader_m_hpa2421_name_338021a8-0c61-4732-a991-559e25e49efe.sweetline].pc_sweetline",
+						"flag": "5F"
+					}
+				},
+				"m_rDescriptionTextResource": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/localization/hitman6/conversations/ui/pro/online/repository/outfits_npcs_colorado.sweetmenutext?/outfits_colorado_unique_strikeleader_m_hpa2421_description_338021a8-0c61-4732-a991-559e25e49efe.sweetline].pc_sweetline",
+						"flag": "5F"
+					}
+				},
+				"m_bAllowRadioAct": { "type": "bool", "value": true },
+				"m_eActorCCClass": { "type": "EActorCCPreset", "value": "ACCP_GuardMaleSuperElite" },
+				"m_bPreferredAccidentInvestigator": { "type": "bool", "value": true },
+				"m_eActorRank": { "type": "EActorRank", "value": "AR_Elite" },
+				"m_bAuthorityFigure": { "type": "bool", "value": true },
+				"m_rDefaultVoiceVariations": {
+					"type": "TArray<EActorVoiceVariation>",
+					"value": ["eAVV_SPECOPS01", "eAVV_SPECOPS02", "eAVV_SPECOPS03"]
+				},
+				"m_aCharSets": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["f993b1e8736ce2f4"],
+					"postInit": true
+				}
+			}
+		},
+		"edfc456a42217749": {
+			"parent": "0378a8e27a4c36f6",
+			"name": "ItemKey_Shotgun01 NPC",
+			"factory": "[modules:/zitemrepositorykeyentity.class].pc_entitytype",
+			"blueprint": "[modules:/zitemrepositorykeyentity.class].pc_entityblueprint",
+			"properties": { "m_RepositoryId": { "type": "ZGuid", "value": "901a3b51-51a0-4236-bdf2-23d20696b358" } }
+		},
+		"bdf6e51c03c57117": {
+			"parent": "77a8f777c2ac0294",
+			"name": "Keyword_Prof_Class_Default",
+			"factory": "007A51A2AFEC0D1A",
+			"blueprint": "00B0282A41C1CF2E",
+			"properties": { "m_aHolders": { "type": "TArray<SEntityTemplateReference>", "value": ["77a8f777c2ac0294"] } }
+		},
+		"f993b1e8736ce2f4": {
+			"parent": "17e8233dc7740619",
+			"name": "CHARSET_StrikeLeader_M",
+			"factory": "[assembly:/_pro/characters/templates/colorado/char_colorado_guards.template?/charset_strikeleader_m.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/characters/templates/colorado/char_colorado_guards.template?/charset_strikeleader_m.entitytemplate].pc_entityblueprint"
+		},
+		"897dd3f89458562a": {
+			"parent": "1acef4ad13b81f68",
+			"name": "Keyword_Prof_Class_Default",
+			"factory": "007A51A2AFEC0D1A",
+			"blueprint": "00B0282A41C1CF2E",
+			"properties": { "m_aHolders": { "type": "TArray<SEntityTemplateReference>", "value": ["1acef4ad13b81f68"] } }
+		}
+	},
+	"propertyOverrides": [],
+	"overrideDeletes": [],
+	"pinConnectionOverrides": [],
+	"pinConnectionOverrideDeletes": [],
+	"externalScenes": ["[assembly:/_pro/scenes/bricks/globaldata.brick].pc_entitytype"],
+	"subType": "brick",
+	"quickEntityVersion": 3.1,
+	"extraFactoryDependencies": [],
+	"extraBlueprintDependencies": [
+		"[modules:/zplayerinvegetationqueryentity.class].pc_entityblueprint",
+		"[assembly:/_pro/design/logic/valuebool.template?/valuebool_basic.entitytemplate].pc_entityblueprint",
+		"[modules:/zplayerincrowdqueryentity.class].pc_entityblueprint",
+		"[assembly:/_pro/design/logic/valuebool.template?/valuebool_operation.entitytemplate].pc_entityblueprint",
+		"[modules:/zsightattentiontoplayerqueryentity.class].pc_entityblueprint",
+		"[modules:/zobjectivecompletedentity.class].pc_entityblueprint",
+		"[modules:/zconverttovoidentity_bool.class].pc_entityblueprint",
+		"[modules:/zsounddefresource.class].pc_entityblueprint",
+		"00CB85D6E86FFEF8",
+		"[modules:/zaisoundeventconfig_speak.class].pc_entityblueprint",
+		"[modules:/zaisoundeventconfig_misc.class].pc_entityblueprint",
+		"[modules:/zaisoundeventconfig_item.class].pc_entityblueprint",
+		"[modules:/zaisoundeventconfig_crowd.class].pc_entityblueprint",
+		"[modules:/zaisoundeventconfig_closecombat.class].pc_entityblueprint",
+		"[modules:/zaisoundeventconfig_actions.class].pc_entityblueprint",
+		"[modules:/zaisoundeventproducer.class].pc_entityblueprint",
+		"[modules:/zaisoundeventprocessor.class].pc_entityblueprint",
+		"[modules:/zaisoundeventdescriptor.class].pc_entityblueprint",
+		"[modules:/zaisoundeventobjectproxy.class].pc_entityblueprint",
+		"[modules:/zaisoundeventobjectproxyprobe_itemowner.class].pc_entityblueprint",
+		"[modules:/zaisoundeventobjectproxyprobe_firearmdischarge.class].pc_entityblueprint",
+		"[modules:/zaisoundeventdescriptorexternal.class].pc_entityblueprint",
+		"[modules:/zaisoundeventobjectproxyprobe_playermovementstate.class].pc_entityblueprint",
+		"[modules:/zaisoundeventconfig_firearm.class].pc_entityblueprint",
+		"[assembly:/sound/wwise/exportedwwisedata/states/gameplay_gamestates/gameplay_movementstates.wwisestategroup].pc_entityblueprint",
+		"[modules:/zammodescriptorentity.class].pc_entityblueprint",
+		"[assembly:/templates/camera/indoor.template?/indoor.entitytemplate].pc_entityblueprint",
+		"[modules:/zhm5gamecamprofileentity.class].pc_entityblueprint",
+		"0055DE8431A2C03A",
+		"00484239A1E53A5B",
+		"00B41F10634D3C8A",
+		"[modules:/ztokenidentity.class].pc_entityblueprint",
+		"[assembly:/_pro/design/gamecore/events/eventchannel.template?/eventchanneltransmitter_bool.entitytemplate].pc_entityblueprint",
+		"009D71603EC9CFF9",
+		"001F86178F5ABAFD",
+		"[assembly:/_pro/design/setpieces/unique/setpiece_miami_unique.template?/valuebool_basic.entitytemplate].pc_entityblueprint",
+		"[modules:/zherostateconditionentity.class].pc_entityblueprint",
+		"[modules:/zgametensioncondition.class].pc_entityblueprint",
+		"[modules:/ztrespassingcondition.class].pc_entityblueprint",
+		"[assembly:/templates/gameplay/ai2/default_combatconfig.template?/default_combatconfig.entitytemplate].pc_entityblueprint",
+		"[modules:/zconversationdefinitionentity.class].pc_entityblueprint",
+		"[modules:/zhm5crowdblendinentity.class].pc_entityblueprint",
+		"[modules:/zhm5perceptiblecrowdactorentity.class].pc_entityblueprint",
+		"[modules:/zcrowdconfigentity.class].pc_entityblueprint",
+		"[modules:/zhm5ccprofile.class].pc_entityblueprint",
+		"[modules:/zsequenceentity.class].pc_entityblueprint",
+		"[modules:/zentitygroup.class].pc_entityblueprint",
+		"[modules:/zentitypropertytrack.class].pc_entityblueprint",
+		"[modules:/zfloatcurvesource.class].pc_entityblueprint",
+		"[modules:/zhm5actionkillsevent.class].pc_entityblueprint",
+		"[modules:/zdebughm5gametimemultiplierent.class].pc_entityblueprint",
+		"[modules:/zsignalgateentity_void.class].pc_entityblueprint",
+		"[assembly:/templates/gameplay/ai2/gametensionemitter.template?/gametensionemitter.entitytemplate].pc_entityblueprint",
+		"[modules:/ztossconfigurationentity.class].pc_entityblueprint",
+		"[modules:/zeventreceiverentity_void.class].pc_entityblueprint",
+		"[modules:/zhm5aimassistprofileentity.class].pc_entityblueprint",
+		"[modules:/zruntimeanimationvariationresource.class].pc_entityblueprint",
+		"[modules:/zdefaultcombatzoneentity.class].pc_entityblueprint",
+		"[modules:/znpcanimationsetdefinition.class].pc_entityblueprint",
+		"[modules:/zvariationresourceentity.class].pc_entityblueprint",
+		"[modules:/zdifficultycollectionentity.class].pc_entityblueprint",
+		"[modules:/zdifficultyparameterentity.class].pc_entityblueprint",
+		"00F65CCBCC2121A0",
+		"[modules:/zsecuritysystemcameraconfiguration.class].pc_entityblueprint",
+		"006F853718D068DC",
+		"002C85471CDD5E84",
+		"[modules:/zboxvolumeentity.class].pc_entityblueprint",
+		"[modules:/zdifficultycondition.class].pc_entityblueprint",
+		"[modules:/zaimassistantconfiguration.class].pc_entityblueprint",
+		"[modules:/zsignalpipeentity_void.class].pc_entityblueprint",
+		"[assembly:/_pro/design/gamecore/events/eventchannel.template?/eventchannelreceiver_void.entitytemplate].pc_entityblueprint",
+		"[modules:/zgestureforspeechentity.class].pc_entityblueprint",
+		"[modules:/zimpactconfigentity.class].pc_entityblueprint",
+		"[assembly:/_pro/design/actor/animvariation.template?/animset_bodyguard_pistol.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/actor/animvariation.template?/vri_bodyguard_smg_ump_evacuate_vip.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/actor/animvariation.template?/vri_bodyguard_pistol_evacuate_vip.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/actor/animvariation.template?/vri_bodyguard_assaultrifle_evacuate_vip.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/actor/animvariation.template?/animset_bodyguard_pistol_sick.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/actor/animvariation.template?/animset_bodyguard_assaultrifle_sick.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/actor/animvariation.template?/animset_bodyguard_sng_ump_sick.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/actor/animvariation.template?/animset_bodyguard_shotgun_sick.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/actor/animvariation.template?/animset_bodyguard_dragbody.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/actor/animvariation.template?/animset_bodyguard_pistol_carrysmallobject.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/actor/animvariation.template?/animset_bodyguard_sng_ump_carrysmallobject.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/actor/animvariation.template?/animset_bodyguard_assaultrifle_carrysmallobject.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/actor/animvariation.template?/animset_bodyguard_shotgun_carrysmallobject.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/actor/animvariation.template?/animset_bodyguard_pistol_glass.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/actor/animvariation.template?/animset_bodyguard_pistol_carrysuitcase.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/actor/animvariation.template?/animset_bodyguard_shotgun_carrysuitcase.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/actor/animvariation.template?/animset_bodyguard_assaultrifle_carrysuitcase.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/actor/animvariation.template?/animset_bodyguard_smg_ump_carrysuitcase.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/actor/animvariation.template?/animset_bodyguard_pistol_carrysuitcase_armed.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/actor/animvariation.template?/vri_bodyguard_shotgun_evacuate_vip.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/actor/animvariation.template?/animset_bodyguard_pistol_infected_phase01.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/actor/animvariation.template?/animset_bodyguard_assaultrifle_infected_phase01.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/actor/animvariation.template?/animset_bodyguard_shotgun_infected_phase01.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/actor/animvariation.template?/animset_bodyguard_smg_ump_infected_phase01.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/actor/animvariation.template?/animset_bodyguard_assaultrifle_carryplate.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/actor/animvariation.template?/animset_civ_male.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/actor/animvariation.template?/animset_civ_trolly.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/actor/animvariation.template?/animset_civ_tray.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/actor/animvariation.template?/animset_civ_suitcase.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/actor/animvariation.template?/animset_civ_smallobj.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/actor/animvariation.template?/animset_civ_glass.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/actor/animvariation.template?/animset_bodyguard_assaultrifle.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/actor/animvariation.template?/animset_bodyguard_smg_ump.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/actor/animvariation.template?/animset_civ_box.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/actor/animvariation.template?/animset_civ_plate.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/actor/animvariation.template?/animset_bodyguard_assaultrifle_armed.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/actor/animvariation.template?/animset_bodyguard_smg_ump_armed.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/actor/animvariation.template?/animset_bodyguard_shotgun.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/actor/animvariation.template?/animset_bodyguard_shotgun_armed.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/actor/animvariation.template?/animset_civ_1handedweapon.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/actor/animvariation.template?/animset_civ_2handedweapon.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/actor/animvariation.template?/animset_guard_flashlight.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/actor/animvariation.template?/animset_civ_male_sick.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/actor/animvariation.template?/animset_civ_carry_brickmine.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/actor/animvariation.template?/animset_civ_carry_proxymine.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/actor/animvariation.template?/animset_civ_carry_weapon_item.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/actor/animvariation.template?/animset_bodyguard_pistol_armed.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/actor/animvariation.template?/animset_civ_carry_pipe.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/actor/animvariation.template?/animset_civ_infected_phase01.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/actor/animvariation.template?/animset_civ_whiskeyglass.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/actor/animvariation.template?/animset_civ_male_phone.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/actor/animvariation.template?/animset_civ_umbrella.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/actor/animvariation.template?/vri_civ_male_vip.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/actor/animvariation.template?/vri_civ_male_vip_no_bodyguard.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/actor/animvariation.template?/animset_s03_civ_male_flashlight.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/actor/animvariation.template?/animset_civ_female_glass.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/actor/animvariation.template?/animset_civ_female_smallobj.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/actor/animvariation.template?/animset_civ_female_tray.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/actor/animvariation.template?/animset_civ_female_plate.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/actor/animvariation.template?/animset_civ_female_sick.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/actor/animvariation.template?/vri_civ_female_vip.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/actor/animvariation.template?/vri_civ_female_vip_no_bodyguard.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/actor/animvariation.template?/animset_civ_female_stemcell.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/actor/animvariation.template?/animset_civ_female.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/actor/animvariation.template?/animset_civ_female_suitcase.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/actor/animvariation.template?/animset_civ_female_infected_phase01.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/actor/animvariation.template?/animset_s03_civ_female_flashlight.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/actor/animvariation.template?/animset_civ_female_umbrella.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/actor/animvariation.template?/animset_civ_female_heel.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/characters/templates/civilians/civilians.template?/charset_underwear.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/actor/animvariation.template?/animset_cutsc_hitman.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/charset_agent47_trainingsuit.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/charset_agent47_outdooroutfit.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/charset_agent47_parissuit.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/charset_agent47_sapienza.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/charset_agent47_marrakesh.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/charset_agent47_bangkok.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/charset_agent47_hokkaido.entitytemplate].pc_entityblueprint",
+		"00457F5AD8A733CA",
+		"[assembly:/_pro/characters/templates/civilians/civilians.template?/charset_civiliana.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/actor/profession.template?/prof_agent47.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/gamecore/keywords/keywordsound.template?/keywordentity_foley_outfit_suit47.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/charset_agent47_signaturesuit.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/characters/templates/paris/elusivetargets.template?/charset_lumamba.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/actor/profession.template?/prof_hero_absolutionsuit.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/charset_agent47_absolution_no_gloves.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/actor/profession.template?/prof_hero_bloodmoneysuit.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/charset_agent47_bloodmoney_no_gloves.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/actor/profession.template?/prof_hero_requiemsuit.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/charset_agent47_requiemsuit.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/actor/profession.template?/prof_hero_marrakeshsuit.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/actor/profession.template?/prof_hero_parissuit.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/actor/profession.template?/prof_hero_sapienzasuit.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/actor/profession.template?/prof_hero_signaturesuit.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/charset_agent47_absolution_gloves.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/charset_agent47_bloodmoney_gloves.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/charset_agent47_signaturesuit_gloves.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/actor/profession.template?/prof_hero_ninjasuit.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/characters/templates/hokkaido/char_hokkaido_unique.template?/charset_ninjasuit_m.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/actor/profession.template?/prof_hero_patientsuit.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/gamecore/keywords/keywordsound.template?/keywordentity_foley_outfit_robe.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/actor/profession.template?/prof_hero_bangkoksuit.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/actor/profession.template?/prof_hero_coloradosuit.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/charset_agent47_coloradosuit.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/charset_agent47_sapienza_noglasses.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/charset_agent47_tuxedo_gloves.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/charset_agent47_hokkaido_requiem.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/charset_agent47_coloradosuit_hat.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/charset_agent47_bangkok_gloves.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/charset_agent47_sapienza_gloves.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/charset_agent47_marrakesh_gloves.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/actor/profession.template?/prof_hero_santaclaussuit.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/charset_santa_m.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/actor/profession.template?/prof_paris_unique_santa.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/actor/profession.template?/prof_hero_terminussuit.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/charset_agent47_terminushotel.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/actor/profession.template?/prof_hero_wintersuit.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/charset_agent47_wintersuit.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/charset_agent47_wintersuit_gloves.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/actor/profession.template?/prof_hero_clownsuit.entitytemplate].pc_entityblueprint",
+		"004D6C83441056AA",
+		"[assembly:/_pro/design/actor/profession.template?/prof_hero_cowboysuit.entitytemplate].pc_entityblueprint",
+		"00BF59B43A0D16DF",
+		"[assembly:/_pro/design/actor/profession.template?/prof_hero_darksnipersuit.entitytemplate].pc_entityblueprint",
+		"00C2989DA1097E2B",
+		"004385D6575C166B",
+		"[assembly:/_pro/design/actor/profession.template?/prof_stone.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/actor/profession.template?/prof_sniper.entitytemplate].pc_entityblueprint",
+		"00B1DE7675A88B38",
+		"[assembly:/_pro/design/actor/profession.template?/prof_knight.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/charset_agent47_sniper_gloves.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/actor/profession.template?/prof_hero_outdooroutfit.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/actor/profession.template?/prof_hero_trainingsuit.entitytemplate].pc_entityblueprint",
+		"0043173DBAAFCB19",
+		"[assembly:/_pro/design/actor/profession.template?/prof_hero_minininjassuit.entitytemplate].pc_entityblueprint",
+		"00E6AE0FD5CC291A",
+		"[assembly:/_pro/design/actor/profession.template?/prof_hero_freedomfightersuit.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/actor/profession.template?/prof_hero_kaneandlynchsuit.entitytemplate].pc_entityblueprint",
+		"002A4D4B176AD8C0",
+		"[assembly:/_pro/design/actor/profession.template?/prof_hero_theislandsuit.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/actor/profession.template?/prof_hero_blacksuit.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/charset_agent47_blacksuit.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/charset_agent47_reward_s2elusive10.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/charset_agent47_reward_s2elusivesa1.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/charset_agent47_reward_s1challangesnormalall.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/charset_agent47_reward_elusivemongoose.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/charset_agent47_reward_elusivemiami.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/charset_agent47_reward_elusivemagpie.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/charset_agent47_reward_elusivehippo.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/charset_agent47_reward_s1elusive.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/charset_agent47_reward_elusiveskunk.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/actor/profession.template?/prof_lucasgrey.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/characters/templates/hero/lucasgrey/lucasgrey_outfits.template?/charset_lucasgrey_default.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/charset_agent47_reward_ghostmode.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/actor/profession.template?/prof_hero_snowfestivalsuit.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/charset_agent47_arcticpack.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/actor/profession.template?/prof_hero_arcticpacksuit.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/charset_agent47_raccoon_gloves.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/gamecore/keywords/keywordsound.template?/keywordentity_foley_outfit_trenchcoat.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/charset_agent47_stingray_reward_islandsuit.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/charset_agent47_falcon.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/gamecore/keywords/keywordsound.template?/keywordentity_foley_outfit_colombiaguard.entitytemplate].pc_entityblueprint",
+		"009CCBC96C714356",
+		"009B82CACD9E7E86",
+		"[assembly:/_pro/characters/templates/skunk/char_skunk_unique.template?/charset_skunk_unique_exterminator_m.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/gamecore/keywords/keywordstates.template?/keyword_outbreak_starting_outfit.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/charset_agent47_springbreak.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/actor/profession.template?/prof_hero_chlorinemascotsuit.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/gamecore/keywords/keywordsound.template?/keywordentity_foley_outfit_civilian.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/charset_agent47_reward_hero_snakecharmer19_m.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/charset_agent47_hotsummer19.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/charset_agent47_reward_goldmask.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/charset_agent47_global_goldensuit.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/charset_agent47_smartcasualoutfit.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/charset_agent47_opuntia.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/charset_agent47_stingray_hero_pirateoutfit_m.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/gamecore/keywords/keywordsound.template?/keywordentity_foley_outfit_shaman.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/actor/profession.template?/prof_opulent_unique_pirate.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/actor/profession.template?/prof_hero_sheepsuit.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/charset_agent47_sheep.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/gamecore/keywords/keywordsound.template?/keyword_foley_vr_outfit_rubbergloves.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/actor/profession.template?/prof_hero_birthsuit.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/charset_agent47_preorder_lifesuit.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/charset_agent47_preorder_deathsuit.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/actor/profession.template?/prof_hero_deathsuit.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/actor/profession.template?/prof_hero_lifesuit.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/charset_agent47_preorder_birthsuit.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/charset_agent47_global_chinesesuit.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/charset_agent47_huntingsuit.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/charset_agent47_gecko_gloves.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/actor/profession.template?/prof_hero_gecko.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/actor/profession.template?/prof_hero_gecko_suit.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/actor/profession.template?/prof_hero_bulldog.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/actor/profession.template?/prof_hero_bulldog_suit.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/charset_agent47_bulldog_gloves.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/actor/profession.template?/prof_hero_fox.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/actor/profession.template?/prof_hero_fox_suit.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/charset_agent47_fox_gloves.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/charset_agent47_rat_gloves.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/actor/profession.template?/prof_hero_rat.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/actor/profession.template?/prof_hero_rat_suit.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/actor/profession.template?/prof_hero_llama.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/actor/profession.template?/prof_hero_llama_suit.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/charset_agent47_reward_elusivellama.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/charset_agent47_global_hero_redspecialsuit.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/actor/profession.template?/prof_hero_red_suit.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/charset_agent47_global_hero_greenspecialsuit.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/actor/profession.template?/prof_hero_green_suit.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/charset_agent47_global_hero_blackspecialsuit.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/actor/profession.template?/prof_hero_black_suit.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/charset_agent47_global_hero_bluespecialsuit.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/characters/templates/fox/char_fox_unique.template?/charset_fox_hero_raveroutfit_m.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/charset_agent47_global_guru.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/charset_agent47_global_whiteninja.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/charset_agent47_global_butcher.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/gamecore/keywords/keywordsound.template?/keywordentity_foley_outfit_plasticapron.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/charset_agent47_reward_s2elusive.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/charset_agent47_global_asylum.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/charset_agent47_global_greed.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/gamecore/keywords/keywordsound.template?/keyword_foley_vr_outfit_nogloves.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/gamecore/keywords/keywordsound.template?/keywordentity_foley_outfit_coins.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/characters/templates/fox/char_grasssnake_unique.template?/charset_agent47_grasssnake_reward.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/charset_agent47_global_pride.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/charset_agent47_global_sloth.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/charset_agent47_global_lust.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/charset_agent47_global_gluttony.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/charset_agent47_global_wrath.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/charset_agent47_global_envy.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/gamecore/keywords/keywordsound.template?/keywordentity_foley_outfit_worker.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/charset_agent47_summersuit_reward.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/actor/profession.template?/prof_hero_dugong_suit.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/actor/profession.template?/prof_hero_dugong.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/charset_agent47_dugong.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/gamecore/keywords/keywordsound.template?/keyword_foley_outfit_pilot.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/charset_agent47_reward_ancestral.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/actor/profession.template?/prof_hero_ancestral_suit.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/actor/profession.template?/prof_hero_luxurious_suit.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/charset_agent47_reward_luxurious.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/actor/profession.template?/prof_hero_ducky_suit.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/charset_agent47_reward_ducky.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/actor/profession.template?/prof_hero_ruderuby_suit.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/charset_agent47_reward_ruby_rude.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/actor/profession.template?/prof_hero_neon_suit.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/charset_agent47_reward_neon.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/gamecore/keywords/keywordsound.template?/keyword_foley_outfit_catwalkdress.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/charset_agent47_reward_global_hero_easterraverbunny.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/actor/profession.template?/prof_hero_easterraverbunny_suit.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/characters/templates/fox/char_grasssnake_unique.template?/charset_agent47_grasssnake.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/charset_agent47_signaturesuit_evergreen_bloody.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/charset_agent47_reward_bbw.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/charset_agent47_reward_legacy47.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/charset_agent47_reward_agent17.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/charset_agent47_reward_inspiredbyha.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/charset_agent47_reward_sc47.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/charset_agent47_reward_sb.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/actor/profession.template?/prof_hero_sb_suit.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/charset_agent47_reward_halloween.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/gamecore/keywords/keywordsound.template?/keyword_foley_outfit_robe_guard.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/actor/profession.template?/prof_hero_evergreen.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/actor/profession.template?/prof_hero_evergreen_wounded_suit.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/charset_agent47_wounded.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/gamecore/keywords/keywordsound.template?/keywordentity_foley_outfit_naked.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/charset_agent47_reward_makeshiftscrap.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/charset_agent47_reward_global_hero_concreteart.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/charset_agent47_reward_evergreenmastery_m.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/actor/profession.template?/prof_hero_wolverine.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/actor/profession.template?/prof_hero_wolverine_suit.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/charset_agent47_wolverine.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/charset_agent47_stingray.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/charset_agent47_reward_traveller.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/actor/profession.template?/prof_hero_purple_suit.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/charset_agent47_global_hero_purplespecialsuit.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/characters/templates/fox/char_fox_tomorrowland.template?/charset_tomorrowland_reward_m.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/charset_agent47_reward_christmas.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/charset_agent47_reward_sb_eyebandage.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/actor/profession.template?/prof_hero_sb_eyebandage_suit.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/characters/templates/magpie/char_magpie_unique.template?/charset_magpie_unique_conormcgregor_boxer_m.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/actor/profession.template?/prof_hero_pen_boxer.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/characters/templates/magpie/char_magpie_unique.template?/charset_magpie_unique_conormcgregor_m.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/actor/profession.template?/prof_hero_pen_coat.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/charset_agent47_reward_ledmask.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/charset_agent47_reward_plaguedoctor.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/charset_agent47_reward_superfan.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/charset_agent47_kicktheboxer.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/charset_agent47_reward_elusivelambic.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/charset_agent47_reward_christmas_4.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/charset_agent47_kicktheboxer_purple.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/characters/templates/hero/agent47/agent47_outfits.template?/charset_agent47_global_hero_easterduck.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/actor/profession.template?/prof_hero_easterduck_suit.entitytemplate].pc_entityblueprint",
+		"00972A5AAAA802BB",
+		"0050C7C0DEBB91BF",
+		"[assembly:/_pro/design/gamecore/events/eventtokens_hudcontrol.template?/eventtoken_hud_objectives_hide.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/gamecore/events/eventtokens_hudcontrol.template?/eventtoken_hud_objectives_show.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/gamecore/events/eventchannel.template?/eventchanneltransmitter_void.entitytemplate].pc_entityblueprint",
+		"00A0317C7CEF048C",
+		"006C9AE8811E8F2B",
+		"[modules:/zuioptioncondition.class].pc_entityblueprint",
+		"00C9CB407B97CFA5",
+		"004E0F2C83B66B9C",
+		"00A62BB0F625BD84",
+		"[assembly:/_pro/design/logic/signalpipes.template?/signalpipe_conditional_void.entitytemplate].pc_entityblueprint",
+		"[modules:/zpersistentbool.class].pc_entityblueprint",
+		"[assembly:/_pro/design/splashhints.template?/ui_splash_hint.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/logic/valuebool.template?/valuebool_set.entitytemplate].pc_entityblueprint",
+		"[modules:/zfloatrangecomparatorentity.class].pc_entityblueprint",
+		"[modules:/zaieventemitterentity.class].pc_entityblueprint",
+		"[assembly:/_pro/design/logic.template?/timersimple.entitytemplate].pc_entityblueprint",
+		"[modules:/zspottedeventlistenerentity.class].pc_entityblueprint",
+		"[modules:/zherosensorconditionentity.class].pc_entityblueprint",
+		"[modules:/zgamestatsevent.class].pc_entityblueprint",
+		"[modules:/zhm5valueentity_bool.class].pc_entityblueprint",
+		"[modules:/zinteractioncondition.class].pc_entityblueprint",
+		"[assembly:/_pro/design/conditions.template?/heromovementtypecondition.entitytemplate].pc_entityblueprint",
+		"00E5C6736D25A801",
+		"00729717D91581E3",
+		"[assembly:/_pro/design/gamecore/events/eventtokens_sound_generic.template?/eventtoken_sound_generic_gui_opportunityrevealtimeout.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/gamecore/events/eventtokens_sound_generic.template?/eventtoken_sound_generic_gui_opportunitytracked.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/gamecore/events/eventtokens_sound_generic.template?/eventtoken_sound_generic_gui_opportunityunlocked.entitytemplate].pc_entityblueprint",
+		"0049DA02C7FC89FC",
+		"[modules:/zcombateventemitter.class].pc_entityblueprint",
+		"[modules:/zinvertedcondition.class].pc_entityblueprint",
+		"[modules:/zherokeywordcondition.class].pc_entityblueprint",
+		"[assembly:/_pro/design/gamecore/keywords/keyworditems.template?/keyword_item_coin.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/gamecore/keywords/keyworditems.template?/keyword_item_poison_fast.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/gamecore/keywords/keyworditems.template?/keyword_item_poison_pills.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/gamecore/keywords/keyworditems.template?/keyword_item_poison_sedative.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/gamecore/keywords/keyworditems.template?/keyword_item_poison_rat.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/gamecore/keywords/keyworditems.template?/keyword_item_poison_sick.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/gamecore/keywords/keyworditems.template?/keyword_item_poison_halucination.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/gamecore/keywords/keyworditems.template?/keyword_item_poison_slow.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/gamecore/keywords/keyworditems.template?/keyword_item_poison.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/gamecore/keywords/keyworditems.template?/keyword_item_remote_detonator.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/gamecore/keywords/keyworditems.template?/keyword_item_ica_modular_remote_explosive.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/gamecore/keywords/keywordweapondescriptors.template?/keyword_weapon_explosive.entitytemplate].pc_entityblueprint",
+		"[modules:/zchallengecompletedentity.class].pc_entityblueprint",
+		"[modules:/zgameeventlistenerentity.class].pc_entityblueprint",
+		"[modules:/zcontractidcomparerentity.class].pc_entityblueprint",
+		"[modules:/zconfigvarcondition.class].pc_entityblueprint",
+		"[modules:/zlevelmanagerstatecondition.class].pc_entityblueprint",
+		"[assembly:/_pro/design/logic/valuebool.template?/valuebool_poll.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/logic.template?/timerconditional.entitytemplate].pc_entityblueprint",
+		"[modules:/zheroitemcondition.class].pc_entityblueprint",
+		"[modules:/zgetconditionvalue.class].pc_entityblueprint",
+		"[modules:/zguardhtndomainentity.class].pc_entityblueprint",
+		"[modules:/zvoidsignalonceentity.class].pc_entityblueprint",
+		"[modules:/zcontractsevententity.class].pc_entityblueprint",
+		"[modules:/zhm5valueentity_zstring.class].pc_entityblueprint",
+		"[modules:/zdynamicobjectentity.class].pc_entityblueprint",
+		"[modules:/zdynamicobjectaccessorentity.class].pc_entityblueprint",
+		"[modules:/zvarianttovoidconverterentity.class].pc_entityblueprint",
+		"[modules:/zsignalforkentity_void.class].pc_entityblueprint",
+		"[modules:/zhm5valueentity_int32.class].pc_entityblueprint",
+		"[modules:/zsignalforkentity_int.class].pc_entityblueprint",
+		"[modules:/zconverttovoidentity_int.class].pc_entityblueprint",
+		"[assembly:/_pro/design/logic/valueint.template?/valueint_comparator.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/logic/valueint.template?/valueint.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/logic/valueint.template?/valueint_comparator_poll.entitytemplate].pc_entityblueprint",
+		"[assembly:/_pro/design/logic/valueint.template?/valueint_basic.entitytemplate].pc_entityblueprint",
+		"[modules:/zcontracteventreplicator.class].pc_entityblueprint",
+		"[assembly:/templates/aspectdummy.aspect]([modules:/zcontractsevententity.class].entitytype,[modules:/zreplicableaspect.class].entitytype).pc_entityblueprint",
+		"[modules:/zmetricssenderentity.class].pc_entityblueprint",
+		"[modules:/zmetricvalue_zstring.class].pc_entityblueprint",
+		"[modules:/zmetricvalue_svector3.class].pc_entityblueprint",
+		"[modules:/zheropositionmetricvalueentity.class].pc_entityblueprint",
+		"[modules:/zcameralookatmetricvalueentity.class].pc_entityblueprint",
+		"[modules:/zcurrentmapmetricvalueentity.class].pc_entityblueprint",
+		"[modules:/zcontractsgamestateemitterentity.class].pc_entityblueprint",
+		"[modules:/zhm5healthsoundcontroller.class].pc_entityblueprint",
+		"[modules:/zsituationeventemitterentity.class].pc_entityblueprint",
+		"[modules:/zjudgedoomentity.class].pc_entityblueprint",
+		"[modules:/zactorgenericeventlistenerentity.class].pc_entityblueprint",
+		"[modules:/zcontractsbodyspottedentity.class].pc_entityblueprint",
+		"[modules:/zsignalforkentity_variant.class].pc_entityblueprint",
+		"[modules:/zhm5variantconverterentity_bool.class].pc_entityblueprint",
+		"[modules:/zhm5variantconverterentity_void.class].pc_entityblueprint",
+		"[assembly:/_pro/design/logic/valuebool.template?/valuebool.entitytemplate].pc_entityblueprint",
+		"[modules:/zpinsignalsyncrepositoryid.class].pc_entityblueprint",
+		"[modules:/zgamestatsentitystealth.class].pc_entityblueprint",
+		"[modules:/zhm5hmstatesoundcontroller.class].pc_entityblueprint",
+		"[modules:/zconditionaltimerentity.class].pc_entityblueprint",
+		"[modules:/zonlineconfigurationvalueentity.class].pc_entityblueprint",
+		"[modules:/zdefaultmetricssenderentity.class].pc_entityblueprint",
+		"[modules:/zmetricvalue_zrepositoryid.class].pc_entityblueprint",
+		"[modules:/zactormetricvalueentity.class].pc_entityblueprint",
+		"[modules:/zmetricvalue_pool.class].pc_entityblueprint",
+		"[assembly:/templates/online/contractstemplates.template?/dynamicobjectmetric.entitytemplate].pc_entityblueprint",
+		"[assembly:/templates/sound/customsoundtemplates.template?/timed_delay_simple.entitytemplate].pc_entityblueprint",
+		"[modules:/zaisituationmetricssenderentity.class].pc_entityblueprint",
+		"[modules:/zactordataentity.class].pc_entityblueprint",
+		"[modules:/zactordiedlistenersimpleentity.class].pc_entityblueprint",
+		"[modules:/zrenderdestinationscreenentity.class].pc_entityblueprint",
+		"[modules:/zmultiplayerconfigurationentity.class].pc_entityblueprint"
+	],
+	"comments": []
+}

@@ -1,0 +1,78 @@
+{
+	"tempHash": "006BC9AFDE185612",
+	"tbluHash": "00A96FE796B44961",
+	"rootEntity": "d4a0ece8ba73c8a9",
+	"entities": {
+		"b62529e7bbefddc7": {
+			"parent": "1e0520470de5c0da",
+			"name": "Var0",
+			"factory": "[modules:/zoutfitvariation.class].pc_entitytype",
+			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint"
+		},
+		"b0b73af24ef68e58": {
+			"parent": "d4a0ece8ba73c8a9",
+			"name": "HeroA",
+			"factory": "[modules:/zcharsetcharactertype.class].pc_entitytype",
+			"blueprint": "[modules:/zcharsetcharactertype.class].pc_entityblueprint",
+			"properties": {
+				"m_aVariations": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["8b9f580726e14f5d"],
+					"postInit": true
+				}
+			}
+		},
+		"d4a0ece8ba73c8a9": {
+			"parent": null,
+			"name": "CHARSET_Cinematic_OliviaHall_NoBag",
+			"factory": "004470A9E6A7722D",
+			"blueprint": "00E21A11EC782D9E",
+			"properties": {
+				"m_aCharacters": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["d3f7a61aa2b99dbc", "1e0520470de5c0da", "b0b73af24ef68e58"],
+					"postInit": true
+				}
+			}
+		},
+		"1e0520470de5c0da": {
+			"parent": "d4a0ece8ba73c8a9",
+			"name": "Nude",
+			"factory": "[modules:/zcharsetcharactertype.class].pc_entitytype",
+			"blueprint": "[modules:/zcharsetcharactertype.class].pc_entityblueprint",
+			"properties": { "m_aVariations": { "type": "TArray<SEntityTemplateReference>", "value": ["b62529e7bbefddc7"] } }
+		},
+		"ffe083ca36187b03": {
+			"parent": "d3f7a61aa2b99dbc",
+			"name": "0",
+			"factory": "[modules:/zoutfitvariation.class].pc_entitytype",
+			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint",
+			"properties": {
+				"m_Outfit": { "type": "ZRuntimeResourceID", "value": { "resource": "008F819DA209FFFA", "flag": "9F" } }
+			}
+		},
+		"8b9f580726e14f5d": {
+			"parent": "b0b73af24ef68e58",
+			"name": "Var0",
+			"factory": "[modules:/zoutfitvariation.class].pc_entitytype",
+			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint"
+		},
+		"d3f7a61aa2b99dbc": {
+			"parent": "d4a0ece8ba73c8a9",
+			"name": "Actor",
+			"factory": "[modules:/zcharsetcharactertype.class].pc_entitytype",
+			"blueprint": "[modules:/zcharsetcharactertype.class].pc_entityblueprint",
+			"properties": { "m_aVariations": { "type": "TArray<SEntityTemplateReference>", "value": ["ffe083ca36187b03"] } }
+		}
+	},
+	"propertyOverrides": [],
+	"overrideDeletes": [],
+	"pinConnectionOverrides": [],
+	"pinConnectionOverrideDeletes": [],
+	"externalScenes": [],
+	"subType": "template",
+	"quickEntityVersion": 3.1,
+	"extraFactoryDependencies": [],
+	"extraBlueprintDependencies": [],
+	"comments": []
+}

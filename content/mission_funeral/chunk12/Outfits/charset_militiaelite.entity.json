@@ -1,0 +1,1655 @@
+{
+	"tempHash": "003B9E5A953C3723",
+	"tbluHash": "0040B4165AA2B236",
+	"rootEntity": "b7b16e8a76e3c36f",
+	"entities": {
+		"7b4af2bee4896de5": {
+			"parent": "98cb74176dbeabe4",
+			"name": "6",
+			"factory": "[modules:/zoutfitvariation.class].pc_entitytype",
+			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint",
+			"properties": {
+				"m_Outfit": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/characters/templates/colorado/char_colorado_guards.template?/outfit_militiaelite_m_actor_v6.entitytemplate].pc_entitytemplate",
+						"flag": "9F"
+					}
+				}
+			}
+		},
+		"804f75e971d20a9d": {
+			"parent": "9c9fafbd93e792c8",
+			"name": "Var14",
+			"factory": "[modules:/zoutfitvariation.class].pc_entitytype",
+			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint"
+		},
+		"968455a42d3eb0bf": {
+			"parent": "98cb74176dbeabe4",
+			"name": "23",
+			"factory": "[modules:/zoutfitvariation.class].pc_entitytype",
+			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint",
+			"properties": {
+				"m_Outfit": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/characters/templates/colorado/char_colorado_guards.template?/outfit_militiaelite_m_actor_v23.entitytemplate].pc_entitytemplate",
+						"flag": "9F"
+					}
+				}
+			}
+		},
+		"1bc518519d6ea4fa": {
+			"parent": "2d89c36a992c262d",
+			"name": "Var13",
+			"factory": "[modules:/zoutfitvariation.class].pc_entitytype",
+			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint"
+		},
+		"04f23036667429db": {
+			"parent": "0095f08e4470cae6",
+			"name": "Var7",
+			"factory": "[modules:/zoutfitvariation.class].pc_entitytype",
+			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint",
+			"properties": {
+				"m_Outfit": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/characters/templates/colorado/char_colorado_guards.template?/outfit_militiaelite_m_heroa_v7.entitytemplate].pc_entitytemplate",
+						"flag": "9F"
+					}
+				}
+			}
+		},
+		"b537c1706183851e": {
+			"parent": "9c9fafbd93e792c8",
+			"name": "Var1",
+			"factory": "[modules:/zoutfitvariation.class].pc_entitytype",
+			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint"
+		},
+		"9b476ef2417a56bd": {
+			"parent": "2d89c36a992c262d",
+			"name": "Var20",
+			"factory": "[modules:/zoutfitvariation.class].pc_entitytype",
+			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint"
+		},
+		"432ab8608f82be82": {
+			"parent": "0095f08e4470cae6",
+			"name": "Var8",
+			"factory": "[modules:/zoutfitvariation.class].pc_entitytype",
+			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint",
+			"properties": {
+				"m_Outfit": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/characters/templates/colorado/char_colorado_guards.template?/outfit_militiaelite_m_heroa_v8.entitytemplate].pc_entitytemplate",
+						"flag": "9F"
+					}
+				}
+			}
+		},
+		"7f3d2e6bd48830a8": {
+			"parent": "98cb74176dbeabe4",
+			"name": "4",
+			"factory": "[modules:/zoutfitvariation.class].pc_entitytype",
+			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint",
+			"properties": {
+				"m_Outfit": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/characters/templates/colorado/char_colorado_guards.template?/outfit_militiaelite_m_actor_v4.entitytemplate].pc_entitytemplate",
+						"flag": "9F"
+					}
+				}
+			}
+		},
+		"7273047a1612b375": {
+			"parent": "0095f08e4470cae6",
+			"name": "Var12",
+			"factory": "[modules:/zoutfitvariation.class].pc_entitytype",
+			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint",
+			"properties": {
+				"m_Outfit": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/characters/templates/colorado/char_colorado_guards.template?/outfit_militiaelite_m_heroa_v12.entitytemplate].pc_entitytemplate",
+						"flag": "9F"
+					}
+				}
+			}
+		},
+		"7b3692a944bf35f3": {
+			"parent": "98cb74176dbeabe4",
+			"name": "0",
+			"factory": "[modules:/zoutfitvariation.class].pc_entitytype",
+			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint",
+			"properties": {
+				"m_Outfit": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/characters/templates/colorado/char_colorado_guards.template?/outfit_militiaelite_m_actor_v0.entitytemplate].pc_entitytemplate",
+						"flag": "9F"
+					}
+				}
+			}
+		},
+		"3cbb69bfa842ad52": {
+			"parent": "9c9fafbd93e792c8",
+			"name": "Var4",
+			"factory": "[modules:/zoutfitvariation.class].pc_entitytype",
+			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint"
+		},
+		"d581cec998c5abb9": {
+			"parent": "98cb74176dbeabe4",
+			"name": "16",
+			"factory": "[modules:/zoutfitvariation.class].pc_entitytype",
+			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint",
+			"properties": {
+				"m_Outfit": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/characters/templates/colorado/char_colorado_guards.template?/outfit_militiaelite_m_actor_v16.entitytemplate].pc_entitytemplate",
+						"flag": "9F"
+					}
+				}
+			}
+		},
+		"43e59d17fd0a557f": {
+			"parent": "1040fbc18a1781c1",
+			"name": "Var1",
+			"factory": "[modules:/zoutfitvariation.class].pc_entitytype",
+			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint",
+			"properties": {
+				"m_Outfit": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/characters/templates/colorado/char_colorado_guards.template?/outfit_militiaelite_m_nude_v1.entitytemplate].pc_entitytemplate",
+						"flag": "9F"
+					}
+				}
+			}
+		},
+		"98cb74176dbeabe4": {
+			"parent": "b7b16e8a76e3c36f",
+			"name": "Actor",
+			"factory": "[modules:/zcharsetcharactertype.class].pc_entitytype",
+			"blueprint": "[modules:/zcharsetcharactertype.class].pc_entityblueprint",
+			"properties": {
+				"m_aVariations": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						"7b3692a944bf35f3",
+						"5a666e1d484680e9",
+						"1e4b48ccf102da7f",
+						"4cdadb647ad5845e",
+						"7f3d2e6bd48830a8",
+						"918f86071715e1f4",
+						"7b4af2bee4896de5",
+						"fae1ab941be9729e",
+						"c131657ca4d1f52f",
+						"34053665968a22dd",
+						"1c4903f2599bb4e2",
+						"65d0aeba5b1877ab",
+						"2d50f141e9986f15",
+						"d86d13a2d7cf6d31",
+						"b37e1483ac0dba7a",
+						"853252aa0f797566",
+						"d581cec998c5abb9",
+						"042e0ef148881eb3",
+						"bd580613323e13b1",
+						"31f495c84578aeff",
+						"13a73309e683bba9",
+						"7f76d091ebf20a25",
+						"2ba143f23c52f55f",
+						"968455a42d3eb0bf",
+						"022981b86370e0e9"
+					],
+					"postInit": true
+				}
+			}
+		},
+		"3f249db7c26e32b3": {
+			"parent": "2d89c36a992c262d",
+			"name": "Var7",
+			"factory": "[modules:/zoutfitvariation.class].pc_entitytype",
+			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint"
+		},
+		"8aac9786f5d9cf69": {
+			"parent": "9c9fafbd93e792c8",
+			"name": "Var2",
+			"factory": "[modules:/zoutfitvariation.class].pc_entitytype",
+			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint"
+		},
+		"5d422212ef91ca06": {
+			"parent": "1040fbc18a1781c1",
+			"name": "Var23",
+			"factory": "[modules:/zoutfitvariation.class].pc_entitytype",
+			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint",
+			"properties": {
+				"m_Outfit": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/characters/templates/colorado/char_colorado_guards.template?/outfit_militiaelite_m_nude_v23.entitytemplate].pc_entitytemplate",
+						"flag": "9F"
+					}
+				}
+			}
+		},
+		"918f86071715e1f4": {
+			"parent": "98cb74176dbeabe4",
+			"name": "5",
+			"factory": "[modules:/zoutfitvariation.class].pc_entitytype",
+			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint",
+			"properties": {
+				"m_Outfit": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/characters/templates/colorado/char_colorado_guards.template?/outfit_militiaelite_m_actor_v5.entitytemplate].pc_entitytemplate",
+						"flag": "9F"
+					}
+				}
+			}
+		},
+		"01fd8de04863c5c8": {
+			"parent": "2d89c36a992c262d",
+			"name": "Var12",
+			"factory": "[modules:/zoutfitvariation.class].pc_entitytype",
+			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint"
+		},
+		"9f3ac1ffe56e1c61": {
+			"parent": "9c9fafbd93e792c8",
+			"name": "Var10",
+			"factory": "[modules:/zoutfitvariation.class].pc_entitytype",
+			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint"
+		},
+		"647446d52bb220f1": {
+			"parent": "1040fbc18a1781c1",
+			"name": "Var18",
+			"factory": "[modules:/zoutfitvariation.class].pc_entitytype",
+			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint",
+			"properties": {
+				"m_Outfit": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/characters/templates/colorado/char_colorado_guards.template?/outfit_militiaelite_m_nude_v18.entitytemplate].pc_entitytemplate",
+						"flag": "9F"
+					}
+				}
+			}
+		},
+		"413e5a34990dd074": {
+			"parent": "9c9fafbd93e792c8",
+			"name": "Var24",
+			"factory": "[modules:/zoutfitvariation.class].pc_entitytype",
+			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint"
+		},
+		"0095f08e4470cae6": {
+			"parent": "b7b16e8a76e3c36f",
+			"name": "HeroA",
+			"factory": "[modules:/zcharsetcharactertype.class].pc_entitytype",
+			"blueprint": "[modules:/zcharsetcharactertype.class].pc_entityblueprint",
+			"properties": {
+				"m_aVariations": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						"a12820e98748cc9c",
+						"8f4a1edb4c525d56",
+						"e95a91b7688e7923",
+						"fc0cbde95df662db",
+						"3dc5ab9f66bbda2e",
+						"1cf8b1bb09bf6db4",
+						"b3b9a2dc82c51548",
+						"04f23036667429db",
+						"432ab8608f82be82",
+						"b2d028cd725ada14",
+						"81e4de74e0ac81ff",
+						"ec64d0defe3579ae",
+						"7273047a1612b375",
+						"cbea2c6a1bdae373",
+						"73132b261e821a13",
+						"761d070fcb91d49b",
+						"6eeae73cbe419754",
+						"d28b9ab967782dba",
+						"b5eb5fea926c4fd3",
+						"8d1d1d376ab67812",
+						"bbc115bfaac85ae7",
+						"669daaf53e7ed49a",
+						"32e5d74b6ea5a5f2",
+						"d3d639a4a930407b",
+						"acc85d913f035436"
+					],
+					"postInit": true
+				}
+			}
+		},
+		"4443ef563da832d8": {
+			"parent": "2d89c36a992c262d",
+			"name": "Var21",
+			"factory": "[modules:/zoutfitvariation.class].pc_entitytype",
+			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint"
+		},
+		"1cf8b1bb09bf6db4": {
+			"parent": "0095f08e4470cae6",
+			"name": "Var5",
+			"factory": "[modules:/zoutfitvariation.class].pc_entitytype",
+			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint",
+			"properties": {
+				"m_Outfit": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/characters/templates/colorado/char_colorado_guards.template?/outfit_militiaelite_m_heroa_v5.entitytemplate].pc_entitytemplate",
+						"flag": "9F"
+					}
+				}
+			}
+		},
+		"dcee41dac510d6af": {
+			"parent": "9c9fafbd93e792c8",
+			"name": "Var23",
+			"factory": "[modules:/zoutfitvariation.class].pc_entitytype",
+			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint"
+		},
+		"669daaf53e7ed49a": {
+			"parent": "0095f08e4470cae6",
+			"name": "Var21",
+			"factory": "[modules:/zoutfitvariation.class].pc_entitytype",
+			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint",
+			"properties": {
+				"m_Outfit": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/characters/templates/colorado/char_colorado_guards.template?/outfit_militiaelite_m_heroa_v21.entitytemplate].pc_entitytemplate",
+						"flag": "9F"
+					}
+				}
+			}
+		},
+		"48f5e18339e889a0": {
+			"parent": "1040fbc18a1781c1",
+			"name": "Var3",
+			"factory": "[modules:/zoutfitvariation.class].pc_entitytype",
+			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint",
+			"properties": {
+				"m_Outfit": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/characters/templates/colorado/char_colorado_guards.template?/outfit_militiaelite_m_nude_v3.entitytemplate].pc_entitytemplate",
+						"flag": "9F"
+					}
+				}
+			}
+		},
+		"9c9fafbd93e792c8": {
+			"parent": "b7b16e8a76e3c36f",
+			"name": "HeroB",
+			"factory": "[modules:/zcharsetcharactertype.class].pc_entitytype",
+			"blueprint": "[modules:/zcharsetcharactertype.class].pc_entityblueprint",
+			"properties": {
+				"m_aVariations": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						"51b591e1936806a9",
+						"b537c1706183851e",
+						"8aac9786f5d9cf69",
+						"1d60407f4b7c0fa1",
+						"3cbb69bfa842ad52",
+						"29681b3c9e2a2b08",
+						"225e8bdc79d7adad",
+						"5a37960360aecd92",
+						"efccaebdc36269f2",
+						"5ec44814aa71e95e",
+						"9f3ac1ffe56e1c61",
+						"cb90312563033d41",
+						"1b6272ccbed5ba47",
+						"16ff28a1dde74758",
+						"804f75e971d20a9d",
+						"485ecee9c30310c2",
+						"9b9b1af288aea0fd",
+						"a695ea3788ccd51f",
+						"b16d0ab9f47c8ce6",
+						"35e40879626514c9",
+						"1c0bfa2faf2517d5",
+						"74caba3a52872797",
+						"69c83b4f1d5bae98",
+						"dcee41dac510d6af",
+						"413e5a34990dd074"
+					],
+					"postInit": true
+				}
+			}
+		},
+		"c37ac81058bd556f": {
+			"parent": "2d89c36a992c262d",
+			"name": "Var18",
+			"factory": "[modules:/zoutfitvariation.class].pc_entitytype",
+			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint"
+		},
+		"db1dc12d45327acd": {
+			"parent": "1040fbc18a1781c1",
+			"name": "Var21",
+			"factory": "[modules:/zoutfitvariation.class].pc_entitytype",
+			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint",
+			"properties": {
+				"m_Outfit": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/characters/templates/colorado/char_colorado_guards.template?/outfit_militiaelite_m_nude_v21.entitytemplate].pc_entitytemplate",
+						"flag": "9F"
+					}
+				}
+			}
+		},
+		"cbea2c6a1bdae373": {
+			"parent": "0095f08e4470cae6",
+			"name": "Var13",
+			"factory": "[modules:/zoutfitvariation.class].pc_entitytype",
+			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint",
+			"properties": {
+				"m_Outfit": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/characters/templates/colorado/char_colorado_guards.template?/outfit_militiaelite_m_heroa_v13.entitytemplate].pc_entitytemplate",
+						"flag": "9F"
+					}
+				}
+			}
+		},
+		"b3b9a2dc82c51548": {
+			"parent": "0095f08e4470cae6",
+			"name": "Var6",
+			"factory": "[modules:/zoutfitvariation.class].pc_entitytype",
+			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint",
+			"properties": {
+				"m_Outfit": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/characters/templates/colorado/char_colorado_guards.template?/outfit_militiaelite_m_heroa_v6.entitytemplate].pc_entitytemplate",
+						"flag": "9F"
+					}
+				}
+			}
+		},
+		"0cd992f75fee0013": {
+			"parent": "2d89c36a992c262d",
+			"name": "Var0",
+			"factory": "[modules:/zoutfitvariation.class].pc_entitytype",
+			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint"
+		},
+		"5a666e1d484680e9": {
+			"parent": "98cb74176dbeabe4",
+			"name": "1",
+			"factory": "[modules:/zoutfitvariation.class].pc_entitytype",
+			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint",
+			"properties": {
+				"m_Outfit": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/characters/templates/colorado/char_colorado_guards.template?/outfit_militiaelite_m_actor_v1.entitytemplate].pc_entitytemplate",
+						"flag": "9F"
+					}
+				}
+			}
+		},
+		"62e9773a80265307": {
+			"parent": "2d89c36a992c262d",
+			"name": "Var3",
+			"factory": "[modules:/zoutfitvariation.class].pc_entitytype",
+			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint"
+		},
+		"022981b86370e0e9": {
+			"parent": "98cb74176dbeabe4",
+			"name": "24",
+			"factory": "[modules:/zoutfitvariation.class].pc_entitytype",
+			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint",
+			"properties": {
+				"m_Outfit": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/characters/templates/colorado/char_colorado_guards.template?/outfit_militiaelite_m_actor_v24.entitytemplate].pc_entitytemplate",
+						"flag": "9F"
+					}
+				}
+			}
+		},
+		"1b6272ccbed5ba47": {
+			"parent": "9c9fafbd93e792c8",
+			"name": "Var12",
+			"factory": "[modules:/zoutfitvariation.class].pc_entitytype",
+			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint"
+		},
+		"69c83b4f1d5bae98": {
+			"parent": "9c9fafbd93e792c8",
+			"name": "Var22",
+			"factory": "[modules:/zoutfitvariation.class].pc_entitytype",
+			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint"
+		},
+		"13a73309e683bba9": {
+			"parent": "98cb74176dbeabe4",
+			"name": "20",
+			"factory": "[modules:/zoutfitvariation.class].pc_entitytype",
+			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint",
+			"properties": {
+				"m_Outfit": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/characters/templates/colorado/char_colorado_guards.template?/outfit_militiaelite_m_actor_v20.entitytemplate].pc_entitytemplate",
+						"flag": "9F"
+					}
+				}
+			}
+		},
+		"485ecee9c30310c2": {
+			"parent": "9c9fafbd93e792c8",
+			"name": "Var15",
+			"factory": "[modules:/zoutfitvariation.class].pc_entitytype",
+			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint"
+		},
+		"b5eb5fea926c4fd3": {
+			"parent": "0095f08e4470cae6",
+			"name": "Var18",
+			"factory": "[modules:/zoutfitvariation.class].pc_entitytype",
+			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint",
+			"properties": {
+				"m_Outfit": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/characters/templates/colorado/char_colorado_guards.template?/outfit_militiaelite_m_heroa_v18.entitytemplate].pc_entitytemplate",
+						"flag": "9F"
+					}
+				}
+			}
+		},
+		"224bcb89c969bfef": {
+			"parent": "2d89c36a992c262d",
+			"name": "Var19",
+			"factory": "[modules:/zoutfitvariation.class].pc_entitytype",
+			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint"
+		},
+		"73132b261e821a13": {
+			"parent": "0095f08e4470cae6",
+			"name": "Var14",
+			"factory": "[modules:/zoutfitvariation.class].pc_entitytype",
+			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint",
+			"properties": {
+				"m_Outfit": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/characters/templates/colorado/char_colorado_guards.template?/outfit_militiaelite_m_heroa_v14.entitytemplate].pc_entitytemplate",
+						"flag": "9F"
+					}
+				}
+			}
+		},
+		"d3d639a4a930407b": {
+			"parent": "0095f08e4470cae6",
+			"name": "Var23",
+			"factory": "[modules:/zoutfitvariation.class].pc_entitytype",
+			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint",
+			"properties": {
+				"m_Outfit": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/characters/templates/colorado/char_colorado_guards.template?/outfit_militiaelite_m_heroa_v23.entitytemplate].pc_entitytemplate",
+						"flag": "9F"
+					}
+				}
+			}
+		},
+		"b2d028cd725ada14": {
+			"parent": "0095f08e4470cae6",
+			"name": "Var9",
+			"factory": "[modules:/zoutfitvariation.class].pc_entitytype",
+			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint",
+			"properties": {
+				"m_Outfit": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/characters/templates/colorado/char_colorado_guards.template?/outfit_militiaelite_m_heroa_v9.entitytemplate].pc_entitytemplate",
+						"flag": "9F"
+					}
+				}
+			}
+		},
+		"b1cad96765ae7107": {
+			"parent": "1040fbc18a1781c1",
+			"name": "Var11",
+			"factory": "[modules:/zoutfitvariation.class].pc_entitytype",
+			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint",
+			"properties": {
+				"m_Outfit": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/characters/templates/colorado/char_colorado_guards.template?/outfit_militiaelite_m_nude_v11.entitytemplate].pc_entitytemplate",
+						"flag": "9F"
+					}
+				}
+			}
+		},
+		"6eeae73cbe419754": {
+			"parent": "0095f08e4470cae6",
+			"name": "Var16",
+			"factory": "[modules:/zoutfitvariation.class].pc_entitytype",
+			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint",
+			"properties": {
+				"m_Outfit": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/characters/templates/colorado/char_colorado_guards.template?/outfit_militiaelite_m_heroa_v16.entitytemplate].pc_entitytemplate",
+						"flag": "9F"
+					}
+				}
+			}
+		},
+		"fc579677d3fe2dc4": {
+			"parent": "1040fbc18a1781c1",
+			"name": "Var16",
+			"factory": "[modules:/zoutfitvariation.class].pc_entitytype",
+			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint",
+			"properties": {
+				"m_Outfit": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/characters/templates/colorado/char_colorado_guards.template?/outfit_militiaelite_m_nude_v16.entitytemplate].pc_entitytemplate",
+						"flag": "9F"
+					}
+				}
+			}
+		},
+		"fae1ab941be9729e": {
+			"parent": "98cb74176dbeabe4",
+			"name": "7",
+			"factory": "[modules:/zoutfitvariation.class].pc_entitytype",
+			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint",
+			"properties": {
+				"m_Outfit": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/characters/templates/colorado/char_colorado_guards.template?/outfit_militiaelite_m_actor_v7.entitytemplate].pc_entitytemplate",
+						"flag": "9F"
+					}
+				}
+			}
+		},
+		"bbc115bfaac85ae7": {
+			"parent": "0095f08e4470cae6",
+			"name": "Var20",
+			"factory": "[modules:/zoutfitvariation.class].pc_entitytype",
+			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint",
+			"properties": {
+				"m_Outfit": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/characters/templates/colorado/char_colorado_guards.template?/outfit_militiaelite_m_heroa_v20.entitytemplate].pc_entitytemplate",
+						"flag": "9F"
+					}
+				}
+			}
+		},
+		"29681b3c9e2a2b08": {
+			"parent": "9c9fafbd93e792c8",
+			"name": "Var5",
+			"factory": "[modules:/zoutfitvariation.class].pc_entitytype",
+			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint"
+		},
+		"bd580613323e13b1": {
+			"parent": "98cb74176dbeabe4",
+			"name": "18",
+			"factory": "[modules:/zoutfitvariation.class].pc_entitytype",
+			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint",
+			"properties": {
+				"m_Outfit": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/characters/templates/colorado/char_colorado_guards.template?/outfit_militiaelite_m_actor_v18.entitytemplate].pc_entitytemplate",
+						"flag": "9F"
+					}
+				}
+			}
+		},
+		"c47740ae15813b22": {
+			"parent": "2d89c36a992c262d",
+			"name": "Var5",
+			"factory": "[modules:/zoutfitvariation.class].pc_entitytype",
+			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint"
+		},
+		"c131657ca4d1f52f": {
+			"parent": "98cb74176dbeabe4",
+			"name": "8",
+			"factory": "[modules:/zoutfitvariation.class].pc_entitytype",
+			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint",
+			"properties": {
+				"m_Outfit": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/characters/templates/colorado/char_colorado_guards.template?/outfit_militiaelite_m_actor_v8.entitytemplate].pc_entitytemplate",
+						"flag": "9F"
+					}
+				}
+			}
+		},
+		"acc85d913f035436": {
+			"parent": "0095f08e4470cae6",
+			"name": "Var24",
+			"factory": "[modules:/zoutfitvariation.class].pc_entitytype",
+			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint",
+			"properties": {
+				"m_Outfit": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/characters/templates/colorado/char_colorado_guards.template?/outfit_militiaelite_m_heroa_v24.entitytemplate].pc_entitytemplate",
+						"flag": "9F"
+					}
+				}
+			}
+		},
+		"e023405ccf14e6f4": {
+			"parent": "1040fbc18a1781c1",
+			"name": "Var17",
+			"factory": "[modules:/zoutfitvariation.class].pc_entitytype",
+			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint",
+			"properties": {
+				"m_Outfit": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/characters/templates/colorado/char_colorado_guards.template?/outfit_militiaelite_m_nude_v17.entitytemplate].pc_entitytemplate",
+						"flag": "9F"
+					}
+				}
+			}
+		},
+		"bb16f4d30535e8bf": {
+			"parent": "1040fbc18a1781c1",
+			"name": "Var2",
+			"factory": "[modules:/zoutfitvariation.class].pc_entitytype",
+			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint",
+			"properties": {
+				"m_Outfit": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/characters/templates/colorado/char_colorado_guards.template?/outfit_militiaelite_m_nude_v2.entitytemplate].pc_entitytemplate",
+						"flag": "9F"
+					}
+				}
+			}
+		},
+		"2d50f141e9986f15": {
+			"parent": "98cb74176dbeabe4",
+			"name": "12",
+			"factory": "[modules:/zoutfitvariation.class].pc_entitytype",
+			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint",
+			"properties": {
+				"m_Outfit": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/characters/templates/colorado/char_colorado_guards.template?/outfit_militiaelite_m_actor_v12.entitytemplate].pc_entitytemplate",
+						"flag": "9F"
+					}
+				}
+			}
+		},
+		"1e4b48ccf102da7f": {
+			"parent": "98cb74176dbeabe4",
+			"name": "2",
+			"factory": "[modules:/zoutfitvariation.class].pc_entitytype",
+			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint",
+			"properties": {
+				"m_Outfit": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/characters/templates/colorado/char_colorado_guards.template?/outfit_militiaelite_m_actor_v2.entitytemplate].pc_entitytemplate",
+						"flag": "9F"
+					}
+				}
+			}
+		},
+		"020378aae2268949": {
+			"parent": "2d89c36a992c262d",
+			"name": "Var15",
+			"factory": "[modules:/zoutfitvariation.class].pc_entitytype",
+			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint"
+		},
+		"58e1c527e0693208": {
+			"parent": "2d89c36a992c262d",
+			"name": "Var22",
+			"factory": "[modules:/zoutfitvariation.class].pc_entitytype",
+			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint"
+		},
+		"44fcc761550888fd": {
+			"parent": "2d89c36a992c262d",
+			"name": "Var10",
+			"factory": "[modules:/zoutfitvariation.class].pc_entitytype",
+			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint"
+		},
+		"705038eec4b41e78": {
+			"parent": "1040fbc18a1781c1",
+			"name": "Var6",
+			"factory": "[modules:/zoutfitvariation.class].pc_entitytype",
+			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint",
+			"properties": {
+				"m_Outfit": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/characters/templates/colorado/char_colorado_guards.template?/outfit_militiaelite_m_nude_v6.entitytemplate].pc_entitytemplate",
+						"flag": "9F"
+					}
+				}
+			}
+		},
+		"025a5100f3904f94": {
+			"parent": "2d89c36a992c262d",
+			"name": "Var14",
+			"factory": "[modules:/zoutfitvariation.class].pc_entitytype",
+			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint"
+		},
+		"1fa23c7d12c991d4": {
+			"parent": "1040fbc18a1781c1",
+			"name": "Var14",
+			"factory": "[modules:/zoutfitvariation.class].pc_entitytype",
+			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint",
+			"properties": {
+				"m_Outfit": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/characters/templates/colorado/char_colorado_guards.template?/outfit_militiaelite_m_nude_v14.entitytemplate].pc_entitytemplate",
+						"flag": "9F"
+					}
+				}
+			}
+		},
+		"1c0bfa2faf2517d5": {
+			"parent": "9c9fafbd93e792c8",
+			"name": "Var20",
+			"factory": "[modules:/zoutfitvariation.class].pc_entitytype",
+			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint"
+		},
+		"65d0aeba5b1877ab": {
+			"parent": "98cb74176dbeabe4",
+			"name": "11",
+			"factory": "[modules:/zoutfitvariation.class].pc_entitytype",
+			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint",
+			"properties": {
+				"m_Outfit": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/characters/templates/colorado/char_colorado_guards.template?/outfit_militiaelite_m_actor_v11.entitytemplate].pc_entitytemplate",
+						"flag": "9F"
+					}
+				}
+			}
+		},
+		"a12820e98748cc9c": {
+			"parent": "0095f08e4470cae6",
+			"name": "Var0",
+			"factory": "[modules:/zoutfitvariation.class].pc_entitytype",
+			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint",
+			"properties": {
+				"m_Outfit": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/characters/templates/colorado/char_colorado_guards.template?/outfit_militiaelite_m_heroa_v0.entitytemplate].pc_entitytemplate",
+						"flag": "9F"
+					}
+				}
+			}
+		},
+		"5141fc7c568fb486": {
+			"parent": "1040fbc18a1781c1",
+			"name": "Var10",
+			"factory": "[modules:/zoutfitvariation.class].pc_entitytype",
+			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint",
+			"properties": {
+				"m_Outfit": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/characters/templates/colorado/char_colorado_guards.template?/outfit_militiaelite_m_nude_v10.entitytemplate].pc_entitytemplate",
+						"flag": "9F"
+					}
+				}
+			}
+		},
+		"8f4a1edb4c525d56": {
+			"parent": "0095f08e4470cae6",
+			"name": "Var1",
+			"factory": "[modules:/zoutfitvariation.class].pc_entitytype",
+			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint",
+			"properties": {
+				"m_Outfit": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/characters/templates/colorado/char_colorado_guards.template?/outfit_militiaelite_m_heroa_v1.entitytemplate].pc_entitytemplate",
+						"flag": "9F"
+					}
+				}
+			}
+		},
+		"51b591e1936806a9": {
+			"parent": "9c9fafbd93e792c8",
+			"name": "Var0",
+			"factory": "[modules:/zoutfitvariation.class].pc_entitytype",
+			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint"
+		},
+		"68f949faed078d4e": {
+			"parent": "1040fbc18a1781c1",
+			"name": "Var9",
+			"factory": "[modules:/zoutfitvariation.class].pc_entitytype",
+			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint",
+			"properties": {
+				"m_Outfit": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/characters/templates/colorado/char_colorado_guards.template?/outfit_militiaelite_m_nude_v9.entitytemplate].pc_entitytemplate",
+						"flag": "9F"
+					}
+				}
+			}
+		},
+		"e8e7bc5e6ab0eb47": {
+			"parent": "1040fbc18a1781c1",
+			"name": "Var0",
+			"factory": "[modules:/zoutfitvariation.class].pc_entitytype",
+			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint",
+			"properties": {
+				"m_Outfit": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/characters/templates/colorado/char_colorado_guards.template?/outfit_militiaelite_m_nude_v0.entitytemplate].pc_entitytemplate",
+						"flag": "9F"
+					}
+				}
+			}
+		},
+		"16ff28a1dde74758": {
+			"parent": "9c9fafbd93e792c8",
+			"name": "Var13",
+			"factory": "[modules:/zoutfitvariation.class].pc_entitytype",
+			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint"
+		},
+		"541fccf6cee5755a": {
+			"parent": "2d89c36a992c262d",
+			"name": "Var23",
+			"factory": "[modules:/zoutfitvariation.class].pc_entitytype",
+			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint"
+		},
+		"81e4de74e0ac81ff": {
+			"parent": "0095f08e4470cae6",
+			"name": "Var10",
+			"factory": "[modules:/zoutfitvariation.class].pc_entitytype",
+			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint",
+			"properties": {
+				"m_Outfit": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/characters/templates/colorado/char_colorado_guards.template?/outfit_militiaelite_m_heroa_v10.entitytemplate].pc_entitytemplate",
+						"flag": "9F"
+					}
+				}
+			}
+		},
+		"853252aa0f797566": {
+			"parent": "98cb74176dbeabe4",
+			"name": "15",
+			"factory": "[modules:/zoutfitvariation.class].pc_entitytype",
+			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint",
+			"properties": {
+				"m_Outfit": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/characters/templates/colorado/char_colorado_guards.template?/outfit_militiaelite_m_actor_v15.entitytemplate].pc_entitytemplate",
+						"flag": "9F"
+					}
+				}
+			}
+		},
+		"5fda452343bf2841": {
+			"parent": "2d89c36a992c262d",
+			"name": "Var2",
+			"factory": "[modules:/zoutfitvariation.class].pc_entitytype",
+			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint"
+		},
+		"efccaebdc36269f2": {
+			"parent": "9c9fafbd93e792c8",
+			"name": "Var8",
+			"factory": "[modules:/zoutfitvariation.class].pc_entitytype",
+			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint"
+		},
+		"ec64d0defe3579ae": {
+			"parent": "0095f08e4470cae6",
+			"name": "Var11",
+			"factory": "[modules:/zoutfitvariation.class].pc_entitytype",
+			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint",
+			"properties": {
+				"m_Outfit": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/characters/templates/colorado/char_colorado_guards.template?/outfit_militiaelite_m_heroa_v11.entitytemplate].pc_entitytemplate",
+						"flag": "9F"
+					}
+				}
+			}
+		},
+		"3c2dc84523fbd32d": {
+			"parent": "2d89c36a992c262d",
+			"name": "Var24",
+			"factory": "[modules:/zoutfitvariation.class].pc_entitytype",
+			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint"
+		},
+		"cb90312563033d41": {
+			"parent": "9c9fafbd93e792c8",
+			"name": "Var11",
+			"factory": "[modules:/zoutfitvariation.class].pc_entitytype",
+			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint"
+		},
+		"225e8bdc79d7adad": {
+			"parent": "9c9fafbd93e792c8",
+			"name": "Var6",
+			"factory": "[modules:/zoutfitvariation.class].pc_entitytype",
+			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint"
+		},
+		"5ec44814aa71e95e": {
+			"parent": "9c9fafbd93e792c8",
+			"name": "Var9",
+			"factory": "[modules:/zoutfitvariation.class].pc_entitytype",
+			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint"
+		},
+		"32e5d74b6ea5a5f2": {
+			"parent": "0095f08e4470cae6",
+			"name": "Var22",
+			"factory": "[modules:/zoutfitvariation.class].pc_entitytype",
+			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint",
+			"properties": {
+				"m_Outfit": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/characters/templates/colorado/char_colorado_guards.template?/outfit_militiaelite_m_heroa_v22.entitytemplate].pc_entitytemplate",
+						"flag": "9F"
+					}
+				}
+			}
+		},
+		"b16d0ab9f47c8ce6": {
+			"parent": "9c9fafbd93e792c8",
+			"name": "Var18",
+			"factory": "[modules:/zoutfitvariation.class].pc_entitytype",
+			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint"
+		},
+		"1d60407f4b7c0fa1": {
+			"parent": "9c9fafbd93e792c8",
+			"name": "Var3",
+			"factory": "[modules:/zoutfitvariation.class].pc_entitytype",
+			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint"
+		},
+		"1c4903f2599bb4e2": {
+			"parent": "98cb74176dbeabe4",
+			"name": "10",
+			"factory": "[modules:/zoutfitvariation.class].pc_entitytype",
+			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint",
+			"properties": {
+				"m_Outfit": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/characters/templates/colorado/char_colorado_guards.template?/outfit_militiaelite_m_actor_v10.entitytemplate].pc_entitytemplate",
+						"flag": "9F"
+					}
+				}
+			}
+		},
+		"90a4462d5c681030": {
+			"parent": "1040fbc18a1781c1",
+			"name": "Var19",
+			"factory": "[modules:/zoutfitvariation.class].pc_entitytype",
+			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint",
+			"properties": {
+				"m_Outfit": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/characters/templates/colorado/char_colorado_guards.template?/outfit_militiaelite_m_nude_v19.entitytemplate].pc_entitytemplate",
+						"flag": "9F"
+					}
+				}
+			}
+		},
+		"1410bac054dd0141": {
+			"parent": "1040fbc18a1781c1",
+			"name": "Var15",
+			"factory": "[modules:/zoutfitvariation.class].pc_entitytype",
+			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint",
+			"properties": {
+				"m_Outfit": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/characters/templates/colorado/char_colorado_guards.template?/outfit_militiaelite_m_nude_v15.entitytemplate].pc_entitytemplate",
+						"flag": "9F"
+					}
+				}
+			}
+		},
+		"0fd3d149cabb6c4d": {
+			"parent": "2d89c36a992c262d",
+			"name": "Var6",
+			"factory": "[modules:/zoutfitvariation.class].pc_entitytype",
+			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint"
+		},
+		"f19620a82efdee68": {
+			"parent": "2d89c36a992c262d",
+			"name": "Var1",
+			"factory": "[modules:/zoutfitvariation.class].pc_entitytype",
+			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint"
+		},
+		"b37e1483ac0dba7a": {
+			"parent": "98cb74176dbeabe4",
+			"name": "14",
+			"factory": "[modules:/zoutfitvariation.class].pc_entitytype",
+			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint",
+			"properties": {
+				"m_Outfit": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/characters/templates/colorado/char_colorado_guards.template?/outfit_militiaelite_m_actor_v14.entitytemplate].pc_entitytemplate",
+						"flag": "9F"
+					}
+				}
+			}
+		},
+		"761d070fcb91d49b": {
+			"parent": "0095f08e4470cae6",
+			"name": "Var15",
+			"factory": "[modules:/zoutfitvariation.class].pc_entitytype",
+			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint",
+			"properties": {
+				"m_Outfit": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/characters/templates/colorado/char_colorado_guards.template?/outfit_militiaelite_m_heroa_v15.entitytemplate].pc_entitytemplate",
+						"flag": "9F"
+					}
+				}
+			}
+		},
+		"0cabe41e85cd385d": {
+			"parent": "2d89c36a992c262d",
+			"name": "Var11",
+			"factory": "[modules:/zoutfitvariation.class].pc_entitytype",
+			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint"
+		},
+		"0030aa0ac06b5d7a": {
+			"parent": "1040fbc18a1781c1",
+			"name": "Var20",
+			"factory": "[modules:/zoutfitvariation.class].pc_entitytype",
+			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint",
+			"properties": {
+				"m_Outfit": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/characters/templates/colorado/char_colorado_guards.template?/outfit_militiaelite_m_nude_v20.entitytemplate].pc_entitytemplate",
+						"flag": "9F"
+					}
+				}
+			}
+		},
+		"21f302002e0d2775": {
+			"parent": "1040fbc18a1781c1",
+			"name": "Var5",
+			"factory": "[modules:/zoutfitvariation.class].pc_entitytype",
+			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint",
+			"properties": {
+				"m_Outfit": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/characters/templates/colorado/char_colorado_guards.template?/outfit_militiaelite_m_nude_v5.entitytemplate].pc_entitytemplate",
+						"flag": "9F"
+					}
+				}
+			}
+		},
+		"2d89c36a992c262d": {
+			"parent": "b7b16e8a76e3c36f",
+			"name": "HeroC",
+			"factory": "[modules:/zcharsetcharactertype.class].pc_entitytype",
+			"blueprint": "[modules:/zcharsetcharactertype.class].pc_entityblueprint",
+			"properties": {
+				"m_aVariations": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						"0cd992f75fee0013",
+						"f19620a82efdee68",
+						"5fda452343bf2841",
+						"62e9773a80265307",
+						"926379864de6b3d3",
+						"c47740ae15813b22",
+						"0fd3d149cabb6c4d",
+						"3f249db7c26e32b3",
+						"d598f6ac8b19aa3f",
+						"16be2146f0040caa",
+						"44fcc761550888fd",
+						"0cabe41e85cd385d",
+						"01fd8de04863c5c8",
+						"1bc518519d6ea4fa",
+						"025a5100f3904f94",
+						"020378aae2268949",
+						"1f17b95e3ec0219a",
+						"e6b5c69fcfcaccd7",
+						"c37ac81058bd556f",
+						"224bcb89c969bfef",
+						"9b476ef2417a56bd",
+						"4443ef563da832d8",
+						"58e1c527e0693208",
+						"541fccf6cee5755a",
+						"3c2dc84523fbd32d"
+					],
+					"postInit": true
+				}
+			}
+		},
+		"d598f6ac8b19aa3f": {
+			"parent": "2d89c36a992c262d",
+			"name": "Var8",
+			"factory": "[modules:/zoutfitvariation.class].pc_entitytype",
+			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint"
+		},
+		"31f495c84578aeff": {
+			"parent": "98cb74176dbeabe4",
+			"name": "19",
+			"factory": "[modules:/zoutfitvariation.class].pc_entitytype",
+			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint",
+			"properties": {
+				"m_Outfit": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/characters/templates/colorado/char_colorado_guards.template?/outfit_militiaelite_m_actor_v19.entitytemplate].pc_entitytemplate",
+						"flag": "9F"
+					}
+				}
+			}
+		},
+		"e6b5c69fcfcaccd7": {
+			"parent": "2d89c36a992c262d",
+			"name": "Var17",
+			"factory": "[modules:/zoutfitvariation.class].pc_entitytype",
+			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint"
+		},
+		"e95a91b7688e7923": {
+			"parent": "0095f08e4470cae6",
+			"name": "Var2",
+			"factory": "[modules:/zoutfitvariation.class].pc_entitytype",
+			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint",
+			"properties": {
+				"m_Outfit": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/characters/templates/colorado/char_colorado_guards.template?/outfit_militiaelite_m_heroa_v2.entitytemplate].pc_entitytemplate",
+						"flag": "9F"
+					}
+				}
+			}
+		},
+		"fc0cbde95df662db": {
+			"parent": "0095f08e4470cae6",
+			"name": "Var3",
+			"factory": "[modules:/zoutfitvariation.class].pc_entitytype",
+			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint",
+			"properties": {
+				"m_Outfit": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/characters/templates/colorado/char_colorado_guards.template?/outfit_militiaelite_m_heroa_v3.entitytemplate].pc_entitytemplate",
+						"flag": "9F"
+					}
+				}
+			}
+		},
+		"2ba143f23c52f55f": {
+			"parent": "98cb74176dbeabe4",
+			"name": "22",
+			"factory": "[modules:/zoutfitvariation.class].pc_entitytype",
+			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint",
+			"properties": {
+				"m_Outfit": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/characters/templates/colorado/char_colorado_guards.template?/outfit_militiaelite_m_actor_v22.entitytemplate].pc_entitytemplate",
+						"flag": "9F"
+					}
+				}
+			}
+		},
+		"042e0ef148881eb3": {
+			"parent": "98cb74176dbeabe4",
+			"name": "17",
+			"factory": "[modules:/zoutfitvariation.class].pc_entitytype",
+			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint",
+			"properties": {
+				"m_Outfit": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/characters/templates/colorado/char_colorado_guards.template?/outfit_militiaelite_m_actor_v17.entitytemplate].pc_entitytemplate",
+						"flag": "9F"
+					}
+				}
+			}
+		},
+		"b8c18cde87e8c055": {
+			"parent": "1040fbc18a1781c1",
+			"name": "Var8",
+			"factory": "[modules:/zoutfitvariation.class].pc_entitytype",
+			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint",
+			"properties": {
+				"m_Outfit": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/characters/templates/colorado/char_colorado_guards.template?/outfit_militiaelite_m_nude_v8.entitytemplate].pc_entitytemplate",
+						"flag": "9F"
+					}
+				}
+			}
+		},
+		"1040fbc18a1781c1": {
+			"parent": "b7b16e8a76e3c36f",
+			"name": "Nude",
+			"factory": "[modules:/zcharsetcharactertype.class].pc_entitytype",
+			"blueprint": "[modules:/zcharsetcharactertype.class].pc_entityblueprint",
+			"properties": {
+				"m_aVariations": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						"e8e7bc5e6ab0eb47",
+						"43e59d17fd0a557f",
+						"bb16f4d30535e8bf",
+						"48f5e18339e889a0",
+						"62af7b3d870b3467",
+						"21f302002e0d2775",
+						"705038eec4b41e78",
+						"d99d90c065c0b8f9",
+						"b8c18cde87e8c055",
+						"68f949faed078d4e",
+						"5141fc7c568fb486",
+						"b1cad96765ae7107",
+						"8bc724941d56ae51",
+						"895f6202b7212c4a",
+						"1fa23c7d12c991d4",
+						"1410bac054dd0141",
+						"fc579677d3fe2dc4",
+						"e023405ccf14e6f4",
+						"647446d52bb220f1",
+						"90a4462d5c681030",
+						"0030aa0ac06b5d7a",
+						"db1dc12d45327acd",
+						"b15c1f0ada74cb8e",
+						"5d422212ef91ca06",
+						"27924395db956dd2"
+					],
+					"postInit": true
+				}
+			}
+		},
+		"d86d13a2d7cf6d31": {
+			"parent": "98cb74176dbeabe4",
+			"name": "13",
+			"factory": "[modules:/zoutfitvariation.class].pc_entitytype",
+			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint",
+			"properties": {
+				"m_Outfit": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/characters/templates/colorado/char_colorado_guards.template?/outfit_militiaelite_m_actor_v13.entitytemplate].pc_entitytemplate",
+						"flag": "9F"
+					}
+				}
+			}
+		},
+		"1f17b95e3ec0219a": {
+			"parent": "2d89c36a992c262d",
+			"name": "Var16",
+			"factory": "[modules:/zoutfitvariation.class].pc_entitytype",
+			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint"
+		},
+		"d28b9ab967782dba": {
+			"parent": "0095f08e4470cae6",
+			"name": "Var17",
+			"factory": "[modules:/zoutfitvariation.class].pc_entitytype",
+			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint",
+			"properties": {
+				"m_Outfit": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/characters/templates/colorado/char_colorado_guards.template?/outfit_militiaelite_m_heroa_v17.entitytemplate].pc_entitytemplate",
+						"flag": "9F"
+					}
+				}
+			}
+		},
+		"35e40879626514c9": {
+			"parent": "9c9fafbd93e792c8",
+			"name": "Var19",
+			"factory": "[modules:/zoutfitvariation.class].pc_entitytype",
+			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint"
+		},
+		"926379864de6b3d3": {
+			"parent": "2d89c36a992c262d",
+			"name": "Var4",
+			"factory": "[modules:/zoutfitvariation.class].pc_entitytype",
+			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint"
+		},
+		"34053665968a22dd": {
+			"parent": "98cb74176dbeabe4",
+			"name": "9",
+			"factory": "[modules:/zoutfitvariation.class].pc_entitytype",
+			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint",
+			"properties": {
+				"m_Outfit": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/characters/templates/colorado/char_colorado_guards.template?/outfit_militiaelite_m_actor_v9.entitytemplate].pc_entitytemplate",
+						"flag": "9F"
+					}
+				}
+			}
+		},
+		"5a37960360aecd92": {
+			"parent": "9c9fafbd93e792c8",
+			"name": "Var7",
+			"factory": "[modules:/zoutfitvariation.class].pc_entitytype",
+			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint"
+		},
+		"16be2146f0040caa": {
+			"parent": "2d89c36a992c262d",
+			"name": "Var9",
+			"factory": "[modules:/zoutfitvariation.class].pc_entitytype",
+			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint"
+		},
+		"3dc5ab9f66bbda2e": {
+			"parent": "0095f08e4470cae6",
+			"name": "Var4",
+			"factory": "[modules:/zoutfitvariation.class].pc_entitytype",
+			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint",
+			"properties": {
+				"m_Outfit": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/characters/templates/colorado/char_colorado_guards.template?/outfit_militiaelite_m_heroa_v4.entitytemplate].pc_entitytemplate",
+						"flag": "9F"
+					}
+				}
+			}
+		},
+		"9b9b1af288aea0fd": {
+			"parent": "9c9fafbd93e792c8",
+			"name": "Var16",
+			"factory": "[modules:/zoutfitvariation.class].pc_entitytype",
+			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint"
+		},
+		"8bc724941d56ae51": {
+			"parent": "1040fbc18a1781c1",
+			"name": "Var12",
+			"factory": "[modules:/zoutfitvariation.class].pc_entitytype",
+			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint",
+			"properties": {
+				"m_Outfit": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/characters/templates/colorado/char_colorado_guards.template?/outfit_militiaelite_m_nude_v12.entitytemplate].pc_entitytemplate",
+						"flag": "9F"
+					}
+				}
+			}
+		},
+		"b7b16e8a76e3c36f": {
+			"parent": null,
+			"name": "CHARSET_MilitiaElite_M",
+			"factory": "[modules:/zoutfitvariationcollection.class].pc_entitytype",
+			"blueprint": "[modules:/zoutfitvariationcollection.class].pc_entityblueprint",
+			"properties": {
+				"m_aCharacters": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						"98cb74176dbeabe4",
+						"1040fbc18a1781c1",
+						"0095f08e4470cae6",
+						"9c9fafbd93e792c8",
+						"2d89c36a992c262d"
+					]
+				}
+			}
+		},
+		"d99d90c065c0b8f9": {
+			"parent": "1040fbc18a1781c1",
+			"name": "Var7",
+			"factory": "[modules:/zoutfitvariation.class].pc_entitytype",
+			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint",
+			"properties": {
+				"m_Outfit": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/characters/templates/colorado/char_colorado_guards.template?/outfit_militiaelite_m_nude_v7.entitytemplate].pc_entitytemplate",
+						"flag": "9F"
+					}
+				}
+			}
+		},
+		"8d1d1d376ab67812": {
+			"parent": "0095f08e4470cae6",
+			"name": "Var19",
+			"factory": "[modules:/zoutfitvariation.class].pc_entitytype",
+			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint",
+			"properties": {
+				"m_Outfit": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/characters/templates/colorado/char_colorado_guards.template?/outfit_militiaelite_m_heroa_v19.entitytemplate].pc_entitytemplate",
+						"flag": "9F"
+					}
+				}
+			}
+		},
+		"62af7b3d870b3467": {
+			"parent": "1040fbc18a1781c1",
+			"name": "Var4",
+			"factory": "[modules:/zoutfitvariation.class].pc_entitytype",
+			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint",
+			"properties": {
+				"m_Outfit": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/characters/templates/colorado/char_colorado_guards.template?/outfit_militiaelite_m_nude_v4.entitytemplate].pc_entitytemplate",
+						"flag": "9F"
+					}
+				}
+			}
+		},
+		"a695ea3788ccd51f": {
+			"parent": "9c9fafbd93e792c8",
+			"name": "Var17",
+			"factory": "[modules:/zoutfitvariation.class].pc_entitytype",
+			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint"
+		},
+		"27924395db956dd2": {
+			"parent": "1040fbc18a1781c1",
+			"name": "Var24",
+			"factory": "[modules:/zoutfitvariation.class].pc_entitytype",
+			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint",
+			"properties": {
+				"m_Outfit": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/characters/templates/colorado/char_colorado_guards.template?/outfit_militiaelite_m_nude_v24.entitytemplate].pc_entitytemplate",
+						"flag": "9F"
+					}
+				}
+			}
+		},
+		"895f6202b7212c4a": {
+			"parent": "1040fbc18a1781c1",
+			"name": "Var13",
+			"factory": "[modules:/zoutfitvariation.class].pc_entitytype",
+			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint",
+			"properties": {
+				"m_Outfit": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/characters/templates/colorado/char_colorado_guards.template?/outfit_militiaelite_m_nude_v13.entitytemplate].pc_entitytemplate",
+						"flag": "9F"
+					}
+				}
+			}
+		},
+		"74caba3a52872797": {
+			"parent": "9c9fafbd93e792c8",
+			"name": "Var21",
+			"factory": "[modules:/zoutfitvariation.class].pc_entitytype",
+			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint"
+		},
+		"4cdadb647ad5845e": {
+			"parent": "98cb74176dbeabe4",
+			"name": "3",
+			"factory": "[modules:/zoutfitvariation.class].pc_entitytype",
+			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint",
+			"properties": {
+				"m_Outfit": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/characters/templates/colorado/char_colorado_guards.template?/outfit_militiaelite_m_actor_v3.entitytemplate].pc_entitytemplate",
+						"flag": "9F"
+					}
+				}
+			}
+		},
+		"7f76d091ebf20a25": {
+			"parent": "98cb74176dbeabe4",
+			"name": "21",
+			"factory": "[modules:/zoutfitvariation.class].pc_entitytype",
+			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint",
+			"properties": {
+				"m_Outfit": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/characters/templates/colorado/char_colorado_guards.template?/outfit_militiaelite_m_actor_v21.entitytemplate].pc_entitytemplate",
+						"flag": "9F"
+					}
+				}
+			}
+		},
+		"b15c1f0ada74cb8e": {
+			"parent": "1040fbc18a1781c1",
+			"name": "Var22",
+			"factory": "[modules:/zoutfitvariation.class].pc_entitytype",
+			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint",
+			"properties": {
+				"m_Outfit": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/characters/templates/colorado/char_colorado_guards.template?/outfit_militiaelite_m_nude_v22.entitytemplate].pc_entitytemplate",
+						"flag": "9F"
+					}
+				}
+			}
+		}
+	},
+	"propertyOverrides": [],
+	"overrideDeletes": [],
+	"pinConnectionOverrides": [],
+	"pinConnectionOverrideDeletes": [],
+	"externalScenes": [],
+	"subType": "template",
+	"quickEntityVersion": 3.1,
+	"extraFactoryDependencies": [],
+	"extraBlueprintDependencies": [],
+	"comments": []
+}
