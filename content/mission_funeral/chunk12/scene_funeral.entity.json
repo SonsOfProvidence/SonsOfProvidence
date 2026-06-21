@@ -1110,7 +1110,7 @@
 			}
 		},
 		"feed607871cdd56e": {
-			"parent": "abcde92f2c09c134",
+			"parent": "cafe3665eb4d6fa8",
 			"name": "CHAR_Greedy_Unique_Assistant_03_M",
 			"factory": "[assembly:/templates/gameplay/ai2/actors.template?/npcactor.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/templates/gameplay/ai2/actors.template?/npcactor.entitytemplate].pc_entityblueprint",
@@ -1160,7 +1160,7 @@
 			}
 		},
 		"feed18dd78787a98": {
-			"parent": "abcde92f2c09c134",
+			"parent": "cafecc0044d03577",
 			"name": "CHAR Thomas Cross",
 			"factory": "[assembly:/templates/gameplay/ai2/actors.template?/npcactor.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/templates/gameplay/ai2/actors.template?/npcactor.entitytemplate].pc_entityblueprint",
@@ -3174,7 +3174,7 @@
 			}
 		},
 		"feedd1fa5e553554": {
-			"parent": "abcde92f2c09c134",
+			"parent": "cafed458dcdc3652",
 			"name": "HighSecurity_Church_Guard_01",
 			"factory": "[assembly:/templates/gameplay/ai2/actors.template?/npcactor.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/templates/gameplay/ai2/actors.template?/npcactor.entitytemplate].pc_entityblueprint",
@@ -3238,7 +3238,7 @@
 			}
 		},
 		"feed3a7b1c9f2d8e": {
-			"parent": "abcde92f2c09c134",
+			"parent": "cafe8f2bf52cc41e",
 			"name": "Guard_BackGate_West_01",
 			"factory": "[assembly:/templates/gameplay/ai2/actors.template?/npcactor.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/templates/gameplay/ai2/actors.template?/npcactor.entitytemplate].pc_entityblueprint",
@@ -3296,7 +3296,7 @@
 			}
 		},
 		"feed4b8c2d0e3f9a": {
-			"parent": "abcde92f2c09c134",
+			"parent": "cafe8f2bf52cc41e",
 			"name": "Guard_BackGate_West_02",
 			"factory": "[assembly:/templates/gameplay/ai2/actors.template?/npcactor.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/templates/gameplay/ai2/actors.template?/npcactor.entitytemplate].pc_entityblueprint",
@@ -3354,7 +3354,7 @@
 			}
 		},
 		"feed5a1100001101": {
-			"parent": "abcde92f2c09c134",
+			"parent": "cafe8f2bf52cc41e",
 			"name": "Guard_FrontFence_Patrol_Gallo",
 			"factory": "[assembly:/templates/gameplay/ai2/actors.template?/npcactor.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/templates/gameplay/ai2/actors.template?/npcactor.entitytemplate].pc_entityblueprint",
@@ -3522,7 +3522,7 @@
 			"events": { "OnActTimeout": { "Start": ["feed5a1200000004"] } }
 		},
 		"feed5b2200002201": {
-			"parent": "abcde92f2c09c134",
+			"parent": "cafe8f2bf52cc41e",
 			"name": "Guard_BackFence_Patrol_Lombardo",
 			"factory": "[assembly:/templates/gameplay/ai2/actors.template?/npcactor.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/templates/gameplay/ai2/actors.template?/npcactor.entitytemplate].pc_entityblueprint",
@@ -3690,7 +3690,7 @@
 			"events": { "OnActTimeout": { "Start": ["feed5b2300000004"] } }
 		},
 		"feed9b29bf5c4d4c": {
-			"parent": "abcde92f2c09c134",
+			"parent": "cafe8f2bf52cc41e",
 			"name": "CHAR_Greedy_Worker_LowSecurity_M_1",
 			"factory": "[assembly:/templates/gameplay/ai2/actors.template?/npcactor.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/templates/gameplay/ai2/actors.template?/npcactor.entitytemplate].pc_entityblueprint",
@@ -3767,7 +3767,7 @@
 			"blueprint": "[assembly:/_pro/design/actor/profession.template?/prof_greedy_guard_lowsecurity.entitytemplate].pc_entityblueprint"
 		},
 		"feede3c3e69b5f74": {
-			"parent": "abcde92f2c09c134",
+			"parent": "cafecc0044d03577",
 			"name": "CHAR Jordan Cross",
 			"factory": "[assembly:/templates/gameplay/ai2/actors.template?/npcactor.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/templates/gameplay/ai2/actors.template?/npcactor.entitytemplate].pc_entityblueprint",
@@ -3813,7 +3813,7 @@
 			}
 		},
 		"feed0b77dd6c73f7": {
-			"parent": "abcde92f2c09c134",
+			"parent": "cafecc0044d03577",
 			"name": "CHAR Heidi Santoro",
 			"factory": "[assembly:/templates/gameplay/ai2/actors.template?/npcactor.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/templates/gameplay/ai2/actors.template?/npcactor.entitytemplate].pc_entityblueprint",
@@ -3862,7 +3862,7 @@
 			}
 		},
 		"feedee1cd09c2f9a": {
-			"parent": "abcde92f2c09c134",
+			"parent": "cafecc0044d03577",
 			"name": "CHAR_Dexy_Barat",
 			"factory": "[assembly:/templates/gameplay/ai2/actors.template?/npcactor.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/templates/gameplay/ai2/actors.template?/npcactor.entitytemplate].pc_entityblueprint",
@@ -4490,7 +4490,7 @@
 			}
 		},
 		"feeda67d8a4fb7ea": {
-			"parent": "abcde92f2c09c134",
+			"parent": "cafe8f2bf52cc41e",
 			"name": "CHAR_Greedy_Worker_LowSecurity_M_2",
 			"factory": "[assembly:/templates/gameplay/ai2/actors.template?/npcactor.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/templates/gameplay/ai2/actors.template?/npcactor.entitytemplate].pc_entityblueprint",
@@ -5051,7 +5051,7 @@
 			}
 		},
 		"feedae92c687ab41": {
-			"parent": "abcde92f2c09c134",
+			"parent": "cafecc0044d03577",
 			"name": "CHAR_Abel_Da_Silva_Drummer",
 			"factory": "[assembly:/templates/gameplay/ai2/actors.template?/npcactor.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/templates/gameplay/ai2/actors.template?/npcactor.entitytemplate].pc_entityblueprint",
@@ -5119,7 +5119,7 @@
 						},
 						"position": {
 							"x": 24.974901,
-							"y": -1,
+							"y": -2,
 							"z": 0.24999996
 						}
 					}
@@ -6243,7 +6243,7 @@
 			}
 		},
 		"cafee62d4e589b83": {
-			"parent": "abcde92f2c09c134",
+			"parent": "cafed458dcdc3652",
 			"name": "HighSecurity_Church_Guard_02",
 			"factory": "[assembly:/templates/gameplay/ai2/actors.template?/npcactor.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/templates/gameplay/ai2/actors.template?/npcactor.entitytemplate].pc_entityblueprint",
@@ -6963,7 +6963,7 @@
 			}
 		},
 		"cafee4c68f07e97f": {
-			"parent": "abcde92f2c09c134",
+			"parent": "cafe3665eb4d6fa8",
 			"name": "CHAR_Thomas_Cross_Assistant_M",
 			"factory": "[assembly:/templates/gameplay/ai2/actors.template?/npcactor.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/templates/gameplay/ai2/actors.template?/npcactor.entitytemplate].pc_entityblueprint",
@@ -7050,7 +7050,7 @@
 			}
 		},
 		"cafe9c72a6545081": {
-			"parent": "abcde92f2c09c134",
+			"parent": "cafe3665eb4d6fa8",
 			"name": "CHAR_Greedy_Unique_Assistant_01_M",
 			"factory": "[assembly:/templates/gameplay/ai2/actors.template?/npcactor.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/templates/gameplay/ai2/actors.template?/npcactor.entitytemplate].pc_entityblueprint",
@@ -7100,7 +7100,7 @@
 			}
 		},
 		"cafe71efc6b5df6f": {
-			"parent": "abcde92f2c09c134",
+			"parent": "cafe3665eb4d6fa8",
 			"name": "CHAR_Greedy_Unique_Assistant_02_M",
 			"factory": "[assembly:/templates/gameplay/ai2/actors.template?/npcactor.entitytemplate].pc_entitytype",
 			"blueprint": "[assembly:/templates/gameplay/ai2/actors.template?/npcactor.entitytemplate].pc_entityblueprint",
@@ -7152,6 +7152,89 @@
 				"AudioEmitters": ["fffffffffffffffe"],
 				"Replicable": ["fffffffffffffffe"]
 			}
+		},
+		"cafe671c5457f09b": {
+			"parent": "cafef6229a729408",
+			"name": "CHAR_Hacker_0",
+			"factory": "[assembly:/templates/gameplay/ai2/actors.template?/npcactor.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/templates/gameplay/ai2/actors.template?/npcactor.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": {
+							"x": 0,
+							"y": 0,
+							"z": -98.9058383519336
+						},
+						"position": {
+							"x": 24.974901,
+							"y": -10,
+							"z": 0.24999996
+						}
+					}
+				},
+				"RepositoryId": {
+					"type": "ZGuid",
+					"value": "ebd5b83a-ead7-4699-bfcc-baa66da31691"
+				},
+				"m_OutfitRepositoryID": {
+					"type": "ZGuid",
+					"value": "aab7f28d-84d9-47d1-be52-d142f5970086"
+				},
+				"m_nOutfitVariation": { "type": "int32", "value": 2 },
+				"m_aEnforcedOutfits": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": []
+				},
+				"m_sActorName": {
+					"type": "ZString",
+					"value": "Isaac Kay"
+				},
+				"m_eRequiredVoiceVariation": {
+					"type": "EActorVoiceVariation",
+					"value": "eAVV_CIVMALE01"
+				},
+				"m_eidParent": {
+					"type": "SEntityTemplateReference",
+					"value": "fffffffffffffffe",
+					"postInit": true
+				}
+			},
+			"subsets": {
+				"AudioEmitters": ["fffffffffffffffe"],
+				"Replicable": ["fffffffffffffffe"]
+			}
+		},
+		"cafecc0044d03577": {
+			"parent": "abcde92f2c09c134",
+			"name": "Unique",
+			"factory": "[modules:/zentity.class].pc_entitytype",
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
+		},
+		"cafed458dcdc3652": {
+			"parent": "abcde92f2c09c134",
+			"name": "Bodyguards",
+			"factory": "[modules:/zentity.class].pc_entitytype",
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
+		},
+		"cafe8f2bf52cc41e": {
+			"parent": "abcde92f2c09c134",
+			"name": "Police",
+			"factory": "[modules:/zentity.class].pc_entitytype",
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
+		},
+		"cafe3665eb4d6fa8": {
+			"parent": "abcde92f2c09c134",
+			"name": "Ambient",
+			"factory": "[modules:/zentity.class].pc_entitytype",
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
+		},
+		"cafef6229a729408": {
+			"parent": "abcde92f2c09c134",
+			"name": "Militia",
+			"factory": "[modules:/zentity.class].pc_entitytype",
+			"blueprint": "[modules:/zentity.class].pc_entityblueprint"
 		}
 	},
 	"propertyOverrides": [],
@@ -7161,7 +7244,8 @@
 	"externalScenes": [
 		"[assembly:/sonsofprovidence/funeral/funeral_outfits.brick].pc_entitytype",
 		"[assembly:/sonsofprovidence/objects/sapienza_church.entity].pc_entitytype",
-		"[assembly:/sonsofprovidence/funeral/city.brick].pc_entitytype"
+		"[assembly:/sonsofprovidence/funeral/city.brick].pc_entitytype",
+		"[assembly:/_pro/scenes/missions/colorado_2/location.brick].pc_entitytype"
 	],
 	"subType": "scene",
 	"quickEntityVersion": 3.1,
