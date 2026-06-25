@@ -1,0 +1,277 @@
+{
+	"tempHash": "00442C7CA1A8742E",
+	"tbluHash": "00DBE13546ADF882",
+	"rootEntity": "056d60917d5c0f70",
+	"entities": {
+		"39337631faa6966c": {
+			"parent": "056d60917d5c0f70",
+			"name": "Part_KevlarVest",
+			"factory": "[modules:/zbodypartentity.class].pc_entitytype",
+			"blueprint": "[modules:/zbodypartentity.class].pc_entityblueprint",
+			"properties": {
+				"m_pMeshResource": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/characters/assets/guards/colorado/militia_elite/geometry/male_reg_militia_elite_01.wl2?/kevlarvest.weightedprim](bodypart).pc_weightedprim",
+						"flag": "5F"
+					}
+				}
+			}
+		},
+		"f80e2f7efad70467": {
+			"parent": "056d60917d5c0f70",
+			"name": "Part_Shoes",
+			"factory": "[modules:/zbodypartentity.class].pc_entitytype",
+			"blueprint": "[modules:/zbodypartentity.class].pc_entityblueprint",
+			"properties": {
+				"m_pMeshResource": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/characters/assets/guards/colorado/militia_elite/geometry/male_reg_militia_elite_01.wl2?/shoes.weightedprim](bodypart).pc_weightedprim",
+						"flag": "5F"
+					}
+				}
+			}
+		},
+		"d35c2bd048f2b53b": {
+			"parent": "056d60917d5c0f70",
+			"name": "Part_ElbowPads",
+			"factory": "[modules:/zbodypartentity.class].pc_entitytype",
+			"blueprint": "[modules:/zbodypartentity.class].pc_entityblueprint",
+			"properties": {
+				"m_pMeshResource": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/characters/assets/guards/colorado/militia_elite/geometry/male_reg_militia_elite_01.wl2?/elbowpads.weightedprim](bodypart).pc_weightedprim",
+						"flag": "5F"
+					}
+				}
+			}
+		},
+		"1adc5f5edbd8064d": {
+			"parent": "056d60917d5c0f70",
+			"name": "Part_Ammopounch",
+			"factory": "[modules:/zbodypartentity.class].pc_entitytype",
+			"blueprint": "[modules:/zbodypartentity.class].pc_entityblueprint",
+			"properties": {
+				"m_pMeshResource": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/characters/assets/guards/colorado/militia_elite/geometry/male_reg_militia_elite_01.wl2?/ammopouch.weightedprim](bodypart).pc_weightedprim",
+						"flag": "5F"
+					}
+				}
+			}
+		},
+		"14074b5776e83fb7": {
+			"parent": "056d60917d5c0f70",
+			"name": "Part_Gloves",
+			"factory": "[modules:/zbodypartentity.class].pc_entitytype",
+			"blueprint": "[modules:/zbodypartentity.class].pc_entityblueprint",
+			"properties": {
+				"m_pMeshResource": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/characters/assets/guards/colorado/militia_elite/geometry/male_reg_militia_elite_01.wl2?/gloves.weightedprim](bodypart).pc_weightedprim",
+						"flag": "5F"
+					}
+				}
+			}
+		},
+		"e8d91150c3fb7e63": {
+			"parent": "056d60917d5c0f70",
+			"name": "Part_Hat",
+			"factory": "[modules:/zbodypartentity.class].pc_entitytype",
+			"blueprint": "[modules:/zbodypartentity.class].pc_entityblueprint",
+			"properties": {
+				"m_pMeshResource": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/characters/assets/guards/colorado/militia_elite/geometry/male_reg_militia_elite_02.wl2?/hat.weightedprim](bodypart).pc_weightedprim",
+						"flag": "5F"
+					}
+				},
+				"m_IsHiddenInVR": { "type": "bool", "value": true }
+			}
+		},
+		"7a47052f63bf24fa": {
+			"parent": "056d60917d5c0f70",
+			"name": "FullBody",
+			"factory": "[assembly:/_pro/characters/templates/cloth_templates/collisionsetups.template?/fullbody.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/characters/templates/cloth_templates/collisionsetups.template?/fullbody.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_linkedEntity": { "type": "SEntityTemplateReference", "value": "056d60917d5c0f70", "postInit": true },
+				"m_eidParent": { "type": "SEntityTemplateReference", "value": "056d60917d5c0f70", "postInit": true }
+			}
+		},
+		"25246f6cdfaaf5d0": {
+			"parent": "056d60917d5c0f70",
+			"name": "Part_KneePads",
+			"factory": "[modules:/zbodypartentity.class].pc_entitytype",
+			"blueprint": "[modules:/zbodypartentity.class].pc_entityblueprint",
+			"properties": {
+				"m_pMeshResource": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/characters/assets/guards/colorado/militia_elite/geometry/male_reg_militia_elite_01.wl2?/kneepads.weightedprim](bodypart).pc_weightedprim",
+						"flag": "5F"
+					}
+				}
+			}
+		},
+		"9b02d522e4f5752b": {
+			"parent": "056d60917d5c0f70",
+			"name": "Part_Holster",
+			"factory": "[modules:/zbodypartentity.class].pc_entitytype",
+			"blueprint": "[modules:/zbodypartentity.class].pc_entityblueprint",
+			"properties": {
+				"m_pMeshResource": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/characters/assets/guards/colorado/militia_elite/geometry/male_reg_militia_elite_01.wl2?/holster.weightedprim](bodypart).pc_weightedprim",
+						"flag": "5F"
+					}
+				}
+			}
+		},
+		"da7a9d34d165f7c9": {
+			"parent": "056d60917d5c0f70",
+			"name": "Part_Hoodie",
+			"factory": "[modules:/zbodypartentity.class].pc_entitytype",
+			"blueprint": "[modules:/zbodypartentity.class].pc_entityblueprint",
+			"properties": {
+				"m_pMeshResource": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/characters/assets/guards/colorado/militia_elite/geometry/male_reg_militia_elite_01.wl2?/hoodie.weightedprim](bodypart).pc_weightedprim",
+						"flag": "5F"
+					}
+				}
+			}
+		},
+		"7221c4830f7e24d7": {
+			"parent": "056d60917d5c0f70",
+			"name": "Part_Head",
+			"factory": "[modules:/zbodypartentity.class].pc_entitytype",
+			"blueprint": "[modules:/zbodypartentity.class].pc_entityblueprint",
+			"properties": {
+				"m_pMeshResource": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/characters/assets/_genericparts/heads/male/geometry/male_reg_head_10_v2.wl2?/male_reg_head_10.weightedprim](bodypart).pc_weightedprim",
+						"flag": "5F"
+					}
+				},
+				"m_IsHiddenInVR": { "type": "bool", "value": true }
+			}
+		},
+		"056d60917d5c0f70": {
+			"parent": null,
+			"name": "OUTFIT_MilitiaElite_M_Actor_v0",
+			"factory": "[assembly:/_pro/characters/templates/_base/outfit.template?/outfit_base.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/characters/templates/_base/outfit.template?/outfit_base.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_ResourceID": { "type": "ZRuntimeResourceID", "value": null },
+				"m_fLODScale": { "type": "float32", "value": 1.0 },
+				"m_mTransform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+						"position": { "x": 0.0, "y": 7.974133968353272, "z": 0.0 }
+					}
+				},
+				"m_pBonesAndCollisionResource": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/characters/assets/_base/pro_male_regular/geometry/male_reg_v2.wl2?/bones.weightedprim](bodypart).pc_bonerig",
+						"flag": "5F"
+					}
+				},
+				"m_bUsePerVertexStiffness": { "type": "bool", "value": false },
+				"m_LocalColliders": { "type": "TArray<SEntityTemplateReference>", "value": ["7a47052f63bf24fa"] },
+				"m_bGlobalCollidersEnabled": { "type": "bool", "value": false },
+				"m_bUsePerVertexDamping": { "type": "bool", "value": false },
+				"m_bUseSkinningPosNormalConstrains": { "type": "bool", "value": false },
+				"m_bUseSkinningNegNormalConstrains": { "type": "bool", "value": false },
+				"m_fLODOffset": { "type": "float32", "value": 100.0 },
+				"m_bLimitTranslation": { "type": "bool", "value": false },
+				"m_fDamping": { "type": "float32", "value": 0.5 },
+				"m_fWindConstant": { "type": "float32", "value": 0.10000000149011612 },
+				"m_eRootBone": { "type": "BoneId.Enum", "value": "PELVIS" },
+				"m_bEnableAngularVelocityScale": { "type": "bool", "value": true },
+				"m_eBendConstrainType": { "type": "EClothBendConstrainType", "value": "eClothBendConstrainType_Stick" },
+				"m_fBendStiffness": { "type": "float32", "value": 0.5 },
+				"m_fShearStiffness": { "type": "float32", "value": 0.5 },
+				"m_fFrequency": { "type": "float32", "value": 60.0 },
+				"m_nIterations": { "type": "uint32", "value": 2 },
+				"m_eStretchConstrainType": { "type": "EClothStretchConstrainType", "value": "eClothBendConstrainType_None" },
+				"Rifle_Holster_Attacher_Transform": {
+					"type": "SMatrix43",
+					"value": {
+						"rotation": { "x": -0.0, "y": 0.0, "z": -0.0 },
+						"position": { "x": 0.03999999910593033, "y": 0.0, "z": 0.0 }
+					}
+				},
+				"m_aBodyParts": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": [
+						"1adc5f5edbd8064d",
+						"d35c2bd048f2b53b",
+						"14074b5776e83fb7",
+						"e8d91150c3fb7e63",
+						"7221c4830f7e24d7",
+						"eac18c235e7d312a",
+						"9b02d522e4f5752b",
+						"da7a9d34d165f7c9",
+						"39337631faa6966c",
+						"25246f6cdfaaf5d0",
+						"ee250c44ac9a9a35",
+						"f80e2f7efad70467"
+					],
+					"postInit": true
+				}
+			}
+		},
+		"ee250c44ac9a9a35": {
+			"parent": "056d60917d5c0f70",
+			"name": "Part_Pants",
+			"factory": "[modules:/zbodypartentity.class].pc_entitytype",
+			"blueprint": "[modules:/zbodypartentity.class].pc_entityblueprint",
+			"properties": {
+				"m_pMeshResource": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/characters/assets/guards/colorado/militia_elite/geometry/male_reg_militia_elite_01.wl2?/pants.weightedprim](bodypart).pc_weightedprim",
+						"flag": "5F"
+					}
+				}
+			}
+		},
+		"eac18c235e7d312a": {
+			"parent": "056d60917d5c0f70",
+			"name": "Part_Headset",
+			"factory": "[modules:/zbodypartentity.class].pc_entitytype",
+			"blueprint": "[modules:/zbodypartentity.class].pc_entityblueprint",
+			"properties": {
+				"m_pMeshResource": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/characters/assets/guards/colorado/militia_elite/geometry/male_reg_militia_elite_01.wl2?/headset.weightedprim](bodypart).pc_weightedprim",
+						"flag": "5F"
+					}
+				},
+				"m_IsHiddenInVR": { "type": "bool", "value": true }
+			}
+		}
+	},
+	"propertyOverrides": [],
+	"overrideDeletes": [],
+	"pinConnectionOverrides": [],
+	"pinConnectionOverrideDeletes": [],
+	"externalScenes": [],
+	"subType": "template",
+	"quickEntityVersion": 3.1,
+	"extraFactoryDependencies": [],
+	"extraBlueprintDependencies": [],
+	"comments": []
+}
