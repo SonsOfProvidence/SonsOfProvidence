@@ -7338,8 +7338,7 @@
 	"externalScenes": [
 		"[assembly:/sonsofprovidence/funeral/funeral_outfits.brick].pc_entitytype",
 		"[assembly:/sonsofprovidence/objects/sapienza_church.entity].pc_entitytype",
-		"[assembly:/sonsofprovidence/funeral/city.brick].pc_entitytype",
-		"[assembly:/_pro/scenes/missions/colorado_2/location.brick].pc_entitytype"
+		"[assembly:/sonsofprovidence/funeral/city.brick].pc_entitytype"
 	],
 	"subType": "scene",
 	"quickEntityVersion": 3.1,
