@@ -4184,6 +4184,30 @@
 			"portFromChunk1": true
 		},
 		{
+			"runtimeID": "00004390EFAE32BF",
+			"comment": "OUTFIT_Hacker_M_Actor_V0",
+			"toChunk": 0,
+			"portFromChunk1": true
+		},
+		{
+			"runtimeID": "008F819DA209FFFA",
+			"comment": "OUTFIT_Cinematic_OliviaHall_NoBag_Actor_v0",
+			"toChunk": 0,
+			"portFromChunk1": true
+		},
+		{
+			"runtimeID": "00C231901691B79C",
+			"comment": "outfit_strikeleader_m_actor_v0",
+			"toChunk": 0,
+			"portFromChunk1": true
+		},
+		{
+			"runtimeID": "00442C7CA1A8742E",
+			"comment": "outfit_militiaelite_m_actor_v0",
+			"toChunk": 0,
+			"portFromChunk1": true
+		},
+		{
 			"runtimeID": "008ABB81A585E529",
 			"comment": "747 Airplane"
 		},

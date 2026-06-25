@@ -11,15 +11,18 @@
 			"properties": {
 				"m_pMeshResource": {
 					"type": "ZRuntimeResourceID",
-					"value": { "resource": "007FE789ABC4EDE4", "flag": "5F" }
+					"value": {
+						"resource": "[assembly:/_pro/characters/assets/individuals/cinematic/olivia_hall/geometry/olivia_hall_cinematic.wl2?/cinematic_nobag.weightedprim](bodypart).pc_weightedprim",
+						"flag": "5F"
+					}
 				}
 			}
 		},
 		"8ad50f2f47dbee42": {
 			"parent": "7033eb5f861ea5c9",
 			"name": "base_eye",
-			"factory": "00FDEC17A5A2BF5F",
-			"blueprint": "00C4E4179AE75353",
+			"factory": "[assembly:/_pro/characters/assets/_sourcefiles/generic/eyes/materials/base_eye.mi].pc_entitytype",
+			"blueprint": "[assembly:/_pro/characters/assets/_sourcefiles/generic/eyes/materials/base_eye.mi].pc_entityblueprint",
 			"properties": {
 				"m_mTransform": {
 					"type": "SMatrix43",
@@ -27,15 +30,21 @@
 				},
 				"Clients": { "type": "TArray<SEntityTemplateReference>", "value": ["7033eb5f861ea5c9"] },
 				"Texture2D_01_enab": { "type": "bool", "value": true },
-				"Texture2D_01": { "type": "ZRuntimeResourceID", "value": { "resource": "002E7541DF988823", "flag": "5F" } },
+				"Texture2D_01": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/_pro/characters/assets/_sourcefiles/generic/eyes/textures/base_eyes.texture?/diffuse_brown.tex](ascolormap).pc_tex",
+						"flag": "5F"
+					}
+				},
 				"m_eidParent": { "type": "SEntityTemplateReference", "value": "346648cd2490a7e7", "postInit": true }
 			}
 		},
 		"346648cd2490a7e7": {
 			"parent": null,
 			"name": "OUTFIT_Cinematic_OliviaHall_NoBag_Actor_v0",
-			"factory": "00668286DD059CB4",
-			"blueprint": "005ED25F9A8E2326",
+			"factory": "[assembly:/templates/aspectdummy.aspect]([assembly:/_pro/characters/templates/_sourcefiles/outfit.template?/outfit_base_f.entitytemplate].entitytype,[assembly:/templates/_viewers/animplayeraspect.template?/anim player aspect.entitytemplate].entitytype).pc_entitytype",
+			"blueprint": "[assembly:/templates/aspectdummy.aspect]([assembly:/_pro/characters/templates/_sourcefiles/outfit.template?/outfit_base_f.entitytemplate].entitytype,[assembly:/templates/_viewers/animplayeraspect.template?/anim player aspect.entitytemplate].entitytype).pc_entityblueprint",
 			"properties": {
 				"m_ResourceID": { "type": "ZRuntimeResourceID", "value": null },
 				"m_fLODScale": { "type": "float32", "value": 1.0 },
@@ -48,7 +57,10 @@
 				},
 				"m_pBonesAndCollisionResource": {
 					"type": "ZRuntimeResourceID",
-					"value": { "resource": "00F0CC9DFA95BD8D", "flag": "5F" }
+					"value": {
+						"resource": "[assembly:/_pro/characters/assets/individuals/olivia_white/geometry/fem_reg_olivia_white_season2_cinematic.wl2?/fullbody.weightedprim](bodypart).pc_bonerig",
+						"flag": "5F"
+					}
 				},
 				"m_aBodyParts": { "type": "TArray<SEntityTemplateReference>", "value": ["7033eb5f861ea5c9"] },
 				"m_bUsePerVertexStiffness": { "type": "bool", "value": false },
@@ -81,7 +93,10 @@
 	"subType": "template",
 	"quickEntityVersion": 3.1,
 	"extraFactoryDependencies": [
-		{ "resource": "00818BA637895231", "flag": "5F" },
+		{
+			"resource": "[assembly:/_pro/characters/assets/_sourcefiles/generic/eyes/textures/base_eyes.texture?/normal_outer.tex](asnormalmap).pc_tex",
+			"flag": "5F"
+		},
 		{
 			"resource": "[assembly:/_pro/characters/assets/_genericparts/skin/textures/skin_detail.texture?/normal_a.tex](asnormalmap).pc_tex",
 			"flag": "5F"
@@ -90,8 +105,14 @@
 			"resource": "[assembly:/_pro/characters/assets/_genericparts/skin/textures/skin_detail.texture?/variance_a.tex](asheightmap).pc_tex",
 			"flag": "5F"
 		},
-		{ "resource": "008E0FCF89ED862E", "flag": "5F" },
-		{ "resource": "002C7E7EE46D0CD2", "flag": "5F" }
+		{
+			"resource": "[assembly:/_pro/characters/assets/_sourcefiles/generic/eyes/textures/base_eyes.texture?/height_a.tex](asheightmap).pc_tex",
+			"flag": "5F"
+		},
+		{
+			"resource": "[assembly:/_pro/characters/assets/_sourcefiles/generic/eyes/textures/base_eyes.texture?/height_b.tex](asheightmap).pc_tex",
+			"flag": "5F"
+		}
 	],
 	"extraBlueprintDependencies": [],
 	"comments": []

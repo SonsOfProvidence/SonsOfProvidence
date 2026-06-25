@@ -1176,6 +1176,125 @@
 					"value": ["eAVV_CIVMALE06", "eAVV_CIVMALE03", "eAVV_CIVMALE01"]
 				}
 			}
+		},
+		"cafee362e7fedd30": {
+			"parent": "cafe69c01063d401",
+			"name": "KeywordEntity_FOLEY_OUTFIT_BODYGUARD",
+			"factory": "[assembly:/_pro/design/gamecore/keywords/keywordsound.template?/keywordentity_foley_outfit_bodyguard.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/gamecore/keywords/keywordsound.template?/keywordentity_foley_outfit_bodyguard.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_rHolder": {
+					"type": "SEntityTemplateReference",
+					"value": "cafe69c01063d401",
+					"postInit": true
+				}
+			}
+		},
+		"cafe13c9f40ff833": {
+			"parent": "cafe69c01063d401",
+			"name": "CHARSET_Cinematic_OliviaHall_NoBag",
+			"factory": "[assembly:/_pro/cinematics/s02/characters/cinematics_characters_s02.template?/charset_cinematic_oliviahall_nobag.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/cinematics/s02/characters/cinematics_characters_s02.template?/charset_cinematic_oliviahall_nobag.entitytemplate].pc_entityblueprint"
+		},
+		"cafe69c01063d401": {
+			"parent": "fffffffffffffffe",
+			"name": "Cinematic_OliviaHall_NoBag",
+			"factory": "[modules:/zglobaloutfitkit.class].pc_entitytype",
+			"blueprint": "[modules:/zglobaloutfitkit.class].pc_entityblueprint",
+			"properties": {
+				"m_DamageMultipliers": {
+					"type": "SBodyPartDamageMultipliers",
+					"value": {
+						"m_fHeadDamageMultiplier": 3.0,
+						"m_fFaceDamageMultiplier": 3.0,
+						"m_fArmDamageMultiplier": 1.0,
+						"m_fLArmDamageScalar": 0.0,
+						"m_fRArmDamageScalar": 0.0,
+						"m_fHandDamageMultiplier": 0.5,
+						"m_fLHandDamageScalar": 0.0,
+						"m_fRHandDamageScalar": 0.0,
+						"m_fLegDamageMultiplier": 0.6000000238418579,
+						"m_fLLegDamageScalar": 0.0,
+						"m_fRLegDamageScalar": 0.0,
+						"m_fTorsoDamageMultiplier": 1.0,
+						"m_bApplyLeftRightScalars": false
+					}
+				},
+				"m_eActorType": {
+					"type": "EActorType",
+					"value": "eAT_Civilian"
+				},
+				"m_eActorCCClass": {
+					"type": "EActorCCPreset",
+					"value": "ACCP_CivilianFemale"
+				},
+				"m_bHeroDisguiseAvailable": {
+					"type": "bool",
+					"value": false
+				},
+				"m_aCharSets": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["cafe13c9f40ff833"]
+				},
+				"m_eSoundFootwearType": {
+					"type": "EHM5SoundFootwearType",
+					"value": "EFWT_SNEAKERS"
+				},
+				"m_sId": {
+					"type": "ZGuid",
+					"value": "0d32164d-33ab-4043-b868-7cb7755ef202"
+				},
+				"m_pParentOutfit": {
+					"type": "SEntityTemplateReference",
+					"value": {
+						"ref": "6736fcbbd3e73209",
+						"externalScene": "[assembly:/_pro/scenes/bricks/globaldata.brick].pc_entitytype"
+					}
+				},
+				"m_sCommonName": {
+					"type": "ZString",
+					"value": "Cinematic_OliviaHall_NoBag"
+				},
+				"m_sTitle": {
+					"type": "ZString",
+					"value": "OliviaHall_NoBag"
+				},
+				"m_eOutfitAICategory": {
+					"type": "EOutfitAICategory",
+					"value": "OAC_YachtCrew"
+				},
+				"m_rNameTextResource": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/localization/hitman6/conversations/ui/pro/online/repository/outfits_npcs_vsrace.sweetmenutext?/outfits_newzealand_anubis_civilian_sailor_m_name_e41f9569-227c-4f2e-8697-c6ed72069f8e.sweetline].pc_sweetline",
+						"flag": "5F"
+					}
+				},
+				"m_rDescriptionTextResource": {
+					"type": "ZRuntimeResourceID",
+					"value": {
+						"resource": "[assembly:/localization/hitman6/conversations/ui/pro/online/repository/outfits_npcs_vsrace.sweetmenutext?/outfits_newzealand_anubis_civilian_sailor_m_description_e41f9569-227c-4f2e-8697-c6ed72069f8e.sweetline].pc_sweetline",
+						"flag": "5F"
+					}
+				},
+				"m_rDefaultVoiceVariations": {
+					"type": "TArray<EActorVoiceVariation>",
+					"value": ["eAVV_YACHTCREW01", "eAVV_YACHTCREW02", "eAVV_YACHTCREW03", "eAVV_YACHTCREW04"]
+				},
+				"m_bIsFemale": { "type": "bool", "value": true }
+			}
+		},
+		"cafe0e41352926d5": {
+			"parent": "cafe69c01063d401",
+			"name": "Keyword_Prof_Class_Default",
+			"factory": "[assembly:/_pro/design/gamecore/keywords/keywordgenericprofessionclasses.template?/keyword_prof_class_default.entitytemplate].pc_entitytype",
+			"blueprint": "[assembly:/_pro/design/gamecore/keywords/keywordgenericprofessionclasses.template?/keyword_prof_class_default.entitytemplate].pc_entityblueprint",
+			"properties": {
+				"m_aHolders": {
+					"type": "TArray<SEntityTemplateReference>",
+					"value": ["cafe69c01063d401"]
+				}
+			}
 		}
 	},
 	"propertyOverrides": [],

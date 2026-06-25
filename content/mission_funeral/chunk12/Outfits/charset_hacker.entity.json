@@ -9,65 +9,11 @@
 			"factory": "[modules:/zoutfitvariation.class].pc_entitytype",
 			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint"
 		},
-		"bfe00259fdcfab99": {
-			"parent": "19145aef03159a15",
-			"name": "Var4",
-			"factory": "[modules:/zoutfitvariation.class].pc_entitytype",
-			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint",
-			"properties": {
-				"m_Outfit": {
-					"type": "ZRuntimeResourceID",
-					"value": {
-						"resource": "[assembly:/_pro/characters/templates/colorado/char_colorado_workers.template?/outfit_hacker_m_nude_v4.entitytemplate].pc_entitytemplate",
-						"flag": "9F"
-					}
-				}
-			}
-		},
 		"bea8cece65f92b71": {
 			"parent": "88b518eb1e547bf4",
 			"name": "Var0",
 			"factory": "[modules:/zoutfitvariation.class].pc_entitytype",
-			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint",
-			"properties": {
-				"m_Outfit": {
-					"type": "ZRuntimeResourceID",
-					"value": {
-						"resource": "[assembly:/_pro/characters/templates/colorado/char_colorado_workers.template?/outfit_hacker_m_heroa_v0.entitytemplate].pc_entitytemplate",
-						"flag": "9F"
-					}
-				}
-			}
-		},
-		"87dfe69ab960b4da": {
-			"parent": "19145aef03159a15",
-			"name": "Var1",
-			"factory": "[modules:/zoutfitvariation.class].pc_entitytype",
-			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint",
-			"properties": {
-				"m_Outfit": {
-					"type": "ZRuntimeResourceID",
-					"value": {
-						"resource": "[assembly:/_pro/characters/templates/colorado/char_colorado_workers.template?/outfit_hacker_m_nude_v1.entitytemplate].pc_entitytemplate",
-						"flag": "9F"
-					}
-				}
-			}
-		},
-		"d0c4c2cc72af59c7": {
-			"parent": "88b518eb1e547bf4",
-			"name": "Var4",
-			"factory": "[modules:/zoutfitvariation.class].pc_entitytype",
-			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint",
-			"properties": {
-				"m_Outfit": {
-					"type": "ZRuntimeResourceID",
-					"value": {
-						"resource": "[assembly:/_pro/characters/templates/colorado/char_colorado_workers.template?/outfit_hacker_m_heroa_v4.entitytemplate].pc_entitytemplate",
-						"flag": "9F"
-					}
-				}
-			}
+			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint"
 		},
 		"82d88ce9a8c1b493": {
 			"parent": "a6713305387b3ffa",
@@ -75,72 +21,9 @@
 			"factory": "[modules:/zoutfitvariation.class].pc_entitytype",
 			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint"
 		},
-		"5b4c78be72b0cae1": {
-			"parent": "19145aef03159a15",
-			"name": "Var3",
-			"factory": "[modules:/zoutfitvariation.class].pc_entitytype",
-			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint",
-			"properties": {
-				"m_Outfit": {
-					"type": "ZRuntimeResourceID",
-					"value": {
-						"resource": "[assembly:/_pro/characters/templates/colorado/char_colorado_workers.template?/outfit_hacker_m_nude_v3.entitytemplate].pc_entitytemplate",
-						"flag": "9F"
-					}
-				}
-			}
-		},
-		"9cad4a2b385d979e": {
-			"parent": "a6713305387b3ffa",
-			"name": "Var3",
-			"factory": "[modules:/zoutfitvariation.class].pc_entitytype",
-			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint"
-		},
-		"8f881c796d5692c2": {
-			"parent": "a0cfce26e6625c28",
-			"name": "4",
-			"factory": "[modules:/zoutfitvariation.class].pc_entitytype",
-			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint",
-			"properties": {
-				"m_Outfit": {
-					"type": "ZRuntimeResourceID",
-					"value": {
-						"resource": "[assembly:/_pro/characters/templates/colorado/char_colorado_workers.template?/outfit_hacker_m_actor_v4.entitytemplate].pc_entitytemplate",
-						"flag": "9F"
-					}
-				}
-			}
-		},
 		"7dacc632ba0e21b0": {
 			"parent": "19145aef03159a15",
 			"name": "Var0",
-			"factory": "[modules:/zoutfitvariation.class].pc_entitytype",
-			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint",
-			"properties": {
-				"m_Outfit": {
-					"type": "ZRuntimeResourceID",
-					"value": {
-						"resource": "[assembly:/_pro/characters/templates/colorado/char_colorado_workers.template?/outfit_hacker_m_nude_v0.entitytemplate].pc_entitytemplate",
-						"flag": "9F"
-					}
-				}
-			}
-		},
-		"cd4b87c1164fe012": {
-			"parent": "a6713305387b3ffa",
-			"name": "Var1",
-			"factory": "[modules:/zoutfitvariation.class].pc_entitytype",
-			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint"
-		},
-		"9bafed7a339838b7": {
-			"parent": "a6713305387b3ffa",
-			"name": "Var2",
-			"factory": "[modules:/zoutfitvariation.class].pc_entitytype",
-			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint"
-		},
-		"35e494f0938c29c4": {
-			"parent": "a6713305387b3ffa",
-			"name": "Var4",
 			"factory": "[modules:/zoutfitvariation.class].pc_entitytype",
 			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint"
 		},
@@ -152,35 +35,8 @@
 			"properties": {
 				"m_aVariations": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"2d032d6d6a7500c6",
-						"09d2e7ccb0d50138",
-						"7edea4c993406b89",
-						"2071871a8e1a989f",
-						"8f881c796d5692c2"
-					],
+					"value": ["2d032d6d6a7500c6"],
 					"postInit": true
-				}
-			}
-		},
-		"2f1260849a196a95": {
-			"parent": "75df157d428710c7",
-			"name": "Var4",
-			"factory": "[modules:/zoutfitvariation.class].pc_entitytype",
-			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint"
-		},
-		"129de5cd2335b0a7": {
-			"parent": "19145aef03159a15",
-			"name": "Var2",
-			"factory": "[modules:/zoutfitvariation.class].pc_entitytype",
-			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint",
-			"properties": {
-				"m_Outfit": {
-					"type": "ZRuntimeResourceID",
-					"value": {
-						"resource": "[assembly:/_pro/characters/templates/colorado/char_colorado_workers.template?/outfit_hacker_m_nude_v2.entitytemplate].pc_entitytemplate",
-						"flag": "9F"
-					}
 				}
 			}
 		},
@@ -207,28 +63,7 @@
 			"properties": {
 				"m_aVariations": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"82d88ce9a8c1b493",
-						"cd4b87c1164fe012",
-						"9bafed7a339838b7",
-						"9cad4a2b385d979e",
-						"35e494f0938c29c4"
-					]
-				}
-			}
-		},
-		"2071871a8e1a989f": {
-			"parent": "a0cfce26e6625c28",
-			"name": "3",
-			"factory": "[modules:/zoutfitvariation.class].pc_entitytype",
-			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint",
-			"properties": {
-				"m_Outfit": {
-					"type": "ZRuntimeResourceID",
-					"value": {
-						"resource": "[assembly:/_pro/characters/templates/colorado/char_colorado_workers.template?/outfit_hacker_m_actor_v3.entitytemplate].pc_entitytemplate",
-						"flag": "9F"
-					}
+					"value": ["82d88ce9a8c1b493"]
 				}
 			}
 		},
@@ -259,80 +94,8 @@
 			"properties": {
 				"m_aVariations": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"bea8cece65f92b71",
-						"475610b6f12bb7cc",
-						"09d5248001ac084b",
-						"243adc0f5c5e8c96",
-						"d0c4c2cc72af59c7"
-					],
+					"value": ["bea8cece65f92b71"],
 					"postInit": true
-				}
-			}
-		},
-		"09d450d2f6ea0b28": {
-			"parent": "75df157d428710c7",
-			"name": "Var2",
-			"factory": "[modules:/zoutfitvariation.class].pc_entitytype",
-			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint"
-		},
-		"09d2e7ccb0d50138": {
-			"parent": "a0cfce26e6625c28",
-			"name": "1",
-			"factory": "[modules:/zoutfitvariation.class].pc_entitytype",
-			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint",
-			"properties": {
-				"m_Outfit": {
-					"type": "ZRuntimeResourceID",
-					"value": {
-						"resource": "[assembly:/_pro/characters/templates/colorado/char_colorado_workers.template?/outfit_hacker_m_actor_v1.entitytemplate].pc_entitytemplate",
-						"flag": "9F"
-					}
-				}
-			}
-		},
-		"243adc0f5c5e8c96": {
-			"parent": "88b518eb1e547bf4",
-			"name": "Var3",
-			"factory": "[modules:/zoutfitvariation.class].pc_entitytype",
-			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint",
-			"properties": {
-				"m_Outfit": {
-					"type": "ZRuntimeResourceID",
-					"value": {
-						"resource": "[assembly:/_pro/characters/templates/colorado/char_colorado_workers.template?/outfit_hacker_m_heroa_v3.entitytemplate].pc_entitytemplate",
-						"flag": "9F"
-					}
-				}
-			}
-		},
-		"7edea4c993406b89": {
-			"parent": "a0cfce26e6625c28",
-			"name": "2",
-			"factory": "[modules:/zoutfitvariation.class].pc_entitytype",
-			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint",
-			"properties": {
-				"m_Outfit": {
-					"type": "ZRuntimeResourceID",
-					"value": {
-						"resource": "[assembly:/_pro/characters/templates/colorado/char_colorado_workers.template?/outfit_hacker_m_actor_v2.entitytemplate].pc_entitytemplate",
-						"flag": "9F"
-					}
-				}
-			}
-		},
-		"09d5248001ac084b": {
-			"parent": "88b518eb1e547bf4",
-			"name": "Var2",
-			"factory": "[modules:/zoutfitvariation.class].pc_entitytype",
-			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint",
-			"properties": {
-				"m_Outfit": {
-					"type": "ZRuntimeResourceID",
-					"value": {
-						"resource": "[assembly:/_pro/characters/templates/colorado/char_colorado_workers.template?/outfit_hacker_m_heroa_v2.entitytemplate].pc_entitytemplate",
-						"flag": "9F"
-					}
 				}
 			}
 		},
@@ -344,13 +107,7 @@
 			"properties": {
 				"m_aVariations": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"7dacc632ba0e21b0",
-						"87dfe69ab960b4da",
-						"129de5cd2335b0a7",
-						"5b4c78be72b0cae1",
-						"bfe00259fdcfab99"
-					]
+					"value": ["7dacc632ba0e21b0"]
 				}
 			}
 		},
@@ -362,41 +119,8 @@
 			"properties": {
 				"m_aVariations": {
 					"type": "TArray<SEntityTemplateReference>",
-					"value": [
-						"81bcf1647a30b037",
-						"612e9d9d16005d6e",
-						"09d450d2f6ea0b28",
-						"5f13d615e6440d62",
-						"2f1260849a196a95"
-					],
+					"value": ["81bcf1647a30b037"],
 					"postInit": true
-				}
-			}
-		},
-		"5f13d615e6440d62": {
-			"parent": "75df157d428710c7",
-			"name": "Var3",
-			"factory": "[modules:/zoutfitvariation.class].pc_entitytype",
-			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint"
-		},
-		"612e9d9d16005d6e": {
-			"parent": "75df157d428710c7",
-			"name": "Var1",
-			"factory": "[modules:/zoutfitvariation.class].pc_entitytype",
-			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint"
-		},
-		"475610b6f12bb7cc": {
-			"parent": "88b518eb1e547bf4",
-			"name": "Var1",
-			"factory": "[modules:/zoutfitvariation.class].pc_entitytype",
-			"blueprint": "[modules:/zoutfitvariation.class].pc_entityblueprint",
-			"properties": {
-				"m_Outfit": {
-					"type": "ZRuntimeResourceID",
-					"value": {
-						"resource": "[assembly:/_pro/characters/templates/colorado/char_colorado_workers.template?/outfit_hacker_m_heroa_v1.entitytemplate].pc_entitytemplate",
-						"flag": "9F"
-					}
 				}
 			}
 		}
