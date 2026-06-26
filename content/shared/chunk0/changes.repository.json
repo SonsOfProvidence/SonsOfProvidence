@@ -1,100 +1,4 @@
 {
-	"6b56aa77-2a5d-4161-a4fd-afeb339d6bd6": {
-		"ID_": "6b56aa77-2a5d-4161-a4fd-afeb339d6bd6",
-		"Image": "images/sop/chongqing_outside_start.jpg",
-		"Name_LOC": "ui_starting_location_chongqing_ether_lab_default_name",
-		"Description": "ui_starting_location_chongqing_ether_lab_desc"
-	},
-	"9c111405-637e-46b7-a051-279039c533ac": {
-		"ID_": "9c111405-637e-46b7-a051-279039c533ac",
-		"Image": "images/sop/institute_exterior_start.jpg",
-		"Name_LOC": "ui_starting_location_institute_default_name",
-		"Description": "ui_starting_location_institute_desc"
-	},
-	"a8f370ef-5936-49c6-8c30-8bf3b9ca1930": {
-		"ID_": "a8f370ef-5936-49c6-8c30-8bf3b9ca1930",
-		"Image": "images/sop/moscow_helipad_start.jpg",
-		"Name_LOC": "ui_starting_location_siberia_moscow_default_name",
-		"Description": "ui_starting_location_siberia_moscow_desc"
-	},
-	"d7367506-44f3-4c1a-be2d-fce3d723c378": {
-		"ID_": "d7367506-44f3-4c1a-be2d-fce3d723c378",
-		"Image": "images/sop/dubai_airplane_start.jpg",
-		"Name_LOC": "ui_starting_location_dubai_airplane_default_name",
-		"Description": "ui_starting_location_dubai_airplane_desc"
-	},
-	"85f15667-d276-4082-ab33-7c7cc0e04c73": {
-		"ID_": "85f15667-d276-4082-ab33-7c7cc0e04c73",
-		"Image": "images/sop/funeral_church_tower_start.jpg",
-		"Name_LOC": "ui_starting_location_funeral_church_tower_default_name",
-		"Description": "ui_starting_location_funeral_church_tower_desc"
-	},
-	"b50d3e8f-f921-4733-bdeb-61454782a0c7": {
-		"ID_": "b50d3e8f-f921-4733-bdeb-61454782a0c7",
-		"Image": "images/sop/marrakesh_courtyard_start.jpg",
-		"Name_LOC": "ui_starting_location_marrakesh_courtyard_default_name",
-		"Description": "ui_starting_location_marrakesh_courtyard_desc"
-	},
-	"6244bf6d-18c1-4629-a691-d7845a87ef07": {
-		"ID_": "6244bf6d-18c1-4629-a691-d7845a87ef07",
-		"Image": "images/sop/berlin_tile.jpg",
-		"Name_LOC": "ui_starting_location_berlin_road_default_name",
-		"Description": "ui_starting_location_berlin_road_desc"
-	},
-	"8e2bdc62-905d-43c1-8d91-3dceb8506a77": {
-		"ID_": "8e2bdc62-905d-43c1-8d91-3dceb8506a77",
-		"Image": "images/sop/newyork.jpg",
-		"Name_LOC": "ui_starting_location_newyork_garage_default_name",
-		"Description": "ui_starting_location_newyork_garage_desc"
-	},
-	"4ba8606f-f662-4be1-8f92-772937075b2d": {
-		"Category": "",
-		"CommonName": "CHAR_Gecko_Hero_SkydivingOutfit_M_ PRO179078",
-		"Description": "char_gecko_hero_skydivingoutfit_m_ pro179078_description_4ba8606f-f662-4be1-8f92-772937075b2d",
-		"HeroDisguiseAvailable": true,
-		"ID_": "4ba8606f-f662-4be1-8f92-772937075b2d",
-		"Image": "images/unlockables_override/47_Outfits_Gecko_Skydiving.jpg",
-		"ImageTransparent": "",
-		"IsHitmanSuit": true,
-		"Name": "char_gecko_hero_skydivingoutfit_m_ pro179078_name_4ba8606f-f662-4be1-8f92-772937075b2d",
-		"TokenID": ""
-	},
-	"4ddb6c12-97fc-49f9-acc4-1ac7b5cc7d6d": {
-		"Category": "",
-		"CommonName": "UI_TOKEN_OUTFIT_LUCAS_GREY_PONCHO",
-		"Description": "UI_TOKEN_OUTFIT_LUCAS_GREY_PONCHO_DESC",
-		"HeroDisguiseAvailable": true,
-		"ID_": "4ddb6c12-97fc-49f9-acc4-1ac7b5cc7d6d",
-		"Image": "images/outfits/outfit_lucas_grey_poncho.jpg",
-		"ImageTransparent": "images/sop/outfit_lucas_grey_poncho.png",
-		"IsHitmanSuit": true,
-		"Name_": "UI_TOKEN_OUTFIT_LUCAS_GREY_PONCHO_NAME",
-		"TokenID": ""
-	},
-	"052f992d-4962-4691-ad11-ae612e6db848": {
-		"Category": "",
-		"CommonName": "UI_TOKEN_OUTFIT_LUCAS_GREY_JACKET",
-		"Description": "UI_TOKEN_OUTFIT_LUCAS_GREY_JACKET_DESC",
-		"HeroDisguiseAvailable": true,
-		"ID_": "052f992d-4962-4691-ad11-ae612e6db848",
-		"Image": "images/outfits/outfit_lucas_grey_jacket.jpg",
-		"ImageTransparent": "",
-		"IsHitmanSuit": true,
-		"Name_": "UI_TOKEN_OUTFIT_LUCAS_GREY_JACKET_NAME",
-		"TokenID": ""
-	},
-	"09f01bf4-dde5-482c-8a67-bfcb5d34f46d": {
-		"Category": "",
-		"CommonName": "UI_TOKEN_OUTFIT_LUCAS_GREY_SNIPER",
-		"Description": "UI_TOKEN_OUTFIT_LUCAS_GREY_SNIPER_DESC",
-		"HeroDisguiseAvailable": true,
-		"ID_": "09f01bf4-dde5-482c-8a67-bfcb5d34f46d",
-		"Image": "images/outfits/outfit_lucas_grey_sniper.jpg",
-		"ImageTransparent": "",
-		"IsHitmanSuit": true,
-		"Name_": "UI_TOKEN_OUTFIT_LUCAS_GREY_SNIPER_NAME",
-		"TokenID": ""
-	},
 	"2e0a37b5-9955-48e4-b42a-4a789f4b6fbf": {
 		"Category": "",
 		"CommonName": "UI_TOKEN_OUTFIT_LUCAS_GREY_RELAXED",
@@ -177,13 +81,9 @@
 	"e1e09633-4efb-41ee-9102-87c330d281f3": {
 		"AIPerceptibleOnRelease": true,
 		"ActionRewardType": "AR_None",
-		"AdditionalKeywords": [
-			"INVENTORY_TYPE_SUITCASE"
-		],
+		"AdditionalKeywords": ["INVENTORY_TYPE_SUITCASE"],
 		"AmmoItem": "00000000-0000-0000-0000-000000000000",
-		"AppliedModifiers": [
-			"00000000-0000-0000-0000-000000000000"
-		],
+		"AppliedModifiers": ["00000000-0000-0000-0000-000000000000"],
 		"CanBeDropped": true,
 		"CanPistolWhip": false,
 		"CarryAnimSetType": "EAST_SUITCASE",
@@ -237,28 +137,16 @@
 		"LocaKey": "",
 		"MainAnimSetType": "EAST_SUITCASE",
 		"MeleeDamageBehavior": "EIMDB_Undefined",
-		"ModifierSlot1": [
-			"00000000-0000-0000-0000-000000000000"
-		],
-		"ModifierSlot2": [
-			"00000000-0000-0000-0000-000000000000"
-		],
-		"ModifierSlot3": [
-			"00000000-0000-0000-0000-000000000000"
-		],
-		"ModifierSlot4": [
-			"00000000-0000-0000-0000-000000000000"
-		],
-		"ModifierSlot5": [
-			"00000000-0000-0000-0000-000000000000"
-		],
+		"ModifierSlot1": ["00000000-0000-0000-0000-000000000000"],
+		"ModifierSlot2": ["00000000-0000-0000-0000-000000000000"],
+		"ModifierSlot3": ["00000000-0000-0000-0000-000000000000"],
+		"ModifierSlot4": ["00000000-0000-0000-0000-000000000000"],
+		"ModifierSlot5": ["00000000-0000-0000-0000-000000000000"],
 		"MugshotIsTransparent": false,
 		"MugshotTransformation": "6.123032E-17, 1, 0, -1, 6.123032E-17, 0, 0, 0, 1, 0, 0, 0",
 		"Name_LOC": "ui_prop_container_guitar_case_name",
 		"NeverInvestigateDistractions": false,
-		"OnlineTraits": [
-			"case"
-		],
+		"OnlineTraits": ["case"],
 		"OverrideItemThrowRotation": true,
 		"PlaceableType": "PLACEABLE_SLEEP_PHYSICS",
 		"PlacementOrientToHM": true,
@@ -286,13 +174,9 @@
 	"1518c0c7-7fa1-4d51-a87d-d660e5bfc8f1": {
 		"AIPerceptibleOnRelease": false,
 		"ActionRewardType": "AR_None",
-		"AdditionalKeywords": [
-			""
-		],
+		"AdditionalKeywords": [""],
 		"AmmoItem": "00000000-0000-0000-0000-000000000000",
-		"AppliedModifiers": [
-			"00000000-0000-0000-0000-000000000000"
-		],
+		"AppliedModifiers": ["00000000-0000-0000-0000-000000000000"],
 		"CanBeDropped": false,
 		"CanPistolWhip": false,
 		"CarryAnimSetType": "EAST_SMALLOBJ",
@@ -346,28 +230,16 @@
 		"LocaKey": "",
 		"MainAnimSetType": "EAST_UNDEFINED",
 		"MeleeDamageBehavior": "EIMDB_Undefined",
-		"ModifierSlot1": [
-			"00000000-0000-0000-0000-000000000000"
-		],
-		"ModifierSlot2": [
-			"00000000-0000-0000-0000-000000000000"
-		],
-		"ModifierSlot3": [
-			"00000000-0000-0000-0000-000000000000"
-		],
-		"ModifierSlot4": [
-			"00000000-0000-0000-0000-000000000000"
-		],
-		"ModifierSlot5": [
-			"00000000-0000-0000-0000-000000000000"
-		],
+		"ModifierSlot1": ["00000000-0000-0000-0000-000000000000"],
+		"ModifierSlot2": ["00000000-0000-0000-0000-000000000000"],
+		"ModifierSlot3": ["00000000-0000-0000-0000-000000000000"],
+		"ModifierSlot4": ["00000000-0000-0000-0000-000000000000"],
+		"ModifierSlot5": ["00000000-0000-0000-0000-000000000000"],
 		"MugshotIsTransparent": false,
 		"MugshotTransformation": "6.123032E-17, -1, -6.123032E-17, 0, 6.123032E-17, -1, 1, 6.123032E-17, 3.749152E-33, 0, 0, 0",
 		"Name_LOC": "ui_prop_questitem_funeral_thomas_cross_phone_title",
 		"NeverInvestigateDistractions": false,
-		"OnlineTraits": [
-			"NONE"
-		],
+		"OnlineTraits": ["NONE"],
 		"OverrideItemThrowRotation": false,
 		"PlaceableType": "PLACEABLE_NOT",
 		"PlacementOrientToHM": true,
@@ -392,16 +264,22 @@
 		"TokenID": "PROP_QUESTITEM_MARRAKESH_PYTHON_PROJECTDOCUMENTS",
 		"UseFakePutDownPhysics": false
 	},
+	"9cf0d83f-6734-408c-a6d0-76470af3d80f": {
+		"Image": "images/actors/actor_35951003-1ac4-4394-ac5f-abbf7073bbb3_0_0_0.jpg",
+		"Name": "Olivia Hall",
+		"Outfit": "0d32164d-33ab-4043-b868-7cb7755ef202",
+		"CharacterSetIndex": 0.0,
+		"Description": "Unknown",
+		"Description_LOC": "actor_description",
+		"OutfitVariationIndex": 0.0,
+		"Tile": "images/actors/default_target.png"
+	},
 	"3b4e0f4e-f6cd-4831-96a9-ab958545cf4c": {
 		"AIPerceptibleOnRelease": false,
 		"ActionRewardType": "AR_None",
-		"AdditionalKeywords": [
-			""
-		],
+		"AdditionalKeywords": [""],
 		"AmmoItem": "00000000-0000-0000-0000-000000000000",
-		"AppliedModifiers": [
-			"00000000-0000-0000-0000-000000000000"
-		],
+		"AppliedModifiers": ["00000000-0000-0000-0000-000000000000"],
 		"CanBeDropped": false,
 		"CanPistolWhip": false,
 		"CarryAnimSetType": "EAST_SMALLOBJ",
@@ -455,28 +333,16 @@
 		"LocaKey": "",
 		"MainAnimSetType": "EAST_UNDEFINED",
 		"MeleeDamageBehavior": "EIMDB_Undefined",
-		"ModifierSlot1": [
-			"00000000-0000-0000-0000-000000000000"
-		],
-		"ModifierSlot2": [
-			"00000000-0000-0000-0000-000000000000"
-		],
-		"ModifierSlot3": [
-			"00000000-0000-0000-0000-000000000000"
-		],
-		"ModifierSlot4": [
-			"00000000-0000-0000-0000-000000000000"
-		],
-		"ModifierSlot5": [
-			"00000000-0000-0000-0000-000000000000"
-		],
+		"ModifierSlot1": ["00000000-0000-0000-0000-000000000000"],
+		"ModifierSlot2": ["00000000-0000-0000-0000-000000000000"],
+		"ModifierSlot3": ["00000000-0000-0000-0000-000000000000"],
+		"ModifierSlot4": ["00000000-0000-0000-0000-000000000000"],
+		"ModifierSlot5": ["00000000-0000-0000-0000-000000000000"],
 		"MugshotIsTransparent": false,
 		"MugshotTransformation": "6.123032E-17, -1, -6.123032E-17, 0, 6.123032E-17, -1, 1, 6.123032E-17, 3.749152E-33, 0, 0, 0",
 		"Name_LOC": "ui_prop_questitem_airplane_providence_key_title",
 		"NeverInvestigateDistractions": false,
-		"OnlineTraits": [
-			"NONE"
-		],
+		"OnlineTraits": ["NONE"],
 		"OverrideItemThrowRotation": false,
 		"PlaceableType": "PLACEABLE_NOT",
 		"PlacementOrientToHM": true,
